@@ -1,14 +1,14 @@
-humanoid-profile-editor-special-priority-one-button = 
-humanoid-profile-editor-special-priority-two-button = 
-humanoid-profile-editor-special-priority-three-button = 
-humanoid-profile-editor-special-priority-four-button = 
-humanoid-profile-editor-special-priority-five-button = 
-humanoid-profile-editor-special-priority-six-button = 
-humanoid-profile-editor-special-priority-seven-button = 
-humanoid-profile-editor-special-priority-eight-button = 
-humanoid-profile-editor-special-priority-nine-button = 
-humanoid-profile-editor-special-priority-ten-button = 
+humanoid-profile-editor-special-priority-one-button = 1
+humanoid-profile-editor-special-priority-two-button = 2
+humanoid-profile-editor-special-priority-three-button = 3
+humanoid-profile-editor-special-priority-four-button = 4
+humanoid-profile-editor-special-priority-five-button = 5
+humanoid-profile-editor-special-priority-six-button = 6
+humanoid-profile-editor-special-priority-seven-button = 7
+humanoid-profile-editor-special-priority-eight-button = 8
+humanoid-profile-editor-special-priority-nine-button = 9
+humanoid-profile-editor-special-priority-ten-button = 10
 
-humanoid-profile-editor-specials-tab = 
+humanoid-profile-editor-specials-tab = Спеціальний
 
-humanoid-profile-editor-special-points-label = 
+humanoid-profile-editor-special-points-label = {$points} зліва від {$max} точок

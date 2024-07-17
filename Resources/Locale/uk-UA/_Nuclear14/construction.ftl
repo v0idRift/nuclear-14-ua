@@ -1,6 +1,6 @@
-construction-category-medical = 
+construction-category-medical = Медичні
 
-lathe-category-containers = 
-lathe-category-chemistry = 
-lathe-category-kitchen = 
-lathe-category-misc = 
+lathe-category-containers = Контейнери
+lathe-category-chemistry = Хімія
+lathe-category-kitchen = Кухня
+lathe-category-misc = Різне

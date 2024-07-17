@@ -1,11 +1,11 @@
 # See en-US/headset/headset-component.ftl for upstream radio channels.
 
-chat-radio-wasteland-common = 
-chat-radio-vault-command = 
-chat-radio-vault-engineering = 
-chat-radio-vault-medical = 
-chat-radio-vault-science = 
-chat-radio-vault-security = 
-chat-radio-vault-common = 
-chat-radio-caravan = 
-chat-radio-bosmidwest = 
+chat-radio-wasteland-common = Пустище звичайне
+chat-radio-vault-command = Команда Сховища
+chat-radio-vault-engineering = Сховище Інжиніринг
+chat-radio-vault-medical = Vault Medical
+chat-radio-vault-science = Наука про сховища
+chat-radio-vault-security = Безпека сховища
+chat-radio-vault-common = Сховище загальне
+chat-radio-caravan = Компанія "Караван
+chat-radio-bosmidwest = Братство Середнього Заходу

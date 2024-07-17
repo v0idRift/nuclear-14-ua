@@ -6,4 +6,4 @@ loadout-category-Items = Речі
 loadout-category-Jobs = Робота
 loadout-category-Outer = Верхній одяг
 loadout-category-Uniform = Уніформа
-loadout-category-Roles = 
+loadout-category-Roles = Ролі

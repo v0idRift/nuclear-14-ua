@@ -86,7 +86,7 @@ reagent-name-banana-honk = банана Хонкуц-кгй
 reagent-desc-banana-honk = нехай друзі і вороги бояться твого ХОНК-ХОНК
 
 reagent-name-barefoot = босоніжка
-reagent-desc-barefoot = Barefoot and pregnant. Щоб це не означало... Щоб це не означало...
+reagent-desc-barefoot = Barefoot and pregnant. Щоб це не означало... Щоб це не означало... Щоб це не означало... Щоб це не означало...
 
 reagent-name-beepsky-smash = удар Біпскі
 reagent-desc-beepsky-smash = Слава офіцеру Біпскі! Готуйтеся,закон вже близько!

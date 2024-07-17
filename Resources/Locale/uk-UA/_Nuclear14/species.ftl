@@ -1,4 +1,4 @@
 ## Species Names
 
-species-name-ghoul = 
-species-name-ghoul-glowing = 
+species-name-ghoul = Упир
+species-name-ghoul-glowing = Упир, що світиться

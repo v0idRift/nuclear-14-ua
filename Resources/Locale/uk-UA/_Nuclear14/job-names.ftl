@@ -1,98 +1,120 @@
 # Midwest Brotherhood
-job-name-bos-mid-paladin-comm = 
-job-description-bos-mid-paladin-comm = 
-job-name-bos-mid-paladin = 
-job-description-bos-mid-paladin = 
-job-name-bos-mid-knight = 
-job-description-bos-mid-knight = 
-job-name-bos-mid-scribe = 
-job-description-bos-mid-scribe = 
-job-name-bos-mid-squire = 
-job-description-bos-mid-squire = 
-job-name-bos-washington-commander = 
-job-description-bos-washington-commander = 
-job-name-bos-washington-recruit = 
-job-description-bos-washington-recruit = 
-job-name-bos-washington-soldier = 
-job-description-bos-washington-soldier = 
-job-name-bos-washington-captain = 
-job-description-bos-washington-captain = 
-job-name-bos-washington-researcher = 
-job-description-bos-washington-researcher = 
-job-name-caravan-leader = 
-job-description-caravan-leader = 
-job-name-caravan-trader = 
-job-description-caravan-trader = 
-job-name-caravan-guard = 
-job-description-caravan-guard = 
-job-name-ncr-cadet = 
-job-description-ncr-cadet = 
-job-name-ncr-doctor = 
-job-description-ncr-doctor = 
-job-name-ncr-mp = 
-job-description-ncr-mp = 
-job-name-ncr-qm = 
-job-description-ncr-qm = 
-job-name-ncr-nco = 
-job-description-ncr-nco = 
-job-name-ncr-officer = 
-job-description-ncr-officer = 
-job-name-ncr-soldier = 
-job-description-ncr-soldier = 
-job-name-ncr-ranger = 
-job-description-ncr-ranger = 
-job-name-ncr-ranger-veteran = 
-job-description-ncr-ranger-veteran = 
-job-name-ranger-recruit = 
-job-description-ranger-recruit = 
-job-name-ranger-ranking = 
-job-description-ranger-ranking = 
-job-name-ranger-chief = 
-job-description-ranger-chief = 
-job-name-ranger-veteran = 
-job-description-ranger-veteran = 
-job-name-tribal = 
-job-description-tribal = 
-job-name-tribal-elder = 
-job-description-tribal-elder = 
-job-name-tribal-farmer = 
-job-description-tribal-farmer = 
-job-name-tribal-healer = 
-job-description-tribal-healer = 
-job-name-overseer = 
-job-description-overseer = 
-job-name-vault-doctor = 
-job-description-vault-doctor = 
-job-name-vault-dweller = 
-job-description-vault-dweller = 
-job-name-vault-engineer = 
-job-description-vault-engineer = 
-job-name-vault-security = 
-job-description-vault-security = 
-job-name-farmer = 
-job-description-farmer = 
-job-name-scavenger = 
-job-description-scavenger = 
-job-name-wastelander = 
-job-description-wastelander = 
-job-name-townsperson = 
-job-description-townsperson = 
-job-name-towndoctor = 
-job-description-towndoctor = 
-job-name-townmechanic = 
-job-description-townmechanic = 
-job-name-townshopkeeper = 
-job-description-townshopkeeper = 
-job-name-towndeputy = 
-job-description-towndeputy = 
-job-name-townsheriff = 
-job-description-townsheriff = 
-job-name-townmayor = 
-job-description-townmayor = 
-job-name-followers = 
-job-description-followers = 
-job-name-survivor = 
-job-description-survivor = 
-job-name-zetan = 
-job-description-zetan = 
-Survivor = 
+job-name-bos-mid-paladin-comm = Командир паладинів Середньозахідного братства
+job-description-bos-mid-paladin-comm = Очолюйте Середньозахідне сталеве братство у виконанні їхньої місії.
+job-name-bos-mid-paladin = Паладин Середньозахідного Братства
+job-description-bos-mid-paladin = Виконуйте завдання командира паладинів.
+job-name-bos-mid-knight = Лицар Середньозахідного Братства
+job-description-bos-mid-knight = Виконуйте завдання командира паладинів.
+job-name-bos-mid-scribe = Писар Середньозахідного братства
+job-description-bos-mid-scribe = Проводьте наукові місії та дослідження для свого осередку братства.
+job-name-bos-mid-squire = Сквайр Середньозахідного Братства
+job-description-bos-mid-squire = Слідуйте за своїм лицарем у бій і виконуйте його накази.
+
+# Братство Вашингтона
+job-name-bos-washington-commander = Командир Братства Вашингтона
+job-description-bos-washington-commander = Ведіть Вашингтонське сталеве братство до слави у виконанні своєї місії.
+job-name-bos-washington-recruit = Ініціатива Вашингтонського братства
+job-description-bos-washington-recruit = Доведіть свою спроможність своєму осередку, щоб просуватися по кар'єрних сходах.
+job-name-bos-washington-soldier = Лицар Братства Вашингтона
+job-description-bos-washington-soldier = Військовий підрозділ Братства. Захищайте свою главу в її цілях і виробляйте спорядження.
+job-name-bos-washington-captain = Капітан Братства Вашингтона
+job-description-bos-washington-captain = Захистіть Братство за будь-яку ціну. Віднесіть заповіт Командира на пустку.
+job-name-bos-washington-researcher = Писар Вашингтонського братства
+job-description-bos-washington-researcher = Проводьте наукові місії та дослідження для свого осередку братства.
+
+# Караван
+job-name-caravan-leader = Лідер каравану
+job-description-caravan-leader = Координувати діяльність караванних компаній у цьому районі та укладати торгові угоди з місцевими жителями.
+job-name-caravan-trader = Караванний трейдер
+job-description-caravan-trader = Проводьте торгові місії та подорожуйте караванними маршрутами з метою отримання прибутку для компанії.
+job-name-caravan-guard = Караванна варта
+job-description-caravan-guard = Захистіть торговців караванних компаній, їхню худобу та інвентар.
+
+# NCR
+job-name-ncr-cadet = Кадет NCR
+job-description-ncr-cadet = Покажіть офіцерам, що ви готові стати рядовим армії НКР.
+job-name-ncr-doctor = Доктор NCR
+job-description-ncr-doctor = Пригощайте солдатів і пропонуйте послуги мешканцям пустки.
+job-name-ncr-mp = Військова поліція NCR
+job-description-ncr-mp = Захищайте табір і стежте за тим, щоб солдати поводилися правильно.
+job-name-ncr-qm = Квартирмейстер NCR
+job-description-ncr-qm = Захищайте арсенал і торгуйте награбованим спорядженням з будь-якими пустками.
+job-name-ncr-nco = NCR СЕРЖАНТСЬКИЙ СКЛАД
+job-description-ncr-nco = Унтер-офіцер у збройних силах НКР. Очолює загін для захисту інтересів NCR в регіоні.
+job-name-ncr-officer = Офіцер NCR
+job-description-ncr-officer = Місцевий лідер військових NCR. Виконуйте свої місії, координуючи військові сили в регіоні.
+job-name-ncr-soldier = Солдат NCR
+job-description-ncr-soldier = Основа будь-якої армії. Солдати виконують завдання і йдуть за сержантом на завдання.
+job-name-ncr-ranger = NCR Ranger
+job-description-ncr-ranger = Найдосвідченіші та найсильніші солдати входять до складу цієї елітної групи армії НКР, очолюють загони або діють самостійно за наказами республіки.
+job-name-ncr-ranger-veteran = Ветеран NCR Ranger Veteran
+job-description-ncr-ranger-veteran = Найдосвідченіші та найсильніші солдати входять до складу цієї елітної групи армії НКР, очолюють загони або діють самостійно за наказами республіки.
+
+# Рейнджери
+job-name-ranger-recruit = Рекрут пустельного рейнджера
+job-description-ranger-recruit = Тебе щойно прийняли до лав Пустельних Рейнджерів. Доведіть, що ви гідні, вивчивши мотузки і допомагаючи пустелі стати кращим місцем.
+job-name-ranger-ranking = Пустельний рейнджер
+job-description-ranger-ranking = Як рейнджер, ви є месником, якого потребує пустка. Ваша місія - зберегти Пустку безпечною для невинних людей і принести справедливість бандам рейдерів, а також продовжити традицію зупиняти рабство на його шляху.
+job-name-ranger-chief = Головний пустельний рейнджер
+job-description-ranger-chief = Як головний рейнджер пустелі, ви керуєте всіма операціями рейнджерів, забезпечуючи безпеку та навчання своїх підлеглих. Ваша місія - створювати альянси, керувати масштабними місіями та підтримувати справедливість у пустелі.
+job-name-ranger-veteran = Ветеран пустельних рейнджерів
+job-description-ranger-veteran = Ви відповідаєте тільки за себе, працюючи самостійно або зі своєю командою, щоб виконати завдання місії, діючи поодинці, в загоні або з однією з інших фракцій. Ваша основна місія - поліпшити ситуацію в пустці і нейтралізувати работорговців і рейдерів, що діють в цьому районі.
+
+# Плем'я
+job-name-tribal = Вождь племені
+job-description-tribal = Підтримуйте спосіб життя вашого племені в пустці за будь-яку ціну. Безпека, ремесло, добробут, домашнє життя - ви робите все це.
+job-name-tribal-elder = Старійшина племені
+job-description-tribal-elder = Ведіть своє плем'я через добрі та погані часи і зберігайте свої переконання.
+job-name-tribal-farmer = Племінний фермер
+job-description-tribal-farmer = Виробляйте їжу і товари для племені, щоб забезпечити своє життя.
+job-name-tribal-healer = Племінний цілитель
+job-description-tribal-healer = Виробляти ліки та сполуки для племені, згідно з традицією.
+
+# Сховище
+job-name-overseer = Наглядач сховища
+job-description-overseer = Дотримуйтесь цілей Vault Tec в управлінні вашим сховищем і переконайтеся, що все йде за планом.
+job-name-vault-doctor = Доктор Сховища
+job-description-vault-doctor = Підтримуйте здоров'я і благополуччя інших мешканців Сховища. Проводьте дослідження, де це необхідно.
+job-name-vault-dweller = Мешканець сховища
+job-description-vault-dweller = Загальне населення Сховища. Живуть комфортним життям і тягнуть власну вагу там, де це необхідно.
+job-name-vault-engineer = Інженер-сховище
+job-description-vault-engineer = Підтримувати Сховище та всі його життєво важливі системи для забезпечення комфортного та безпечного життя.
+job-name-vault-security = Безпека сховища
+job-description-vault-security = Слідкуйте за порядком у Сховищі та звітуйте Наглядачеві. Заради блага Сховища!
+
+# Пустка
+job-name-farmer = Фермер
+job-description-farmer = Вирощуйте урожай на пустирі для себе або обмінюйте його з іншими.
+job-name-scavenger = Сміттяр
+job-description-scavenger = Пошукайте на руїнах довоєнні скарби та припаси для торгівлі.
+job-name-wastelander = Пустельник
+job-description-wastelander = Виживіть у пустці та прокладіть свій власний шлях. Поодинці там важко, подумайте про те, щоб знайти інших.
+
+# Місто
+job-name-townsperson = Городянин
+job-description-townsperson = Член нового світового суспільства. Дотримуйтесь правил міста або спробуйте балотуватися на посаду мера, щоб змінити їх.
+job-name-towndoctor = Міський лікар
+job-description-towndoctor = Продавайте свої медичні знання як послугу. Лікуйте поранених за гроші та керуйте лікарською практикою в місті.
+job-name-townmechanic = Міський механік
+job-description-townmechanic = Підтримуйте міські служби та інфраструктуру і робіть те, що можете, на стороні для інших за гроші.
+job-name-townshopkeeper = Міський крамар
+job-description-townshopkeeper = Відкрийте крамницю в місті, організуйте торгове партнерство і продавайте свої товари бродягам на звалищах. Остерігайтеся податківців.
+job-name-towndeputy = Міський депутат
+job-description-towndeputy = Заступник миротворця в місті. Підтримуйте мир і надайте підтримку шерифу.
+job-name-townsheriff = Міський шериф
+job-description-townsheriff = Підтримувати правопорядок у місті та підтримувати мера в його управлінні.
+job-name-townmayor = Мер міста
+job-description-townmayor = Підтримувати цивілізацію в місті. Встановлюйте податки та закони і намагайтеся не бути викинутими або захопленими.
+
+# Послідовники
+job-name-followers = Послідовники Апокаліпсису
+job-description-followers = Засуньте етос Послідовників ще далі у відходи. Поводьтеся з населенням для більшого блага.
+
+# Веселість
+job-name-survivor = Вцілілий
+job-description-survivor = Виживайте, скільки зможете! Це ніколи не закінчиться.
+job-name-zetan = Зетанський викрадач
+job-description-zetan = За материнський корабель! Досліджуйте місцеве населення, щоб досягти своїх цілей.
+
+# N14 Таймери ролей # Це потрібно?
+Survivor = Вцілілий
