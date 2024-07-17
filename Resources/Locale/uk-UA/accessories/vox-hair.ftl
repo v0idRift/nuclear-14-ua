@@ -1,0 +1,13 @@
+marking-VoxHairShortQuills = Короткі вокс-пір'я
+marking-VoxHairKingly = Волосся Вокса Королівське
+marking-VoxHairAfro = Вокс Афро
+marking-VoxHairMohawk = Волосся Вокса Могавк
+marking-VoxHairYasuhiro = Vox Ясухіро
+marking-VoxHairHorns = Волосся Вокса Роги
+marking-VoxHairNights = Волосся Вокса Нічне
+marking-VoxHairSurf = Волосся Вокса Серф
+marking-VoxHairCropped = Вокс кроп
+marking-VoxHairRuffhawk = Волосся Вокса Жорстке Могавк
+marking-VoxHairRows = Волосся Вокса Ряди
+marking-VoxHairMange = Волосся Вокса Короста
+marking-VoxHairPony = Вокс поні

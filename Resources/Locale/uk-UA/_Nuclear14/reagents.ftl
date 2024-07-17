@@ -1,0 +1,246 @@
+# Foods
+reagent-name-uncooked-animal-proteins-rad = 
+reagent-desc-uncooked-animal-proteins-rad = 
+
+reagent-name-rad-particle-food = 
+reagent-desc-rad-particle-food = 
+reagent-name-water-dirty = 
+reagent-desc-water-dirty = 
+reagent-name-water-irradiated = 
+reagent-desc-water-irradiated = 
+reagent-name-water-filtered = 
+reagent-desc-water-filtered = 
+reagent-name-nuka-cola = 
+reagent-desc-nuka-cola = 
+reagent-name-irradiated-nuka-cola = 
+reagent-desc-irradiated-nuka-cola = 
+reagent-name-nuka-cola-quantum = 
+reagent-desc-nuka-cola-quantum = 
+reagent-name-nuka-cola-clear = 
+reagent-desc-nuka-cola-clear = 
+reagent-name-nuka-cola-cherry = 
+reagent-desc-nuka-cola-cherry = 
+reagent-name-nuka-cola-grape = 
+reagent-desc-nuka-cola-grape = 
+reagent-name-nuka-cola-orange = 
+reagent-desc-nuka-cola-orange = 
+reagent-name-nuka-cola-victory = 
+reagent-desc-nuka-cola-victory = 
+reagent-name-nuka-cola-yellow = 
+reagent-desc-nuka-cola-yellow = 
+reagent-name-nuka-cola-quartz = 
+reagent-desc-nuka-cola-quartz = 
+reagent-name-vim = 
+reagent-desc-vim = 
+reagent-name-vim-captainsblend = 
+reagent-desc-vim-captainsblend = 
+reagent-name-vim-refresh = 
+reagent-desc-vim-refresh = 
+reagent-name-vim-quartz = 
+reagent-desc-vim-quartz = 
+reagent-name-beantownbrownbeer = 
+reagent-desc-beantownbrownbeer = 
+reagent-name-bourbon = 
+reagent-desc-bourbon = 
+reagent-name-gammagulpbeer = 
+reagent-desc-gammagulpbeer = 
+reagent-name-gwinnetstout = 
+reagent-desc-gwinnetstout = 
+reagent-name-lager = 
+reagent-desc-lager = 
+reagent-name-pilsner = 
+reagent-desc-pilsner = 
+reagent-name-roentgenrum = 
+reagent-desc-roentgenrum = 
+reagent-name-rotgut = 
+reagent-desc-rotgut = 
+reagent-name-scotch = 
+reagent-desc-scotch = 
+reagent-name-milk-brahmin = 
+reagent-desc-milk-brahmin = 
+reagent-name-milk-bighorner = 
+reagent-desc-milk-bighorner = 
+reagent-name-milk-radstag = 
+reagent-desc-milk-radstag = 
+reagent-name-wasteland-blood = 
+reagent-desc-wasteland-blood = 
+
+reagent-name-fireantnectar = 
+reagent-desc-fireantnectar = 
+reagent-name-bloatflyacid = 
+reagent-desc-bloatflyacid = 
+reagent-name-cazadoracid = 
+reagent-desc-cazadoracid = 
+reagent-name-extract-agave-nectar = 
+reagent-desc-extract-agave-nectar = 
+reagent-name-extract-banana-yucca = 
+reagent-desc-extract-banana-yucca = 
+reagent-name-extract-blackberries = 
+reagent-desc-extract-blackberries = 
+reagent-name-extract-broc = 
+reagent-desc-extract-broc = 
+reagent-name-extract-buffalo-gourd = 
+reagent-desc-extract-buffalo-gourd = 
+reagent-name-extract-cabbage = 
+reagent-desc-extract-cabbage = 
+reagent-name-extract-cactus-water = 
+reagent-desc-extract-cactus-water = 
+reagent-name-extract-carrot = 
+reagent-desc-extract-carrot = 
+reagent-name-extract-coyote-tobacco = 
+reagent-desc-extract-coyote-tobacco = 
+reagent-name-extract-datura = 
+reagent-desc-extract-datura = 
+reagent-name-extract-honey-mesquite-pod = 
+reagent-desc-extract-honey-mesquite-pod = 
+reagent-name-extract-jalapeno-pepper = 
+reagent-desc-extract-jalapeno-pepper = 
+reagent-name-extract-maize = 
+reagent-desc-extract-maize = 
+reagent-name-extract-mutfruit = 
+reagent-desc-extract-mutfruit = 
+reagent-name-extract-nettle = 
+reagent-desc-extract-nettle = 
+reagent-name-extract-pricky-pear-fruit = 
+reagent-desc-extract-pricky-pear-fruit = 
+reagent-name-extract-razorgrain = 
+reagent-desc-extract-razorgrain = 
+reagent-name-extract-starlight-berries = 
+reagent-desc-extract-starlight-berries = 
+reagent-name-extract-tarberries = 
+reagent-desc-extract-tarberries = 
+reagent-name-extract-tato = 
+reagent-desc-extract-tato = 
+reagent-name-extract-white-horsenettle = 
+reagent-desc-extract-white-horsenettle = 
+reagent-name-extract-xander = 
+reagent-desc-extract-xander = 
+reagent-name-extract-fungusrad = 
+reagent-desc-extract-fungusrad = 
+reagent-name-tea-agave = 
+reagent-desc-tea-agave = 
+reagent-name-tea-blackberry = 
+reagent-desc-tea-blackberry = 
+reagent-name-tea-barrelcactus = 
+reagent-desc-tea-barrelcactus = 
+reagent-name-tea-broc = 
+reagent-desc-tea-broc = 
+reagent-name-tea-datura = 
+reagent-desc-tea-datura = 
+reagent-name-tea-honeymesquite = 
+reagent-desc-tea-honeymesquite = 
+reagent-name-tea-mutfruit = 
+reagent-desc-tea-mutfruit = 
+reagent-name-tea-nettle = 
+reagent-desc-tea-nettle = 
+reagent-name-tea-pricklypear = 
+reagent-desc-tea-pricklypear = 
+reagent-name-tea-starlightberry = 
+reagent-desc-tea-starlightberry = 
+reagent-name-tea-tarberry = 
+reagent-desc-tea-tarberry = 
+reagent-name-tea-whitehorsenettle = 
+reagent-desc-tea-whitehorsenettle = 
+reagent-name-tea-xander = 
+reagent-desc-tea-xander = 
+reagent-name-tea-fireantnectar = 
+reagent-desc-tea-fireantnectar = 
+reagent-name-firetoxin = 
+reagent-desc-firetoxin = 
+
+reagent-name-healing-powder = 
+reagent-desc-healing-powder = 
+
+reagent-name-antidote-mixture = 
+reagent-desc-antidote-mixture = 
+
+reagent-name-antidote = 
+reagent-desc-antidote = 
+
+reagent-name-healing-poultice = 
+reagent-desc-healing-poultice = 
+
+reagent-name-bitterdrink = 
+reagent-desc-bitterdrink = 
+
+reagent-name-smelling-salts = 
+reagent-desc-smelling-salts = 
+
+reagent-name-mourning-poultice = 
+reagent-desc-mourning-poultice = 
+reagent-name-healing-mixture = 
+reagent-desc-healing-mixture = 
+reagent-name-dirty-stimpak = 
+reagent-desc-dirty-stimpak = 
+
+reagent-name-robust-healing-mixture = 
+reagent-desc-robust-healing-mixture = 
+
+reagent-name-ultra-robust-healing-mixture = 
+reagent-desc-ultra-robust-healing-mixture = 
+
+reagent-name-damage-resist-mixture = 
+reagent-desc-damage-resist-mixture = 
+
+reagent-name-radaway = 
+reagent-desc-radaway = 
+
+reagent-name-buffout = 
+reagent-desc-buffout = 
+
+reagent-name-rad-x = 
+reagent-desc-rad-x = 
+
+reagent-name-fixer = 
+reagent-desc-fixer = 
+
+reagent-name-mentats = 
+reagent-desc-mentats = 
+reagent-name-mentats-berry = 
+reagent-desc-mentats-berry = 
+reagent-name-mentats-grape = 
+reagent-desc-mentats-grape = 
+reagent-name-mentats-orange = 
+reagent-desc-mentats-orange = 
+
+reagent-name-cateye = 
+reagent-desc-cateye = 
+
+reagent-name-daytripper = 
+reagent-desc-daytripper = 
+reagent-name-movespeedmod-mixture = 
+reagent-desc-movespeedmod-mixture = 
+
+reagent-name-robust-movespeedmod-mixture = 
+reagent-desc-robust-movespeedmod-mixture = 
+
+reagent-name-damage-mod-mixture = 
+reagent-desc-damage-mod-mixture = 
+reagent-name-abraxocleaner = 
+reagent-desc-abraxocleaner = 
+reagent-name-wonderglue = 
+reagent-desc-wonderglue = 
+reagent-name-turpentine = 
+reagent-desc-turpentine = 
+reagent-name-antiseptic = 
+reagent-desc-antiseptic = 
+materials-gunpowder = 
+materials-lead = 
+materials-aluminum = 
+materials-sulfur = 
+materials-raw-lead = 
+materials-raw-aluminum = 
+materials-raw-sulfur = 
+reagent-name-gunpowder = 
+reagent-desc-gunpowder = 
+reagent-name-fertilizer = 
+reagent-desc-fertilizer = 
+reagent-name-dung = 
+reagent-desc-dung = 
+reagent-name-sulfur = сірка
+reagent-desc-sulfur = Жовта кристалічна речовина
+reagent-name-scorpiontail = 
+reagent-desc-scorpiontail = 
+
+compost-mixing-success = 
+mixing-verb-composting = 

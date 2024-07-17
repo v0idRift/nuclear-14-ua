@@ -1,0 +1,14 @@
+chat-speech-verb-vulpkanin-1 = реве
+chat-speech-verb-vulpkanin-2 = гавкає
+chat-speech-verb-vulpkanin-3 = сопить
+chat-speech-verb-vulpkanin-4 = тявкає
+
+chat-speech-verb-felinid-1 = мраучить
+chat-speech-verb-felinid-2 = мявчить
+chat-speech-verb-felinid-3 = нявкає
+chat-speech-verb-felinid-4 = муркоче
+
+chat-speech-verb-harpy-1 = цвірінькання
+chat-speech-verb-harpy-2 = твіти
+chat-speech-verb-harpy-3 = кігті
+chat-speech-verb-harpy-4 = трелі

@@ -1,0 +1,10 @@
+admin-solutions-window-title = Редактор рішень - {$targetName}
+admin-solutions-window-solution-label = Цільове рішення:
+admin-solutions-window-add-new-button = Додайте новий реагент
+admin-solutions-window-volume-label = Обсяг {$currentVolume}/{$maxVolume}u
+admin-solutions-window-capacity-label = Ємність (u):
+admin-solutions-window-specific-heat-label = Питома теплоємність: {$specificHeat} Дж/(К*год)
+admin-solutions-window-heat-capacity-label = Теплоємність: {$heatCapacity} ДЖ/К
+admin-solutions-window-temperature-label = Температура (K):
+admin-solutions-window-thermal-energy-label = Теплова енергія (Дж):
+admin-solutions-window-thermals = Термальні води

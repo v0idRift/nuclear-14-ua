@@ -1,0 +1,9 @@
+## UI
+ghost-respawn-rules-window-title = 
+ghost-respawn-rules-window-confirm-button = 
+ghost-gui-respawn-button-denied = 
+ghost-gui-respawn-button-allowed = 
+ghost-respawn-rules-window-rules = 
+ghost-respawn-command-desc = 
+ghost-respawn-not-a-ghost = 
+ghost-respawn-ineligible = 
