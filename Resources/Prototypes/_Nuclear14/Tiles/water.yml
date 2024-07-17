@@ -1,7 +1,7 @@
 - type: entity
   id: N14FloorWaterDirtyEntity
-  name: water
-  description: A real thirst quencher.
+  name: "вода"
+  description: "Справжній напій для втамування спраги."
   placement:
     mode: SnapgridCenter
     snap:
@@ -45,8 +45,8 @@
 - type: entity
   parent: N14FloorWaterDirtyEntity
   id: N14FloorWaterSewerDeep
-  name: deep sewer water
-  description: A real thirst quencher.
+  name: "глибока каналізаційна вода"
+  description: "Справжній напій для втамування спраги."
   components:
   - type: Sprite
     sprite: _Nuclear14/Tiles/ms13/Water.rsi
@@ -59,7 +59,7 @@
 - type: entity
   parent: N14FloorWaterSewerDeep
   id: N14FloorWaterSewerMedium
-  name: sewer water
+  name: "каналізаційна вода"
   components:
   - type: Sprite
     layers:
@@ -71,7 +71,7 @@
 - type: entity
   parent: N14FloorWaterSewerDeep
   id: N14FloorWaterSewerShallow
-  name: shallow sewer water
+  name: "неглибока каналізаційна вода"
   components:
   - type: Sprite
     layers:

@@ -1,11 +1,11 @@
 - type: entity
   save: false
-  name: ghoul
+  name: "упир"
   parent: [N14BaseMobGhoul, BaseMob]
   id: N14MobGhoul
   
 - type: entity
   save: false
-  name: glowing ghoul
+  name: "упир, що світиться"
   parent: [N14BaseMobGhoulGlowing, BaseMob]
   id: N14MobGhoulGlowing

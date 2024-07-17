@@ -14,7 +14,7 @@
     state: matrix
 
 - type: entity
-  name: latejoin spawn point
+  name: "пізнє приєднання до нерестовища"
   parent: N14LatejoinMarkerBase
   id: N14SpawnPointLatejoin
   suffix: Wastelander

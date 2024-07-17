@@ -2,7 +2,7 @@
 - type: entity
   id: N14ComputerTerminalBase
   parent: BaseStructure
-  name: terminal frame
+  name: "клемна рама"
   placement:
     mode: SnapgridCenter
   components:
@@ -94,8 +94,8 @@
   parent: N14ComputerTerminalBasePowered
   id: N14ComputerTerminalNew
   suffix: new
-  name: terminal
-  description: A computer terminal. This one looks new.
+  name: "термінал"
+  description: "Комп'ютерний термінал. Виглядає новим."
   components:
   - type: Sprite
     layers:
@@ -111,8 +111,8 @@
   parent: N14ComputerTerminalBase
   id: N14ComputerTerminalNewBroken
   suffix: new
-  name: broken terminal
-  description: A computer terminal. This one looks broken.
+  name: "зламаний термінал"
+  description: "Комп'ютерний термінал. Цей виглядає зламаним."
   components:
   - type: Sprite
     state: broken
@@ -135,8 +135,8 @@
 - type: entity
   parent: N14ComputerTerminalBasePowered
   id: N14ComputerTerminal
-  name: terminal
-  description: A computer terminal. Looks aged.
+  name: "термінал"
+  description: "Комп'ютерний термінал. Виглядає старим."
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Machines/Terminals/terminal.rsi
@@ -152,8 +152,8 @@
 - type: entity
   parent: N14ComputerTerminalBase
   id: N14ComputerTerminalBroken
-  name: broken terminal
-  description: An old computer terminal. This one looks broken.
+  name: "зламаний термінал"
+  description: "Старий комп'ютерний термінал. Виглядає зламаним."
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Machines/Terminals/terminal.rsi
@@ -189,8 +189,8 @@
   parent: N14ComputerTerminalBasePowered
   id: N14ComputerTerminalRusted
   suffix: rusted
-  name: terminal
-  description: A computer terminal. Looks rusty.
+  name: "термінал"
+  description: "Комп'ютерний термінал. Виглядає іржавим."
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Machines/Terminals/terminal_rusted.rsi
@@ -204,8 +204,8 @@
   parent: N14ComputerTerminalBase
   id: N14ComputerTerminalRustedBroken
   suffix: rusted
-  name: broken terminal
-  description: An old computer terminal. This one looks rusty and broken.
+  name: "зламаний термінал"
+  description: "Старий комп'ютерний термінал. Цей виглядає іржавим і зламаним."
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Machines/Terminals/terminal_rusted.rsi
@@ -216,8 +216,8 @@
   parent: N14ComputerTerminalBasePowered
   id: N14ComputerTerminalHandmade
   suffix: handmade
-  name: terminal
-  description: A computer terminal. Looks handmade.
+  name: "термінал"
+  description: "Комп'ютерний термінал. Схоже, ручної роботи."
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Machines/Terminals/terminal_handmade.rsi
@@ -232,8 +232,8 @@
   parent: N14ComputerTerminalBasePowered
   id: N14ComputerTerminalRigged
   suffix: rigged
-  name: terminal
-  description: A computer terminal. Looks old.
+  name: "термінал"
+  description: "Комп'ютерний термінал. Виглядає старим."
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Machines/Terminals/terminal.rsi
@@ -275,8 +275,8 @@
   parent: N14ComputerTerminalRigged
   id: N14ComputerTerminalRustedRigged
   suffix: rigged, rusted
-  name: terminal
-  description: A computer terminal. Looks rusty.
+  name: "термінал"
+  description: "Комп'ютерний термінал. Виглядає іржавим."
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Machines/Terminals/terminal_rusted.rsi
@@ -329,8 +329,8 @@
 - type: entity
   parent: [ N14ComputerTerminalWallBase, N14ComputerTerminalBasePowered ]
   id: N14ComputerTerminalWall
-  name: wall terminal
-  description: A computer terminal. Looks old.
+  name: "настінний термінал"
+  description: "Комп'ютерний термінал. Виглядає старим."
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Machines/Terminals/terminal_wall.rsi
@@ -343,8 +343,8 @@
 - type: entity
   parent: N14ComputerTerminalWallBase
   id: N14ComputerTerminalWallBroken
-  name: broken wall terminal
-  description: A wall mounted computer terminal. This one looks broken.
+  name: "розбитий настінний термінал"
+  description: "Настінний комп'ютерний термінал. Цей виглядає зламаним."
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Machines/Terminals/terminal_wall.rsi
@@ -355,8 +355,8 @@
   parent: [ N14ComputerTerminalWallBase, N14ComputerTerminalBasePowered ]
   id: N14ComputerTerminalWallNew
   suffix: new
-  name: wall terminal
-  description: A wall mounted computer terminal. Looks new.
+  name: "настінний термінал"
+  description: "Настінний комп'ютерний термінал. Виглядає як новий."
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Machines/Terminals/terminal_wall_new.rsi
@@ -370,8 +370,8 @@
   parent: N14ComputerTerminalWallBase
   id: N14ComputerTerminalWallNewBroken
   suffix: new
-  name: broken wall terminal
-  description: A wall mounted computer terminal This one looks broken.
+  name: "розбитий настінний термінал"
+  description: "Настінний комп'ютерний термінал Цей виглядає зламаним."
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Machines/Terminals/terminal_wall_new.rsi
@@ -382,8 +382,8 @@
   parent: [ N14ComputerTerminalWallBase, N14ComputerTerminalBasePowered ]
   id: N14ComputerTerminalWallRusted
   suffix: rusted
-  name: wall terminal
-  description: A wall mounted computer terminal. Looks new.
+  name: "настінний термінал"
+  description: "Настінний комп'ютерний термінал. Виглядає як новий."
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Machines/Terminals/terminal_wall_rusted.rsi
@@ -397,8 +397,8 @@
   parent: N14ComputerTerminalWallBase
   id: N14ComputerTerminalWallRustedBroken
   suffix: rusted
-  name: broken wall terminal
-  description: A wall mounted computer terminal This one looks broken.
+  name: "розбитий настінний термінал"
+  description: "Настінний комп'ютерний термінал Цей виглядає зламаним."
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Machines/Terminals/terminal_wall_rusted.rsi
@@ -408,8 +408,8 @@
 - type: entity
   parent: [ N14ComputerTerminalWallBase, N14ComputerTerminalBasePowered ]
   id: N14ComputerTerminalWallDisplays
-  name: display terminal
-  description: A wall mounted computer terminal. Lots of displays.
+  name: "дисплейний термінал"
+  description: "Настінний комп'ютерний термінал. Багато дисплеїв."
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Machines/Terminals/terminal_security.rsi
@@ -423,8 +423,8 @@
 - type: entity
   parent: [ N14ComputerTerminalWallBase, N14ComputerTerminalBasePowered ]
   id: N14ComputerTerminalWallControls
-  name: control terminal
-  description: A wall mounted computer terminal.
+  name: "термінал управління"
+  description: "Настінний комп'ютерний термінал."
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Machines/Terminals/terminal_classic.rsi

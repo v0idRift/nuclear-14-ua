@@ -1,8 +1,8 @@
 - type: entity
-  name: baseThrowingSpear
+  name: "base Метальний спис"
   parent: BaseItem
   id: baseThrowingSpear
-  description: Definition of a Classic. Keeping murder affordable since 200,000 BCE.
+  description: "Визначення класики. Зберігаючи вбивство доступним з 200 000 років до нашої ери."
   components:
   - type: EmbeddableProjectile
     offset: 0.15,0.15
@@ -80,10 +80,10 @@
     fillBaseName: spear
 
 - type: entity
-  name: spear
+  name: "спис"
   parent: Spear
   id: N14WastelandSpear
-  description: Definition of a Classic. Keeping murder affordable since 200,000 BCE.
+  description: "Визначення класики. Зберігаючи вбивство доступним з 200 000 років до нашої ери."
   components:
   - type: Sprite
     sprite: _Nuclear14/Objects/Weapons/Melee/spear.rsi
@@ -96,10 +96,10 @@
 
 
 - type: entity
-  name: NCR battle flag
+  name: "Бойовий прапор УНР"
   parent: N14WastelandSpear
   id: N14WastelandFlagSpear
-  description: A long spear with a NCR flag tied on his end, the most loyal soldiers carry these to boost the morale.
+  description: "Довгий спис із прив'язаним до нього прапором НРК - найвідданіші солдати носять його для підняття бойового духу."
   components:
   - type: Tag
     tags:
@@ -116,10 +116,10 @@
 
 
 - type: entity
-  name: tribal spear
+  name: "племінний спис"
   parent: Spear
   id: N14WastelandTribalSpear
-  description: Strong and with a devastating attack, these spears are commonly made and used by tribals.
+  description: "Міцні та з руйнівною атакою, ці списи зазвичай виготовлялися та використовувалися племенами."
   components:
   - type: Sprite
     sprite: _Nuclear14/Objects/Weapons/Melee/tribalspear.rsi
@@ -132,10 +132,10 @@
         Slash: 8
 
 - type: entity
-  name: javelin
+  name: "спис"
   parent: baseThrowingSpear
   id: N14WastelandTribalJavelin
-  description: Practically a very short spear, but his strength doesnt come from melee combat.
+  description: "Практично дуже короткий спис, але його сила походить не від ближнього бою."
   components:
   - type: Sprite
     sprite: _Nuclear14/Objects/Weapons/Melee/javelin.rsi

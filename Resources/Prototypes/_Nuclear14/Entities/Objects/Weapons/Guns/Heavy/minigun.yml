@@ -1,8 +1,8 @@
 - type: entity
-  name: minigun
+  name: "міні-пістолет"
   parent: BaseWeaponRifle
   id: BaseWeaponMinigun
-  description: A extremely heavy minigun with 3 barrels, it uses 5mm ammo. # TODO: Need to create projectiles, magazines and boxes for 5.56.
+  description: "Надзвичайно важкий міні-пістолет з 3 стволами, використовує набої калібру 5 мм." # TODO: Need to create projectiles, magazines and boxes for 5.56.
   components:
   - type: Sprite
     sprite: _Nuclear14/Objects/Weapons/Guns/Heavy/minigun.rsi
@@ -50,20 +50,20 @@
   - type: HeldSpeedModifier
 
 - type: entity
-  name: minigun
+  name: "міні-пістолет"
   parent: BaseWeaponMinigun
   id: N14WeaponMinigun
-  description: A extremely heavy minigun with 3 barrels, it uses 5mm ammo. # TODO: Need to create projectiles, magazines and boxes for 5.56.
+  description: "Надзвичайно важкий міні-пістолет з 3 стволами, використовує набої калібру 5 мм." # TODO: Need to create projectiles, magazines and boxes for 5.56.
   components:
   - type: ClothingSpeedModifier
     walkModifier: 0.7
     sprintModifier: 0.7
 
 - type: entity
-  name: avenger minigun
+  name: "міні-пістолет \"Месник"
   parent: BaseWeaponMinigun
   id: N14WeaponAvengerMinigun
-  description: A extremely heavy advance minigun with multiple barrels, it uses 5mm ammo. # TODO: Need to create projectiles, magazines and boxes for 5.56.
+  description: "Надзвичайно важкий передовий міні-пістолет з кількома стволами, що використовує 5 мм набої." # TODO: Need to create projectiles, magazines and boxes for 5.56.
   components:
   - type: Sprite
     sprite: _Nuclear14/Objects/Weapons/Guns/Heavy/avengerminigun.rsi

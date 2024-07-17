@@ -1,7 +1,7 @@
 - type: entity
   id: N14CigPackBase
   parent: [ BaseStorageItem, BaseBagOpenClose ]
-  name: cigarette pack
+  name: "пачка сигарет"
   abstract: true
   components:
   - type: Sprite
@@ -90,8 +90,8 @@
 - type: entity
   parent: N14CigPackBase
   id: N14CigarettePackSalem
-  name: Salem cigs pack
-  description: A refined green cigarette packet. A label on the packaging reads, Salem. Refreshes your taste.
+  name: "Пачка сигарет Salem"
+  description: "Вишукана зелена пачка сигарет. На етикетці написано: \"Салем\". Освіжає смак."
   components:
   - type: Sprite
     sprite: _Nuclear14/Objects/Consumable/Smokeables/Packs/salem.rsi
@@ -105,8 +105,8 @@
 - type: entity
   parent: N14CigPackBase
   id: N14CigarettePackKool
-  name: Kools cigs pack
-  description: A kool green cigarette packet. A label on the packaging reads, KOOL. So good, it's got to be KOOL!
+  name: "Пачка сигарет Kools"
+  description: "Зелена пачка сигарет kool. На пачці написано \"KOOL\". Так добре, це має бути KOOL!"
   components:
   - type: Sprite
     sprite: _Nuclear14/Objects/Consumable/Smokeables/Packs/kool.rsi
@@ -120,8 +120,8 @@
 - type: entity
   parent: N14CigPackBase
   id: N14CigarettePackMarlboro
-  name: Marlboro cigs pack
-  description: A cool red cigarette packet. A label on the packaging reads, Marlboro. Where theres a man, theres a Marlboro.
+  name: "Пачка сигарет Marlboro"
+  description: "Прохолодна червона пачка сигарет. На пачці написано: \"Мальборо\". Де чоловік, там і \"Мальборо\"."
   components:
   - type: Sprite
     sprite: _Nuclear14/Objects/Consumable/Smokeables/Packs/marlboro.rsi
@@ -135,8 +135,8 @@
 - type: entity
   parent: N14CigPackBase
   id: N14CigarettePackWinston
-  name: Winston cigs pack
-  description: A refined red cigarette packet. A label on the packaging reads, Winston. Winston tastes good, like a cigarette should!
+  name: "Пачка сигарет Winston"
+  description: "Вишукана червона пачка сигарет. На пачці написано: \"Вінстон\". \"Вінстон\" має чудовий смак, як і належить сигаретам!"
   components:
   - type: Sprite
     sprite: _Nuclear14/Objects/Consumable/Smokeables/Packs/winston.rsi
@@ -151,8 +151,8 @@
   parent: N14CigPackBase
   id: N14CigarettePackCustom
   suffix: custom
-  name: cardboard cigs pack
-  description: A simple hand-made cardboard cigarette pack
+  name: "картонна пачка сигарет"
+  description: "Проста картонна пачка сигарет ручної роботи"
   components:
   - type: Sprite
     sprite: _Nuclear14/Objects/Consumable/Smokeables/Packs/custom.rsi
@@ -166,8 +166,8 @@
 - type: entity
   parent: N14CigPackBase
   id: N14CigarettePackRepublics
-  name: Republics cig pack
-  description: A rustic cardboard cigarette pack with the flag of the New Californian Republic on it. A label on the packaging reads, Republics. Taste the freedom, feel the burn.
+  name: "Пачка сигарет Republics"
+  description: "Проста картонна пачка сигарет з прапором Нової Каліфорнійської Республіки. На пачці етикетка з написом \"Республіка\". Скуштуй свободу, відчуй горіння."
   components:
   - type: Sprite
     sprite: _Nuclear14/Objects/Consumable/Smokeables/Packs/republics.rsi

@@ -1,6 +1,6 @@
 ﻿- type: body
   id: Ghoul
-  name: ghoul
+  name: "упир"
   root: torso
   slots:
     head:

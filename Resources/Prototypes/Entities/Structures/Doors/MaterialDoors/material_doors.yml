@@ -1,9 +1,9 @@
 - type: entity
   id: BaseMaterialDoor
   parent: BaseStructure
-  name: door
+  name: "двері"
   abstract: true
-  description: A door, where will it lead?
+  description: "Двері, куди вони ведуть?"
   components:
   - type: InteractionOutline
   - type: Sprite
@@ -63,7 +63,7 @@
 
 - type: entity
   id: MetalDoor
-  name: metal door
+  name: "металеві двері"
   parent: BaseMaterialDoorNavMap
   noSpawn: true
   components:
@@ -73,9 +73,9 @@
 
 - type: entity
   id: WoodDoor
-  name: wooden door
+  name: "дерев'яні двері"
   parent: BaseMaterialDoorNavMap
-  description: A door, where will it lead?
+  description: "Двері, куди вони ведуть?"
   noSpawn: true
   components:
   - type: Sprite
@@ -111,9 +111,9 @@
 
 - type: entity
   id: PaperDoor
-  name: paper door
+  name: "паперові двері"
   parent: BaseMaterialDoorNavMap
-  description: A door, where will it lead?
+  description: "Двері, куди вони ведуть?"
   noSpawn: true
   components:
   - type: Sprite
@@ -135,9 +135,9 @@
 
 - type: entity
   id: PlasmaDoor
-  name: plasma door
+  name: "плазмові двері"
   parent: BaseMaterialDoorNavMap
-  description: A door, where will it lead?
+  description: "Двері, куди вони ведуть?"
   noSpawn: true
   components:
   - type: Sprite
@@ -162,9 +162,9 @@
 
 - type: entity
   id: GoldDoor
-  name: gold door
+  name: "золоті двері"
   parent: BaseMaterialDoorNavMap
-  description: A door, where will it lead?
+  description: "Двері, куди вони ведуть?"
   noSpawn: true
   components:
   - type: Sprite
@@ -178,9 +178,9 @@
 
 - type: entity
   id: SilverDoor
-  name: silver door
+  name: "срібні двері"
   parent: BaseMaterialDoorNavMap
-  description: A door, where will it lead?
+  description: "Двері, куди вони ведуть?"
   noSpawn: true
   components:
   - type: Sprite
@@ -194,9 +194,9 @@
 
 - type: entity
   id: BananiumDoor
-  name: bananium door
+  name: "бананові двері"
   parent: BaseMaterialDoorNavMap
-  description: A door, where will it lead?
+  description: "Двері, куди вони ведуть?"
   noSpawn: true
   components:
   - type: Sprite
@@ -215,9 +215,9 @@
 
 - type: entity
   id: WebDoor
-  name: web door
+  name: "павутинні двері"
   parent: BaseMaterialDoorNavMap
-  description: A door, leading to the lands of the spiders... or a spaced room.
+  description: "Ручні дверцята з павутиння, зазвичай розміщені безпосередньо перед ямою або пасткою."
   noSpawn: true
   components:
   - type: Sprite

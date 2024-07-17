@@ -2,11 +2,11 @@
 
 # Base Hostile
 - type: entity
-  name: wasteland animal
+  name: "здичавіла тварина"
   abstract: true
   id: N14MobBaseHostile
   parent: SimpleMobBase
-  description: It's a dirty wasteland animal. Watch out for it's bite, it could be infectious.
+  description: "Це брудна тварина з пустиря. Остерігайтеся його укусів, вони можуть бути інфекційними."
   components:
   - type: InputMover
   - type: MobMover
@@ -101,7 +101,7 @@
 
 
 - type: entity
-  name: scaley wasteland animal
+  name: "луската пустельна тварина"
   abstract: true
   id: N14MobBaseHostileScaley
   parent: N14MobBaseHostile
@@ -111,7 +111,7 @@
     damageModifierSet: N14Scale
 
 - type: entity
-  name: wasteland insect
+  name: "комаха пустиря"
   abstract: true
   id: N14MobBaseHostileInsect
   parent: N14MobBaseHostile
@@ -126,7 +126,7 @@
 
 # Wave Defence Base Hostile
 - type: entity
-  name: wave attacker
+  name: "хвильовий атакуючий"
   abstract: true
   id: N14MobWave
   components:

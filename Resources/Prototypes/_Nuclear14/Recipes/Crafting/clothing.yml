@@ -1,12 +1,12 @@
 - type: construction
-  name: black bandana
+  name: "чорна бандана"
   id: blackbandana
   graph: blackbandana
   startNode: start
   targetNode: bandanablack
   category: construction-category-misc
   objectType: Item
-  description: It's a hat, and a mask.
+  description: "Це шапка і маска."
   icon:
     sprite: Clothing/Head/Bandanas/black.rsi
     state: icon_mask
@@ -27,14 +27,14 @@
      entity: ClothingMaskBandBlack
 
 - type: construction
-  name: blue bandana
+  name: "синя бандана"
   id: bluebandana
   graph: bluebandana
   startNode: start
   targetNode: bandanablue
   category: construction-category-misc
   objectType: Item
-  description: It's a hat, and a mask.
+  description: "Це шапка і маска."
   icon:
     sprite: Clothing/Head/Bandanas/blue.rsi
     state: icon_mask
@@ -55,14 +55,14 @@
      entity: ClothingMaskBandBlue
 
 - type: construction
-  name: gold bandana
+  name: "золота бандана"
   id: goldbandana
   graph: goldbandana
   startNode: start
   targetNode: bandanagold
   category: construction-category-misc
   objectType: Item
-  description: It's a hat, and a mask.
+  description: "Це шапка і маска."
   icon:
     sprite: Clothing/Head/Bandanas/gold.rsi
     state: icon_mask
@@ -83,14 +83,14 @@
      entity: ClothingMaskBandGold
 
 - type: construction
-  name: green bandana
+  name: "зелена бандана"
   id: greenbandana
   graph: greenbandana
   startNode: start
   targetNode: bandanagreen
   category: construction-category-misc
   objectType: Item
-  description: It's a hat, and a mask.
+  description: "Це шапка і маска."
   icon:
     sprite: Clothing/Head/Bandanas/green.rsi
     state: icon_mask
@@ -111,14 +111,14 @@
      entity: ClothingMaskBandGreen
 
 - type: construction
-  name: red bandana
+  name: "червона бандана"
   id: redbandana
   graph: redbandana
   startNode: start
   targetNode: bandanared
   category: construction-category-misc
   objectType: Item
-  description: It's a hat, and a mask.
+  description: "Це шапка і маска."
   icon:
     sprite: Clothing/Head/Bandanas/red.rsi
     state: icon_mask
@@ -139,14 +139,14 @@
      entity: ClothingMaskBandRed
 
 - type: construction
-  name: skull bandana
+  name: "бандана з черепом"
   id: skullbandana
   graph: skullbandana
   startNode: start
   targetNode: bandanaskull
   category: construction-category-misc
   objectType: Item
-  description: It's a hat, and a mask.
+  description: "Це шапка і маска."
   icon:
     sprite: Clothing/Head/Bandanas/skull.rsi
     state: icon_mask
@@ -167,14 +167,14 @@
      entity: ClothingMaskBandSkull
 
 - type: construction
-  name: brown bandana
+  name: "коричнева бандана"
   id: brownbandana
   graph: brownbandana
   startNode: start
   targetNode: bandanabrown
   category: construction-category-misc
   objectType: Item
-  description: It's a hat, and a mask.
+  description: "Це шапка і маска."
   icon:
     sprite: Clothing/Head/Bandanas/brown.rsi
     state: icon_mask
@@ -195,14 +195,14 @@
      entity: ClothingMaskBandBrown
 
 - type: construction
-  name: grey bandana
+  name: "сіра бандана"
   id: greybandana
   graph: greybandana
   startNode: start
   targetNode: bandanagrey
   category: construction-category-misc
   objectType: Item
-  description: It's a hat, and a mask.
+  description: "Це шапка і маска."
   icon:
     sprite: Clothing/Head/Bandanas/grey.rsi
     state: icon_mask

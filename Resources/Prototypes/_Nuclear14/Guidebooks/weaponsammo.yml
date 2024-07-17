@@ -21,28 +21,28 @@
 
 - type: guideEntry
   id: BigGuns
-  name: guide-entry-bigguns
+  name: "направляючі входи-великокаліберні гармати"
   text: "/ServerInfo/_Nuclear14/Guidebooks/Weapons/RangedWeapons/BigGuns/index.xml"
   
 - type: guideEntry
   id: Laser
-  name: guide-entry-laser
+  name: "направляючий вхідний лазер"
   text: "/ServerInfo/_Nuclear14/Guidebooks/Weapons/RangedWeapons/Laser/index.xml"
   
 - type: guideEntry
   id: Plasma
-  name: guide-entry-plasma
+  name: "направляюча вхідна плазма"
   text: "/ServerInfo/_Nuclear14/Guidebooks/Weapons/RangedWeapons/Plasma/index.xml"
   
 - type: guideEntry
   id: SmallGuns
-  name: guide-entry-smallguns
+  name: "стрілецька зброя"
   text: "/ServerInfo/_Nuclear14/Guidebooks/Weapons/RangedWeapons/SmallGuns/index.xml"
   
 # Melee Weapons
 - type: guideEntry
   id: MeleeWeapons
-  name: guide-entry-meleeweapons
+  name: "наведення стрілецької зброї на ціль"
   text: "/ServerInfo/_Nuclear14/Guidebooks/Weapons/MeleeWeapons/index.xml"
   children:
   - OneHanded
@@ -50,10 +50,10 @@
 
 - type: guideEntry
   id: OneHanded
-  name: guide-entry-onehanded
+  name: "провідник-вхід-однією-рукою"
   text: "/ServerInfo/_Nuclear14/Guidebooks/Weapons/MeleeWeapons/OneHanded/index.xml"
   
 - type: guideEntry
   id: TwoHanded
-  name: guide-entry-twohanded
+  name: "гід-вхід-дворукий"
   text: "/ServerInfo/_Nuclear14/Guidebooks/Weapons/MeleeWeapons/TwoHanded/index.xml"

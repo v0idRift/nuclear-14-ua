@@ -1,5 +1,5 @@
 - type: entity
-  name: plasma
+  name: "плазма"
   id: BulletPlasma
   parent: BaseBullet
   noSpawn: true
@@ -43,7 +43,7 @@
       path: "/Audio/Weapons/Guns/Hits/energy_meat1.ogg"
 
 - type: entity #TODO: Finish Projectile Laser
-  name: laser
+  name: "лазерний"
   id: BulletLaser
   parent: BaseBullet
   noSpawn: true
