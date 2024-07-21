@@ -1,12 +1,12 @@
 # Sacks
 - type: construction
-  name: sack
+  name: "мішок"
   id: N14Sack
   graph: N14Sack
   startNode: start
   targetNode: sack
   category: construction-category-storage
-  description: A sack for storing things.
+  description: "Мішок для зберігання речей."
   hide: false
   icon:
     sprite: _Nuclear14/Objects/Specific/Hydroponics/equipment.rsi
@@ -40,13 +40,13 @@
             - !type:DeleteEntity
 
 - type: construction
-  name: sack compost
+  name: "мішковий компост"
   id: N14SackCompost
   graph: N14SackCompost
   startNode: start
   targetNode: sack
   category: construction-category-storage
-  description: A sack for storing compost.
+  description: "Мішок для зберігання компосту."
   hide: false
   icon:
     sprite: _Nuclear14/Objects/Specific/Hydroponics/equipment.rsi
@@ -80,13 +80,13 @@
             - !type:DeleteEntity
             
 - type: construction
-  name: sack fertilizer
+  name: "мішкове добриво"
   id: N14SackFertilizer
   graph: N14SackFertilizer
   startNode: start
   targetNode: sack
   category: construction-category-storage
-  description: A sack for storing compost.
+  description: "Мішок для зберігання компосту."
   hide: false
   icon:
     sprite: _Nuclear14/Objects/Specific/Hydroponics/equipment.rsi
@@ -121,13 +121,13 @@
 
 # Wallet
 - type: construction
-  name: wallet
+  name: "гаманець"
   id: N14Wallet
   graph: N14Wallet
   startNode: start
   targetNode: wallet
   category: construction-category-storage
-  description: A wallet for storing all your hard earned money.
+  description: "Гаманець для зберігання всіх ваших зароблених грошей."
   hide: false
   icon:
     sprite: _Nuclear14/Objects/Misc/storage.rsi

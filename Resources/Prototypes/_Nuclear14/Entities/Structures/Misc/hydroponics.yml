@@ -2,8 +2,8 @@
 - type: entity
   parent: BaseStructure
   id: N14CompostBox
-  name: compost box
-  description: Insert animal dung in here to produce compost.
+  name: "компостний ящик"
+  description: "Покладіть сюди гній тварин, щоб отримати компост."
   placement:
     mode: SnapgridCenter
   components:
@@ -51,9 +51,9 @@
 # Seed Extractor
 - type: entity
   id: N14SeedExtractor
-  name: seed extractor
+  name: "витяжка насіння"
   parent: BaseStructure
-  description: Extracts seeds from produce.
+  description: "Витягує насіння з продуктів."
   components:
   - type: Sprite
     sprite: _Nuclear14/Objects/Specific/Hydroponics/equipment.rsi
@@ -79,8 +79,8 @@
 # Soils and Planters
 - type: entity
   id: N14Soil
-  name: soil
-  description: Looks good for planting things in.
+  name: "ґрунт"
+  description: "Добре підходить для посадки рослин."
   placement:
     mode: SnapgridCenter
   components:
@@ -143,8 +143,8 @@
 - type: entity
   parent: BaseStructure
   id: N14HydroponicsPlanterEmpty
-  name: planter
-  description: A wooden planter for growing things. Just needs soil.
+  name: "сівалка"
+  description: "Дерев'яне кашпо для вирощування рослин. Потрібен лише ґрунт."
   components:
   - type: Sprite
     layers:
@@ -181,8 +181,8 @@
 - type: entity
   parent: N14Soil
   id: N14HydroponicsPlanter
-  name: planter
-  description: A wooden planter with soil for growing things in.
+  name: "сівалка"
+  description: "Дерев'яне кашпо з ґрунтом для вирощування рослин."
   components:
   - type: Sprite
     layers:

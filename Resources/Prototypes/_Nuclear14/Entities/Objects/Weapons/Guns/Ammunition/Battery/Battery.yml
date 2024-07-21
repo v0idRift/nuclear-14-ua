@@ -1,6 +1,6 @@
 - type: entity
-  name: microfusion cell
-  description: A small energy container the size of a palm, commonly used has ammo for any kind of laser weapon.
+  name: "комірка для мікрофузії"
+  description: "Невеликий енергетичний контейнер, розміром з долоню, зазвичай має боєприпаси для будь-якого виду лазерної зброї."
   id: N14BasePowerCell
   abstract: true
   parent: BaseItem
@@ -38,8 +38,8 @@
     fireCost: 50
 
 - type: entity
-  name: microfusion cell
-  description: A small energy container the size of a palm, commonly used has ammo for any kind of laser weapon.
+  name: "комірка для мікрофузії"
+  description: "Невеликий енергетичний контейнер, розміром з долоню, зазвичай має боєприпаси для будь-якого виду лазерної зброї."
   id: N14PowerCellHigh
   suffix: Full
   parent: N14BasePowerCell
@@ -57,8 +57,8 @@
     startingCharge: 1200
 
 - type: entity
-  name: fusion cell
-  description: A large energy container the size of a hand, commonly used as ammo for heavy laser weapons.
+  name: "термоядерна комірка"
+  description: "Великий енергетичний контейнер розміром з долоню, який зазвичай використовується як боєприпас для важкої лазерної зброї."
   id: N14PowerCellFusion
   suffix: Full
   parent: N14BasePowerCell
@@ -80,8 +80,8 @@
     startingCharge: 5000
 
 - type: entity
-  name: plasma cartridge
-  description: A small green glowing cartridge, commonly used has ammo for any kind of plasma weapon.
+  name: "плазмовий картридж"
+  description: "Невеликий зелений патрон, що світиться, зазвичай використовується для будь-якого виду плазмової зброї."
   id: N14BasePlasmaCell
   abstract: true
   parent: BaseItem
@@ -119,8 +119,8 @@
     fireCost: 100
 
 - type: entity
-  name: plasma cartridge
-  description: A small green glowing cartridge, commonly used has ammo for any kind of plasma weapon.
+  name: "плазмовий картридж"
+  description: "Невеликий зелений патрон, що світиться, зазвичай використовується для будь-якого виду плазмової зброї."
   id: N14PlasmaCartridge
   suffix: Full
   parent: N14BasePlasmaCell

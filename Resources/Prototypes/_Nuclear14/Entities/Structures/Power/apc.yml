@@ -1,7 +1,7 @@
 - type: entity
   id: N14APCBreaker
-  name: Electrical Breaker
-  description: A breaker box for controlling electrical systems.
+  name: "Електричний вимикач"
+  description: "Розподільна коробка для керування електричними системами."
   placement:
     mode: SnapgridCenter
   components:
@@ -124,8 +124,8 @@
 # APC under construction
 - type: entity
   id: N14APCBreakerFrame
-  name: APC frame
-  description: A breaker box for controlling electrical systems., lacking the electronics.
+  name: "Рама БТР"
+  description: "Розподільна коробка для керування електричними системами, в якій відсутня електроніка."
   placement:
     mode: SnapgridCenter
   components:

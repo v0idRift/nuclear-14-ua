@@ -14,8 +14,8 @@
 - type: entity
   parent: DrinkBottleBaseFull50
   id: N14DrinkBottleMilkEmpty
-  name: milk bottle
-  description: Looks good at holding milky substances.
+  name: "пляшка молока"
+  description: "Добре утримує молочні речовини."
   components:
   - type: Sprite
     sprite: _Nuclear14/Objects/Consumable/Drinks/nuka_cola.rsi # N14TODO:SPRITE: Change this
@@ -23,8 +23,8 @@
 - type: entity
   parent: N14DrinkBottleMilkEmpty
   id: N14DrinkMilkBrahmin
-  name: brahmin milk
-  description: The glass bottle of brahmin milk.
+  name: "брамінське молоко"
+  description: "Скляна пляшка брамінського молока."
   components:
   - type: SolutionContainerManager
     solutions:
@@ -39,8 +39,8 @@
 - type: entity
   parent: N14DrinkMilkBrahmin
   id: N14DrinkMilkBighorner
-  name: bighorner milk
-  description: The glass bottle of bighorner milk.
+  name: "бігхорнове молоко"
+  description: "Скляна пляшка з-під молока бігхорна."
   components:
   - type: SolutionContainerManager
     solutions:
@@ -53,8 +53,8 @@
 - type: entity
   parent: N14DrinkMilkBrahmin
   id: N14DrinkMilkRadstag
-  name: radstag milk
-  description: The glass bottle of radstag milk.
+  name: "радстаг-молоко"
+  description: "Скляна пляшка молока з-під радстагу."
   components:
   - type: SolutionContainerManager
     solutions:
@@ -68,8 +68,8 @@
 - type: entity
   parent: DrinkBottleGlassBaseFull
   id: N14DrinkNukaColaBottleFull
-  name: Nuka Cola bottle
-  description: The leading cola since 2044.
+  name: "Пляшка Nuka Cola"
+  description: "Провідна кола з 2044 року."
   components:
   - type: SolutionContainerManager
     solutions:
@@ -84,8 +84,8 @@
 - type: entity
   parent: DrinkBottleGlassBaseFull
   id: N14DrinkIrradiatedNukaColaBottleFull
-  name: irratiated Nuka Cola bottle
-  description: The leading cola since 2044. Looks a bit... weird.
+  name: "роздратована пляшка Nuka Cola"
+  description: "Провідна кола з 2044 року. Виглядає трохи... дивно."
   components:
   - type: SolutionContainerManager
     solutions:
@@ -101,8 +101,8 @@
 - type: entity
   parent: DrinkBottleGlassBaseFull
   id: N14DrinkNukaColaEmpty
-  name: Nuka Cola bottle
-  description: The leading cola since 2044.
+  name: "Пляшка Nuka Cola"
+  description: "Провідна кола з 2044 року."
   components:
   - type: Sprite
     sprite: _Nuclear14/Objects/Consumable/Drinks/nuka_cola_new.rsi
@@ -130,8 +130,8 @@
 - type: entity
   parent: BrokenBottle
   id: N14DrinkNukaColaBroken
-  name: broken Nuka Cola bottle
-  description: The leading cola since 2044.
+  name: "розбита пляшка Nuka Cola"
+  description: "Провідна кола з 2044 року."
   components:
   - type: Sprite
     sprite: _Nuclear14/Objects/Consumable/Drinks/nuka_cola_new.rsi
@@ -140,8 +140,8 @@
 - type: entity
   parent: N14DrinkNukaColaEmpty
   id: N14DrinkNukaColaCherry
-  name: Nuka Cola Cherry
-  description: The leading cola since 2044. Cherry flavor.
+  name: "Nuka Cola Cherry"
+  description: "Провідна кола з 2044 року. Зі смаком вишні."
   components:
   - type: Sprite
     sprite: _Nuclear14/Objects/Consumable/Drinks/nuka_cola_new.rsi
@@ -157,8 +157,8 @@
 - type: entity
   parent: N14DrinkNukaColaEmpty
   id: N14DrinkNukaCola
-  name: Nuka Cola
-  description: The leading cola since 2044.
+  name: "Nuka Cola"
+  description: "Провідна кола з 2044 року."
   components:
   - type: Sprite
     sprite: _Nuclear14/Objects/Consumable/Drinks/nuka_cola_new.rsi
@@ -174,8 +174,8 @@
 - type: entity
   parent: N14DrinkNukaColaEmpty
   id: N14DrinkNukaColaGrape
-  name: Nuka Cola Grape
-  description: The leading cola since 2044. Grape flavor.
+  name: "Nuka Cola Виноград"
+  description: "Провідна кола з 2044 року. Зі смаком винограду."
   components:
   - type: Sprite
     sprite: _Nuclear14/Objects/Consumable/Drinks/nuka_cola_new.rsi
@@ -191,8 +191,8 @@
 - type: entity
   parent: N14DrinkNukaColaEmpty
   id: N14DrinkNukaColaOrange
-  name: Nuka Cola Orange
-  description: The leading cola since 2044. Orange flavor.
+  name: "Nuka Cola Orange"
+  description: "Провідна кола з 2044 року. Зі смаком апельсина."
   components:
   - type: Sprite
     sprite: _Nuclear14/Objects/Consumable/Drinks/nuka_cola_new.rsi
@@ -208,8 +208,8 @@
 - type: entity
   parent: N14DrinkNukaColaEmpty
   id: N14DrinkNukaColaYellow
-  name: Nuka Cola Yellow
-  description: A rare flavor of Nuka-Cola from crazy naked Roshambo.
+  name: "Nuka Cola Yellow"
+  description: "Рідкісний смак Nuka-Cola від божевільного голого Рошамбо."
   components:
   - type: Sprite
     sprite: _Nuclear14/Objects/Consumable/Drinks/nuka_cola_new.rsi
@@ -225,8 +225,8 @@
 - type: entity
   parent: N14DrinkNukaColaEmpty
   id: N14DrinkNukaColaQuantum
-  name: Nuka Cola Quantum
-  description: The leading cola since 2044.
+  name: "Nuka Cola Quantum"
+  description: "Провідна кола з 2044 року."
   components:
   - type: Sprite
     sprite: _Nuclear14/Objects/Consumable/Drinks/nuka_cola_new.rsi
@@ -243,8 +243,8 @@
 - type: entity
   parent: N14DrinkNukaColaEmpty
   id: N14DrinkNukaColaQuartz
-  name: Nuka Cola Quartz
-  description: The leading cola since 2044.
+  name: "Nuka Cola Quartz"
+  description: "Провідна кола з 2044 року."
   components:
   - type: Sprite
     sprite: _Nuclear14/Objects/Consumable/Drinks/nuka_cola_new.rsi
@@ -265,8 +265,8 @@
 - type: entity
   parent: N14DrinkNukaColaEmpty
   id: N14DrinkNukaColaVictory
-  name: Nuka Cola Victory
-  description: The leading cola since 2044.
+  name: "Nuka Cola Victory"
+  description: "Провідна кола з 2044 року."
   components:
   - type: Sprite
     sprite: _Nuclear14/Objects/Consumable/Drinks/nuka_cola_new.rsi
@@ -282,8 +282,8 @@
 - type: entity
   parent: N14DrinkNukaColaEmpty
   id: N14DrinkNukaColaWild
-  name: Nuka Cola Wild
-  description: The leading cola since 2044.
+  name: "Nuka Cola Wild"
+  description: "Провідна кола з 2044 року."
   components:
   - type: Sprite
     sprite: _Nuclear14/Objects/Consumable/Drinks/nuka_cola_new.rsi
@@ -300,8 +300,8 @@
 - type: entity
   parent: N14DrinkNukaColaEmpty
   id: N14DrinkVim
-  name: Vim!
-  description: Pure Maine spring water and other extracts and syrups.
+  name: "Вім!"
+  description: "Чиста джерельна вода штату Мен та інші екстракти і сиропи."
   components:
   - type: Sprite
     sprite: _Nuclear14/Objects/Consumable/Drinks/vim.rsi
@@ -317,8 +317,8 @@
 - type: entity
   parent: N14DrinkNukaColaEmpty
   id: N14DrinkVimCaptainsBlend
-  name: Vim! Captain's Blend
-  description: A taste of Maine in a bottle. Fishy.
+  name: "Вім! Капітанська суміш"
+  description: "Смак штату Мен у пляшці. Рибний."
   components:
   - type: Sprite
     sprite: _Nuclear14/Objects/Consumable/Drinks/vim.rsi
@@ -334,8 +334,8 @@
 - type: entity
   parent: N14DrinkNukaColaEmpty
   id: N14DrinkVimRefresh
-  name: Vim! Refresh
-  description: Apple and lime flavor with oddly no rads.
+  name: "Вім! Оновити"
+  description: "Яблучно-лаймовий смак з дивовижною відсутністю радіації."
   components:
   - type: Sprite
     sprite: _Nuclear14/Objects/Consumable/Drinks/vim.rsi
@@ -351,8 +351,8 @@
 - type: entity
   parent: N14DrinkNukaColaEmpty
   id: N14DrinkVimQuartz
-  name: Vim! Quartz
-  description: Bubblegum flavored Vim! with extra oomph.
+  name: "Вім! Кварц"
+  description: "Vim! зі смаком жувальної гумки з додатковою силою."
   components:
   - type: Sprite
     sprite: _Nuclear14/Objects/Consumable/Drinks/vim.rsi
@@ -375,8 +375,8 @@
 - type: entity
   parent: DrinkBottleGlassBaseFull
   id: N14DrinkGammagulpBeer
-  name: Gamma Gulp Beer
-  description: One of Gecko's biggest exports. A mild, radioactive alcohol.
+  name: "Пиво Gamma Gulp"
+  description: "Один з найбільших експортних товарів Гекко. Слабкий радіоактивний алкоголь."
   components:
   - type: Sprite
     sprite: _Nuclear14/Objects/Consumable/Drinks/alcohol.rsi
@@ -397,8 +397,8 @@
 - type: entity
   parent: DrinkBottleGlassBaseFull
   id: N14DrinkRoentgenRum
-  name: Roentgen Rum
-  description: One of Gecko's biggest exports. A strong, tingly alcohol.
+  name: "Рентгенівський ром"
+  description: "Один з найбільших експортних товарів Гекко. Міцний алкоголь, що поколює."
   components:
   - type: Sprite
     sprite: _Nuclear14/Objects/Consumable/Drinks/alcohol.rsi
@@ -419,8 +419,8 @@
 - type: entity
   parent: DrinkBottleGlassBaseFull
   id: N14DrinkWhisky
-  name: whiskey
-  description: A bottle of standard looking whiskey
+  name: "віскі"
+  description: "Пляшка віскі стандартного вигляду"
   components:
   - type: Sprite
     sprite: _Nuclear14/Objects/Consumable/Drinks/alcohol.rsi
@@ -438,8 +438,8 @@
 - type: entity
   parent: DrinkBottleGlassBaseFull
   id: N14DrinkWine
-  name: wine
-  description: Nappa Valley Wine.
+  name: "вино"
+  description: "Вино з долини Наппа."
   components:
   - type: Sprite
     sprite: _Nuclear14/Objects/Consumable/Drinks/alcohol.rsi

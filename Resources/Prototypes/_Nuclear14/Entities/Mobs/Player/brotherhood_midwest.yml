@@ -1,7 +1,7 @@
 - type: entity
   parent: MobHuman
   id: BoSMidPaladinCommander
-  name: BoSMidPaladinCommander
+  name: "BoSMidPaladinCommander"
   components:
     - type: RandomHumanoidAppearance
       randomizeName: true
@@ -14,7 +14,7 @@
 - type: entity
   parent: BoSMidPaladinCommander
   id: N14MobHumanBoSMidKnight
-  name: BoSMidKnight
+  name: "BoSMidKnight"
   components:
     - type: Loadout
       prototypes: [BoSMidKnightGear]
@@ -22,7 +22,7 @@
 - type: entity
   parent: BoSMidPaladinCommander
   id: N14MobHumanBoSMidPaladin
-  name: BoSMidPaladin
+  name: "BoSMidPaladin"
   components:
     - type: Loadout
       prototypes: [BoSMidPaladinGear]
@@ -30,7 +30,7 @@
 - type: entity
   parent: BoSMidPaladinCommander
   id: N14MobHumanBoSMidScribe
-  name: BoSMidScribe
+  name: "BoSMidScribe"
   components:
     - type: Loadout
       prototypes: [BoSMidScribeGear]
@@ -38,7 +38,7 @@
 - type: entity
   parent: BoSMidPaladinCommander
   id: N14MobHumanBoSMidSquire
-  name: BoSMidSquire
+  name: "BoSMidSquire"
   components:
     - type: Loadout
       prototypes: [BoSMidSquireGear]

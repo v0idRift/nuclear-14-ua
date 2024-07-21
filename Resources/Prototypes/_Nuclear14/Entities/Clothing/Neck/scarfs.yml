@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingNeckBase
   id: ClothingNeckRedScarf
-  name: red scarf
-  description: A short red scarf.
+  name: "червоний шарф"
+  description: "Короткий червоний шарф."
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/Neck/Bandanas/redscarf.rsi
@@ -18,8 +18,8 @@
 - type: entity
   parent: ClothingNeckBase
   id: ClothingNeckDesertMask 
-  name: desert mask
-  description: A short tan scarf.
+  name: "маска пустелі"
+  description: "Короткий шарф для засмаги."
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/Neck/Bandanas/desertmask.rsi
@@ -35,8 +35,8 @@
 - type: entity
   parent: ClothingNeckBase
   id: ClothingNeckBlueScarf
-  name: blue scarf
-  description: A short blue scarf.
+  name: "синій шарф"
+  description: "Короткий синій шарф."
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/Neck/Bandanas/bluescarf.rsi
@@ -52,8 +52,8 @@
 - type: entity
   parent: ClothingNeckBase
   id: ClothingNeckGreenScarf
-  name: green scarf
-  description: A short green scarf.
+  name: "зелений шарф"
+  description: "Короткий зелений шарф."
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/Neck/Bandanas/greenscarf.rsi
@@ -69,8 +69,8 @@
 - type: entity
   parent: ClothingNeckBase
   id: ClothingNeckOrangeScarf
-  name: orange scarf
-  description: A short orange scarf.
+  name: "помаранчевий шарф"
+  description: "Короткий помаранчевий шарф."
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/Neck/Bandanas/orangescarf.rsi
@@ -86,8 +86,8 @@
 - type: entity
   parent: ClothingNeckBase
   id: ClothingNeckBrownScarf
-  name: brown scarf
-  description: A short brown scarf.
+  name: "коричневий шарф"
+  description: "Короткий коричневий шарф."
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/Neck/Bandanas/brownscarf.rsi
@@ -103,8 +103,8 @@
 - type: entity
   parent: ClothingNeckBase
   id: ClothingNeckPatriotScarf
-  name: patriot scarf
-  description: A short very patriotic scarf.
+  name: "патріотичний шарф"
+  description: "Короткий дуже патріотичний шарф."
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/Neck/Bandanas/patriotscarf.rsi

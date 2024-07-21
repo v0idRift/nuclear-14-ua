@@ -1,8 +1,8 @@
 - type: entity
-  name: Psycho Raider
+  name: "Psycho Raider"
   parent: BaseMobHuman
   id: N14MobRaiderPsychoRanged
-  description: "Psychopatic raider who will shoot and rob just about anyone."
+  description: "Нальотчик-психопат, який застрелить і пограбує будь-кого."
   suffix: AI
   components:
     - type: NpcFactionMember
@@ -91,10 +91,10 @@
         state: inhand-right
 
 - type: entity
-  name: Psycho Raider Boss
+  name: "Psycho Raider Boss"
   parent: N14MobRaiderPsychoRanged
   id: N14MobRaiderBoss
-  description: "Boss of all those psycho raiders you see around this area. Good luck!"
+  description: "Бос усіх тих психопатів-рейдерів, яких ви бачите в цьому районі. Щасти вам!"
   suffix: AI
   components:
     - type: Gun

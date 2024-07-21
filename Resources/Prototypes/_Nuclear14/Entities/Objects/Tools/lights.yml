@@ -2,8 +2,8 @@
 - type: entity
   parent: FlashlightLantern
   id: N14Flashlight
-  name: flashlight
-  description: Brighten up your miserable life.
+  name: "ліхтарик"
+  description: "Скрасьте своє жалюгідне життя."
   components:
   - type: Sprite
     sprite: Objects/Tools/flashlight.rsi # N14TODO: SPRITE
@@ -30,8 +30,8 @@
 - type: entity
   parent: Flare
   id: N14Flare
-  name: flare
-  description: Creates light for a short period of time.
+  name: "спалах"
+  description: "Створює світло на короткий проміжок часу."
   components:
   - type: Sprite
     sprite: Objects/Misc/flare.rsi # N14TODO: Change

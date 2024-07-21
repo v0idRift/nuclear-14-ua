@@ -1,6 +1,6 @@
 - type: entity
   id: BaseLadder
-  name: ladder
+  name: "сходи"
   abstract: true
   placement:
     mode: SnapgridCenter
@@ -24,7 +24,7 @@
   parent: BaseLadder
   id: LadderTop
   suffix: top
-  description: The top of a ladder. Use it to go down.
+  description: "Верхівка сходів. Використовуй її, щоб спуститися вниз."
   components:
   - type: Sprite
     state: ladder_top
@@ -33,7 +33,7 @@
   parent: BaseLadder
   id: LadderBottom
   suffix: bottom
-  description: The bottom of a ladder. Use it to go up.
+  description: "Підніжжя сходів. Використовуй її, щоб піднятися."
   components:
   - type: Sprite
     state: ladder_bottom
@@ -53,9 +53,9 @@
 - type: entity
   parent: LadderTop
   id: LadderTopBunkerOpen
-  name: bunker entrance
+  name: "вхід до бункера"
   suffix: open
-  description: Looks like it leads down somewhere.
+  description: "Схоже, вона веде кудись вниз."
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Misc/laddersms13.rsi
@@ -64,9 +64,9 @@
 - type: entity
   parent: LadderTop
   id: LadderTopManholeOpen
-  name: manhole
+  name: "каналізаційний люк"
   suffix: open
-  description: Looks like it leads down somewhere.
+  description: "Схоже, вона веде кудись вниз."
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Misc/laddersms13.rsi
@@ -76,7 +76,7 @@
   parent: LadderTop
   id: LadderSquareTop
   suffix: square
-  description: Looks like it leads down somewhere.
+  description: "Схоже, вона веде кудись вниз."
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Misc/laddersms13.rsi
@@ -86,7 +86,7 @@
   parent: LadderBottom
   id: LadderSquareBottom
   suffix: bottom, square
-  description: The bottom of a ladder. Use it to go up.
+  description: "Підніжжя сходів. Використовуй її, щоб піднятися."
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Misc/laddersms13.rsi
@@ -108,7 +108,7 @@
   parent: LadderSquareBottom
   id: LadderSquareMid
   suffix: mid, square
-  description: The middle of a ladder. Up or down.
+  description: "Посередині сходів. Вгору або вниз."
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Misc/laddersms13.rsi
@@ -118,8 +118,8 @@
   parent: BaseLadder
   id: LadderRopeTop1
   suffix: rope, top
-  name: climbing rope
-  description: The top of a rope. Going down!
+  name: "альпіністська мотузка"
+  description: "Верхня частина мотузки. Спускаємося!"
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Misc/laddersms13.rsi
@@ -129,8 +129,8 @@
   parent: BaseLadder
   id: LadderRopeBottom1
   suffix: rope, bottom
-  name: climbing rope
-  description: The bottom of a rope. Going up!
+  name: "альпіністська мотузка"
+  description: "Внизу мотузка. Піднімаюся!"
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Misc/laddersms13.rsi
@@ -139,9 +139,9 @@
 - type: entity
   parent: BaseStructure
   id: LadderTopBunkerClosed
-  name: bunker entrance
+  name: "вхід до бункера"
   suffix: closed
-  description: A closed up entrance to a bunker.
+  description: "Закритий вхід до бункера."
   placement:
     mode: SnapgridCenter
   components:
@@ -157,9 +157,9 @@
 - type: entity
   parent: LadderTopBunkerClosed
   id: LadderTopManholeClosed
-  name: manhole cover
+  name: "кришка люка"
   suffix: closed
-  description: A closed up entrance to a bunker.
+  description: "Закритий вхід до бункера."
   components:
   - type: Sprite
     state: manhole_closed
@@ -170,7 +170,7 @@
   parent: BaseLadder
   id: LadderTopMetal
   suffix: top, metal, painted
-  description: The top of a ladder. Use it to go down.
+  description: "Верхівка сходів. Використовуй її, щоб спуститися вниз."
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Misc/ladder.rsi
@@ -187,7 +187,7 @@
   parent: LadderTopMetal
   id: LadderTopMetalPaint2
   suffix: top, metal, flaking
-  description: The top of a ladder. Use it to go down.
+  description: "Верхівка сходів. Використовуй її, щоб спуститися вниз."
   components:
   - type: Sprite
     layers:
@@ -203,7 +203,7 @@
   parent: LadderTopMetal
   id: LadderTopMetalPaint3
   suffix: top, metal, flaked
-  description: The top of a ladder. Use it to go down.
+  description: "Верхівка сходів. Використовуй її, щоб спуститися вниз."
   components:
   - type: Sprite
     layers:
@@ -219,7 +219,7 @@
   parent: LadderTopMetal
   id: LadderTopMetalRusted
   suffix: top, metal, rusted
-  description: The top of a ladder. Use it to go down. Rusty.
+  description: "Верхівка сходів. Використовуй її, щоб спуститися вниз. Расті."
   components:
   - type: Sprite
     layers:
@@ -230,7 +230,7 @@
   parent: LadderTopMetal
   id: LadderTopMetalDamaged
   suffix: top, metal
-  description: The top of a ladder. Use it to go down. This one looks damaged.
+  description: "Верхівка сходів. Використовуй її, щоб спуститися. Ця виглядає пошкодженою."
   components:
   - type: Sprite
     state: metal
@@ -238,9 +238,9 @@
 - type: entity
   parent: LadderTopMetal
   id: LadderTopRope
-  name: rope ladder
+  name: "мотузкові сходи"
   suffix: top, rope
-  description: The top of a ladder. Use it to go down.
+  description: "Верхівка сходів. Використовуй її, щоб спуститися вниз."
   components:
   - type: Sprite
     state: rope
@@ -250,7 +250,7 @@
   parent: LadderBottom
   id: LadderBottomMetal
   suffix: bottom, metal
-  description: The bottom of a ladder. Use it to go up.
+  description: "Підніжжя сходів. Використовуй її, щоб піднятися."
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Misc/ladder.rsi
@@ -260,7 +260,7 @@
   parent: LadderBottomMetal
   id: LadderBottomMetalPaint1
   suffix: bottom, metal, painted
-  description: The bottom of a ladder. Use it to go down.
+  description: "Нижня частина сходів. Використовуй її, щоб спуститися вниз."
   components:
   - type: Sprite
     layers:
@@ -276,7 +276,7 @@
   parent: LadderBottomMetal
   id: LadderBottomMetalPaint2
   suffix: bottom, metal, flaking
-  description: The bottom of a ladder. Use it to go down.
+  description: "Нижня частина сходів. Використовуй її, щоб спуститися вниз."
   components:
   - type: Sprite
     layers:
@@ -292,7 +292,7 @@
   parent: LadderBottomMetal
   id: LadderBottomMetalPaint3
   suffix: bottom, metal, flaked
-  description: The bottom of a ladder. Use it to go down.
+  description: "Нижня частина сходів. Використовуй її, щоб спуститися вниз."
   components:
   - type: Sprite
     layers:
@@ -308,7 +308,7 @@
   parent: LadderBottomMetal
   id: LadderBottomMetalDamaged
   suffix: bottom
-  description: The bottom of a ladder. Use it to go up. Looks damaged.
+  description: "Підніжжя сходів. По ній можна піднятися. Виглядає пошкодженою."
   components:
   - type: Sprite
     state: b_metal_damaged
@@ -317,7 +317,7 @@
   parent: LadderBottomMetal
   id: LadderBottomMetalRusted
   suffix: bottom, metal, rusted
-  description: The bottom of a ladder. Use it to go down. Rusty.
+  description: "Нижня частина сходів. Використовуй її, щоб спуститися. Расті."
   components:
   - type: Sprite
     layers:
@@ -327,9 +327,9 @@
 - type: entity
   parent: LadderBottomMetal
   id: LadderBottomRope
-  name: rope ladder
+  name: "мотузкові сходи"
   suffix: bottom, rope
-  description: The bottom of a ladder. Use it to go down.
+  description: "Нижня частина сходів. Використовуй її, щоб спуститися вниз."
   components:
   - type: Sprite
     state: b_rope
@@ -337,9 +337,9 @@
 - type: entity
   parent: LadderBottomMetal
   id: LadderBottomRopeDamaged
-  name: rope ladder
+  name: "мотузкові сходи"
   suffix: bottom, rope, damaged
-  description: The bottom of a ladder. Use it to go down. Looks dangerous.
+  description: "Нижня частина сходів. Використай її, щоб спуститися. Виглядає небезпечно."
   components:
   - type: Sprite
     state: b_rope_damaged
