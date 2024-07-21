@@ -168,8 +168,8 @@
 
 - type: gamePreset
   id: Waves
-  name: "Захист від хвиль у склепіннях"
-  description: "Захистіть сховище від хвиль нападників, які стають дедалі складнішими."
+  name: Vault Wave Defense
+  description: Defend the vault from waves of increasingly difficult attackers.
   showInVote: true
   rules:
     - Waves

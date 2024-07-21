@@ -1,9 +1,9 @@
 #MARK: Basic Kits
 - type: entity
-  name: "комплект стрільця"
+  name: rifleman kit
   parent: BaseItem
   id: KitBase
-  description: "ящик, Джая."
+  description: box, jaja.
   abstract: true
   components:
   - type: Sprite
@@ -17,10 +17,10 @@
       path: /Audio/Effects/unwrap.ogg
 
 - type: entity
-  name: "комплект стрільця"
+  name: rifleman kit
   parent: KitBase
   id: KitRifleman
-  description: "Ящик з усім необхідним для патрулювання пустиря солдатом NCR."
+  description: A crate containing all a NCR soldier needs to patrol on the wasteland.
   components:
   - type: Sprite
     state: rifleman
@@ -44,10 +44,10 @@
       path: /Audio/Effects/unwrap.ogg
 
 - type: entity
-  name: "комплект кулеметника"
+  name: gunner kit
   parent: KitBase
   id: KitGunner
-  description: "Ящик з усім необхідним кулеметнику NCR для патрулювання на пустирі."
+  description: A crate containing all a NCR machine gunner needs to patrol on the wasteland.
   components:
   - type: Sprite
     state: gunner
@@ -69,10 +69,10 @@
       path: /Audio/Effects/unwrap.ogg
 
 - type: entity
-  name: "комплект стрільця"
+  name: marksman kit
   parent: KitBase
   id: KitMarksman
-  description: "Ящик, що містить все необхідне стрільцю NCR для патрулювання на пустирі."
+  description: A crate containing all a NCR marksman needs to patrol on the wasteland.
   components:
   - type: Sprite
     state: marksman
@@ -93,10 +93,10 @@
       path: /Audio/Effects/unwrap.ogg
 
 - type: entity
-  name: "комплект стрільця"
+  name: pointman kit
   parent: KitBase
   id: KitPointman
-  description: "Ящик, що містить все необхідне для патрулювання пустиря."
+  description: A crate containing all a NCR pointman needs to patrol on the wasteland.
   components:
   - type: Sprite
     state: pointman
@@ -117,10 +117,10 @@
       path: /Audio/Effects/unwrap.ogg
 
 - type: entity
-  name: "набір для підвищення бойового духу"
+  name: morale booster kit
   parent: KitBase
   id: KitMorale
-  description: "Лише найвідданіші війська НКР мають низькоякісне спорядження, спеціальний підрозділ, створений лише для підняття бойового духу під час смертельних атак."
+  description: Only the most loyal troops of the NCR carry low quality equipment, a special troop made only to boost the morale during suicide charges.
   components:
   - type: Sprite
     state: pointman
@@ -141,10 +141,10 @@
       path: /Audio/Effects/unwrap.ogg
 
 - type: entity
-  name: "аптечка"
+  name: medic kit
   parent: KitBase
   id: KitMedic
-  description: "Ящик з усім необхідним медику NCR для патрулювання на пустирі."
+  description: A crate containing all a NCR medic needs to patrol on the wasteland.
   components:
   - type: Sprite
     state: medic
@@ -167,10 +167,10 @@
 #MARK: Special Kits
 
 - type: entity
-  name: "спеціальний комплект стрільця"
+  name: special rifleman kit
   parent: KitBase
   id: KitSpecialRifleman
-  description: "Ящик із сучасним озброєнням для військовослужбовців високого рангу та ветеранів."
+  description: A crate containing advance weaponry for high rank troops and veterans.
   components:
   - type: Sprite
     state: marksman
@@ -193,10 +193,10 @@
       path: /Audio/Effects/unwrap.ogg
 
 - type: entity
-  name: "спеціальний штурмовий комплект"
+  name: special assault kit
   parent: KitBase
   id: KitSpecialAssault
-  description: "Ящик із сучасним озброєнням для військовослужбовців високого рангу та ветеранів."
+  description: A crate containing advance weaponry for high rank troops and veterans.
   components:
   - type: Sprite
     state: rifleman
@@ -217,10 +217,10 @@
       path: /Audio/Effects/unwrap.ogg
 
 - type: entity
-  name: "спеціальний комплект навідника"
+  name: special gunner kit
   parent: KitBase
   id: KitSpecialGunner
-  description: "Ящик із сучасним озброєнням для військовослужбовців високого рангу та ветеранів."
+  description: A crate containing advance weaponry for high rank troops and veterans.
   components:
   - type: Sprite
     state: marksman
@@ -240,10 +240,10 @@
       path: /Audio/Effects/unwrap.ogg
 
 - type: entity
-  name: "спеціальний комплект стрільця"
+  name: special pointman kit
   parent: KitBase
   id: KitSpecialPointman
-  description: "Ящик із сучасним озброєнням для військовослужбовців високого рангу та ветеранів."
+  description: A crate containing advance weaponry for high rank troops and veterans.
   components:
   - type: Sprite
     state: pointman
@@ -266,10 +266,10 @@
 #MARK: Ranger Kits
 
 - type: entity
-  name: "сервісний набір рейнджера"
+  name: ranger service kit
   parent: KitBase
   id: KitServiceRanger
-  description: "Ящик зі зброєю для рейнджерів."
+  description: A crate containing advance weaponry for members of the rangers.
   components:
   - type: Sprite
     state: rifleman
@@ -291,10 +291,10 @@
       path: /Audio/Effects/unwrap.ogg
 
 - type: entity
-  name: "комплект стрільця рейнджера"
+  name: ranger rifleman kit
   parent: KitBase
   id: KitRiflemanRanger
-  description: "Ящик зі зброєю для рейнджерів."
+  description: A crate containing advance weaponry for members of the rangers.
   components:
   - type: Sprite
     state: rifleman
@@ -315,10 +315,10 @@
       path: /Audio/Effects/unwrap.ogg
 
 - type: entity
-  name: "комплект стрільця рейнджера"
+  name: ranger marksman kit
   parent: KitBase
   id: KitMarksmanRanger
-  description: "Ящик зі зброєю для рейнджерів."
+  description: A crate containing advance weaponry for members of the rangers.
   components:
   - type: Sprite
     state: marksman
@@ -339,10 +339,10 @@
       path: /Audio/Effects/unwrap.ogg
 
 - type: entity
-  name: "комплект для рейнджера CQB спеціаліста"
+  name: ranger CQB specialist kit
   parent: KitBase
   id: KitCQBRanger
-  description: "Ящик зі зброєю для рейнджерів."
+  description: A crate containing advance weaponry for members of the rangers.
   components:
   - type: Sprite
     state: pointman
@@ -365,10 +365,10 @@
       path: /Audio/Effects/unwrap.ogg
 
 - type: entity
-  name: "комплект рейнджера-слідопита"
+  name: ranger trailman kit
   parent: KitBase
   id: KitTrailmanRanger
-  description: "Схованка з речами ветерана-рейнджера."
+  description: A cache containing belongings of a veteran ranger.
   components:
   - type: Sprite
     state: rifleman
@@ -391,10 +391,10 @@
 #MARK: Veteran Kits
 
 - type: entity
-  name: "сервісний набір рейнджера"
+  name: ranger service kit
   parent: KitBase
   id: KitServiceRangerVeteran
-  description: "Схованка з речами ветерана-рейнджера."
+  description: A cache containing belongings of a veteran ranger.
   components:
   - type: Sprite
     state: rifleman
@@ -417,10 +417,10 @@
       path: /Audio/Effects/unwrap.ogg
 
 - type: entity
-  name: "комплект високоточної гвинтівки для ветеранів-рейнджерів"
+  name: veteran ranger precision rifle kit
   parent: KitBase
   id: KitRiflemanRangerVeteran
-  description: "Схованка з речами ветерана-рейнджера."
+  description: A cache containing belongings of a veteran ranger.
   components:
   - type: Sprite
     state: rifleman
@@ -442,10 +442,10 @@
       path: /Audio/Effects/unwrap.ogg
 
 - type: entity
-  name: "важкий снайперський комплект рейнджера-ветерана"
+  name: veteran ranger heavy sniper kit
   parent: KitBase
   id: KitHeavySniperRangerVeteran
-  description: "Схованка з речами ветерана-рейнджера."
+  description: A cache containing belongings of a veteran ranger.
   components:
   - type: Sprite
     state: marksman
@@ -467,10 +467,10 @@
       path: /Audio/Effects/unwrap.ogg
 
 - type: entity
-  name: "штурмовий комплект рейнджера-ветерана"
+  name: veteran ranger assault kit
   parent: KitBase
   id: KitAssaultRangerVeteran
-  description: "Схованка з речами ветерана-рейнджера."
+  description: A cache containing belongings of a veteran ranger.
   components:
   - type: Sprite
     state: rifleman
@@ -492,10 +492,10 @@
       path: /Audio/Effects/unwrap.ogg
 
 - type: entity
-  name: "комплект стрільця-ветерана рейнджера"
+  name: veteran ranger marksman kit
   parent: KitBase
   id: KitMarksmanRangerVeteran
-  description: "Схованка з речами ветерана-рейнджера."
+  description: A cache containing belongings of a veteran ranger.
   components:
   - type: Sprite
     state: marksman

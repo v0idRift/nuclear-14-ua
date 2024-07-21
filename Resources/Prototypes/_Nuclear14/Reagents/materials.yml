@@ -1,7 +1,7 @@
 - type: material
   id: Circuitry
   stackEntity: N14MaterialCircuitry1
-  name: "матеріали-схемотехніка" # N14TODO: Localise
+  name: materials-circuitry # N14TODO: Localise
   icon: { sprite: /Textures/_Nuclear14/Objects/Misc/materials.rsi, state: circuits_3 }
   color: "#8A9A5B"
   price: 0.1
@@ -63,7 +63,7 @@
 - type: material
   id: Charcoal
   stackEntity: Charcoal
-  name: "матеріали - деревне вугілля"
+  name: materials-charcoal
   icon: { sprite: /Textures/_Nuclear14/Objects/Misc/materials.rsi, state: powder_lead }
   color: "#1D3B3E"
   price: 0.15
@@ -71,7 +71,7 @@
 - type: material
   id: Fertilizer
   stackEntity: FertilizerOre1
-  name: "матеріали-добрива"
+  name: materials-fertilizer
   icon: { sprite: /Textures/_Nuclear14/Objects/Specific/Hydroponics/equipment.rsi, state: daesack2 }
   color: "#1D3B3E"
   price: 0.15
@@ -127,7 +127,7 @@
 - type: material
   id: N14Timber
   stackEntity: N14FloraLogTimber
-  name: "матеріали-деревина"
+  name: materials-timber
   icon: { sprite: _Nuclear14/Structures/Decoration/flora.rsi, state: tree_timber }
   color: "#1D3B3E"
   price: 0.15

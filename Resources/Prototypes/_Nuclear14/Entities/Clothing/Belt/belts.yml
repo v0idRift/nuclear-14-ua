@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingBeltStorageBase
   id: ClothingBeltBoSWebbing
-  name: "Носій BoS"
-  description: "Простий чорний кейс, здатний вмістити всі види боєприпасів."
+  name: BoS carrier
+  description: A simple black carrier capable of holding all kind of ammo.
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/Belt/boswebbing.rsi
@@ -20,8 +20,8 @@
 - type: entity
   parent: ClothingBeltStorageBase
   id: ClothingBeltMilitary
-  name: "військовий авіаносець"
-  description: "Простий коричневий патронташ, здатний вмістити всі види боєприпасів, широко використовувався військовими в довоєнний час."
+  name: military carrier
+  description: A simple brown carrier capable of holding all kind of ammo, it was commonly used by the military of the pre-war.
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/Belt/militarywebbing.rsi
@@ -39,8 +39,8 @@
 - type: entity
   parent: ClothingBeltStorageBase
   id: ClothingBeltNCR
-  name: "Ремінь NCR"
-  description: "Шкіряний ремінь, розроблений NCR для своїх військ."
+  name: NCR belt
+  description: A leather belt designed by the NCR for their troops.
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/Belt/ncrbelt.rsi
@@ -58,8 +58,8 @@
 - type: entity
   parent: ClothingBeltStorageBase
   id: ClothingBeltNCRPouches
-  name: "Сумки-бандольє NCR"
-  description: "Шкіряний бандольєр з кількома чохлами, розроблений NCR для своїх військ."
+  name: NCR pouches bandolier
+  description: A leather bandolier with multiple pouches designed by the NCR for their troops.
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/Belt/ncrpouches.rsi
@@ -77,8 +77,8 @@
 - type: entity
   parent: ClothingBeltStorageBase
   id: ClothingBeltNCRHarness
-  name: "NCR Harness"
-  description: "Шкіряний ремінь, розроблений NCR для своїх військ."
+  name: NCR Harness
+  description: A leather harness designed by the NCR for their troops.
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/Belt/ncrharness.rsi
@@ -96,8 +96,8 @@
 - type: entity
   parent: ClothingBeltStorageBase
   id: ClothingBeltNCRBandolier
-  name: "бандольє"
-  description: "Бандольєр зазвичай використовується для перенесення окремих набоїв або патронів."
+  name: bandolier
+  description: A bandolier commonly used to carry single shells or cartridges.
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/Belt/bandolier.rsi
@@ -113,8 +113,8 @@
 - type: entity
   parent: ClothingBeltStorageBase
   id: ClothingBeltRope
-  name: "мотузковий ремінь"
-  description: "Ремінь ручної роботи з мотузкою, не найкращий, але принаймні працює."
+  name: rope belt
+  description: A handmade belt with a rope, not the best but at least works.
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/Belt/ropebelt.rsi
@@ -124,8 +124,8 @@
 - type: entity
   parent: ClothingBeltStorageBase
   id: ClothingBeltQuiverSpear
-  name: "сагайдак для списа"
-  description: "Простий сагайдак для зберігання списів"
+  name: spear quiver
+  description: A simple quiver for holding spears
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/Belt/quiver_spear.rsi
@@ -147,8 +147,8 @@
 - type: entity
   parent: ClothingBeltStorageBase
   id: ClothingBeltRevolver
-  name: "кобура для револьвера"
-  description: "Може вмістити револьвер і спідлоадер."
+  name: revolver holster
+  description: Can hold a revolver and speedloaders.
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/Belt/revolverholster.rsi
@@ -164,7 +164,7 @@
 - type: entity
   parent: ClothingBeltRevolver
   id: ClothingBeltCowboy
-  name: "ковбойський ремінь"
+  name: cowboy belt
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/Belt/cowboy.rsi
@@ -174,8 +174,8 @@
 - type: entity
   parent: ClothingBeltNCR
   id: ClothingBeltEnclave
-  name: "Пояс анклаву"
-  description: "Шкіряний ремінь, розроблений Анклавом."
+  name: Enclave belt
+  description: A leather belt designed by the Enclave.
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/Belt/enclavebelt.rsi
@@ -185,7 +185,7 @@
 - type: entity
   parent: ClothingBeltPlant
   id: ClothingBeltFarmer
-  name: "фермерський пояс"
+  name: farmers belt
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/Belt/gardener.rsi

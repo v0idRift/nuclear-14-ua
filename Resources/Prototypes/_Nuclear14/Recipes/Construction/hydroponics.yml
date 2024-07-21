@@ -1,11 +1,11 @@
 - type: construction
-  name: "ґрунт"
+  name: soil
   id: N14Soil
   graph: N14Soil
   startNode: start
   targetNode: Soil
   category: construction-category-utility
-  description: "Ділянка ґрунту для вирощування рослин."
+  description: A patch of soil for growing things.
   hide: false
   icon:
     sprite: Structures/Hydroponics/misc.rsi
@@ -17,13 +17,13 @@
     - !type:TileNotBlocked
 
 - type: construction
-  name: "сівалка"
+  name: planter
   id: N14Planter
   graph: N14Planter
   startNode: start
   targetNode: Planter
   category: construction-category-utility
-  description: "Кашпо для вирощування рослин."
+  description: A planter for growing things in.
   icon:
     sprite: _Nuclear14/Structures/Hydroponics/planterbox.rsi
     state: icon

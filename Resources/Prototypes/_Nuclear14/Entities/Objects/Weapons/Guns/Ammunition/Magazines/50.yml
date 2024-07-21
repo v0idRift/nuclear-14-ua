@@ -1,6 +1,6 @@
 - type: entity
   id: BaseMagazine50AMR
-  name: "магазин (.50 BMG)"
+  name: "magazine (.50 BMG)"
   parent: BaseItem
   abstract: true
   components:
@@ -35,7 +35,7 @@
 
 - type: entity
   id: N14Magazine50AMR
-  name: "магазин (.50 BMG)"
+  name: "magazine (.50 BMG)"
   parent: BaseMagazine50AMR
   components:
   - type: BallisticAmmoProvider

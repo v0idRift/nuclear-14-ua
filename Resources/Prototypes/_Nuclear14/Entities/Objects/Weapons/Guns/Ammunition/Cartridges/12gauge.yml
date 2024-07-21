@@ -1,6 +1,6 @@
 - type: entity
   id: N14BaseShell12Shotgun
-  name: "гільза (12 калібр)"
+  name: shell (12 gauge)
   parent: BaseCartridge
   abstract: true
   components:
@@ -24,7 +24,7 @@
 
 - type: entity
   id: N14ShellShotgun12
-  name: "гільза (12 калібр)"
+  name: shell (12 gauge)
   parent: N14BaseShell12Shotgun
   components:
   - type: Sprite

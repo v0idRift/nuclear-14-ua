@@ -1,6 +1,6 @@
 - type: entity
   id: N14BaseShell20Shotgun
-  name: "снаряд (20 калібр)"
+  name: shell (20 gauge)
   parent: BaseCartridge
   abstract: true
   components:
@@ -24,7 +24,7 @@
 
 - type: entity
   id: N14ShellShotgun20
-  name: "снаряд (20 калібр)"
+  name: shell (20 gauge)
   parent: N14BaseShell20Shotgun
   components:
   - type: Sprite
