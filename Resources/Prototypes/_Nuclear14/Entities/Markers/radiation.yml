@@ -1,5 +1,5 @@
 - type: entity
-  name: Marker Radiation
+  name: "Маркерне випромінювання"
   id: MarkerRadiation1
   parent: MarkerBase
   suffix: intensity 1

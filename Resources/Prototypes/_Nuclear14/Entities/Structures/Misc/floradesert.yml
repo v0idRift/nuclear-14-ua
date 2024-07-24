@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseTree
   id: N14FloraDesertCactus
-  name: Cactus
-  description: A cactus. Prickly.
+  name: "Кактус"
+  description: "Кактус. Колючий."
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Misc/floradesert.rsi
@@ -21,8 +21,8 @@
 - type: entity
   parent: N14FloraDesertCactus
   id: N14FloraDesertTree1
-  name: "tree yucca"
-  description: A Joshua Tree.
+  name: "деревовидна юка"
+  description: "Дерево Ісуса Навина."
   components:
   - type: Sprite
     state: joshua_1
@@ -60,7 +60,7 @@
 - type: entity
   parent: N14FloraDesertCactus
   id: N14FloraTreeBald
-  name: bald tree
+  name: "лисе дерево"
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Misc/trees-ms.rsi
@@ -69,7 +69,7 @@
 - type: entity
   parent: N14FloraTreeBald
   id: N14FloraTreePine
-  name: pine tree
+  name: "сосна"
   components:
   - type: Sprite
     layers:
@@ -84,7 +84,7 @@
 - type: entity
   parent: N14FloraTreeBald
   id: N14FloraTreeDead1
-  name: dead tree
+  name: "мертве дерево"
   components:
   - type: Sprite
     layers:

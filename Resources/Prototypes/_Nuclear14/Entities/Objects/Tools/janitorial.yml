@@ -1,8 +1,8 @@
 - type: entity
   parent: MopItem
-  name: mop
+  name: "швабра"
   id: N14Mop
-  description: A mop that can't be stopped, viscera cleanup detail awaits.
+  description: "Швабра, яку неможливо зупинити, чекає детальне очищення нутрощів."
   components:
   - type: Sprite
     sprite: Objects/Specific/Janitorial/mop.rsi # N14TODO: New Sprite?
@@ -11,8 +11,8 @@
 - type: entity
   parent: MopBucket
   id: N14MopBucket
-  name: mop bucket
-  description: Holds water and the tears of the janitor.
+  name: "відро для швабри"
+  description: "Тримає воду і сльози двірника."
   components:
   - type: Sprite
     sprite: Objects/Specific/Janitorial/janitorial.rsi
@@ -28,7 +28,7 @@
   parent: N14MopBucket
   id: N14MopBucketFull
   suffix: full
-  name: mop bucket
+  name: "відро для швабри"
   components:
     - type: Sprite
       layers:

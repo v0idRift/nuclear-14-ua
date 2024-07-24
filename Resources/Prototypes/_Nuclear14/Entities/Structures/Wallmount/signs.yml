@@ -5,8 +5,8 @@
 - type: entity
   parent: N14SignBase
   id: N14SignBar
-  name: bar sign
-  description: Bar! Get drunk here.
+  name: "барна вивіска"
+  description: "Бар! Напивайся тут."
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Wallmounts/signs_32x32.rsi
@@ -15,8 +15,8 @@
 - type: entity
   parent: N14SignBar
   id: N14SignClinic
-  name: clinic sign
-  description: A clinic sign. Hopefully they have meds.
+  name: "вивіска клініки"
+  description: "Вивіска клініки. Сподіваюся, у них є ліки."
   components:
   - type: Sprite
     state: clinic
@@ -24,8 +24,8 @@
 - type: entity
   parent: N14SignBar
   id: N14SignOpen1
-  name: open sign
-  description: Open for business. Maybe.
+  name: "відкрита вивіска"
+  description: "Відкрито для бізнесу. Можливо."
   components:
   - type: Sprite
     state: open
@@ -54,8 +54,8 @@
 - type: entity
   parent: N14SignBar
   id: N14SignForRent
-  name: for rent sign
-  description: A sign advertising a place for rent.
+  name: "вивіска \"Здається в оренду"
+  description: "Вивіска з оголошенням про оренду житла."
   components:
   - type: Sprite
     state: rent
@@ -63,8 +63,8 @@
 - type: entity
   parent: N14SignBase
   id: N14SignNotice
-  name: notice sign
-  description: NOTICE!
+  name: "попереджувальний знак"
+  description: "УВАГА!"
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Wallmounts/walldecor.rsi
@@ -73,8 +73,8 @@
 - type: entity
   parent: N14SignNotice
   id: N14SignDanger
-  name: danger sign
-  description: Danger.
+  name: "знак небезпеки"
+  description: "Небезпека."
   components:
   - type: Sprite
     state: danger_sign
@@ -82,8 +82,8 @@
 - type: entity
   parent: N14SignNotice
   id: N14WallDecorExitsign
-  name: exit sign
-  description: A sign that says EXIT. I wonder what it means.
+  name: "знак виходу"
+  description: "Вивіска з написом \"ВИХІД\". Цікаво, що це означає."
   components:
   - type: Sprite
     state: exit
@@ -93,8 +93,8 @@
 - type: entity
   parent: N14SignBar
   id: N14SignBazaarOn
-  name: bazaar sign
-  description: A sign for a bazaar. How bizarre.
+  name: "базарна вивіска"
+  description: "Вивіска базару. Як дивно."
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Wallmounts/signs_64x32.rsi
@@ -103,8 +103,8 @@
 - type: entity
   parent: N14SignBazaarOn
   id: N14SignHotel
-  name: hotel sign
-  description: A sign for a hotel. Get a room!
+  name: "вивіска готелю"
+  description: "Вивіска готелю. Зніміть номер!"
   components:
   - type: Sprite
     state: hotel
@@ -112,8 +112,8 @@
 - type: entity
   parent: N14SignBazaarOn
   id: N14SignPrivateProperty
-  name: private property sign
-  description: A private property sign.
+  name: "знак приватної власності"
+  description: "Знак приватної власності."
   components:
   - type: Sprite
     state: private
@@ -121,8 +121,8 @@
 - type: entity
   parent: N14SignBazaarOn
   id: N14SignOpenBig
-  name: open sign
-  description: We are open sign. I hope so.
+  name: "відкрита вивіска"
+  description: "Ми відкриті. Сподіваюся, що так."
   components:
   - type: Sprite
     state: we_open_open
@@ -130,8 +130,8 @@
 - type: entity
   parent: N14SignBazaarOn
   id: N14SignWorkersOnly
-  name: workers only sign
-  description: No tresspassing!
+  name: "працівники лише підписують"
+  description: "Ніяких переходів!"
   components:
   - type: Sprite
     state: workers
@@ -141,8 +141,8 @@
 - type: entity
   parent: N14SignBase
   id: N14SignBarstowStrongExpress
-  name: Barstow Strong Express sign
-  description: A sign for Barstow Strong Express.
+  name: "Знак Barstow Strong Express"
+  description: "Вивіска \"Барстоу Стронг Експрес\"."
   components:
   - type: Sprite
     scale: 0.5, 0.5
@@ -152,8 +152,8 @@
 - type: entity
   parent: N14SignBarstowStrongExpress
   id: N14SignMassFusion
-  name: Mass Fusion sign
-  description: A sign for Mass Fusion.
+  name: "Знак термоядерного синтезу"
+  description: "Знак термоядерного синтезу."
   components:
   - type: Sprite
     state: massfusion
@@ -161,8 +161,8 @@
 - type: entity
   parent: N14SignBarstowStrongExpress
   id: N14SignRedRocket
-  name: Red Rocket sign
-  description: A sign for Red Rocket. Diesel and Fusion.
+  name: "Знак \"Червона ракета"
+  description: "Вивіска \"Червоної ракети\". Дизель і термоядерний синтез."
   components:
   - type: Sprite
     state: redrocket
@@ -172,8 +172,8 @@
 - type: entity
   parent: N14SignBase
   id: N14SignGroceries
-  name: Groceries sign
-  description: A sign for Cornucopia Fresh Groceries.
+  name: "Вивіска \"Продукти"
+  description: "Вивіска \"Рогу достатку\"."
   components:
   - type: Sprite
     scale: 0.3, 0.3
@@ -185,8 +185,8 @@
 - type: entity
   parent: N14SignBase
   id: N14SignAmeliaEspresso
-  name: Amelia Espresso sign
-  description: A sign for a coffee place.
+  name: "Вивіска Amelia Espresso"
+  description: "Вивіска для кав'ярні."
   components:
   - type: Sprite
     scale: 0.5, 0.5
@@ -196,8 +196,8 @@
 - type: entity
   parent: N14SignAmeliaEspresso
   id: N14SignBeantownBrewery
-  name: Beantown Brewery sign
-  description: A sign for Beantown Brewery.
+  name: "Вивіска Beantown Brewery"
+  description: "Вивіска пивоварні Beantown."
   components:
   - type: Sprite
     state: beantown_brewery
@@ -205,8 +205,8 @@
 - type: entity
   parent: N14SignAmeliaEspresso
   id: N14SignFizzys
-  name: Fizzy's sign
-  description: A sign for Fizzys fountain drinks.
+  name: "Знак Фіззі"
+  description: "Вивіска для фонтанних напоїв Fizzys."
   components:
   - type: Sprite
     state: fizzys
@@ -214,8 +214,8 @@
 - type: entity
   parent: N14SignAmeliaEspresso
   id: N14SignFlyHorizon
-  name: Fly Horizon Skyways sign
-  description: An advert for Fly Horizon Skyways.
+  name: "Вивіска Fly Horizon Skyways"
+  description: "Реклама авіакомпанії Fly Horizon Skyways."
   components:
   - type: Sprite
     state: flyhorizonskyways
@@ -223,8 +223,8 @@
 - type: entity
   parent: N14SignAmeliaEspresso
   id: N14SignHubrisComics
-  name: Hubris Comics sign
-  description: A sign for Hubris Comics.
+  name: "Вивіска Hubris Comics"
+  description: "Вивіска для Hubris Comics."
   components:
   - type: Sprite
     state: hubris_comics
@@ -232,8 +232,8 @@
 - type: entity
   parent: N14SignAmeliaEspresso
   id: N14SignMamaDolces
-  name: Mama Dolce's sign
-  description: A sign for Mama Dolce's food processing plant.
+  name: "Знак Мами Дольче"
+  description: "Вивіска харчової фабрики \"Мама Дольче\"."
   components:
   - type: Sprite
     state: mamadolces
@@ -241,8 +241,8 @@
 - type: entity
   parent: N14SignAmeliaEspresso
   id: N14SignSchoelt
-  name: Schoelt sign
-  description: A sign for Schoelt's propane fuels.
+  name: "Знак Шельт"
+  description: "Вивіска для пропанового палива Schoelt."
   components:
   - type: Sprite
     state: schoelt
@@ -250,8 +250,8 @@
 - type: entity
   parent: N14SignAmeliaEspresso
   id: N14SignSullivans
-  name: Sullivan's sign
-  description: A sign for Sullivan's Irish bar.
+  name: "Ознака Саллівана"
+  description: "Вивіска ірландського бару Sullivan's."
   components:
   - type: Sprite
     state: sullivans
@@ -259,8 +259,8 @@
 - type: entity
   parent: N14SignAmeliaEspresso
   id: N14SignTheJerkShakes
-  name: The Jerk sign
-  description: A sign for The Jerk fountain drinks and shakes.
+  name: "Знак \"Придурок"
+  description: "Вивіска фонтану The Jerk - напої та шейки."
   components:
   - type: Sprite
     state: thejerk_shakes
@@ -268,8 +268,8 @@
 - type: entity
   parent: N14SignAmeliaEspresso
   id: N14SignWickedShipping
-  name: Whicked Shipping sign
-  description: A sign for Whicked Shipping Co.
+  name: "Знак нечестивого судноплавства"
+  description: "Вивіска Whicked Shipping Co."
   components:
   - type: Sprite
     state: wicked_shipping

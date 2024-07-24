@@ -1,8 +1,8 @@
 ﻿- type: entity
   id: N14CookingStove
   parent: KitchenElectricGrill
-  name: stove
-  description: A pre-war stove for cooking things.
+  name: "піч"
+  description: "Довоєнна піч для приготування їжі."
   components:
   - type: Physics
   # - type: Fixtures

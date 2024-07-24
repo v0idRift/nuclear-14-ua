@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseItem
   id: N14JunkItemBase
-  name: junk
-  description: it's junk!
+  name: "мотлох"
+  description: "це мотлох!"
   abstract: true
   components:
   - type: Sprite
@@ -15,8 +15,8 @@
 - type: entity
   parent: N14JunkItemBase
   id: N14JunkItemBaseGlass # Parent anything made from glass to this
-  name: junk
-  description: it's junk!
+  name: "мотлох"
+  description: "це мотлох!"
   abstract: true
   components:
   - type: Damageable
@@ -107,8 +107,8 @@
 - type: entity
   parent: N14JunkItemBaseContainer
   id: N14JunkAbraxoCleaner
-  name: Abraxo Cleaner
-  description: Abraxo brand detergent.
+  name: "Очищувач Abraxo Cleaner"
+  description: "Пральний порошок марки Abraxo."
   components:
   - type: Sprite
     state: abraxo
@@ -128,8 +128,8 @@
 - type: entity
   parent: N14JunkItemBasePlastic
   id: N14Junk8Ball
-  name: 8 Ball
-  description: A pool eight-ball.
+  name: "8 Ball"
+  description: "Більярдний вісімка."
   components:
   - type: Sprite
     state: 8_ball
@@ -138,8 +138,8 @@
 - type: entity
   parent: N14Junk8Ball
   id: N14JunkBaseball
-  name: baseball
-  description: A worn baseball.
+  name: "бейсбол"
+  description: "Поношений бейсбольний м'яч."
   components:
   - type: Sprite
     state: baseball
@@ -147,8 +147,8 @@
 - type: entity
   parent: N14JunkItemBaseMetal
   id: N14JunkCoffeepot
-  name: coffee pot
-  description: A large metal coffee serving pot.
+  name: "кавник"
+  description: "Велика металева каструля для подачі кави."
   components:
   - type: Sprite
     state: coffeepot
@@ -156,8 +156,8 @@
 - type: entity
   parent: N14JunkItemBaseMetal
   id: N14JunkCookpot
-  name: cook pot
-  description: A large metal cooking pot.
+  name: "каструля"
+  description: "Велика металева каструля."
   components:
   - type: Sprite
     state: cookpot
@@ -165,8 +165,8 @@
 - type: entity
   parent: N14JunkItemBase
   id: N14JunkCrutch
-  name: crutch
-  description: An old wooden crutch.
+  name: "милиця"
+  description: "Стара дерев'яна милиця."
   components:
   - type: Sprite
     state: crutch
@@ -174,8 +174,8 @@
 - type: entity
   parent: N14JunkItemBasePlastic
   id: N14JunkDuctTape
-  name: duct tape
-  description: A roll of sticky duct tape.
+  name: "клейка стрічка"
+  description: "Рулон липкої клейкої стрічки."
   components:
   - type: Sprite
     state: duct_tape
@@ -183,8 +183,8 @@
 - type: entity
   parent: N14JunkItemBaseMetal
   id: N14JunkIron
-  name: iron
-  description: A small iron for pressing clothes.
+  name: "залізо"
+  description: "Невелика праска для прасування одягу."
   components:
   - type: Sprite
     state: iron
@@ -196,8 +196,8 @@
 - type: entity
   parent: N14JunkItemBaseMetal
   id: N14JunkLunchbox
-  name: lunchbox
-  description: A small vault-tec branded lunchbox.
+  name: "ланч-бокс"
+  description: "Невеличкий ланч-бокс під брендом vault-tec."
   components:
   - type: Sprite
     state: lunchbox
@@ -205,8 +205,8 @@
 - type: entity
   parent: N14JunkItemBaseMetal
   id: N14JunkTeapot
-  name: teapot
-  description: A metal teapot for serving tea.
+  name: "чайник"
+  description: "Металевий чайник для подачі чаю."
   components:
   - type: Sprite
     state: teapot
@@ -214,8 +214,8 @@
 - type: entity
   parent: N14JunkItemBasePlastic
   id: N14JunkTimer
-  name: timer
-  description: An old egg timer. Still useful.
+  name: "таймер"
+  description: "Старий таймер для яєць. Все ще корисний."
   components:
   - type: Sprite
     state: timer
@@ -223,8 +223,8 @@
 - type: entity
   parent: N14JunkItemBaseMetal
   id: N14JunkTincan
-  name: tin can
-  description: An old metal can. Probably had food in it.
+  name: "бляшанка"
+  description: "Стара металева бляшанка. Мабуть, у ній була їжа."
   components:
   - type: Sprite
     state: tincan
@@ -232,8 +232,8 @@
 - type: entity
   parent: N14JunkItemBaseMetal
   id: N14JunkToaster
-  name: toaster
-  description: A pre-war toaster. Insert bread.
+  name: "тостер"
+  description: "Довоєнний тостер. Вставте хліб."
   components:
   - type: Sprite
     state: toaster
@@ -241,8 +241,8 @@
 - type: entity
   parent: N14JunkItemBasePlastic
   id: N14JunkToyNukaTruck
-  name: toy Nuka-Cola truck
-  description: An old Nuka-Cola truck toy.
+  name: "іграшкова вантажівка Nuka-Cola"
+  description: "Стара іграшкова вантажівка \"Нука-Кола\"."
   components:
   - type: Sprite
     state: toy_Nuka_truck
@@ -250,8 +250,8 @@
 - type: entity
   parent: N14JunkItemBasePlastic
   id: N14JunkToyRacecar
-  name: toy race car
-  description: An old toy race car.
+  name: "іграшкова гоночна машина"
+  description: "Стара іграшкова гоночна машина."
   components:
   - type: Sprite
     state: toy_race_car
@@ -259,8 +259,8 @@
 - type: entity
   parent: N14JunkItemBaseContainer
   id: N14JunkTurpentine
-  name: turpentine
-  description: A can of turps.
+  name: "скипидар"
+  description: "Бляшанка з-під консервів."
   components:
   - type: Sprite
     state: turpentine
@@ -274,8 +274,8 @@
 - type: entity
   parent: N14JunkItemBaseMetal
   id: N14JunkVaultCanteen
-  name: vault canteen
-  description: A canteen branded with vault-113
+  name: "сховище їдальні"
+  description: "Їдальня, брендована сховищем-113"
   components:
   - type: Sprite
     state: vault_113_canteen
@@ -302,8 +302,8 @@
 - type: entity
   parent: N14JunkItemBaseContainer
   id: N14JunkWonderglue
-  name: Wonderglue
-  description: A bottle of old Wonderglue.
+  name: "Wonderglue"
+  description: "Пляшка старого \"Вондерґлю\"."
   components:
   - type: Sprite
     state: wonderglue
@@ -319,8 +319,8 @@
 - type: entity
   parent: N14JunkItemBaseMetal
   id: N14JunkGunpartsAction
-  name: gun action (part)
-  description: An action from a bolt action gun.
+  name: "дія гармати (частина)"
+  description: "Дія від затворної рушниці."
   components:
   - type: Sprite
     state: action
@@ -328,8 +328,8 @@
 - type: entity
   parent: N14JunkItemBaseMetal
   id: N14JunkGunpartsAdvancedFrame
-  name: gun frame (part)
-  description: An advanced gun frame.
+  name: "рама гармати (частина)"
+  description: "Удосконалена гарматна рама."
   components:
   - type: Sprite
     state: advancedframe
@@ -337,8 +337,8 @@
 - type: entity
   parent: N14JunkItemBaseMetal
   id: N14JunkGunpartsBarrel
-  name: gun barrel (part)
-  description: An gun barrel.
+  name: "ствол гармати (частина)"
+  description: "Ствол рушниці."
   components:
   - type: Sprite
     state: barrel
@@ -346,8 +346,8 @@
 - type: entity
   parent: N14JunkItemBaseMetal
   id: N14JunkGunpartsBolt
-  name: gun bolt(part)
-  description: A bolt for a gun.
+  name: "затвор пістолета (деталь)"
+  description: "Затвор для пістолета."
   components:
   - type: Sprite
     state: bolt
@@ -355,8 +355,8 @@
 - type: entity
   parent: N14JunkItemBaseMetal
   id: N14JunkGunpartsFrame
-  name: gun frame(part)
-  description: A frame for a gun.
+  name: "рама (частина) гармати"
+  description: "Рамка для пістолета."
   components:
   - type: Sprite
     state: gunframe
@@ -364,8 +364,8 @@
 - type: entity
   parent: N14JunkItemBaseMetal
   id: N14JunkGunpartsFramePistol
-  name: pistol frame(part)
-  description: A frame for a pistol.
+  name: "рамка (частина) пістолета"
+  description: "Рамка для пістолета."
   components:
   - type: Sprite
     state: pistolframe
@@ -373,8 +373,8 @@
 - type: entity
   parent: N14JunkItemBaseMetal
   id: N14JunkGunpartsReceiver
-  name: receiver(part)
-  description: A receiver for a gun.
+  name: "приймач(частина)"
+  description: "Ствол для пістолета."
   components:
   - type: Sprite
     state: receiver
@@ -382,8 +382,8 @@
 - type: entity
   parent: N14JunkItemBaseMetal
   id: N14JunkGunpartsRecoilComp
-  name: recoil compensator(part)
-  description: A recoil compensator for a gun.
+  name: "компенсатор віддачі (деталь)"
+  description: "Компенсатор віддачі для пістолета."
   components:
   - type: Sprite
     state: recoilcomp
@@ -391,8 +391,8 @@
 - type: entity
   parent: N14JunkItemBaseMetal
   id: N14JunkGunpartsRifleFrame
-  name: rifle frame(part)
-  description: A frame for a rifle.
+  name: "рамка (частина) гвинтівки"
+  description: "Рамка для гвинтівки."
   components:
   - type: Sprite
     state: rifleframe
@@ -400,8 +400,8 @@
 - type: entity
   parent: N14JunkItemBaseMetal
   id: N14JunkGunpartsRifleStock
-  name: rifle stock(part)
-  description: A stock for a rifle.
+  name: "ложа (частина) гвинтівки"
+  description: "Ложа для гвинтівки."
   components:
   - type: Sprite
     state: riflestock
@@ -409,8 +409,8 @@
 - type: entity
   parent: N14JunkItemBaseMetal
   id: N14JunkGunpartsRifleScope
-  name: rifle scope(part)
-  description: A scope for a rifle.
+  name: "оптичний приціл (частина)"
+  description: "Приціл для гвинтівки."
   components:
   - type: Sprite
     state: scope
@@ -418,8 +418,8 @@
 - type: entity
   parent: N14JunkItemBaseMetal
   id: N14JunkGunpartsStock
-  name: stock(part)
-  description: A metal stock for a gun.
+  name: "запас(частина)"
+  description: "Металевий приклад для рушниці."
   components:
   - type: Sprite
     state: stock
@@ -427,8 +427,8 @@
 - type: entity
   parent: N14JunkItemBase
   id: N14JunkGunpartsStockWood
-  name: stock(part)
-  description: A wooden stock for a gun.
+  name: "запас(частина)"
+  description: "Дерев'яна ложа для рушниці."
   components:
   - type: Sprite
     state: stockwood
@@ -436,8 +436,8 @@
 - type: entity
   parent: N14JunkItemBaseMetal
   id: N14JunkGunpartsTrigger
-  name: trigger(part)
-  description: A trigger mechanism for a gun.
+  name: "тригер(частина)"
+  description: "Спусковий механізм для пістолета."
   components:
   - type: Sprite
     state: trigger
@@ -445,8 +445,8 @@
 - type: entity
   parent: N14JunkItemBaseMetal
   id: N14JunkGunpartsWeaponParts1
-  name: energy weapon parts
-  description: A collection of broken weapon parts.
+  name: "частини енергетичної зброї"
+  description: "Колекція зламаних частин зброї."
   components:
   - type: Sprite
     state: weapon_parts_1
@@ -454,8 +454,8 @@
 - type: entity
   parent: N14JunkItemBaseMetal
   id: N14JunkGunpartsWeaponParts2
-  name: energy weapon parts
-  description: A collection of broken weapon parts.
+  name: "частини енергетичної зброї"
+  description: "Колекція зламаних частин зброї."
   components:
   - type: Sprite
     state: weapon_parts_2
@@ -463,8 +463,8 @@
 - type: entity
   parent: N14JunkItemBaseMetal
   id: N14JunkGunpartsWeaponParts3
-  name: energy weapon parts
-  description: A collection of broken weapon parts.
+  name: "частини енергетичної зброї"
+  description: "Колекція зламаних частин зброї."
   components:
   - type: Sprite
     state: weapon_parts_3
@@ -474,8 +474,8 @@
 - type: entity
   parent: N14JunkItemBaseMetal
   id: N14JunkComponentBoard1
-  name: circuit board
-  description: A silver looking circuit board.
+  name: "друкована плата"
+  description: "Срібляста на вигляд друкована плата."
   components:
   - type: Sprite
     state: board_1
@@ -483,8 +483,8 @@
 - type: entity
   parent: N14JunkItemBaseMetal
   id: N14JunkComponentBoard2
-  name: circuit board
-  description: A gold looking circuit board.
+  name: "друкована плата"
+  description: "Золотиста друкована плата."
   components:
   - type: Sprite
     state: board_2
@@ -492,8 +492,8 @@
 - type: entity
   parent: N14JunkItemBaseMetal
   id: N14JunkComponentBoard3
-  name: circuit board
-  description: A green looking circuit board.
+  name: "друкована плата"
+  description: "Зелена на вигляд друкована плата."
   components:
   - type: Sprite
     state: board_3
@@ -501,8 +501,8 @@
 - type: entity
   parent: N14JunkItemBase
   id: N14JunkComponentBulb1
-  name: bulb
-  description: A tiny bulb.
+  name: "лампочка"
+  description: "Крихітна лампочка."
   components:
   - type: Sprite
     state: bulb_1
@@ -510,8 +510,8 @@
 - type: entity
   parent: N14JunkItemBase
   id: N14JunkComponentBulb2
-  name: bulb
-  description: A double bulb.
+  name: "лампочка"
+  description: "Подвійна лампочка."
   components:
   - type: Sprite
     state: bulb_2
@@ -519,8 +519,8 @@
 - type: entity
   parent: N14JunkItemBase
   id: N14JunkComponentBulb3
-  name: bulb
-  description: A large bulb.
+  name: "лампочка"
+  description: "Велика цибулина."
   components:
   - type: Sprite
     state: bulb_3
@@ -528,8 +528,8 @@
 - type: entity
   parent: N14JunkItemBase
   id: N14JunkComponentBuzzer
-  name: buzzer
-  description: An electronic buzzer.
+  name: "зуммер"
+  description: "Електронний зумер."
   components:
   - type: Sprite
     state: buzzer
@@ -537,8 +537,8 @@
 - type: entity
   parent: N14JunkItemBase
   id: N14JunkComponentCapacitor1
-  name: capacitor
-  description: An electrolytic capacitor.
+  name: "конденсатор"
+  description: "Електролітичний конденсатор."
   components:
   - type: Sprite
     state: capacitor_1
@@ -546,8 +546,8 @@
 - type: entity
   parent: N14JunkItemBase
   id: N14JunkComponentCapacitor2
-  name: capacitor
-  description: A ceramic type capacitor.
+  name: "конденсатор"
+  description: "Конденсатор керамічного типу."
   components:
   - type: Sprite
     state: capacitor_2
@@ -555,8 +555,8 @@
 - type: entity
   parent: N14JunkItemBase
   id: N14JunkComponentCapacitor3
-  name: capacitor
-  description: A paper type capacitor.
+  name: "конденсатор"
+  description: "Конденсатор паперового типу."
   components:
   - type: Sprite
     state: capacitor_3
@@ -564,8 +564,8 @@
 - type: entity
   parent: N14JunkItemBase
   id: N14JunkComponentDiode1
-  name: diode
-  description: An old vacuum diode.
+  name: "діод"
+  description: "Старий вакуумний діод."
   components:
   - type: Sprite
     state: diode_1
@@ -573,8 +573,8 @@
 - type: entity
   parent: N14JunkItemBase
   id: N14JunkComponentDiode2
-  name: diode
-  description: A more advanced zener diode.
+  name: "діод"
+  description: "Більш досконалий стабілітрон."
   components:
   - type: Sprite
     state: diode_2
@@ -582,8 +582,8 @@
 - type: entity
   parent: N14JunkItemBase
   id: N14JunkComponentDiode3
-  name: diode
-  description: A standard diode.
+  name: "діод"
+  description: "Звичайний діод."
   components:
   - type: Sprite
     state: diode_3
@@ -591,8 +591,8 @@
 - type: entity
   parent: N14JunkItemBase
   id: N14JunkComponentMainboard
-  name: mainframe board
-  description: A sophisticated circuit board
+  name: "плата мейнфрейма"
+  description: "Складна друкована плата"
   components:
   - type: Sprite
     state: frame
@@ -600,8 +600,8 @@
 - type: entity
   parent: N14JunkItemBase
   id: N14JunkComponentFuse1
-  name: fuse
-  description: A large capacity, slow blow fuse.
+  name: "запобіжник"
+  description: "Запобіжник великої ємності з повільним спрацьовуванням."
   components:
   - type: Sprite
     state: fuse_1
@@ -609,8 +609,8 @@
 - type: entity
   parent: N14JunkItemBase
   id: N14JunkComponentFuse2
-  name: fuse
-  description: A small capacity, fast blow fuse.
+  name: "запобіжник"
+  description: "Невелика ємність, швидке перегорання запобіжника."
   components:
   - type: Sprite
     state: fuse_1
@@ -618,8 +618,8 @@
 - type: entity
   parent: N14JunkItemBase
   id: N14JunkComponentGearLarge
-  name: large gear
-  description: A large mechanical gear.
+  name: "велике спорядження"
+  description: "Велика механічна передача."
   components:
   - type: Sprite
     state: gear_large
@@ -627,8 +627,8 @@
 - type: entity
   parent: N14JunkItemBase
   id: N14JunkComponentGearSmall
-  name: small gear
-  description: A small mechanical gear.
+  name: "дрібне спорядження"
+  description: "Маленька механічна передача."
   components:
   - type: Sprite
     state: gear_small
@@ -636,8 +636,8 @@
 - type: entity
   parent: N14JunkItemBase
   id: N14JunkComponentIgniter
-  name: igniter
-  description: A small ignition device. Apply power for a spark.
+  name: "запалювач"
+  description: "Невеликий пристрій для запалювання. Подайте напругу для отримання іскри."
   components:
   - type: Sprite
     state: igniter
@@ -645,8 +645,8 @@
 - type: entity
   parent: N14JunkItemBase
   id: N14JunkComponentResistor1
-  name: resistor
-  description: A low resistance resistor.
+  name: "резистор"
+  description: "Резистор з низьким опором."
   components:
   - type: Sprite
     state: resistor_1
@@ -654,8 +654,8 @@
 - type: entity
   parent: N14JunkItemBase
   id: N14JunkComponentResistor2
-  name: resistor
-  description: A medium resistance resistor.
+  name: "резистор"
+  description: "Резистор середнього опору."
   components:
   - type: Sprite
     state: resistor_2
@@ -663,8 +663,8 @@
 - type: entity
   parent: N14JunkItemBase
   id: N14JunkComponentResistor3
-  name: resistor
-  description: A high resistance resistor.
+  name: "резистор"
+  description: "Резистор з високим опором."
   components:
   - type: Sprite
     state: resistor_3
@@ -672,8 +672,8 @@
 - type: entity
   parent: N14JunkItemBase
   id: N14JunkComponentScrew
-  name: screw
-  description: Aw screw it!
+  name: "гвинт"
+  description: "Та пішло воно!"
   components:
   - type: Sprite
     state: screw
@@ -681,8 +681,8 @@
 - type: entity
   parent: N14JunkItemBase
   id: N14JunkComponentSensor
-  name: sensor board
-  description: A sophisticated sensor board.
+  name: "сенсорна плата"
+  description: "Складна сенсорна плата."
   components:
   - type: Sprite
     state: sensor
@@ -690,8 +690,8 @@
 - type: entity
   parent: N14JunkItemBase
   id: N14JunkComponentSensorModule
-  name: sensor module
-  description: An advanced sensor module.
+  name: "сенсорний модуль"
+  description: "Вдосконалений сенсорний модуль."
   components:
   - type: Sprite
     state: sensor_module
@@ -699,8 +699,8 @@
 - type: entity
   parent: N14JunkItemBase
   id: N14JunkComponentSwitch
-  name: sensor module
-  description: An electronics switch.
+  name: "сенсорний модуль"
+  description: "Електронний вимикач."
   components:
   - type: Sprite
     state: switch_1
@@ -708,8 +708,8 @@
 - type: entity
   parent: N14JunkItemBase
   id: N14JunkComponentTransistor1
-  name: transistor
-  description: A FET or not-a-FET. That is the question.
+  name: "транзистор"
+  description: "FET чи не FET. Ось у чому питання."
   components:
   - type: Sprite
     state: transistor_1
@@ -717,8 +717,8 @@
 - type: entity
   parent: N14JunkItemBase
   id: N14JunkComponentTransistor2
-  name: transistor
-  description: A bipolar junction transistor.
+  name: "транзистор"
+  description: "Транзистор з біполярним переходом."
   components:
   - type: Sprite
     state: transistor_2
@@ -726,8 +726,8 @@
 - type: entity
   parent: N14JunkItemBase
   id: N14JunkComponentTransistor3
-  name: transistor
-  description: A junction FET.
+  name: "транзистор"
+  description: "Перехідний польовий транзистор."
   components:
   - type: Sprite
     state: transistor_3
