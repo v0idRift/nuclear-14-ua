@@ -1,8 +1,8 @@
 - type: entity
-  name: "кувалда"
+  name: sledge hammer
   parent: BaseItem
   id: N14SledgeHammer
-  description: "Міцний кувалда, який вимагає значної сили для роботи."
+  description: A robust sledge hammer that requires considerable strenght to be wielded.
   components:
   - type: Sprite
     sprite: _Nuclear14/Objects/Weapons/Melee/sledgehammer.rsi
@@ -29,10 +29,10 @@
       # path: /Audio/Items/eating_2.ogg # TODO: Crushing noise
 
 - type: entity
-  name: "супер кувалда"
+  name: super sledge hammer
   parent: N14SledgeHammer
   id: N14SuperSledgeHammer
-  description: "Більший, важчий і більш руйнівний кувалда, вам дійсно потрібні сильні руки, щоб розмахувати ним."
+  description: A bigger, heavier and more destructive sledge hammer, you really need some strong arms to swing it.
   components:
   - type: Sprite
     sprite: _Nuclear14/Objects/Weapons/Melee/supersledge.rsi

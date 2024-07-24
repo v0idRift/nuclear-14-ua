@@ -1,8 +1,8 @@
 # Frames
 - type: entity
   id: N14MachineFrameTall
-  name: "висока рама машини"
-  description: "Металевий каркас для розміщення техніки та електроніки"
+  name: tall machine frame
+  description: A metal frame for housing machinery and electronics
   suffix: Frame
   placement:
     mode: SnapgridCenter
@@ -50,8 +50,8 @@
 - type: entity
   parent: N14MachineFrameTall
   id: N14MachineFrameTallDestroyed
-  name: "знищена машина"
-  description: "Зруйнований каркас, який колись містив техніку та електроніку"
+  name: destroyed machine
+  description: A destroyed frame that used to hold machinery and electronics
   components:
     - type: Sprite
       sprite: _Nuclear14/Structures/Power/32x48_machines.rsi
@@ -77,7 +77,7 @@
 - type: entity
   parent: N14MachineFrameTall
   id: N14MachineFrameTallWired
-  description: "Металевий каркас для розміщення техніки та електроніки"
+  description: A metal frame for housing machinery and electronics
   suffix: Wired
   components:
     - type: Sprite
@@ -136,8 +136,8 @@
 - type: entity
   parent: N14BaseMachine
   id: N14BaseMachinePowered
-  name: "серверна стійка"
-  description: "Стара серверна стійка, заповнена електронікою."
+  name: server rack
+  description: An old server rack filled with electronics.
   abstract: true
   components:
   - type: Fixtures
@@ -170,8 +170,8 @@
 - type: entity
   parent: N14BaseMachinePowered
   id: N14MachineRackElectronics
-  name: "стійка для електроніки"
-  description: "Старий стелаж, заповнений електронікою."
+  name: electronics rack
+  description: An old rack filled with electronics.
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Power/32x48_machines.rsi
@@ -188,8 +188,8 @@
 - type: entity
   parent: N14BaseMachinePowered
   id: N14MachineRackServer
-  name: "серверна стійка"
-  description: "Стара серверна стійка, заповнена електронікою."
+  name: server rack
+  description: An old server rack filled with electronics.
   components:
   - type: Construction
     graph: N14TallMachineFrame
@@ -198,8 +198,8 @@
 - type: entity
   parent: N14BaseMachinePowered
   id: N14MachineRackRecorder
-  name: "електричний самописець"
-  description: "Стара стійка з реєстратором несправностей."
+  name: electrical recorder
+  description: An old rack with a fault recorder in.
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Power/32x48_machines.rsi
@@ -216,8 +216,8 @@
 - type: entity
   parent: N14BaseMachine
   id: N14MachineComputerMainframe # Probably a computer, move it there?
-  name: "мейнфрейм"
-  description: "Мабуть, найбільший комп'ютер, який ви коли-небудь бачили."
+  name: mainframe
+  description: Probably the biggest computer you've ever seen.
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Machines/mainframe.rsi
@@ -243,8 +243,8 @@
 - type: entity
   parent: N14MachineRackRecorder
   id: N14MachineRackCameraRouterBase
-  name: "роутер для камери"
-  description: "Стара стійка з обладнанням для відеозйомки."
+  name: camera router
+  description: An old rack with camera recording equipment in.
   abstract: true
   components:
     - type: DeviceNetwork

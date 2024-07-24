@@ -1,8 +1,8 @@
 #MARK: Undecided Loadout Backpacks
 - type: entity
   id: NCRtrooperloadoutkits
-  name: "Не визначився з комплектом екіпіровки NCR Trooper Loaded Kit"
-  description: "будь ласка, візьміть тільки один"
+  name: Undecided NCR Trooper Loadout Kit
+  description: please only take one
   parent: BaseItem
   components:
   - type: Sprite
@@ -26,8 +26,8 @@
 
 - type: entity
   id: NCRNCOloadoutkits
-  name: "Невизначений комплект екіпіровки NCR для сержантського складу"
-  description: "будь ласка, візьміть тільки один"
+  name: Undecided NCR NCO Loadout Kit
+  description: please only take one
   parent: BaseItem
   components:
   - type: Sprite
@@ -55,8 +55,8 @@
 
 - type: entity
   id: NCRrangerloadoutkits
-  name: "Не визначився з комплектом для завантаження NCR Ranger"
-  description: "будь ласка, візьміть тільки один"
+  name: Undecided NCR Ranger Loadout Kit
+  description: please only take one
   parent: BaseItem
   components:
   - type: Sprite
@@ -79,8 +79,8 @@
 
 - type: entity
   id: NCRveteranrangerloadoutkits
-  name: "Не визначився з комплектом спорядження NCR Veteran Ranger"
-  description: "будь ласка, візьміть тільки один"
+  name: Undecided NCR Veteran Ranger Loadout Kit
+  description: please only take one
   parent: BaseItem
   components:
   - type: Sprite

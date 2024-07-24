@@ -1,6 +1,6 @@
 ﻿- type: body
   id: GhoulGlowing
-  name: "упир, що світиться"
+  name: glowing ghoul
   root: torso
   slots:
     head:

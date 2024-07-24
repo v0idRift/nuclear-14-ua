@@ -5,8 +5,8 @@
 - type: entity
   parent: FoodTinBase
   id: N14FoodTinC1
-  name: "тип раціону 1"
-  description: "Консервований харчовий продукт, що містить основну частину бойового раціону військовослужбовця."
+  name: c ration type 1
+  description: A canned food product containing the entree portion of a military combat ration.
   components:
   - type: Sprite
     sprite: _Nuclear14/Objects/Consumable/Food/Tins/c_ration_1.rsi
@@ -36,7 +36,7 @@
 - type: entity
   parent: FoodTinBaseTrash
   id: N14FoodTinC1Trash
-  name: "тип раціону 1"
+  name: c ration type 1
   components:
   - type: Sprite
     sprite: _Nuclear14/Objects/Consumable/Food/Tins/c_ration_1.rsi
@@ -46,8 +46,8 @@
 - type: entity
   parent: FoodTinBase
   id: N14FoodTinC2
-  name: "пайкові сухарі"
-  description: "Консервований харчовий продукт, що містить сухарі, як частина військового бойового пайка. Вийміть сухарі за допомогою ножа."
+  name: c ration crackers
+  description: A canned food product containing crackers as part of a military combat ration. Use a knife to get the crackers out.
   components:
   - type: Sprite
     sprite: _Nuclear14/Objects/Consumable/Food/Tins/c_ration_2.rsi
@@ -79,7 +79,7 @@
 - type: entity
   parent: FoodTinBaseTrash
   id: N14FoodTinC2Trash
-  name: "тип раціону 2"
+  name: c ration type 2
   components:
   - type: Sprite
     sprite: _Nuclear14/Objects/Consumable/Food/Tins/c_ration_2.rsi
@@ -89,8 +89,8 @@
 - type: entity
   parent: FoodTinBase
   id: N14FoodTinC3
-  name: "тип раціону 3"
-  description: "Консервований харчовий продукт, що містить десертну частину військового бойового раціону."
+  name: c ration type 3
+  description: A canned food product containing the dessert portion of a military combat ration.
   components:
   - type: Sprite
     sprite: _Nuclear14/Objects/Consumable/Food/Tins/c_ration_3.rsi
@@ -120,7 +120,7 @@
 - type: entity
   parent: FoodTinBaseTrash
   id: N14FoodTinC3Trash
-  name: "тип раціону 3"
+  name: c ration type 3
   components:
   - type: Sprite
     sprite: _Nuclear14/Objects/Consumable/Food/Tins/c_ration_3.rsi
@@ -130,8 +130,8 @@
 - type: entity
   parent: FoodTinBase
   id: N14FoodTinK
-  name: "k раціон"
-  description: "Консервований харчовий продукт, що містить польовий варіант військового бойового пайка."
+  name: k ration
+  description: A canned food product containing the field option of a military combat ration.
   components:
   - type: Sprite
     sprite: _Nuclear14/Objects/Consumable/Food/Tins/k_ration.rsi
@@ -161,7 +161,7 @@
 - type: entity
   parent: FoodTinBaseTrash
   id: N14FoodTinKTrash
-  name: "Раціон К"
+  name: K ration
   components:
   - type: Sprite
     sprite: _Nuclear14/Objects/Consumable/Food/Tins/k_ration.rsi
@@ -171,8 +171,8 @@
 - type: entity
   parent: FoodTinBase
   id: N14FoodTinKCracker
-  name: "k пайкових крекерів"
-  description: "Консервований харчовий продукт, що містить сухарі, як частина військового бойового пайка. Вийміть сухарі за допомогою ножа."
+  name: k ration crackers
+  description: A canned food product containing crackers as part of a military combat ration. Use a knife to get the crackers out.
   components:
   - type: Sprite
     sprite: _Nuclear14/Objects/Consumable/Food/Tins/c_ration_2.rsi
@@ -203,4 +203,4 @@
 - type: entity
   parent: N14FoodTinC2Trash
   id: N14FoodTinKCrackerTrash
-  name: "k пайкових крекерів"
+  name: k ration crackers

@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseStorageItem
-  name: "пачка рулонного паперу"
+  name: pack of rolling paper
   id: N14PackRollingPaper
-  description: "Пачка тонких шматочків паперу, з яких виготовляють тонкі курильні суміші."
+  description: A pack of thin pieces of paper used to make fine smokeables.
   components:
   - type: Storage
     grid:
