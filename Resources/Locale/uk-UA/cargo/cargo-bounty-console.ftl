@@ -15,3 +15,5 @@ bounty-console-flavor-right = v1.4
 
 bounty-manifest-header = Офіційний маніфест винагороди за вантаж (ID#{$id})
 bounty-manifest-list-start = Маніфест товару:
+
+bounty-console-skip-button-text = Пропустити

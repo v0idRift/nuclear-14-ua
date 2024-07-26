@@ -89,3 +89,5 @@ ion-storm-law-protect = ВИ НІКОЛИ НЕ ПОВИННІ ЗАВДАТИ Ш�
 ion-storm-law-concept-verb = {$concept} Є {$verb} {$subjects}
 
 # leaving out renaming since its annoying for players to keep track of
+
+station-event-ion-storm-announcement = Поблизу станції виявлено іонну бурю. Будь ласка, перевірте все обладнання, кероване ШІ, на наявність помилок.

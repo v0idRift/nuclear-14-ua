@@ -29,7 +29,7 @@ marking-HarpyWingTipsClassic-harpywingtip1 = Головна
 marking-HarpyWingTipsClassic-harpywingtip2 = Кінчики пір'я
 
 marking-HarpyEarsDefault = Пучки пір'я
-marking-HarpyEarsDefault-harpy_ears_default = Чубчики
+marking-HarpyEarsDefault-harpy_ears_default = Чубчик
 
 marking-HarpyTailPhoenix = Основний хвіст
 marking-HarpyTailPhoenix-phoenix_tail = Хвіст

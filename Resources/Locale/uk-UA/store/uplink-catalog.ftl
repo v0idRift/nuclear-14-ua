@@ -420,3 +420,6 @@ uplink-barber-scissors-desc = Гарний інструмент, щоб зроб
 
 uplink-backpack-syndicate-name = Рюкзак Синдикату
 uplink-backpack-syndicate-desc = Легкий вибухозахисний рюкзак для зберігання різних предметів зрадника
+
+uplink-chest-rig-name = Грудна клітка
+uplink-chest-rig-desc = Вибухостійка тактична тасьма, що використовується для утримування вантажів зрадників.

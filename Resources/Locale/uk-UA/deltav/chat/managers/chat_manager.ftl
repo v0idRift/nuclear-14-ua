@@ -12,3 +12,7 @@ chat-speech-verb-harpy-1 = цвірінькання
 chat-speech-verb-harpy-2 = твіти
 chat-speech-verb-harpy-3 = кігті
 chat-speech-verb-harpy-4 = трелі
+
+chat-speech-verb-name-vulpkanin = Vulpkanin
+chat-speech-verb-name-felinid = Фелінід
+chat-speech-verb-name-harpy = Гарпія

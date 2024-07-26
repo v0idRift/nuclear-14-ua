@@ -109,3 +109,8 @@ alerts-revenant-essence-desc = Сила душ. Вона підтримує ва
 
 alerts-revenant-corporeal-name = Тілесний
 alerts-revenant-corporeal-desc = Ви проявилися фізично. Люди навколо вас можуть бачити і завдавати вам болю.
+
+alerts-walking-name = Прогулянка
+alerts-walking-desc = Показує, з якою швидкістю ви рухаєтеся.
+alerts-offer-name = Пропозиція
+alerts-offer-desc = Хтось пропонує вам товар.

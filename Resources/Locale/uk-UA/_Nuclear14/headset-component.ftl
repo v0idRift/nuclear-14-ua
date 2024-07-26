@@ -9,3 +9,7 @@ chat-radio-vault-security = Безпека сховища
 chat-radio-vault-common = Сховище загальне
 chat-radio-caravan = Компанія "Караван
 chat-radio-bosmidwest = Братство Середнього Заходу
+
+chat-radio-boswashington = Братство Вашингтон
+chat-radio-enclave = Анклав
+chat-radio-ncr = NCR

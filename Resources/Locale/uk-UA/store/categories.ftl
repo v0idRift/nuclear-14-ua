@@ -15,3 +15,7 @@ store-category-pointless = Безглузде
 
 # Revenant
 store-category-abilities = Здібності
+
+store-category-deception = Обман
+
+# Revenant

@@ -69,3 +69,6 @@ language-Crab-description = Клац!
 
 language-Kobold-name = Кобольд
 language-Kobold-description = Шипіння!
+
+language-SignLanguage-name = Мова жестів
+language-SignLanguage-description = Стандартна галактична мова жестів, якою користуються ті, хто не може розмовляти галактичною мовою або взагалі не володіє нею.

@@ -98,3 +98,6 @@ JobTechnicalAssistant = Технічний Асистент
 JobVisitor = Відвідувач
 JobWarden = Варден
 JobZookeeper = Зоолог
+
+job-name-ertchaplain = Капелан екстреної медичної допомоги
+JobERTChaplain = Капелан екстреної медичної допомоги

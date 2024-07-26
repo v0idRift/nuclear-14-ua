@@ -21,8 +21,8 @@ chat-manager-whisper-headset-on-message = По радіо не можна шеп
 chat-manager-server-wrap-message = [bold]{$message}[/bold]
 chat-manager-sender-announcement-wrap-message = [font size=14][bold]{$sender} Оголошення:[/font][font size=12]
                                                 {$message}[/bold][/font]
-chat-manager-entity-say-wrap-message = [BubbleHeader][Name]{$entityName}[/Name][/BubbleHeader] {$verb}, [font={$fontType} size={$fontSize}]"[BubbleContent]{$message}[/BubbleContent]"[/font]
-chat-manager-entity-say-bold-wrap-message = [BubbleHeader][Name]{$entityName}[/Name][/BubbleHeader] {$verb}, [font={$fontType} size={$fontSize}]"[BubbleContent][bold]{$message}[/bold][/BubbleContent]"[/font]
+chat-manager-entity-say-wrap-message = [BubbleHeader][Name]{$entityName}[/Name][/BubbleHeader] {$verb}, [font="{$fontType}" size={$fontSize}]"[color={$color}][BubbleContent]{$message}[/BubbleContent][/color]"[/font]
+chat-manager-entity-say-bold-wrap-message = [BubbleHeader][Name]{$entityName}[/Name][/BubbleHeader] {$verb}, [font="{$fontType}" size={$fontSize}]"[color={$color}][BubbleContent][bold]{$message}[/bold][/BubbleContent][/color]"[/font]
 
 chat-manager-entity-whisper-wrap-message = [font size=11][italic][BubbleHeader][Name]{$entityName}[/Name][/BubbleHeader] шепоче, "[BubbleContent]{$message}[/BubbleContent]"[/italic][/font]
 chat-manager-entity-whisper-unknown-wrap-message = [font size=11][italic][BubbleHeader]Хтось[/BubbleHeader] шепоче: "[BubbleContent]{$message}[/BubbleContent]"[/italic][/font]
@@ -127,3 +127,28 @@ chat-speech-verb-electricity-2 = дзижчить
 chat-speech-verb-electricity-3 = верещить
 
 #PIRATE START
+
+chat-speech-verb-name-none = Ні
+chat-speech-verb-name-default = За замовчуванням
+chat-speech-verb-name-exclamation = Вигукнув
+chat-speech-verb-name-exclamation-strong = Крик!
+chat-speech-verb-name-question = Просимо
+chat-speech-verb-name-stutter = Заїкання
+chat-speech-verb-name-mumble = Бурмотіння
+chat-speech-verb-name-arachnid = Павукоподібний
+chat-speech-verb-name-moth = Метелик
+chat-speech-verb-name-slime = Слиз
+chat-speech-verb-name-plant = Діона
+chat-speech-verb-name-robotic = Робот
+chat-speech-verb-robotic-3 = бум!
+chat-speech-verb-name-reptilian = Рептилія
+chat-speech-verb-name-skeleton = Скелет
+chat-speech-verb-name-vox = Vox
+chat-speech-verb-name-canine = Собачий
+chat-speech-verb-name-small-mob = Миша
+chat-speech-verb-name-large-mob = Короп
+chat-speech-verb-name-monkey = Мавпа
+chat-speech-verb-name-cluwne = Клюн
+chat-speech-verb-name-parrot = Папуга
+chat-speech-verb-name-ghost = Привид
+chat-speech-verb-name-electricity = Електрика

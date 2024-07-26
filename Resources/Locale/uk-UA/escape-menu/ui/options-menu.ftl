@@ -257,3 +257,12 @@ ui-options-net-pvs-leave-tooltip = Обмежує частоту, з якою к
 ## Toggle window console command
 cmd-options-desc = Відкриває меню опцій, опціонально з конкретно обраною вкладкою
 cmd-options-help = Використання: options [tab]
+
+ui-options-announcer-volume = Гучність диктора:
+ui-options-show-offer-mode-indicators = Показувати індикатори режиму пропозиції курсором
+ui-options-show-ooc-patron-color = Показати колір OOC Patreon
+ui-options-chat-window-opacity = Непрозорість вікна чату
+ui-options-chat-window-opacity-percent = { TOSTRING($opacity, "P0") }
+ui-options-function-offer-item = Запропонуйте щось
+ui-options-function-save-item-location = Зберегти розташування елемента
+ui-options-function-toggle-standing = Перемикач стоячий

@@ -239,3 +239,9 @@ ghost-role-information-syndicate-reinforcement-rules = Застосовують�
 ghost-role-information-syndicate-monkey-reinforcement-name = Агент Синдикату Мавп
 ghost-role-information-syndicate-monkey-reinforcement-description = Комусь потрібне підкріплення. Ви, дресирована мавпочка, будете їм допомагати.
 ghost-role-information-syndicate-monkey-reinforcement-rules = Застосовуються звичайні правила антагоністів синдикату. Працюйте з тими, хто вас викликав, і не завдавайте їм шкоди.
+
+ghost-role-information-ert-chaplain-name = Капелан екстреної медичної допомоги
+ghost-role-information-ert-chaplain-description = Допомагати в жалобі, щоб вирішити моральні проблеми екіпажу станції.
+ghost-role-information-artifact-name = Чуттєвий артефакт
+ghost-role-information-artifact-description = Втілюйте свої елдричні забаганки.
+      Примусово активуйте свої вузли на добро чи на зло.
