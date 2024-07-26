@@ -1,8 +1,8 @@
 - type: entity
-  name: "базовий щит"
+  name: base shield
   parent: BaseItem
   id: N14InsectShield
-  description: "Щит, зроблений з різних шматочків комах."
+  description: A shield made from various pieces of insects.
   components:
     - type: Sprite
       sprite: _Nuclear14/Objects/Weapons/Melee/insectshield.rsi

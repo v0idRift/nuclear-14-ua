@@ -1,6 +1,6 @@
 - type: entity
   save: false
-  name: "упир"
+  name: ghoul
   id: N14BaseMobGhoul
   parent: BaseMobHuman
   noSpawn: true
@@ -94,7 +94,7 @@
 # Glowing
 - type: entity
   save: false
-  name: "упир"
+  name: ghoul
   id: N14BaseMobGhoulGlowing
   parent: BaseMobHuman
   noSpawn: true

@@ -2,7 +2,7 @@
 - type: entity
   abstract: true
   id: N14WastelandFlora
-  description: "Рослина, що дико росте на пустирі."
+  description: A plant growing wild in the wasteland.
   components:
   - type: Transform
     anchored: true # doesn't need to be true, but then we need to add mass
@@ -38,8 +38,8 @@
 - type: entity
   parent: N14WastelandFlora
   id: N14WastelandFloraWildAgave
-  name: "дика рослина агава"
-  description: "Рослина агава, що росте в дикій природі. Вона корисна для здоров'я."
+  name: wild agave plant
+  description: An agave plant growing wild. It's healthy.
   components:
   - type: Sprite
     state: wild_agave
@@ -58,8 +58,8 @@
 - type: entity
   parent: N14WastelandFlora
   id: N14WastelandFloraWildBananaYucca
-  name: "дика бананова рослина юка"
-  description: "Дика рослина юка. Виглядає здоровою."
+  name: wild banana yucca plant
+  description: A wild yucca plant. It looks healthy.
   components:
   - type: Sprite
     state: wild_yucca
@@ -78,8 +78,8 @@
 - type: entity
   parent: N14WastelandFlora
   id: N14WastelandFloraWildBarrelCactus
-  name: "дикий бочковий кактус"
-  description: "Бочковий кактус, що росте в дикій природі. Це корисно для здоров'я."
+  name: wild barrel cactus
+  description: A barrel cactus plant growing wild. It's healthy.
   components:
   - type: Sprite
     state: wild_feracactus
@@ -98,8 +98,8 @@
 - type: entity
   parent: N14WastelandFlora
   id: N14WastelandFloraWildBlackberries
-  name: "кущ дикої ожини"
-  description: "Дика ожина. Виглядає здоровою."
+  name: wild blackberry bush
+  description: A wild blackberry plant. It looks healthy.
   components:
   - type: Sprite
     sprite: _Nuclear14/Objects/Specific/Hydroponics/blackberry.rsi
@@ -119,8 +119,8 @@
 - type: entity
   parent: N14WastelandFlora
   id: N14WastelandFloraWildBroc
-  name: "дика рослина брока"
-  description: "Рослина брока, що росте в дикій природі. Цвіте."
+  name: wild broc plant
+  description: A broc plant growing wild. It's flowering.
   components:
   - type: Sprite
     state: wild_broc
@@ -139,8 +139,8 @@
 - type: entity
   parent: N14WastelandFlora
   id: N14WastelandFloraWildBuffaloGourd
-  name: "дикий буйволовий гарбуз"
-  description: "Дика рослина буйволиного гарбуза. Виглядає здоровою."
+  name: wild buffalo gourd
+  description: A wild buffalo gourd plant. It looks healthy.
   components:
   - type: Sprite
     state: wild_gourd
@@ -159,8 +159,8 @@
 - type: entity
   parent: N14WastelandFlora
   id: N14WastelandFloraWildCabbage
-  name: "рослина дикої капусти"
-  description: "Дика капуста. Виглядає здоровою."
+  name: wild cabbage plant
+  description: A wild cabbage plant. It looks healthy.
   components:
   - type: Sprite
     sprite: _Nuclear14/Objects/Specific/Hydroponics/cabbage.rsi
@@ -182,8 +182,8 @@
 - type: entity
   parent: N14WastelandFlora
   id: N14WastelandFloraWildCarrot
-  name: "рослина дикої моркви"
-  description: "Дика морква. Виглядає здоровою."
+  name: wild carrot plant
+  description: A wild carrot plant. It looks healthy.
   components:
   - type: Sprite
     sprite: _Nuclear14/Objects/Specific/Hydroponics/cabbage.rsi
@@ -205,8 +205,8 @@
 - type: entity
   parent: N14WastelandFlora
   id: N14WastelandFloraWildCaveFungus
-  name: "дикий печерний гриб"
-  description: "Дикий гриб. Виглядає здоровим."
+  name: wild cave fungus
+  description: A wild fungi. It looks healthy.
   components:
   - type: Sprite
     state: wild_fungus
@@ -224,8 +224,8 @@
 - type: entity
   parent: N14WastelandFlora
   id: N14WastelandFloraWildCaveFungusRad
-  name: "дикий опромінений печерний гриб"
-  description: "Дикий гриб. Він світиться."
+  name: wild irradiated cave fungus
+  description: A wild fungi. It glows.
   components:
   - type: Sprite
     state: CaveFungusRad
@@ -249,8 +249,8 @@
 - type: entity
   parent: N14WastelandFlora
   id: N14WastelandFloraWildCotton
-  name: "дика бавовняна рослина"
-  description: "Бавовник, що росте в дикій природі. Це корисно для здоров'я."
+  name: wild cotton plant
+  description: A cotton plant growing wild. It's healthy.
   components:
   - type: Sprite
     sprite: Objects/Specific/Hydroponics/cotton.rsi
@@ -270,8 +270,8 @@
 - type: entity
   parent: N14WastelandFlora
   id: N14WastelandFloraWildCoyote
-  name: "рослина дикого койота"
-  description: "Рослина койота, що росте в дикій природі. Це корисно."
+  name: wild coyote plant
+  description: A coyote plant growing wild. It's healthy.
   components:
   - type: Sprite
     state: wild_coyote
@@ -290,8 +290,8 @@
 - type: entity
   parent: N14WastelandFlora
   id: N14WastelandFloraWildDatura
-  name: "дика рослина датура"
-  description: "Рослина датура, що росте в дикій природі. Вона корисна для здоров'я."
+  name: wild datura plant
+  description: A datura plant growing wild. It's healthy.
   components:
   - type: Sprite
     state: wild_datura
@@ -310,8 +310,8 @@
 - type: entity
   parent: N14WastelandFlora
   id: N14WastelandFloraWildJalapenoPepper
-  name: "дика рослина перцю халапеньо"
-  description: "Рослина перцю халапеньо, що росте в дикій природі. Це корисно для здоров'я."
+  name: wild jalapeno pepper plant
+  description: A jalapeno pepper plant growing wild. It's healthy.
   components:
   - type: Sprite
     sprite: _Nuclear14/Objects/Specific/Hydroponics/jalapeno.rsi
@@ -331,8 +331,8 @@
 - type: entity
   parent: N14WastelandFlora
   id: N14WastelandFloraWildMaize
-  name: "дика рослина кукурудзи"
-  description: "Дика рослина кукурудзи. Виглядає здоровою."
+  name: wild maize plant
+  description: A wild maize plant. It looks healthy.
   components:
   - type: Sprite
     sprite: _Nuclear14/Objects/Specific/Hydroponics/maize.rsi
@@ -352,8 +352,8 @@
 - type: entity
   parent: N14WastelandFlora
   id: N14WastelandFloraWildMesquite
-  name: "дика рослина мескит"
-  description: "Дикий мескит. Виглядає здоровою."
+  name: wild mesquite plant
+  description: A wild mesquite plant. It looks healthy.
   components:
   - type: Sprite
     state: wild_mesquite
@@ -372,8 +372,8 @@
 - type: entity
   parent: N14WastelandFlora
   id: N14WastelandFloraWildMutfruit
-  name: "дикоросла рослина мускатного горіха"
-  description: "Дика рослина мутфрут. Виглядає здоровою."
+  name: wild mutfruit plant
+  description: A wild mutfruit plant. It looks healthy.
   components:
   - type: Sprite
     state: wild_mutfruit
@@ -392,8 +392,8 @@
 - type: entity
   parent: N14WastelandFlora
   id: N14WastelandFloraWildNettle
-  name: "дика кропива"
-  description: "Дика кропива. Виглядає здоровою."
+  name: wild nettles
+  description: A wild nettle plant. It looks healthy.
   components:
   - type: Sprite
     sprite: Objects/Specific/Hydroponics/nettle.rsi
@@ -412,8 +412,8 @@
 - type: entity
   parent: N14WastelandFlora
   id: N14WastelandFloraWildOnion
-  name: "рослина дикої цибулі"
-  description: "Дика цибуля. Виглядає здоровою."
+  name: wild onion plant
+  description: A wild onion plant. It looks healthy.
   components:
   - type: Sprite
     sprite: _Nuclear14/Objects/Specific/Hydroponics/onion.rsi
@@ -433,8 +433,8 @@
 - type: entity
   parent: N14WastelandFlora
   id: N14WastelandFloraWildPinyon
-  name: "дика рослина півонія"
-  description: "Дика сосна. Виглядає здоровою."
+  name: wild pinyon plant
+  description: A wild pinyon plant. It looks healthy.
   components:
   - type: Sprite
     state: wild_pinyon
@@ -453,8 +453,8 @@
 - type: entity
   parent: N14WastelandFlora
   id: N14WastelandFloraWildPricklypear
-  name: "дикий кактус опунція"
-  description: "Дика рослина опунції. Виглядає здоровою."
+  name: wild prickly pear cactus
+  description: A wild prickly pear plant. It looks healthy.
   components:
   - type: Sprite
     state: wild_prickly
@@ -473,8 +473,8 @@
 - type: entity
   parent: N14WastelandFlora
   id: N14WastelandFloraWildRazorgrain
-  name: "дикоросла рослина райграс"
-  description: "Рослина з рідкого зерна. Виглядає здоровою."
+  name: wild razorgrain plant
+  description: A razorgrain plant. It looks healthy.
   components:
   - type: Sprite
     sprite: _Nuclear14/Objects/Specific/Hydroponics/razorgrain.rsi
@@ -494,8 +494,8 @@
 - type: entity
   parent: N14WastelandFlora
   id: N14WastelandFloraWildStarlightBerries
-  name: "дика ягідна рослина зірочник"
-  description: "Дика ягідна рослина зірочника. Виглядає здоровою."
+  name: wild starlight berry plant
+  description: A wild starlight berry plant. It looks healthy.
   components:
   - type: Sprite
     sprite: _Nuclear14/Objects/Specific/Hydroponics/starlight.rsi
@@ -515,8 +515,8 @@
 - type: entity
   parent: N14WastelandFlora
   id: N14WastelandFloraWildTarberries
-  name: "дика рослина дьогтю"
-  description: "Дикоросла рослина дьогтю. Виглядає здоровою."
+  name: wild tarberry plant
+  description: A wild tarberry plant. It looks healthy.
   components: # N14TODO: This should only grow on water
   - type: Sprite
     sprite: _Nuclear14/Objects/Specific/Hydroponics/tarberry.rsi
@@ -538,8 +538,8 @@
 - type: entity
   parent: N14WastelandFlora
   id: N14WastelandFloraWildTato
-  name: "дика картопля"
-  description: "Дика картопля. Виглядає здоровою."
+  name: wild tato plant
+  description: A wild tato plant. It looks healthy.
   components:
   - type: Sprite
     state: wild_tato
@@ -558,8 +558,8 @@
 - type: entity
   parent: N14WastelandFlora
   id: N14WastelandFloraWildWhiteHorsenettle
-  name: "дикоросла рослина хрінниця"
-  description: "Дикоросла рослина хвоща. Виглядає здоровою."
+  name: wild horsenettle plant
+  description: A wild horsenettle plant. It looks healthy.
   components:
   - type: Sprite
     state: wild_horsenettle
@@ -578,8 +578,8 @@
 - type: entity
   parent: N14WastelandFlora
   id: N14WastelandFloraWildXander
-  name: "дика рослина ксандер"
-  description: "Рослина ксандер, що росте в дикій природі. Це корисно для здоров'я."
+  name: wild xander plant
+  description: A xander plant growing wild. It's healthy.
   components:
   - type: Sprite
     state: wild_xander
@@ -600,8 +600,8 @@
   abstract: True
   parent: FoodProduceBase
   id: N14FloraProduce
-  name: "база дикорослих продуктів"
-  description: "Дикоросла рослина, вирощена на відходах."
+  name: wild produce base
+  description: A wild plant produce grown in the wastes.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -625,8 +625,8 @@
   abstract: True
   parent: N14FloraProduce
   id: N14FloraProduceFood
-  name: "база дикорослих продуктів харчування"
-  description: "Дикоросла рослина, вирощена на відходах."
+  name: wild food produce base
+  description: A wild plant produce grown in the wastes.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -645,8 +645,8 @@
 - type: entity
   parent: N14FloraProduce
   id: N14FloraProduceWildAgave
-  name: "листя дикої агави"
-  description: "Листя дикої агави."
+  name: wild agave leaves
+  description: Wild agave plant leaves.
   components:
   - type: Sprite
     state: AgaveLeaf
@@ -671,8 +671,8 @@
 - type: entity
   parent: N14FloraProduceFood
   id: N14FloraProduceWildBananaYucca
-  name: "дика бананова юка"
-  description: "Виглядає як банан, на смак як батат."
+  name: wild banana yucca
+  description: Looks like a banana, tastes like sweet tato.
   components:
   - type: Sprite
     state: BananaYucca
@@ -697,8 +697,8 @@
 - type: entity
   parent: N14FloraProduceFood
   id: N14FloraProduceWildBarrelCactusFruit
-  name: "плоди бочкового кактуса"
-  description: "Плід дикого бочкоподібного кактуса."
+  name: barrel cactus fruit
+  description: Wild barrel cactus fruit.
   components:
   - type: Sprite
     state: BarrelCactusFruit
@@ -724,8 +724,8 @@
 - type: entity
   parent: N14FloraProduceFood
   id: N14FloraProduceWildBlackberries
-  name: "дика ожина"
-  description: "Дика ожина. Соковита."
+  name: wild blackberries
+  description: Wild blackberries. Juicy.
   components:
   - type: Sprite
     sprite: _Nuclear14/Objects/Specific/Hydroponics/blackberry.rsi
@@ -751,8 +751,8 @@
 - type: entity
   parent: N14FloraProduce
   id: N14FloraProduceWildBrocFlower
-  name: "дика квітка брока"
-  description: "Квітка брока з дикої рослини."
+  name: wild broc flower
+  description: A broc flower from a wild plant.
   components:
   - type: Sprite
     state: BrocFlower
@@ -777,8 +777,8 @@
 - type: entity
   parent: N14FloraProduceFood
   id: N14FloraProduceWildBuffaloGourd
-  name: "дикий буйволовий гарбуз"
-  description: "Дикий буйволовий гарбуз."
+  name: wild buffalo gourd
+  description: Wild buffalo gourd.
   components:
   - type: Sprite
     state: BuffaloGourd
@@ -803,8 +803,8 @@
 - type: entity
   parent: N14FloraProduceFood
   id: N14FloraProduceWildCabbage
-  name: "дика капуста"
-  description: "Дика капуста; повна заліза."
+  name: wild cabbage
+  description: Wild cabbage; full of iron.
   components:
   - type: Sprite
     sprite: _Nuclear14/Objects/Specific/Hydroponics/cabbage.rsi
@@ -833,8 +833,8 @@
 - type: entity
   parent: N14FloraProduceFood
   id: N14FloraProduceWildCarrot
-  name: "дика морква"
-  description: "Дика морква."
+  name: wild carrot
+  description: Wild carrot.
   components:
   - type: Sprite
     sprite: _Nuclear14/Objects/Specific/Hydroponics/carrot.rsi
@@ -863,8 +863,8 @@
 - type: entity
   parent: N14FloraProduceFood
   id: N14FloraProduceWildCaveFungus
-  name: "печерний гриб"
-  description: "Дикі печерні гриби."
+  name: cave fungus
+  description: Wild cave fungi.
   components:
   - type: Sprite
     state: CaveFungus
@@ -875,8 +875,8 @@
 - type: entity
   parent: N14FloraProduceFood
   id: N14FloraProduceWildCaveFungusRad
-  name: "опромінений печерний гриб"
-  description: "Дикі печерні гриби, що світяться."
+  name: irradiated cave fungus
+  description: Wild glowing cave fungi.
   components:
   - type: Sprite
     state: CaveFungusRad
@@ -899,8 +899,8 @@
 - type: entity
   parent: N14FloraProduce
   id: N14FloraProduceWildCoyoteTobacco
-  name: "листя тютюну койот"
-  description: "Листя дикого койотового тютюну."
+  name: coyote tobacco leaves
+  description: Wild coyote tobacco plant leaves.
   components:
   - type: Sprite
     state: CoyoteTobacco
@@ -925,8 +925,8 @@
 - type: entity
   parent: N14FloraProduce
   id: N14FloraProduceWildDaturaFlower
-  name: "квітка датура"
-  description: "Дикі квіти датури."
+  name: datura flower
+  description: Wild datura flowers.
   components:
   - type: Sprite
     state: Datura
@@ -951,8 +951,8 @@
 - type: entity
   parent: N14FloraProduceFood
   id: N14FloraProduceWildJalapenoPepper
-  name: "дикий перець халапеньо"
-  description: "Дикий перець халапеньо. Гострий."
+  name: wild jalapeno pepper
+  description: Wild jalapeno pepper. Spicy.
   components:
   - type: Sprite
     sprite: _Nuclear14/Objects/Specific/Hydroponics/jalapeno.rsi
@@ -978,8 +978,8 @@
 - type: entity
   parent: N14FloraProduce
   id: N14FloraProduceWildMaize
-  name: "дика кукурудза"
-  description: "Дика кукурудза. З неї можна зробити кукурудзяне борошно."
+  name: wild maize
+  description: Wild maize. Can be used to make a corn like flour.
   components:
   - type: Sprite
     sprite: _Nuclear14/Objects/Specific/Hydroponics/maize.rsi
@@ -1005,8 +1005,8 @@
 - type: entity
   parent: N14FloraProduce
   id: N14FloraProduceWildMesquitePods
-  name: "стручки дикого мескиту"
-  description: "Медові стручки мескита"
+  name: wild mesquite pods
+  description: Honey mesquite pods
   components:
   - type: Sprite
     state: MesquitePod
@@ -1031,8 +1031,8 @@
 - type: entity
   parent: N14FloraProduceFood
   id: N14FloraProduceWildMutfruit
-  name: "дикий мускатний горіх"
-  description: "Дикий мутфрут. Виглядає жорстким."
+  name: wild mutfruit
+  description: Wild mutfruit. Looks tough.
   components:
   - type: Sprite
     state: Mutfruit
@@ -1057,8 +1057,8 @@
 - type: entity
   parent: N14FloraProduceFood
   id: N14FloraProduceWildNettle
-  name: "дика кропива"
-  description: "Дика кропива. Скупий."
+  name: wild nettle
+  description: Wild nettles. Stingy.
   components:
   - type: Sprite
     sprite: Objects/Specific/Hydroponics/nettle.rsi
@@ -1084,8 +1084,8 @@
 - type: entity
   parent: N14FloraProduceFood
   id: N14FloraProduceWildOnion
-  name: "дика цибуля"
-  description: "Дика цибуля. Ароматна."
+  name: wild onion
+  description: Wild onion. Fragrant.
   components:
   - type: Sprite
     sprite: _Nuclear14/Objects/Specific/Hydroponics/onion.rsi
@@ -1116,8 +1116,8 @@
 - type: entity
   parent: N14FloraProduceFood
   id: N14FloraProduceWildPinyonNuts
-  name: "дикі горіхи пінії"
-  description: "Горіхи дикого пінії. Зернисті."
+  name: wild pinyon nuts
+  description: Wild pinyon nuts. Grainy.
   components:
   - type: Sprite
     state: PinyonNuts
@@ -1130,8 +1130,8 @@
 - type: entity
   parent: N14FloraProduceFood
   id: N14FloraProduceWildPricklyPearFruit
-  name: "плоди дикої опунції"
-  description: "Плід дикої колючої груші. Гострий."
+  name: wild prickly pear fruit
+  description: Wild pricky pear fruit. Sharp.
   components:
   - type: Sprite
     state: PricklyPear
@@ -1154,8 +1154,8 @@
 - type: entity
   parent: N14FloraProduceFood
   id: N14FloraProduceWildRazorgrain
-  name: "дикий райграс"
-  description: "більш тверде зерно, яке все ще можна використовувати у випічці."
+  name: wild razorgrain
+  description: a hardier grain that can still be used in baking.
   components:
   - type: Sprite
     sprite: Objects/Specific/Hydroponics/wheat.rsi
@@ -1171,8 +1171,8 @@
 - type: entity
   parent: N14FloraProduceFood
   id: N14FloraProduceWildStarlightBerries
-  name: "дикі ягоди зоряного сяйва"
-  description: "Дикі ягоди зоряного світла. Чудові в чаї."
+  name: wild starlight berries
+  description: Wild starlight berries. Great in tea.
   components:
   - type: Sprite
     sprite: _Nuclear14/Objects/Specific/Hydroponics/starlight.rsi
@@ -1198,8 +1198,8 @@
 - type: entity
   parent: N14FloraProduceFood
   id: N14FloraProduceWildTarberries
-  name: "смородина"
-  description: "Дикі ягоди чорної смородини. Соковита."
+  name: tarberries
+  description: Wild tarberries. Juicy.
   components:
   - type: Sprite
     sprite: _Nuclear14/Objects/Specific/Hydroponics/tarberry.rsi
@@ -1225,8 +1225,8 @@
 - type: entity
   parent: N14FloraProduceFood
   id: N14FloraProduceWildTato
-  name: "дика картопля"
-  description: "Виглядає як помідор, на дотик як картопля, на смак огидний."
+  name: wild tato
+  description: Looks like a tomato, feels like a potato, tastes disgusting.
   components:
   - type: Sprite
     state: Tato
@@ -1251,8 +1251,8 @@
 - type: entity
   parent: N14FloraProduce
   id: N14FloraProduceWildWhiteHorsenettle
-  name: "квітка білого хвоща"
-  description: "Квітка білого хвоща."
+  name: white horsenettle flower
+  description: White horsenettle flower.
   components:
   - type: Sprite
     state: WhiteHorsenettle
@@ -1277,8 +1277,8 @@
 - type: entity
   parent: N14FloraProduce
   id: N14FloraProduceWildXander
-  name: "корінь дикого ксандру"
-  description: "Корінь ксандера з дикорослої рослини."
+  name: wild xander root
+  description: A xander root from a wild plant.
   components:
   - type: Sprite
     state: xander_root

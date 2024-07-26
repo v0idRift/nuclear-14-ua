@@ -3,7 +3,7 @@
 - type: entity
   id: N14PartGhoulGlowing
   parent: N14PartGhoul
-  name: "частина тіла упиря"
+  name: ghoul body part
   abstract: true
   components:
   - type: Damageable
@@ -18,7 +18,7 @@
 
 - type: entity
   id: N14TorsoGhoulGlowing
-  name: "тулуб упиря"
+  name: ghoul torso
   parent: N14PartGhoulGlowing
   components:
   - type: Sprite
@@ -33,7 +33,7 @@
 
 - type: entity
   id: N14HeadGhoulGlowing
-  name: "голова упиря"
+  name: ghoul head
   parent: N14PartGhoulGlowing
   components:
   - type: Sprite
@@ -59,7 +59,7 @@
 
 - type: entity
   id: N14LeftArmGhoulGlowing
-  name: "ліва рука упиря"
+  name: left ghoul arm
   parent: N14PartGhoulGlowing
   components:
   - type: Sprite
@@ -75,7 +75,7 @@
 
 - type: entity
   id: N14RightArmGhoulGlowing
-  name: "права рука упиря"
+  name: right ghoul arm
   parent: N14PartGhoulGlowing
   components:
   - type: Sprite
@@ -91,7 +91,7 @@
 
 - type: entity
   id: N14LeftHandGhoulGlowing
-  name: "ліва рука упиря"
+  name: left ghoul hand
   parent: N14PartGhoulGlowing
   components:
   - type: Sprite
@@ -107,7 +107,7 @@
 
 - type: entity
   id: N14RightHandGhoulGlowing
-  name: "права рука упиря"
+  name: right ghoul hand
   parent: N14PartGhoulGlowing
   components:
   - type: Sprite
@@ -123,7 +123,7 @@
 
 - type: entity
   id: N14LeftLegGhoulGlowing
-  name: "ліва нога упиря"
+  name: left ghoul leg
   parent: N14PartGhoulGlowing
   components:
   - type: Sprite
@@ -140,7 +140,7 @@
 
 - type: entity
   id: N14RightLegGhoulGlowing
-  name: "права нога упиря"
+  name: right ghoul leg
   parent: N14PartGhoulGlowing
   components:
   - type: Sprite
@@ -157,7 +157,7 @@
 
 - type: entity
   id: N14LeftFootGhoulGlowing
-  name: "ліва нога упиря"
+  name: left ghoul foot
   parent: N14PartGhoulGlowing
   components:
   - type: Sprite
@@ -173,7 +173,7 @@
 
 - type: entity
   id: N14RightFootGhoulGlowing
-  name: "права нога упиря"
+  name: right ghoul foot
   parent: N14PartGhoulGlowing
   components:
   - type: Sprite

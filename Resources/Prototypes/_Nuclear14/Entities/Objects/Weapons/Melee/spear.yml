@@ -1,8 +1,8 @@
 - type: entity
-  name: "base Метальний спис"
+  name: baseThrowingSpear
   parent: BaseItem
   id: baseThrowingSpear
-  description: "Визначення класики. Зберігаючи вбивство доступним з 200 000 років до нашої ери."
+  description: Definition of a Classic. Keeping murder affordable since 200,000 BCE.
   components:
   - type: EmbeddableProjectile
     offset: 0.15,0.15
@@ -80,10 +80,10 @@
     fillBaseName: spear
 
 - type: entity
-  name: "спис"
+  name: spear
   parent: Spear
   id: N14WastelandSpear
-  description: "Визначення класики. Зберігаючи вбивство доступним з 200 000 років до нашої ери."
+  description: Definition of a Classic. Keeping murder affordable since 200,000 BCE.
   components:
   - type: Clothing
     sprite: _Nuclear14/Objects/Weapons/Melee/spear.rsi
@@ -102,10 +102,10 @@
 
 
 - type: entity
-  name: "Бойовий прапор УНР"
+  name: NCR battle flag
   parent: N14WastelandSpear
   id: N14WastelandFlagSpear
-  description: "Довгий спис із прив'язаним до нього прапором НРК - найвідданіші солдати носять його для підняття бойового духу."
+  description: A long spear with a NCR flag tied on his end, the most loyal soldiers carry these to boost the morale.
   components:
   - type: Clothing
     sprite: _Nuclear14/Objects/Weapons/Melee/flagspear.rsi
@@ -128,10 +128,10 @@
 
 
 - type: entity
-  name: "племінний спис"
+  name: tribal spear
   parent: Spear
   id: N14WastelandTribalSpear
-  description: "Міцні та з руйнівною атакою, ці списи зазвичай виготовлялися та використовувалися племенами."
+  description: Strong and with a devastating attack, these spears are commonly made and used by tribals.
   components:
   - type: Clothing
     sprite: _Nuclear14/Objects/Weapons/Melee/tribalspear.rsi
@@ -150,10 +150,10 @@
         Slash: 8
 
 - type: entity
-  name: "спис"
+  name: javelin
   parent: baseThrowingSpear
   id: N14WastelandTribalJavelin
-  description: "Практично дуже короткий спис, але його сила походить не від ближнього бою."
+  description: Practically a very short spear, but his strength doesnt come from melee combat.
   components:
   - type: Sprite
     sprite: _Nuclear14/Objects/Weapons/Melee/javelin.rsi

@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: N14ClothingHeadHatHoodLeatherCloak
-  name: "шкіряний капюшон плаща"
-  description: "Капюшон шкіряного плаща, виготовлений зі шкури браміна."
+  name: leather cloak hood
+  description: A hood of a leather cloak, it is made from the hide of brahmin leather.
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/Head/FalloutHoods/leathercloak.rsi
@@ -16,8 +16,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: N14ClothingHeadHatHoodRangerCloak
-  name: "капюшон плаща рейнджера"
-  description: "Капюшон плаща рейнджера, зроблений із врятованого матеріалу з пустиря."
+  name: ranger cloak hood
+  description: A hood of a ranger cloak, it is made from salvaged wasteland material.
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/Head/FalloutHoods/rangercloak.rsi
@@ -31,8 +31,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: N14ClothingHeadHatHoodPonchoCloak
-  name: "плащ-пончо з капюшоном"
-  description: "Капюшон плаща-пончо, виготовлений з бавовни мусліну."
+  name: poncho cloak hood
+  description: A hood of a poncho cloak, it is made from muslin cotton.
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/Head/FalloutHoods/ponchocloak.rsi

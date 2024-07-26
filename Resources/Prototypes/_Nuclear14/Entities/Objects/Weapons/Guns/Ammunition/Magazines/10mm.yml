@@ -1,6 +1,6 @@
 - type: entity
   id: N14BaseMagazine10mmPistol
-  name: "пістолетний магазин (10 мм)"
+  name: pistol magazine (10mm)
   parent: BaseItem
   abstract: true
   components:
@@ -32,7 +32,7 @@
 
 - type: entity
   id: N14MagazinePistol10mm
-  name: "пістолетний магазин (10 мм)"
+  name: pistol magazine (10mm)
   parent: N14BaseMagazine10mmPistol
   components:
   - type: BallisticAmmoProvider
@@ -40,7 +40,7 @@
 
 - type: entity
   id: N14BaseMagazine10mmSubMachineGun
-  name: "Магазин SMG (10 мм)"
+  name: SMG magazine (10mm)
   parent: BaseItem
   abstract: true
   components:
@@ -72,7 +72,7 @@
 
 - type: entity
   id: N14MagazineSMG10mm
-  name: "Магазин SMG (10 мм)"
+  name: SMG magazine (10mm)
   parent: N14BaseMagazine10mmSubMachineGun
   components:
   - type: BallisticAmmoProvider

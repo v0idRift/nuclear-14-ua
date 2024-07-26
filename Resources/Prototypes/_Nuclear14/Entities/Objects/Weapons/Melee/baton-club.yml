@@ -1,5 +1,5 @@
 - type: entity
-  name: "поліцейський кийок"
+  name: police baton
   parent: BaseItem
   id: N14BasePoliceBaton
   components:
@@ -24,7 +24,7 @@
     - suitStorage
 
 - type: entity
-  name: "племінний клуб"
+  name: tribal club
   parent: BaseItem
   id: N14BaseTribalClub
   components:
@@ -45,7 +45,7 @@
     - suitStorage
 
 - type: entity
-  name: "прорвана труба"
+  name: broken pipe
   parent: BaseItem
   id: N14BaseBrokenPipe
   components:

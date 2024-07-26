@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseStructure
   id: N14ChalkboardFloor
-  name: "Дошка для крейди"
-  description: "Запилена крейдяна дошка"
+  name: Chalkboard
+  description: A dusty chalkboard
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Furniture/chalkboardfloor.rsi

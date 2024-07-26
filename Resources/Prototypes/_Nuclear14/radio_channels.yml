@@ -63,21 +63,21 @@
 
 - type: radioChannel
   id: BrotherhoodWashington
-  name: "chat-radio-boswashington"
+  name: chat-radio-boswashington
   keycode: 'w'
   frequency: 1313
   color: "#8f4a4b"
 
 - type: radioChannel
   id: Enclave
-  name: "чат-радіо-анклав"
+  name: chat-radio-enclave
   keycode: 'l'
   frequency: 1600
   color: "#8f4a4b"
 
 - type: radioChannel
   id: NCR
-  name: "chat-radio-ncr"
+  name: chat-radio-ncr
   keycode: 'r'
   frequency: 1546
   color: "#801c14"

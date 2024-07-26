@@ -1,8 +1,8 @@
 - type: entity
-  name: "таблетка rad-x"
+  name: rad-x pill
   parent: Pill
   id: N14RadXPill
-  description: "Таблетку \"Рад-Х\". Вона робить вас більш стійкими до радіації."
+  description: A pill of Rad-X. It makes you more resistant to radiation. 
   components:
   - type: Sprite
     sprite: _Nuclear14/Objects/Specific/Medical/pills.rsi
@@ -28,10 +28,10 @@
     grindableSolutionName: food
 
 - type: entity
-  name: "таблетка від перевтоми"
+  name: buffout pill
   parent: N14RadXPill
   id: N14BuffoutPill
-  description: "Таблетка \"Буффут\". Вона робить вас сильнішими, покращує ваші рефлекси і дозволяє витримати більше."
+  description: A pill of Buffout. It makes you stronger, enhances your reflexes, and allows you to endure more. 
   components:
   - type: Sprite
     state: pill1
@@ -44,10 +44,10 @@
           Quantity: 20
 
 - type: entity
-  name: "таблетки ментат"
+  name: mentats pill
   parent: N14RadXPill
   id: N14MentatsPill
-  description: "Таблетку \"Ментатсу\". Робить розум гострішим."
+  description: A pill of Mentats. It makes you mentally sharper. 
   components:
   - type: Sprite
     state: pill4
@@ -60,10 +60,10 @@
           Quantity: 20
 
 - type: entity
-  name: "закріплююча таблетка"
+  name: fixer pill
   parent: N14RadXPill
   id: N14FixerPill
-  description: "Таблетку \"Фіксера\". Допомагає подолати залежність."
+  description: A pill of Fixer. It helps you get over your addictions. 
   components:
   - type: Sprite
     state: pill3
@@ -76,10 +76,10 @@
           Quantity: 20
 
 - type: entity
-  name: "таблетка катеїну"
+  name: cateye pill
   parent: N14RadXPill
   id: N14CateyePill
-  description: "Таблетку \"Ceteye\". Тимчасово покращує зір в умовах недостатнього освітлення."
+  description: A pill of Ceteye. It temporarily grants you better low-light vision. 
   components:
   - type: Sprite
     state: pill2
