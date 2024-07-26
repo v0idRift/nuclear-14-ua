@@ -1,37 +1,37 @@
 ﻿- type: construction
-  name: small light
+  name: "маленьке світло"
   id: N14Lightbulb
   graph: N14Lightbulb
   startNode: start
   targetNode: bulbLight
   category: construction-category-utilities
-  description: A light bulb in a cage.
+  description: "Лампочка в клітці."
   icon: { sprite: _Nuclear14/Structures/Wallmounts/lightbulbcaged.rsi, state: base }
   objectType: Structure
   placementMode: SnapgridCenter
   hide: false
 
 - type: construction
-  name: wall torch
+  name: "настінний ліхтар"
   id: WallTorch
   graph: WallTorch
   startNode: start
   targetNode: WallTorch
   category: construction-category-utilities
-  description: A wooden stake on the wall you can light
+  description: "Дерев'яний кілок на стіні, який можна запалити"
   icon: { sprite: _Nuclear14/Structures/Decoration/torches.rsi, state: wall_torch_unlit }
   objectType: Structure
   placementMode: SnapgridCenter
   hide: false
   
 - type: construction
-  name: bonfire
+  name: "вогнище"
   id: N14Bonfire
   graph: N14Bonfire
   startNode: start
   targetNode: bonfire
   category: construction-category-utilities
-  description: A wooden bonfire for heating and cooking.
+  description: "Дерев'яне вогнище для обігріву та приготування їжі."
   icon: { sprite: Structures/Decoration/bonfire.rsi, state: bonfire }
   objectType: Structure
   placementMode: SnapgridCenter

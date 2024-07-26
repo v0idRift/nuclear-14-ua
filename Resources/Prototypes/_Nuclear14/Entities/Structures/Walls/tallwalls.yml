@@ -1,7 +1,7 @@
 - type: entity
   parent: BaseWall
   id: N14WallAdobeTall
-  name: adobe wall
+  name: "глинобитна стіна"
   suffix: tall
   components:
   - type: Sprite
@@ -20,7 +20,7 @@
 - type: entity
   parent: BaseWall
   id: N14WallBrickTall
-  name: brick wall
+  name: "цегляна стіна"
   suffix: tall
   components:
   - type: Sprite
@@ -39,7 +39,7 @@
 - type: entity
   parent: BaseWall
   id: N14WallBrickAltTall
-  name: brick wall
+  name: "цегляна стіна"
   suffix: tall
   components:
   - type: Sprite
@@ -58,7 +58,7 @@
 - type: entity
   parent: BaseWall
   id: N14WallBrickGrayTall
-  name: brick wall
+  name: "цегляна стіна"
   suffix: tall
   components:
   - type: Sprite
@@ -77,7 +77,7 @@
 - type: entity
   parent: BaseWall
   id: N14WallBunkerTall
-  name: bunker wall
+  name: "стіна бункера"
   suffix: tall
   components:
   - type: Sprite
@@ -96,7 +96,7 @@
 - type: entity
   parent: BaseWall
   id: N14WallCombTall
-  name: comb wall
+  name: "гребінчаста стіна"
   suffix: tall
   components:
   - type: Sprite
@@ -115,7 +115,7 @@
 - type: entity
   parent: BaseWall
   id: N14WallConcreteTall
-  name: concrete wall
+  name: "бетонна стіна"
   suffix: tall
   components:
   - type: Sprite
@@ -134,7 +134,7 @@
 - type: entity
   parent: BaseWall
   id: N14WallConcreteAltTall
-  name: concrete wall
+  name: "бетонна стіна"
   suffix: tall
   components:
   - type: Sprite
@@ -153,7 +153,7 @@
 - type: entity
   parent: BaseWall
   id: N14WallDungeonTall
-  name: dungeon wall
+  name: "стіна підземелля"
   suffix: tall
   components:
   - type: Sprite
@@ -172,7 +172,7 @@
 - type: entity
   parent: BaseWall
   id: N14WallDungeonAltTall
-  name: dungeon wall
+  name: "стіна підземелля"
   suffix: tall
   components:
   - type: Sprite
@@ -191,7 +191,7 @@
 - type: entity
   parent: BaseWall
   id: N14WallMetalTall
-  name: metal wall
+  name: "металева стіна"
   suffix: tall
   components:
   - type: Sprite
@@ -210,7 +210,7 @@
 - type: entity
   parent: BaseWall
   id: N14WallPrisonTall
-  name: prison wall
+  name: "тюремний мур"
   suffix: tall
   components:
   - type: Sprite
@@ -229,7 +229,7 @@
 - type: entity
   parent: BaseWall
   id: N14WallReinfMetalTall
-  name: reinforced metal wall
+  name: "армована металева стіна"
   suffix: tall
   components:
   - type: Sprite
@@ -248,7 +248,7 @@
 - type: entity
   parent: BaseWall
   id: N14WallRockTall
-  name: rock wall
+  name: "скельна стіна"
   suffix: tall
   components:
   - type: Sprite
@@ -267,7 +267,7 @@
 - type: entity
   parent: BaseWall
   id: N14WallRockDroughtTall
-  name: drought rock wall
+  name: "посухостійка кам'яна стіна"
   suffix: tall
   components:
   - type: Sprite
@@ -286,7 +286,7 @@
 - type: entity
   parent: BaseWall
   id: N14WallRockMammothTall
-  name: mammoth rock wall
+  name: "мамонтова скельна стіна"
   suffix: tall
   components:
   - type: Sprite
@@ -305,7 +305,7 @@
 - type: entity
   parent: BaseWall
   id: N14WallRoughScrapTall
-  name: rough scrap wall
+  name: "груба стіна з обрізків"
   suffix: tall
   components:
   - type: Sprite
@@ -324,7 +324,7 @@
 - type: entity
   parent: BaseWall
   id: N14WallIndustrialRustTall
-  name: industrial rust wall
+  name: "промислова іржава стіна"
   suffix: tall
   components:
   - type: Sprite
@@ -343,7 +343,7 @@
 - type: entity
   parent: BaseWall
   id: N14WallMetalRustTall
-  name: metal rust wall
+  name: "металева іржава стіна"
   suffix: tall
   components:
   - type: Sprite
@@ -362,7 +362,7 @@
 - type: entity
   parent: BaseWall
   id: N14WallReinfMetalRustTall
-  name: reinforced metal rust wall
+  name: "армована металева іржава стіна"
   suffix: tall
   components:
   - type: Sprite
@@ -381,7 +381,7 @@
 - type: entity
   parent: BaseWall
   id: N14WallVaultRustTall
-  name: vault rust wall
+  name: "іржава стіна сховища"
   suffix: tall
   components:
   - type: Sprite
@@ -400,7 +400,7 @@
 - type: entity
   parent: BaseWall
   id: N14WallVaultVentsRustTall
-  name: vault vents rust wall
+  name: "вентиляційні отвори сховища іржа стіна"
   suffix: tall
   components:
   - type: Sprite
@@ -419,7 +419,7 @@
 - type: entity
   parent: BaseWall
   id: N14WallScrapTall
-  name: scrap wall
+  name: "лом стіни"
   suffix: tall
   components:
   - type: Sprite
@@ -438,7 +438,7 @@
 - type: entity
   parent: BaseWall
   id: N14WallScrapBlueTall
-  name: blue scrap wall
+  name: "синя стіна з брухту"
   suffix: tall
   components:
   - type: Sprite
@@ -457,7 +457,7 @@
 - type: entity
   parent: BaseWall
   id: N14WallScrapRedTall
-  name: red scrap wall
+  name: "червона стіна з брухту"
   suffix: tall
   components:
   - type: Sprite
@@ -476,7 +476,7 @@
 - type: entity
   parent: BaseWall
   id: N14WallScrapWhiteTall
-  name: white scrap wall
+  name: "біла стіна з обрізків"
   suffix: tall
   components:
   - type: Sprite
@@ -495,7 +495,7 @@
 - type: entity
   parent: BaseWall
   id: N14WallSewerTall
-  name: sewer wall
+  name: "стіна каналізації"
   suffix: tall
   components:
   - type: Sprite
@@ -514,7 +514,7 @@
 - type: entity
   parent: BaseWall
   id: N14WallSidingTall
-  name: siding wall
+  name: "стіна з сайдингу"
   suffix: tall
   components:
   - type: Sprite
@@ -533,7 +533,7 @@
 - type: entity
   parent: BaseWall
   id: N14WallSidingBlueTall
-  name: blue siding wall
+  name: "синя стіна з сайдингу"
   suffix: tall
   components:
   - type: Sprite
@@ -552,7 +552,7 @@
 - type: entity
   parent: BaseWall
   id: N14WallSidingRedTall
-  name: red siding wall
+  name: "стіна з червоного сайдингу"
   suffix: tall
   components:
   - type: Sprite
@@ -571,7 +571,7 @@
 - type: entity
   parent: BaseWall
   id: N14WallSidingGreenTall
-  name: green siding wall
+  name: "зелена стіна з сайдингу"
   suffix: tall
   components:
   - type: Sprite
@@ -590,7 +590,7 @@
 - type: entity
   parent: BaseWall
   id: N14WallVaultTall
-  name: vault wall
+  name: "стіна склепіння"
   suffix: tall
   components:
   - type: Sprite
@@ -609,7 +609,7 @@
 - type: entity
   parent: BaseWall
   id: N14WallVaultVentTall
-  name: vault vent wall
+  name: "вентиляційна стіна сховища"
   suffix: tall
   components:
   - type: Sprite
@@ -628,7 +628,7 @@
 - type: entity
   parent: BaseWall
   id: N14WallWoodTall
-  name: wood wall
+  name: "дерев'яна стіна"
   suffix: tall
   components:
   - type: Sprite
@@ -647,7 +647,7 @@
 - type: entity
   parent: BaseWall
   id: N14WallWoodAltTall
-  name: wood wall
+  name: "дерев'яна стіна"
   suffix: tall
   components:
   - type: Sprite

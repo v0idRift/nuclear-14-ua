@@ -2,7 +2,7 @@
   noSpawn: true
   parent: BaseBullet
   id: N14Bullet50
-  name: bullet (.50 anti-materiel)
+  name: "куля (.50 протиматеріальна)"
   components:
   - type: Projectile
     damage:

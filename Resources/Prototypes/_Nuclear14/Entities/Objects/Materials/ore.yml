@@ -1,7 +1,7 @@
 - type: entity
   parent: OreBase
   id: LeadOre
-  name: lead ore
+  name: "свинцева руда"
   suffix: Full
   components:
   # - type: Stack
@@ -34,7 +34,7 @@
 - type: entity
   parent: OreBase
   id: SulfurOre
-  name: sulfur ore
+  name: "сірчана руда"
   suffix: Full
   components:
   # - type: Stack
@@ -67,7 +67,7 @@
 - type: entity
   parent: OreBase
   id: FertilizerOre
-  name: fertilizer
+  name: "добриво"
   suffix: Full
   components:
   # - type: Stack

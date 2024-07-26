@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingShoesBase
   id: N14ClothingBootsBlack
-  name: black boots
-  description: A pair of simple black boots, nothing really interesting.
+  name: "чорні черевики"
+  description: "Пара простих чорних черевиків, нічого особливо цікавого."
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/Shoes/FalloutBoots/blackboots.rsi
@@ -12,8 +12,8 @@
 - type: entity
   parent: ClothingShoesMilitaryBase
   id: N14ClothingBootsCombat
-  name: combat boots
-  description: Comfy and resistent, perfect for long walks in hard terrains.
+  name: "бойові черевики"
+  description: "Зручні та стійкі, ідеально підходять для тривалих прогулянок по пересіченій місцевості."
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/Shoes/FalloutBoots/combatboots.rsi
@@ -23,8 +23,8 @@
 - type: entity
   parent: ClothingShoesMilitaryBase
   id: N14ClothingBootsCombatMK2
-  name: combat boots MK2
-  description: Extremely comfy and protective, only the most skilled soldiers got to use this pair of boots.
+  name: "бойові черевики MK2"
+  description: "Надзвичайно зручні та захисні, лише найдосвідченіші солдати могли користуватися цими черевиками."
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/Shoes/FalloutBoots/combatbootsmk2.rsi
@@ -34,8 +34,8 @@
 - type: entity
   parent: ClothingShoesBase
   id: N14ClothingBootsCowboy
-  name: cowboy boots
-  description: Cowboy boots, perfect to walk around your brahmin ranch.
+  name: "ковбойські чоботи"
+  description: "Ковбойські чоботи, ідеально підходять для прогулянок по вашому брамінському ранчо."
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/Shoes/FalloutBoots/cowboyboots.rsi
@@ -45,8 +45,8 @@
 - type: entity
   parent: ClothingShoesBase
   id: N14ClothingBootsFire
-  name: firefighter boots
-  description: Made to resist fire, used by a group of people of the pre-war that liked to fight against fire, crazy thing.
+  name: "черевики пожежника"
+  description: "Зроблений для протистояння вогню, використовувався групою людей довоєнного часу, які любили боротися з вогнем, божевільна річ."
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/Shoes/FalloutBoots/firefighter.rsi
@@ -56,8 +56,8 @@
 - type: entity
   parent: ClothingShoesBase
   id: N14ClothingBootsLeather
-  name: leather boots
-  description: Brown leather boots, thats all.
+  name: "шкіряні черевики"
+  description: "Коричневі шкіряні черевики, це все."
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/Shoes/FalloutBoots/leatherboots.rsi
