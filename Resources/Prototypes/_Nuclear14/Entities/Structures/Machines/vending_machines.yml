@@ -2,8 +2,8 @@
 - type: entity
   id: N14VendingMachineStorageBase # This is for vending machines that are storage and not actual vending machines.
   parent: BaseMachinePowered
-  name: "торговий автомат"
-  description: "Просто додайте капіталізм!"
+  name: vending machine
+  description: Just add capitalism!
   abstract: true
   components:
   - type: AmbientOnPowered
@@ -93,8 +93,8 @@
 - type: entity
   parent: VendingMachine
   id: N14VendingMachineNukaCola
-  name: "Автомат Nuka-Cola"
-  description: "Довоєнний торговий автомат, що видає фірмові напої корпорації \"Нука-Кола\"."
+  name: Nuka-Cola machine
+  description: A Pre-War vending machine that dispenses Nuka-Cola Corporation branded beverages. 
   components:
   - type: VendingMachine
     pack: NukaInventory
@@ -122,9 +122,9 @@
 - type: entity
   parent: N14VendingMachineNukaCola
   id: N14VendingMachineNukaColaIrradiated
-  name: "Автомат Nuka-Cola"
+  name: Nuka-Cola machine
   suffix: irradiated
-  description: "Довоєнний торговий автомат, що видає фірмові напої корпорації \"Нука-Кола\"."
+  description: A Pre-War vending machine that dispenses Nuka-Cola Corporation branded beverages. 
   components:
   - type: VendingMachine
     pack: NukaRadInventory
@@ -136,8 +136,8 @@
   parent: N14VendingMachineStorageBase
   id: N14VendingMachineNukaColaNew
   suffix: storage, empty
-  name: "Автомат Nuka-Cola"
-  description: "Довоєнний торговий автомат, що видає фірмові напої корпорації \"Нука-Кола\"."
+  name: Nuka-Cola machine
+  description: A Pre-War vending machine that dispenses Nuka-Cola Corporation branded beverages. 
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Machines/VendingMachines/nukacola.rsi
@@ -206,8 +206,8 @@
   parent: N14VendingMachineStorageBase
   id: N14VendingMachineVim
   suffix: storage, empty
-  name: "Машина Vim"
-  description: "Довоєнний торговий автомат, що видає напої під брендом Vim."
+  name: Vim machine
+  description: A Pre-War vending machine that dispenses Vim branded beverages. 
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Machines/VendingMachines/vim.rsi
@@ -267,8 +267,8 @@
   parent: BaseStructure
   id: N14VendingMachineCigarette
   suffix: storage, empty
-  name: "продавець сигарет"
-  description: "Довоєнний торговий автомат, який видає сигарети."
+  name: cigarette vendor
+  description: A Pre-War vending machine that dispenses cigarettes. 
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Machines/VendingMachines/vendors.rsi
@@ -316,8 +316,8 @@
   parent: N14VendingMachineCigarette
   id: N14VendingMachineCigaretteFilledRepublic
   suffix: republics
-  name: "Продавець сигарет Republics"
-  description: "Довоєнний тютюновий кіоск, наповнений пачками сигарет \"Республіка\"."
+  name: Republics cig vendor
+  description: A pre-war cigarette vendor that's been filled with Republic cigarette packs.
   components:
   - type: StorageFill
     contents:

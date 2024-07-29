@@ -1,6 +1,6 @@
 ﻿- type: construction
-  name: "висока рама машини"
-  description: "Машина на стадії будівництва. Потрібно більше деталей."
+  name: tall machine frame
+  description: A machine under construction. Needs more parts.
   id: N14TallMachineFrame
   graph: N14TallMachineFrame
   startNode: start
@@ -14,13 +14,13 @@
 
 # Server / Racks / Panels
 - type: construction
-  name: "серверна стійка"
+  name: server rack
   id: N14RackElectronics
   graph: N14TallMachineFrame
   startNode: start
   targetNode: ElectronicsRack
   category: construction-category-machines
-  description: "Серверна стійка, заповнена електронікою."
+  description: A server rack filled with electronics.
   objectType: Structure
   canBuildInImpassable: false
   hide: false
@@ -31,13 +31,13 @@
     - !type:TileNotBlocked
 
 - type: construction
-  name: "серверна стійка"
+  name: server rack
   id: N14ServerRack
   graph: N14TallMachineFrame
   startNode: start
   targetNode: ServerRack
   category: construction-category-machines
-  description: "Серверна стійка, заповнена електронікою."
+  description: A server rack filled with electronics.
   objectType: Structure
   canBuildInImpassable: false
   hide: false
@@ -49,13 +49,13 @@
     
 # Terminals
 - type: construction
-  name: "термінал"
+  name: terminal
   id: N14Terminal
   graph: N14TallMachineFrame
   startNode: start
   targetNode: ServerRack
   category: construction-category-machines
-  description: "Серверна стійка, заповнена електронікою."
+  description: A server rack filled with electronics.
   objectType: Structure
   canBuildInImpassable: false
   hide: false

@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingEyesBase
   id: N14ClothingEyesGlassesWelding
-  name: "зварювальні окуляри"
-  description: "Окуляри призначені для захисту очей від поширених робочих небезпек, мають додатковий захист для зварювання."
+  name: welding goggles
+  description: Goggles designed to protect the eyes against common work hazards, it has extra protection for welding.
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/Eyes/weldgoggles.rsi
@@ -13,8 +13,8 @@
 - type: entity
   parent: ClothingEyesBase
   id: N14ClothingEyesGlassesPilot
-  name: "окуляри пілота"
-  description: "Окуляри, призначені для захисту очей, зазвичай використовуються пілотами в літальних апаратах."
+  name: pilot goggles
+  description: Goggles designed to cover the eyes, commonly used by pilots in their flying machines.
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/Eyes/pilotgoggles.rsi
@@ -24,8 +24,8 @@
 - type: entity
   parent: ClothingEyesBase
   id: N14ClothingEyesGlassesGoggles
-  name: "окуляри"
-  description: "Великий шматок окулярів, що закриває очі, забезпечуючи при цьому хороший конус зору."
+  name: goggles
+  description: A big piece of goggles that cover the eyes while giving a good vision cone.
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/Eyes/goggles.rsi
@@ -35,8 +35,8 @@
 - type: entity
   parent: ClothingEyesBase
   id: N14ClothingEyesGlasses
-  name: "окуляри"
-  description: "Пара окулярів, які допомагають виправити зір вродженим нещасливцям."
+  name: glasses
+  description: A pair of glasses that help correct the vision of the born unfortunate.
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/Eyes/glasses.rsi
@@ -47,8 +47,8 @@
 - type: entity
   parent: ClothingEyesBase
   id: N14ClothingEyesSunGlasses
-  name: "сонцезахисні окуляри"
-  description: "Пара чорних сонцезахисних окулярів, ідеально підходить для захисту від сонця."
+  name: sun glasses
+  description: A pair of black sunglasses, perfect to protect against the sun.
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/Eyes/sunglasses.rsi

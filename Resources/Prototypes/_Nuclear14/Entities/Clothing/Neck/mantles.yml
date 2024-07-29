@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingNeckBase
   id: N14ClothingNeckMantleBrotherhoodWashington
-  name: "Мантія Вашингтонського братства"
-  description: "Червона з чорним мантія, яку носили вищі чини вашингтонської армії Бос, символізує високий статус."
+  name: Washington Brotherhood mantle
+  description: A red with black mantle, wore by high ranks of the washington BoS army it represents a high status.
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/Neck/WBoSmantle.rsi
@@ -12,8 +12,8 @@
 - type: entity
   parent: ClothingNeckBase
   id: N14ClothingNeckMantleNCR
-  name: "Мантія командира загону NCR"
-  description: "Крихітний шматок тканини, прикріплений мотузкою, зазвичай використовувався сержантами армії НКР."
+  name: NCR squad leader mantle
+  description: A tiny piece of cloth holded with a rope, commonly used between sergeants from the NCR army.
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/Neck/NCRmantle.rsi
@@ -23,8 +23,8 @@
 - type: entity
   parent: ClothingNeckBase
   id: N14ClothingNeckMantleLeather
-  name: "шкіряна накидка"
-  description: "Зручна коричнева довга накидка."
+  name: leather mantle
+  description: A comfortable brown long mantle.
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/Neck/leathermantle.rsi

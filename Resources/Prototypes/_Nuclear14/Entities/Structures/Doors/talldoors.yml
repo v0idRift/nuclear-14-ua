@@ -1,9 +1,9 @@
 - type: entity
   parent: BaseMaterialDoorNavMap
   id: N14DoorMetalBlueTall
-  name: "металеві двері"
+  name: metal Door
   suffix: tall
-  description: "Старі сині металеві двері."
+  description: An old blue metal door.
   components:
   - type: Sprite
     drawdepth: Mobs

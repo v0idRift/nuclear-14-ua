@@ -1,8 +1,8 @@
 - type: entity
   parent: EncryptionKey
   id: EncryptionKeyBrotherhoodMidwest
-  name: "Ключ шифрування Midwest BOS"
-  description: "Ключ шифрування, що використовується \"Братством сталі Середнього Заходу\"."
+  name: Midwest BOS encryption key
+  description: An encryption key used by the Midwest Brotherhood of Steel.
   components:
   - type: EncryptionKey
     channels:
@@ -16,8 +16,8 @@
 - type: entity
   parent: EncryptionKey
   id: EncryptionKeyBrotherhoodWashington
-  name: "Ключ шифрування Washington BOS"
-  description: "Ключ шифрування, який використовувало Вашингтонське сталеве братство."
+  name: Washington BOS encryption key
+  description: An encryption key used by the Washington Brotherhood of Steel.
   components:
   - type: EncryptionKey
     channels:
@@ -31,8 +31,8 @@
 - type: entity
   parent: EncryptionKey
   id: EncryptionKeyEnclave
-  name: "Ключ шифрування Enclave"
-  description: "Ключ шифрування, що використовується Анклавом."
+  name: Enclave encryption key
+  description: An encryption key used by the Enclave.
   components:
   - type: EncryptionKey
     channels:
@@ -46,8 +46,8 @@
 - type: entity
   parent: EncryptionKey
   id: EncryptionKeyNCR
-  name: "Ключ шифрування NCR"
-  description: "Ключ шифрування, що використовується NCR."
+  name: NCR encryption key
+  description: An encryption key used by the NCR.
   components:
   - type: EncryptionKey
     channels:
