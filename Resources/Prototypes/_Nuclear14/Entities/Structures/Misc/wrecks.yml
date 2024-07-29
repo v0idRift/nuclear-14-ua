@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseStructure
   id: N14WreckCoupe
-  name: wrecked coupe
-  description: a wrecked pre-war car.
+  name: "розбите купе"
+  description: "розбитий довоєнний автомобіль."
   components:
   - type: Fixtures
     fixtures:
@@ -137,8 +137,8 @@
 - type: entity
   parent: N14WreckCoupe
   id: N14WreckMusclecar
-  name: wrecked muscle car
-  description: a wrecked pre-war car.
+  name: "розбитий маслкар"
+  description: "розбитий довоєнний автомобіль."
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Misc/wrecks.rsi
@@ -241,8 +241,8 @@
 - type: entity
   parent: N14WreckCoupe
   id: N14WreckSportscar
-  name: wrecked sports car
-  description: a wrecked pre-war car.
+  name: "розбитий спортивний автомобіль"
+  description: "розбитий довоєнний автомобіль."
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Misc/wrecks.rsi
@@ -345,8 +345,8 @@
 - type: entity
   parent: N14WreckCoupe
   id: N14WreckVan
-  name: wrecked van
-  description: a wrecked pre-war van.
+  name: "розбитий фургон"
+  description: "розбитий довоєнний фургон."
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Misc/wrecks.rsi

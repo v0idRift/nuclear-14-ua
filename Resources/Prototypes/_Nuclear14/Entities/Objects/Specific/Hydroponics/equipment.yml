@@ -3,8 +3,8 @@
 - type: entity
   parent: BaseStorageItem
   id: N14Sack
-  name: sack
-  description: A woven sack for storing things.
+  name: "мішок"
+  description: "Тканий мішок для зберігання речей."
   components:
   - type: Sprite
     sprite: _Nuclear14/Objects/Specific/Hydroponics/equipment.rsi
@@ -46,8 +46,8 @@
 - type: entity
   parent: BaseItem
   id: N14SackCompost
-  name: compost sack
-  description: A sack for storing compost or dung
+  name: "мішок для компосту"
+  description: "Мішок для зберігання компосту або гною"
   components:
   - type: Sprite
     sprite: _Nuclear14/Objects/Specific/Hydroponics/equipment.rsi
@@ -95,8 +95,8 @@
 - type: entity
   parent: N14SackCompost
   id: N14SackFertilizer
-  name: fertilizer sack
-  description: A sack for storing fertilizer.
+  name: "мішок для добрив"
+  description: "Мішок для зберігання добрива."
   components:
   - type: Sprite
     sprite: _Nuclear14/Objects/Specific/Hydroponics/equipment.rsi
@@ -114,8 +114,8 @@
   parent: N14SackFertilizer
   id: N14SackFertilizerFull
   suffix: full
-  name: fertilizer sack
-  description: A sack for storing fertilizer.
+  name: "мішок для добрив"
+  description: "Мішок для зберігання добрива."
   components:
   - type: SolutionContainerManager
     solutions:

@@ -1,8 +1,8 @@
 - type: entity
-  name: sledge hammer
+  name: "кувалда"
   parent: BaseItem
   id: N14SledgeHammer
-  description: A robust sledge hammer that requires considerable strenght to be wielded.
+  description: "Міцний кувалда, який вимагає значної сили для роботи."
   components:
   - type: Sprite
     sprite: _Nuclear14/Objects/Weapons/Melee/sledgehammer.rsi
@@ -32,10 +32,10 @@
       # path: /Audio/Items/eating_2.ogg # TODO: Crushing noise
 
 - type: entity
-  name: super sledge hammer
+  name: "супер кувалда"
   parent: N14SledgeHammer
   id: N14SuperSledgeHammer
-  description: A bigger, heavier and more destructive sledge hammer, you really need some strong arms to swing it.
+  description: "Більший, важчий і більш руйнівний кувалда, вам дійсно потрібні сильні руки, щоб розмахувати ним."
   components:
   - type: Sprite
     sprite: _Nuclear14/Objects/Weapons/Melee/supersledge.rsi
@@ -57,10 +57,10 @@
     - suitStorage
 
 - type: entity
-  name: tribal heavy club
+  name: "племінна важка дубина"
   parent: N14SledgeHammer
   id: N14TribalBigClub
-  description: A heavy and big tribal club that requires considerable strenght to be wielded.
+  description: "Важкий і великий племінний кийок, який вимагає значної сили, щоб ним володіти."
   components:
   - type: Sprite
     sprite: _Nuclear14/Objects/Weapons/Melee/tribalbigclub.rsi
@@ -82,10 +82,10 @@
     - suitStorage
 
 - type: entity
-  name: tribal decorated heavy club
+  name: "важка дубина з племінним орнаментом"
   parent: N14SledgeHammer
   id: N14TribalBigClubDecorated
-  description: A heavy and big tribal hammer that requires considerable strenght to be wielded, animal teeths has been added to this one.
+  description: "До важкого і великого племінного молота, який вимагає значної сили для володіння, додали зуби тварин."
   components:
   - type: Sprite
     sprite: _Nuclear14/Objects/Weapons/Melee/supersledge.rsi
