@@ -268,3 +268,19 @@ reagent-desc-scorpiontail = хвіст скорпіона. Скупий.
 
 compost-mixing-success = компост змішаний
 mixing-verb-composting = змішаний компост
+
+reagent-name-nightstalker-blood = кров нічного переслідувача
+reagent-desc-nightstalker-blood = кров нічного переслідувача
+reagent-name-extract-fungus = екстракт грибів
+reagent-desc-extract-fungus = Витяжка з гриба. На смак непоганий, хоч і кашоподібний і досить отруйний у поточному стані.
+
+## Чаї
+reagent-name-hydra = гідра
+reagent-desc-hydra = Суміш грибів, хвоста скорпіона і крові нічного сталкера, яка забезпечує помірне загоєння, але досить болюча і може викликати звикання.
+reagent-name-diluted-radaway = розведений редька
+reagent-desc-diluted-radaway = Розбавлений непарний реагент, який повільніше виліковує ваше опромінення.
+reagent-name-buffjet = буфет
+reagent-desc-buffjet = Реагент, що поєднує в собі силу струменя з силою розмивання, дуже міцний.
+reagent-name-bufftats = буфетів
+reagent-desc-bufftats = Реагент, що поєднує в собі силу ментатів з силою буффауту, дуже стійкий.
+materials-charcoal = вугілля

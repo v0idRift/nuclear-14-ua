@@ -266,3 +266,4 @@ ui-options-chat-window-opacity-percent = { TOSTRING($opacity, "P0") }
 ui-options-function-offer-item = Запропонуйте щось
 ui-options-function-save-item-location = Зберегти розташування елемента
 ui-options-function-toggle-standing = Перемикач стоячий
+ui-options-hud-theme-fallout2 = Fallout2

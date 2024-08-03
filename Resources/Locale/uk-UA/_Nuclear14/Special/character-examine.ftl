@@ -3,7 +3,7 @@ special-appearance-component-examine-charisma-very-low = { CAPITALIZE(SUBJECT($u
 special-appearance-component-examine-charisma-low = { CAPITALIZE(SUBJECT($user)) } здається незручним.
 special-appearance-component-examine-charisma-medium = { CAPITALIZE(SUBJECT($user)) } здається нормальним.
 special-appearance-component-examine-charisma-high = { CAPITALIZE(SUBJECT($user)) } здаються досяжними.
-special-appearance-component-examine-charisma-very-high = { CAPITALIZE(SUBJECT($user)) } здається привабливим.
+special-appearance-component-examine-charisma-very-high = { CAPITALIZE(SUBJECT($user)) } здається привабливим
 special-examinable-component-examine-text = Спеціальний
 special-examinable-verb-message = Вивчити спеціальні значення
 
@@ -13,7 +13,7 @@ special-appearance-component-examine-endurance = Витривалість - це
 special-appearance-component-examine-charisma = Харизма - це {$value}.
 special-appearance-component-examine-intelligence = Інтелект - це {$value}.
 special-appearance-component-examine-agility = Спритність - це {$value}.
-special-appearance-component-examine-luck = Вдача - це {$value}.
+special-appearance-component-examine-luck = Вдача - це {$value}
 character-info-special-label = S.P.E.C.I.A.L
 character-info-special-placeholder-text = Спеціальні значення
 special-component-examine-character-strength = Сила {$base} + {$modifier} = {$total}
