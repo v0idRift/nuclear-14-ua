@@ -1,8 +1,8 @@
 - type: entity
-  name: "топірець"
+  name: hatchet
   parent: BaseItem
   id: N14Hatchet
-  description: "Інструмент, який так само корисний, як і зброя. Використовується для рубання речей."
+  description: A tool that is just as useful as a weapon. Used for chopping things.
   components:
   - type: Clothing
     sprite: _Nuclear14/Objects/Weapons/Melee/hatchet.rsi
@@ -35,10 +35,10 @@
     size: Normal
 
 - type: entity
-  name: "племінний топірець"
+  name: tribal hatchet
   parent: BaseItem
   id: N14TribalHatchet
-  description: "Інструмент, який так само корисний, як і зброя. Використовується для рубання речей."
+  description: A tool that is just as useful as a weapon. Used for chopping things.
   components:
   - type: Clothing
     sprite: _Nuclear14/Objects/Weapons/Melee/tribalhatchet.rsi
@@ -71,10 +71,10 @@
     size: Normal
 
 - type: entity
-  name: "вогнепальна сокира"
+  name: fireaxe
   parent: N14BaseAxe
   id: N14FireAxe
-  description: "Воістину, зброя божевільного. Кому спаде на думку боротися з вогнем за допомогою сокири?"
+  description: Truly, the weapon of a madman. Who would think to fight fire with an axe?
   components:
   - type: Sprite
     sprite: _Nuclear14/Objects/Weapons/Melee/fireaxe.rsi
@@ -94,10 +94,10 @@
   - type: Prying
 
 - type: entity
-  name: "сокира"
+  name: axe
   parent: BaseItem
   id: N14BaseAxe
-  description: "Важка дерев'яна сокира, класичний інструмент і зброя."
+  description: A heavy wood axe, classic tool and weapon.
   components:
   - type: Tag
     tags:

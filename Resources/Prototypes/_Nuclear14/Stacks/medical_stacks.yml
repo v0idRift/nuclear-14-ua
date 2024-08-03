@@ -1,6 +1,6 @@
 - type: stack
   id: N14Traumapack
-  name: "травмопакет"
+  name: traumapack
   icon: { sprite: "_Nuclear14/Objects/Specific/Medical/drugs.rsi", state: traumapack }
   spawn: N14Traumapack
   maxCount: 10

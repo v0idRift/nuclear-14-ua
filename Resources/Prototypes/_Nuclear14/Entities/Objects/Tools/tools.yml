@@ -1,8 +1,8 @@
 - type: entity
-  name: "кусачки"
+  name: wirecutters
   parent: Wirecutter
   id: N14Wirecutter
-  description: "Це вбиває дріт."
+  description: This kills the wire.
   components:
   - type: Sprite
     sprite: _Nuclear14/Objects/Tools/wirecutters.rsi
@@ -16,10 +16,10 @@
     storedRotation: -90
 
 - type: entity
-  name: "викрутка"
+  name: screwdriver
   parent: Screwdriver
   id: N14Screwdriver
-  description: "Промисловий крутний момент у невеликій викрутці."
+  description: Industrial grade torque in a small screwdriving package.
   components:
   - type: Sprite
     sprite: _Nuclear14/Objects/Tools/screwdriver.rsi
@@ -33,10 +33,10 @@
     storedRotation: -90
 
 - type: entity
-  name: "гайковий ключ"
+  name: wrench
   parent: Wrench
   id: N14Wrench
-  description: "Найпоширеніший інструмент для збирання та розбирання. Пам'ятайте: правою рукою туго, лівою вільно."
+  description: 'A common tool for assembly and disassembly. Remember: righty tighty, lefty loosey.'
   components:
   - type: Sprite
     sprite: _Nuclear14/Objects/Tools/wrench.rsi
@@ -47,10 +47,10 @@
     storedRotation: -90
 
 - type: entity
-  name: "мультитул"
+  name: multitool
   parent: Multitool
   id: N14Multitool
-  description: "Просунутий інструмент для копіювання, зберігання та надсилання електричних імпульсів і сигналів через дроти та машини"
+  description: An advanced tool to copy, store, and send electrical pulses and signals through wires and machines
   components:
   - type: EmitSoundOnLand
     sound:
@@ -66,10 +66,10 @@
     storedRotation: -90
       
 - type: entity
-  name: "лопата"
+  name: shovel
   parent: Shovel
   id: N14Shovel
-  description: "Великий інструмент для копання та переміщення ґрунту."
+  description: A large tool for digging and moving dirt.
   # components:
   # - type: Tool
     # qualities:
@@ -80,7 +80,7 @@
 # Saws
 
 - type: entity
-  name: "пила"
+  name: saw
   id: N14Saw
   parent: Saw
   components:
@@ -106,10 +106,10 @@
       path: /Audio/Weapons/bladeslice.ogg
 
 - type: entity
-  name: "choppa"
+  name: choppa
   id: N14SawImprovised
   parent: N14Saw
-  description: "Злісне зубчасте лезо, зроблене з будь-яких неприємних гострих предметів, які ви могли знайти." # It would make a pretty decent weapon, given there are more space for some tool mods too.
+  description: A wicked serrated blade made of whatever nasty sharp things you could find. # It would make a pretty decent weapon, given there are more space for some tool mods too.
   components:
   - type: Sprite
     state: improv
@@ -123,8 +123,8 @@
 - type: entity
   parent: N14Saw
   id: N14SawElectric
-  name: "циркулярна пила"
-  description: "Для різання у важких умовах."
+  name: circular saw
+  description: For heavy duty cutting.
   components:
   - type: Sprite
     state: electric
@@ -145,8 +145,8 @@
 - type: entity
   parent: N14Saw
   id: N14SawAdvanced
-  name: "вдосконалена циркулярна пила"
-  description: "Ти думаєш, що можеш вирізати все, що завгодно."
+  name: advanced circular saw
+  description: You think you can cut anything with it.
   components:
   - type: Sprite
     state: advanced
@@ -168,8 +168,8 @@
 - type: entity
   parent: BaseItem
   id: N14Chainsaw
-  name: "бензопила"
-  description: "Дуже велика бензопила. Зазвичай нею рубають дерева... зазвичай."
+  name: chainsaw
+  description: A very large chainsaw. Usually you use this for cutting down trees... usually.
   components:
   - type: Wieldable
     wieldSound: !type:SoundPathSpecifier

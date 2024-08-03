@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingHandsButcherable
   id: N14ClothingHandsGlovesBlackBiker
-  name: "чорні байкерські рукавички"
-  description: "Міцні рукавички для міцних хлопців."
+  name: black biker gloves
+  description: Tought gloves for tought guys.
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/Hands/Gloves/bikergloves.rsi
@@ -18,8 +18,8 @@
 - type: entity
   parent: ClothingHandsButcherable
   id: N14ClothingHandsGlovesBrownBiker
-  name: "коричневі байкерські рукавички"
-  description: "Міцні рукавички для міцних хлопців."
+  name: brown biker gloves
+  description: Tought gloves for tought guys.
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/Hands/Gloves/brownbikergloves.rsi
@@ -35,8 +35,8 @@
 - type: entity
   parent: ClothingHandsButcherable
   id: N14ClothingHandsGlovesBlackLeather
-  name: "чорні шкіряні рукавички"
-  description: "Пара довгих чорних шкіряних рукавичок."
+  name: black leather gloves
+  description: A pair of long black leather gloves.
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/Hands/Gloves/blackleathergloves.rsi
@@ -50,8 +50,8 @@
 - type: entity
   parent: ClothingHandsButcherable
   id: N14ClothingHandsGlovesLeather
-  name: "шкіряні рукавички"
-  description: "Пара коричневих шкіряних рукавичок."
+  name: leather gloves
+  description: A pair of brown leather gloves.
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/Hands/Gloves/leathergloves.rsi
@@ -65,8 +65,8 @@
 - type: entity
   parent: ClothingHandsButcherable
   id: N14ClothingHandsGlovesDriver
-  name: "водійські рукавички"
-  description: "Пара якісних чорних шкіряних рукавичок з кількома отворами для вентиляції."
+  name: driver gloves
+  description: A pair of good quality black leather gloves with multiple holes for ventilation.
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/Hands/Gloves/drivergloves.rsi
@@ -82,8 +82,8 @@
 - type: entity
   parent: ClothingHandsButcherable
   id: N14ClothingHandsGlovesFur
-  name: "хутряні рукавички"
-  description: "Пара якісних чорних шкіряних рукавичок з хутряною підкладкою, досить теплі."
+  name: fur gloves
+  description: A pair of good quality black leather gloves with a fur interior, kinda warm.
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/Hands/Gloves/furgloves.rsi
@@ -97,8 +97,8 @@
 - type: entity
   parent: ClothingHandsButcherable
   id: N14ClothingHandsGlovesCombat
-  name: "бойові рукавички"
-  description: "Пара тактичних рукавичок, які забезпечують зручний захист всієї руки."
+  name: combat gloves
+  description: A pair of tactical gloves that give comfy protection to the whole hand.
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/Hands/Gloves/combatgloves.rsi
@@ -114,8 +114,8 @@
 - type: entity
   parent: ClothingHandsButcherable
   id: N14ClothingHandsGlovesNitrile
-  name: "нітрилові рукавички"
-  description: "Пара нітрилових рукавичок, не дуже міцних, але широко використовуваних у медичних цілях завдяки своєму стерильному матеріалу."
+  name: nitrile gloves
+  description: A pair of nitrile gloves, not very resistent but commonly used for medical purposes due to his sterile material.
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/Hands/Gloves/nitrilegloves.rsi
@@ -128,8 +128,8 @@
 - type: entity
   parent: ClothingHandsButcherable
   id: N14ClothingHandsGlovesTribal
-  name: "племінні рукавички"
-  description: "Шматок м'якої шкіри, щоб обв'язати навколо руки."
+  name: tribal gloves
+  description: A piece of soft leather to tie around the hand.
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/Hands/Gloves/tribalgloves.rsi
@@ -143,8 +143,8 @@
 - type: entity
   parent: ClothingHandsButcherable
   id: N14ClothingHandsGlovesCloth
-  name: "тканинні рукавички"
-  description: "Шматок тканини обв'язати навколо руки."
+  name: cloth gloves
+  description: A piece of cloth to tie around the hand.
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/Hands/Gloves/clothgloves.rsi
@@ -158,8 +158,8 @@
 - type: entity
   parent: ClothingHandsButcherable
   id: N14ClothingHandsGlovesNCR
-  name: "шкіряні рукавички без пальців"
-  description: "Рукавички виготовлені зі шкур пустельних тварин, вичинені та зшиті між собою без пальців."
+  name: fingerless leather gloves
+  description: Gloves made out of wasteland animal hides, tanned and stitched together without any fingers.
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/Hands/Gloves/NCRgloves.rsi
@@ -173,8 +173,8 @@
 - type: entity
   parent: ClothingHandsButcherable
   id: N14ClothingHandsGlovesPatrol
-  name: "шкіряні патрульні рукавички"
-  description: "Рукавички виготовлені зі шкіри брамінів, вичинені та зшиті для патрулювання пустелі Мохаве."
+  name: leather patrol gloves
+  description: Gloves made out of brahmin leather, tanned and stitched for the purpose of patrolling around Mojave desert.
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/Hands/Gloves/patrolgloves.rsi

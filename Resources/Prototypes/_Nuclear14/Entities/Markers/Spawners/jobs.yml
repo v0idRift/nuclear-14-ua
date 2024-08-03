@@ -3,7 +3,7 @@
 - type: entity
   parent: SpawnPointJobBase
   id: N14SpawnPointWastelander
-  name: "пустка"
+  name: wastelander
   components:
   - type: SpawnPoint
     job_id: Wastelander
@@ -16,7 +16,7 @@
 - type: entity
   id: N14SpawnPointBoSMidPaladinCommander
   parent: N14SpawnPointWastelander
-  name: "Командир середньозахідних паладинів BOS"
+  name: BOS midwest paladin commander
   components:
   - type: SpawnPoint
     job_id: BoSMidPaladinCommander
@@ -28,7 +28,7 @@
 - type: entity
   id: N14SpawnPointBoSMidKnight
   parent: N14SpawnPointWastelander
-  name: "Лицар середнього заходу BOS"
+  name: BOS midwest knight
   components:
   - type: SpawnPoint
     job_id: BoSMidKnight
@@ -40,7 +40,7 @@
 - type: entity
   id: N14SpawnPointBoSMidPaladin
   parent: N14SpawnPointWastelander
-  name: "BOS середньозахідний паладин"
+  name: BOS midwest paladin
   components:
   - type: SpawnPoint
     job_id: BoSMidPaladin
@@ -52,7 +52,7 @@
 - type: entity
   id: N14SpawnPointBoSMidInitiate # change this when I care
   parent: N14SpawnPointWastelander
-  name: "Бос середнього заходу сквайр"
+  name: BOS midwest squire
   components:
   - type: SpawnPoint
     job_id: BoSMidSquire
@@ -64,7 +64,7 @@
 - type: entity
   id: N14SpawnPointBoSMidScribe
   parent: N14SpawnPointWastelander
-  name: "Писар середнього Заходу БОС"
+  name: BOS midwest scribe
   components:
   - type: SpawnPoint
     job_id: BoSMidScribe
@@ -77,7 +77,7 @@
 - type: entity
   id: N14SpawnPointBoSWashingtonCommander
   parent: N14SpawnPointWastelander
-  name: "Командувач БОС у Вашингтоні"
+  name: BOS washington commander
   components:
   - type: SpawnPoint
     job_id: BoSWashingtonCommander
@@ -89,7 +89,7 @@
 - type: entity
   id: N14SpawnPointBoSWashingtonRecruit
   parent: N14SpawnPointWastelander
-  name: "Рекрут BOS у Вашингтоні"
+  name: BOS washington recruit
   components:
   - type: SpawnPoint
     job_id: BoSWashingtonRecruit
@@ -101,7 +101,7 @@
 - type: entity
   id: N14SpawnPointBoSWashingtonCaptain
   parent: N14SpawnPointWastelander
-  name: "BOS washington caaptain"
+  name: BOS washington caaptain
   components:
   - type: SpawnPoint
     job_id: BoSWashingtonCaptain
@@ -113,7 +113,7 @@
 - type: entity
   id: N14SpawnPointBoSWashingtonSoldier
   parent: N14SpawnPointWastelander
-  name: "Бос вашингтонський солдат"
+  name: BOS washington soldier
   components:
   - type: SpawnPoint
     job_id: BoSWashingtonSoldier
@@ -125,7 +125,7 @@
 - type: entity
   id: N14SpawnPointBoSWashingtonResearcher
   parent: N14SpawnPointWastelander
-  name: "Вашингтонський дослідник BOS"
+  name: BOS washington researcher
   components:
   - type: SpawnPoint
     job_id: BoSWashingtonResearcher
@@ -138,7 +138,7 @@
 - type: entity
   id: N14SpawnPointCaravanLeader
   parent: N14SpawnPointWastelander
-  name: "ватажок каравану"
+  name: caravan leader
   components:
   - type: SpawnPoint
     job_id: CaravanLeader
@@ -150,7 +150,7 @@
 - type: entity
   id: N14SpawnPointCaravanTrader
   parent: N14SpawnPointWastelander
-  name: "торговець караванами"
+  name: caravan trader
   components:
   - type: SpawnPoint
     job_id: CaravanTrader
@@ -162,7 +162,7 @@
 - type: entity
   id: N14SpawnPointCaravanGuard
   parent: N14SpawnPointWastelander
-  name: "охоронець каравану"
+  name: caravan guard
   components:
   - type: SpawnPoint
     job_id: CaravanGuard
@@ -175,7 +175,7 @@
 - type: entity
   id: N14SpawnPointNCRCadet
   parent: N14SpawnPointWastelander
-  name: "Курсант NCR"
+  name: NCR cadet
   components:
   - type: SpawnPoint
     job_id: NCRCadet
@@ -187,7 +187,7 @@
 - type: entity
   id: N14SpawnPointNCRQM
   parent: N14SpawnPointWastelander
-  name: "Квартирмейстер NCR"
+  name: NCR quartermaster
   components:
   - type: SpawnPoint
     job_id: NCRQM
@@ -199,7 +199,7 @@
 - type: entity
   id: N14SpawnPointNCRDoctor
   parent: N14SpawnPointWastelander
-  name: "Лікар NCR"
+  name: NCR doctor
   components:
   - type: SpawnPoint
     job_id: NCRDoctor
@@ -211,7 +211,7 @@
 - type: entity
   id: N14SpawnPointNCRMP
   parent: N14SpawnPointWastelander
-  name: "Військова поліція NCR"
+  name: NCR military police
   components:
   - type: SpawnPoint
     job_id: NCRMP
@@ -223,7 +223,7 @@
 - type: entity
   id: N14SpawnPointNCRNCO
   parent: N14SpawnPointWastelander
-  name: "NCR СЕРЖАНТСЬКИЙ СКЛАД"
+  name: NCR NCO
   components:
   - type: SpawnPoint
     job_id: NCRNCO
@@ -235,7 +235,7 @@
 - type: entity
   id: N14SpawnPointNCROfficer
   parent: N14SpawnPointWastelander
-  name: "Офіцер НКР"
+  name: NCR officer
   components:
   - type: SpawnPoint
     job_id: NCROfficer
@@ -247,7 +247,7 @@
 - type: entity
   id: N14SpawnPointNCRRanger
   parent: N14SpawnPointWastelander
-  name: "Рейнджер NCR"
+  name: NCR ranger
   components:
   - type: SpawnPoint
     job_id: NCRRanger
@@ -259,7 +259,7 @@
 - type: entity
   id: N14SpawnPointNCRRangerVeteran
   parent: N14SpawnPointWastelander
-  name: "Ветеран рейнджерів NCR"
+  name: NCR ranger veteran
   components:
   - type: SpawnPoint
     job_id: NCRRangerVeteran
@@ -271,7 +271,7 @@
 - type: entity
   id: N14SpawnPointNCRSoldier
   parent: N14SpawnPointWastelander
-  name: "Солдат NCR"
+  name: NCR Soldier
   components:
   - type: SpawnPoint
     job_id: NCRSoldier
@@ -284,7 +284,7 @@
 - type: entity
   id: N14SpawnPointRangerRecruit
   parent: N14SpawnPointWastelander
-  name: "рекрут рейнджера"
+  name: ranger recruit
   components:
   - type: SpawnPoint
     job_id: RangerRecruit
@@ -296,7 +296,7 @@
 - type: entity
   id: N14SpawnPointRanger
   parent: N14SpawnPointWastelander
-  name: "рейнджер"
+  name: ranger
   components:
   - type: SpawnPoint
     job_id: Ranger
@@ -308,7 +308,7 @@
 - type: entity
   id: N14SpawnPointRangerVeteran
   parent: N14SpawnPointWastelander
-  name: "ветеран рейнджерів"
+  name: ranger veteran
   components:
   - type: SpawnPoint
     job_id: RangerVeteran
@@ -321,7 +321,7 @@
 - type: entity
   id: N14SpawnPointTribal
   parent: N14SpawnPointWastelander
-  name: "племінний"
+  name: tribal
   components:
   - type: SpawnPoint
     job_id: Tribal
@@ -333,7 +333,7 @@
 - type: entity
   id: N14SpawnPointTribalElder
   parent: N14SpawnPointWastelander
-  name: "старійшина племені"
+  name: tribal elder
   components:
   - type: SpawnPoint
     job_id: TribalElder
@@ -345,7 +345,7 @@
 - type: entity
   id: N14SpawnPointTribalFarmer
   parent: N14SpawnPointWastelander
-  name: "племінний фермер"
+  name: tribal farmer
   components:
   - type: SpawnPoint
     job_id: TribalFarmer
@@ -357,7 +357,7 @@
 - type: entity
   id: N14SpawnPointTribalHealer
   parent: N14SpawnPointWastelander
-  name: "племінний цілитель"
+  name: tribal healer
   components:
   - type: SpawnPoint
     job_id: TribalHealer
@@ -370,7 +370,7 @@
 - type: entity
   id: N14SpawnPointOverseer
   parent: N14SpawnPointWastelander
-  name: "наглядач"
+  name: overseer
   components:
   - type: SpawnPoint
     job_id: Overseer
@@ -382,7 +382,7 @@
 - type: entity
   id: N14SpawnPointVaultDoctor
   parent: N14SpawnPointWastelander
-  name: "лікар сховища"
+  name: vault doctor
   components:
   - type: SpawnPoint
     job_id: VaultDoctor
@@ -394,7 +394,7 @@
 - type: entity
   id: N14SpawnPointVaultDweller
   parent: N14SpawnPointWastelander
-  name: "мешканець сховища"
+  name: vault dweller
   components:
   - type: SpawnPoint
     job_id: VaultDweller
@@ -406,7 +406,7 @@
 - type: entity
   id: N14SpawnPointVaultEngineer
   parent: N14SpawnPointWastelander
-  name: "інженер-сховищезнавець"
+  name: vault engineer
   components:
   - type: SpawnPoint
     job_id: VaultEngineer
@@ -418,7 +418,7 @@
 - type: entity
   id: N14SpawnPointVaultSecurity
   parent: N14SpawnPointWastelander
-  name: "безпека сховища"
+  name: vault security
   components:
   - type: SpawnPoint
     job_id: VaultSecurity
@@ -431,7 +431,7 @@
 - type: entity
   id: N14SpawnPointWastelandBartender
   parent: N14SpawnPointWastelander
-  name: "бармен на пустирі"
+  name: wasteland bartender
   components:
   - type: SpawnPoint
     job_id: WastelandBartender
@@ -443,7 +443,7 @@
 - type: entity
   id: N14SpawnPointWastelandChaplain
   parent: N14SpawnPointWastelander
-  name: "капелан пустиря"
+  name: wasteland chaplain
   components:
   - type: SpawnPoint
     job_id: WastelandChaplain
@@ -455,7 +455,7 @@
 - type: entity
   id: N14SpawnPointWastelandFarmer
   parent: N14SpawnPointWastelander
-  name: "фермер на пустирі"
+  name: wasteland farmer
   components:
   - type: SpawnPoint
     job_id: WastelandFarmer
@@ -467,7 +467,7 @@
 - type: entity
   id: N14SpawnPointWastelandMusician
   parent: N14SpawnPointWastelander
-  name: "музикант пустиря"
+  name: wasteland musician
   components:
   - type: SpawnPoint
     job_id: WastelandMusician
@@ -479,7 +479,7 @@
 - type: entity
   id: N14SpawnPointWastelandReporter
   parent: N14SpawnPointWastelander
-  name: "репортер пустиря"
+  name: wasteland reporter
   components:
   - type: SpawnPoint
     job_id: WastelandReporter
@@ -491,7 +491,7 @@
 - type: entity
   id: N14SpawnPointWastelandScavenger
   parent: N14SpawnPointWastelander
-  name: "прибиральник пустирів"
+  name: wasteland scavenger
   components:
   - type: SpawnPoint
     job_id: WastelandScavenger
@@ -504,7 +504,7 @@
 - type: entity
   id: N14SpawnPointTownsfolkTownsperson
   parent: N14SpawnPointWastelander
-  name: "городянин"
+  name: townsperson
   components:
   - type: SpawnPoint
     job_id: Townsperson
@@ -516,7 +516,7 @@
 - type: entity
   id: N14SpawnPointTownsfolkTownMechanic
   parent: N14SpawnPointWastelander
-  name: "міський механік"
+  name: town mechanic
   components:
   - type: SpawnPoint
     job_id: TownMechanic
@@ -528,7 +528,7 @@
 - type: entity
   id: N14SpawnPointTownsfolkTownDoctor
   parent: N14SpawnPointWastelander
-  name: "міський лікар"
+  name: town doctor
   components:
   - type: SpawnPoint
     job_id: TownDoctor
@@ -540,7 +540,7 @@
 - type: entity
   id: N14SpawnPointTownsfolkTownShopkeeper
   parent: N14SpawnPointWastelander
-  name: "міський крамар"
+  name: town shopkeeper
   components:
   - type: SpawnPoint
     job_id: TownShopkeeper
@@ -552,7 +552,7 @@
 - type: entity
   id: N14SpawnPointTownsfolkTownDeputy
   parent: N14SpawnPointWastelander
-  name: "міський депутат"
+  name: town deputy
   components:
   - type: SpawnPoint
     job_id: TownDeputy
@@ -564,7 +564,7 @@
 - type: entity
   id: N14SpawnPointTownsfolkTownSheriff
   parent: N14SpawnPointWastelander
-  name: "шериф міста"
+  name: town sheriff
   components:
   - type: SpawnPoint
     job_id: TownSheriff
@@ -576,7 +576,7 @@
 - type: entity
   id: N14SpawnPointTownsfolkTownMayor
   parent: N14SpawnPointWastelander
-  name: "міський голова"
+  name: town mayor
   components:
   - type: SpawnPoint
     job_id: TownMayor
@@ -590,7 +590,7 @@
 - type: entity
   id: N14SpawnPointFollowers
   parent: N14SpawnPointWastelander
-  name: "послідовники апокаліпсису"
+  name: followers of the apocalypse
   components:
   - type: SpawnPoint
     job_id: Followers
@@ -602,7 +602,7 @@
 - type: entity
   id: N14SpawnPointZetan
   parent: N14SpawnPointWastelander
-  name: "Зетан"
+  name: Zetan
   components:
   - type: SpawnPoint
     job_id: Zetan

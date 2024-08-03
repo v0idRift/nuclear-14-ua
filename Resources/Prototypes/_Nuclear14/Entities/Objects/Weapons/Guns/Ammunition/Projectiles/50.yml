@@ -2,7 +2,7 @@
   noSpawn: true
   parent: BaseBullet
   id: N14Bullet50
-  name: "куля (протипіхотна куля .50 HEIAP)"
+  name: bullet (.50 HEIAP anti-materiel)
   components:
   - type: Projectile
     damage:

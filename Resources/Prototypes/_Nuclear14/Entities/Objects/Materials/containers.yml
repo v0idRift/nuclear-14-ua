@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseItem
   id: N14FuelTankHandy
-  name: "паливний бак"
-  description: "Бак пального \"Містер Зручний\"."
+  name: fuel tank
+  description: A tank of Mr Handy fuel.
   components:
   - type: Damageable
     damageContainer: Inorganic
@@ -79,9 +79,9 @@
 - type: entity
   parent: N14FuelTankHandy
   id: N14FuelTankHandyRusty
-  name: "паливний бак"
+  name: fuel tank
   suffix: rusty
-  description: "Іржавий бак з-під пального \"Містер Хенді\"."
+  description: A rusty tank of Mr Handy fuel.
   components:
   - type: Sprite
     layers:

@@ -1,8 +1,8 @@
 - type: entity
   parent: Bed
   id: N14Bed
-  name: "Ліжко"
-  description: "Чистий матрац для сну."
+  name: Bed
+  description: A clean mattress for sleeping on.
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Furniture/bedsandchairs.rsi
@@ -18,8 +18,8 @@
 - type: entity
   parent: N14Bed
   id: N14BedDirty
-  name: "Брудне ліжко"
-  description: "Ліжко, яке виглядає так, ніби бачило кращі часи."
+  name: "Dirty Bed"
+  description: A bed that looks like it's seen better days.
   components:
   - type: Sprite
     state: bed_dirty
@@ -28,8 +28,8 @@
 - type: entity
   parent: N14Bed
   id: N14BedWood
-  name: "Дерев'яне ліжко"
-  description: "Ліжко з дерев'яним каркасом."
+  name: "Wooden Bed"
+  description: A bed with a wooden frame.
   components:
   - type: Sprite
     state: bed_wood
@@ -41,8 +41,8 @@
 - type: entity
   parent: N14Bed
   id: N14Bedroll
-  name: "Простирадло"
-  description: "Постільний рулон, який добре підходить для караванів. Не дуже зручний."
+  name: Bedroll
+  description: A bed roll good for caravaning with. Not very comfy.
   components:
   - type: Sprite
     state: bedroll_unrolled
@@ -77,8 +77,8 @@
 - type: entity
   parent: BaseItem
   id: N14BedrollItem
-  name: "Простирадло"
-  description: "Згорнуте в рулон ліжко для легких подорожей. Покладіть його десь, щоб відпочити."
+  name: Bedroll
+  description: A rolled up bed for travelling light. Lay it down somewhere to rest.
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Furniture/bedsandchairs.rsi
@@ -95,8 +95,8 @@
 - type: entity
   parent: N14Bed
   id: N14BedMattress0
-  name: "Матрац"
-  description: "Матрац на підлозі. Краще, ніж нічого."
+  name: Mattress
+  description: A matress on the floor. Better than nothing.
   components:
   - type: Sprite
     state: mattress0
@@ -107,8 +107,8 @@
 - type: entity
   parent: N14Bed
   id: N14BedMattressDirty1
-  name: "Матрац"
-  description: "Матрац на підлозі. Трохи грубуватий."
+  name: Mattress
+  description: A matress on the floor. A little rough.
   components:
   - type: Sprite
     state: mattress1
@@ -117,8 +117,8 @@
 - type: entity
   parent: N14BedMattressDirty1
   id: N14BedMattressDirty2
-  name: "Матрац"
-  description: "Матрац на підлозі. Брудний."
+  name: Mattress
+  description: A matress on the floor. Filthy.
   components:
   - type: Sprite
     state: mattress2
@@ -126,8 +126,8 @@
 - type: entity
   parent: N14BedMattressDirty1
   id: N14BedMattressDirty3
-  name: "Матрац"
-  description: "Матрац на підлозі. Це кров?"
+  name: Mattress
+  description: A matress on the floor. Is that blood?
   components:
   - type: Sprite
     state: mattress3
@@ -135,8 +135,8 @@
 - type: entity
   parent: N14BedMattressDirty1
   id: N14BedMattressDirty4
-  name: "Матрац"
-  description: "Матрац на підлозі. Це точно кров."
+  name: Mattress
+  description: A matress on the floor. That's definitely blood.
   components:
   - type: Sprite
     state: mattress4
@@ -145,8 +145,8 @@
   parent: N14BedMattressDirty1
   id: N14BedMattressDirty5
   suffix: mouldy
-  name: "Матрац"
-  description: "Матрац на підлозі. Я не буду на ньому спати."
+  name: Mattress
+  description: A matress on the floor. I'm not sleeping on that.
   components:
   - type: Sprite
     state: mattress5

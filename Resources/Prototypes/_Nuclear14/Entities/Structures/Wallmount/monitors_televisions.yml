@@ -1,8 +1,8 @@
 - type: entity
   parent: N14BaseComputer
   id: N14ComputerVDU
-  name: "VDU"
-  description: "Настінний відеодисплей."
+  name: VDU
+  description: A wall mounted video display unit.
   components:
   - type: Sprite
     drawdepth: WallMountedItems

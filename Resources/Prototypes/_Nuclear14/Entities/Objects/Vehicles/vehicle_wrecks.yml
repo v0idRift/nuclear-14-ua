@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseStructure
   id: N14VehicleBikeRust1
-  name: "іржавий велосипед"
-  description: "Крутий велосипед, якби не був іржавий і без коліс."
+  name: rusted bike
+  description: Cool bike if it wasn't rusted and missing wheels.
   components:
   - type: Sprite
     sprite: _Nuclear14/Objects/Vehicles/bikesbuggy.rsi
@@ -48,8 +48,8 @@
 - type: entity
   parent: N14VehicleBikeRust1
   id: N14VehicleCarWreck
-  name: "розбитий автомобіль"
-  description: "Крутий велосипед, якби не був іржавий і без коліс."
+  name: wrecked car
+  description: Cool bike if it wasn't rusted and missing wheels.
   components:
   - type: Sprite
     state: derelict
