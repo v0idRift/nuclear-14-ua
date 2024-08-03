@@ -1,63 +1,94 @@
-[color=#ff0000]YOU MUST BE AT LEAST 16 YEARS OF AGE TO PLAY ON THIS SERVER. ANY USERS SUSPECTED OF BEING UNDER 16 YEARS OF AGE WILL BE BANNED UNTIL THEY ARE OF AGE.[/color]
+[color=#ff0000]ВАМ МАЄ БУТИ ЩОНАЙМЕНШЕ 16 РОКІВ, ЩОБ ГРАТИ НА ЦЬОМУ СЕРВЕРІ. БУДЬ-ЯКІ КОРИСТУВАЧІ, ЩОДО ЯКИХ Є ПІДОЗРИ, ЩО ВОНИ МОЛОДШІ 16 РОКІВ, БУДУТЬ ЗАБЛОКОВАНІ ДО ДОСЯГНЕННЯ НИМИ ПОВНОЛІТТЯ.[/color]
 
-[color=#ff0000]DISCONNECTING FROM OR IGNORING/EVADING ADMIN-HELPS WILL RESULT IN AN APPEAL ONLY BAN.[/color]
 
-This is the "short" form of the rules, which has all the information any regular player should need. You can find the "long" form of the rules with more examples & clarifications of any ambiguity in our guidebooks > administration section, should you need it.
+[color=#ff0000]ДІСКОНЕКТ АБО ІГНОРУВАННЯ АДМІНІСТРАЦІЇ ПІД ЧАС СПІЛКУВАННЯ В АХЕЛПІ ПРИЗВЕДЕ ДО БАНУ ЛИШЕ ЗА АПЕЛЯЦІЄЮ.[/color]
 
-[color=#ff0000]Core Rules[/color]
 
-[color=#a4885c]1.1[/color] Be excellent to each other (don’t be a dick rule).
+Це "коротка" форма правил, яка містить всю інформацію, необхідну для звичайного гравця. Ви можете знайти "повну" версію правил з додатковими прикладами та роз'ясненнями будь-яких неоднозначних моментів у нашому довіднику > розділ "Адміністрація", якщо вам це потрібно.
 
-[color=#a4885c]1.2[/color] Make it fun for all involved (consider how you affect the round for others).
 
-[color=#a4885c]1.2e[/color] If you’re unsure then ask. ahelp to keep it discrete.
+[color=#ff0000]Основні правила[/color]
 
-[color=#a4885c]1.3[/color] Respect the admins and other players, they’re people too.
 
-[color=#a4885c]1.4[/color] Discrimination based on protected characteristics is not allowed IC or OOC.
+[color=#a4885c]1.1[/color]Будьте ввічливими один з одним (не будьте мудаком).
 
-[color=#a4885c]1.4e[/color] The exception to this rule is speciesism, mutations and abominations, in character only.
 
-[color=#a4885c]1.5[/color] ERP or erotic roleplay is not allowed in any form. This server is 16+ so respect your fellow players.
+[color=#a4885c]1.2[/color]Зробіть так, щоб усім учасникам було весело (подумайте, як ви впливаєте на раунд для інших).
 
-[color=#a4885c]1.6[/color] These are English servers. Speak only English in IC and OOC.
 
-[color=#a4885c]1.7[/color] Don't use exploits or external programs to play, gain an advantage, or disrupt/crash the round/server. This includes autoclickers and scripts to automate the game or evade AFK detection. Intentionally attempting to lag/crash the server will result in an immediate appeal-only ban.
+[color=#a4885c]1.2e[/color]Якщо ви не впевнені в своїх діях, то краще запитайте в ахелп.
 
-[color=#ff0000]Roleplay Rules[/color]
 
-[color=#a4885c]2.1[/color] Follow role play etiquette, using in-character (IC) and out-of-character (OOC) correctly, using proper text speech and an appropriate name.
+[color=#a4885c]1.3[/color]Поважайте адмінів та інших гравців, вони теж люди.
 
-[color=#a4885c]2.2[/color] Respect the lore/canon. Read up or ask questions if needed for clarity or permission.
 
-[color=#a4885c]2.3[/color] Creatures taken over by player characters should act accordingly to their role and that creatures intelligence. Feral animals won't dodge bullets.
+[color=#a4885c]1.4[/color]Дискримінація на основі раси/релігії/статі не допускається ні в IC, ні в OOC.
 
-[color=#a4885c]2.4[/color] Roleplay a character that fits the universe. You aren't the protagonist however so bear that in mind and play your background accordingly. No actual character names from the games.
 
-[color=#ff0000]Meta Rules[/color]
+[color=#a4885c]1.4e[/color]Винятком з цього правила є мутації(гулі як приклад), що мають місце лише в ІС.
 
-[color=#a4885c]3.1[/color] Metagrudging or harassing or killing someone who harmed you in a previous life or round is not allowed.
 
-[color=#a4885c]3.2[/color] Meta communication is also banned. Don’t use VC or other means to communicate IC or current round information to others.
+[color=#a4885c]1.5[/color]ERP(Еротична Рольова Гра) заборонена в будь-якій формі. Цей сервер має вік 16+, тому поважайте інших гравців.
 
-[color=#a4885c]3.3[/color] Don't blur the lines between IC and OOC. Keep them strictly separate and remember rule 1.1.
 
-[color=#ff0000]No Fun Rules[/color]
+[color=#a4885c]1.6[/color]Це україномовний сервер. Говоріть тільки українською мовою в IC та OOC.
 
-[color=#a4885c]4.1[/color] Avoid loot hoarding, this is a PvE game mode and not a PvP game mode. Players should work together to further the joint efforts of all involved and not focus solely on themselves.
 
-[color=#a4885c]4.2[/color] Confrontation does not need to end in a firefight. This one should be obvious, not everything needs to be or turn into PvP. Let things influence your character, let people get away. Create conflict, create roleplay, do not play to win, play to have fun.
+[color=#a4885c]1.7[/color]Не використовуйте експлойти або зовнішні програми для отримання переваги або збою/падіння раунду/сервера. Це включає в себе автоклікери та скрипти для автоматизації деяких аспектів гри або ухилення від виявлення AFK. Навмисна спроба зафрізити/крашнути сервер призведе до пермабану.
 
-[color=#a4885c]4.2e[/color] Follow escalation rules:
-    - You can defend yourself to the extent of protecting your own life.
-    - Don't outright leave people to die if you get in a fight, make an effort to heal them or bring them to people.
-    - Adminhelp the situation if you think someone is over-escalating.
-	- See the full escalation rules in the guidebook.
 
-[color=#a4885c]4.3[/color] Ghost roles are to follow certain criteria before allowing mobs that they play to be tamed. Certain mobs should have an extremely tough time in being tamed, such as, deathclaw, yao guai, radscorpions, cazador, and ants. These mobs usually attack people on sight due to the fact they are typically higher up on the food chain. Taming one would require a lot of roleplay and likely trapping one.
+[color=#ff0000]Правила рольового відіграшу [/color]
 
-Other mobs such as molerats, feral dogs, radroaches are more likely to be easily tamed due to their smaller size. The smaller the animal / creature, the easier it would be for a human to possibly tame it. Simply leaving them food, trying to coheres them inside, or letting them follow you home could result in a new lifelong companion.
 
-[color=#a4885c]4.4[/color] Blitzkrieg rushing, or "bum-rushing" a major faction is no fun for most people. You have to remember this is a roleplaying game. We kindly ask that if you wish to attack one of the major factions that you first A-help and see if there is an admin available. Talk to them first and see if they would be willing to oversee the giant oncoming firefight. If no admin is currently available avoid directly attacking a faction's base without proper reason. If the faction has been doing things that warrant it, such as "taxing" your town, or "attacking" your citizens you may make small skirmishes against them. 
+[color=#a4885c]2.1[/color]Дотримуйтесь етикету рольової гри, правильно використовуючи IC(спілкування від імені персонажа, одним словом РП) та OOC/LOOC(НРП спілкування, від себе), та підбираючи відповідні імена.
 
-But directly rushing into their base of operations with a large group of people with no warning is bad for roleplay and may end with a warning / timeout. No one wants to be taken out of the game because they were in the middle of a roleplay scene and did not have enough time to react to a group of people rushing into a room and gunning them down.
+
+[color=#a4885c]2.2[/color]Поважайте лор/канон. Прочитайте вікі фолауту або задайте питання адмінам, якщо це необхідно для ясності або дозволу на певну дію.
+
+
+[color=#a4885c]2.3[/color]Гравці, які керують гост-ролями повинні діяти відповідно до своєї ролі та інтелекту істоти.
+
+
+[color=#a4885c]2.4[/color]Відігруйте персонажа, який відповідає всесвіту Fallout. Однак ви не є протагоністом, тому пам'ятайте про це і відігравайте свою передісторію відповідно. Жодних імен персонажів з ігор.
+
+
+[color=#ff0000]Мета-правила[/color]
+
+
+[color=#a4885c]3.1[/color]Не допускається метагріф, переслідування або вбивство того, хто заподіяв вам шкоду в попередньому житті або раунді(Іншими словами NLR — New Life Rule).
+
+
+[color=#a4885c]3.2[/color] Мета-комунікація також заборонена. Не використовуйте діскорд або інші засоби для передачі інформації про IC або поточний раунд іншим. Адміністратори не можуть контролювати метаспілкування, ми повинні припустити, що ним зловживають(Якщо ви хочете для першого часу навчати новачка окремо від інших гравців, то попросимо попередити про це адміністрацію. Просимо не зловживати цим винятком, інакше якщо з'ясується, що ви використали метаспілкування для отримання вигоди, то всі учасники цього процесу отримають бан на тиждень. Повторне порушення — пермабан)
+
+
+[color=#a4885c]3.3[/color] Не розмивайте межі між IC та OOC. Тримайте їх окремо і пам'ятайте правило 1.1
+
+
+[color=#ff0000]Правила ескалації конфліктів[/color]
+
+
+[color=#a4885c]4.1[/color] Старайтесь уникати грінду лута, це режим гри PvE, а не PvP. Гравці повинні працювати разом, щоб сприяти спільним зусиллям усіх учасників, а не зосереджуватися виключно на собі.
+
+
+[color=#a4885c]4.2[/color] Конфлікт не обов'язково має закінчуватися перестрілкою. Це повинно бути очевидним, не все повинно перетворюватися на PvP. Дозвольте речам впливати на вашого персонажа, дозвольте людям втекти. Створюйте конфлікт, створюйте рольову гру, не грайте тільки щоб перемогти, грайте, щоб отримати задоволення.
+
+
+[color=#a4885c]4.2e[/color] Дотримуйтесь правил ескалації:
+    - Ви можете захищатися настільки, наскільки це необхідно для захисту власного життя.
+    - Не залишайте людей помирати, якщо ви встряли в бійку, докладіть зусиль, щоб вилікувати їх або доставити до людей.
+    - Напишіть в ахелп(клавіша F1), якщо ви вважаєте, що хтось переходить межу.
+
+
+- Дивіться повні правила ескалації в посібнику.
+
+
+[color=#a4885c]4.3[/color] Гравці які грають за ролі привидів повинні розуміти, що мутантів дуже важко приручити, для цього треба докласти певних зусиль(нагодувати, втертися в довіру/загнати в пастку тощо). Певних мобів дуже важко приручити, наприклад: кіготь смерті, яо гуай(що це взагалі?), радскорпіон, казадор та мураха. Ці тварини зазвичай нападають на людей, коли їх бачать, тому що вони, як правило, стоять вище в харчовому ланцюжку. Приручення одного з них потребує багато рольової гри та хитрощів(це значить, що не слід одразу йти в обійми та відігравати ручну собаку першої ж людини яку ви зустрінете).
+
+
+Інших мобів, таких як: радпацюки, здичавілі собаки, радтаргани, швидше за все, можна легко приручити через їхній менший розмір. Чим менша тварина/істота, тим легше людині буде її приручити. Просто залишаючи їм їжу, намагаючись поселити їх в будинку або дозволяючи їм слідувати за вами додому, ви можете отримати нового компаньйона на все життя.
+
+
+[color=#a4885c]4.4[/color] Бліцкриг(блискавичний штурм) великої фракції - це нецікаво для більшості людей. Ви повинні пам'ятати, що це рольова гра. Ми просимо вас, якщо ви хочете напасти на одну з великих фракцій, спочатку зверніться за допомогою в адмінхелп і подивіться, чи на сервері є адміністратор. Спочатку поговоріть з ним і дізнайтеся, чи не бажає він наглядати за гігантською перестрілкою, що наближається. Якщо адміністратора наразі немає, уникайте прямого нападу на базу фракції без належної причини. Якщо фракція робить щось, що виправдовує це, наприклад, обкладає ваше місто податками або нападає на ваших громадян, ви можете влаштовувати невеликі сутички проти них.
+
+
+Але безпосереднє вривання на їхню базу з великою групою людей без попередження є поганим для рольової гри і може закінчитися попередженням/баном. Ніхто не хоче, щоб його вивели з гри через те, що він був посеред рольової сцени і не мав достатньо часу, щоб відреагувати на групу людей, які вбігли в кімнату і почали всіх вбивати.
