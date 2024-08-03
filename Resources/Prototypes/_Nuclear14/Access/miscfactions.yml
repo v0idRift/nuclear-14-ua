@@ -2,11 +2,11 @@
 
 - type: accessLevel
   id: OasisSheriff
-  name: id-card-access-level-oasis-sheriff
+  name: "id-card-access-level-oasis-sheriff"
 
 - type: accessLevel
   id: OasisMayor
-  name: id-card-access-level-oasis-mayor
+  name: "id-card-access-level-oasis-mayor"
 
 - type: accessGroup
   id: Oasis
@@ -18,7 +18,7 @@
 
 - type: accessLevel
   id: FollowersApocalypse
-  name: id-card-access-level-followers-apocalypse
+  name: "id-card-access-level-followers-apocalypse"
 
 - type: accessGroup
   id: FollowersApocalypse
@@ -29,11 +29,11 @@
 
 - type: accessLevel
   id: ZetanCaptain
-  name: id-card-access-level-zetan-captain
+  name: "id-card-access-level-zetan-captain"
 
 - type: accessLevel
   id: Zetan
-  name: id-card-access-level-zetan
+  name: "id-card-access-level-zetan"
 
 - type: accessGroup
   id: Zetan
@@ -44,7 +44,7 @@
 #MARK: Enclave
 - type: accessLevel
   id: Enclave
-  name: id-card-access-level-enclave
+  name: "id-card-access-level-enclave"
   
 - type: accessGroup
   id: EnclaveVault
@@ -62,19 +62,19 @@
 
 - type: accessLevel
   id: IronKey
-  name: id-card-access-level-ironkey
+  name: "id-card-access-level-ironkey"
 
 - type: accessLevel
   id: BronzeKey
-  name: id-card-access-level-oasis-bronzekey
+  name: "id-card-access-level-oasis-bronzekey"
 
 - type: accessLevel
   id: BrassKey
-  name: id-card-access-level-oasis-brasskey
+  name: "id-card-access-level-oasis-brasskey"
 
 - type: accessLevel
   id: SilverKey
-  name: id-card-access-level-oasis-silverkey
+  name: "id-card-access-level-oasis-silverkey"
 
 - type: accessGroup
   id: GoldenKey
@@ -87,15 +87,15 @@
 #MARK: Dungeons / Bunkers
 - type: accessLevel
   id: DungeonBunkerA1
-  name: id-card-access-level-bunker-a1
+  name: "id-card-access-level-bunker-a1"
   
 - type: accessLevel
   id: DungeonBunkerA2
-  name: id-card-access-level-bunker-a2
+  name: "id-card-access-level-bunker-a2"
   
 - type: accessLevel
   id: DungeonBunkerA3
-  name: id-card-access-level-bunker-a3
+  name: "id-card-access-level-bunker-a3"
   
 - type: accessGroup
   id: DungeonBunkerAA
@@ -106,16 +106,16 @@
   
 - type: accessLevel
   id: DungeonBlue
-  name: id-card-access-level-blue
+  name: "id-card-access-level-blue"
   
 - type: accessLevel
   id: DungeonYellow
-  name: id-card-access-level-yellow
+  name: "id-card-access-level-yellow"
   
 - type: accessLevel
   id: DungeonRed
-  name: id-card-access-level-red
+  name: "id-card-access-level-red"
   
 - type: accessLevel
   id: DungeonCommon
-  name: id-card-access-level-common
+  name: "id-card-access-level-common"

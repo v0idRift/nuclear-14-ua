@@ -6,7 +6,7 @@
 - type: entity
   parent: DrinkGreenTea
   id: N14DrinkTeaFireantNectar
-  name: fireant nectar tea
+  name: "чай з вогняним нектаром"
   components:
   - type: SolutionContainerManager
     solutions:
@@ -28,7 +28,7 @@
 - type: entity
   parent: DrinkGreenTea
   id: N14DrinkTeaAgave
-  name: agave tea
+  name: "чай з агави"
   components:
   - type: SolutionContainerManager
     solutions:
@@ -40,7 +40,7 @@
 - type: entity
   parent: DrinkGreenTea
   id: N14DrinkTeaBlackberry
-  name: blackberry tea
+  name: "ожиновий чай"
   components:
   - type: SolutionContainerManager
     solutions:
@@ -52,7 +52,7 @@
 - type: entity
   parent: DrinkGreenTea
   id: N14DrinkTeaBarrelCactus
-  name: barrel cactus tea
+  name: "бочковий кактусовий чай"
   components:
   - type: SolutionContainerManager
     solutions:
@@ -64,7 +64,7 @@
 - type: entity
   parent: DrinkGreenTea
   id: N14DrinkTeaBroc
-  name: brocflower tea
+  name: "чай з броколі"
   components:
   - type: SolutionContainerManager
     solutions:
@@ -76,7 +76,7 @@
 - type: entity
   parent: DrinkGreenTea
   id: N14DrinkTeaDatura
-  name: datura tea
+  name: "чай датура"
   components:
   - type: SolutionContainerManager
     solutions:
@@ -88,7 +88,7 @@
 - type: entity
   parent: DrinkGreenTea
   id: N14DrinkTeaHoneyMesquite
-  name: honey mesquite tea
+  name: "медовий мескитовий чай"
   components:
   - type: SolutionContainerManager
     solutions:
@@ -100,7 +100,7 @@
 - type: entity
   parent: DrinkGreenTea
   id: N14DrinkTeaMutrfruit
-  name: mutfruit tea
+  name: "чай з мускатного горіха"
   components:
   - type: SolutionContainerManager
     solutions:
@@ -112,7 +112,7 @@
 - type: entity
   parent: DrinkGreenTea
   id: N14DrinkTeaNettle
-  name: nettle tea
+  name: "чай з кропиви"
   components:
   - type: SolutionContainerManager
     solutions:
@@ -124,7 +124,7 @@
 - type: entity
   parent: DrinkGreenTea
   id: N14DrinkTeaPricklypear
-  name: prickly pear tea
+  name: "чай з опунції"
   components:
   - type: SolutionContainerManager
     solutions:
@@ -136,7 +136,7 @@
 - type: entity
   parent: DrinkGreenTea
   id: N14DrinkTeaStarlightberry
-  name: starlightberry tea
+  name: "чай з чорниці"
   components:
   - type: SolutionContainerManager
     solutions:
@@ -148,7 +148,7 @@
 - type: entity
   parent: DrinkGreenTea
   id: N14DrinkTeaTarberry
-  name: tarberry tea
+  name: "чай з чорноплідної горобини"
   components:
   - type: SolutionContainerManager
     solutions:
@@ -160,7 +160,7 @@
 - type: entity
   parent: DrinkGreenTea
   id: N14DrinkTeaWhiteHorsenettle
-  name: white horsenettle tea
+  name: "білий чай з хвоща"
   components:
   - type: SolutionContainerManager
     solutions:
@@ -172,7 +172,7 @@
 - type: entity
   parent: DrinkGreenTea
   id: N14DrinkTeaXander
-  name: xander root tea
+  name: "чай з кореня ксандра"
   components:
   - type: SolutionContainerManager
     solutions:

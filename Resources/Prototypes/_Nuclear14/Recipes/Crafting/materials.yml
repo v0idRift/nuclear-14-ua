@@ -1,12 +1,12 @@
 # Paper
 - type: construction
-  name: paper
+  name: "папір"
   id: N14Paper
   graph: N14Paper
   startNode: start
   targetNode: paper
   category: construction-category-materials
-  description: "A stack of 10 paper"
+  description: "Стопка з 10 папірців"
   icon: { sprite: _Nuclear14/Objects/Misc/clutter.rsi, state: paper }
   objectType: Item
   hide: false
@@ -26,13 +26,13 @@
 
 # Cardboard
 - type: construction
-  name: cardboard
+  name: "картон"
   id: N14Cardboard
   graph: N14Cardboard
   startNode: start
   targetNode: cardboard
   category: construction-category-materials
-  description: "A sheet of cardboard."
+  description: "Аркуш картону."
   icon: { sprite: /Textures/Objects/Materials/materials.rsi, state: cardboard }
   objectType: Item
   hide: false

@@ -1,9 +1,9 @@
 - type: entity
   parent: BaseStructure
   id: N14WeaponTurretBroken
-  name: ballistic turret
+  name: "балістична вежа"
   suffix: broken
-  description: A ballistic machine gun auto-turret.
+  description: "Балістична кулеметна автобашта."
   components:
     - type: Sprite
       sprite: _Nuclear14/Structures/Machines/turrets.rsi
@@ -41,7 +41,7 @@
 - type: entity
   parent: BaseStructure
   id: N14BaseWeaponTurret
-  name: ballistic turret
+  name: "балістична вежа"
   abstract: true
   components:
     - type: Sprite

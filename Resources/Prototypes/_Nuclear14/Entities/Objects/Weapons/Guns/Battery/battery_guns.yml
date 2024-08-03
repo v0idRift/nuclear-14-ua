@@ -65,10 +65,10 @@
     - Belt
 # MARK: Pistols
 - type: entity
-  name: AEP-7 laser pistol
+  name: "Лазерний пістолет AEP-7"
   parent: N14BaseWeaponPowerCellSmall
   id: N14WeaponLaserPistol
-  description: A basic energy-based laser gun that fires concentrated beams of light.
+  description: "Лазерна гармата на основі базової енергії, яка стріляє концентрованими променями світла."
   components:
   - type: Sprite
     sprite: _Nuclear14/Objects/Weapons/Guns/Battery/laser_pistol.rsi
@@ -100,10 +100,10 @@
       collection: N14LaserPistolGunshot
 
 - type: entity
-  name: plasma pistol
+  name: "плазмовий пістолет"
   parent: N14BaseWeaponPowerCellSmall
   id: N14WeaponPlasmaPistol
-  description: A highly advanced plasma pistol.
+  description: "Надсучасний плазмовий пістолет."
   components:
   - type: Sprite
     sprite: _Nuclear14/Objects/Weapons/Guns/Battery/plasma_pistol.rsi
@@ -135,10 +135,10 @@
     fireRate: 1.5
 
 - type: entity
-  name: plasma defender
+  name: "плазмовий захисник"
   parent: N14BaseWeaponPowerCellSmall
   id: N14WeaponPlasmaDefender
-  description: A highly advanced plasma pistol with a upgraded rate of fire.
+  description: "Надсучасний плазмовий пістолет з підвищеною скорострільністю."
   components:
   - type: Sprite
     sprite: _Nuclear14/Objects/Weapons/Guns/Battery/plasma_pistol.rsi
@@ -172,10 +172,10 @@
 # MARK: Recharger
 
 - type: entity
-  name: recharger rifle
+  name: "перезаряджаюча гвинтівка"
   parent: BaseWeaponBattery
   id: N14WeaponRechargerRifle
-  description: The first model for a self charging laser rifle, its low energy consume and advance internal battery makes this gun last for centuries without recharging.
+  description: "Перша модель самозарядної лазерної гвинтівки з низьким енергоспоживанням і вдосконаленою внутрішньою батареєю, що дозволяє їй служити століттями без підзарядки."
   components:
   - type: Sprite
     sprite: _Nuclear14/Objects/Weapons/Guns/Battery/recharger_rifle.rsi
@@ -201,10 +201,10 @@
     fireCost: 50
 
 - type: entity
-  name: recharger pistol
+  name: "перезарядний пістолет"
   parent: BaseWeaponBatterySmall
   id: N14WeaponRechargerPistol
-  description: The upgraded version of the recharger rifle, compact but maintaining the same power, its low energy consume and advance internal battery makes this gun last for centuries without recharging.
+  description: "Модернізована версія перезарядної гвинтівки, компактна, але з тією ж потужністю, низьким енергоспоживанням і вдосконаленим внутрішнім акумулятором, дозволяє цій гвинтівці служити століттями без перезарядки."
   components:
   - type: Sprite
     sprite: _Nuclear14/Objects/Weapons/Guns/Battery/recharger_pistol.rsi
@@ -237,10 +237,10 @@
 # MARK: Fullauto
 
 - type: entity
-  name: Modified AER-9 laser rifle
+  name: "Модифікована лазерна гвинтівка AER-9"
   parent: N14BaseWeaponPowerCellMedium
   id: N14WeaponLaserAutoRifle
-  description: A sturdy pre-war laser rifle. Emits beams of concentrated light to kill targets. This one has been jury-rigged against common sense with a rotating barrel to fire in full auto.
+  description: "Міцна довоєнна лазерна гвинтівка. Випромінює промені концентрованого світла для ураження цілей. Всупереч здоровому глузду, ця гвинтівка має обертовий ствол, що дозволяє вести вогонь в автоматичному режимі."
   components:
   - type: Wieldable
   - type: GunWieldBonus
@@ -283,10 +283,10 @@
     - FullAuto
 
 - type: entity
-  name: plasma automatic rifle
+  name: "плазмова автоматична гвинтівка"
   parent: N14BaseWeaponPowerCellMedium
   id: N14WeaponPlasmaAutoRifle
-  description: A highly advanced automatic plasma rifle.
+  description: "Надсучасна автоматична плазмова гвинтівка."
   components:
   - type: Wieldable
   - type: GunWieldBonus
@@ -329,10 +329,10 @@
     - FullAuto
 
 - type: entity
-  name: prototype AER-14 laser rifle
+  name: "прототип лазерної гвинтівки AER-14"
   parent: N14BaseWeaponPowerCellMedium
   id: N14WeaponLaserProtoRifle
-  description: A bleeding-edge, pre-war laser rifle. Extremely powerful, but eats ECPs like nothing else.
+  description: "Надсучасна довоєнна лазерна гвинтівка. Надзвичайно потужна, але жере ECP, як ніщо інше."
   components:
   - type: Wieldable
   - type: GunWieldBonus
@@ -377,10 +377,10 @@
 # MARK: Semiauto
 
 - type: entity
-  name: AER-9
+  name: "AER-9"
   parent: N14BaseWeaponPowerCellMedium
   id: N14WeaponLaserRifle
-  description: A sturdy pre-war laser rifle. Emits beams of concentrated light to kill targets.
+  description: "Міцна довоєнна лазерна гвинтівка. Випромінює промені концентрованого світла для ураження цілей."
   components:
   - type: Wieldable
   - type: GunWieldBonus
@@ -423,10 +423,10 @@
     - SemiAuto
 
 - type: entity
-  name: plasma rifle
+  name: "плазмова гвинтівка"
   parent: N14BaseWeaponPowerCellMedium
   id: N14WeaponPlasmaRifle
-  description: A highly advanced plasma rifle.
+  description: "Надсучасна плазмова гвинтівка."
   components:
   - type: Wieldable
   - type: GunWieldBonus
@@ -469,10 +469,10 @@
     - SemiAuto
 
 - type: entity
-  name: urban plasma rifle
+  name: "міська плазмова гвинтівка"
   parent: N14BaseWeaponPowerCellMedium
   id: N14WeaponUrbanPlasmaRifle
-  description: A mass produced pre war plasma rifle designed for close quarters combat in urban environments.
+  description: "Серійна довоєнна плазмова гвинтівка, призначена для ближнього бою в міських умовах."
   components:
   - type: Wieldable
   - type: GunWieldBonus
@@ -517,10 +517,10 @@
 # MARK: Shotguns
 
 - type: entity
-  name: multiplas
+  name: "мультиплікації"
   parent: N14BaseWeaponPowerCellMedium
   id: N14WeaponMultiplas
-  description: A modified urban plasma rifle, it spreads the plasma into multiple projectiles but sacrifices accuracy.
+  description: "Модифікована міська плазмова гвинтівка, вона розподіляє плазму на кілька снарядів, але жертвує точністю."
   components:
   - type: Wieldable
   - type: GunWieldBonus
@@ -563,10 +563,10 @@
 # (just a different looking laser rifle until we get more options)
 
 - type: entity
-  name: wattz 3000 laser rifle
+  name: "лазерна гвинтівка wattz 3000"
   parent: N14BaseWeaponPowerCellMedium
   id: N14WeaponWattz3000
-  description: Wattz 3000 Laser Rifle. Uses focused micro fusion cells for more powerful lasers, and an extended barrel for additional range.
+  description: "Лазерна гвинтівка Wattz 3000. Використовує сфокусовані мікро термоядерні елементи для більш потужних лазерів і подовжений ствол для збільшення дальності."
   components:
   - type: Wieldable
   - type: GunWieldBonus
@@ -609,10 +609,10 @@
     - SemiAuto
 
 - type: entity
-  name: wattz 2000 laser rifle
+  name: "лазерна гвинтівка wattz 2000"
   parent: N14BaseWeaponPowerCellMedium
   id: N14WeaponWattz2000
-  description: Wattz 2000 Laser Rifle. Uses focused micro fusion cells for more powerful lasers, and an extended barrel for additional range.
+  description: "Лазерна гвинтівка Wattz 2000. Використовує сфокусовані мікро термоядерні елементи для більш потужних лазерів і подовжений ствол для збільшення дальності."
   components:
   - type: Wieldable
   - type: GunWieldBonus
@@ -657,10 +657,10 @@
 #MARK: Heavy
 
 - type: entity
-  name: plasma caster
+  name: "плазмовий зварювальник"
   parent: N14BaseWeaponPowerCellMedium
   id: N14WeaponPlasmaCaster
-  description: A massive plasma gun with a pretty sharp cannon, this gun is feed with plasma shells.
+  description: "Масивна плазмова гармата з досить гострою гарматою, ця гармата живиться плазмовими снарядами."
   components:
   - type: Sprite
     sprite: _Nuclear14/Objects/Weapons/Guns/Battery/plasma_caster.rsi
@@ -709,10 +709,10 @@
     sprintModifier: 0.8
 
 - type: entity
-  name: laser gatling gun
+  name: "лазерний пістолет для гатлінгу"
   parent: N14BaseWeaponPowerCellMedium
   id: N14WeaponLaserGatling
-  description: A minigun, but laser for those who really needed an upscaling.
+  description: "Міні-пістолет, але лазерний, для тих, кому дійсно потрібен апскейлінг."
   components:
   - type: Sprite
     sprite: _Nuclear14/Objects/Weapons/Guns/Battery/laser_gatling.rsi
