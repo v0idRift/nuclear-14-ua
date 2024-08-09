@@ -23,8 +23,8 @@
 - type: entity
   parent: N14ControlTerminalButton
   id: N14DoorVaultControls
-  name: "Управління дверима сховища"
-  description: "Зручний пульт управління для відкривання дверей сховища."
+  name: Vault Door Controls
+  description: A handy control panel for opening the vault door.
   components:
   - type: AutoLinkTransmitter
     channel: Vaultdoor

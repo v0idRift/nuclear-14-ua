@@ -1,8 +1,8 @@
 - type: entity
-  name: "N14BasePistol"
+  name: N14BasePistol
   parent: BaseItem
   id: N14BaseWeaponPistol
-  description: "Корінцевий зубастий і пагонистий."
+  description: A rooty tooty point and shooty.
   abstract: true
   components:
   - type: Sprite
@@ -60,10 +60,10 @@
     price: 500
 
 - type: entity
-  name: "9-мм пістолет"
+  name: 9mm Pistol
   parent: N14BaseWeaponPistol
   id: N14WeaponPistol9mm
-  description: "Дешева, повсюдно розповсюджена пістолет калібру 9 мм."
+  description: A cheap, ubiquitous sidearm, chambered in 9 mm.
   components:
   - type: Sprite
     sprite: _Nuclear14/Objects/Weapons/Guns/Pistols/9mm.rsi
@@ -95,10 +95,10 @@
             - N14CartridgePistol9
 
 - type: entity
-  name: "Пістолет 10 мм"
+  name: 10mm Pistol
   parent: N14BaseWeaponPistol
   id: N14WeaponPistol10mm
-  description: "Дешева, повсюдно розповсюджена пістолетна зброя, калібру 10 мм." # TODO: Need to create projectiles, magazines and boxes for 10mm.
+  description: A cheap, ubiquitous sidearm, chambered in 10mm. # TODO: Need to create projectiles, magazines and boxes for 10mm.
   components:
   - type: Sprite
     sprite: _Nuclear14/Objects/Weapons/Guns/Pistols/10mm.rsi
@@ -130,10 +130,10 @@
             - N14CartridgePistol10
 
 - type: entity
-  name: "Пістолет 45-го калібру"
+  name: .45 handgun
   parent: N14BaseWeaponPistol
   id: N14WeaponPistolColt
-  description: "Міцний пістолет калібру .45."
+  description: A rugged handgun chambered in .45.
   components:
   - type: Sprite
     sprite: _Nuclear14/Objects/Weapons/Guns/Pistols/colt.rsi
@@ -172,10 +172,10 @@
       gun_chamber: !type:ContainerSlot
 
 - type: entity
-  name: "12,7-мм пістолет"
+  name: 12.7mm handgun
   parent: N14BaseWeaponPistol
   id: N14WeaponPistol12mm
-  description: "Міцний, надійний пістолет калібру 12,7 мм." # TODO: Need to create projectiles, magazines and boxes for 12mm.
+  description: A rugged, robust handgun chambered in 12.7mm. # TODO: Need to create projectiles, magazines and boxes for 12mm.
   components:
   - type: Sprite
     sprite: _Nuclear14/Objects/Weapons/Guns/Pistols/12mm.rsi
@@ -214,10 +214,10 @@
       gun_chamber: !type:ContainerSlot
 
 - type: entity
-  name: "10-мм трубчастий пістолет"
+  name: 10mm pipe pistol
   parent: N14BaseWeaponPistol
   id: N14WeaponPipe10mm
-  description: "легкий саморобний пістолет калібру 10 мм, з неймовірно незручною рукояткою."
+  description: a light 10mm makeshift pistol, the grip is incredibly uncomfortable.
   components:
   - type: Sprite
     sprite: _Nuclear14/Objects/Weapons/Guns/Pistols/10mmPIPEpistol.rsi
@@ -249,10 +249,10 @@
             - N14CartridgePistol10
 
 - type: entity
-  name: "китайський пістолет"
+  name: chinese pistol
   parent: BaseWeaponSniper
   id: N14WeaponPistolChinese
-  description: "Елегантний пістолет з довгим стволом та інтегрованим магазином, калібру 9 мм."
+  description: A elegant and long barrel pistol with a integrated magazine, chambered in 9 mm.
   components:
   - type: Sprite
     sprite: _Nuclear14/Objects/Weapons/Guns/Pistols/chinesepistol.rsi
@@ -290,10 +290,10 @@
       - N14CartridgePistol9
 
 - type: entity
-  name: "шпигун"
+  name: the spy
   parent: BaseWeaponSniper
   id: N14WeaponPistolSpy
-  description: "Модифікована версія звичайного китайського пістолета з інтегрованим глушником, подовженим магазином і повністю автоматичним перезарядженням, цей пістолет був розроблений з пристрастю, під патрон 9 мм."
+  description: A modified version of the common chinese pistols. with a integrated silencer, extended mag and fully automatic conversion this gun was designed with passion, chambered in 9 mm.
   components:
   - type: Sprite
     sprite: _Nuclear14/Objects/Weapons/Guns/Pistols/thespy.rsi
@@ -331,10 +331,10 @@
       - N14CartridgePistol9
 
 - type: entity
-  name: "Пістолет під набій 22lr"
+  name: 22lr Pistol
   parent: N14BaseWeaponPistol
   id: N14WeaponPistol22lr
-  description: "Простий і безшумний пістолет під набій 22lr."
+  description: A simple and silenced pistol, chambered in 22lr.
   components:
   - type: Sprite
     sprite: _Nuclear14/Objects/Weapons/Guns/Pistols/22lr.rsi

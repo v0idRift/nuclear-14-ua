@@ -1,9 +1,9 @@
 - type: entity
   parent: BaseMaterialDoorNavMap
   id: N14DoorMetalBlueTall
-  name: "металеві двері"
+  name: metal Door
   suffix: tall
-  description: "Старі сині металеві двері."
+  description: An old blue metal door.
   components:
   - type: Sprite
     drawdepth: Mobs
@@ -80,9 +80,9 @@
 - type: entity
   parent: N14DoorMetalBlueTall
   id: N14DoorMetalRedTall
-  name: "металеві двері"
+  name: metal Door
   suffix: tall
-  description: "Старі червоні металеві двері."
+  description: An old red metal door.
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Doors/TallDoors/metalred.rsi
@@ -103,9 +103,9 @@
 - type: entity
   parent: N14DoorMetalBlueTall
   id: N14DoorMetalBlueWindowTall
-  name: "металеві двері"
+  name: metal Door
   suffix: tall, windowed
-  description: "Старі сині металеві двері з вікном."
+  description: An old blue metal door with a window.
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Doors/TallDoors/metalbluewindow.rsi
@@ -121,7 +121,7 @@
   parent: N14DoorMetalBlueWindowTall
   id: N14DoorMetalGrateTall
   suffix: tall, grate
-  description: "Металеві сітчасті двері."
+  description: A metal mesh door.
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Doors/TallDoors/metal_grate.rsi
@@ -133,7 +133,7 @@
   parent: N14DoorMetalBlueWindowTall
   id: N14DoorMetalBarTall
   suffix: tall, bar
-  description: "Металеві ґратчасті двері."
+  description: A metal bar door.
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Doors/TallDoors/metal_bar.rsi
@@ -145,7 +145,7 @@
   parent: N14DoorMetalBlueWindowTall
   id: N14DoorMetalFenceTall
   suffix: tall, fence
-  description: "Хвіртка з металевого паркану."
+  description: A metal fence gate.
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Doors/TallDoors/fence.rsi
@@ -157,7 +157,7 @@
   parent: N14DoorMetalBlueWindowTall
   id: N14DoorMetalFenceBarbedTall
   suffix: tall, fence barbed
-  description: "Ворота з металевого колючого паркану."
+  description: A metal barbed fence gate.
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Doors/TallDoors/fence_barbed.rsi
@@ -169,9 +169,9 @@
 - type: entity
   parent: N14DoorMetalBlueTall
   id: N14DoorWoodTall
-  name: "дерев'яні двері"
+  name: wooden door
   suffix: tall
-  description: "Дерев'яні двері."
+  description: A wooden door.
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Doors/TallDoors/wood.rsi
@@ -223,8 +223,8 @@
 - type: entity
   parent: N14DoorMetalBlueTall
   id: N14DoorCell
-  name: "двері камери"
-  description: "Двері, щоб опинитися в камері."
+  name: cell door
+  description: A door to be in cell.
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Doors/TallDoors/cell.rsi
@@ -261,9 +261,9 @@
 - type: entity
   parent: N14DoorMetalBlueTall
   id: N14DoorAirlockTall
-  name: "повітряний шлюз"
+  name: airlock
   suffix: tall
-  description: "Старий шлюз бункера."
+  description: An old bunker airlock.
   components:
   - type: Sprite
     drawdepth: Mobs
@@ -315,8 +315,8 @@
 - type: entity
   parent: BaseStructure
   id: N14DoorVault
-  name: "двері сховища"
-  description: "Старі двері сховища."
+  name: vault Door
+  description: An old vault door.
   components:
   - type: Sprite
     drawdepth: Mobs

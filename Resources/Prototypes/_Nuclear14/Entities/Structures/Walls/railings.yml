@@ -3,8 +3,8 @@
 - type: entity
   parent: Railing
   id: RailingYellow
-  name: "жовті перила"
-  description: "Елементарні перила, призначені для захисту таких ідіотів, як ти, від падіння."
+  name: yellow railing
+  description: Basic railing meant to protect idiots like you from falling.
   components:
   - type: Sprite
     netsync: false
@@ -29,8 +29,8 @@
 - type: entity
   parent: RailingCorner
   id: RailingYellowCorner
-  name: "жовті перила"
-  description: "Елементарні перила, призначені для захисту таких ідіотів, як ти, від падіння."
+  name: yellow railing
+  description: Basic railing meant to protect idiots like you from falling.
   components:
   - type: Sprite
     netsync: false
@@ -56,8 +56,8 @@
 - type: entity
   parent: Railing
   id: RailingYellowEnd
-  name: "жовті перила"
-  description: "Елементарні перила, призначені для захисту таких ідіотів, як ти, від падіння."
+  name: yellow railing
+  description: Basic railing meant to protect idiots like you from falling.
   components:
   - type: Sprite
     netsync: false

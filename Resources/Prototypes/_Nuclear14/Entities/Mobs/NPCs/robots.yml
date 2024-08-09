@@ -4,8 +4,8 @@
   parent: MobSiliconBase
   id: N14MobRobotHostile
   suffix: hostile npc
-  name: "робот"
-  description: "Створений, щоб служити людству. Можливо, це поклало йому край."
+  name: robot
+  description: Designed to serve humankind. Maybe it ended it.
   components:
   - type: InputMover
   - type: MobMover
@@ -85,8 +85,8 @@
 - type: entity
   parent: N14MobRobotHostile
   id: N14MobRobotAssaultronHostile
-  name: "Ассаултрон"
-  description: "Жахливо."
+  name: Assaultron
+  description: Horrifying.
   components:
   - type: MovementSpeedModifier
     baseWalkSpeed : 2
@@ -121,8 +121,8 @@
 - type: entity
   parent: N14MobRobotHostile
   id: N14MobRobotProtectronHostile
-  name: "Протектоне"
-  description: "Звичайний протрон, який шукає бою."
+  name: Protectron
+  description: A common protectron looking for a fight.
   components:
   - type: MovementSpeedModifier
     baseWalkSpeed : 1
@@ -157,8 +157,8 @@
 - type: entity
   parent: N14MobRobotHostile
   id: N14MobRobotMrHandyClaw
-  name: "Містере Хенді"
-  description: "Вітчизняна модель Mr Handy з насадкою для кігтів."
+  name: Mr Handy
+  description: A domestic Mr Handy model with a claw attachment.
   components:
   - type: MovementSpeedModifier
     baseWalkSpeed : 1

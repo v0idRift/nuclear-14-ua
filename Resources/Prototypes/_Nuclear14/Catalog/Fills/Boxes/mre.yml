@@ -1,15 +1,15 @@
 - type: entity
-  name: "картонна коробка"
+  name: cardboard box
   parent: BoxBase
   id: N14BoxCardboardMREBox
-  description: "Стара картонна коробка для зберігання речей."
+  description: An old cardboard box for storing things.
   components:
   - type: Sprite
     sprite: _Nuclear14/Objects/Misc/storage.rsi
     state: c-ration
 
 - type: entity
-  name: "Раціон"
+  name: C ration
   parent: N14BoxCardboardMREBox
   id: N14BoxCardboardMREBoxCFilled
   components:
@@ -57,7 +57,7 @@
         - id: Matchbox
 
 - type: entity
-  name: "Раціон К"
+  name: K ration
   parent: N14BoxCardboardMREBox
   id: N14BoxCardboardMREBoxKFilled
   components:

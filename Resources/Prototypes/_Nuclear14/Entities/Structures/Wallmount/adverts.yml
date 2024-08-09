@@ -22,8 +22,8 @@
 - type: entity
   parent: N14SignBase
   id: N14SignNukaColaGirl
-  name: "Реклама Nuka Cola"
-  description: "Майже незаймана довоєнна реклама Nuka Cola."
+  name: Nuka Cola advert
+  description: "A near pristine pre-war advert for Nuka Cola."
   components:
   - type: Sprite
     state: nukagirl
@@ -46,8 +46,8 @@
 - type: entity
   parent: N14SignBase
   id: N14SignVaultTec
-  name: "Реклама Vault-Tec"
-  description: "Майже незаймана довоєнна реклама Vault-Tec."
+  name: Vault-Tec advert
+  description: "A near pristine pre-war advert for Vault-Tec."
   components:
   - type: Sprite
     state: vaulttec
@@ -70,8 +70,8 @@
 - type: entity
   parent: N14SignBase
   id: N14SignMrHandy
-  name: "Реклама Mr Handy"
-  description: "Майже незаймана довоєнна реклама сервісного робота \"Містер Хенді\"."
+  name: Mr Handy advert
+  description: "A near pristine pre-war advert for Mr. Handy service robot."
   components:
   - type: Sprite
     state: mrhandy
@@ -96,8 +96,8 @@
   parent: N14SignNukaColaGirl
   id: N14SignNukaColaGirlWorn
   suffix: worn
-  name: "Реклама Nuka Cola"
-  description: "Довоєнна реклама Nuka Cola."
+  name: Nuka Cola advert
+  description: "A pre-war advert for Nuka Cola."
   components:
   - type: Sprite
     state: nukagirl-worn
@@ -107,8 +107,8 @@
   parent: N14SignVaultTec
   id: N14SignVaultTecWorn
   suffix: worn
-  name: "Реклама Vault-Tec"
-  description: "Довоєнна реклама Vault-Tec."
+  name: Vault-Tec advert
+  description: "A pre-war advert for Vault-Tec."
   components:
   - type: Sprite
     state: vaulttec-worn
@@ -118,8 +118,8 @@
   parent: N14SignVaultTec
   id: N14SignVaultTecWorn2
   suffix: worn
-  name: "Реклама Vault-Tec"
-  description: "Довоєнна реклама Vault-Tec."
+  name: Vault-Tec advert
+  description: "A pre-war advert for Vault-Tec."
   components:
   - type: Sprite
     state: vaulttec-worn2
@@ -129,8 +129,8 @@
   parent: N14SignMrHandy
   id: N14SignMrHandyWorn
   suffix: worn
-  name: "Реклама \"Містер Зручний"
-  description: "Довоєнна реклама містера Генді."
+  name: Mr. Handy advert
+  description: "A pre-war advert for Mr. Handy."
   components:
   - type: Sprite
     state: mrhandy-worn
@@ -140,8 +140,8 @@
   parent: N14SignMrHandy
   id: N14SignMrHandyWorn2
   suffix: worn
-  name: "Реклама \"Містер Зручний"
-  description: "Довоєнна реклама містера Генді."
+  name: Mr. Handy advert
+  description: "A pre-war advert for Mr. Handy."
   components:
   - type: Sprite
     state: mrhandy-worn2
@@ -152,8 +152,8 @@
   parent: N14SignBase
   id: N14SignNukaColaGirlDamaged
   suffix: damaged
-  name: "Реклама Nuka Cola"
-  description: "Знищена довоєнна реклама Nuka Cola."
+  name: Nuka Cola advert
+  description: "A destroyed pre-war advert for Nuka Cola."
   components:
   - type: Sprite
     state: nukagirl-damaged
@@ -163,8 +163,8 @@
   parent: N14SignBase
   id: N14SignMrHandyDamaged
   suffix: damaged
-  name: "Реклама \"Містер Зручний"
-  description: "Знищена довоєнна реклама містера Генді."
+  name: Mr. Handy advert
+  description: "A destroyed pre-war advert for Mr. Handy."
   components:
   - type: Sprite
     state: mrhandy-damaged
@@ -174,8 +174,8 @@
   parent: N14SignBase
   id: N14SignMrHandyDamaged2
   suffix: damaged
-  name: "Реклама \"Містер Зручний"
-  description: "Знищена довоєнна реклама містера Генді."
+  name: Mr. Handy advert
+  description: "A destroyed pre-war advert for Mr. Handy."
   components:
   - type: Sprite
     state: mrhandy-damaged2
@@ -185,8 +185,8 @@
   parent: N14SignBase
   id: N14SignVaultTecDamaged
   suffix: damaged
-  name: "Реклама Vault-Tec"
-  description: "Знищена довоєнна реклама Vault-Tec."
+  name: Vault-Tec advert 
+  description: "A destroyed pre-war advert for Vault-Tec."
   components:
   - type: Sprite
     state: vaulttec-damaged

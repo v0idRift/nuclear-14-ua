@@ -29,10 +29,10 @@
       path: /Audio/Items/Culinary/chop.ogg
 
 - type: entity
-  name: "кухонний ніж"
+  name: kitchen knife
   parent: N14BaseKnife
   id: N14KitchenKnife
-  description: "Універсальний кухарський ніж. Добре підходить для приготування їжі."
+  description: A general purpose Chef's Knife. Good for preparing food.
   components:
   - type: Tag
     tags:
@@ -45,10 +45,10 @@
     sprite: _Nuclear14/Objects/Weapons/Melee/kitchen_knife.rsi
 
 - type: entity
-  name: "тесак для м'яса"
+  name: butcher's cleaver
   parent: N14BaseKnife
   id: N14ButchersCleaver
-  description: "Величезне лезо, яке використовується для рубання та подрібнення м'яса."
+  description: A huge blade used for chopping and chopping up meat.
   components:
   - type: Tag
     tags:
@@ -66,10 +66,10 @@
     sprite: _Nuclear14/Objects/Weapons/Melee/cleaver.rsi
 
 - type: entity
-  name: "бойовий ніж"
+  name: combat knife
   parent: N14BaseKnife
   id: N14CombatKnife
-  description: "Смертоносний ніж, призначений для ближнього бою."
+  description: A deadly knife intended for melee confrontations.
   components:
   - type: Tag
     tags:
@@ -96,10 +96,10 @@
     malus: 0.225
 
 - type: entity
-  name: "племінний ніж"
+  name: tribal knife
   parent: N14BaseKnife
   id: N14TribalKnife
-  description: "Смертоносний ніж, призначений для ближнього бою, виготовлений вручну племенами."
+  description: A deadly knife intended for melee confrontations, this one is handmade by tribals.
   components:
   - type: Tag
     tags:
