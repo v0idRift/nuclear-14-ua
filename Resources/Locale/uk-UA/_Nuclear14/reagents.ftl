@@ -284,3 +284,9 @@ reagent-desc-buffjet = Реагент, що поєднує в собі силу 
 reagent-name-bufftats = буфетів
 reagent-desc-bufftats = Реагент, що поєднує в собі силу ментатів з силою буффауту, дуже стійкий.
 materials-charcoal = вугілля
+reagent-name-nightstalker-venom = отрута нічного сталкера
+reagent-desc-nightstalker-venom = Отрута нічного переслідувача. Хоча вона не така сильна, як отрута казадора, вона все одно може звалити вас на коліна.
+reagent-name-cazador-venom = отрута казадора
+reagent-desc-cazador-venom = Отрута казадора. Швидка смерть майже гарантована.
+
+# Хімікати
