@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingShoesBase
   id: N14ClothingShoesJamrock
-  name: jamrock skins
-  description: Jeez. Those are some pointy shoes.
+  name: "шкури джем-рок"
+  description: "Боже. Які гострі туфлі."
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/Shoes/FalloutShoes/jamrock.rsi
@@ -12,8 +12,8 @@
 - type: entity
   parent: ClothingShoesBase
   id: N14ClothingShoesBlack
-  name: black shoes
-  description: Black shoes, nothing else needs to be added.
+  name: "чорні туфлі"
+  description: "Чорні туфлі, більше нічого не потрібно додавати."
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/Shoes/FalloutShoes/blackshoes.rsi
@@ -23,8 +23,8 @@
 - type: entity
   parent: ClothingShoesBase
   id: N14ClothingShoesBrown
-  name: brown shoes
-  description: Brown shoes, nothing else needs to be added.
+  name: "коричневі туфлі"
+  description: "Коричневі туфлі, більше нічого не потрібно додавати."
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/Shoes/FalloutShoes/brownshoes.rsi
@@ -34,8 +34,8 @@
 - type: entity
   parent: ClothingShoesBase
   id: N14ClothingShoesTribal
-  name: tribal shoes
-  description: A piece of handmade shoes, basically a piece of leather with rope around it, better than nothing.
+  name: "племінне взуття"
+  description: "Шматок взуття ручної роботи, по суті, шматок шкіри, обмотаний мотузкою, краще, ніж нічого."
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/Shoes/FalloutShoes/tribalshoes.rsi
@@ -45,8 +45,8 @@
 - type: entity
   parent: ClothingShoesBase
   id: N14ClothingShoesRags
-  name: foot rags
-  description: Not the best, but at least it's something.
+  name: "ганчірки для ніг"
+  description: "Не найкраще, але хоч щось."
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/Shoes/FalloutShoes/wastelanderrags.rsi
@@ -58,8 +58,8 @@
 - type: entity
   parent: ClothingShoesBase
   id: N14ClothingShoesRaider
-  name: raider treads
-  description: Mismatched and worn. Typical raider attire.
+  name: "рейдерські протектори"
+  description: "Невідповідний і поношений. Типове вбрання рейдера."
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/Shoes/FalloutShoes/raider.rsi

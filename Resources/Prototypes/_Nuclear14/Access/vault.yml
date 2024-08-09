@@ -1,26 +1,26 @@
 - type: accessLevel
   id: VaultOverseer
-  name: id-card-access-level-vault-overseer
+  name: "id-картки-рівень доступу до сховища-власник"
 
 - type: accessLevel
   id: VaultGatekeeper
-  name: id-card-access-level-vault-gatekeeper
+  name: "id-card-access-level-vault-gatekeeper"
   
 - type: accessLevel
   id: VaultSecurity
-  name: id-card-access-level-vault-security
+  name: "id-card-access-level-vault-security"
   
 - type: accessLevel
   id: VaultMedical
-  name: id-card-access-level-vault-medical
+  name: "id-card-access-level-vault-medical"
   
 - type: accessLevel
   id: VaultEngineer
-  name: id-card-access-level-vault-engineer
+  name: "id-card-access-level-vault-engineer"
   
 - type: accessLevel
   id: VaultDweller
-  name: id-card-access-level-vault-dweller
+  name: "id-card-access-level-vault-dweller мешканець сховища"
 
 - type: accessGroup
   id: VaultOverseer

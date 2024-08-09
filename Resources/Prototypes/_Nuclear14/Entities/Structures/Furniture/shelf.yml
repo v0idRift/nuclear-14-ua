@@ -5,8 +5,8 @@
 - type: entity
   id: N14BookshelfDirty
   parent: BaseStructure
-  name: "bookshelf"
-  description: A dusty old shelf.
+  name: "книжкова полиця"
+  description: "Запилена стара полиця."
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Furniture/bookshelf.rsi
@@ -58,8 +58,8 @@
 - type: entity
   id: N14Bookshelf
   parent: N14BookshelfDirty
-  name: "bookshelf"
-  description: Dusty old books.
+  name: "книжкова полиця"
+  description: "Запилені старі книги."
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Furniture/bookshelf.rsi
@@ -85,8 +85,8 @@
 - type: entity
   id: N14BookshelfDestroyed
   parent: N14BookshelfDirty
-  name: "bookshelf"
-  description: A broken old shelf.
+  name: "книжкова полиця"
+  description: "Зламана стара полиця."
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Furniture/bookshelf.rsi
@@ -97,8 +97,8 @@
 - type: entity
   id: N14ShelfWood1
   parent: BaseStructure
-  name: wooden shelf
-  description: A dusty old shelf.
+  name: "дерев'яна полиця"
+  description: "Запилена стара полиця."
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Furniture/np13_misc.rsi
@@ -198,7 +198,7 @@
 - type: entity
   parent: N14ShelfWood
   id: N14ShelfWoodBig
-  name: big wooden shelf
+  name: "велика дерев'яна полиця"
   components:
   - type: Sprite
     state: wood_shelf_big
@@ -206,8 +206,8 @@
 - type: entity
   parent: N14ShelfWood
   id: N14ShelfWoodShowcase
-  name: showcase
-  description: A wooden stand for showing things off.
+  name: "вітрина"
+  description: "Дерев'яна підставка для демонстрації речей."
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Furniture/64x64_furniture.rsi
@@ -217,8 +217,8 @@
 - type: entity
   parent: N14ShelfWood
   id: N14ShelfWoodStand
-  name: wooden stand
-  description: A stand, not a sit. Missing a TV.
+  name: "дерев'яна підставка"
+  description: "Стояти, а не сидіти. Не вистачає телевізора."
   components:
   - type: Sprite
     state: stand_wood
@@ -238,8 +238,8 @@
 - type: entity
   parent: N14ShelfWood
   id: N14ShelfWoodStandSmall
-  name: small wooden stand
-  description: A small stand. For small people.
+  name: "невелика дерев'яна підставка"
+  description: "Маленький стенд. Для маленьких людей."
   components:
   - type: Sprite
     state: stand_wood_small
@@ -259,8 +259,8 @@
 - type: entity
   parent: N14ShelfWood
   id: N14ShelfWoodClothesRack
-  name: clothes rack
-  description: A wooden rack for storing clothes.
+  name: "вішалка для одягу"
+  description: "Дерев'яний стелаж для зберігання одягу."
   components:
   - type: Sprite
     state: clothing_rack
@@ -269,8 +269,8 @@
 - type: entity
   parent: N14ShelfWood
   id: N14ShelfMetal
-  name: metal shelf
-  description: A cold metal shelf.
+  name: "металева полиця"
+  description: "Холодна металева полиця."
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Furniture/64x96_furniture.rsi
@@ -307,8 +307,8 @@
 - type: entity
   parent: N14ShelfMetal
   id: N14ShelfMetalShop
-  name: shop shelf
-  description: A metal shelf for displaying goods.
+  name: "полиця магазину"
+  description: "Металевий стелаж для демонстрації товарів."
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Furniture/64x96_furniture.rsi
@@ -329,8 +329,8 @@
 - type: entity
   parent: N14ShelfMetal
   id: N14ShelfMetalMeds
-  name: medical shelf
-  description: A metal shelf for storing meds.
+  name: "медична полиця"
+  description: "Металева полиця для зберігання медикаментів."
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Furniture/64x96_furniture.rsi

@@ -2,7 +2,7 @@
   noSpawn: true
   parent: BaseBullet
   id: N14Bullet50
-  name: bullet (.50 AP anti-materiel)
+  name: "куля (.50 AP anti-materials)"
   components:
   - type: Projectile
     damage:
@@ -14,7 +14,7 @@
   noSpawn: true
   parent: BaseGrenadeProjectile
   id: N14Bullet50HEIAP
-  name: bullet (.50 HEIAP anti-materiel)
+  name: "куля (протипіхотна куля .50 HEIAP)"
   components:
   - type: IgniteOnCollide
     fireStacks: 1
