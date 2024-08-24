@@ -1,8 +1,8 @@
 - type: entity
   id: N14CookingStove
   parent: KitchenElectricGrill
-  name: stove
-  description: A pre-war stove for cooking things.
+  name: "піч"
+  description: "Довоєнна піч для приготування їжі."
   components:
   - type: Physics
   - type: Fixtures
@@ -62,8 +62,8 @@
 - type: entity
   parent: N14CookingStove
   id: N14KitchenGrill
-  name: propane grill
-  description: A microwave? No, a real man cooks steaks on a grill!
+  name: "пропановий гриль"
+  description: "Мікрохвильовка? Ні, справжній чоловік готує стейки на грилі!"
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Machines/grill.rsi

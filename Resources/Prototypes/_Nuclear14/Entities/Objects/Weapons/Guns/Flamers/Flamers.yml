@@ -49,8 +49,8 @@
 - type: entity
   id: WeaponFlamer
   parent: WeaponFireGunBase
-  name: Flamer
-  description: A light flamethrower designed for close quarters combat, it also works to heat a excellent BBQ.
+  name: "Полум'ягасник"
+  description: "Легкий вогнемет, призначений для ближнього бою, а також для розігріву чудового барбекю."
   components:
   - type: Gun
     cameraRecoilScalar: 0 #no recoil
