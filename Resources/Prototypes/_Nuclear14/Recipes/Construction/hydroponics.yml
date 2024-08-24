@@ -1,11 +1,11 @@
 - type: construction
-  name: "ґрунт"
+  name: soil
   id: N14Soil
   graph: N14Soil
   startNode: start
   targetNode: Soil
   category: construction-category-utilities
-  description: "Ділянка ґрунту для вирощування рослин."
+  description: A patch of soil for growing things.
   hide: false
   icon:
     sprite: Structures/Hydroponics/misc.rsi
@@ -17,13 +17,13 @@
     - !type:TileNotBlocked
 
 - type: construction
-  name: "сівалка"
+  name: planter
   id: N14Planter
   graph: N14Planter
   startNode: start
   targetNode: Planter
   category: construction-category-utilities
-  description: "Кашпо для вирощування рослин."
+  description: A planter for growing things in.
   icon:
     sprite: _Nuclear14/Structures/Hydroponics/planterbox.rsi
     state: icon
@@ -35,13 +35,13 @@
   hide: false
 
 - type: construction
-  name: "Екстрактор насіння"
+  name: Seed Extractor
   id: N14SeedExtractor
   graph: N14SeedExtractor
   startNode: start
   targetNode: seedextractor
   category: construction-category-machines
-  description: "Струменевий інгалятор з накрученим на нього флаконом RadAway. Два вдихи - і ви вільні від радіації."
+  description: A jet inhaler with a RadAway phial screwed on top of it. Two puffs away from being rad free.
   icon:
     sprite: _Nuclear14/Objects/Specific/Hydroponics/equipment.rsi
     state: seedextractor

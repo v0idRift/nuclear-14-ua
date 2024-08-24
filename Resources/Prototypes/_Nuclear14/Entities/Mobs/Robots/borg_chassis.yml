@@ -1,7 +1,7 @@
 - type: entity
   parent: N14BaseRobotChassis
   id: N14RobotProtectron
-  name: "протрон"
+  name: protectron
   components:
   - type: Sprite
     sprite: _Nuclear14/Mobs/Robots/protectron.rsi
@@ -41,7 +41,7 @@
 - type: entity
   parent: N14BaseRobotChassis
   id: N14RobotProtectronBuilder
-  name: "конструктор протекторів"
+  name: protectron builder
   components:
   - type: Sprite
     sprite: _Nuclear14/Mobs/Robots/ms13robots.rsi

@@ -2,8 +2,8 @@
 - type: entity
   parent: BaseItem
   id: N14MaterialRadscorpionTail
-  name: "хвіст ракоскорпіона"
-  description: "Це жало ракоскорпіона."
+  name: radscorpion tail
+  description: It's the stinger from a radscorpion.
   components:
   - type: Sprite
     sprite: _Nuclear14/Objects/Misc/crafting_material.rsi
@@ -24,8 +24,8 @@
 - type: entity
   parent: BaseItem
   id: N14MaterialBrahminHide
-  name: "шкура браміна"
-  description: "Плоть браміна. Шкіряна і міцна."
+  name: brahmin hide
+  description: The flesh of a brahmin. Leather-like and tough.
   components:
   - type: Sprite
     sprite: _Nuclear14/Objects/Misc/mob_drops.rsi
@@ -36,8 +36,8 @@
 - type: entity
   parent: BaseItem
   id: N14MaterialAntChitin
-  name: "мурашиний хітин"
-  description: "Міцний і стійкий шматок мурашиної \"шкіри\"."
+  name: ant chitin
+  description: A strong and resistent piece of ant "skin".
   components:
   - type: Sprite
     sprite: _Nuclear14/Objects/Misc/mob_drops.rsi
@@ -46,8 +46,8 @@
 - type: entity
   parent: BaseItem
   id: N14MaterialExoskeleton
-  name: "фрагмент екзоскелету radscorpion"
-  description: "Міцний і стійкий шматок екзоскелету ракоскорпіона."
+  name: radscorpion exoskeleton piece
+  description: A strong and resistent piece of radscorpion exoskeleton.
   components:
   - type: Sprite
     sprite: _Nuclear14/Objects/Misc/mob_drops.rsi
@@ -56,8 +56,8 @@
 - type: entity
   parent: BaseItem
   id: N14MaterialNightstalkerPelt
-  name: "шкура нічного сталкера"
-  description: "Шкура свіжої шкіри нічного сталкера."
+  name: nightstalker pelt
+  description: A pelt of fresh nightstalker leather.
   components:
   - type: Sprite
     sprite: _Nuclear14/Objects/Misc/mob_drops.rsi
@@ -66,8 +66,8 @@
 - type: entity
   parent: BaseItem
   id: N14MaterialYaoguaiHide
-  name: "шкура яогуай"
-  description: "Велика шкура яогуая, важка і міцна."
+  name: yaoguai hide
+  description: A big hide of yaoguai, heavy and strong.
   components:
   - type: Sprite
     sprite: _Nuclear14/Objects/Misc/mob_drops.rsi
@@ -78,8 +78,8 @@
 - type: entity
   parent: BaseItem
   id: N14MaterialLeather
-  name: "шкіра"
-  description: "Шматок шкіри, просто звичайної шкіри."
+  name: leather
+  description: A piece of leather, just non special leather.
   components:
   - type: Sprite
     sprite: _Nuclear14/Objects/Misc/materials.rsi

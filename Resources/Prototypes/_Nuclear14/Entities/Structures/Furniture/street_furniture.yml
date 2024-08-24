@@ -1,8 +1,8 @@
 # Base floor sign
 - type: entity
   id: N14SignFloorBase
-  name: "знак"
-  description: "Це знак!"
+  name: sign
+  description: It's a sign!
   abstract: true
   placement:
     mode: SnapgridCenter
@@ -46,8 +46,8 @@
 - type: entity
   id: StreetFurnitureBillboardNukacola1
   parent: N14SignFloorBase
-  name: "білборд"
-  description: "Білборд з рекламою нука-коли."
+  name: billboard
+  description: A billboard advertising nuka cola.
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Furniture/Street_Furniture/billboards192x192.rsi
@@ -79,7 +79,7 @@
 - type: entity
   id: StreetFurnitureBillboardNukacola1worn
   parent: StreetFurnitureBillboardNukacola1
-  description: "Білборд з рекламою нука-коли."
+  description: A billboard advertising nuka cola.
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Furniture/Street_Furniture/billboards192x192.rsi
@@ -90,7 +90,7 @@
 - type: entity
   id: StreetFurnitureBillboardMassfusion1
   parent: StreetFurnitureBillboardNukacola1
-  description: "Білборд з рекламою компанії Mass Fusion."
+  description: A billboard advertising the Mass Fusion company.
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Furniture/Street_Furniture/billboards192x192.rsi
@@ -101,7 +101,7 @@
 - type: entity
   id: StreetFurnitureBillboardMassfusion1worn
   parent: StreetFurnitureBillboardNukacola1
-  description: "Білборд з рекламою компанії Mass Fusion."
+  description: A billboard advertising the Mass Fusion company.
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Furniture/Street_Furniture/billboards192x192.rsi
@@ -112,7 +112,7 @@
 - type: entity
   id: StreetFurnitureBillboardRedrocket1
   parent: StreetFurnitureBillboardNukacola1
-  description: "Білборд з рекламою паливної компанії \"Червона ракета\"."
+  description: A billboard advertising the Red Rocket fuel company.
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Furniture/Street_Furniture/billboards192x192.rsi
@@ -123,7 +123,7 @@
 - type: entity
   id: StreetFurnitureBillboardRedrocket1worn
   parent: StreetFurnitureBillboardNukacola1
-  description: "Білборд з рекламою паливної компанії \"Червона ракета\"."
+  description: A billboard advertising the Red Rocket fuel company.
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Furniture/Street_Furniture/billboards192x192.rsi
@@ -134,7 +134,7 @@
 - type: entity
   parent: StreetFurnitureBillboardNukacola1
   id: StreetFurnitureBillboardHorizonAirlines
-  description: "Білборд з рекламою компанії Horizon Airlines."
+  description: A billboard advertising the Horizon Airlines company.
   components:
   - type: Sprite
     layers:
@@ -153,7 +153,7 @@
 - type: entity
   parent: StreetFurnitureBillboardNukacola1
   id: StreetFurnitureBillboardSchoelt
-  description: "Білборд з рекламою пропанової компанії Schoelt."
+  description: A billboard advertising the Schoelt propane company.
   components:
   - type: Sprite
     layers:
@@ -165,7 +165,7 @@
   parent: N14SignFloorBase
   id: N14SignFloorBazaar
   suffix: bazaar
-  description: "Вивіска базару. Як дивно!"
+  description: A sign for a bazaar. How bizarre!
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Decoration/signs_64x64.rsi
@@ -175,7 +175,7 @@
   parent: N14SignFloorBase
   id: N14SignFloorOpen
   suffix: we are open
-  description: "Ми відкриті!"
+  description: We are open!
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Decoration/signs_64x64.rsi
@@ -199,8 +199,8 @@
 - type: entity
   parent: N14SignFloorBase
   id: N14SignStreetBase
-  name: "вуличний знак"
-  description: "Це знак!"
+  name: street sign
+  description: It's a sign!
   abstract: true
   components:
   - type: Sprite
@@ -213,9 +213,9 @@
 - type: entity
   parent: N14SignStreetBase
   id: N14SignStreetInterstate
-  name: "міждержавний знак"
+  name: interstate sign
   suffix: 6 directions
-  description: "Старий міждержавний дорожній знак."
+  description: An old interstate road sign.
   components:
   - type: Sprite
     state: interstate
@@ -223,9 +223,9 @@
 - type: entity
   parent: N14SignStreetBase
   id: N14SignStreetInterstateShot
-  name: "міждержавний знак"
+  name: interstate sign
   suffix: shot
-  description: "Старий розстріляний дорожній знак на міждержавній трасі."
+  description: An old interstate road sign that's been shot.
   components:
   - type: Sprite
     state: interstate80_shot
@@ -233,9 +233,9 @@
 - type: entity
   parent: N14SignStreetBase
   id: N14SignStreetStop
-  name: "знак \"стоп"
+  name: stop sign
   suffix: 4 directions
-  description: "Старий дорожній знак зупинки."
+  description: An old road stop sign.
   components:
   - type: Sprite
     state: stop
@@ -243,9 +243,9 @@
 - type: entity
   parent: N14SignStreetBase
   id: N14SignStreetNoturning
-  name: "немає покажчика повороту"
+  name: no turning sign
   suffix: 4 directions
-  description: "Старий знак \"Поворот заборонено\"."
+  description: An old no turning sign.
   components:
   - type: Sprite
     state: noturn
@@ -253,8 +253,8 @@
 - type: entity
   parent: N14SignStreetBase
   id: N14SignStreetNoparking
-  name: "немає знаку для паркування"
-  description: "Старий знак \"Стоянка заборонена\"."
+  name: no parking sign
+  description: An old no parking sign.
   components:
   - type: Sprite
     state: noparking
@@ -262,8 +262,8 @@
 - type: entity
   parent: N14SignStreetBase
   id: N14SignStreetSign
-  name: "вуличний знак"
-  description: "Старий вуличний знак"
+  name: street sign
+  description: An old street sign
   components:
   - type: Sprite
     state: street
@@ -271,9 +271,9 @@
 - type: entity
   parent: N14SignStreetBase
   id: N14SignStreetOneway
-  name: "односторонній знак"
+  name: one way sign
   suffix: 2 directions
-  description: "Старий дорожній знак з одностороннім рухом."
+  description: An old one way road sign.
   components:
   - type: Sprite
     state: direction
@@ -281,8 +281,8 @@
 - type: entity
   parent: N14SignStreetBase
   id: N14SignStreetBusstop
-  name: "знак автобусної зупинки"
-  description: "Старий знак автобусної зупинки."
+  name: bus stop sign
+  description: An old bus stop sign.
   components:
   - type: Sprite
     state: busstop
@@ -290,8 +290,8 @@
 - type: entity
   parent: N14SignStreetBase
   id: N14SignStreetRailcrossing
-  name: "знак залізничного переїзду"
-  description: "Старий знак залізничного переїзду."
+  name: rail crossing sign
+  description: An old rail crossing sign.
   components:
   - type: Sprite
     state: railcrossing
@@ -299,9 +299,9 @@
 - type: entity
   parent: N14SignStreetBase
   id: N14SignStreetOnedirection
-  name: "попереду тільки знак"
+  name: ahead only sign
   suffix: 4 directions
-  description: "Старий вказівник одного напрямку."
+  description: An old one direction sign.
   components:
   - type: Sprite
     state: onlydir
@@ -309,9 +309,9 @@
 - type: entity
   parent: N14SignStreetBase
   id: N14SignStreetSpeedlimit
-  name: "знак обмеження швидкості"
+  name: speed limit sign
   suffix: 4 directions
-  description: "Старий знак обмеження швидкості."
+  description: An old speed limit sign.
   components:
   - type: Sprite
     state: speed
@@ -319,9 +319,9 @@
 - type: entity
   parent: N14SignStreetBase
   id: N14SignStreetWarning
-  name: "попереджувальний знак"
+  name: warning sign
   suffix: 4 directions
-  description: "Старий дорожній попереджувальний знак."
+  description: An old road warning sign.
   components:
   - type: Sprite
     state: warnings
@@ -329,9 +329,9 @@
 - type: entity
   parent: N14SignStreetBase
   id: N14SignStreetTurn
-  name: "покажчик повороту"
+  name: turn sign
   suffix: 6 directions
-  description: "Старий дорожній покажчик повороту."
+  description: An old road turn sign.
   components:
   - type: Sprite
     state: turn
@@ -339,9 +339,9 @@
 - type: entity
   parent: N14SignStreetBase
   id: N14SignStreetExit
-  name: "знак виходу"
+  name: exit sign
   suffix: 2 directions
-  description: "Старий знак з'їзду з дороги."
+  description: An old road exit sign.
   components:
   - type: Sprite
     state: exit
@@ -349,8 +349,8 @@
 - type: entity
   parent: N14SignStreetBase
   id: N14SignStreetNopedestrians
-  name: "немає знаку для пішоходів"
-  description: "Старий знак \"Пішоходам вхід заборонено\"."
+  name: no pedestrians sign
+  description: An old no pedestrians sign.
   components:
   - type: Sprite
     state: nopedestrian
@@ -358,8 +358,8 @@
 - type: entity
   parent: N14SignStreetBase
   id: N14SignStreetMerge
-  name: "знак \"в'їжджайте вперед"
-  description: "Старий знак злиття."
+  name: merge ahead sign
+  description: An old merge ahead sign.
   components:
   - type: Sprite
     state: merge
@@ -367,8 +367,8 @@
 - type: entity
   parent: N14SignStreetBase
   id: N14SignStreetSnake
-  name: "знак \"Змія попереду"
-  description: "Старий знак \"Дорога вигинається\"."
+  name: snake ahead sign
+  description: An old road curves ahead sign.
   components:
   - type: Sprite
     state: snake
@@ -377,9 +377,9 @@
 - type: entity
   parent: N14SignFloorBase
   id: N14StreetPowerPoleRight
-  name: "стовп живлення"
+  name: power pole
   suffix: right
-  description: "Старий дерев'яний трансформатор, встановлений на стовпі для розподілу електроенергії."
+  description: An old wooden post mounted transformer for power distribution.
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Furniture/Street_Furniture/powerpole.rsi
@@ -398,8 +398,8 @@
   abstract: true
   parent: N14StreetPowerPoleRight
   id: N14BaseLightStructure
-  name: "ліхтарний стовп"
-  description: "Нехай буде світло."
+  name: lamp post
+  description: Let there be light.
   components:
   - type: DeviceNetwork
     deviceNetId: Wireless
@@ -433,7 +433,7 @@
 - type: entity
   parent: N14LightStreetLampPostAlwaysPoweredRight
   id: N14LightStreetLampPostAlwaysPoweredLeft
-  description: "Це світло не має очевидного джерела живлення."
+  description: This light doesn't have an obvious power source.
   suffix: Always Powered, Left
   components:
   - type: Sprite
@@ -481,7 +481,7 @@
   parent: N14LightStreetLampPostPoweredEmptyRight
   id: N14LightStreetLampPostPoweredRight
   suffix: Powered, Right
-  description: "Світильник. Споживає енергію і виробляє світло, якщо оснащений світловою трубкою."
+  description: A light fixture. Draws power and produces light when equipped with a light tube.
   components:
   - type: Sprite
     layers:
@@ -498,7 +498,7 @@
   parent: N14LightStreetLampPostPoweredEmptyLeft
   id: N14LightStreetLampPostPoweredLeft
   suffix: Powered, Left
-  description: "Світильник. Споживає енергію і виробляє світло, якщо оснащений світловою трубкою."
+  description: A light fixture. Draws power and produces light when equipped with a light tube.
   components:
   - type: Sprite
     layers:
@@ -687,8 +687,8 @@
 - type: entity
   parent: BaseStructure
   id: N14DecorStreetPayphone
-  name: "таксофон"
-  description: "Старий таксофон"
+  name: payphone
+  description: An old payphone
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Decoration/world.rsi
@@ -733,8 +733,8 @@
 - type: entity
   parent: N14DecorStreetPayphone
   id: N14DecorStreetMailbox
-  name: "поштову скриньку"
-  description: "Стара поштова скринька"
+  name: mailbox
+  description: An old mailbox
   components:
   - type: Sprite
     netsync: false
@@ -754,8 +754,8 @@
 - type: entity
   parent: N14DecorStreetMailbox
   id: N14DecorStreetMailboxWide
-  name: "поштову скриньку"
-  description: "Стара широка поштова скринька"
+  name: mailbox
+  description: An old wide mailbox
   components:
   - type: Sprite
     state: mailbox
@@ -763,8 +763,8 @@
 - type: entity
   parent: N14DecorStreetMailbox
   id: N14DecorStreetTrashbin
-  name: "смітник"
-  description: "Старий смітник"
+  name: trashbin
+  description: An old trashbin
   components:
   - type: Sprite
     state: trashbin

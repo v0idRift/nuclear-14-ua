@@ -2,8 +2,8 @@
 - type: entity
   parent: N14BaseMachinePowered
   id: N14BrotherhoodTacticalmap # wartable
-  name: "Тактична карта"
-  description: "Тактична карта, яку Братство часто використовує для планування місій."
+  name: Tactical Map
+  description: A tactical map often used by the Brotherhood for planning missions.
   components:
   - type: Fixtures
     fixtures:
@@ -48,8 +48,8 @@
 - type: entity
   parent: N14BrotherhoodTacticalmap
   id: N14BrotherhoodTacticalmapBroken
-  name: "Тактична карта"
-  description: "Пошкоджена тактична карта, яку Братство часто використовує для планування місій."
+  name: Tactical Map
+  description: A broken tactical map often used by the Brotherhood for planning missions.
   suffix: broken
   components:
   - type: Sprite
@@ -73,8 +73,8 @@
 - type: entity
   parent: BaseStructure
   id: N14MachineWaterTreatmentBroken
-  name: "водоочисні споруди"
-  description: "Зламана машина для очищення води \"все в одному\"."
+  name: water treatment works
+  description: A broken all in one water treatment machine.
   suffix: broken
   components:
   - type: Sprite
@@ -109,8 +109,8 @@
 - type: entity
   parent: N14MachineWaterTreatmentBroken
   id: N14MachineWaterTreatment
-  name: "водоочисні споруди"
-  description: "A, все в одній машині для очищення води."
+  name: water treatment works
+  description: A, all in one water treatment machine.
   suffix: ""
   components:
   - type: Sprite

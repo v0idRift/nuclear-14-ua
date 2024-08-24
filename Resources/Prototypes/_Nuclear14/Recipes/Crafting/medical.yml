@@ -1,12 +1,12 @@
 # Mortar and pestle
 - type: construction
-  name: "ступка і товкач"
+  name: mortar & pestle
   id: N14MortarPestle
   graph: N14MortarPestle
   startNode: start
   targetNode: mortarpestle
   category: construction-category-medical
-  description: "Ступка та маточка для подрібнення реагентів."
+  description: A mortar and pestle for grinding reagents.
   hide: false
   icon:
     sprite: _Nuclear14/Objects/Specific/Medical/ss13_chemical.rsi
@@ -31,13 +31,13 @@
 
 # Healing Powder
 - type: construction
-  name: "цілющий порошок"
+  name: healing powder
   id: N14HealingPowder
   graph: N14HealingPowder
   startNode: start
   targetNode: healingpowder
   category: construction-category-medical
-  description: "Мішечок з цілющим порошком."
+  description: A pouch of healing powder.
   hide: false
   icon:
     sprite: _Nuclear14/Objects/Specific/Medical/drugs.rsi
@@ -60,13 +60,13 @@
 
 # Stimpaks
 - type: construction
-  name: "стимпак"
+  name: stimpak
   id: N14Stimpak
   graph: N14Stimpak
   startNode: start
   targetNode: stimpak
   category: construction-category-medical
-  description: "Стимпак для загоєння ран."
+  description: A stimpak for healing wounds.
   hide: false
   icon:
     sprite: _Nuclear14/Objects/Specific/Medical/drugs.rsi
@@ -97,14 +97,14 @@
 
 # RadAway Inhaler
 - type: construction
-  name: "Інгалятор RadAway"
+  name: RadAway inhaler
   id: N14RadAwayInhaler
   graph: N14RadAwayInhaler
   startNode: start
   targetNode: refill
   category: construction-category-medical
   objectType: Item
-  description: "Струменевий інгалятор з накрученим на нього флаконом RadAway. Два вдихи - і ви вільні від радіації."
+  description: A jet inhaler with a RadAway phial screwed on top of it. Two puffs away from being rad free.
   hide: false
   icon:
     sprite: _Nuclear14/Objects/Specific/Medical/radinhaler.rsi
@@ -148,13 +148,13 @@
 # RadAway Phial
 
 - type: construction
-  name: "Флакон RadAway Phial"
+  name: RadAway Phial
   id: N14RadAwayPhial
   graph: N14RadAwayPhial
   startNode: start
   targetNode: fill
   category: construction-category-medical
-  description: "Кольоровий флакон, що містить RadAway."
+  description: A coloured phial containing RadAway.
   hide: true
   icon:
     sprite: _Nuclear14/Objects/Specific/Medical/radinhaler.rsi
@@ -230,13 +230,13 @@
 
 # Jet
 - type: construction
-  name: "струменевий інгалятор"
+  name: jet inhaler
   id: N14JetInhaler
   graph: N14JetInhaler
   startNode: start
   targetNode: jet
   category: construction-category-medical
-  description: "Реактивний інгалятор. Пахне пердежом, прискорює процес."
+  description: A jet inhaler. Smells like farts, speeds things up.
   hide: false
   icon:
     sprite: _Nuclear14/Objects/Specific/Medical/drugs.rsi

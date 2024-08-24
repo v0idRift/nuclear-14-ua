@@ -3,8 +3,8 @@
 - type: entity
   abstract: true
   id: N14BaseGenerator
-  description: "Високоефективний термоелектричний генератор."
-  name: "генератор"
+  description: A high efficiency thermoelectric generator.
+  name: generator
   placement:
     mode: SnapgridCenter
   components:
@@ -88,8 +88,8 @@
   parent: N14BaseGenerator
   id: N14BaseGeneratorPortable
   abstract: true
-  description: "Генератор, який використовує витратні термоядерні елементи."
-  name: "генератор"
+  description: A generator that uses expendable fusion cores.
+  name: generator
   components:
   - type: Fixtures
     fixtures:
@@ -113,8 +113,8 @@
 - type: entity
   parent: N14BaseGeneratorPortable
   id: N14GeneratorFusioncore
-  description: "Генератор, який використовує витратні термоядерні елементи."
-  name: "термоядерний генератор"
+  description: A generator that uses expendable fusion cores.
+  name: fusion core generator
   components:
   - type: Fixtures
     fixtures:
@@ -140,8 +140,8 @@
 - type: entity
   parent: N14BaseGeneratorPortable
   id: N14GeneratorFusionMini
-  description: "Генератор, який використовує важку воду для термоядерного синтезу."
-  name: "міні термоядерний генератор"
+  description: A generator that uses heavy water for fusion power.
+  name: mini fusion generator
   components:
   - type: Fixtures
     fixtures:
@@ -194,8 +194,8 @@
 - type: entity
   parent: N14GeneratorFusionMini
   id: N14GeneratorFusionEnclave
-  description: "Генератор, який використовує важку воду для термоядерного синтезу."
-  name: "анклавний термоядерний генератор"
+  description: A generator that uses heavy water for fusion power.
+  name: enclave fusion generator
   components:
   - type: Fixtures
     fixtures:
@@ -224,8 +224,8 @@
 - type: entity
   parent: N14GeneratorFusionMini
   id: N14GeneratorFusionMiniRusted
-  description: "Генератор, який використовує важку воду для термоядерного синтезу. Цей проржавів."
-  name: "міні термоядерний генератор"
+  description: A generator that uses heavy water for fusion power. This ones rusted.
+  name: mini fusion generator
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Power/32x48_machines.rsi
@@ -235,8 +235,8 @@
 - type: entity
   parent: N14GeneratorFusioncore
   id: N14GeneratorPrewar
-  description: "Брудний старий генератор, який використовує паливо для роботи."
-  name: "довоєнний генератор"
+  description: A dirty old generator that uses fuel to run.
+  name: pre-war generator
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Power/generator.rsi
@@ -259,8 +259,8 @@
 - type: entity
   parent: N14GeneratorPrewar
   id: N14GeneratorPrewarUranium
-  description: "Брудний старий генератор, який працює на сирому урані."
-  name: "довоєнний урановий генератор"
+  description: A dirty old generator that uses raw uranium to run.
+  name: pre-war uranium generator
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Power/generator.rsi
@@ -271,8 +271,8 @@
 - type: entity
   parent: N14BaseGenerator
   id: N14GeneratorVaultTecReactor
-  description: "Термоядерний реактор, побудований компанією vault-tec."
-  name: "реактор vault-tec"
+  description: A fusion reactor built by vault-tec.
+  name: vault-tec reactor
   components:
   - type: Fixtures
     fixtures:
@@ -306,8 +306,8 @@
 - type: entity
   parent: N14GeneratorVaultTecReactor
   id: N14GeneratorReactorFloor
-  description: "Старий реактор, вбудований у підлогу."
-  name: "довоєнний реактор"
+  description: An old reactor built into the floor.
+  name: pre-war reactor
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Power/reactor_floor.rsi
@@ -328,8 +328,8 @@
 - type: entity
   parent: BaseStructure
   id: N14GeneratorReactorFloorDestroyed
-  description: "Старий реактор, вбудований у підлогу. Він розплавився."
-  name: "довоєнний реактор"
+  description: An old reactor built into the floor. This ones suffered a meltdown.
+  name: pre-war reactor
   suffix: destroyed
   components:
   - type: Fixtures
