@@ -3,8 +3,8 @@
 - type: job
   id: Robot
   setPreference: false # Delete line for RP
-  name: "job-name-robot"
-  description: "job-description-robot"
+  name: job-name-robot
+  description: job-description-robot
   playTimeTracker: Robot
   icon: "JobIconPassenger"
   supervisors: job-supervisors-robot

@@ -1,6 +1,6 @@
 - type: entity
   id: N14BaseMagazine5mmMinigun
-  name: "магазин для міні-пістолета (5 мм)"
+  name: minigun magazine (5mm)
   parent: BaseItem
   abstract: true
   components:
@@ -28,7 +28,7 @@
 
 - type: entity
   id: N14MagazineMinigun5mm
-  name: "коробка для міні-пістолета (5 мм)"
+  name: minigun box (5mm)
   parent: N14BaseMagazine5mmMinigun
   components:
   - type: BallisticAmmoProvider
