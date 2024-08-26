@@ -1,6 +1,6 @@
 - type: entity
   id: N14ToolboxFilled1
-  name: toolbox
+  name: "інструментарій"
   suffix: Filled, always
   parent: ToolboxEmergency
   components:
@@ -17,7 +17,7 @@
         
 - type: entity
   id: N14ToolboxFilled2
-  name: toolbox
+  name: "інструментарій"
   suffix: Filled, loot
   parent: ToolboxEmergency
   components:

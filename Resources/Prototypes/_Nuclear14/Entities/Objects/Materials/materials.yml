@@ -3,7 +3,7 @@
 - type: entity
   parent: BaseItem
   id: Gunpowder
-  name: gunpowder
+  name: "порох"
   suffix: Full, 30
   components:
   - type: Material
@@ -55,7 +55,7 @@
 - type: entity
   parent: Gunpowder
   id: SulfurPowder
-  name: sulfur
+  name: "сірка"
   components:
   - type: PhysicalComposition
     materialComposition:
@@ -98,7 +98,7 @@
 - type: entity
   parent: SheetPaper
   id: N14Paper
-  name: paper
+  name: "папір"
   suffix: 10
   components:
   - type: Stack
@@ -138,7 +138,7 @@
 - type: entity
   parent: Gunpowder
   id: Charcoal
-  name: charcoal
+  name: "вугілля"
   components:
   - type: Stack
     stackType: Charcoal
@@ -182,8 +182,8 @@
 - type: entity
   parent: BaseItem
   id: N14Dung
-  name: dung pile
-  description: flip those cowpats for free fertilizer!
+  name: "гнойова купа"
+  description: "переверніть ці коров'ячі килимки, щоб отримати безкоштовне добриво!"
   components:
   - type: Sprite
     sprite: /Textures/_Nuclear14/Objects/Misc/crafting_material.rsi
@@ -211,8 +211,8 @@
 - type: entity
   parent: BaseItem
   id: N14CompostRotted
-  name: compost
-  description: Rotting remains, like a compost. Good for fertilizing.
+  name: "компост"
+  description: "Залишки, що гниють, як компост. Добре підходить для добрива."
   components:
   - type: Sprite
     sprite: /Textures/_Nuclear14/Objects/Misc/crafting_material.rsi

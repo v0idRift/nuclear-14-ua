@@ -1,6 +1,6 @@
 - type: entity
   save: false
-  name: Urist McGhoul
+  name: "Уріст Макгул"
   parent: [N14BaseMobGhoul, BaseMob]
   id: N14MobGhoul
   components:
@@ -10,7 +10,7 @@
   
 - type: entity
   save: false
-  name: Urist McGlow
+  name: "Уріст МакГлоу"
   parent: [N14BaseMobGhoulGlowing, BaseMob]
   id: N14MobGhoulGlowing
   components:

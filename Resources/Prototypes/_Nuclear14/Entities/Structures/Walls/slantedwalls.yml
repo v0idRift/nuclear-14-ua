@@ -1,7 +1,7 @@
 - type: entity
   parent: BaseWall
   id: N14WallBrickSlanted
-  name: brick wall
+  name: "цегляна стіна"
   suffix: slanted
   components:
   - type: Sprite
@@ -18,7 +18,7 @@
 - type: entity
   parent: BaseWall
   id: N14WallBunkerSlanted
-  name: bunker wall
+  name: "стіна бункера"
   suffix: slanted
   components:
   - type: Sprite
@@ -35,7 +35,7 @@
 - type: entity
   parent: BaseWall
   id: N14WallConcreteSlanted
-  name: concrete wall
+  name: "бетонна стіна"
   suffix: slanted
   components:
   - type: Sprite
@@ -52,7 +52,7 @@
 - type: entity
   parent: BaseWall
   id: N14WallDungeonSlanted
-  name: dungeon wall
+  name: "стіна підземелля"
   suffix: slanted
   components:
   - type: Sprite
@@ -69,7 +69,7 @@
 - type: entity
   parent: BaseWall
   id: N14WallMetalSlanted
-  name: metal wall
+  name: "металева стіна"
   suffix: slanted
   components:
   - type: Sprite
@@ -86,7 +86,7 @@
 - type: entity
   parent: BaseWall
   id: N14WallPrisonSlanted
-  name: prison wall
+  name: "тюремний мур"
   suffix: slanted
   components:
   - type: Sprite
@@ -103,7 +103,7 @@
 - type: entity
   parent: BaseWall
   id: N14WallMetalReinforcedSlanted
-  name: reinforced metal wall
+  name: "армована металева стіна"
   suffix: slanted
   components:
   - type: Sprite
@@ -121,7 +121,7 @@
 - type: entity
   parent: BaseWall
   id: N14WallRockSlanted
-  name: rock wall
+  name: "скельна стіна"
   suffix: slanted
   components:
   - type: Sprite
@@ -138,7 +138,7 @@
 - type: entity
   parent: BaseWall
   id: N14WallMetalReinforcedRustSlanted
-  name: rust reinforced metal wall
+  name: "армована іржею металева стіна"
   suffix: slanted
   components:
   - type: Sprite
@@ -155,7 +155,7 @@
 - type: entity
   parent: BaseWall
   id: N14WallMetalRustSlanted
-  name: rust metal wall
+  name: "іржава металева стіна"
   suffix: slanted
   components:
   - type: Sprite
@@ -172,7 +172,7 @@
 - type: entity
   parent: BaseWall
   id: N14WallScrapSlanted
-  name: scrap wall
+  name: "лом стіни"
   suffix: slanted
   components:
   - type: Sprite
@@ -189,7 +189,7 @@
 - type: entity
   parent: BaseWall
   id: N14WallSewerSlanted
-  name: sewer wall
+  name: "стіна каналізації"
   suffix: slanted
   components:
   - type: Sprite
@@ -206,7 +206,7 @@
 - type: entity
   parent: BaseWall
   id: N14WallSidingSlanted
-  name: siding wall
+  name: "стіна з сайдингу"
   suffix: slanted
   components:
   - type: Sprite
@@ -223,7 +223,7 @@
 - type: entity
   parent: BaseWall
   id: N14WallVaultSlanted
-  name: vault wall
+  name: "стіна склепіння"
   suffix: slanted
   components:
   - type: Sprite
@@ -240,7 +240,7 @@
 - type: entity
   parent: BaseWall
   id: N14WallWoodSlanted
-  name: wood wall
+  name: "дерев'яна стіна"
   suffix: slanted
   components:
   - type: Sprite

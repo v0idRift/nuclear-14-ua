@@ -2,7 +2,7 @@
 - type: entity
   parent: IngotBase
   id: IngotLead
-  name: lead bar
+  name: "свинцева планка"
   suffix: Full
   components:
   - type: Material
@@ -37,7 +37,7 @@
 - type: entity
   parent: IngotLead
   id: IngotLead1
-  name: lead bar
+  name: "свинцева планка"
   suffix: Single
   components:
   - type: Sprite
@@ -49,7 +49,7 @@
 - type: entity
   parent: IngotBase
   id: IngotAluminum
-  name: aluminum bar
+  name: "алюмінієвий пруток"
   suffix: Full
   components:
   - type: Material
@@ -84,7 +84,7 @@
 - type: entity
   parent: IngotAluminum
   id: IngotAluminum1
-  name: aluminum bar
+  name: "алюмінієвий пруток"
   suffix: Single
   components:
   - type: Sprite
