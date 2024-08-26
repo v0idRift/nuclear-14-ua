@@ -1,8 +1,8 @@
 - type: entity
-  name: "бейсбольна біта"
+  name: baseball bat
   parent: BaseItem
   id: N14BaseBallBat
-  description: "Міцна бейсбольна бита."
+  description: A robust baseball bat.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Melee/baseball_bat.rsi

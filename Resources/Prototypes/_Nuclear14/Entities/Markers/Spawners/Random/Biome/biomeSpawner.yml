@@ -1,6 +1,6 @@
 - type: entity
   id: N14BaseBiomeSpawner
-  name: "спайдер біомів"
+  name: biome spawner
   abstract: true
   placement:
     mode: SnapgridCenter
