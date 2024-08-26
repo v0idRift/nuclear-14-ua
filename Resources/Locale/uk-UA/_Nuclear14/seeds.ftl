@@ -86,3 +86,10 @@ clipping-wild-white-horsenettle-display-name = обрізка дикого бі�
 clipping-wild-xander-name = вирізка дикого ксандера
 clipping-wild-xander-noun = вирізки дикого ксандера
 clipping-wild-xander-display-name = вирізка дикого ксандера
+
+clipping-starlight-name = обрізка ягід starlight
+clipping-starlight-seeds = обрізка ягід starlight
+clipping-starlight-display-name = обрізка ягід зоряного світла
+clipping-tarberry-name = обрізка чорноплідної горобини
+clipping-tarberry-seeds = обрізка чорноплідної горобини
+clipping-tarberry-display-name = обрізка смородини
