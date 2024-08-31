@@ -16,7 +16,7 @@
 - type: entity
   parent: N14SeedBase
   id: N14FloraWildAgaveClippingSeed
-  name: wild agave clipping
+  name: "обрізка дикої агави"
   components:
     - type: Seed
       seedId: N14WildAgave
@@ -26,7 +26,7 @@
 - type: entity
   parent: N14SeedBase
   id: N14FloraWildBananaYuccaClippingSeed
-  name: wild banana yucca clipping
+  name: "вирізка дикої бананової юки"
   components:
     - type: Seed
       seedId: N14WildBananaYucca
@@ -36,7 +36,7 @@
 - type: entity
   parent: N14SeedBase
   id: N14FloraWildBarrelCactusClippingSeed
-  name: wild barrel cactus clipping
+  name: "обрізка дикого кактуса стовбура"
   components:
     - type: Seed
       seedId: N14WildBarrelCactus
@@ -46,7 +46,7 @@
 - type: entity
   parent: N14SeedBase
   id: N14FloraWildBlackberryClippingSeed
-  name: wild blackberry clipping
+  name: "обрізка дикої ожини"
   components:
     - type: Seed
       seedId: N14WildBlackberry
@@ -56,7 +56,7 @@
 - type: entity
   parent: N14SeedBase
   id: N14FloraWildBrocFlowerClippingSeed
-  name: broc flower clipping
+  name: "обрізка квітів брока"
   components:
     - type: Seed
       seedId: N14WildBroc
@@ -66,7 +66,7 @@
 - type: entity
   parent: N14SeedBase
   id: N14FloraWildBuffaloGourdClippingSeed
-  name: wild buffalo gourd clipping
+  name: "вирізка гарбуза дикого буйвола"
   components:
     - type: Seed
       seedId: N14WildBuffaloGourd
@@ -76,7 +76,7 @@
 - type: entity
   parent: N14SeedBase
   id: N14FloraWildCabbageClippingSeed
-  name: wild cabbage clipping
+  name: "обрізка дикої капусти"
   components:
     - type: Seed
       seedId: N14WildCabbage
@@ -86,7 +86,7 @@
 - type: entity
   parent: N14SeedBase
   id: N14FloraWildCarrotClippingSeed
-  name: wild carrot clipping
+  name: "обрізка дикої моркви"
   components:
     - type: Seed
       seedId: N14WildCarrot
@@ -96,7 +96,7 @@
 - type: entity
   parent: N14SeedBase
   id: N14FloraWildCoyoteTobaccoClippingSeed
-  name: coyote tobacco clipping
+  name: "вирізка тютюну койот"
   components:
     - type: Seed
       seedId: N14CoyoteTobacco
@@ -106,7 +106,7 @@
 - type: entity
   parent: N14SeedBase
   id: N14FloraDaturaClippingSeed
-  name: datura flower clipping
+  name: "обрізка квітів датури"
   components:
     - type: Seed
       seedId: N14Datura
@@ -116,7 +116,7 @@
 - type: entity
   parent: N14SeedBase
   id: N14FloraWildJalapenoClippingSeed
-  name: wild jalapeno clipping
+  name: "вирізка дикого халапеньо"
   components:
     - type: Seed
       seedId: N14WildJalapeno
@@ -126,7 +126,7 @@
 - type: entity
   parent: N14SeedBase
   id: N14FloraWildMaizeClippingSeed
-  name: wild maize clipping
+  name: "обрізка дикої кукурудзи"
   components:
     - type: Seed
       seedId: N14WildMaize
@@ -136,7 +136,7 @@
 - type: entity
   parent: N14SeedBase
   id: N14FloraWildHoneyMesquiteClippingSeed
-  name: wild mesquite clipping
+  name: "обрізка дикого мескиту"
   components:
     - type: Seed
       seedId: N14WildMesquite
@@ -146,7 +146,7 @@
 - type: entity
   parent: N14SeedBase
   id: N14FloraWildMutfruitClippingSeed
-  name: wild mutfuit clipping
+  name: "вирізка з дикого мутфуту"
   components:
     - type: Seed
       seedId: N14WildMutfruit
@@ -156,7 +156,7 @@
 - type: entity
   parent: N14SeedBase
   id: N14FloraWildNettleClippingSeed
-  name: wild nettle clipping
+  name: "обрізка дикої кропиви"
   components:
     - type: Seed
       seedId: N14WildNettle
@@ -166,7 +166,7 @@
 - type: entity
   parent: N14SeedBase
   id: N14FloraWildOnionClippingSeed
-  name: wild onion clipping
+  name: "обрізка дикої цибулі"
   components:
     - type: Seed
       seedId: N14WildOnion
@@ -176,7 +176,7 @@
 - type: entity
   parent: N14SeedBase
   id: N14FloraWildPinyonClippingSeed
-  name: wild pinyon clipping
+  name: "обрізка дикого півонії"
   components:
     - type: Seed
       seedId: N14WildPinyon
@@ -186,7 +186,7 @@
 - type: entity
   parent: N14SeedBase
   id: N14FloraWildPricklyPearClippingSeed
-  name: wild prickly pear clipping
+  name: "обрізка дикої опунції"
   components:
     - type: Seed
       seedId: N14WildPricklyPear
@@ -196,7 +196,7 @@
 - type: entity
   parent: N14SeedBase
   id: N14FloraWildRazorgrainClippingSeed
-  name: wild razorgrain clipping
+  name: "обрізка дикого розторопші"
   components:
     - type: Seed
       seedId: N14WildRazorgrain
@@ -206,7 +206,7 @@
 - type: entity
   parent: N14SeedBase
   id: N14FloraWildStarlightBerryClippingSeed
-  name: wild starlight clipping
+  name: "вирізка з дикого зоряного світла"
   components:
     - type: Seed
       seedId: N14Starlight
@@ -216,7 +216,7 @@
 - type: entity
   parent: N14SeedBase
   id: N14FloraWildTarberryClippingSeed
-  name: wild tarberry clipping
+  name: "обрізка дикої смородини"
   components:
     - type: Seed
       seedId: N14Tarberry
@@ -226,7 +226,7 @@
 - type: entity
   parent: N14SeedBase
   id: N14FloraWildTatoClippingSeed
-  name: wild tato clipping
+  name: "обрізка дикої картоплі"
   components:
     - type: Seed
       seedId: N14WildTato
@@ -236,7 +236,7 @@
 - type: entity
   parent: N14SeedBase
   id: N14FloraWildWhiteHorsenettleClippingSeed
-  name: white horsenettle clipping
+  name: "обрізка білого хвоща"
   components:
     - type: Seed
       seedId: N14WildWhiteHorsenettle
@@ -246,7 +246,7 @@
 - type: entity
   parent: N14SeedBase
   id: N14FloraWildXanderRootClippingSeed
-  name: wild xander root clipping
+  name: "живцювання кореня дикого ксандера"
   components:
     - type: Seed
       seedId: N14WildXander

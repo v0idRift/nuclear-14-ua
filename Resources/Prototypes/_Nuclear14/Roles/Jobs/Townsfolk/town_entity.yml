@@ -1,7 +1,7 @@
 - type: entity
   parent: MobHuman
   id: N14MobHumanTownsperson
-  name: Townsperson
+  name: "Городянин"
   components:
     - type: RandomHumanoidAppearance
       randomizeName: true
@@ -14,7 +14,7 @@
 - type: entity
   parent: MobHuman
   id: N14MobHumanTownShopkeeper
-  name: TownShopkeeper
+  name: "TownShopkeeper"
   components:
     - type: RandomHumanoidAppearance
       randomizeName: true
@@ -27,7 +27,7 @@
 - type: entity
   parent: MobHuman
   id: N14MobHumanTownSheriff
-  name: TownSheriff
+  name: "TownSheriff"
   components:
     - type: RandomHumanoidAppearance
       randomizeName: true
@@ -40,7 +40,7 @@
 - type: entity
   parent: MobHuman
   id: N14MobHumanTownMechanic
-  name: TownMechanic
+  name: "TownMechanic"
   components:
     - type: RandomHumanoidAppearance
       randomizeName: true
@@ -53,7 +53,7 @@
 - type: entity
   parent: MobHuman
   id: N14MobHumanTownMayor
-  name: TownMayor
+  name: "Міський голова"
   components:
     - type: RandomHumanoidAppearance
       randomizeName: true
@@ -66,7 +66,7 @@
 - type: entity
   parent: MobHuman
   id: N14MobHumanTownDoctor
-  name: TownDoctor
+  name: "TownDoctor"
   components:
     - type: RandomHumanoidAppearance
       randomizeName: true
@@ -79,7 +79,7 @@
 - type: entity
   parent: MobHuman
   id: N14MobHumanTownDeputy
-  name: TownDeputy
+  name: "Міський депутат"
   components:
     - type: RandomHumanoidAppearance
       randomizeName: true

@@ -2,10 +2,10 @@
 
 #MARK: Bloatfly
 - type: entity
-  name: bloatfly
+  name: "муха-пухляк"
   parent: N14MobBaseHostileInsect
   id: N14MobBloatfly
-  description: A mutated floating bug with an infectious bite.
+  description: "Мутований плавучий жук з інфекційним укусом."
   components:
   - type: HTN
     rootTask:
@@ -62,10 +62,10 @@
 
 #MARK: Giant Ant
 - type: entity
-  name: giant ant
+  name: "гігантська мураха"
   parent: N14MobBaseHostileInsect
   id: N14MobGiantAnt
-  description: It's an ant...but giant. Watch for the nippers.
+  description: "Це мураха... але гігантська. Обережно, кусачки."
   components:
   - type: Sprite
     drawdepth: Mobs
@@ -123,10 +123,10 @@
 
 #MARK: Giant Fire Ant
 - type: entity
-  name: giant fire ant
+  name: "гігантська вогняна мураха"
   parent: N14MobGiantAnt
   id: N14MobGiantFireAnt
-  description: It's an ant...but giant and red. Watch for the nippers.
+  description: "Це мураха... але гігантська і червона. Обережно, кусачки."
   components:
   - type: Sprite
     drawdepth: Mobs
@@ -166,10 +166,10 @@
 
 #MARK: Radroach
 - type: entity
-  name: radroach
+  name: "тарган"
   id: N14MobRadroach
   parent: N14MobBaseHostileInsect
-  description: stinking roaches survived the bombs.
+  description: "смердючі таргани пережили бомби."
   components:
   - type: Sprite
     drawdepth: Mobs
@@ -222,10 +222,10 @@
 
 #MARK: Radscorpion
 - type: entity
-  name: radscorpion
+  name: "рак скорпіон"
   parent: N14MobBaseHostileInsect
   id: N14MobRadscorpion
-  description: It's a giant radscorpion! Stingy sting.
+  description: "Це гігантський ракоскорпіон! Скупе жало."
   components:
   - type: Sprite
     drawdepth: Mobs
@@ -307,10 +307,10 @@
 
 #MARK: Barkscorpion
 - type: entity
-  name: barkscorpion
+  name: "короїд"
   parent: N14MobRadscorpion
   id: N14MobRadscorpionBark
-  description: It's a giant bark radscorpion! Stingy sting.
+  description: "Це гігантський короїд! Скупе жало."
   components:
   - type: Sprite
     drawdepth: Mobs
@@ -335,10 +335,10 @@
 #MARK: Cazador
 #SCARY FUCKERS, RUUUN!!
 - type: entity
-  name: cazador
+  name: "cazador"
   parent: N14MobBaseHostileInsect
   id: N14MobCazador
-  description: Pure hate with a stinger and wings.
+  description: "Чиста ненависть з жалом і крилами."
   components:
   - type: MovementSpeedModifier
     baseWalkSpeed : 2

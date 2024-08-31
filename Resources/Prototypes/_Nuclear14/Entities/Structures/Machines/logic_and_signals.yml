@@ -1,7 +1,7 @@
 - type: entity
   id: N14SignalButton # because indestructible, use the SS14 one for destructible
-  name: signal button
-  description: It's a button for activating something.
+  name: "сигнальна кнопка"
+  description: "Це кнопка для активації чогось."
   placement:
     mode: SnapgridCenter
     snap:
@@ -57,8 +57,8 @@
 - type: entity
   parent: N14SignalButton
   id: N14DoorVaultControls
-  name: Vault Door Controls
-  description: A handy control panel for opening the vault door.
+  name: "Управління дверима сховища"
+  description: "Зручний пульт управління для відкривання дверей сховища."
   components:
   - type: AutoLinkTransmitter
     channel: Vaultdoor

@@ -1,7 +1,7 @@
 - type: entity
   id: N14FloorWaterDirtyEntity
-  name: water
-  description: A real thirst quencher.
+  name: "вода"
+  description: "Справжній напій для втамування спраги."
   placement:
     mode: SnapgridCenter
     snap:
@@ -59,8 +59,8 @@
 - type: entity
   parent: N14FloorWaterDirtyEntity
   id: N14FloorWaterSewerDeep
-  name: deep sewer water
-  description: Years of built up feces and urine and other fluids.
+  name: "глибока каналізаційна вода"
+  description: "Роками накопичуються кал, сеча та інші рідини."
   components:
   - type: Sprite
     sprite: _Nuclear14/Tiles/ms13/Water.rsi
@@ -73,8 +73,8 @@
 - type: entity
   parent: N14FloorWaterSewerDeep
   id: N14FloorWaterSewerMedium
-  name: sewer water
-  description: Years of built up feces and urine and other fluids.
+  name: "каналізаційна вода"
+  description: "Роками накопичуються кал, сеча та інші рідини."
   components:
   - type: Sprite
     layers:
@@ -86,8 +86,8 @@
 - type: entity
   parent: N14FloorWaterSewerDeep
   id: N14FloorWaterSewerShallow
-  name: shallow sewer water
-  description: Years of built up feces and urine and other fluids.
+  name: "неглибока каналізаційна вода"
+  description: "Роками накопичуються кал, сеча та інші рідини."
   components:
   - type: Sprite
     layers:
@@ -99,8 +99,8 @@
 - type: entity
   parent: N14FloorWaterSewerDeep
   id: N14FloorWaterDeep
-  name: deep water
-  description: Endless Abyss.
+  name: "глибока вода"
+  description: "Нескінченна безодня."
   components:
   - type: Sprite
     layers:
@@ -112,8 +112,8 @@
 - type: entity
   parent: N14FloorWaterSewerDeep
   id: N14FloorWaterMedium
-  name: water
-  description: Unclean water, likely highly irradiated.
+  name: "вода"
+  description: "Нечиста вода, ймовірно, сильно опромінена."
   components:
   - type: Sprite
     layers:
@@ -125,8 +125,8 @@
 - type: entity
   parent: N14FloorWaterSewerDeep
   id: N14FloorWaterShallow
-  name: shallow water
-  description: Unclean water, likely highly irradiated
+  name: "мілководдя"
+  description: "Нечиста вода, ймовірно, сильно опромінена"
   components:
   - type: Sprite
     layers:

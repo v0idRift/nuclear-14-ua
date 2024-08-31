@@ -65,9 +65,9 @@
 - type: entity
   parent: ClothingHeadBase
   id: N14ClothingHeadHatBaseHelmetMetal
-  name: metal helmet
+  name: "металевий шолом"
   abstract: true
-  description: A helmet offering some ballistic protection.
+  description: "Шолом, що забезпечує певний балістичний захист."
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/Head/FalloutHelmets/ncrhelmet.rsi
@@ -86,9 +86,9 @@
 - type: entity
   parent: ClothingHeadBase
   id: N14ClothingHeadHatBaseHelmetMK2
-  name: MK2 metal helmet
+  name: "Металевий шолом MK2"
   abstract: true
-  description: A helmet offering advanced protection.
+  description: "Шолом з підвищеним рівнем захисту."
   components:
   - type: Armor
     modifiers:
@@ -101,8 +101,8 @@
 - type: entity
   parent: N14ClothingHeadHatBaseHelmetMetal
   id: N14ClothingHeadHatCombatHelmet
-  name: combat helmet
-  description: A ballistic helmet of the pre-war era.
+  name: "бойовий шолом"
+  description: "Балістичний шолом довоєнної доби."
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/Head/FalloutHelmets/combathelmet.rsi
@@ -112,8 +112,8 @@
 - type: entity
   parent: N14ClothingHeadHatBaseHelmetMK2
   id: N14ClothingHeadHatCombatHelmetMK2
-  name: combat helmet MK2
-  description: An advanced ballistic helmet of the pre-war era.
+  name: "бойовий шолом MK2"
+  description: "Вдосконалений балістичний шолом довоєнної доби."
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/Head/FalloutHelmets/combathelmetmk2.rsi
@@ -123,8 +123,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: N14ClothingHeadHatBaseHelmetmarine
-  name: marine helmet
-  description: An extremely advanced combat helmet.
+  name: "морський шолом"
+  description: "Надсучасний бойовий шолом."
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/Head/FalloutHelmets/marinehelmet.rsi
@@ -142,8 +142,8 @@
 - type: entity
   parent: N14ClothingHeadHatBaseHelmetMetal
   id: N14ClothingHeadHatBrotherhoodHelmet
-  name: Brotherhood of Steel helmet
-  description: A helmet worn by members of the Brotherhood of Steel.
+  name: "Шолом \"Сталеве братство"
+  description: "Шолом, який носили члени \"Сталевого братства\"."
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/Head/FalloutHelmets/brotherhoodhelmet.rsi
@@ -153,8 +153,8 @@
 - type: entity
   parent: N14ClothingHeadHatBaseHelmetMetal
   id: N14ClothingHeadHatBrotherhoodHelmetKnight
-  name: Brotherhood of Steel knight helmet
-  description: A helmet worn by knights of the Brotherhood of Steel.
+  name: "Лицарський шолом \"Сталеве братство"
+  description: "Шолом, який носили лицарі Сталевого братства."
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/Head/FalloutHelmets/brotherhoodhelmetknight.rsi
@@ -164,8 +164,8 @@
 - type: entity
   parent: N14ClothingHeadHatBaseHelmetMetal
   id: N14ClothingHeadHatBrotherhoodHelmetCaptain
-  name: Brotherhood of Steel captain helmet
-  description: A helmet worn by captains of the Brotherhood of Steel.
+  name: "Каска капітана \"Сталевого братства"
+  description: "Шолом, який носили капітани Сталевого братства."
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/Head/FalloutHelmets/brotherhoodhelmetcaptain.rsi
@@ -175,8 +175,8 @@
 - type: entity
   parent: N14ClothingHeadHatBaseHelmetMK2
   id: N14ClothingHeadHatBrotherhoodHelmetPaladin
-  name: Brotherhood of Steel paladin helmet
-  description: A helmet worn by paladins of the Brotherhood of Steel.
+  name: "Шолом паладина \"Сталевого братства"
+  description: "Шолом, який носили паладини Сталевого братства."
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/Head/FalloutHelmets/brotherhoodhelmetsenior.rsi
@@ -186,8 +186,8 @@
 - type: entity
   parent: N14ClothingHeadHatBaseHelmetMetal
   id: N14ClothingHeadHatBrotherhoodHelmetOutcast
-  name: Brotherhood of Steel outcast helmet
-  description: A helmet worn by outcasts of the Brotherhood of Steel.
+  name: "Шолом вигнанця \"Сталевого братства"
+  description: "Шолом, який носили вигнанці Сталевого братства."
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/Head/FalloutHelmets/brotherhoodhelmetoutcast.rsi
@@ -197,8 +197,8 @@
 - type: entity
   parent: N14ClothingHeadHatBaseHelmetMK2
   id: N14ClothingHeadHatBrotherhoodHelmetMK2
-  name: Brotherhood of Steel helmet MK2
-  description: An advanced Brotherhood of Steel combat helmet.
+  name: "Шолом Братства сталі MK2"
+  description: "Вдосконалений бойовий шолом \"Сталевого братства\"."
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/Head/FalloutHelmets/brotherhoodhelmetmk2.rsi
@@ -209,8 +209,8 @@
 - type: entity
   parent: N14ClothingHeadHatBaseHelmetMetal
   id: N14ClothingHeadHatEnclaveHelmet
-  name: Enclave helmet
-  description: A combat helmet worn by Enclave soldiers.
+  name: "Шолом-анклав"
+  description: "Бойова каска, яку носили солдати Анклаву."
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/Head/FalloutHelmets/enclavehelmet.rsi
@@ -220,8 +220,8 @@
 - type: entity
   parent: N14ClothingHeadHatBaseHelmetMetal
   id: N14ClothingHeadHatEnclaveHelmetHood
-  name: Enclave hooded helmet
-  description: A combat helmet worn by Enclave soldiers. This one has a hood covering it.
+  name: "Шолом з капюшоном Enclave"
+  description: "Бойовий шолом, який носили солдати Анклаву. Цей шолом має капюшон."
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/Head/FalloutHelmets/enclavehelmethood.rsi
@@ -231,8 +231,8 @@
 - type: entity
   parent: N14ClothingHeadHatBaseHelmetMK2
   id: N14ClothingHeadHatEnclaveHelmetMarine
-  name: Enclave marine helmet
-  description: A marine helmet worn by elite Enclave soldiers.
+  name: "Морський шолом Enclave"
+  description: "Морський шолом, який носили елітні солдати Анклаву."
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/Head/FalloutHelmets/enclavehelmetmarine.rsi
@@ -243,14 +243,14 @@
 - type: entity
   parent: N14ClothingHeadHatBaseHelmetMetal
   id: N14ClothingHeadHatNCRHelmetMetal
-  name: NCR metal helmet
-  description: A rounded NCR helmet offering some protection.
+  name: "Металевий шолом NCR"
+  description: "Закруглений шолом NCR забезпечує певний захист."
 
 - type: entity
   parent: N14ClothingHeadHatBaseHelmetMetal
   id: N14ClothingHeadHatNCRHelmetMetalMilitaryPolice
-  name: NCR metal helmet
-  description: A rounded NCR helmet offering some protection worn by military police.
+  name: "Металевий шолом NCR"
+  description: "Округлий шолом NCR, що забезпечує певний захист, який носять військові поліцейські."
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/Head/FalloutHelmets/ncrhelmetmp.rsi
@@ -260,8 +260,8 @@
 - type: entity
   parent: N14ClothingHeadHatBaseHelmetMetal
   id: N14ClothingHeadHatNCRHelmetMetalMedic
-  name: NCR medic helmet
-  description: A rounded NCR helmet offering some protection worn by field medics.
+  name: "Медичний шолом NCR"
+  description: "Округлий шолом NCR, що забезпечує певний захист, який носять польові медики."
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/Head/FalloutHelmets/ncrhelmetmedic.rsi
@@ -271,8 +271,8 @@
 - type: entity
   parent: N14ClothingHeadHatBaseHelmetMK2
   id: N14ClothingHeadHatRangerHelmet
-  name: ranger combat helmet
-  description: A helmet offering advanced protection, this one is commonly used by rangers.
+  name: "бойовий шолом рейнджера"
+  description: "Цей шолом, що забезпечує покращений захист, зазвичай використовується рейнджерами."
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/Head/FalloutHelmets/rangerhelmet.rsi
@@ -285,8 +285,8 @@
 - type: entity
   parent: N14ClothingHeadHatBaseHelmetmarine
   id: N14ClothingHeadHatRangerHelmetOld
-  name: old ranger combat helmet
-  description: An old combat helmet, out of use around the time of the war.
+  name: "старий бойовий шолом рейнджера"
+  description: "Стара бойова каска, знята з озброєння ще під час війни."
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/Head/FalloutHelmets/rangerhelmetold.rsi
@@ -299,8 +299,8 @@
 - type: entity
   parent: N14ClothingHeadHatBaseHelmetmarine
   id: N14ClothingHeadHatRangerHelmetDesert
-  name: desert ranger combat helmet
-  description: An U.S Marine Corps helmet, used by the legendary Desert Rangers.
+  name: "бойовий шолом рейнджера пустелі"
+  description: "Шолом морської піхоти США, який використовували легендарні \"Рейнджери пустелі\"."
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/Head/FalloutHelmets/rangerhelmetdesert.rsi
@@ -313,8 +313,8 @@
 - type: entity
   parent: N14ClothingHeadHatBaseHelmetmarine
   id: N14ClothingHeadHatRangerHelmetPrice
-  name: spider ranger combat helmet
-  description: A customised riot helmet reminiscient of the more advanced riot helmets found in the Divide, sporting purple lenses over the traditional red or green and a pair of red fangs painted over the respirator. The back of the helmet has a the face of an albino spider painted over it.
+  name: "бойовий шолом рейнджера павука"
+  description: "Кастомний шолом, що нагадує більш просунуті шоломи, знайдені в \"Розколі\", з фіолетовими лінзами замість традиційних червоних або зелених, і парою червоних іклів, намальованих над респіратором. На потилиці шолома намальоване обличчя павука-альбіноса."
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/Head/FalloutHelmets/rangerhelmetprice.rsi
@@ -327,8 +327,8 @@
 - type: entity
   parent: N14ClothingHeadHatBaseHelmetmarine
   id: N14ClothingHeadHatRangerHelmetElite
-  name: elite ranger combat helmet
-  description: An old combat helmet seen in the divide, repurposed for higher ranking Rangers.
+  name: "елітний бойовий шолом рейнджера"
+  description: "Стара бойова каска, яку ми бачили на лінії розмежування, переобладнана для рейнджерів вищого рангу."
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/Head/FalloutHelmets/rangerhelmetelite.rsi
@@ -348,8 +348,8 @@
 - type: entity
   parent: N14ClothingHeadHatBaseHelmetmarine
   id: N14ClothingHeadHatRangerHelmetEliteOld
-  name: worn elite ranger combat helmet
-  description: An old combat helmet seen in the divide, repurposed for higher ranking Rangers.
+  name: "носив елітний бойовий шолом рейнджера"
+  description: "Стара бойова каска, яку ми бачили на лінії розмежування, переобладнана для рейнджерів вищого рангу."
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/Head/FalloutHelmets/rangerhelmetelite.rsi
@@ -369,8 +369,8 @@
 - type: entity
   parent: N14ClothingHeadHatBaseHelmetmarine
   id: N14ClothingHeadHatRangerHelmetFox
-  name: fox ranger combat helmet
-  description: A customized and well-worn helmet of riot gear with parts of the suit reinforced with leather armor and slain Centurion armor pieces by the wearer. A sniper's veil is wrapped around the neck.
+  name: "бойовий шолом рейнджера fox"
+  description: "Індивідуальний і добре поношений шолом із захисного спорядження з частинами костюму, посиленими шкіряною бронею та вбитими частинами броні \"Центуріон\", що були використані власником. Снайперська вуаль обмотана навколо шиї."
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/Head/FalloutHelmets/rangerhelmetfox.rsi
@@ -383,8 +383,8 @@
 - type: entity
   parent: N14ClothingHeadHatBaseHelmetmarine
   id: N14ClothingHeadHatRangerHelmetModif
-  name: modified ranger combat helmet
-  description: A thicker than average helmet worn by rangers out in the field.
+  name: "модифікований бойовий шолом рейнджера"
+  description: "Товстіший за середній шолом, який носять рейнджери в польових умовах."
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/Head/FalloutHelmets/rangerhelmetmodif.rsi
@@ -405,8 +405,8 @@
 - type: entity
   parent: N14ClothingHeadHatBaseHelmetMetal
   id: N14ClothingHeadHatBrotherhoodMidwestHelmet
-  name: midwest BoS helmet
-  description: A modified combat helmet to addapt to the midwest brotherhood needs.
+  name: "середньозахідний шолом BoS"
+  description: "Модифікований бойовий шолом, адаптований до потреб середньозахідного братства."
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/Head/FalloutHelmets/midwest-brotherhood/boshelmet.rsi
@@ -416,8 +416,8 @@
 - type: entity
   parent: N14ClothingHeadHatBaseHelmetMK2
   id: N14ClothingHeadHatBrotherhoodMidwestHelmetVeteran
-  name: veteran midwest BoS helmet
-  description: A modified combat helmet with extra metal plates to cover the face.
+  name: "ветеранський шолом середнього заходу BoS"
+  description: "Модифікований бойовий шолом з додатковими металевими пластинами, що закривають обличчя."
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/Head/FalloutHelmets/midwest-brotherhood/boshelmetV2.rsi
@@ -427,8 +427,8 @@
 - type: entity
   parent: ClothingHeadHatLightBase
   id: ClothingHeadBrotherhoodScribeHeadset
-  name: scribe headset
-  description: A simple headset with a built-in flashlight.
+  name: "гарнітура для писаря"
+  description: "Проста гарнітура з вбудованим ліхтариком."
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/Head/FalloutHelmets/midwest-brotherhood/bosheadset.rsi

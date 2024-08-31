@@ -2,8 +2,8 @@
 - type: entity
   id: N14VendingMachineStorageBase # This is for vending machines that are storage and not actual vending machines.
   parent: BaseMachinePowered
-  name: vending machine
-  description: Just add capitalism!
+  name: "торговий автомат"
+  description: "Просто додайте капіталізм!"
   abstract: true
   components:
   - type: AmbientOnPowered
@@ -91,8 +91,8 @@
 - type: entity
   parent: VendingMachine
   id: N14VendingMachineNukaCola
-  name: Nuka-Cola machine
-  description: A Pre-War vending machine that dispenses Nuka-Cola Corporation branded beverages. 
+  name: "Автомат Nuka-Cola"
+  description: "Довоєнний торговий автомат, що видає фірмові напої корпорації \"Нука-Кола\"."
   suffix: vendor, normal
   components:
   - type: VendingMachine
@@ -128,8 +128,8 @@
 - type: entity
   parent: N14VendingMachineNukaCola
   id: N14VendingMachineNukaColaGenerous
-  name: Nuka-Cola machine
-  description: A Pre-War vending machine that dispenses Nuka-Cola Corporation branded beverages. 
+  name: "Автомат Nuka-Cola"
+  description: "Довоєнний торговий автомат, що видає фірмові напої корпорації \"Нука-Кола\"."
   suffix: vendor, generous
   components:
   - type: VendingMachine
@@ -148,9 +148,9 @@
 - type: entity
   parent: N14VendingMachineNukaCola
   id: N14VendingMachineNukaColaIrradiated
-  name: Nuka-Cola machine
+  name: "Автомат Nuka-Cola"
   suffix: vendor, irradiated
-  description: A Pre-War vending machine that dispenses Nuka-Cola Corporation branded beverages. 
+  description: "Довоєнний торговий автомат, що видає фірмові напої корпорації \"Нука-Кола\"."
   components:
   - type: VendingMachine
     pack: NukaRadInventory
@@ -161,8 +161,8 @@
   parent: N14VendingMachineStorageBase
   id: N14VendingMachineNukaColaNew
   suffix: storage, empty
-  name: Nuka-Cola machine
-  description: A Pre-War vending machine that dispenses Nuka-Cola Corporation branded beverages. 
+  name: "Автомат Nuka-Cola"
+  description: "Довоєнний торговий автомат, що видає фірмові напої корпорації \"Нука-Кола\"."
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Machines/VendingMachines/nukacola.rsi
@@ -229,8 +229,8 @@
   parent: N14VendingMachineStorageBase
   id: N14VendingMachineVim
   suffix: storage, empty
-  name: Vim machine
-  description: A Pre-War vending machine that dispenses Vim branded beverages. 
+  name: "Машина Vim"
+  description: "Довоєнний торговий автомат, що видає напої під брендом Vim."
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Machines/VendingMachines/vim.rsi
@@ -288,8 +288,8 @@
   parent: BaseStructure
   id: N14VendingMachineCigarette
   suffix: storage, empty
-  name: cigarette vendor
-  description: A Pre-War vending machine that dispenses cigarettes. 
+  name: "продавець сигарет"
+  description: "Довоєнний торговий автомат, який видає сигарети."
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Machines/VendingMachines/vendors.rsi
@@ -339,8 +339,8 @@
   parent: N14VendingMachineCigarette
   id: N14VendingMachineCigaretteFilledRepublic
   suffix: storage, republics
-  name: Republics cig vendor
-  description: A pre-war cigarette vendor that's been filled with Republic cigarette packs.
+  name: "Продавець сигарет Republics"
+  description: "Довоєнний тютюновий кіоск, наповнений пачками сигарет \"Республіка\"."
   components:
   - type: StorageFill
     contents:
