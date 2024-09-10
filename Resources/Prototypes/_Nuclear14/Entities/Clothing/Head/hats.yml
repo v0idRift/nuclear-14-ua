@@ -4,8 +4,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: N14ClothingHeadHatBaseball
-  name: pre-war baseball cap
-  description: A pre-war baseball cap.
+  name: "довоєнна бейсболка"
+  description: "Довоєнна бейсболка."
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/Head/FalloutHats/baseballcap.rsi
@@ -21,8 +21,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: N14ClothingHeadHatDeputy
-  name: deputy hat
-  description: When the sheriff cant do the job alone, that's when a deputy comes in.
+  name: "депутатський капелюх"
+  description: "Коли шериф не може впоратися з роботою самотужки, на допомогу приходить його заступник."
   components:
   - type: Sprite
     sprite: Clothing/Head/Hats/cowboyhatbountyhunter.rsi
@@ -34,8 +34,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: N14ClothingHeadHatSheriff
-  name: sheriff hat
-  description: The law personified in a hat.
+  name: "капелюх шерифа"
+  description: "Закон, уособлений у капелюсі."
   components:
   - type: Sprite
     sprite: Clothing/Head/Hats/hoshat.rsi
@@ -48,8 +48,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: N14ClothingHeadHatCowboyGrey
-  name: grey cowboy hat
-  description: A rustic grey cowboy hat. A trusted companion for any gunslinger.
+  name: "сірий ковбойський капелюх"
+  description: "Сільський сірий ковбойський капелюх. Надійний супутник будь-якого стрільця."
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/Head/FalloutHats/rangerhatgrey.rsi
@@ -61,8 +61,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: N14ClothingHeadHatCowboyGreyBanded
-  name: banded cowboy hat
-  description: A rugged grey cowboy hat with some brass casings banded around itself.
+  name: "стрічковий ковбойський капелюх"
+  description: "Міцний сірий ковбойський капелюх з кількома латунними накладками."
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/Head/FalloutHats/rangerhatgreybanded.rsi
@@ -74,8 +74,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: N14ClothingHeadHatCowboyBrown
-  name: brown cowboy hat
-  description: A rustic brown cowboy hat, A trusted companion for any gunslinger.
+  name: "коричневий ковбойський капелюх"
+  description: "Сільський коричневий ковбойський капелюх, надійний супутник будь-якого стрільця."
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/Head/FalloutHats/rangerhatcowboy.rsi
@@ -87,8 +87,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: N14ClothingHeadHatHeadscarf
-  name: cloth headscarf
-  description: A headscarf made from scraps of cloth
+  name: "тканинна хустка"
+  description: "Хустка з клаптиків тканини"
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/Head/FalloutHats/headscarf.rsi
@@ -101,8 +101,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: N14ClothingHeadHatArmyBeret
-  name: army beret
-  description: A pre-war army beret. This ones black.
+  name: "армійський берет"
+  description: "Довоєнний армійський берет. Цей чорний."
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/Head/FalloutHats/armyberet.rsi
@@ -114,8 +114,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: N14ClothingHeadHatArmyBeretAirborne
-  name: army airborne beret
-  description: A pre-war army beret. Crimson with a winged insignia.
+  name: "армійський десантний берет"
+  description: "Довоєнний армійський берет. Малиновий з крилатою емблемою."
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/Head/FalloutHats/armyberetairborne.rsi
@@ -127,8 +127,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: N14ClothingHeadHatArmyBeretRanger
-  name: army ranger beret
-  description: A pre-war army beret. Brown with a ranger insignia.
+  name: "берет армійського рейнджера"
+  description: "Довоєнний армійський берет. Коричневий з емблемою рейнджера."
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/Head/FalloutHats/armyberetranger.rsi
@@ -140,8 +140,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: N14ClothingHeadHatArmyBeretSpecial
-  name: army special forces beret
-  description: A pre-war army beret. This ones green.
+  name: "берет армійського спецназу"
+  description: "Довоєнний армійський берет. Цей зелений."
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/Head/FalloutHats/armyberetspecial.rsi
@@ -153,8 +153,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: N14ClothingHeadHatArmyCap
-  name: army cap
-  description: A pre-war army cap. Slightly worn.
+  name: "армійський кашкет"
+  description: "Довоєнний армійський кашкет. Злегка потерта."
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/Head/FalloutHats/armycap.rsi
@@ -167,8 +167,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: N14ClothingHeadHatBandit
-  name: bandit hat
-  description: Uh oh. He's coming this way.
+  name: "бандитський капелюх"
+  description: "Ох, ох. Він йде сюди."
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/Head/FalloutHats/bandit.rsi
@@ -181,8 +181,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: N14ClothingHeadHatBrotherhoodCap
-  name: brotherhood of steel cap
-  description: A cap worn by members of the Brotherhood of Steel.
+  name: "братство сталевого ковпака"
+  description: "Кашкет, який носили члени \"Сталевого братства\"."
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/Head/FalloutHats/brotherhoodcap.rsi
@@ -194,8 +194,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: N14ClothingHeadHatBrotherhoodBeret
-  name: brotherhood of steel beret
-  description: A beret worn by members of the Brotherhood of Steel.
+  name: "братство сталевого берета"
+  description: "Берет, який носили члени \"Сталевого братства\"."
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/Head/FalloutHats/brotherhoodberet.rsi
@@ -207,8 +207,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: N14ClothingHeadHatBrotherhoodFieldCap
-  name: brotherhood of steel field cap
-  description: A cap worn by paladins of the midwest BoS during their field duties.
+  name: "братство сталевого польового кашкета"
+  description: "Шапка, яку носили паладини середнього заходу БС під час польових завдань."
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/Head/FalloutHats/brotherhoodhat.rsi
@@ -221,8 +221,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: N14ClothingHeadHatEnclaveIntel
-  name: enclave recon beret
-  description: A sharp looking beret worn by Enclave intelligence officers.
+  name: "берет розвідника анклаву"
+  description: "Гострий на вигляд берет, який носили офіцери розвідки Анклаву."
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/Head/FalloutHats/enclaveintel.rsi
@@ -234,8 +234,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: N14ClothingHeadHatEnclaveOfficer
-  name: enclave officer cap
-  description: A decorative looking cap worn by Enclave officers.
+  name: "кашкет офіцера анклаву"
+  description: "Декоративний кашкет, який носили офіцери Анклаву."
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/Head/FalloutHats/enclaveofficer.rsi
@@ -247,8 +247,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: N14ClothingHeadHatEnclavePeacekeeperCap
-  name: enclave peacekeeper cap
-  description: A military cap worn by Enclave Peacekeepers.
+  name: "кашкет миротворця анклаву"
+  description: "Військовий кашкет, який носили миротворці анклаву."
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/Head/FalloutHats/enclavepeacekeeper.rsi
@@ -260,8 +260,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: N14ClothingHeadHatEnclaveScientist
-  name: enclave scientist beret
-  description: A blue beret worn by Enclave Scientists.
+  name: "берет вченого анклаву"
+  description: "Синій берет, який носили науковці Анклаву."
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/Head/FalloutHats/enclavescience.rsi
@@ -274,8 +274,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: N14ClothingHeadHatNCRBeretOfficer
-  name: NCR Officer beret
-  description: An olive beret worn by NCR Officers.
+  name: "Офіцерський берет NCR"
+  description: "Оливковий берет, який носили офіцери НКР."
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/Head/FalloutHats/ncrberetofficer.rsi
@@ -287,8 +287,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: N14ClothingHeadHatNCRBeretMedic
-  name: NCR medic beret
-  description: An white beret worn by NCR medics.
+  name: "Медичний берет NCR"
+  description: "Білий берет, який носять медики NCR."
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/Head/FalloutHats/ncrberetmedical.rsi
@@ -300,8 +300,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: N14ClothingHeadHatNCRBeretRecon
-  name: NCR recon beret
-  description: An crimson beret worn by NCR recon units.
+  name: "Розвідувальний берет NCR"
+  description: "Малиновий берет, який носили розвідувальні підрозділи НКР."
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/Head/FalloutHats/ncrberetrecon.rsi
@@ -313,8 +313,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: N14ClothingHeadHatNCRBeretQM
-  name: NCR quartermaster beret
-  description: An black beret worn by NCR quartermasters.
+  name: "Берет інтенданта NCR"
+  description: "Чорний берет, який носили інтенданти NCR."
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/Head/FalloutHats/ncrberetsapper.rsi
@@ -326,8 +326,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: N14ClothingHeadHatNCRSidecap
-  name: NCR sidecap
-  description: A sidecap often worn by junior NCR soldiers.
+  name: "Бічна кришка NCR"
+  description: "Боковий ковпак, який часто носили молодші солдати NCR."
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/Head/FalloutHats/ncrsidecap.rsi
@@ -339,8 +339,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: N14ClothingHeadHatRanger
-  name: ranger hat
-  description: A cool cowbow hat made by the NCR for the rangers.
+  name: "капелюх рейнджера"
+  description: "Крутий капелюх з коров'ячого хвоста, зроблений NCR для рейнджерів."
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/Head/FalloutHats/rangerhat.rsi
@@ -353,8 +353,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: N14ClothingHeadHatRangerB
-  name: ranger hat
-  description: An NCR ranger hat, standard issue amongst all but the most elite rangers.
+  name: "капелюх рейнджера"
+  description: "Капелюх рейнджера NCR, стандартна екіпіровка для всіх рейнджерів, окрім найелітніших."
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/Head/FalloutHats/rangerhatB.rsi
@@ -368,8 +368,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: N14ClothingHeadHatTribalOutcastHood
-  name: tribal outcast hood
-  description: Shame! A hood worn by outcasts.
+  name: "капюшон племінного вигнанця"
+  description: "Ганьба! Капюшон, який носять вигнанці."
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/Head/FalloutHats/tribalhoodoutcast.rsi
@@ -387,8 +387,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: N14ClothingHeadHatVaultRiot
-  name: vault riot helmet
-  description: The only thing standing between your face and a knife.
+  name: "шолом для захисту сховища"
+  description: "Єдине, що стоїть між твоїм обличчям і ножем."
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/Head/FalloutHats/vaultriot.rsi
@@ -407,8 +407,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: N14ClothingHeadHatAnimal
-  name: canine hat
-  description: Made from a dog-like creature, this wild looking hat will keep your head warm and safe.
+  name: "собача шапка"
+  description: "Ця дика шапка, зроблена з тварини, схожої на собаку, буде тримати вашу голову в теплі та безпеці."
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/Head/FalloutHats/animalhat.rsi
@@ -427,8 +427,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: N14ClothingHeadHatNightstalker
-  name: nightstalker hat
-  description: A warm and resistent hat made from the head of a nightstalker.
+  name: "капелюх нічного сталкера"
+  description: "Тепла і міцна шапка, зроблена з голови нічного переслідувача."
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/Head/FalloutHats/nightstalkerhat.rsi

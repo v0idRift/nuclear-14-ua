@@ -5,8 +5,8 @@
 - type: entity
   parent: N14WindowSmoothBaseAirtight
   id: N14WindowSlanted
-  description: A window for seeing into places. 
-  name: window
+  description: "Вікно, через яке можна зазирнути в інші місця."
+  name: "вікно"
   components:
   - type: DamageVisuals
     thresholds: [4, 8, 12]
@@ -63,8 +63,8 @@
     
 - type: entity
   id: N14WindowSlantedBroken
-  name: broken glass
-  description: Broken remains of a window.
+  name: "бите скло"
+  description: "Розбиті залишки вікна."
   noSpawn: true
   placement:
     mode: SnapgridCenter

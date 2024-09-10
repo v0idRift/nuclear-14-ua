@@ -2,8 +2,8 @@
   abstract: true
   parent: BaseStructure
   id: N14HalfWallBase
-  name: basewall
-  description: A nice half wall for a window or boundary.
+  name: "цоколь"
+  description: "Гарна півстіна для вікна або кордону."
   suffix: half
   placement:
     mode: SnapgridCenter
@@ -53,7 +53,7 @@
 - type: entity
   parent: N14HalfWallBase
   id: N14WallBrickHalf
-  name: brick wall
+  name: "цегляна стіна"
   suffix: half
   components:
   - type: Sprite
@@ -70,7 +70,7 @@
 - type: entity
   parent: N14HalfWallBase
   id: N14WallBunkerHalf
-  name: bunker wall
+  name: "стіна бункера"
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Walls/ms13/half/bunker.rsi
@@ -86,7 +86,7 @@
 - type: entity
   parent: N14HalfWallBase
   id: N14WallConcreteHalf
-  name: concrete wall
+  name: "бетонна стіна"
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Walls/ms13/half/concrete.rsi
@@ -102,7 +102,7 @@
 - type: entity
   parent: N14HalfWallBase
   id: N14WallDungeonHalf
-  name: dungeon wall
+  name: "стіна підземелля"
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Walls/ms13/half/dungeon.rsi
@@ -118,7 +118,7 @@
 - type: entity
   parent: N14HalfWallBase
   id: N14WallMetalHalf
-  name: metal wall
+  name: "металева стіна"
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Walls/ms13/half/metal.rsi
@@ -134,7 +134,7 @@
 - type: entity
   parent: N14HalfWallBase
   id: N14WallPrisonHalf
-  name: prison wall
+  name: "тюремний мур"
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Walls/ms13/half/prison.rsi
@@ -150,7 +150,7 @@
 - type: entity
   parent: N14HalfWallBase
   id: N14WallMetalReinforcedHalf
-  name: reinforced metal wall
+  name: "армована металева стіна"
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Walls/ms13/half/rmetal.rsi
@@ -167,7 +167,7 @@
 - type: entity
   parent: N14HalfWallBase
   id: N14WallRockHalf
-  name: rock wall
+  name: "скельна стіна"
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Walls/ms13/half/rock.rsi
@@ -183,7 +183,7 @@
 - type: entity
   parent: N14HalfWallBase
   id: N14WallMetalReinforcedRustHalf
-  name: rust reinforced metal wall
+  name: "армована іржею металева стіна"
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Walls/ms13/half/rrmetal.rsi
@@ -199,7 +199,7 @@
 - type: entity
   parent: N14HalfWallBase
   id: N14WallMetalRustHalf
-  name: rust metal wall
+  name: "іржава металева стіна"
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Walls/ms13/half/rustmetal.rsi
@@ -215,7 +215,7 @@
 - type: entity
   parent: N14HalfWallBase
   id: N14WallScrapHalf
-  name: scrap wall
+  name: "лом стіни"
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Walls/ms13/half/scrap.rsi
@@ -231,7 +231,7 @@
 - type: entity
   parent: N14HalfWallBase
   id: N14WallSewerHalf
-  name: sewer wall
+  name: "стіна каналізації"
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Walls/ms13/half/sewer.rsi
@@ -247,7 +247,7 @@
 - type: entity
   parent: N14HalfWallBase
   id: N14WallSidingHalf
-  name: siding wall
+  name: "стіна з сайдингу"
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Walls/ms13/half/siding.rsi
@@ -263,7 +263,7 @@
 - type: entity
   parent: N14HalfWallBase
   id: N14WallVaultHalf
-  name: vault wall
+  name: "стіна склепіння"
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Walls/ms13/half/vault.rsi
@@ -279,7 +279,7 @@
 - type: entity
   parent: N14HalfWallBase
   id: N14WallWoodHalf
-  name: wood wall
+  name: "дерев'яна стіна"
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Walls/ms13/half/wood.rsi

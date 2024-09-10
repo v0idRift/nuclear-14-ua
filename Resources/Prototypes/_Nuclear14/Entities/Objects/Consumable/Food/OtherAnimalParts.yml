@@ -2,8 +2,8 @@
 - type: entity
   parent: BaseItem
   id: N14FoodFireantNectar
-  name: fire ant nectar
-  description: A small crystal of fire ant nectar.
+  name: "нектар вогняної мурашки"
+  description: "Маленький кристалик вогняного мурашиного нектару."
   components:
   - type: Sprite
     sprite: Objects/Consumable/Food/ingredients.rsi # N14TODO:SPRITE: Change me
@@ -32,8 +32,8 @@
 - type: entity
   parent: N14FoodFireantNectar
   id: N14FoodBloatflyAcidSac
-  name: bloatfly acid sac
-  description: A small acid sac from a bloatfly.
+  name: "кислотний мішок мухи-пухирця"
+  description: "Невеличкий кислотний мішечок від мухи-пухирця."
   components:
   - type: Sprite
     sprite: Objects/Consumable/Food/ingredients.rsi # N14TODO:SPRITE: Change me
@@ -54,8 +54,8 @@
 - type: entity
   parent: N14FoodFireantNectar
   id: N14FoodCazadorAcidSac
-  name: cazador acid sac
-  description: A small acid sac from a cazador.
+  name: "кислотний мішок казадора"
+  description: "Невеликий мішечок з кислотою від казадора."
   components:
   - type: Sprite
     sprite: Objects/Consumable/Food/ingredients.rsi # N14TODO:SPRITE: Change me

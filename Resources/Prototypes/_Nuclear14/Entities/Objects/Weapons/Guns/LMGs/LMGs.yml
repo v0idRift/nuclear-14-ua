@@ -1,8 +1,8 @@
 - type: entity
-  name: automatic rifle
+  name: "автоматична гвинтівка"
   parent: BaseWeaponRifle
   id: N14WeaponAutoRifle
-  description: A high caliber, long, and heavy machine gun of the pre-war, chambered in the powerful 308.
+  description: "Висококаліберний, довгий і важкий кулемет довоєнного зразка під потужний патрон 308."
   components:
   - type: Clothing
     sprite: _Nuclear14/Objects/Weapons/Guns/LMGs/autorifle.rsi
@@ -61,10 +61,10 @@
     backStrength: 6
 
 - type: entity
-  name: light machine gun
+  name: "легкий кулемет"
   parent: BaseWeaponRifle
   id: N14WeaponLMG
-  description: A light machine gun designed by the NCR for their heavy troops, chambered in 5.56.
+  description: "Легкий кулемет, розроблений NCR для своїх важких військ, калібру 5.56."
   components:
   - type: Clothing
     sprite: _Nuclear14/Objects/Weapons/Guns/LMGs/lmg.rsi
