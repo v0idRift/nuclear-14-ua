@@ -8,7 +8,7 @@
   icon: "JobIconPassenger"
   supervisors: job-supervisors-townsfolk
   accessGroups:
-  - Oasis
+  - Townie
   special:
   - !type:AddComponentSpecial
     components:
@@ -24,6 +24,7 @@
     shoes: N14ClothingShoesBrown
     id: N14IDBadgeTownMayor
     pocket1: RadioHandheld
+    belt: N14WalletLottaCash
   innerClothingSkirt: N14ClothingUniformJumpskirtFalloutBlack
   satchel: N14ClothingBackpackSatchelMayorFilled
   duffelbag: N14ClothingBackpackDuffelMayorFilled
