@@ -290,3 +290,7 @@ reagent-name-cazador-venom = отрута казадора
 reagent-desc-cazador-venom = Отрута казадора. Швидка смерть майже гарантована.
 
 # Хімікати
+reagent-name-water-salt = солона вода
+reagent-desc-water-salt = солона вода. Може, прокип'ятити?
+
+## Сода
