@@ -1,8 +1,8 @@
 - type: entity
-  name: "9-мм револьвер"
+  name: 9mm revolver
   parent: BaseWeaponRevolver
   id: N14WeaponRevolver9mm
-  description: "Невеликий, компактний шестизарядний пістолет. Використовує 9-міліметрові набої."
+  description: A small, compact six shooter. Uses 9mm ammo.
   components:
   - type: Sprite
     sprite: _Nuclear14/Objects/Weapons/Guns/Revolvers/small_revolver.rsi
@@ -19,10 +19,10 @@
       collection: N14Revolver9mmGunshot
 
 - type: entity
-  name: "10-мм револьвер"
+  name: 10mm revolver
   parent: BaseWeaponRevolver
   id: N14WeaponRevolver10mm
-  description: "Перший прототип напівавтоматичного 10-мм пістолета, що використовує 10-мм набої."
+  description: The first prototype for the semiauto 10mm pistol, Uses 10mm ammo.
   components:
   - type: Sprite
     sprite: _Nuclear14/Objects/Weapons/Guns/Revolvers/10mmrevolver.rsi
@@ -39,10 +39,10 @@
       collection: N14Revolver10mmGunshot
 
 - type: entity
-  name: "револьвер магнум"
+  name: magnum revolver
   parent: BaseWeaponRevolver
   id: N14WeaponRevolverMagnun
-  description: "Велика залізяка. Використовує набої 44-го калібру."
+  description: The Big Iron. Uses .44 magnum ammo.
   components:
   - type: Sprite
     sprite: _Nuclear14/Objects/Weapons/Guns/Revolvers/magnum.rsi
@@ -59,10 +59,10 @@
       collection: N14RevolverMagnunGunshot
 
 - type: entity
-  name: "капітан Револьвер"
+  name: captain revolver
   parent: BaseWeaponRevolver
   id: N14WeaponRevolverCaptainMagnun
-  description: "Справжній борець за свободу носить свій прапор скрізь, навіть на пістолеті. Використовує набої .44 магнум."
+  description: A true freedom fighter carries his flag everywhere, even on his gun. Uses .44 magnum ammo.
   components:
   - type: Gun
     fireRate: 2
@@ -81,10 +81,10 @@
     proto: N14Cartridge44Magnum
 
 - type: entity
-  name: "мисливський револьвер"
+  name: hunting revolver
   parent: BaseWeaponRevolver
   id: N14WeaponHunterRevolver
-  description: "Важкий револьвер з довгим стволом, призначений для полювання на дрібних тварин, але також підходить і для людей. Використовує набої .45-70 govt."
+  description: A heavy revolver with a long cannon designed to hunt small animals, but it also works for people. Uses .45-70 gov't ammo.
   components:
   - type: Gun
     soundGunshot:
@@ -101,10 +101,10 @@
     proto: N14Cartridge45-70
 
 - type: entity
-  name: "дикий шепіт"
+  name: wild whisper
   parent: BaseWeaponRevolver
   id: N14Weaponwildwhisper
-  description: "Кажуть, що після того, як порушника спокою застрелили з цього револьвера, йому шепочуть на вухо якісь слова, ніхто не знає, про що йдеться, але відповідь завжди \"невинний\". Використовує набої .45-70 govt."
+  description: Its said that after a troublemaker gets shot down with this revolver some words are whispered to their ears, no one knows what the question is, but the answer is always "innocent". Uses .45-70 gov't ammo.
   components:
   - type: Gun
     fireRate: 2
@@ -123,10 +123,10 @@
     proto: N14Cartridge45-70
 
 - type: entity
-  name: "рейнджерська секвойя"
+  name: ranger sequoia
   parent: BaseWeaponRevolver
   id: N14WeaponRangerSequoia
-  description: "20 років страждань заради гарного, прославленого револьвера - воно того варте. Використовує державні набої 45-70 калібру."
+  description: 20 years of suffering for a good looking glorified revolver, worth it. Uses .45-70 gov't ammo.
   components:
   - type: Sprite
     sprite: _Nuclear14/Objects/Weapons/Guns/Revolvers/ranger_sequoia.rsi

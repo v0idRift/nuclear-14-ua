@@ -1,10 +1,10 @@
 # See basemob.yml for parent entities
 #MARK: Molerat
 - type: entity
-  name: "molerat"
+  name: molerat
   id: N14MobMolerat
   parent: N14MobBaseHostile
-  description: "Частково кріт, частково щур, повністю шкідник. Обережно, зуби."
+  description: Part mole, part rat, full pest. Watch out for the teeth.
   components:
   - type: Sprite
     drawdepth: Mobs
@@ -66,10 +66,10 @@
 
 #MARK: Feral Dog
 - type: entity
-  name: "здичавілий собака"
+  name: feral dog
   id: N14MobDogFeral
   parent: N14MobBaseHostile
-  description: "Скажений пес. Не дуже дружелюбний друг."
+  description: A rabid dog. Not so friendly friend.
   components:
   - type: Sprite
     drawdepth: Mobs
@@ -131,10 +131,10 @@
 
 #MARK: Gecko
 - type: entity
-  name: "гекон"
+  name: gecko
   id: N14MobGecko
   parent: N14MobBaseHostileScaley
-  description: "Схожий на динозавра. Укус гірший за кігті."
+  description: Looks like a dinosaur. The bite is worse than the claws.
   components:
   - type: Sprite
     drawdepth: Mobs
@@ -203,10 +203,10 @@
 
 #MARK: Nightstalker Cub
 - type: entity
-  name: "дитинча нічного сталкера"
+  name: nightstalker cub
   id: N14MobNightstalkerCub
   parent: N14MobBaseHostile
-  description: "Це койот? Чому у нього брязкальце... Цей маленький"
+  description: Is it a coyote? Why does it have a rattler...This one is small
   components:
   - type: Sprite
     drawdepth: Mobs
@@ -288,10 +288,10 @@
 
 #MARK: Nightstalker
 - type: entity
-  name: "нічний переслідувач"
+  name: nightstalker
   id: N14MobNightstalker
   parent: N14MobBaseHostile
-  description: "Це койот? Чому у нього брязкальце..."
+  description: Is it a coyote? Why does it have a rattler...
   components:
   - type: Sprite
     drawdepth: Mobs
@@ -397,10 +397,10 @@
 
 #MARK: Yao Guai
 - type: entity
-  name: "яо Гуай"
+  name: yao guai
   id: N14MobYaoguai
   parent: N14MobBaseHostile
-  description: "Розлючений ведмідь... але потворніший, зліший і з більшими кігтями."
+  description: An angry bear...but uglier, meaner and with bigger claws.
   components:
   - type: Sprite
     drawdepth: Mobs
@@ -472,10 +472,10 @@
 #MARK:Scaley Animals
 #MARK: Deathclaw
 - type: entity
-  name: "кіготь смерті"
+  name: deathclaw
   id: N14MobDeathclaw
   parent: N14MobBaseHostileScaley
-  description: "Поглянь на ці кігті."
+  description: Look at those claws.
   components:
   - type: Sprite
     drawdepth: Mobs
@@ -549,7 +549,7 @@
   - type: GhostRole
     prob: 0.5
     makeSentient: true
-    name: "кіготь смерті"
+    name: deathclaw
     description: |
       You're a smart killer. Use tactics to kill everyone.
   - type: NoSlip
@@ -573,10 +573,10 @@
 
 #MARK: Albino Deathclaw
 - type: entity
-  name: "кіготь смерті альбіноса"
+  name: albino deathclaw
   id: N14MobDeathclawAlbino
   parent: N14MobDeathclaw
-  description: "Поглянь на ці білі кігті."
+  description: Look at those white claws.
   components:
   - type: Sprite
     drawdepth: Mobs
@@ -611,10 +611,10 @@
         Base: dead
 
 - type: entity
-  name: "покоївка з кігтями смерті"
+  name: deathclaw maid
   id: N14MobDeathclawMaid
   parent: N14MobDeathclaw
-  description: "Вони одягли на неї одяг покоївки?!"
+  description: They put maid outfit on that thing?!
   components:
   - type: Sprite
     drawdepth: Mobs
@@ -635,10 +635,10 @@
 
 #MARK: Metal Deathclaw
 - type: entity
-  name: "метал deathclaw"
+  name: metal deathclaw
   id: N14MobDeathclawMetal
   parent: N14MobDeathclawAlbino
-  description: "Вони поставили броню на цю штуку?!"
+  description: They put armor on that thing?!
   components:
   - type: Sprite
     drawdepth: Mobs
@@ -662,10 +662,10 @@
 #MARK: Passive Animals
 #MARK: Brahmin
 - type: entity
-  name: "брамін"
+  name: brahmin
   parent: MobCow
   id: N14MobBrahmin
-  description: "Му? Цікаво, чи можу я це з'їсти."
+  description: Moo? Wonder if I can eat that.
   components:
   - type: Sprite
     drawdepth: Mobs
@@ -727,10 +727,10 @@
 
 #MARK: Bighorner
 - type: entity
-  name: "бігхорнер"
+  name: bighorner
   parent: N14MobBrahmin
   id: N14MobBighorner
-  description: "Пухнастий, але з рогами."
+  description: Fluffy but with horns.
   components:
   - type: Sprite
     drawdepth: Mobs
@@ -790,10 +790,10 @@
 
 #MARK: Radstag
 - type: entity
-  name: "радстаг"
+  name: radstag
   parent: N14MobBrahmin
   id: N14MobRadstag
-  description: "Олень? Раааад!"
+  description: Stag? Raaaad
   components:
   - type: Sprite
     drawdepth: Mobs
@@ -855,8 +855,8 @@
 - type: entity
   parent: MobChicken
   id: N14MobChicken
-  name: "курча"
-  description: "Ку-ку."
+  name: chicken
+  description: Cluck cluck.
   components:
   - type: Sprite
     drawdepth: Mobs
@@ -897,8 +897,8 @@
 - type: entity
   parent: N14MobBaseSimple
   id: N14MobIguana
-  name: "ігуана"
-  description: "Маленька зелена їжа... тобто друг."
+  name: iguana
+  description: Little green food...I mean friend.
   components:
   - type: Sprite
     drawdepth: Mobs

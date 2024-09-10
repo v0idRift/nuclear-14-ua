@@ -2,8 +2,8 @@
   abstract: true
   parent: BasePDA
   id: N14BasePipboy
-  name: "Pip-boy 2000"
-  description: "персональний інформаційний процесор PIPBoy 2000 від RobCo Industries. Що за складна назва."
+  name: Pip-boy 2000
+  description: a RobCo Industries PIPBoy 2000 Personal Information Processor. What a mouthful.
   components:
   - type: Sprite
     sprite: _Nuclear14/Objects/Misc/pipboy.rsi
@@ -68,7 +68,7 @@
 - type: entity
   parent: N14BasePipboy
   id: N14VaultChefPDA
-  description: "Покриваємо жиром і борошном."
+  description: Covered in grease and flour.
   suffix: Vault, Chef
   components:
   - type: Pda
@@ -79,8 +79,8 @@
 - type: entity
   parent: N14BasePipboy
   id: N14VaultBotanistPDA
-  name: "ботанік КПК"
-  description: "Має землистий аромат."
+  name: botanist PDA
+  description: Has an earthy scent.
   suffix: Vault, Botanist
   components:
   - type: Pda

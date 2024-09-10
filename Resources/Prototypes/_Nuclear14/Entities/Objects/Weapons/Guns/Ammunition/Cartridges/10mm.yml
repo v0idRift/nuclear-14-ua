@@ -1,6 +1,6 @@
 - type: entity
   id: N14CartridgePistol10
-  name: "патрон (10 мм)"
+  name: cartridge (10mm)
   parent: BaseCartridgePistol
   components:
   - type: CartridgeAmmo

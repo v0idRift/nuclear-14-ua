@@ -26,7 +26,7 @@
 - type: entity
   parent: BaseMagazineBox50
   id: MagazineBox50
-  name: "ящик для боєприпасів (.50 протипіхотний)"
+  name: ammunition box (.50 anti materiel)
   components:
   - type: BallisticAmmoProvider
     proto: N14Cartridge50
@@ -38,7 +38,7 @@
 - type: entity
   parent: BaseMagazineBox50
   id: MagazineBox50HEIAP
-  name: "ящик для боєприпасів (.50 протипіхотний)"
+  name: ammunition box (.50 anti materiel)
   suffix: HEIAP
   components:
   - type: BallisticAmmoProvider
