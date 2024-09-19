@@ -1,7 +1,7 @@
-interaction-verb-invalid = Some requirements for this verb are not met. You cannot use it right now.
-interaction-verb-cooldown = This verb is on cooldown. Wait {TOSTRING($seconds, "F1")} seconds.
-interaction-verb-too-strong = You are too strong to use this verb.
-interaction-verb-too-weak = You are too weak to use this verb.
-interaction-verb-invalid-target = You cannot use this verb on that target.
-interaction-verb-no-hands = You have no usable hands.
-interaction-verb-cannot-reach = You cannot reach there.
+interaction-verb-invalid = Деякі вимоги до цього дієслова не виконуються. Ви не можете використовувати його зараз.
+interaction-verb-cooldown = Це дієслово перебуває у стані охолодження. Зачекайте {TOSTRING($seconds, "F1")} секунд.
+interaction-verb-too-strong = Ви занадто сильні, щоб використовувати це дієслово.
+interaction-verb-too-weak = Ви занадто слабкі, щоб використовувати це дієслово.
+interaction-verb-invalid-target = Ви не можете використовувати це дієслово з цією метою.
+interaction-verb-no-hands = У тебе немає рук.
+interaction-verb-cannot-reach = Ти не можеш туди дістатися.

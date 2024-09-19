@@ -1,13 +1,13 @@
-command-glimmershow-description = Show the current glimmer level.
-command-glimmershow-help = No arguments.
+command-glimmershow-description = Показати поточний рівень мерехтіння.
+command-glimmershow-help = Немає аргументів.
 
-command-glimmerset-description = Set glimmer to a number.
-command-glimmerset-help = glimmerset (integer)
+command-glimmerset-description = Встановіть мерехтіння на число.
+command-glimmerset-help = glimmerset (ціле число)
 
-command-lspsionic-description = List psionics.
-command-lspsionic-help = No arguments.
+command-lspsionic-description = Список псіоніків.
+command-lspsionic-help = Немає аргументів.
 
-command-addpsionicpower-description = Initialize an entity as Psionic with a given PowerPrototype
-command-addpsionicpower-help = Argument 1 must be an EntityUid, and argument 2 must be a string matching the PrototypeId of a PsionicPower.
-addpsionicpower-args-one-error = Argument 1 must be an EntityUid
-addpsionicpower-args-two-error = Argument 2 must match the PrototypeId of a PsionicPower
+command-addpsionicpower-description = Ініціалізувати сутність як Psionic із заданим PowerPrototype
+command-addpsionicpower-help = Аргумент 1 має бути EntityUid, а аргумент 2 має бути рядком, що відповідає PrototypeId PsionicPower.
+addpsionicpower-args-one-error = Аргумент 1 має бути EntityUid
+addpsionicpower-args-two-error = Аргумент 2 повинен збігатися з PrototypeId PsionicPower

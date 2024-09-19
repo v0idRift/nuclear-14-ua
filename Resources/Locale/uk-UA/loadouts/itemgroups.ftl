@@ -1,66 +1,66 @@
 # This list is sorted Mixed Alphabetically with Generic always being placed first, Departments alphabetically, Items Groups Alphabetically, and Jobs Alphabetically after all Department items
 # Generic - Clothing
-character-item-group-LoadoutEyes = Civilian Eyewear
-character-item-group-LoadoutGloves = Civilian Gloves
-character-item-group-LoadoutHead = Civilian Headgear
-character-item-group-LoadoutMasks = Civilian Masks
-character-item-group-LoadoutNeck = Civilian Neckwear
-character-item-group-LoadoutOuter = Civilian Outerwear
-character-item-group-LoadoutShoes = Civilian Shoes
-character-item-group-LoadoutUniformsCivilian = Civilian Uniforms
+character-item-group-LoadoutEyes = Цивільні окуляри
+character-item-group-LoadoutGloves = Цивільні рукавички
+character-item-group-LoadoutHead = Цивільні головні убори
+character-item-group-LoadoutMasks = Цивільні маски
+character-item-group-LoadoutNeck = Цивільні шийні хустки
+character-item-group-LoadoutOuter = Цивільний верхній одяг
+character-item-group-LoadoutShoes = Цивільне взуття
+character-item-group-LoadoutUniformsCivilian = Цивільна форма
 
-# Generic - Items
-character-item-group-LoadoutAirTank = Emergency Air Tanks
-character-item-group-LoadoutLighters = Lighters
-character-item-group-LoadoutInstrumentsAny = Musical Instruments (Non-Musician)
-character-item-group-LoadoutSmokes = Smokeables
-character-item-group-LoadoutBoxKits = Survival Kits
-character-item-group-LoadoutWritables = Writing Tools
+# Загальні - Предмети
+character-item-group-LoadoutAirTank = Аварійні повітряні резервуари
+character-item-group-LoadoutLighters = Запальнички
+character-item-group-LoadoutInstrumentsAny = Музичні інструменти (не музикант)
+character-item-group-LoadoutSmokes = Тютюнові вироби
+character-item-group-LoadoutBoxKits = Набори для виживання
+character-item-group-LoadoutWritables = Інструменти для написання текстів
 
-# Cargo
-character-item-group-LoadoutNeckCargo = Logistics Neckwear
-character-item-group-LoadoutOuterCargo = Logistics Outerwear
-character-item-group-LoadoutShoesCargo = Logistics Shoes
+# Вантаж
+character-item-group-LoadoutNeckCargo = Логістичні комірці
+character-item-group-LoadoutOuterCargo = Логістика Верхній одяг
+character-item-group-LoadoutShoesCargo = Логістичне взуття
 
-# Engineering
-character-item-group-LoadoutEyesEngineering = Engineering Eyewear
-character-item-group-LoadoutHeadEngineering = Engineering Headgear
-character-item-group-LoadoutOuterEngineering = Engineering Outerwear
-character-item-group-LoadoutUniformsEngineering = Engineering Uniforms
+# Інжиніринг
+character-item-group-LoadoutEyesEngineering = Інженерні окуляри
+character-item-group-LoadoutHeadEngineering = Інженерні головні убори
+character-item-group-LoadoutOuterEngineering = Інженерний верхній одяг
+character-item-group-LoadoutUniformsEngineering = Інженерна форма
 
-# Medical
-character-item-group-LoadoutEyesMedical = Medical Eyewear
-character-item-group-LoadoutGlovesMedical = Medical Gloves
-character-item-group-LoadoutHeadMedical = Medical Headgear
-character-item-group-LoadoutNeckMedical = Medical Neckwear
-character-item-group-LoadoutOuterMedical = Medical Outerwear
-character-item-group-LoadoutShoesMedical = Medical Shoes
-character-item-group-LoadoutUniformsMedical = Medical Uniforms
+# Медична
+character-item-group-LoadoutEyesMedical = Медичні окуляри
+character-item-group-LoadoutGlovesMedical = Рукавички медичні
+character-item-group-LoadoutHeadMedical = Медичні головні убори
+character-item-group-LoadoutNeckMedical = Медичні комірці
+character-item-group-LoadoutOuterMedical = Медичний верхній одяг
+character-item-group-LoadoutShoesMedical = Медичне взуття
+character-item-group-LoadoutUniformsMedical = Медична уніформа
 
-# Security
-character-item-group-LoadoutBeltSecurity = Security Belts
-character-item-group-LoadoutEquipmentSecurity = Security Equipment
-character-item-group-LoadoutEyesSecurity = Security Eyewear
-character-item-group-LoadoutGlovesSecurity = Security Gloves
-character-item-group-LoadoutHeadSecurity = Security Headgear
-character-item-group-LoadoutMaskSecurity = Security Masks
-character-item-group-LoadoutNeckSecurity = Security Neckwear
-character-item-group-LoadoutOuterSecurity = Security Outerwear
-character-item-group-LoadoutShoesSecurity = Security Shoes
-character-item-group-LoadoutUniformsSecurity = Security Uniforms
+# Охорона
+character-item-group-LoadoutBeltSecurity = Пояси безпеки
+character-item-group-LoadoutEquipmentSecurity = Охоронне обладнання
+character-item-group-LoadoutEyesSecurity = Захисні окуляри
+character-item-group-LoadoutGlovesSecurity = Захисні рукавички
+character-item-group-LoadoutHeadSecurity = Головні убори безпеки
+character-item-group-LoadoutMaskSecurity = Маски безпеки
+character-item-group-LoadoutNeckSecurity = Охоронні шийні хустки
+character-item-group-LoadoutOuterSecurity = Захисний верхній одяг
+character-item-group-LoadoutShoesSecurity = Взуття для захисту
+character-item-group-LoadoutUniformsSecurity = Охоронна уніформа
 
-# Service
-character-item-group-LoadoutEquipmentService = Service Equipment
-character-item-group-LoadoutMaskService = Service Masks
-character-item-group-LoadoutNeckService = Service Neckwear
-character-item-group-LoadoutOuterService = Service Outerwear
-character-item-group-LoadoutShoesService = Service Shoes
-character-item-group-LoadoutUniformsService = Service Uniforms
+# Служба
+character-item-group-LoadoutEquipmentService = Сервісне обладнання
+character-item-group-LoadoutMaskService = Сервісні маски
+character-item-group-LoadoutNeckService = Службовий формений одяг
+character-item-group-LoadoutOuterService = Службовий верхній одяг
+character-item-group-LoadoutShoesService = Службове взуття
+character-item-group-LoadoutUniformsService = Службова уніформа
 
-# Service - Bartender
-character-item-group-LoadoutBartenderAmmo = Bartender Ammo
-character-item-group-LoadoutBartenderOuterwear = Bartender Outerwear
-character-item-group-LoadoutBartenderWeapon = Bartender Weapon
+# Обслуговування - Бармен
+character-item-group-LoadoutBartenderAmmo = Патрони для бармена
+character-item-group-LoadoutBartenderOuterwear = Верхній одяг для барменів
+character-item-group-LoadoutBartenderWeapon = Зброя бармена
 
-# Service - Musician
-character-item-group-LoadoutMusicianInstruments = Musician Instruments
+# Послуга - Музикант
+character-item-group-LoadoutMusicianInstruments = Музичні інструменти

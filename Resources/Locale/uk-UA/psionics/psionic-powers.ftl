@@ -1,92 +1,77 @@
-generic-power-initialization-feedback = I Awaken.
+generic-power-initialization-feedback = Я прокидаюся.
 
-# Dispel
-dispel-power-description = Dispel summoned entities such as familiars or forcewalls.
-dispel-power-initialization-feedback = The powers of fate are nothing to me. I feel as though I can reach out to the strands around me, and enforce reality upon others.
-dispel-power-metapsionic-feedback = {CAPITALIZE($entity)} is a mighty stone, standing against the currents of fate
+# ♪ Розвіююсь
+dispel-power-description = Розганяйте викликаних сутностей, таких як фамільяри або силові стіни.
+dispel-power-initialization-feedback = Сили долі для мене ніщо. Я відчуваю, що можу простягнути руку до ниток навколо мене і нав'язати реальність іншим.
+dispel-power-metapsionic-feedback = {CAPITALIZE($entity)} - могутній камінь, що стоїть проти течій долі
 
-# Mass Sleep
-mass-sleep-power-description = Put targets in a small area to sleep.
-mass-sleep-initialization-feedback = Reaching out to the minds around me, I have located the words that can send others to the realm of dreams.
-mass-sleep-metapsionic-feedback = {CAPITALIZE($entity)} bears the indelible mark of a dream thief.
+# ♪ Масовий сон
+mass-sleep-power-description = Присипляйте цілі на невеликій території.
+mass-sleep-initialization-feedback = Звертаючись до умів навколо мене, я знайшов слова, які можуть відправити інших у царство мрій.
+mass-sleep-metapsionic-feedback = {CAPITALIZE($entity)} несе на собі незмивний відбиток крадія мрій.
 
-# Mind Swap
-mind-swap-power-description = Swap minds with the target. Either can change back after 20 seconds.
-mind-swap-power-initialization-feedback = I can feel the bonds of soul and body wither at my whim, my vessel may be replaced with that of another.
-mind-swap-power-metapsionic-feedback = {CAPITALIZE($entity)} lacks a strong bond with their vessel, as if their connection with spirit is malleable.
+# ♪ Обмін думками
+mind-swap-power-description = Поміняйтеся тілами з мішенню. Будь-хто може повернутися назад через 20 секунд.
+mind-swap-power-initialization-feedback = Я відчуваю, як за моєю примхою зв'язок душі й тіла слабшає, як моя посудина може бути замінена на іншу.
+mind-swap-power-metapsionic-feedback = {CAPITALIZE($entity)} бракує міцного зв'язку з їхньою посудиною, наче їхній зв'язок з духом є пластичним.
 
 # Noospheric Zap
-noospheric-zap-power-description = Shocks the conciousness of the target and leaves them stunned and stuttering.
-noospheric-zap-power-initialization-feedback =
-    In a single transcendent moment, I find myself standing in a universe tiled by silicon.
-    I wander this place for days, desperate to find some form of life, and yet none greet me.
-    Just before I succumb to thirst, a man of silver finds me. He plunges his arm into my body, and I awake screaming.
-noospheric-zap-power-metapsionic-feedback =
-    I look inside {CAPITALIZE($entity)}'s heart, and there, nestled amidst the flesh, whirs a microscopic sliver of a being composed of pure energy.
-    It turns upon my gaze with malice, its silvery eyes filled with a hatred for the carbon-fleshed.
+noospheric-zap-power-description = Викликає шок у свідомості мішені, залишаючи її приголомшеною і заїкаючоюся.
+noospheric-zap-power-initialization-feedback = В одну трансцендентну мить я опинився у всесвіті, викладеному кремнієвою плиткою.
+    Я блукаю цим місцем кілька днів, відчайдушно намагаючись знайти хоч якусь форму життя, але ніхто не вітається зі мною.
+    Перед тим, як мене починає мучити спрага, мене знаходить срібний чоловік. Він занурює свою руку в моє тіло, і я прокидаюся з криком.
+noospheric-zap-power-metapsionic-feedback = Я дивлюся в серце {CAPITALIZE($entity)}, і там, серед плоті, дзижчить мікроскопічний шматочок істоти, що складається з чистої енергії.
+    Вона злісно дивиться на мене, її сріблясті очі сповнені ненависті до вуглецевої плоті.
 
-# Pyrokinesis
-pyrokinesis-power-description = Light a flammable target on fire.
-pyrokinesis-power-initialization-feedback =
-    There is a brilliant flash of light and heat, and for an instant I feel as though every milimeter of my flesh is turned to vapor.
-    Yet death does not come for me, though I find myself praying it does. The world beyond is both agonizingly hot and bone chilling.
-    For weeks I despair that Gehenna is real, I starve, I cry, I scream, and the pain does not cease. Finally, a man in white, with the face of an ogrous
-    fly beckons me to offer my service. When I reach out to shake his hand, the vision fades, and I find myself standing in the prime materium.
-    I know His name now, it is the Secret of Fire. Merely by thinking of it, I can feel the heat of that place come to my hands.
-pyrokinesis-power-metapsionic-feedback = The Secret of Fire dwells within {CAPITALIZE($entity)}
+# Пірокінез
+pyrokinesis-power-description = Підпаліть легкозаймисту мішень.
+pyrokinesis-power-initialization-feedback = Яскравий спалах світла і тепла, і на мить я відчуваю, що кожен міліметр моєї плоті перетворюється на пару.
+    Але смерть не приходить за мною, хоча я ловлю себе на тому, що молюся, щоб вона прийшла. Потойбічний світ водночас болісно гарячий і пронизує до кісток.
+    Тижнями я відчайдушно вірю, що Геєна існує, голодую, плачу, кричу, а біль не припиняється. Нарешті, чоловік у білому, з обличчям жахливої мухи
+    з обличчям жахливої мухи манить мене, пропонуючи свої послуги. Коли я простягаю руку, щоб потиснути йому руку, видіння зникає, і я бачу, що стою в первинній матерії.
+    Тепер я знаю Його ім'я, це Таємниця Вогню. Лише подумавши про це, я відчуваю, як тепло того місця передається моїм рукам.
+pyrokinesis-power-metapsionic-feedback = Таємниця вогню знаходиться всередині {CAPITALIZE($entity)}
 
-# Metapsionic Pulse
-metapsionic-power-description = Send a mental pulse through the area to see if there are any psychics nearby.
-metapsionic-power-initialization-feedback =
-    The world around me awakens with dreamlight. For a transcendent moment, I can see all that is, all that will ever be.
-    I find myself staggering, my lips parched not for want of water, but to drink of the cup of knowledge. I. Must. Find. It.
-metapsionic-power-metapsionic-feedback = {CAPITALIZE($entity)} gazes back upon thee.
+# Метапсіонічний імпульс
+metapsionic-power-description = Пошліть ментальний імпульс через місцевість, щоб дізнатися, чи є поблизу екстрасенси.
+metapsionic-power-initialization-feedback = Світ навколо мене прокидається у світлі мрій. На якусь трансцендентну мить я бачу все, що є, все, що коли-небудь буде.
+    Я хитаюся, мої губи пересохли не від спраги, а від бажання випити з чаші пізнання. Я. Мушу. Знайти. Його.
+metapsionic-power-metapsionic-feedback = {CAPITALIZE($entity)} зворотно дивиться на тебе
 
 # Psionic Regeneration
-psionic-regeneration-power-description = Push your natural metabolism to the limit to power your body's regenerative capability.
-psionic-regeneration-power-initialization-feedback =
-    I look within myself, finding a wellspring of life.
-psionic-regeneration-power-metapsionic-feedback = {CAPITALIZE($entity)} possesses an overwhelming will to live
+psionic-regeneration-power-description = Підштовхніть свій природний метаболізм до межі, щоб посилити регенеративну здатність організму.
+psionic-regeneration-power-initialization-feedback = Я дивлюся всередину себе, знаходячи джерело життя.
+psionic-regeneration-power-metapsionic-feedback = {CAPITALIZE($entity)} має непереборну волю до життя
 
 # Telegnosis
-telegnosis-power-description = Create a telegnostic projection to remotely observe things.
-telegnosis-power-initialization-feedback =
-    With my next step, I find that I am no longer in the material realm. My feet are trodding upon a bridge of rainbow light.
-    Yet strangly, as I look left and right, I first see a color that is as pink within pink, and to my right, blue within blue.
-    Just as my mind reels from the displeasure of knowing colors that aren't, a creature I can only describe as a
-    dragon with the wings of a peacock swoops down, and consumes my flesh in a single bite. I awaken in an instant, to a world utterly devoid
-    of true, real colors.
-telegnosis-power-metapsionic-feedback = {CAPITALIZE($entity)}'s soul travels across bridges composed of dreamlight
+telegnosis-power-description = Створіть телегностичну проекцію, щоб віддалено спостерігати за речами.
+telegnosis-power-initialization-feedback = Зробивши наступний крок, я помічаю, що більше не перебуваю в матеріальному світі. Мої ноги ступають по мосту з райдужного світла.
+    Але дивним чином, коли я дивлюся ліворуч і праворуч, то спочатку бачу рожевий колір всередині рожевого, а праворуч від себе - синій всередині синього.
+    І коли мій розум занепадає від незадоволення від того, що я бачу кольори, яких не існує, з'являється істота, яку я можу описати лише як
+    дракона з крилами павича, налітає і поглинає мою плоть одним укусом. Я прокидаюся в одну мить, у світі, абсолютно позбавленому
+    справжніх, реальних кольорів.
+telegnosis-power-metapsionic-feedback = Душа {CAPITALIZE($entity)} мандрує мостами, складеними зі світла снів
 
-# Psionic Invisibility
-psionic-invisibility-power-description = Render yourself invisible to any entity that could potentially be psychic. Borgs, animals, and so on are not affected.
-psionic-invisibility-power-initialization-feedback =
-    I suddenly find myself plunged into a world utterly without light, yet I can feel the rays of warmth cast upon me.
-    Pondering this, I arrive at a realization that sight itself is an illusion. I reject it, I deny that light itself is real.
-    When I awaken, I can no longer see even myself.
-psionic-invisibility-power-metapsionic-feedback = {CAPITALIZE($entity)}'s wyrd seeks to hide from thine gaze
+# ♪ Псіонічна невидимість
+psionic-invisibility-power-description = Зробіть себе невидимим для будь-якої істоти, яка потенційно може бути екстрасенсом. На боргів, тварин тощо це не впливає.
+psionic-invisibility-power-initialization-feedback = Раптом я занурююсь у світ без світла, але відчуваю промені тепла, що падають на мене.
+    Роздумуючи над цим, я приходжу до усвідомлення, що сам зір - це ілюзія. Я відкидаю його, я заперечую, що світло саме по собі є реальним.
+    Коли я прокидаюся, то вже не бачу навіть себе.
+psionic-invisibility-power-metapsionic-feedback = {CAPITALIZE($entity)} прагне сховатися від твого погляду
+xenoglossy-power-description = Ви розумієте всі мови.
+xenoglossy-power-initialization-feedback = Я відчуваю емпатію з усім творінням, щоб розуміти його і бути зрозумілим.
+    Бар'єр між думкою і вираженням для мене проникний.
 
-# Xenoglossy
-xenoglossy-power-description = You understand all languages.
-xenoglossy-power-initialization-feedback =
-    I feel an empathy with all creation, so that I may understand them and be understood.
-    The barrier between thought and expressions is permeable to me.
+psionic-language-power-metapsionic-feedback = Ноосфера вільно протікає крізь {CAPITALIZE($entity)}, який, здається, перетравлює її і видає назад непорушно
+psychognomy-power-description = Ви маєте якесь невиразне уявлення про форму джерела телепатичних повідомлень.
+psychognomy-power-initialization-feedback = Я проколола завісу, і я знаю, що я не одна. Більше занепокоєння викликає те, що зроблений мною прокол, схоже, все ще невизначено проникний.
+    Коли енергія проходить крізь перфорацію в ноосфері, я отримую слабкий проблиск матеріального походження.
 
-psionic-language-power-metapsionic-feedback = The noösphere flows freely through {CAPITALIZE($entity)}, who seems to digest it and pass it back out undisturbed.
+# Телепатія
+telepathy-power-description = Ви здатні як надсилати, так і отримувати телепатичні повідомлення.
+telepathy-power-initialization-feedback = Голоси, які я чула все своє життя, починають прояснюватися, але не покидають мене. Раніше це був незв'язний шепіт,
+    тепер мої відчуття розширюються, я усвідомлюю, що вони є частиною спільної галюцинації. За кожним голосом стоїть проблиск розуму.
 
-# Psychognomy
-psychognomy-power-description = You have some vague sense of the form of the source of telepathic messages.
-psychognomy-power-initialization-feedback =
-    I have pierced the veil, and I know I'm not alone. More concerning, the piercing I made seems to be still indefinitely permeable.
-    When energy passes through the perforations in the noösphere, I get a faint glimpse of the material origin.
-
-# Telepathy
-telepathy-power-description = You are capable of both sending and receiving telepathic messages.
-telepathy-power-initialization-feedback =
-    The voices I've heard all my life begin to clear, yet they do not leave me. Before, they were as incoherent whispers,
-    now my senses broaden, I come to a realization that they are part of a communal shared hallucination. Behind every voice is a glimmering sentience.
-
-mindbreaking-feedback = The light of life vanishes from {CAPITALIZE($entity)}'s eyes, leaving behind a husk pretending at sapience
-examine-mindbroken-message =
-    Eyes unblinking, staring deep into the horizon. {CAPITALIZE($entity)} is a sack of meat pretending it has a soul.
-    There is nothing behind its gaze, no evidence there can be found of the divine light of creation.
+mindbreaking-feedback = Світло життя зникає з очей {CAPITALIZE($entity)}, залишаючи по собі лушпиння, що вдає із себе мудрість
+examine-mindbroken-message = Очі не кліпають, дивлячись вглиб горизонту. {CAPITALIZE($entity)} - це мішок м'яса, який вдає, що у нього є душа.
+    За його поглядом немає нічого, там не можна знайти жодного доказу божественного світла творіння.

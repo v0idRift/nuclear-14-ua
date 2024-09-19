@@ -1,9 +1,9 @@
 # goblin tusks
-marking-GoblinTusksBasic = No Tusks
-marking-GoblinTusksBasic-goblin_tusks_none = No Tusks
+marking-GoblinTusksBasic = Без іклів
+marking-GoblinTusksBasic-goblin_tusks_none = Без іклів
 
-marking-GoblinTusksSmall = Small Tusks
-marking-GoblinTusksSmall-goblin_tusks_small = Small Tusks
+marking-GoblinTusksSmall = Малі бивні
+marking-GoblinTusksSmall-goblin_tusks_small = Малі бивні
 
-marking-GoblinTusksBig = Long Tusks
-marking-GoblinTusksBig-goblin_tusks_big = Long Tusks
+marking-GoblinTusksBig = Довгі ікла
+marking-GoblinTusksBig-goblin_tusks_big = Довгі ікла

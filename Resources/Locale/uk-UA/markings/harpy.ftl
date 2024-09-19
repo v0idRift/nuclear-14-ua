@@ -41,7 +41,7 @@ marking-HarpyWingTipsClassic-harpy_wingtip_1 = Головна
 marking-HarpyWingTipsClassic-harpy_wingtip_2 = Кінчики пір'я
 
 marking-HarpyEarsDefault = Пучки пір'я
-marking-HarpyEarsDefault-harpy_ears_default = Чубчикии
+marking-HarpyEarsDefault-harpy_ears_default = Чубчики
 
 marking-HarpyEarsLarge = Великі пучки пір'я
 marking-HarpyEarsLarge-harpy_ears_large = Чубчики

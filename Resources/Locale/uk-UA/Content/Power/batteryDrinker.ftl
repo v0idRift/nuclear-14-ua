@@ -1,2 +1,2 @@
-battery-drinker-verb-drink = Drain
-battery-drinker-empty = {CAPATALIZE(THE($target))} is already empty!
+battery-drinker-verb-drink = Зарядитись
+battery-drinker-empty = {CAPATALIZE(THE($target))} вже пусте!

@@ -1,69 +1,63 @@
-﻿mood-show-effects-start = [font size=12]Mood:[/font]
+mood-show-effects-start = [font size=12]Настрій:[/font]
 
-mood-effect-HungerOverfed = I ate so much, I feel as though I'm about to burst!
-mood-effect-HungerOkay = I am feeling full.
-mood-effect-HungerPeckish = I could go for a snack right about now.
-mood-effect-HungerStarving = I NEED FOOD!
+mood-effect-HungerOverfed = Я з'їла стільки, що, здається, ось-ось лусну!
+mood-effect-HungerOkay = Я відчуваю себе ситим.
+mood-effect-HungerPeckish = Я міг би піти перекусити прямо зараз.
+mood-effect-HungerStarving = МЕНІ ПОТРІБНА ЇЖА!
 
-mood-effect-ThirstOverHydrated = I feel dizzy after drinking too much.
-mood-effect-ThirstOkay = I'm feeling refreshed.
-mood-effect-ThirstThirsty = My lips are a little dry.
-mood-effect-ThirstParched = I NEED WATER!
+mood-effect-ThirstOverHydrated = Я відчуваю запаморочення після того, як вип'ю занадто багато.
+mood-effect-ThirstOkay = Я відчуваю себе бадьорим.
+mood-effect-ThirstThirsty = Губи трохи пересохли.
+mood-effect-ThirstParched = МЕНІ ПОТРІБНА ВОДА!
 
-mood-effect-HealthNoDamage = I'm in no pain.
-mood-effect-HealthLightDamage = It's just a scratch, but it hurts nonetheless
-mood-effect-HealthSevereDamage = The pain is almost unbearable!
-mood-effect-HealthHeavyDamage = Agony gnaws at my soul!
+mood-effect-HealthNoDamage = Мені нічого не болить.
+mood-effect-HealthLightDamage = Це лише подряпина, але все одно боляче
+mood-effect-HealthSevereDamage = Біль майже нестерпний!
+mood-effect-HealthHeavyDamage = Агонія гризе мою душу!
 
-mood-effect-Handcuffed = I am being held captive.
+mood-effect-Handcuffed = Я перебуваю в полоні.
 
-mood-effect-Suffocating = I.. Can't.. Breathe...
+mood-effect-Suffocating = I.. Не можу... дихати.
 
-mood-effect-OnFire = IT BURNS!!!
+mood-effect-OnFire = ГОРИТЬ!!!
 
-mood-effect-Creampied = I was baptized. It tastes like pie.
+mood-effect-Creampied = Я був хрещений. На смак як пиріг.
 
-mood-effect-MobSlipped = I slipped! I should be more careful next time.
+mood-effect-MobSlipped = Я послизнувся! Наступного разу буду обережнішою.
 
-mood-effect-MobVomit = My lunch tasted awful coming back up.
+mood-effect-MobVomit = Мій обід був жахливим на смак, коли я повернувся.
 
-mood-effect-MobLowPressure = My whole body feels like it's going to burst!
+mood-effect-MobLowPressure = Усе тіло ніби розривається!
 
-mood-effect-MobHighPressure = I feel as though I am being crushed on all sides!
+mood-effect-MobHighPressure = Я відчуваю, що мене розчавлюють з усіх боків!
 
-mood-effect-TraitSaturnine = Everything kind of sucks. I hate this job.
+mood-effect-TraitSaturnine = Все таке відстійне. Ненавиджу цю роботу.
 
-mood-effect-Dead = You are dead.
+mood-effect-Dead = Ти мертвий.
 
-mood-effect-BeingHugged = Hugs are nice.
+mood-effect-BeingHugged = Обійми - це добре.
 
-mood-effect-BeingPet = Someone pet me!
+mood-effect-BeingPet = Хто-небудь, погладьте мене!
 
-mood-effect-ArcadePlay = I had fun playing an interesting arcade game.
+mood-effect-ArcadePlay = Я отримав задоволення, граючи в цікаву аркадну гру.
 
-mood-effect-GotBlessed = I was blessed.
+mood-effect-GotBlessed = Я був благословенний.
 
-mood-effect-PetAnimal = Animals are so cute, I can't stop petting them!
+mood-effect-PetAnimal = Тварини такі милі, що я не можу перестати їх гладити!
 
-mood-effect-SavedLife = It's so nice to save someone's life
+mood-effect-SavedLife = Так приємно врятувати чиєсь життя
 
-mood-effect-TraitorFocused = I have a goal, and I will accomplish it no matter what.
+mood-effect-TraitorFocused = У мене є мета, і я її досягну, незважаючи ні на що.
 
-mood-effect-RevolutionFocused = VIVA LA REVOLUTION!!!
+mood-effect-RevolutionFocused = ВІВАТ РЕВОЛЮЦІЯ!!!
 
-mood-effect-CultFocused = Dark Gods, grant me strength!
+mood-effect-CultFocused = Темні боги, дайте мені сили!
 
-mood-effect-TraitSanguine = I have nothing to worry about. I'm sure everything will turn out well in the end!
+mood-effect-TraitSanguine = Мені нема про що хвилюватися. Я впевнена, що в кінцевому підсумку все буде добре!
+mood-effect-LotoTranscendence = Я БАЧУ ВСЕ, ЩО Є, І ЩО БУДЕ, І ЩО КОЛИ-НЕБУДЬ БУЛО. ВСЕ ТВОРІННЯ ВІДКРИЛОСЯ МОЄМУ РОЗУМУ!
+    Я ПОВИНЕН МАТИ ВСЕ ЦЕ. Я ПОВИНЕН ЗНАТИ ВСЕ ЦЕ. ВСЕ. НАЗАВЖДИ!
+mood-effect-LotoEnthrallment = Воно втекло від мене... Серце всього творіння пішло з моєї душі, залишивши по собі порожнечу, яку я не можу витримати.
+    Я боюся, що зів'яну в ніщо, якщо не зможу знову напитися з чаші пізнання.
 
-# Addictions
-mood-effect-LotoTranscendence =
-    I CAN SEE ALL THAT IS, ALL THAT WILL EVER BE, AND ALL THAT EVER WAS. ALL OF CREATION HAS OPENED TO MY MIND!
-    I MUST HAVE IT ALL. I MUST KNOW IT ALL. ALL OF IT. FOREVER!
-mood-effect-LotoEnthrallment =
-    It has fled from me... The heart of all creation is gone from my soul, leaving behind an emptiness I cannot bear.
-    I fear that I will wither to nothing if I cannot drink from the cup of knowledge once again.
-
-mood-effect-NicotineBenefit =
-    I feel as if I have been standing my entire life and I just sat down.
-mood-effect-NicotineWithdrawal =
-    I could really go for a smoke right now.
+mood-effect-NicotineBenefit = Я відчуваю себе так, ніби я стояв усе своє життя і щойно сів.
+mood-effect-NicotineWithdrawal = Я б зараз пішов покурити.
