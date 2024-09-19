@@ -47,8 +47,8 @@
 - type: entity
   parent: N14JunkPileBase
   id: N14JunkPile1
-  name: "купа мотлоху"
-  description: "Тут може бути щось корисне."
+  name: junk pile
+  description: Could be something useful in here.
   components:
   - type: Sprite
     state: Junk_1

@@ -1,6 +1,6 @@
 - type: entity
   id: N14Bullet45-70
-  name: "куля (.45-70 govt)"
+  name: bullet (.45-70 gov't)
   parent: BaseBullet
   noSpawn: true
   components:

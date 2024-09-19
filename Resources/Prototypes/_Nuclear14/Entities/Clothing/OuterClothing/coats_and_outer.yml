@@ -2,8 +2,8 @@
 - type: entity
   parent: ClothingOuterStorageBase
   id: N14ClothingOuterJacketLettermanRed
-  name: "піджак Леттермана"
-  description: "Червона куртка букмекера."
+  name: letterman jacket
+  description: A red letterman jacket.
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/OuterClothing/Coats/letterman_red.rsi
@@ -15,7 +15,7 @@
 - type: entity
   parent: ClothingOuterStorageBase
   id: N14ClothingOuterJacketLettermanBrown
-  description: "Коричнева куртка листоноші."
+  description: A brown letterman jacket.
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/OuterClothing/Coats/letterman_brown.rsi
@@ -27,8 +27,8 @@
 - type: entity
   parent: ClothingOuterBase
   id: N14ClothingOuterRobeHubologist
-  name: "халати хабологів"
-  description: "Халати хабологів... зловісні"
+  name: hubologist robes
+  description: Hubologist robes...ominous
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/OuterClothing/Coats/hubologist.rsi
@@ -40,8 +40,8 @@
 - type: entity
   parent: ClothingOuterStorageBase
   id: N14ClothingOuterFlannelRed
-  name: "фланелеву сорочку"
-  description: "Червона фланелева сорочка"
+  name: flannel shirt
+  description: A red flannel shirt
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/OuterClothing/Coats/flannel_red.rsi
@@ -53,8 +53,8 @@
 - type: entity
   parent: ClothingOuterStorageBase
   id: N14ClothingOuterFlannelAqua
-  name: "фланелеву сорочку"
-  description: "Фланелева сорочка з аквафланелі"
+  name: flannel shirt
+  description: An aqua flannel shirt
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/OuterClothing/Coats/flannel_aqua.rsi
@@ -66,8 +66,8 @@
 - type: entity
   parent: ClothingOuterStorageBase
   id: N14ClothingOuterFlannelBrown
-  name: "фланелеву сорочку"
-  description: "Коричнева фланелева сорочка"
+  name: flannel shirt
+  description: A brown flannel shirt
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/OuterClothing/Coats/flannel_brown.rsi
@@ -79,8 +79,8 @@
 - type: entity
   parent: ClothingOuterStorageBase
   id: N14ClothingOuterCoatFollowerLab
-  name: "лабораторний халат послідовника"
-  description: "Лабораторний халат, який носять Послідовники Апокаліпсису."
+  name: follower's lab coat
+  description: A lab coat worn by the Followers of the Apocalypse.
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/OuterClothing/Coats/falloutfollowerlabcoat.rsi
@@ -92,8 +92,8 @@
 - type: entity
   parent: ClothingOuterStorageBase
   id: N14ClothingOuterJacketBomber
-  name: "куртка-бомбер"
-  description: "Гарна куртка-бомбер."
+  name: bomber jacket
+  description: A nice bomber jacket.
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/OuterClothing/Coats/jacket_bomber.rsi
@@ -105,8 +105,8 @@
 - type: entity
   parent: ClothingOuterStorageBase
   id: N14ClothingOuterCoatDuster
-  name: "пилосос"
-  description: "Не притрушуй його пилом, напарнику."
+  name: duster
+  description: Don't get dust on it, partner.
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/OuterClothing/Coats/falloutduster.rsi
@@ -130,8 +130,8 @@
 - type: entity
   parent: ClothingOuterStorageBase
   id: N14ClothingOuterCoatLeatherDuster
-  name: "шкіряний пилосос"
-  description: "Так, у мене є ферма брамінів. Звідки ви знаєте?"
+  name: leather duster
+  description: Why, yes, I do own a brahmin farm. How did you know?
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/OuterClothing/Coats/falloutleatherduster.rsi
@@ -155,8 +155,8 @@
 - type: entity
   parent: ClothingOuterBase
   id: N14ClothingOuterCoatLeatherJacket
-  name: "шкіряна куртка"
-  description: "Гладенька шкіряна куртка. Ідеально підходить для будь-якого жиру."
+  name: leather jacket
+  description: A slick and smooth leather jacket. Perfect for any greaser.
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/OuterClothing/Coats/leather_jacket.rsi
@@ -182,8 +182,8 @@
 - type: entity
   parent: ClothingOuterStorageBase
   id: N14ClothingOuterCoatLeatherCoat
-  name: "шкіряне пальто"
-  description: "Гладке і витончене довге чорне шкіряне пальто."
+  name: leather coat
+  description: A slick and smooth long black leather coat.
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/OuterClothing/Coats/coat_leather.rsi
@@ -205,8 +205,8 @@
 - type: entity
   parent: ClothingOuterStorageBase
   id: N14ClothingOuterCoatSoldierCoat
-  name: "солдатська куртка"
-  description: "Ошатний солдатський бушлат."
+  name: soldier coat
+  description: A dapper looking soldiers coat.
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/OuterClothing/Coats/coat_soldier.rsi
@@ -223,8 +223,8 @@
 - type: entity
   parent: ClothingOuterStorageBase # balance this?
   id: N14ClothingOuterPoliceOfficer
-  name: "поліцейська форма"
-  description: "Поважайте мій авторитет"
+  name: police officer uniform
+  description: Respect my authoritay
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/OuterClothing/Coats/police_officer.rsi
@@ -241,8 +241,8 @@
 - type: entity
   parent: ClothingOuterStorageBase # balance this?
   id: N14ClothingOuterPoliceLieutenant
-  name: "форма лейтенанта поліції"
-  description: "Поліцейська форма, яку носять лейтенанти."
+  name: police lieutenant uniform
+  description: A police uniform worn by lieutenants.
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/OuterClothing/Coats/police_lieutenant.rsi
@@ -259,8 +259,8 @@
 - type: entity
   parent: ClothingOuterStorageBase # balance this?
   id: N14ClothingOuterPoliceChief
-  name: "форма начальника поліції"
-  description: "Поліцейська форма, яку носить начальник поліції."
+  name: police chief uniform
+  description: A police uniform worn by the chief of police.
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/OuterClothing/Coats/police_chief.rsi
@@ -278,8 +278,8 @@
 - type: entity
   parent: ClothingOuterStorageBase
   id: N14ClothingOuterCoatWinterArmored
-  name: "броньоване зимове пальто"
-  description: "Зимове пальто, оснащене імпровізованою бронею, на випадок, коли потрібно захиститися від чогось іншого, окрім холоду."
+  name: armored winter coat
+  description: A winter coat equipped makeshift armor, for when you need to protect yourself from something other than the cold.
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/OuterClothing/Coats/armoredwinter.rsi
@@ -298,8 +298,8 @@
 - type: entity
   parent: ClothingOuterStorageBase
   id: N14ClothingOuterBattlecoatCoat
-  name: "бойовий мундир"
-  description: "Для тих, хто йде в бій."
+  name: battlecoat
+  description: For when you're going into battle.
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/OuterClothing/Coats/falloutbattlecoat.rsi
@@ -323,7 +323,7 @@
 - type: entity
   parent: N14ClothingOuterBattlecoatCoat
   id: N14ClothingOuterBattlecoatTan
-  name: "коричневий плащ"
+  name: tan battlecoat
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/OuterClothing/Coats/falloutbattlecoattan.rsi
@@ -333,8 +333,8 @@
 - type: entity
   parent: ClothingOuterStorageBase
   id: N14ClothingOuterCoatCombatDuster
-  name: "бойовий пилосос"
-  description: "Відновлена бойова броня під вивітреним пильовиком. Прості металеві пластини замінюють пошкоджені керамічні пластини."
+  name: combat duster
+  description: Refurbished combat armor under a weathered duster. Simple metal plates replace the ceramic plates that has gotten damaged.
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/OuterClothing/Coats/falloutcombatduster.rsi
@@ -352,8 +352,8 @@
 - type: entity
   parent: N14ClothingOuterCoatWinterArmored
   id: N14ClothingOuterBrotherhoodElderCoat
-  name: "Старший жупан"
-  description: "Пальто старшого брата."
+  name: Elder greatcoat
+  description: Coat of the biggest brother.
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/OuterClothing/Coats/brotherhoodeldercoat.rsi
@@ -366,8 +366,8 @@
 - type: entity
   parent: N14ClothingOuterCoatWinterArmored
   id: N14ClothingOuterBrotherhoodFieldScribeCoat
-  name: "Братське поле Писарський плащ"
-  description: "Теплий плащ, який носили польові книжники Братства."
+  name: Brotherhood field Scribe coat
+  description: A warm coat worn by Brotherhood field Scribes.
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/OuterClothing/Coats/brotherhoodfieldscribe.rsi
@@ -378,8 +378,8 @@
 - type: entity
   parent: N14ClothingOuterCoatWinterArmored
   id: N14ClothingOuterEnclaverOfficerCoat
-  name: "офіцерський мундир анклаву"
-  description: "Плащ, який носили офіцери анклаву. Під ним броня."
+  name: enclave officer coat
+  description: A coat worn by enclave officers. It has armor underneath.
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/OuterClothing/Coats/falloutarmoredofficer.rsi
@@ -397,8 +397,8 @@
 - type: entity
   parent: ClothingOuterStorageBase
   id: N14ClothingOuterNCRCorrectional
-  name: "Форма NCR CF"
-  description: "Уніформа співробітників виправної колонії NCR."
+  name: NCR CF uniform
+  description: The uniform of NCR Correctional Facility staff.
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/OuterClothing/Coats/ncr_cf.rsi
@@ -410,8 +410,8 @@
 - type: entity
   parent: ClothingOuterStorageBase
   id: N14ClothingOuterNCRTrenchCoat
-  name: "Офіцерський плащ NCR"
-  description: "Тепле і зручне біле пальто, в якому кутаються офіцери 3-го батальйону, щоб зігрітися."
+  name: NCR officer trench coat
+  description: Warm and comfy, this nice white coat is used by officers of the 3st battalion to warm themselfs.
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/OuterClothing/Coats/ncr_trenchcoat.rsi
@@ -423,8 +423,8 @@
 - type: entity
   parent: ClothingOuterStorageBase
   id: N14ClothingOuterNCRDressJacket
-  name: "Піджак для сукні NCR"
-  description: "Форма NCR."
+  name: NCR dress jacket
+  description: An NCR dress uniform.
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/OuterClothing/Coats/ncr_dressjacket.rsi
@@ -436,8 +436,8 @@
 - type: entity
   parent: ClothingOuterStorageBase
   id: N14ClothingOuterNCRDressJacketCO
-  name: "Сукня NCR CO"
-  description: "Офіцерська форма командира НКР."
+  name: NCR CO dress jacket
+  description: An NCR commanding officer dress uniform.
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/OuterClothing/Coats/ncr_codressjacket.rsi
@@ -449,8 +449,8 @@
 - type: entity
   parent: ClothingOuterStorageBase
   id: N14ClothingOuterNCRQuartermaster
-  name: "Уніформа NCR QM"
-  description: "Форма інтенданта NCR."
+  name: NCR QM uniform
+  description: The uniform of an NCR Quartermaster.
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/OuterClothing/Coats/ncr_qm.rsi
@@ -463,8 +463,8 @@
 - type: entity
   parent: N14ClothingOuterBattlecoatCoat
   id: N14ClothingOuterOverseerCoat
-  name: "пальто наглядача"
-  description: "Пальто, яке носить хтось важливий. На спині - цифра 14."
+  name: "overseer's coat"
+  description: A coat worn by someone important. It has the number 14 on the back.
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/OuterClothing/Coats/falloutoverseercoat.rsi
@@ -479,8 +479,8 @@
 - type: entity
   parent: ClothingOuterStorageBase
   id: N14ClothingOuterMidwestBoSCoat
-  name: "писарський стьобаний обладунок"
-  description: "Шматок стьобаної тканини зі знаками Братства Середнього Заходу та металевими пластинами, має кілька мішечків для зберігання інструментів."
+  name: scribe quilted armor
+  description: A piece of quilted cloth with Midwest Brotherhood marks and metal plates, it has some pouches for tools storage.
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/OuterClothing/Coats/midwestbosscribe.rsi
@@ -498,8 +498,8 @@
 - type: entity
   parent: N14ClothingOuterBattlecoatCoat
   id: N14ClothingOuterBrotherhoodWashingtonScribe
-  name: "одяг писаря"
-  description: "Вбрання, яке традиційно носили писарі Братства."
+  name: scribe clothes
+  description: An outfit traditionally worn by Brotherhood scribes.
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/OuterClothing/Coats/washington_bos_scribe.rsi
@@ -509,8 +509,8 @@
 - type: entity
   parent: N14ClothingOuterBrotherhoodElderCoat
   id: N14ClothingOuterBrotherhoodWashingtonElder
-  name: "старечий одяг"
-  description: "Вбрання, яке традиційно носили старійшини Братства."
+  name: elder clothes
+  description: An outfit traditionally worn by Brotherhood elders.
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/OuterClothing/Coats/washington_bos_elder.rsi
@@ -521,8 +521,8 @@
 - type: entity
   parent: ClothingOuterStorageBase
   id: N14ClothingOuterTribalCoat
-  name: "племінний бронежилет"
-  description: "Важкий обладунок з балістичними вставками, тепер без рукавів, на спині висить череп декоративної тварини."
+  name: tribal armored coat
+  description: A heavy armor with ballistic inserts, now sleeveless for tempature and hanging an ornamental animal skull from the back.
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/OuterClothing/Coats/fallouttribalcoat.rsi
@@ -540,8 +540,8 @@
 - type: entity
   parent: ClothingOuterStorageBase
   id: N14ClothingOuterTownCoat
-  name: "міський тренч"
-  description: "Невиразний чорний тренч."
+  name: town trenchcoat
+  description: A non-descript black trenchcoat.
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/OuterClothing/Coats/fallouttowntrenchcoat.rsi
@@ -558,8 +558,8 @@
 - type: entity
   parent: ClothingOuterStorageBase
   id: N14ClothingOuterTownMediumCoat
-  name: "броньований міський плащ"
-  description: "Бронежилет з додатковими наплічниками, нагрудником та наколінниками."
+  name: armored town trenchcoat
+  description: An armored trench coat with added shoulderpads, a chestplate, and legguards.
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/OuterClothing/Coats/fallouttowntrenchcoatmedium.rsi
@@ -576,8 +576,8 @@
 - type: entity
   parent: ClothingOuterStorageBase
   id: N14ClothingOuterTownHeavyCoat
-  name: "тренчкот бойовий міський"
-  description: "Тренчкот, який не намагається приховати під собою зношену бойову броню на все тіло."
+  name: combat town trenchcoat
+  description: A trenchcoat which does not attempt to hide the full-body worn down combat armor beneath it.
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/OuterClothing/Coats/fallouttowntrenchcoatheavy.rsi
@@ -594,8 +594,8 @@
 - type: entity
   parent: ClothingOuterStorageBase
   id: N14ClothingOuterTownSpecialCoat
-  name: "вишитий тренч"
-  description: "Бронежилет на замовлення з подовженою довжиною та піднятим коміром. На спині вишита квітка, щоправда, трохи вицвіла."
+  name: embroidered trenchcoat
+  description: A custom armored trench coat with extra-length and a raised collar. There's a flower embroidered onto the back, although the color is a little faded.
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/OuterClothing/Coats/fallouttowntrenchcoatspecial.rsi

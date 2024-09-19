@@ -1,8 +1,8 @@
 - type: entity
-  name: "космічні креветки"
+  name: space shrimp
   parent: [ SimpleMobBase, FlyingMobBase, MobCombat ]
   id: MobSpaceShrimp
-  description: "Прокляття..."
+  description: Shrimply cursed...
   components:
   - type: MeleeWeapon
     soundHit:

@@ -1,111 +1,111 @@
 #MARK: Bandanas
 - type: construction
-  name: "чорна бандана"
+  name: black bandana
   id: blackbandana
   graph: blackbandana
   startNode: start
   targetNode: bandanablack
   category: construction-category-clothing
   objectType: Item
-  description: "Це шапка і маска."
+  description: It's a hat, and a mask.
   icon:
     sprite: Clothing/Head/Bandanas/black.rsi
     state: icon_mask
   hide: false
 
 - type: construction
-  name: "синя бандана"
+  name: blue bandana
   id: bluebandana
   graph: bluebandana
   startNode: start
   targetNode: bandanablue
   category: construction-category-clothing
   objectType: Item
-  description: "Це шапка і маска."
+  description: It's a hat, and a mask.
   icon:
     sprite: Clothing/Head/Bandanas/blue.rsi
     state: icon_mask
   hide: true #MARK: Hide
 
 - type: construction
-  name: "золота бандана"
+  name: gold bandana
   id: goldbandana
   graph: goldbandana
   startNode: start
   targetNode: bandanagold
   category: construction-category-clothing
   objectType: Item
-  description: "Це шапка і маска."
+  description: It's a hat, and a mask.
   icon:
     sprite: Clothing/Head/Bandanas/gold.rsi
     state: icon_mask
   hide: true #MARK: Hide
 
 - type: construction
-  name: "зелена бандана"
+  name: green bandana
   id: greenbandana
   graph: greenbandana
   startNode: start
   targetNode: bandanagreen
   category: construction-category-clothing
   objectType: Item
-  description: "Це шапка і маска."
+  description: It's a hat, and a mask.
   icon:
     sprite: Clothing/Head/Bandanas/green.rsi
     state: icon_mask
   hide: true #MARK: Hide
 
 - type: construction
-  name: "червона бандана"
+  name: red bandana
   id: redbandana
   graph: redbandana
   startNode: start
   targetNode: bandanared
   category: construction-category-clothing
   objectType: Item
-  description: "Це шапка і маска."
+  description: It's a hat, and a mask.
   icon:
     sprite: Clothing/Head/Bandanas/red.rsi
     state: icon_mask
   hide: true #MARK: Hide
 
 - type: construction
-  name: "бандана з черепом"
+  name: skull bandana
   id: skullbandana
   graph: skullbandana
   startNode: start
   targetNode: bandanaskull
   category: construction-category-clothing
   objectType: Item
-  description: "Це шапка і маска."
+  description: It's a hat, and a mask.
   icon:
     sprite: Clothing/Head/Bandanas/skull.rsi
     state: icon_mask
   hide: true #MARK: Hide
 
 - type: construction
-  name: "коричнева бандана"
+  name: brown bandana
   id: brownbandana
   graph: brownbandana
   startNode: start
   targetNode: bandanabrown
   category: construction-category-clothing
   objectType: Item
-  description: "Це шапка і маска."
+  description: It's a hat, and a mask.
   icon:
     sprite: Clothing/Head/Bandanas/brown.rsi
     state: icon_mask
   hide: false
 
 - type: construction
-  name: "сіра бандана"
+  name: grey bandana
   id: greybandana
   graph: greybandana
   startNode: start
   targetNode: bandanagrey
   category: construction-category-clothing
   objectType: Item
-  description: "Це шапка і маска."
+  description: It's a hat, and a mask.
   icon:
     sprite: Clothing/Head/Bandanas/grey.rsi
     state: icon_mask
@@ -113,14 +113,14 @@
 
 #MARK: Uniform's
 - type: construction
-  name: "ганчір'я з пустирів"
+  name: wastelander rags
   id: WastelanderRags
   graph: WastelanderRagsGraph
   startNode: start
   targetNode: rags
   category: construction-category-clothing
   objectType: Item
-  description: "Це краще, ніж нічого."
+  description: Hey, it's better than nothing.
   icon:
     sprite: _Nuclear14/Clothing/Uniforms/FalloutSuits/wastelanderrags.rsi
     state: icon
@@ -129,8 +129,8 @@
 #MARK: Mantle's
 - type: construction
   id: LeatherMantle
-  name: "шкіряна накидка"
-  description: "Зручна коричнева довга накидка."
+  name: leather mantle
+  description: A comfortable brown long mantle.
   category: construction-category-clothing
   objectType: Item
   graph: LeatherMantleGraph
@@ -143,8 +143,8 @@
 
 - type: construction
   id: LeatherCloak
-  name: "шкіряний плащ"
-  description: "Накидка ручної роботи, зручна і тепла."
+  name: leather cloak
+  description: A handmade cloak, comfy and warm.
   category: construction-category-clothing
   objectType: Item
   graph: LeatherCloakGraph
@@ -157,8 +157,8 @@
 
 - type: construction
   id: YaoguaiCloak
-  name: "плащ яогуай"
-  description: "Плащ ручної роботи, зручний і теплий, цей виріб походить від небезпечного яогуая."
+  name: yaoguai cloak
+  description: A handmade cloak, comfy and warm this piece comes from a dangerous yaoguai.
   category: construction-category-clothing
   objectType: Item
   graph: YaoguaiCloakGraph
@@ -171,8 +171,8 @@
 
 - type: construction
   id: GlovesCloth
-  name: "тканинні рукавички"
-  description: "Шматок тканини обв'язати навколо руки."
+  name: cloth gloves
+  description: A piece of cloth to tie around the hand.
   category: construction-category-clothing
   objectType: Item
   graph: GlovesClothGraph

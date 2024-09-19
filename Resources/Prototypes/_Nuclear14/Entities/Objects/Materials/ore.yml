@@ -1,7 +1,7 @@
 - type: entity
   parent: OreBase # From Entities\Objects\Materials\ore.yml
   id: LeadOre
-  name: "свинцева руда"
+  name: lead ore
   suffix: Full
   components:
   # - type: Stack
@@ -34,7 +34,7 @@
 - type: entity
   parent: OreBase
   id: SulfurOre
-  name: "сірчана руда"
+  name: sulfur ore
   suffix: Full
   components:
   # - type: Stack
@@ -67,7 +67,7 @@
 - type: entity
   parent: OreBase
   id: FertilizerOre
-  name: "добриво"
+  name: fertilizer
   suffix: Full
   components:
   # - type: Stack

@@ -2,19 +2,19 @@
 
 - type: accessLevel
   id: TownieLaw
-  name: "id-card-access-level-townie-sheriff"
+  name: id-card-access-level-townie-sheriff
 
 - type: accessLevel
   id: TownieMayor
-  name: "id-card-access-level-townie-mayor"
+  name: id-card-access-level-townie-mayor
 
 - type: accessLevel
   id: TownieShopkeeper
-  name: "id-картка-рівень доступу-містянин-крамар"
+  name: id-card-access-level-townie-shopkeeper
 
 - type: accessLevel
   id: TownieDoctor
-  name: "id-картка-рівень доступу-townie-doctor"
+  name: id-card-access-level-townie-doctor
 
 - type: accessGroup
   id: Townie
@@ -28,7 +28,7 @@
 
 - type: accessLevel
   id: FollowersApocalypse
-  name: "id-card-access-level-followers-apocalypse"
+  name: id-card-access-level-followers-apocalypse
 
 - type: accessGroup
   id: FollowersApocalypse
@@ -39,11 +39,11 @@
 
 - type: accessLevel
   id: ZetanCaptain
-  name: "id-card-access-level-zetan-captain"
+  name: id-card-access-level-zetan-captain
 
 - type: accessLevel
   id: Zetan
-  name: "id-card-access-level-zetan"
+  name: id-card-access-level-zetan
 
 - type: accessGroup
   id: Zetan
@@ -54,7 +54,7 @@
 #MARK: Enclave
 - type: accessLevel
   id: Enclave
-  name: "id-card-access-level-enclave"
+  name: id-card-access-level-enclave
 
 - type: accessGroup
   id: EnclaveVault
@@ -72,19 +72,19 @@
 
 - type: accessLevel
   id: IronKey
-  name: "id-card-access-level-ironkey"
+  name: id-card-access-level-ironkey
 
 - type: accessLevel
   id: BronzeKey
-  name: "id-card-access-level-bronzekey"
+  name: id-card-access-level-bronzekey
 
 - type: accessLevel
   id: BrassKey
-  name: "id-card-access-level-brasskey"
+  name: id-card-access-level-brasskey
 
 - type: accessLevel
   id: SilverKey
-  name: "id-card-access-level-silverkey"
+  name: id-card-access-level-silverkey
 
 - type: accessGroup
   id: GoldenKey
@@ -97,15 +97,15 @@
 #MARK: Dungeons / Bunkers
 - type: accessLevel
   id: DungeonBunkerA1
-  name: "id-card-access-level-bunker-a1"
+  name: id-card-access-level-bunker-a1
 
 - type: accessLevel
   id: DungeonBunkerA2
-  name: "id-card-access-level-bunker-a2"
+  name: id-card-access-level-bunker-a2
 
 - type: accessLevel
   id: DungeonBunkerA3
-  name: "id-card-access-level-bunker-a3"
+  name: id-card-access-level-bunker-a3
 
 - type: accessGroup
   id: DungeonBunkerAA
@@ -116,16 +116,16 @@
 
 - type: accessLevel
   id: DungeonBlue
-  name: "id-card-access-level-blue"
+  name: id-card-access-level-blue
 
 - type: accessLevel
   id: DungeonYellow
-  name: "id-card-access-level-yellow"
+  name: id-card-access-level-yellow
 
 - type: accessLevel
   id: DungeonRed
-  name: "id-card-access-level-red"
+  name: id-card-access-level-red
 
 - type: accessLevel
   id: DungeonCommon
-  name: "id-card-access-level-common"
+  name: id-card-access-level-common

@@ -1,9 +1,9 @@
 #MARK: Pistol
 - type: entity
-  name: "12,7 мм автотруба"
+  name: 12.7mm autopipe
   parent: BaseWeaponSubMachineGun
   id: N14weapon12mmpipeEmpty
-  description: "саморобний 12-мм кулемет SMG, який, схоже, вибухне одразу після пострілу."
+  description: a makeshift 12mm SMG, looks like is gonna explode the second it shoots.
   suffix: Empty
   components:
   - type: Construction
@@ -67,10 +67,10 @@
     backStrength: 6
 
 - type: entity
-  name: "неповна 12,7-міліметрова автотруба"
+  name: incomplete 12.7mm autopipe
   parent: BaseItem
   id: IncompleteN14weapon12mmpipeEmpty
-  description: "12,7 мм автотруба"
+  description: 12.7mm autopipe
   components:
   - type: Sprite
     sprite: _Nuclear14/Objects/Misc/crafting_junk.rsi
@@ -81,13 +81,13 @@
     node: IncompleteWeapon12mmpipeEmpty
 
 - type: construction
-  name: "12,7 мм автотруба"
+  name: 12.7mm autopipe
   id: N14weapon12mmpipeEmpty
   graph: N14weapon12mmpipeEmpty
   startNode: start
   targetNode: Weapon12mmpipe
   category: construction-category-weapons
-  description: "саморобний 12-мм кулемет SMG, який, схоже, вибухне одразу після пострілу."
+  description: a makeshift 12mm SMG, looks like is gonna explode the second it shoots.
   objectType: Item
   hide: false
   icon:
@@ -95,10 +95,10 @@
     state: icon
 
 - type: entity
-  name: "10-мм револьвер"
+  name: 10mm revolver
   parent: BaseWeaponRevolver
   id: N14WeaponRevolver10mmEmpty
-  description: "Перший прототип напівавтоматичного 10-мм пістолета, що використовує 10-мм набої."
+  description: The first prototype for the semiauto 10mm pistol, Uses 10mm ammo.
   suffix: Empty
   components:
   - type: Construction
@@ -122,10 +122,10 @@
     backStrength: 6
 
 - type: entity
-  name: "неповний 10-мм револьвер"
+  name: incomplete 10mm revolver
   parent: BaseItem
   id: IncompleteN14WeaponRevolver10mm
-  description: "10-мм револьвер"
+  description: 10mm revolver
   components:
   - type: Sprite
     sprite: _Nuclear14/Objects/Misc/crafting_junk.rsi
@@ -136,13 +136,13 @@
     node: IncompleteWeaponRevolver10mm
 
 - type: construction
-  name: "10-мм револьвер"
+  name: 10mm revolver
   id: N14WeaponRevolver10mmEmpty
   graph: N14WeaponRevolver10mmEmpty
   startNode: start
   targetNode: WeaponRevolver10mm
   category: construction-category-weapons
-  description: "Перший прототип напівавтоматичного 10-мм пістолета, що використовує 10-мм набої."
+  description: The first prototype for the semiauto 10mm pistol, Uses 10mm ammo.
   objectType: Item
   hide: false
   icon:
@@ -150,10 +150,10 @@
     state: icon
 
 - type: entity
-  name: "10-мм трубчастий пістолет"
+  name: 10mm pipe pistol
   parent: N14BaseWeaponPistol
   id: N14WeaponPipe10mmEmpty
-  description: "легкий саморобний 10-міліметровий пістолет, з неймовірно незручною рукояткою."
+  description: a light makeshift 10mm pistol, the grip is incredibly uncomfortable.
   suffix: Empty
   components:
   - type: Construction
@@ -189,10 +189,10 @@
     backStrength: 6
 
 - type: entity
-  name: "неповний 10-мм трубчастий пістолет"
+  name: incomplete 10mm pipe pistol
   parent: BaseItem
   id: IncompleteN14WeaponPipe10mm
-  description: "10-мм трубчастий пістолет"
+  description: 10mm pipe pistol
   components:
   - type: Sprite
     sprite: _Nuclear14/Objects/Misc/crafting_junk.rsi
@@ -203,13 +203,13 @@
     node: IncompleteWeaponPipe10mm
 
 - type: construction
-  name: "10-мм трубчастий пістолет"
+  name: 10mm pipe pistol
   id: N14WeaponPipe10mmEmpty
   graph: N14WeaponPipe10mmEmpty
   startNode: start
   targetNode: WeaponPipe10mm
   category: construction-category-weapons
-  description: "легкий саморобний 10-міліметровий пістолет, з неймовірно незручною рукояткою."
+  description: a light makeshift 10mm pistol, the grip is incredibly uncomfortable.
   objectType: Item
   hide: false
   icon:
@@ -217,10 +217,10 @@
     state: icon
 
 - type: entity
-  name: "Автотруба 10 мм"
+  name: 10mm autopipe
   parent: BaseWeaponSubMachineGun
   id: N14weapon10mmpipeEmpty
-  description: "саморобний 10-мм кулемет SMG, якщо його потрясти, то можна почути, як всередині пістолета брязкають деталі."
+  description: a makeshift 10mm SMG, if you shake it you could hear the loose parts inside of the gun.
   suffix: Empty
   components:
   - type: Construction
@@ -283,10 +283,10 @@
     backStrength: 6
 
 - type: entity
-  name: "неповна 10-міліметрова автотруба"
+  name: incomplete 10mm autopipe
   parent: BaseItem
   id: IncompleteN14Weapon10mmPipe
-  description: "Автотруба 10 мм"
+  description: 10mm autopipe
   components:
   - type: Sprite
     sprite: _Nuclear14/Objects/Misc/crafting_junk.rsi
@@ -297,13 +297,13 @@
     node: Incomplete14WeaponPipe10mm
 
 - type: construction
-  name: "Автотруба 10 мм"
+  name: 10mm autopipe
   id: N14weapon10mmpipeEmpty
   graph: N14weapon10mmpipeEmpty
   startNode: start
   targetNode: Weapon10mmPipe
   category: construction-category-weapons
-  description: "саморобний 10-мм кулемет SMG, якщо його потрясти, то можна почути, як всередині пістолета брязкають деталі."
+  description: a makeshift 10mm SMG, if you shake it you could hear the loose parts inside of the gun.
   objectType: Item
   hide: false
   icon:

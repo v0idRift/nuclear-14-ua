@@ -3,8 +3,8 @@
 - type: entity
   parent: BaseStorageItem
   id: N14Sack
-  name: "мішок"
-  description: "Тканий мішок для зберігання речей."
+  name: sack
+  description: A woven sack for storing things.
   components:
   - type: Sprite
     sprite: _Nuclear14/Objects/Misc/Sacks/daesack.rsi
@@ -46,8 +46,8 @@
 - type: entity
   parent: BaseItem
   id: N14SackCompost
-  name: "мішок для компосту"
-  description: "Мішок для зберігання компосту або гною"
+  name: compost sack
+  description: A sack for storing compost or dung
   components:
   - type: Sprite
     sprite: _Nuclear14/Objects/Misc/Sacks/daesack3.rsi
@@ -95,8 +95,8 @@
 - type: entity
   parent: N14SackCompost
   id: N14SackFertilizer
-  name: "мішок для добрив"
-  description: "Мішок для зберігання добрива."
+  name: fertilizer sack
+  description: A sack for storing fertilizer.
   components:
   - type: Sprite
     sprite: _Nuclear14/Objects/Misc/Sacks/daesack2.rsi
@@ -111,8 +111,8 @@
   parent: N14SackFertilizer
   id: N14SackFertilizerFull
   suffix: full
-  name: "мішок для добрив"
-  description: "Мішок для зберігання добрива."
+  name: fertilizer sack
+  description: A sack for storing fertilizer.
   components:
   - type: SolutionContainerManager
     solutions:

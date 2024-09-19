@@ -1,6 +1,6 @@
 - type: entity
   id: N14RandomVending
-  name: "випадковий генератор торгових автоматів"
+  name: random vending machine spawner
   suffix: N14, Any
   parent: MarkerBase
   components:
