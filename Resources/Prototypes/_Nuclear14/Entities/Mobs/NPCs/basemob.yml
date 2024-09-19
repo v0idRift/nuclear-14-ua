@@ -1,11 +1,11 @@
 # Consider making our own base mob in future so we're resilient to upstream changes.
 #MARK: Base Simple
 - type: entity
-  name: "здичавіла тварина"
+  name: wasteland animal
   abstract: true
   id: N14MobBaseSimple
   parent: SimpleMobBase
-  description: "Це брудна тварина з пустиря. Остерігайтеся його укусів, вони можуть бути інфекційними."
+  description: It's a dirty wasteland animal. Watch out for it's bite, it could be infectious.
   components:
   - type: InputMover
   - type: MobMover
@@ -71,7 +71,7 @@
   abstract: true
   id: N14MobBaseHostile
   parent: N14MobBaseSimple
-  description: "Це брудна тварина з пустиря. Остерігайтеся його укусів, вони можуть бути інфекційними."
+  description: It's a dirty wasteland animal. Watch out for it's bite, it could be infectious.
   components:
   - type: NpcFactionMember
     factions:
@@ -132,7 +132,7 @@
 
 #MARK: Base Scaley
 - type: entity
-  name: "луската пустельна тварина"
+  name: scaley wasteland animal
   abstract: true
   id: N14MobBaseHostileScaley
   parent: N14MobBaseHostile
@@ -143,7 +143,7 @@
 
 #MARK: Base Insect
 - type: entity
-  name: "комаха пустиря"
+  name: wasteland insect
   abstract: true
   id: N14MobBaseHostileInsect
   parent: N14MobBaseHostile
@@ -159,7 +159,7 @@
 # Wave Defence Base Hostile
 #MARK: WAVE
 - type: entity
-  name: "хвильовий атакуючий"
+  name: wave attacker
   abstract: true
   id: N14MobWave
   components:

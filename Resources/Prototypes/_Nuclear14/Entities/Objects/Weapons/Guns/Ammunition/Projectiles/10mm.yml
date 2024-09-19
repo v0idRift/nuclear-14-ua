@@ -1,6 +1,6 @@
 - type: entity
   id: N14Bullet10mm
-  name: "куля (10 мм)"
+  name: bullet (10mm)
   parent: BaseBullet
   noSpawn: true
   components:

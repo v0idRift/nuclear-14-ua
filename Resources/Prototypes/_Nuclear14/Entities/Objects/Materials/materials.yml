@@ -3,7 +3,7 @@
 - type: entity
   parent: BaseItem
   id: Gunpowder
-  name: "порох"
+  name: gunpowder
   suffix: Full, 30
   components:
   - type: Material
@@ -55,7 +55,7 @@
 - type: entity
   parent: Gunpowder
   id: SulfurPowder
-  name: "сірка"
+  name: sulfur
   components:
   - type: PhysicalComposition
     materialComposition:
@@ -98,7 +98,7 @@
 - type: entity
   parent: SheetPaper
   id: N14Paper
-  name: "папір"
+  name: paper
   suffix: 10
   components:
   - type: Stack
@@ -138,7 +138,7 @@
 - type: entity
   parent: Gunpowder
   id: Charcoal
-  name: "вугілля"
+  name: charcoal
   components:
   - type: Stack
     stackType: Charcoal
@@ -182,8 +182,8 @@
 - type: entity
   parent: BaseItem
   id: N14Dung
-  name: "гнойова купа"
-  description: "переверніть ці коров'ячі килимки, щоб отримати безкоштовне добриво!"
+  name: dung pile
+  description: flip those cowpats for free fertilizer!
   components:
   - type: Sprite
     sprite: /Textures/_Nuclear14/Objects/Misc/crafting_material.rsi
@@ -211,8 +211,8 @@
 - type: entity
   parent: N14Dung
   id: N14BrahminDung
-  name: "гній брамінів"
-  description: "Купа гною, більш їдка і мерзенна, ніж решта, золото ранчо."
+  name: brahmin dung
+  description: A dung pile more acrid and vile than the rest, rancher's gold.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -227,8 +227,8 @@
 - type: entity
   parent: BaseItem
   id: N14CompostRotted
-  name: "компост"
-  description: "Залишки, що гниють, як компост. Добре підходить для добрива."
+  name: compost
+  description: Rotting remains, like a compost. Good for fertilizing.
   components:
   - type: Sprite
     sprite: /Textures/_Nuclear14/Objects/Misc/crafting_material.rsi

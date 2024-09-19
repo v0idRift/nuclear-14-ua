@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingNeckPinBase
   id: ClothingNeckPinNCRRecruit
-  name: "рекрутський значок"
-  description: "Поношений значок Збройних сил Республіки із зазначенням звання власника."
+  name: recruit pin
+  description: A worn Republic Armed Forces badge showing the wearer's rank.
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/Neck/Misc/pins.rsi
@@ -17,7 +17,7 @@
 - type: entity
   parent: ClothingNeckPinNCRRecruit
   id: ClothingNeckPinNCRPrivate
-  name: "приватний пін-код"
+  name: private pin
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/Neck/Misc/pins.rsi
@@ -32,7 +32,7 @@
 - type: entity
   parent: ClothingNeckPinNCRPrivate
   id: ClothingNeckPinNCRPrivate1st
-  name: "приватний 1-й штифт"
+  name: private 1st pin
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/Neck/Misc/pins.rsi
@@ -42,7 +42,7 @@
 - type: entity
   parent: ClothingNeckPinNCRPrivate
   id: ClothingNeckPinNCRCorporal
-  name: "кавалерійський значок"
+  name: corporal pin
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/Neck/Misc/pins.rsi
@@ -52,7 +52,7 @@
 - type: entity
   parent: ClothingNeckPinNCRPrivate
   id: ClothingNeckPinNCRSpecialist
-  name: "спеціалізований штифт"
+  name: specialist pin
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/Neck/Misc/pins.rsi
@@ -62,7 +62,7 @@
 - type: entity
   parent: ClothingNeckPinNCRPrivate
   id: ClothingNeckPinNCRSergeant
-  name: "сержантський значок"
+  name: sergeant pin
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/Neck/Misc/pins.rsi
@@ -72,7 +72,7 @@
 - type: entity
   parent: ClothingNeckPinNCRPrivate
   id: ClothingNeckPinNCRSergeant1st
-  name: "сержант 1-го розряду"
+  name: sergeant 1st pin
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/Neck/Misc/pins.rsi
@@ -82,7 +82,7 @@
 - type: entity
   parent: ClothingNeckPinNCRPrivate
   id: ClothingNeckPinNCRMasterSergeant
-  name: "значок старшого сержанта"
+  name: master sergeant pin
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/Neck/Misc/pins.rsi
@@ -92,7 +92,7 @@
 - type: entity
   parent: ClothingNeckPinNCRPrivate
   id: ClothingNeckPinNCRSergeantMajor
-  name: "сержант-майор Пін"
+  name: sergeant major pin
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/Neck/Misc/pins.rsi
@@ -102,7 +102,7 @@
 - type: entity
   parent: ClothingNeckPinNCRPrivate
   id: ClothingNeckPinNCRSecondLieutenant
-  name: "молодший лейтенант Пін"
+  name: second lieutenant pin
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/Neck/Misc/pins.rsi
@@ -112,7 +112,7 @@
 - type: entity
   parent: ClothingNeckPinNCRPrivate
   id: ClothingNeckPinNCRFirstlLieutenant
-  name: "значок першого лейтенанта"
+  name: first lieutenant pin
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/Neck/Misc/pins.rsi
@@ -127,7 +127,7 @@
 - type: entity
   parent: ClothingNeckPinNCRPrivate
   id: ClothingNeckPinNCRCaptain
-  name: "капітанський значок"
+  name: captain pin
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/Neck/Misc/pins.rsi
@@ -142,7 +142,7 @@
 - type: entity
   parent: ClothingNeckPinNCRPrivate
   id: ClothingNeckPinNCRMajor
-  name: "великий штифт"
+  name: major pin
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/Neck/Misc/pins.rsi
@@ -152,7 +152,7 @@
 - type: entity
   parent: ClothingNeckPinNCRPrivate
   id: ClothingNeckPinNCRDoctor
-  name: "докторська шпилька"
+  name: doctor pin
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/Neck/Misc/pins.rsi
@@ -167,7 +167,7 @@
 - type: entity
   parent: ClothingNeckPinNCRPrivate
   id: ClothingNeckPinNCRChiefPhysician
-  name: "значок головного лікаря"
+  name: chiefphysician pin
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/Neck/Misc/pins.rsi

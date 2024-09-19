@@ -1,6 +1,6 @@
 - type: entity
   id: N14Bullet308
-  name: "куля (гвинтівка .308)"
+  name: bullet (.308 rifle)
   parent: BaseBullet
   noSpawn: true
   components:

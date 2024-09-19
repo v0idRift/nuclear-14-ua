@@ -1,8 +1,8 @@
 - type: entity
-  name: "двоствольна рушниця"
+  name: double-barrel shotgun
   parent: BaseWeaponShotgun
   id: N14WeaponDoubleBarrelShotgun
-  description: "Безсмертна класика, використовує набої 12-го калібру."
+  description: An immortal classic, uses 12 gauge shells.
   components:
   - type: Clothing
     sprite: _Nuclear14/Objects/Weapons/Guns/Shotguns/double_shotgun.rsi
@@ -32,10 +32,10 @@
     backStrength: 5
 
 - type: entity
-  name: "дробовик"
+  name: shotgun
   parent: BaseWeaponShotgun
   id: N14WeaponShotgun
-  description: "Помпова рушниця."
+  description: A pump action shotgun.
   components:
   - type: Gun
     fireRate: 1
@@ -65,10 +65,10 @@
     backStrength: 5
 
 - type: entity
-  name: "бойова рушниця"
+  name: combat shotgun
   parent: BaseItem
   id: N14WeaponAutoShotgun
-  description: "Це автоматична рушниця з магазинним живленням, призначена для ближнього бою, використовує набої 12-го калібру."
+  description: It's a magazine-fed automatic shotgun designed for close quarters combat, uses 12 gauge shells.
   components:
   - type: Sprite
     sprite: _Nuclear14/Objects/Weapons/Guns/Shotguns/combat_shotgun.rsi
@@ -127,10 +127,10 @@
     backStrength: 5
 
 - type: entity
-  name: "караванна рушниця"
+  name: caravan shotgun
   parent: BaseWeaponShotgun
   id: N14WeaponCaravanShotgun
-  description: "Ідеальна рушниця для тривалої подорожі. добре підходить для полювання на брамінів, геконів та диких звірів, використовує набої 20 калібру."
+  description: The perfect shotgun for a long journey. works well for hunting brahmins, geckos and fiends, uses 20 gauge shells.
   components:
   - type: Clothing
     sprite: _Nuclear14/Objects/Weapons/Guns/Shotguns/caravan_shotgun.rsi
@@ -160,10 +160,10 @@
     backStrength: 5
 
 - type: entity
-  name: "важільна рушниця"
+  name: lever action shotgun
   parent: BaseWeaponShotgun
   id: N14WeaponLeverShotgun
-  description: "Ідеальна рушниця для ковбоя, вона використовує набої 20-го калібру."
+  description: The perfect gun for a cowboy, it uses 20 gauge shells.
   components:
   - type: Clothing
     sprite: _Nuclear14/Objects/Weapons/Guns/Shotguns/lever_shotgun.rsi
@@ -197,10 +197,10 @@
     backStrength: 5
 
 - type: entity
-  name: "рушницю для боротьби з бунтом"
+  name: riot shotgun
   parent: BaseItem
   id: N14WeaponRiotShotgun
-  description: "Компактна напівавтоматична рушниця, що використовувалась довоєнною поліцією, під набої 20-го калібру."
+  description: A compact semi automatic shotgun used by pre-war police forces, chambered in 20 gauge shells.
   components:
   - type: Clothing
     sprite: _Nuclear14/Objects/Weapons/Guns/Shotguns/riot_shotgun.rsi

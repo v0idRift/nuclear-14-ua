@@ -1,9 +1,9 @@
 - type: entity
   parent: ClothingMaskBase
   id: N14ClothingMaskRedMask
-  name: "червона маска"
+  name: red mask
   suffix: Generic
-  description: "Короткий червоний шарф, що закриває рот."
+  description: A short red scarf, covering your mouth.
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/Mask/Bandanas/redscarf.rsi
@@ -18,9 +18,9 @@
 - type: entity
   parent: ClothingMaskBase
   id: N14ClothingMaskDesertMask
-  name: "маска пустелі"
+  name: desert mask
   suffix: Generic
-  description: "Короткий шарф від засмаги, що прикриває рот."
+  description: A short tan scarf, covering your mouth.
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/Mask/Bandanas/desertmask.rsi
@@ -35,9 +35,9 @@
 - type: entity
   parent: ClothingMaskBase
   id: N14ClothingMaskBlueMask
-  name: "синя маска"
+  name: blue mask
   suffix: Generic
-  description: "Короткий синій шарф, що прикриває рот."
+  description: A short blue scarf, covering your mouth.
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/Mask/Bandanas/bluescarf.rsi
@@ -52,9 +52,9 @@
 - type: entity
   parent: ClothingMaskBase
   id: N14ClothingMaskGreenMask
-  name: "зелена маска"
+  name: green mask
   suffix: Generic
-  description: "Короткий зелений шарф, що прикриває рот."
+  description: A short green scarf, covering your mouth.
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/Mask/Bandanas/greenscarf.rsi
@@ -69,9 +69,9 @@
 - type: entity
   parent: ClothingMaskBase
   id: N14ClothingMaskOrangeMask
-  name: "помаранчева маска"
+  name: orange mask
   suffix: Generic
-  description: "Короткий помаранчевий шарф, що закриває рот."
+  description: A short orange scarf, covering your mouth.
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/Mask/Bandanas/orangescarf.rsi
@@ -86,9 +86,9 @@
 - type: entity
   parent: ClothingMaskBase
   id: N14ClothingMaskBrownMask
-  name: "коричнева маска"
+  name: brown mask
   suffix: Generic
-  description: "Короткий коричневий шарф, що прикриває рот."
+  description: A short brown scarf, covering your mouth.
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/Mask/Bandanas/brownscarf.rsi
@@ -103,9 +103,9 @@
 - type: entity
   parent: ClothingMaskBase
   id: N14ClothingMaskPatriotMask
-  name: "маска патріота"
+  name: patriot mask
   suffix: Generic
-  description: "Короткий дуже патріотичний шарф, що закриває рот."
+  description: A short very patriotic scarf, covering your mouth.
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/Mask/Bandanas/patriotscarf.rsi

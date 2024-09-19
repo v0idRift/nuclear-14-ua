@@ -1,8 +1,8 @@
 # Beds
 - type: construction
   id: N14Bed
-  name: "ліжко"
-  description: "На ньому можна лежати, спати або прив'язуватися. Відпочинок тут забезпечує надзвичайно повільне загоєння."
+  name: bed
+  description: This is used to lie in, sleep in or strap on. Resting here provides extremely slow healing.
   graph: N14Bed
   startNode: start
   targetNode: bed
@@ -19,8 +19,8 @@
     
 - type: construction
   id: N14BedWood
-  name: "ліжко"
-  description: "На ньому можна лежати, спати або прив'язуватися. Відпочинок тут забезпечує надзвичайно повільне загоєння."
+  name: bed
+  description: This is used to lie in, sleep in or strap on. Resting here provides extremely slow healing.
   graph: N14Bed
   startNode: start
   targetNode: bedwood
@@ -37,8 +37,8 @@
 
 - type: construction
   id: N14MedicalBed
-  name: "медичне ліжко"
-  description: "Лікарняне ліжко для одужання пацієнтів. Відпочинок тут забезпечує досить повільне одужання."
+  name: medical bed
+  description: A hospital bed for patients to recover in. Resting here provides fairly slow healing.
   graph: bed
   startNode: start
   targetNode: medicalbed
@@ -55,8 +55,8 @@
     
 - type: construction
   id: N14Bedroll
-  name: "простирадло"
-  description: "Базове тканинне покривало для сну під час подорожі. Зробіть його, скориставшись згорнутим рецептом."
+  name: bed roll
+  description: A basic cloth bedroll for sleeping in while travelling. Make one using the rolled up crafting recipe.
   graph: N14Bed
   startNode: start
   targetNode: bedroll
@@ -73,8 +73,8 @@
     
 - type: construction
   id: N14BedMattress
-  name: "матрац"
-  description: "Основний матерчатий матрац для підстилки."
+  name: mattress
+  description: A basic cloth mattress for bedding down.
   graph: N14Bed
   startNode: start
   targetNode: mattress
@@ -91,13 +91,13 @@
   
 # Chairs
 - type: construction
-  name: "шкільний стілець"
+  name: school chair
   id: N14ChairSchool
   graph: N14Seat
   startNode: start
   targetNode: N14ChairSchool
   category: construction-category-furniture
-  description: "Ти сидиш у цьому. Чи то з волі, чи то з примусу."
+  description: You sit in this. Either by will or force.
   icon:
     sprite: _Nuclear14/Structures/Furniture/schoolchair.rsi
     state: chair
@@ -109,13 +109,13 @@
   hide: false
     
 - type: construction
-  name: "дерев'яний стілець"
+  name: wooden chair
   id: N14ChairWood
   graph: N14Seat
   startNode: start
   targetNode: N14ChairWood
   category: construction-category-furniture
-  description: "Ти сидиш у цьому. Чи то з волі, чи то з примусу."
+  description: You sit in this. Either by will or force.
   icon:
     sprite: _Nuclear14/Structures/Furniture/bedsandchairs.rsi
     state: wooden_chair
@@ -127,13 +127,13 @@
   hide: false
     
 - type: construction
-  name: "дерев'яний стілець"
+  name: wooden chair
   id: N14ChairWood1
   graph: N14Seat
   startNode: start
   targetNode: N14ChairWood1
   category: construction-category-furniture
-  description: "Ти сидиш у цьому. Чи то з волі, чи то з примусу."
+  description: You sit in this. Either by will or force.
   icon:
     sprite: _Nuclear14/Structures/Furniture/chairs.rsi
     state: wood_chair
@@ -145,13 +145,13 @@
   hide: false
     
 - type: construction
-  name: "м'яке крісло"
+  name: padded chair
   id: N14ChairWoodPadded
   graph: N14Seat
   startNode: start
   targetNode: N14ChairWoodPadded
   category: construction-category-furniture
-  description: "Ти сидиш у цьому. Чи то з волі, чи то з примусу."
+  description: You sit in this. Either by will or force.
   icon:
     sprite: _Nuclear14/Structures/Furniture/chairs.rsi
     state: wood_chair_padded
@@ -163,13 +163,13 @@
   hide: false
     
 - type: construction
-  name: "стілець поселенця"
+  name: settler chair
   id: N14ChairWoodSettler
   graph: N14Seat
   startNode: start
   targetNode: N14ChairWoodSettler
   category: construction-category-furniture
-  description: "Ти сидиш у цьому. Чи то з волі, чи то з примусу."
+  description: You sit in this. Either by will or force.
   icon:
     sprite: _Nuclear14/Structures/Furniture/bedsandchairs.rsi
     state: wooden_chair_settler
@@ -181,13 +181,13 @@
   hide: false
     
 - type: construction
-  name: "чорний стілець"
+  name: black stool
   id: N14ChairStoolBarBlack
   graph: N14Seat
   startNode: start
   targetNode: N14ChairStoolBarBlack
   category: construction-category-furniture
-  description: "Ти сидиш у цьому. Чи то з волі, чи то з примусу."
+  description: You sit in this. Either by will or force.
   icon:
     sprite: _Nuclear14/Structures/Furniture/bedsandchairs.rsi
     state: bar_black
@@ -199,13 +199,13 @@
   hide: false
   
 - type: construction
-  name: "табурет для засмаги"
+  name: tan stool
   id: N14ChairStoolBarTan
   graph: N14Seat
   startNode: start
   targetNode: N14ChairStoolBarTan
   category: construction-category-furniture
-  description: "Ти сидиш у цьому. Чи то з волі, чи то з примусу."
+  description: You sit in this. Either by will or force.
   icon:
     sprite: _Nuclear14/Structures/Furniture/bedsandchairs.rsi
     state: bar_tan
@@ -217,13 +217,13 @@
   hide: false
   
 - type: construction
-  name: "червоний стілець"
+  name: red stool
   id: N14ChairStoolBarRed
   graph: N14Seat
   startNode: start
   targetNode: N14ChairStoolBarRed
   category: construction-category-furniture
-  description: "Ти сидиш у цьому. Чи то з волі, чи то з примусу."
+  description: You sit in this. Either by will or force.
   icon:
     sprite: _Nuclear14/Structures/Furniture/chairs.rsi
     state: barstool
@@ -235,13 +235,13 @@
   hide: false
   
 - type: construction
-  name: "крісло"
+  name: armchair
   id: N14ChairArmchair
   graph: N14Seat
   startNode: start
   targetNode: N14ChairArmchair
   category: construction-category-furniture
-  description: "Ти сидиш у цьому. Чи то з волі, чи то з примусу."
+  description: You sit in this. Either by will or force.
   icon:
     sprite: _Nuclear14/Structures/Furniture/chairs.rsi
     state: armchair
@@ -253,13 +253,13 @@
   hide: false
   
 - type: construction
-  name: "зелений металевий стілець"
+  name: green metal chair
   id: N14ChairMetalGreen
   graph: N14Seat
   startNode: start
   targetNode: N14ChairMetalGreen
   category: construction-category-furniture
-  description: "Ти сидиш у цьому. Чи то з волі, чи то з примусу."
+  description: You sit in this. Either by will or force.
   icon:
     sprite: _Nuclear14/Structures/Furniture/chairs.rsi
     state: metal_chair
@@ -271,13 +271,13 @@
   hide: false
   
 - type: construction
-  name: "синій металевий стілець"
+  name: blue metal chair
   id: N14ChairMetalBlue
   graph: N14Seat
   startNode: start
   targetNode: N14ChairMetalBlue
   category: construction-category-furniture
-  description: "Ти сидиш у цьому. Чи то з волі, чи то з примусу."
+  description: You sit in this. Either by will or force.
   icon:
     sprite: _Nuclear14/Structures/Furniture/chairs.rsi
     state: metal_chair_blue
@@ -289,13 +289,13 @@
   hide: false
   
 - type: construction
-  name: "стілець з червоного металу"
+  name: red metal chair
   id: N14ChairMetalRed
   graph: N14Seat
   startNode: start
   targetNode: N14ChairMetalRed
   category: construction-category-furniture
-  description: "Ти сидиш у цьому. Чи то з волі, чи то з примусу."
+  description: You sit in this. Either by will or force.
   icon:
     sprite: _Nuclear14/Structures/Furniture/chairs.rsi
     state: metal_chair_red
@@ -307,13 +307,13 @@
   hide: false
   
 - type: construction
-  name: "червоне офісне крісло"
+  name: red office chair
   id: N14ChairOfficeRed
   graph: N14Seat
   startNode: start
   targetNode: N14ChairOfficeRed
   category: construction-category-furniture
-  description: "Ти сидиш у цьому. Чи то з волі, чи то з примусу."
+  description: You sit in this. Either by will or force.
   icon:
     sprite: _Nuclear14/Structures/Furniture/chairs.rsi
     state: office_chair
@@ -325,13 +325,13 @@
   hide: false
   
 - type: construction
-  name: "синій офісний стілець"
+  name: blue office chair
   id: N14ChairOfficeBlue
   graph: N14Seat
   startNode: start
   targetNode: N14ChairOfficeBlue
   category: construction-category-furniture
-  description: "Ти сидиш у цьому. Чи то з волі, чи то з примусу."
+  description: You sit in this. Either by will or force.
   icon:
     sprite: _Nuclear14/Structures/Furniture/chairs.rsi
     state: office_chair_blue
@@ -343,13 +343,13 @@
   hide: false
   
 - type: construction
-  name: "зелене офісне крісло"
+  name: green office chair
   id: N14ChairOfficeGreen
   graph: N14Seat
   startNode: start
   targetNode: N14ChairOfficeGreen
   category: construction-category-furniture
-  description: "Ти сидиш у цьому. Чи то з волі, чи то з примусу."
+  description: You sit in this. Either by will or force.
   icon:
     sprite: _Nuclear14/Structures/Furniture/chairs.rsi
     state: office_chair_green
@@ -361,13 +361,13 @@
   hide: false
   
 - type: construction
-  name: "ергономічне офісне крісло"
+  name: ergonomic office chair
   id: N14ChairOfficeErgonomic
   graph: N14Seat
   startNode: start
   targetNode: N14ChairOfficeErgonomic
   category: construction-category-furniture
-  description: "Ти сидиш у цьому. Чи то з волі, чи то з примусу."
+  description: You sit in this. Either by will or force.
   icon:
     sprite: _Nuclear14/Structures/Furniture/chairs.rsi
     state: ergo_chair
@@ -379,13 +379,13 @@
   hide: false
   
 - type: construction
-  name: "розкладний стілець"
+  name: folding chair
   id: N14ChairMetalFolding
   graph: N14Seat
   startNode: start
   targetNode: N14ChairMetalFolding
   category: construction-category-furniture
-  description: "Ти сидиш у цьому. Чи то з волі, чи то з примусу."
+  description: You sit in this. Either by will or force.
   icon:
     sprite: _Nuclear14/Structures/Furniture/chairs.rsi
     state: metal_chair_folding
@@ -397,13 +397,13 @@
   hide: false
   
 - type: construction
-  name: "пластиковий стілець"
+  name: plastic chair
   id: N14ChairPlastic
   graph: N14Seat
   startNode: start
   targetNode: N14ChairPlastic
   category: construction-category-furniture
-  description: "Ти сидиш у цьому. Чи то з волі, чи то з примусу."
+  description: You sit in this. Either by will or force.
   icon:
     sprite: _Nuclear14/Structures/Furniture/chairs.rsi
     state: plastic_chair
@@ -417,13 +417,13 @@
 # Tables
 
 - type: construction
-  name: "барна стійка"
+  name: bar counter
   id: N14TableCounterBar
   graph: N14TableCounterBarRecipes
   startNode: start
   targetNode: TableCounterBar
   category: construction-category-furniture
-  description: "Заплямована алкоголем барна стійка."
+  description: An alcohol stained bartop.
   objectType: Structure
   placementMode: SnapgridCenter
   canBuildInImpassable: false
@@ -436,13 +436,13 @@
     - !type:TileNotBlocked
     
 - type: construction
-  name: "металевий стіл"
+  name: metal table
   id: N14TableMetalGrate
   graph: N14TableMetalGrateRecipes
   startNode: start
   targetNode: TableMetalGrate
   category: construction-category-furniture
-  description: "Холодний металевий стіл ручної роботи з решітки."
+  description: A cold handmade metal table made from grating.
   objectType: Structure
   placementMode: SnapgridCenter
   canBuildInImpassable: false
@@ -455,13 +455,13 @@
     - !type:TileNotBlocked
 
 - type: construction
-  name: "дерев'яний стіл"
+  name: wooden table
   id: N14TableWoodSettler
   graph: N14TableRecipes
   startNode: start
   targetNode: TableWoodSettler
   category: construction-category-furniture
-  description: "Дерев'яний стіл, який використовували поселенці."
+  description: A wooden table used by settlers.
   objectType: Structure
   placementMode: SnapgridCenter
   canBuildInImpassable: false

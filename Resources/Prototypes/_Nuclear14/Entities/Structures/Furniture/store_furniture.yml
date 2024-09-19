@@ -2,8 +2,8 @@
 - type: entity
   parent: BaseStructure
   id: N14StoreDeliCounter
-  name: "гастрономічний прилавок"
-  description: "Металевий прилавок для демонстрації їжі."
+  name: deli counter
+  description: A metal counter for showing off food.
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Furniture/Store_Furniture/delistand.rsi
@@ -66,8 +66,8 @@
   parent: BaseStructure
   id: N14StoreFruitstand
   suffix: empty
-  name: "фруктовий стенд"
-  description: "Ящик для демонстрації продуктів."
+  name: fruit stand
+  description: A box for displaying produce.
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Furniture/Store_Furniture/fruitstand.rsi
@@ -117,8 +117,8 @@
   parent: N14StoreFruitstand
   id: N14StoreFruitstand1
   suffix: brown
-  name: "фруктовий стенд"
-  description: "Ящик для демонстрації продуктів. У цьому ящику щось є."
+  name: fruit stand
+  description: A box for displaying produce. This one has stuff in it.
   components:
   - type: Sprite
     state: fruitstand-1
