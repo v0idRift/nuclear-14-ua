@@ -3,8 +3,8 @@
   abstract: true
   id: N14BaseSubstation
   parent: BaseMachine
-  name: substation
-  description: Reduces the voltage of electricity put into it.
+  name: "підстанція"
+  description: "Зменшує напругу електроенергії, що подається в нього."
   placement:
     mode: SnapgridCenter
   components:
@@ -169,7 +169,7 @@
 - type: entity
   parent: MachineFrameDestroyed
   id: N14SubstationDestroyed
-  name: destroyed substation
+  name: "зруйнована підстанція"
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Power/32x48_machines.rsi
@@ -180,7 +180,7 @@
 - type: entity
   parent: N14SubstationDestroyed
   id: N14SubstationRustyDestroyed
-  name: destroyed substation
+  name: "зруйнована підстанція"
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Power/32x48_machines.rsi

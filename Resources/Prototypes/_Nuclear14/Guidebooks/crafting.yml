@@ -1,6 +1,6 @@
 - type: guideEntry
   id: N14Crafting
-  name: guide-entry-crafting
+  name: "створення путівника для в'їзду"
   text: "/ServerInfo/_Nuclear14/Guidebooks/Crafting/index.xml"
   children:
   - N14Materials
@@ -17,19 +17,19 @@
   
 - type: guideEntry
   id: N14Materials
-  name: guide-entry-materials
+  name: "путівник-в'їзні-матеріали"
   text: "/ServerInfo/_Nuclear14/Guidebooks/Crafting/Materials.xml"
   filterEnabled: True
   
 - type: guideEntry
   id: N14Cooking
-  name: guide-entry-cooking
+  name: "путівник-вхід-приготування їжі"
   text: "/ServerInfo/_Nuclear14/Guidebooks/Crafting/Cooking.xml"
   filterEnabled: True
   
 - type: guideEntry
   id: N14Bartending
-  name: guide-entry-bartending
+  name: "екскурсовод-вхід-бармен"
   text: "/ServerInfo/_Nuclear14/Guidebooks/Crafting/Bartending.xml"
   filterEnabled: True
   

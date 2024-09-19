@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseItem
   id: ResearchDisk
-  name: research point disk (1000)
-  description: A disk for the R&D server containing 1000 points.
+  name: "диск з дослідницькими точками (1000)"
+  description: "Диск для R&D сервера, що містить 1000 балів."
   noSpawn: true
   components:
   - type: Sprite
@@ -22,8 +22,8 @@
 - type: entity
   parent: ResearchDisk
   id: ResearchDisk5000
-  name: research point disk (5000)
-  description: A disk for the R&D server containing 5000 points.
+  name: "диск з дослідницькою точкою (5000)"
+  description: "Диск для R&D сервера, що містить 5000 балів."
   noSpawn: true
   components:
   - type: ResearchDisk
@@ -32,8 +32,8 @@
 - type: entity
   parent: ResearchDisk
   id: ResearchDisk10000
-  name: research point disk (10000)
-  description: A disk for the R&D server containing 10000 points.
+  name: "диск дослідницької точки (10000)"
+  description: "Диск для R&D сервера, що містить 10000 балів."
   noSpawn: true
   components:
   - type: ResearchDisk
@@ -42,8 +42,8 @@
 - type: entity
   parent: ResearchDisk
   id: ResearchDisk20000
-  name: research point disk (20000)
-  description: A disk for the R&D server containing 20000 points.
+  name: "диск дослідницької точки (20000)"
+  description: "Диск для R&D сервера, що містить 20000 балів."
   noSpawn: true
   components:
   - type: ResearchDisk
@@ -52,9 +52,9 @@
 - type: entity
   parent: ResearchDisk
   id: ResearchDiskDebug
-  name: research point disk
+  name: "диск дослідницької точки"
   suffix: DEBUG, DO NOT MAP
-  description: A disk for the R&D server containing all the points you could ever need.
+  description: "Диск для R&D сервера з усіма пунктами, які можуть вам коли-небудь знадобитися."
   noSpawn: true
   components:
   - type: ResearchDisk
@@ -63,8 +63,8 @@
 - type: entity
   parent: BaseItem
   id: TechnologyDisk
-  name: technology disk
-  description: A disk for the R&D server containing research technology.
+  name: "технологічний диск"
+  description: "Диск для R&D сервера, що містить дослідницьку технологію."
   noSpawn: true
   components:
   - type: Sprite

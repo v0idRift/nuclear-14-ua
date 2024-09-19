@@ -1,6 +1,6 @@
 - type: entity
   id: PelletShotgun12
-  name: pellet (12 gauge)
+  name: "куля (12 калібр)"
   noSpawn: true
   parent: BaseBullet
   components:

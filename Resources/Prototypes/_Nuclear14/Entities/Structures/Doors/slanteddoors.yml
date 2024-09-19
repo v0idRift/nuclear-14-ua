@@ -3,9 +3,9 @@
 - type: entity
   parent: BaseMaterialDoorNavMap
   id: N14DoorMetalBlueSlanted
-  name: blue metal door
+  name: "сині металеві двері"
   suffix: slanted
-  description: An old blue metal door.
+  description: "Старі сині металеві двері."
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Doors/SlantedDoors/metalblue.rsi
@@ -49,9 +49,9 @@
 - type: entity
   parent: N14DoorMetalBlueSlanted
   id: N14DoorMetalRedSlanted
-  name: red metal door
+  name: "червоні металеві двері"
   suffix: Slanted
-  description: An old red metal door.
+  description: "Старі червоні металеві двері."
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Doors/SlantedDoors/metalred.rsi
@@ -65,7 +65,7 @@
 - type: entity
   parent: N14DoorMetalBlueSlanted
   id: N14DoorMetalBlueAltSlanted
-  name: alt blue metal door
+  name: "сині металеві двері alt"
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Doors/SlantedDoors/metalbluealt.rsi
@@ -79,9 +79,9 @@
 - type: entity
   parent: N14DoorMetalBlueSlanted
   id: N14DoorMetalBlueWindowSlanted
-  name: metal windowed door
+  name: "металопластикові двері"
   suffix: Slanted, windowed
-  description: An old blue metal door with a window.
+  description: "Старі сині металеві двері з вікном."
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Doors/SlantedDoors/metalbluewindow.rsi
@@ -99,9 +99,9 @@
 - type: entity
   parent: N14DoorMetalBlueWindowSlanted
   id: N14DoorMetalGrateSlanted
-  name: metal grated door
+  name: "металеві решітчасті двері"
   suffix: Slanted, grate
-  description: A metal mesh door.
+  description: "Металеві сітчасті двері."
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Doors/SlantedDoors/metal_grate.rsi
@@ -112,9 +112,9 @@
 - type: entity
   parent: N14DoorMetalBlueWindowSlanted
   id: N14DoorMetalBarSlanted
-  name: cell door
+  name: "двері камери"
   suffix: Slanted, bar
-  description: A metal bar door.
+  description: "Металеві ґратчасті двері."
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Doors/SlantedDoors/metal_bar.rsi
@@ -133,9 +133,9 @@
 - type: entity
   parent: N14DoorMetalBlueWindowSlanted
   id: N14DoorMetalFenceSlanted
-  name: fence gate
+  name: "ворота паркану"
   suffix: Slanted, fence
-  description: A metal fence gate.
+  description: "Хвіртка з металевого паркану."
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Doors/SlantedDoors/fence.rsi
@@ -149,9 +149,9 @@
 - type: entity
   parent: N14DoorMetalBlueWindowSlanted
   id: N14DoorMetalFenceBarbedSlanted
-  name: barbed fence gate
+  name: "ворота з колючого паркану"
   suffix: Slanted, fence barbed
-  description: A metal barbed fence gate.
+  description: "Ворота з металевого колючого паркану."
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Doors/SlantedDoors/fence_barbed.rsi
@@ -164,9 +164,9 @@
 - type: entity
   parent: N14DoorMetalBlueSlanted
   id: N14DoorWoodSlanted
-  name: wooden door
+  name: "дерев'яні двері"
   suffix: Slanted
-  description: A wooden door.
+  description: "Дерев'яні двері."
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Doors/SlantedDoors/wood.rsi
@@ -204,7 +204,7 @@
 - type: entity
   parent: N14DoorWoodSlanted
   id: N14DoorWoodBlueSlanted
-  name: blue wooden door
+  name: "сині дерев'яні двері"
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Doors/SlantedDoors/woodblue.rsi
@@ -215,7 +215,7 @@
 - type: entity
   parent: N14DoorWoodSlanted
   id: N14DoorWoodGreenSlanted
-  name: green wooden door
+  name: "зелені дерев'яні двері"
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Doors/SlantedDoors/woodgreen.rsi
@@ -226,7 +226,7 @@
 - type: entity
   parent: N14DoorWoodSlanted
   id: N14DoorWoodRedSlanted
-  name: red wooden door
+  name: "червоні дерев'яні двері"
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Doors/SlantedDoors/woodred.rsi
@@ -237,7 +237,7 @@
 - type: entity
   parent: N14DoorWoodSlanted
   id: N14DoorWoodWhiteSlanted
-  name: white wooden door
+  name: "білі дерев'яні двері"
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Doors/SlantedDoors/woodwhite.rsi
@@ -250,9 +250,9 @@
 - type: entity
   parent: N14DoorMetalBlueSlanted
   id: N14DoorAirlockSlanted
-  name: airlock
+  name: "повітряний шлюз"
   suffix: slanted
-  description: An old bunker airlock.
+  description: "Старий шлюз бункера."
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Doors/SlantedDoors/airlock.rsi

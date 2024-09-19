@@ -1,6 +1,6 @@
 - type: entity
   id: StairsBase
-  name: stairs
+  name: "сходи"
   placement:
     mode: SnapgridCenter
   components:

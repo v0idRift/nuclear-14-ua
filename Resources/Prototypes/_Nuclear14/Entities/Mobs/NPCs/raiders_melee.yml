@@ -1,8 +1,8 @@
 - type: entity
-  name: Psycho Raider
+  name: "Psycho Raider"
   id: N14MobRaiderPsycho
   parent: N14MobBaseHostileScaley
-  description: "Psychopatic raider who will stab and rob just about anyone."
+  description: "Психопат-рейдер, який заріже і пограбує будь-кого."
   components:
   - type: NpcFactionMember
     factions:

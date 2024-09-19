@@ -4,8 +4,8 @@
   parent: MobSiliconBase
   id: N14MobRobotHostile
   suffix: hostile npc
-  name: robot
-  description: Designed to serve humankind. Maybe it ended it.
+  name: "робот"
+  description: "Створений, щоб служити людству. Можливо, це поклало йому край."
   components:
   - type: InputMover
   - type: MobMover
@@ -92,8 +92,8 @@
 - type: entity
   parent: N14MobRobotHostileMelee
   id: N14MobRobotAssaultronHostile
-  name: Assaultron
-  description: Horrifying.
+  name: "Ассаултрон"
+  description: "Жахливо."
   components:
   - type: MovementSpeedModifier
     baseWalkSpeed : 2
@@ -101,7 +101,7 @@
   - type: GhostRole
     prob: 1
     makeSentient: true
-    name: Assaultron
+    name: "Ассаултрон"
     description: |
       Protect your area and remove any trespassers.
   - type: Sprite
@@ -130,8 +130,8 @@
 - type: entity
   parent: N14MobRobotHostileMelee
   id: N14MobRobotProtectronHostile
-  name: Protectron
-  description: A common protectron looking for a fight.
+  name: "Протектоне"
+  description: "Звичайний протрон, який шукає бою."
   components:
   - type: MovementSpeedModifier
     baseWalkSpeed : 1
@@ -169,8 +169,8 @@
 - type: entity
   parent: N14MobRobotProtectronHostile
   id: N14MobRobotProtectronBuilderHostile
-  name: Protectron
-  description: A protectron builder looking for a fight.
+  name: "Протектоне"
+  description: "Будівельник протетронів, який шукає бою."
   components:
   - type: Sprite
     sprite: _Nuclear14/Mobs/Robots/protectron-builder.rsi
@@ -189,8 +189,8 @@
 - type: entity
   parent: N14MobRobotProtectronHostile
   id: N14MobRobotProtectronFireHostile
-  name: Protectron
-  description: A protectron firefighter looking for a fight.
+  name: "Протектоне"
+  description: "Пожежник-протектор, який шукає бою."
   components:
   - type: Sprite
     sprite: _Nuclear14/Mobs/Robots/protectron-fire.rsi
@@ -209,8 +209,8 @@
 - type: entity
   parent: N14MobRobotProtectronHostile
   id: N14MobRobotProtectronPoliceHostile
-  name: Protectron
-  description: A protectron police bot looking for a fight.
+  name: "Протектоне"
+  description: "Поліцейський бот-протектрон, який шукає бійки."
   components:
   - type: Sprite
     sprite: _Nuclear14/Mobs/Robots/protectron-police.rsi
@@ -248,8 +248,8 @@
 - type: entity
   parent: N14MobRobotHostileMelee
   id: N14MobRobotMrHandyClaw
-  name: Mr Handy
-  description: A domestic Mr Handy model with a claw attachment.
+  name: "Містере Хенді"
+  description: "Вітчизняна модель Mr Handy з насадкою для кігтів."
   suffix: hostile, claw
   components:
   - type: MovementSpeedModifier
@@ -278,7 +278,7 @@
   - type: GhostRole
     prob: 1
     makeSentient: true
-    name: Mr Handy
+    name: "Містере Хенді"
     description: |
       Protect your area and remove any trespassers.
   # - type: AmbientSound
@@ -290,7 +290,7 @@
 - type: entity
   parent: N14MobRobotMrHandyClaw
   id: N14MobRobotMrHandySaw
-  description: A domestic Mr Handy model with a saw attachment.
+  description: "Вітчизняна модель Mr Handy з насадкою-пилкою."
   suffix: hostile, saw
   components:
   - type: Sprite
@@ -310,8 +310,8 @@
 - type: entity
   parent: N14MobRobotHostile
   id: N14MobRobotMrHandyGun
-  name: Mr Handy
-  description: A domestic Mr Handy model with a gun attachment.
+  name: "Містере Хенді"
+  description: "Вітчизняна модель \"Містер Хенді\" з кріпленням для пістолета."
   suffix: hostile, gun
   components:
   - type: MovementSpeedModifier
@@ -333,7 +333,7 @@
   - type: GhostRole
     prob: 1
     makeSentient: true
-    name: Mr Handy
+    name: "Містере Хенді"
     description: |
       Protect your area and remove any trespassers.
   - type: Gun #Mobs currently cannot bolt a gun, so we have to simulate them firing it
@@ -361,8 +361,8 @@
 - type: entity
   parent: N14MobRobotHostile
   id: N14MobRobotMrHandyGutsy
-  name: Mr Gutsy
-  description: A military Mr Gutsy model with a plasma attachment.
+  name: "Містере Гатсі"
+  description: "Військова модель Mr Gutsy з плазмовою насадкою."
   suffix: hostile, plasma
   components:
   - type: MovementSpeedModifier
@@ -384,7 +384,7 @@
   - type: GhostRole
     prob: 1
     makeSentient: true
-    name: Mr Gutsy
+    name: "Містере Гатсі"
     description: |
       Protect your area and remove any trespassers.
   - type: Gun #Mobs currently cannot bolt a gun, so we have to simulate them firing it
@@ -410,8 +410,8 @@
 - type: entity
   parent: N14MobRobotHostile
   id: N14MobRobotRobobrain
-  name: Robobrain
-  description: A military Robobrain fitted out with a laser weapon.
+  name: "Робомозок"
+  description: "Військовий робомозок, оснащений лазерною зброєю."
   suffix: hostile, laser
   components:
   - type: MovementSpeedModifier
@@ -433,7 +433,7 @@
   - type: GhostRole
     prob: 1
     makeSentient: true
-    name: Robobrain
+    name: "Робомозок"
     description: |
       Protect your area and remove any trespassers.
   - type: Gun #Mobs currently cannot bolt a gun, so we have to simulate them firing it
@@ -459,8 +459,8 @@
 - type: entity
   parent: N14MobRobotHostile
   id: N14MobRobotEyebot
-  name: Eyebot
-  description: A military Eyebot playing a catchy tune.
+  name: "Окобот"
+  description: "Військовий Eyebot грає мелодію, що запам'ятовується."
   suffix: hostile, laser
   components:
   - type: MovementSpeedModifier
@@ -475,7 +475,7 @@
   - type: GhostRole
     prob: 1
     makeSentient: true
-    name: Eyebot
+    name: "Окобот"
     description: |
       Protect your area and remove any trespassers.
   - type: Gun #Mobs currently cannot bolt a gun, so we have to simulate them firing it

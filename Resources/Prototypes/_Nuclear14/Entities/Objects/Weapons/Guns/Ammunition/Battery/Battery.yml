@@ -1,6 +1,6 @@
 - type: entity
-  name: microfusion cell
-  description: A microfusion cell, typically used as ammunition for large energy weapons.
+  name: "комірка для мікрофузії"
+  description: "Комірка мікросинтезу, що зазвичай використовується як боєприпас для великої енергетичної зброї."
   id: N14BasePowerCell
   abstract: true
   parent: BaseItem
@@ -40,8 +40,8 @@
 #MARK: MF
 
 - type: entity
-  name: microfusion cell
-  description: A small energy container that fits in your palm, commonly used as ammo for any kind of laser weapon.
+  name: "комірка для мікрофузії"
+  description: "Невеликий енергетичний контейнер, що поміщається на долоні, зазвичай використовується як боєприпас для будь-якого виду лазерної зброї."
   id: N14PowerCellHigh
   suffix: Full
   parent: N14BasePowerCell
@@ -61,8 +61,8 @@
 #MARK: MF Focused
 
 - type: entity
-  name: heavy microfusion cell
-  description: A microfusion cell, typically used as ammunition for large energy weapons. Modified to expand a lot more charge at once to deal considerably more destruction per shot.
+  name: "важка комірка для мікрофузії"
+  description: "Мікро термоядерний елемент, що зазвичай використовується як боєприпас для великої енергетичної зброї. Модифікована для одночасного розгортання набагато більшого заряду, щоб завдати значно більшої шкоди за один постріл."
   id: N14PowerCellFocused
   suffix: Full
   parent: N14BasePowerCell
@@ -89,8 +89,8 @@
 #MARK: EC
 
 - type: entity
-  name: energy cell
-  description: An energy cell, typically used as ammunition for small-arms energy weapons.
+  name: "енергетична комірка"
+  description: "Енергетичний елемент, що зазвичай використовується як боєприпас для стрілецької енергетичної зброї."
   id: N14PowerCellSmall
   suffix: Full
   parent: N14BasePowerCell
@@ -119,8 +119,8 @@
 #MARK: ECP
 
 - type: entity
-  name: electron charge pack
-  description: An electron charge pack, typically used as ammunition for advanced energy weapons.
+  name: "пакет електронного заряду"
+  description: "Пакет електронних зарядів, який зазвичай використовується як боєприпас для сучасної енергетичної зброї."
   id: N14PowerCellAdvanced
   suffix: Full
   parent: N14BasePowerCell
@@ -147,8 +147,8 @@
 #MARK: Fusion Cell
 
 - type: entity
-  name: fusion cell
-  description: A large energy container about the size of a fist, commonly used as ammo for heavy laser weapons.
+  name: "термоядерна комірка"
+  description: "Великий енергетичний контейнер розміром з кулак, який зазвичай використовується як боєприпас для важкої лазерної зброї."
   id: N14PowerCellFusion
   suffix: Full
   parent: N14BasePowerCell
@@ -177,8 +177,8 @@
 #MARK: Plasma cartridge
 
 - type: entity
-  name: plasma cartridge
-  description: A small green glowing cartridge, commonly used as ammo for any kind of plasma weapon.
+  name: "плазмовий картридж"
+  description: "Невеликий зелений патрон, що світиться, зазвичай використовується як боєприпас для будь-якого виду плазмової зброї."
   id: N14BasePlasmaCell
   abstract: true
   parent: BaseItem
@@ -216,8 +216,8 @@
     fireCost: 100
 
 - type: entity
-  name: plasma cartridge
-  description: A small green glowing cartridge, commonly used as ammo for any kind of plasma weapon.
+  name: "плазмовий картридж"
+  description: "Невеликий зелений патрон, що світиться, зазвичай використовується як боєприпас для будь-якого виду плазмової зброї."
   id: N14PlasmaCartridge
   suffix: Full
   parent: N14BasePlasmaCell
@@ -237,8 +237,8 @@
 #MARK: Plasma shell
 
 - type: entity
-  name: plasma shell
-  description: A big green glowing shell, commonly used as ammo for heavy plasma weapons.
+  name: "плазмова оболонка"
+  description: "Великий зелений снаряд, що світиться, зазвичай використовується як боєприпас для важкої плазмової зброї."
   id: N14PlasmaShell
   suffix: Full
   parent: N14BasePlasmaCell

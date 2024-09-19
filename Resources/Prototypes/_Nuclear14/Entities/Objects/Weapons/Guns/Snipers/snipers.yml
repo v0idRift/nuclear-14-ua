@@ -1,8 +1,8 @@
 - type: entity
-  name: hunting rifle
+  name: "мисливська рушниця"
   parent: BaseWeaponSniper
   id: N14WeaponSniperHunting
-  description: A rugged bolt action rifle. Uses .308 ammo.
+  description: "Міцна гвинтівка з продольно-скользящим затвором. Використовує набої .308 калібру."
   components:
   - type: Clothing
     sprite: _Nuclear14/Objects/Weapons/Guns/Snipers/hunting.rsi
@@ -32,10 +32,10 @@
     backStrength: 3
 
 - type: entity
-  name: Anti-Materiel rifle
+  name: "Протитанкова гвинтівка"
   parent: BaseWeaponRifle
   id: N14WeaponAntiMateriel
-  description: An anti materiel rifle with a ergonomic, metallic skeleton design. Only looking at it can you tell it'll rip some limbs apart. Uses .50 anti-material ammo.
+  description: "Пневматична гвинтівка з ергономічним металевим корпусом. Лише глянувши на неї, можна зрозуміти, що вона відірве комусь кінцівки. Використовує протиматеріальні набої калібру .50."
   components:
   - type: Clothing
     sprite: _Nuclear14/Objects/Weapons/Guns/Snipers/antimateriel.rsi
@@ -95,10 +95,10 @@
     backStrength: 3
 
 - type: entity
-  name: .50 NCR rifle
+  name: "Гвинтівка .50 NCR"
   parent: BaseWeaponSniper
   id: N14Weapon50NcrRifle
-  description: An attempt by the NCR to make .50 ammo standard for normal infantry, very cheap but deals a lot of damage. Uses .50 anti-material ammo.
+  description: "Спроба NCR зробити боєприпаси калібру .50 стандартними для звичайної піхоти, дуже дешеві, але завдають великої шкоди. Використовуються протиматеріальні боєприпаси калібру .50."
   components:
   - type: Sprite
     sprite: _Nuclear14/Objects/Weapons/Guns/Snipers/50ncrrifle.rsi
@@ -126,10 +126,10 @@
     backStrength: 3
 
 - type: entity
-  name: lever action carbine
+  name: "карабін важільної дії"
   parent: N14WeaponSniperHunting
   id: N14WeaponLeverCarbine
-  description: A short lever action carbine. Uses .44 ammo.
+  description: "Короткий важільний карабін. Використовує набої 44-го калібру."
   components:
   - type: Clothing
     sprite: _Nuclear14/Objects/Weapons/Guns/Snipers/levercarbine.rsi
@@ -159,10 +159,10 @@
     backStrength: 3
 
 - type: entity
-  name: lever action rifle
+  name: "важільна гвинтівка"
   parent: N14WeaponSniperHunting
   id: N14WeaponLeverRifle
-  description: A long lever action repeater rifle. Uses .308 ammo.
+  description: "Снайперська гвинтівка з довгим важелем. Використовує набої калібру .308."
   components:
   - type: Clothing
     sprite: _Nuclear14/Objects/Weapons/Guns/Snipers/leverrifle.rsi
@@ -178,10 +178,10 @@
     backStrength: 3
 
 - type: entity
-  name: brush gun
+  name: "щітковий пістолет"
   parent: N14WeaponSniperHunting
   id: N14WeaponBrushGun
-  description: A powerful lever action carbine. Uses .45-70 gov't ammo.
+  description: "Потужний карабін з важільною системою. Використовує державні набої .45-70."
   components:
   - type: Clothing
     sprite: _Nuclear14/Objects/Weapons/Guns/Snipers/brushgun.rsi
@@ -204,10 +204,10 @@
     backStrength: 3
 
 - type: entity
-  name: pipe rifle
+  name: "трубна гвинтівка"
   parent: N14WeaponSniperHunting
   id: N14WeaponPipeRifle
-  description: A piece of metal pipe with a wooden stock, works as a gun and uses .308 ammo.
+  description: "Шматок металевої труби з дерев'яним прикладом, працює як пістолет і використовує набої калібру .308."
   components:
   - type: Clothing
     sprite: _Nuclear14/Objects/Weapons/Guns/Snipers/piperifle.rsi
@@ -229,10 +229,10 @@
     backStrength: 3
 
 - type: entity
-  name: varmint rifle
+  name: "гвинтівка для гризунів"
   parent: BaseWeaponSniper
   id: N14WeaponSniperVarmint
-  description: A pre-war low power bolt action rifle, originally designed to hunt small animals. This gun works fine on anything no bigger than a human. Uses 5.56 ammo.
+  description: "Довоєнна малопотужна гвинтівка з затворною системою, спочатку призначена для полювання на дрібних тварин. Ця гвинтівка чудово справляється з усім, що не перевищує людський зріст. Використовує набої калібру 5.56."
   components:
   - type: Clothing
     sprite: _Nuclear14/Objects/Weapons/Guns/Snipers/varmint.rsi
