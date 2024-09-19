@@ -86,7 +86,7 @@ reagent-name-banana-honk = банана Хонкуц-кгй
 reagent-desc-banana-honk = нехай друзі і вороги бояться твого ХОНК-ХОНК
 
 reagent-name-barefoot = босоніжка
-reagent-desc-barefoot = Barefoot and pregnant. Щоб це не означало... Щоб це не означало... Щоб це не означало... Щоб це не означало...
+reagent-desc-barefoot = Barefoot and pregnant. Щоб це не означало...
 
 reagent-name-beepsky-smash = удар Біпскі
 reagent-desc-beepsky-smash = Слава офіцеру Біпскі! Готуйтеся,закон вже близько!
@@ -250,7 +250,7 @@ reagent-name-coconut-rum = кокосовий ром
 reagent-desc-coconut-rum = Ром з кокосовою стружкою для тропічного відчуття.
 reagent-name-cosmopolitan = космополіт
 reagent-desc-cosmopolitan = Навіть у найгірших ситуаціях ніщо не зрівняється зі свіжим космополітом.
-reagent-name-painkiller = знеболююче
+reagent-name-painkiller = знеболювальне
 reagent-desc-painkiller = Ліки від того, що вас турбує.
 reagent-name-pina-colada = піна-колада
 reagent-desc-pina-colada = За те, що загубився під дощем.

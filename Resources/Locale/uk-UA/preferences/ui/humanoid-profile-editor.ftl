@@ -29,7 +29,7 @@ humanoid-profile-editor-spawn-priority-label = Пріоритет спавну:
 humanoid-profile-editor-eyes-label = Колір очей:
 humanoid-profile-editor-jobs-tab = Робота
 humanoid-profile-editor-preference-unavailable-stay-in-lobby-button = Залишитись у лобі якщо робота недоступна.
-humanoid-profile-editor-preference-unavailable-spawn-as-overflow-button = Бути {INDEFINITE($overflowJob)} {$overflowJob} якщо робота недоступна.
+humanoid-profile-editor-preference-unavailable-spawn-as-overflow-button = Бути {$overflowJob} якщо робота недоступна.
 humanoid-profile-editor-preference-jumpsuit = Комбінезон
 humanoid-profile-editor-preference-jumpskirt = Спідниця-комбінезон
 humanoid-profile-editor-preference-backpack = Рюкзак
@@ -82,3 +82,13 @@ humanoid-profile-editor-loadouts-no-loadouts = Нічого не знайден�
 
 humanoid-profile-editor-markings-tab = Маркування
 humanoid-profile-editor-flavortext-tab = Опис
+
+humanoid-profile-editor-traits-remove-unusable-button = Видалити {$count} Непридатні риси
+humanoid-profile-editor-traits-remove-unusable-button-tooltip = Якщо ви натиснете цю кнопку, всі риси, які не можуть бути використані у вашому поточному наборі символів, буде вилучено.
+    Перед тим, як риси буде вилучено, вам буде запропоновано підтвердити їхнє видалення.
+humanoid-profile-editor-loadouts-remove-unusable-button = Видалити {$count ->
+    [1] {$count} Непридатне вбрання
+    *[other] {$count} Непридатні вбрання
+}
+humanoid-profile-editor-loadouts-remove-unusable-button-tooltip = Якщо ви натиснете цю кнопку, всі вбрання, які не можуть бути використані у вашому поточному наборі одягу, буде вилучено.
+    Перед видаленням вбрання вас буде запитано про підтвердження.

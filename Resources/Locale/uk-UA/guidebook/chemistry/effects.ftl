@@ -14,10 +14,8 @@
     }
 
 reagent-effect-guidebook-create-entity-reaction-effect = { $chance ->
-        [1] створює
         *[other] створює
     } { $amount ->
-        [1] {INDEFINITE($entname)}
         *[other] {$amount} {MAKEPLURAL($entname)}
     }
 
@@ -303,3 +301,21 @@ reagent-effect-guidebook-missing = { $chance ->
         [1] Причини
         *[other] причина
     } невідомий ефект, оскільки його ще ніхто не описав
+
+reagent-effect-guidebook-change-glimmer-reaction-effect = { $chance ->
+        [1] Змінює
+        *[other] змінює
+    } кількість мерехтінь на {$count} пунктів
+reagent-effect-guidebook-chem-remove-psionic = { $chance ->
+        [1] видаляє
+        *[other] видаляє
+    } псіонічні здібності
+reagent-effect-guidebook-chem-reroll-psionic = { $chance ->
+        [1] Дозволяє
+        *[other] дозволяє
+    } шанс отримати іншу псионічну силу
+reagent-effect-guidebook-add-moodlet = змінює настрій на {$amount}
+    { $timeout ->
+        [0] на невизначений час
+        *[other] на {$timeout} секунд
+    }

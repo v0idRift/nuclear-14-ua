@@ -294,3 +294,7 @@ reagent-name-water-salt = солона вода
 reagent-desc-water-salt = солона вода. Може, прокип'ятити?
 
 ## Сода
+materials-antchitin = хітин
+materials-exoskeleton = екзоскелет
+materials-leather = шкіра
+materials-raw-leather = сира шкіра

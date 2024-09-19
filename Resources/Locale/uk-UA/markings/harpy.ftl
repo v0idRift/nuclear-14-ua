@@ -41,10 +41,10 @@ marking-HarpyWingTipsClassic-harpy_wingtip_1 = Головна
 marking-HarpyWingTipsClassic-harpy_wingtip_2 = Кінчики пір'я
 
 marking-HarpyEarsDefault = Пучки пір'я
-marking-HarpyEarsDefault-harpy_ears_default = Чубчик
+marking-HarpyEarsDefault-harpy_ears_default = Чубчикии
 
 marking-HarpyEarsLarge = Великі пучки пір'я
-marking-HarpyEarsLarge-harpy_ears_large = Пучки
+marking-HarpyEarsLarge-harpy_ears_large = Чубчики
 
 marking-HarpyTailPhoenix = Основний хвіст
 marking-HarpyTailPhoenix-phoenix_tail = Хвіст
@@ -75,3 +75,16 @@ marking-HarpyLegsDefault-thighs = Стегна
 marking-HarpyFeetDefault = Пташині лапки
 marking-HarpyFeetDefault-feet = Ноги
 marking-HarpyFeetDefault-talons = Пазурі
+
+marking-HarpyWingBat = Крилаті кажани (білокрилка)
+marking-HarpyWingBat-bat_wings_tone_1 = Кінцівки
+marking-HarpyWingBat-bat_wings_tone_2 = Мембрана
+marking-HarpyWingBionic = Прості біонічні крила (Whitescale)
+marking-HarpyWingBionic-bionic_wings_tone_1 = Крила
+marking-HarpyWingBionic-bionic_wings_tone_2 = Світло (незаштриховане)
+marking-HarpyTailHaven = Хвостатий хвіст (білохвіст)
+marking-HarpyTailHaven-haven_tone_1 = Зовнішнє пір'я
+marking-HarpyTailHaven-haven_tone_2 = Внутрішнє пір'я
+marking-HarpyTailForkedLong = Довгохвіст (білохвіст)
+marking-HarpyTailForkedLong-forked_long = Хвіст
+marking-HarpyTailSwallow = Ластівчин хвіст (білокрилка)

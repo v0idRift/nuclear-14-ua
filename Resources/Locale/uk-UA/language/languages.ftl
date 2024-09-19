@@ -71,4 +71,8 @@ language-Kobold-name = Кобольд
 language-Kobold-description = Шипіння!
 
 language-SignLanguage-name = Мова жестів
-language-SignLanguage-description = Стандартна галактична мова жестів, якою користуються ті, хто не може розмовляти галактичною мовою або взагалі не володіє нею.
+language-SignLanguage-description = Стандартна галактична мова жестів, якою користуються ті, хто не може розмовляти галактичною мовою або не володіє нею взагалі.
+language-Sign-name = Мова жестів
+language-Sign-description = Стандартна галактична мова жестів, якою користуються ті, хто не може розмовляти галактичною мовою або не володіє нею взагалі.
+language-Hissing-name = Шипіння
+language-Hissing-description = Шипіння!

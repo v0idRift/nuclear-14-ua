@@ -6,11 +6,11 @@ pick-up-verb-get-data-text = Підібрати.
 
 pick-up-verb-get-data-text-inventory = Покласти в руку
 
-item-component-on-examine-size = Цей елемент [bold]{$size}[/bold]
+item-component-on-examine-size = [bold]{$size}[/bold] елемент
 
 item-component-size-Tiny = крихітний
 item-component-size-Small = невеликий
 item-component-size-Normal = середній
 item-component-size-Large = великий
-item-component-size-Huge = величезна
+item-component-size-Huge = величезний
 item-component-size-Ginormous = велетенський

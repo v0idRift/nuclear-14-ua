@@ -8,4 +8,4 @@ store-ui-traitor-warning = Оперативники повинні заблок�
 store-withdraw-button-ui = Зняти {$currency}
 
 store-ui-button-out-of-stock = {""} (Немає в наявності)
-store-not-account-owner = This {$store} is not bound to you!
+store-not-account-owner = Цей {$store} не прив'язаний до вас!

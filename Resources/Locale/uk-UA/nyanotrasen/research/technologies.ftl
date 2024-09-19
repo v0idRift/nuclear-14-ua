@@ -1,3 +1,3 @@
-research-technology-psionic-countermeasures = Псіонічні контрзаходи
+research-technology-psionic-countermeasures = Псіонні контрзаходи
 research-technology-teleportation = Телепортація
 research-technology-metempsychosis = Метемпсихоз

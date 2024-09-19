@@ -14,5 +14,5 @@ nav-beacon-examine-text = Це [color={$enabled ->
 
 nav-beacon-pos-no-beacons = в глушині
 nav-beacon-pos-format = [color={$color}]біля {$marker}[/color]
-nav-beacon-pos-format-direction = [color={$color}]{$modifier}{$direction} {$marker}[/color]
+nav-beacon-pos-format-direction = [color={$color}]{$modifier}{$direction} з {$marker}[/color]
 nav-beacon-pos-format-direction-mod-far = далеко {""}

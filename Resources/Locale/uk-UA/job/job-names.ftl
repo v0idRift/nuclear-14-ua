@@ -101,3 +101,7 @@ JobZookeeper = Зоолог
 
 job-name-ertchaplain = Капелан екстреної медичної допомоги
 JobERTChaplain = Капелан екстреної медичної допомоги
+job-name-roboticist = Робототехнік
+
+# Role timers - Make these alphabetical or I cut you
+JobRoboticist = Робототехнік

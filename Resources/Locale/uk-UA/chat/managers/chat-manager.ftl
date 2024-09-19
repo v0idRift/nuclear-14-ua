@@ -21,8 +21,8 @@ chat-manager-whisper-headset-on-message = По радіо не можна шеп
 chat-manager-server-wrap-message = [bold]{$message}[/bold]
 chat-manager-sender-announcement-wrap-message = [font size=14][bold]{$sender} Оголошення:[/font][font size=12]
                                                 {$message}[/bold][/font]
-chat-manager-entity-say-wrap-message = [BubbleHeader][Name]{$entityName}[/Name][/BubbleHeader] {$verb}, [font="{$fontType}" size={$fontSize}]"[color={$color}][BubbleContent]{$message}[/BubbleContent][/color]"[/font]
-chat-manager-entity-say-bold-wrap-message = [BubbleHeader][Name]{$entityName}[/Name][/BubbleHeader] {$verb}, [font="{$fontType}" size={$fontSize}]"[color={$color}][BubbleContent][bold]{$message}[/bold][/BubbleContent][/color]"[/font]
+chat-manager-entity-say-wrap-message = [BubbleHeader][Name]{$entityName}[/Name][/BubbleHeader] {$verb}, "[BubbleContent][font="{$fontType}" size={$fontSize}][color={$color}]{$message}[/color][/font][/BubbleContent]"
+chat-manager-entity-say-bold-wrap-message = [BubbleHeader][Name]{$entityName}[/Name][/BubbleHeader] {$verb}, "[BubbleContent][font="{$fontType}" size={$fontSize}][color={$color}][bold]{$message}[/bold][/color][/font][/BubbleContent]"
 
 chat-manager-entity-whisper-wrap-message = [font size=11][italic][BubbleHeader][Name]{$entityName}[/Name][/BubbleHeader] шепоче, "[BubbleContent]{$message}[/BubbleContent]"[/italic][/font]
 chat-manager-entity-whisper-unknown-wrap-message = [font size=11][italic][BubbleHeader]Хтось[/BubbleHeader] шепоче: "[BubbleContent]{$message}[/BubbleContent]"[/italic][/font]
@@ -81,8 +81,8 @@ chat-speech-verb-plant-1 = шелестить
 chat-speech-verb-plant-2 = гойдається
 chat-speech-verb-plant-3 = скрипить
 
-chat-speech-verb-robotic-1 = держави
-chat-speech-verb-robotic-2 = гудки
+chat-speech-verb-robotic-1 = константує
+chat-speech-verb-robotic-2 = бібупає
 
 chat-speech-verb-reptilian-1 = шипіння
 chat-speech-verb-reptilian-2 = фиркає
@@ -152,3 +152,8 @@ chat-speech-verb-name-cluwne = Клюн
 chat-speech-verb-name-parrot = Папуга
 chat-speech-verb-name-ghost = Привид
 chat-speech-verb-name-electricity = Електрика
+chat-speech-verb-name-oni = Вони
+chat-speech-verb-oni-1 = хрюкає
+chat-speech-verb-oni-2 = сильфони
+chat-speech-verb-oni-3 = крики
+chat-speech-verb-oni-4 = гуркіт

@@ -20,7 +20,16 @@ markings-category-HeadTop = Голова (зверху)
 markings-category-HeadSide = Голова (збоку)
 markings-category-Snout = Морда
 markings-category-Chest = Груди
-markings-category-Arms = Зброя
+markings-category-Arms = Руки
 markings-category-Legs = Ноги
 markings-category-Tail = Хвіст
 markings-category-Overlay = Накладення
+
+markings-category-RightArm = Права рука
+markings-category-RightHand = Права рука
+markings-category-LeftArm = Ліва рука
+markings-category-LeftHand = Ліва рука
+markings-category-RightLeg = Права нога
+markings-category-RightFoot = Права нога
+markings-category-LeftLeg = Ліва нога
+markings-category-LeftFoot = Ліва нога
