@@ -118,3 +118,14 @@ job-description-zetan = За материнський корабель! Досл
 
 # N14 Таймери ролей # Це потрібно?
 Survivor = Вцілілий
+
+job-name-bos-washington-initiate = Ініціатива Вашингтонського братства
+job-description-bos-washington-initiate = Доведіть свою спроможність своєму осередку, щоб просуватися по кар'єрних сходах.
+job-name-bos-washington-knight = Лицар Братства Вашингтона
+job-description-bos-washington-knight = Військовий підрозділ Братства. Захищайте свою главу в її цілях і виробляйте спорядження.
+job-name-bos-washington-paladin = Капітан Братства Вашингтона
+job-description-bos-washington-paladin = Захистіть Братство за будь-яку ціну. Віднесіть заповіт Командира на пустку.
+job-name-bos-washington-scribe = Писар Вашингтонського братства
+job-description-bos-washington-scribe = Проводьте наукові місії та дослідження для свого осередку братства.
+
+# Караван

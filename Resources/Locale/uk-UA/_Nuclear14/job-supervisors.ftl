@@ -16,3 +16,6 @@ job-supervisors-overseer = наглядач сховищ
 job-supervisors-vault-overseer = привести ваше сховище до процвітання та зберегти статус-кво
 job-supervisors-wastelander = дбати про себе перш за все
 job-supervisors-townsfolk = міський голова
+
+job-supervisors-bos-washington-commander = приведіть свою фракцію до перемоги!
+job-supervisors-bos-washington-initiate = виконувати накази від усіх інших ролей у розділі
