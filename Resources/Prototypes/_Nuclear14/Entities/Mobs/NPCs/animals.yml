@@ -87,7 +87,7 @@
       fix1:
         shape:
           !type:PhysShapeCircle
-            radius: 0.20
+            radius: 0.30
         density: 20
         mask:
         - MobMask
@@ -223,7 +223,7 @@
       sprite: _Nuclear14/Mobs/Animals/nightstalkercub.rsi
   - type: Bloodstream
     bloodMaxVolume: 30
-    bloodReagent: WastelandBlood
+    bloodReagent: NightstalkerBlood
   - type: MovementSpeedModifier
     baseWalkSpeed : 3.5
     baseSprintSpeed : 4.5
@@ -311,7 +311,7 @@
       sprite: _Nuclear14/Mobs/Animals/nightstalker.rsi
   - type: Bloodstream
     bloodMaxVolume: 50
-    bloodReagent: WastelandBlood
+    bloodReagent: NightstalkerBlood
   - type: MovementSpeedModifier
     baseWalkSpeed : 3.5
     baseSprintSpeed : 5
@@ -567,11 +567,11 @@
     useSound:
       path: /Audio/Items/crowbar.ogg
   - type: Insulated
-  - type: GhostRole
-    prob: 0.5
-    makeSentient: true
-    name: deathclaw
-    description: You're a smart killer. Use tactics to hunt and stalk.
+  # - type: GhostRole
+    # prob: 0.5
+    # makeSentient: true
+    # name: deathclaw
+    # description: You're a smart killer. Use tactics to hunt and stalk.
   - type: NoSlip
   - type: Reproductive
     breedChance: 0.05

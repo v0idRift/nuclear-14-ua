@@ -184,7 +184,7 @@
 - type: entity
   parent: N14DoorBunker
   id: N14DoorBunkerLockedBoSWashington
-  suffix: BoSWashinton, Locked
+  suffix: BoSWashington, Locked
   components:
   - type: ContainerFill
     containers:
@@ -195,7 +195,7 @@
 - type: entity
   parent: N14DoorBunkerGlass
   id: N14DoorBunkerGlassLockedBoSWashington
-  suffix: BoSWashinton, Locked
+  suffix: BoSWashington, Locked
   components:
   - type: ContainerFill
     containers:
@@ -206,7 +206,7 @@
 - type: entity
   parent: N14DoorBunker
   id: N14DoorBunkerLockedBoSWashingtonScribe
-  suffix: BoSWashinton, Locked, Scribe
+  suffix: BoSWashington, Locked, Scribe
   components:
   - type: ContainerFill
     containers:
@@ -217,7 +217,7 @@
 - type: entity
   parent: N14DoorBunkerGlass
   id: N14DoorBunkerGlassLockedBoSWashingtonScribe
-  suffix: BoSWashinton, Locked, Scribe
+  suffix: BoSWashington, Locked, Scribe
   components:
   - type: ContainerFill
     containers:
@@ -228,7 +228,7 @@
 - type: entity
   parent: N14DoorBunker
   id: N14DoorBunkerLockedBoSWashingtonKnight
-  suffix: BoSWashinton, Locked, Knight
+  suffix: BoSWashington, Locked, Knight
   components:
   - type: ContainerFill
     containers:
@@ -239,7 +239,7 @@
 - type: entity
   parent: N14DoorBunkerGlass
   id: N14DoorBunkerGlassLockedBoSWashingtonKnight
-  suffix: BoSWashinton, Locked, Knight
+  suffix: BoSWashington, Locked, Knight
   components:
   - type: ContainerFill
     containers:
@@ -250,7 +250,7 @@
 - type: entity
   parent: N14DoorBunker
   id: N14DoorBunkerLockedBoSWashingtonPaladin
-  suffix: BoSWashinton, Locked, Paladin
+  suffix: BoSWashington, Locked, Paladin
   components:
   - type: ContainerFill
     containers:
@@ -261,7 +261,7 @@
 - type: entity
   parent: N14DoorBunkerGlass
   id: N14DoorBunkerGlassLockedBoSMidwestPaladin
-  suffix: BoSWashinton, Locked, Paladin
+  suffix: BoSWashington, Locked, Paladin
   components:
   - type: ContainerFill
     containers:
@@ -271,23 +271,23 @@
 
 - type: entity
   parent: N14DoorBunker
-  id: N14DoorBunkerLockedBoSWashingtonElder
-  suffix: BoSWashinton, Locked, Elder
+  id: N14DoorBunkerLockedBoSWashingtonCommander
+  suffix: BoSWashington, Locked, Elder
   components:
   - type: ContainerFill
     containers:
-      board: [ DoorElectronicsBOSWashingtonElder ]
+      board: [ DoorElectronicsBoSWashingtonCommander ]
   - type: Wires
     layoutId: HighSec
 
 - type: entity
   parent: N14DoorBunkerGlass
   id: N14DoorBunkerGlassLockedBoSMidwestElder
-  suffix: BoSWashinton, Locked, Elder
+  suffix: BoSWashington, Locked, Elder
   components:
   - type: ContainerFill
     containers:
-      board: [ DoorElectronicsBOSWashingtonElder ]
+      board: [ DoorElectronicsBoSWashingtonCommander ]
   - type: Wires
     layoutId: HighSec
 
@@ -329,8 +329,9 @@
   id: N14DoorBunkerLockedVaultDweller
   suffix: Vault Dweller, Locked
   components:
-  - type: AccessReader
-    access: [["VaultDweller"]]
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsVaultDweller ]
   - type: Wires
     layoutId: HighSec
 
@@ -339,8 +340,9 @@
   id: N14DoorBunkerLockedVaultEngineer
   suffix: Vault Engineer, Locked
   components:
-  - type: AccessReader
-    access: [["VaultEngineer"]]
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsVaultEngineer ]
   - type: Wires
     layoutId: HighSec
 
@@ -349,8 +351,9 @@
   id: N14DoorBunkerLockedVaultMedical
   suffix: Vault Medical, Locked
   components:
-  - type: AccessReader
-    access: [["VaultMedical"]]
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsVaultMedical ]
   - type: Wires
     layoutId: HighSec
 
@@ -359,8 +362,9 @@
   id: N14DoorBunkerLockedVaultSecurity
   suffix: Vault Security, Locked
   components:
-  - type: AccessReader
-    access: [["VaultSecurity"]]
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsVaultSecurity ]
   - type: Wires
     layoutId: HighSec
 
@@ -369,8 +373,9 @@
   id: N14DoorBunkerLockedVaultGatekeeper
   suffix: Vault Gatekeeper, Locked
   components:
-  - type: AccessReader
-    access: [["VaultGatekeeper"]]
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsVaultGatekeeper ]
   - type: Wires
     layoutId: HighSec
 
@@ -379,8 +384,9 @@
   id: N14DoorBunkerLockedVaultOverseer
   suffix: Vault Overseer, Locked
   components:
-  - type: AccessReader
-    access: [["VaultOverseer"]]
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsVaultOverseer ]
   - type: Wires
     layoutId: HighSec
 
