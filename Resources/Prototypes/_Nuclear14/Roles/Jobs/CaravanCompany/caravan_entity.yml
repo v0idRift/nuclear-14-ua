@@ -1,7 +1,7 @@
 - type: entity
   parent: MobHuman
   id: N14MobHumanCaravanGuard
-  name: CaravanGuard
+  name: "CaravanGuard"
   components:
     - type: RandomHumanoidAppearance
       randomizeName: true
@@ -14,7 +14,7 @@
 - type: entity
   parent: MobHuman
   id: N14MobHumanCaravanLeader
-  name: CaravanLeader
+  name: "CaravanLeader"
   components:
     - type: RandomHumanoidAppearance
       randomizeName: true
@@ -27,7 +27,7 @@
 - type: entity
   parent: MobHuman
   id: N14MobHumanCaravanTrader
-  name: CaravanTrader
+  name: "CaravanTrader"
   components:
     - type: RandomHumanoidAppearance
       randomizeName: true

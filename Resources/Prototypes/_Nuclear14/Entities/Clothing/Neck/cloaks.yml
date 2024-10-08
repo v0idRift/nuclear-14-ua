@@ -3,8 +3,8 @@
 - type: entity
   parent: ClothingNeckBase
   id: N14ClothingNeckCloakBrotherhoodWashington
-  name: Washington Brotherhood cloak
-  description: A black cloak with a circular red Brotherhood logo.
+  name: "Плащ Вашингтонського братства"
+  description: "Чорний плащ з круглим червоним логотипом Братства."
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/Neck/WBoScloak.rsi
@@ -14,8 +14,8 @@
 - type: entity
   parent: ClothingNeckBase
   id: N14ClothingNeckCloakNCR
-  name: NCR cloak
-  description: A comfy cloak with a NCR logo on one side, this kind of cloaks are commonly used by the troopers during hard weathers.
+  name: "Накидка NCR"
+  description: "Зручна накидка з логотипом NCR на одному боці, такі накидки зазвичай використовуються військовими під час важких погодних умов."
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/Neck/NCRcloak.rsi
@@ -23,8 +23,8 @@
 - type: entity
   parent: ClothingNeckBase
   id: N14ClothingNeckCloakNCRSnow
-  name: NCR winter cloak
-  description: A comfy cloak with a NCR logo on one side, this kind of cloaks are commonly used by the troopers during hard weathers. this one is snow white.
+  name: "Зимова накидка NCR"
+  description: "Зручний плащ з логотипом NCR на одному боці, такі плащі зазвичай використовуються військовими під час суворих погодних умов. цей плащ білосніжного кольору."
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/Neck/NCRcloak2.rsi
@@ -32,8 +32,8 @@
 - type: entity
   parent: ClothingNeckBase
   id: N14ClothingNeckCloakNCRWoods
-  name: NCR woods cloak
-  description: A comfy cloak with a NCR logo on one side, this kind of cloaks are commonly used by the troopers during hard weathers. this one is green.
+  name: "Лісова накидка NCR"
+  description: "Зручна накидка з логотипом NCR на одному боці, такі накидки зазвичай використовуються солдатами під час важких погодних умов. ця накидка зеленого кольору."
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/Neck/NCRcloak3.rsi
@@ -41,8 +41,8 @@
 - type: entity
   parent: ClothingNeckBase
   id: N14ClothingNeckCloakRanger
-  name: NCR ranger cape
-  description: Ranger cape made from what looks like old poncho fitted with star, stripes and a bear. Most likely has a holster hidden underneath.
+  name: "Накидка рейнджера NCR"
+  description: "Накидка рейнджера, зроблена зі старого пончо, прикрашеного зіркою, смужками та ведмедиком. Скоріш за все, має кобуру, заховану під нею."
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/Neck/NCRrangercape.rsi
@@ -58,8 +58,8 @@
 - type: entity
   parent: ClothingNeckBase
   id: N14ClothingNeckCloakRangerPoncho
-  name: ranger poncho
-  description: A durable muslin poncho. Tough enough to bear the elements and serve as handy blanket.
+  name: "пончо рейнджера"
+  description: "Міцне муслінове пончо. Досить міцне, щоб витримати негоди та слугувати зручним покривалом."
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/Neck/NCRrangerponcho.rsi
@@ -75,8 +75,8 @@
 - type: entity
   parent: ClothingNeckBase
   id: N14ClothingNeckCloakTribal
-  name: tribal cloak
-  description: A handmade cloak, comfy and warm this piece is used by the most wise tribals.
+  name: "племінний плащ"
+  description: "Плащ ручної роботи, зручний і теплий, цей виріб використовують наймудріші племена."
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/Neck/tribal.rsi
@@ -85,8 +85,8 @@
 - type: entity
   parent: ClothingNeckBase
   id: N14ClothingNeckCloakLeather
-  name: leather cloak
-  description: A handmade cloak, comfy and warm.
+  name: "шкіряний плащ"
+  description: "Накидка ручної роботи, зручна і тепла."
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/Neck/leathercloak.rsi
@@ -110,8 +110,8 @@
 - type: entity
   parent: ClothingNeckBase
   id: N14ClothingNeckCloakYaoguai
-  name: yaoguai cloak
-  description: A handmade cloak, comfy and warm this piece comes from a dangerous yaoguai.
+  name: "плащ яогуай"
+  description: "Плащ ручної роботи, зручний і теплий, цей виріб походить від небезпечного яогуая."
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/Neck/yaoguai.rsi

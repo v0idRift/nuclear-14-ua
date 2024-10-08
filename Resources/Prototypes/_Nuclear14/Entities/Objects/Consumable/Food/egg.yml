@@ -3,7 +3,7 @@
 - type: entity
   parent: FoodEggBase
   id: N14FoodEggBase
-  description: An egg!
+  description: "Яйце!"
   abstract: true
   components:
   - type: Tag
@@ -72,7 +72,7 @@
 - type: entity
   parent: N14FoodEggBase
   id: N14FoodEggChicken
-  name: chicken egg
+  name: "куряче яйце"
   components:
   - type: Sprite
     state: egg
@@ -99,8 +99,8 @@
 - type: entity
   parent: N14FoodEggChicken
   id: N14FoodEggChickenBoiled
-  name: boiled chicken egg
-  description: A delicious hardboiled egg.
+  name: "варене куряче яйце"
+  description: "Смачне варене яйце."
   components:
   - type: SolutionContainerManager
     solutions:
@@ -120,7 +120,7 @@
 - type: entity
   parent: N14FoodEggBase
   id: N14FoodEggDeathclaw
-  name: deathclaw egg
+  name: "яйце кігтя смерті"
   components:
   - type: Sprite
     state: egg_deathclaw
@@ -147,8 +147,8 @@
 - type: entity
   parent: N14FoodEggDeathclaw
   id: N14FoodEggDeathclawBoiled
-  name: boiled deathclaw egg
-  description: A delicious hardboiled egg.
+  name: "варене яйце смертоносного пазура"
+  description: "Смачне варене яйце."
   components:
   - type: SolutionContainerManager
     solutions:
@@ -168,7 +168,7 @@
 - type: entity
   parent: N14FoodEggBase
   id: N14FoodEggGecko
-  name: gecko egg
+  name: "яйце гекона"
   components:
   - type: Sprite
     state: egg_mirelurk
@@ -195,8 +195,8 @@
 - type: entity
   parent: N14FoodEggGecko
   id: N14FoodEggGeckoBoiled
-  name: boiled gecko egg
-  description: A delicious hardboiled egg.
+  name: "варене яйце гекона"
+  description: "Смачне варене яйце."
   components:
   - type: SolutionContainerManager
     solutions:
@@ -216,7 +216,7 @@
 - type: entity
   parent: N14FoodEggBase
   id: N14FoodEggNightstalker
-  name: nightstalker egg
+  name: "яйце нічного сталкера"
   components:
   - type: Sprite
     state: egg_nightstalker
@@ -243,8 +243,8 @@
 - type: entity
   parent: N14FoodEggNightstalker
   id: N14FoodEggNightstalkerBoiled
-  name: boiled nightstalker egg
-  description: A delicious hardboiled egg.
+  name: "варене яйце нічного переслідувача"
+  description: "Смачне варене яйце."
   components:
   - type: SolutionContainerManager
     solutions:

@@ -1,8 +1,8 @@
 ﻿- type: entity
   parent: ExtinguisherCabinet
   id: N14FireExtinguisherCabinet
-  name: extinguisher cabinet
-  description: A small wall mounted cabinet designed to hold a fire extinguisher.
+  name: "шафа для вогнегасників"
+  description: "Невелика настінна шафа, призначена для зберігання вогнегасника."
   components:
     - type: Sprite
       sprite: _Nuclear14/Structures/Wallmounts/fireextinguisher.rsi

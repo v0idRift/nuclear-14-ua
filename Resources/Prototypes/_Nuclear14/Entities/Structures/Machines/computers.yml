@@ -1,8 +1,8 @@
 - type: entity
   id: N14BaseComputer
   parent: BaseComputer
-  name: computer
-  description: An old heavy computer.
+  name: "комп'ютер"
+  description: "Старий важкий комп'ютер."
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Machines/computer.rsi
@@ -19,8 +19,8 @@
 - type: entity
   id: N14ComputerCargoOrders
   parent: N14BaseComputer
-  name: cargo request computer
-  description: Used to order supplies.
+  name: "комп'ютер запитів на вантаж"
+  description: "Використовується для замовлення матеріалів."
   components:
   - type: CargoOrderConsole
   - type: ActivatableUI
@@ -50,8 +50,8 @@
 - type: entity
   parent: N14ComputerTerminalWallDisplays
   id: N14ComputerCameraDisplay
-  name: camera display unit
-  description: A surveillance camera monitor. You're watching them. Maybe.
+  name: "блок дисплея камери"
+  description: "Монітор камери спостереження. Ти стежиш за ними. Можливо."
   abstract: true
   components:
   # - type: Computer

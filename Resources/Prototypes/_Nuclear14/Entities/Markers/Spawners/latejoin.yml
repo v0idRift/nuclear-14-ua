@@ -3,7 +3,7 @@
 - type: entity
   id: N14LatejoinMarkerBase
   abstract: true
-  description: right click > enter, to leave the round.
+  description: "клацніть правою кнопкою миші > увійти, щоб вийти з раунду."
   placement:
     mode: SnapgridCenter
   components:
@@ -24,7 +24,7 @@
   - type: InteractionOutline
 
 - type: entity
-  name: latejoin spawn point
+  name: "пізнє приєднання до нерестовища"
   parent: N14LatejoinMarkerBase
   id: N14SpawnPointLatejoin
   suffix: Wastelander

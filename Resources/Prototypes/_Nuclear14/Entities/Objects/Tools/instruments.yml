@@ -1,8 +1,8 @@
 - type: entity
   parent: TrumpetInstrument 
   id: N14InstrumentTrumpet
-  name: trumpet
-  description: A jazzy and versitile instrument.
+  name: "сурмити"
+  description: "Джазовий та універсальний інструмент."
   components:
   - type: Sprite
     sprite: Objects/Fun/Instruments/trumpet.rsi
@@ -14,8 +14,8 @@
 - type: entity
   parent: TromboneInstrument 
   id: N14InstrumentTrombone 
-  name: trombone
-  description: A brass instrument with an adjustable slide, has some weight too it.
+  name: "тромбон"
+  description: "Латунний інструмент з регульованим слайдом, має деяку вагу."
   components:
   - type: Sprite
     sprite: Objects/Fun/Instruments/trombone.rsi
@@ -27,8 +27,8 @@
 - type: entity
   parent: BanjoInstrument 
   id: N14InstrumentBanjo
-  name: banjo
-  description: An old rustic country instrument.
+  name: "банджо"
+  description: "Старовинний сільський інструмент."
   components:
   - type: Sprite
     sprite: Objects/Fun/Instruments/banjo.rsi
@@ -40,8 +40,8 @@
 - type: entity
   parent: ViolinInstrument 
   id: N14InstrumentViolin
-  name: violin
-  description: Played in first chairs and lawn chairs.
+  name: "скрипка"
+  description: "Грали на перших стільцях і шезлонгах."
   components:
   - type: Sprite
     sprite: Objects/Fun/Instruments/violin.rsi
@@ -54,8 +54,8 @@
 - type: entity
   parent: AcousticGuitarInstrument 
   id: N14InstrumentGuitar
-  name: acoustic guitar
-  description: Play it again... My Johnny...
+  name: "акустична гітара"
+  description: "Прокрутіть ще раз... Мій Джонні..."
   components:
   - type: Sprite
     sprite: Objects/Fun/Instruments/guitar.rsi
@@ -73,8 +73,8 @@
 - type: entity
   parent: SaxophoneInstrument 
   id: N14InstrumentSaxaphone
-  name: saxophone
-  description: Take more than a few bombs too kill Jazz.
+  name: "саксофон"
+  description: "Щоб убити Джаза, потрібно більше, ніж кілька бомб."
   components:
   - type: Sprite
     sprite: Objects/Fun/Instruments/saxophone.rsi
@@ -87,8 +87,8 @@
 - type: entity
   parent: HarmonicaInstrument 
   id: N14InstrumentHarmonica
-  name: harmonica
-  description: A nifty pocket sized instrument, for lettin your soul sing on the trails...
+  name: "гармошка"
+  description: "Гарний кишеньковий інструмент для того, щоб дозволити своїй душі співати на стежках..."
   components:
   - type: Sprite
     sprite: Objects/Fun/Instruments/harmonica.rsi
@@ -101,8 +101,8 @@
 - type: entity
   parent: ClarinetInstrument 
   id: N14InstrumentClarinet
-  name: clarinet
-  description: A refined reed instrument.
+  name: "кларнет"
+  description: "Вишуканий очеретяний інструмент."
   components:
   - type: Instrument
     program: 71
@@ -116,8 +116,8 @@
 - type: entity
   parent: FluteInstrument 
   id: N14InstrumentFlute
-  name: flute
-  description: A elegant woodwind instrument
+  name: "флейта"
+  description: "Елегантний дерев'яний духовий інструмент"
   components:
   - type: Instrument
     program: 73
@@ -131,8 +131,8 @@
 - type: entity
   parent: PanFluteInstrument 
   id: N14InstrumentPanflute
-  name: pan flute
-  description: A tribal instrument of ancient design, constructed from reeds.
+  name: "сопілка"
+  description: "Племінний інструмент давньої конструкції, виготовлений з очерету."
   components:
   - type: Instrument
     program: 75

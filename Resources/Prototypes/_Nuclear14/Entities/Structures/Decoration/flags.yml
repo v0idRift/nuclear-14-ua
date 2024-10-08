@@ -1,8 +1,8 @@
 # See Objects/Decoration/flags.yml for flag items. See wallmounts folder for wall flags.
 - type: entity
   id: N14DecorationFlagBearerEmpty
-  name: flag bearer
-  description: A post for hanging flags.
+  name: "прапороносець"
+  description: "Стовп для вивішування прапорів."
   placement:
     mode: SnapgridCenter
   components:
@@ -86,8 +86,8 @@
 - type: entity
   parent: N14DecorationFlagFlammable
   id: N14DecorationFlagNCR
-  name: NCR flag
-  description: A flag with a two headed bear, the symbol of the New California Republic.
+  name: "Прапор NCR"
+  description: "Прапор з двоголовим ведмедем, символом Республіки Нова Каліфорнія."
   components:
   - type: Sprite
     state: ncrflag
@@ -95,8 +95,8 @@
 - type: entity
   parent: N14DecorationFlagFlammable
   id: N14DecorationFlagOasis
-  name: Oasis flag
-  description: A flag depicting a stylised pink flower on a green background. It's the symbol of the town of Oasis.
+  name: "Прапор Оазису"
+  description: "Прапор із зображенням стилізованої рожевої квітки на зеленому тлі. Це символ міста Оазис."
   components:
   - type: Sprite
     state: oasisflag
@@ -104,8 +104,8 @@
 - type: entity
   parent: N14DecorationFlagFlammable
   id: N14DecorationFlagBrotherhoodWashington
-  name: Washington Brotherhood flag
-  description: A red and black flag with a sword surrounded in gears and wings, in a dazzling gold.
+  name: "Прапор Вашингтонського братства"
+  description: "Червоно-чорний прапор з мечем, оточений шестернями і крилами, в сліпучому золоті."
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Decoration/flags.rsi
@@ -114,8 +114,8 @@
 - type: entity
   parent: N14DecorationFlagFlammable
   id: N14DecorationFlagFollowers
-  name: Followers flag
-  description: A white flag with the black Follower's of the Apocalpyse cross on it.
+  name: "Прапор послідовників"
+  description: "Білий прапор з чорним хрестом Послідовників Апокаліпсису."
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Decoration/flags.rsi
@@ -124,8 +124,8 @@
 - type: entity
   parent: N14DecorationFlagFlammable
   id: N14DecorationFlagEnclave
-  name: Enclave flag
-  description: An Enclave flag atop a bearer.
+  name: "Прапор анклаву"
+  description: "Прапор анклаву на держаку."
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Decoration/flags.rsi
@@ -134,8 +134,8 @@
 - type: entity
   parent: N14DecorationFlagFlammable
   id: N14DecorationFlagGunner
-  name: Gunner flag
-  description: A Gunner flag atop a bearer.
+  name: "Прапор кулеметника"
+  description: "Прапор кулеметника на держаку."
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Decoration/flags.rsi
@@ -144,8 +144,8 @@
 - type: entity
   parent: N14DecorationFlagFlammable
   id: N14DecorationFlagLocust
-  name: Locust flag
-  description: A flag with a skull, the symbol of Locusts.
+  name: "Прапор сарани"
+  description: "Прапор з черепом, символом сарани."
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Decoration/flags.rsi
@@ -154,8 +154,8 @@
 - type: entity
   parent: N14DecorationFlagFlammable
   id: N14DecorationFlagHighvalleyhills
-  name: High Valley Hills flag
-  description: A flag with two white stripes, blue border and a red centre with a white Vault-Tec logo, turned on its side and stretched out
+  name: "Прапор High Valley Hills"
+  description: "Прапор з двома білими смугами, синьою облямівкою та червоною серединою з білим логотипом Vault-Tec, перевернутий на бік і розтягнутий"
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Decoration/flags.rsi
@@ -164,8 +164,8 @@
 - type: entity
   parent: N14DecorationFlagFlammable
   id: N14DecorationFlagVaultTecCityCoalition
-  name:  Vault-Tec City Coalition flag
-  description: An Vault-Tec City Coalition flag atop a bearer.
+  name:  "Прапор міської коаліції Vault-Tec"
+  description: "Прапор коаліції Vault-Tec City Coalition на носії."
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Decoration/flags.rsi
@@ -174,8 +174,8 @@
 - type: entity
   parent: N14DecorationFlagFlammable
   id: N14DecorationFlagYuma
-  name: Yuma flag
-  description: A banner depicting three rivers meeting at its center, overlaid with an ear of corn.
+  name: "Прапор Юми"
+  description: "Банер із зображенням трьох річок, що зливаються в центрі, накладений на качан кукурудзи."
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Decoration/flags.rsi
@@ -184,8 +184,8 @@
 - type: entity
   parent: N14DecorationFlagFlammable
   id: N14DecorationFlagKhans
-  name:  Great Khans flag
-  description: A flag worn and weathered from a long cherished history. A decorated smiling skull smiles mockingly upon those who challenge it.
+  name:  "Прапор Великих Ханів"
+  description: "Прапор, зношений і обвітрений довгою історією. Прикрашений усміхнений череп глузливо посміхається тим, хто кидає йому виклик."
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Decoration/flags.rsi
@@ -194,8 +194,8 @@
 - type: entity
   parent: N14DecorationFlagFlammable
   id: N14DecorationFlagChurch
-  name: The Church flag
-  description: A blood red flag featuring a symbol associated with nuclear radiation.
+  name: "Церковний прапор"
+  description: "Криваво-червоний прапор із символом, що асоціюється з ядерною радіацією."
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Decoration/flags.rsi

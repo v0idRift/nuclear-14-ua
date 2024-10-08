@@ -2,7 +2,7 @@
 - type: entity
   parent: IngotBase
   id: N14IngotLead
-  name: lead bar
+  name: "свинцева планка"
   suffix: Full, 30
   components:
   - type: Material
@@ -37,7 +37,7 @@
 - type: entity
   parent: N14IngotLead
   id: N14IngotLead1
-  name: lead bar
+  name: "свинцева планка"
   suffix: Single
   components:
   - type: Sprite
@@ -49,7 +49,7 @@
 - type: entity
   parent: IngotBase
   id: N14IngotAluminum
-  name: aluminum bar
+  name: "алюмінієвий пруток"
   suffix: Full, 30
   components:
   - type: Material
@@ -84,7 +84,7 @@
 - type: entity
   parent: N14IngotAluminum
   id: N14IngotAluminum1
-  name: aluminum bar
+  name: "алюмінієвий пруток"
   suffix: Single
   components:
   - type: Sprite
@@ -96,7 +96,7 @@
 - type: entity
   parent: IngotBase
   id: N14IngotCopper
-  name: copper bar
+  name: "мідний пруток"
   suffix: Full, 30
   components:
   - type: Material
@@ -131,7 +131,7 @@
 - type: entity
   parent: N14IngotCopper
   id: N14IngotCopper1
-  name: copper bar
+  name: "мідний пруток"
   suffix: Single
   components:
   - type: Sprite
@@ -143,7 +143,7 @@
 - type: entity
   parent: IngotBase
   id: N14IngotBrass
-  name: brass bar
+  name: "латунна планка"
   suffix: Full, 30
   components:
   - type: Material
@@ -180,7 +180,7 @@
 - type: entity
   parent: N14IngotBrass
   id: N14IngotBrass1
-  name: brass bar
+  name: "латунна планка"
   suffix: Single
   components:
   - type: Sprite
@@ -192,7 +192,7 @@
 - type: entity
   parent: IngotBase
   id: N14IngotGold
-  name: gold bar
+  name: "золотий злиток"
   suffix: Full, 30
   components:
   - type: Material
@@ -227,7 +227,7 @@
 - type: entity
   parent: N14IngotGold
   id: N14IngotGold1
-  name: gold bar
+  name: "золотий злиток"
   suffix: Single
   components:
   - type: Sprite
@@ -239,7 +239,7 @@
 - type: entity
   parent: IngotBase
   id: N14IngotIron
-  name: iron bar
+  name: "залізний прут"
   suffix: Full, 30
   components:
   - type: Material
@@ -274,7 +274,7 @@
 - type: entity
   parent: N14IngotIron
   id: N14IngotIron1
-  name: iron bar
+  name: "залізний прут"
   suffix: Single
   components:
   - type: Sprite
@@ -286,7 +286,7 @@
 - type: entity
   parent: IngotBase
   id: N14IngotSilver
-  name: silver bar
+  name: "срібний злиток"
   suffix: Full, 30
   components:
   - type: Material
@@ -321,7 +321,7 @@
 - type: entity
   parent: N14IngotSilver
   id: N14IngotSilver1
-  name: silver bar
+  name: "срібний злиток"
   suffix: Single
   components:
   - type: Sprite

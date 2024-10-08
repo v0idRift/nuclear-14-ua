@@ -8,10 +8,10 @@
   - type: Wieldable
 
 - type: entity
-  name: shotgun
+  name: "дробовик"
   parent: N14WeaponShotgunBase
   id: N14WeaponShotgun
-  description: A pump action shotgun.
+  description: "Помпова рушниця."
   components:
   - type: Gun
     fireRate: 1
@@ -39,10 +39,10 @@
       path: /Audio/_Nuclear14/Weapons/Effects/Reload/Shotguns/shotgun_insert.ogg
 
 - type: entity
-  name: double-barrel shotgun
+  name: "двоствольна рушниця"
   parent: N14WeaponShotgunBase
   id: N14WeaponShotgunDoubleBarrel
-  description: An immortal classic, uses 12 gauge shells.
+  description: "Безсмертна класика, використовує набої 12-го калібру."
   components:
   - type: Clothing
     sprite: _Nuclear14/Objects/Weapons/Guns/Shotguns/double_shotgun.rsi
@@ -73,10 +73,10 @@
     node: start
 
 - type: entity
-  name: sawed-off shotgun
+  name: "обріз"
   parent: N14WeaponShotgunBase
   id: N14WeaponShotgunSawedOff
-  description: A portable and brutal handheld shotgun.
+  description: "Портативна та брутальна ручна рушниця."
   components:
   - type: Clothing
     sprite: _Nuclear14/Objects/Weapons/Guns/Shotguns/sawed_off.rsi
@@ -108,10 +108,10 @@
     node: shotgunsawed
 
 - type: entity
-  name: sawed-off shotgun
+  name: "обріз"
   parent: N14WeaponShotgunSawedOff
   id: N14WeaponShotgunSawedOffEmpty
-  description: A portable and brutal handheld shotgun.
+  description: "Портативна та брутальна ручна рушниця."
   suffix: Empty
   components:
   - type: BallisticAmmoProvider
@@ -121,10 +121,10 @@
     node: start
 
 - type: entity
-  name: combat shotgun
+  name: "бойова рушниця"
   parent: N14WeaponShotgunBase
   id: N14WeaponShotgunAuto
-  description: It's a magazine-fed automatic shotgun designed for close quarters combat, uses 12 gauge shells.
+  description: "Це автоматична рушниця з магазинним живленням, призначена для ближнього бою, використовує набої 12-го калібру."
   components:
   - type: Sprite
     sprite: _Nuclear14/Objects/Weapons/Guns/Shotguns/combat_shotgun.rsi
@@ -180,10 +180,10 @@
   - type: Appearance
 
 - type: entity
-  name: caravan shotgun
+  name: "караванна рушниця"
   parent: N14WeaponShotgunBase
   id: N14WeaponShotgunCaravan
-  description: The perfect shotgun for a long journey. works well for hunting brahmins, geckos and fiends, uses 20 gauge shells.
+  description: "Ідеальна рушниця для тривалої подорожі. добре підходить для полювання на брамінів, геконів та диких звірів, використовує набої 20 калібру."
   components:
   - type: Clothing
     sprite: _Nuclear14/Objects/Weapons/Guns/Shotguns/caravan_shotgun.rsi
@@ -210,10 +210,10 @@
     proto: N14ShellShotgun20
 
 - type: entity
-  name: lever action shotgun
+  name: "важільна рушниця"
   parent: N14WeaponShotgunBase
   id: N14WeaponShotgunLever
-  description: The perfect gun for a cowboy, it uses 20 gauge shells.
+  description: "Ідеальна рушниця для ковбоя, вона використовує набої 20-го калібру."
   components:
   - type: Clothing
     sprite: _Nuclear14/Objects/Weapons/Guns/Shotguns/lever_shotgun.rsi
@@ -245,10 +245,10 @@
       collection: N14LeverShotgunGunshot
 
 - type: entity
-  name: riot shotgun
+  name: "рушницю для боротьби з заворушеннями"
   parent: N14WeaponShotgunBase
   id: N14WeaponShotgunRiot
-  description: A compact semi automatic shotgun used by pre-war police forces, chambered in 20 gauge shells.
+  description: "Компактна напівавтоматична рушниця, що використовувалась довоєнною поліцією, під набої 20-го калібру."
   components:
   - type: Clothing
     sprite: _Nuclear14/Objects/Weapons/Guns/Shotguns/riot_shotgun.rsi

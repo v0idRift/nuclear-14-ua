@@ -1,8 +1,8 @@
 - type: entity
-  name: machete
+  name: "мачете"
   parent: Machete
   id: N14Machete
-  description: A large, vicious looking blade.
+  description: "Велике, злісне на вигляд лезо."
   components:
   - type: EmbeddableProjectile
     sound: /Audio/Weapons/star_hit.ogg
@@ -26,10 +26,10 @@
     sprite: _Nuclear14/Objects/Weapons/Melee/machete.rsi
 
 - type: entity
-  name: tribal machete
+  name: "племінне мачете"
   parent: N14Machete
   id: N14TribalMachete
-  description: A tribal machete, made from the materials given by nature, this long blade has the perfect balance between tool and weapon.
+  description: "Племінне мачете, виготовлене з матеріалів, даних природою, цей довгий клинок має ідеальний баланс між інструментом і зброєю."
   components:
   - type: Clothing
     sprite: _Nuclear14/Objects/Weapons/Melee/tribal_machete.rsi
@@ -54,10 +54,10 @@
     sprite: _Nuclear14/Objects/Weapons/Melee/tribal_machete.rsi
 
 - type: entity
-  name: scrap machete
+  name: "лом мачете"
   parent: N14Machete
   id: N14ScrapMachete
-  description: A makeshift long blade machete, not the sharpest blade but it can still cut some meat.
+  description: "Саморобне мачете з довгим лезом, не найгострішим лезом, але все ж таки здатне нарізати трохи м'яса."
   components:
   - type: Clothing
     sprite: _Nuclear14/Objects/Weapons/Melee/scrap_machete.rsi
@@ -82,10 +82,10 @@
     sprite: Nuclear14/Objects/Weapons/Melee/scrap_machete.rsi
 
 - type: entity
-  name: ripper
+  name: "розпушувач"
   parent: N14Machete
   id: N14ripper
-  description: A light one handed chainsaw, originally designed for the pre-war army sappers to clean selvatic and wooded paths, it also works well against meat.
+  description: "Легка одноручна бензопила, спочатку розроблена для саперів довоєнної армії для розчищення сільватів та лісових доріжок, також добре працює з м'ясом."
   components:
   - type: Clothing
     sprite: _Nuclear14/Objects/Weapons/Melee/ripper.rsi

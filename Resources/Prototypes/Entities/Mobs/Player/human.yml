@@ -1,6 +1,6 @@
 - type: entity
   save: false
-  name: Urist McHands
+  name: "Уріст МакХендс"
   parent: BaseMobHuman
   id: MobHuman
   components:
@@ -12,7 +12,7 @@
 - type: entity
   parent: MobHuman
   id: MobHumanSyndicateAgentBase
-  name: syndicate agent
+  name: "агент синдикату"
   suffix: Human, Base
   components:
     - type: Loadout
@@ -26,7 +26,7 @@
 - type: entity
   parent: MobHumanSyndicateAgentBase
   id: MobHumanSyndicateAgent
-  name: syndicate agent
+  name: "агент синдикату"
   suffix: Human, Traitor
   components:
     # make the player a traitor once its taken
@@ -44,7 +44,7 @@
 # Nuclear Operative
 - type: entity
   noSpawn: true
-  name: Nuclear Operative
+  name: "Ядерний оперативник"
   parent: MobHuman
   id: MobHumanNukeOp
   components:
@@ -58,7 +58,7 @@
   noSpawn: true
   parent: MobHuman
   id: MobHumanLoneNuclearOperative
-  name: Lone Operative
+  name: "Самотній оперативник"
   components:
     - type: RandomHumanoidAppearance
       randomizeName: false
@@ -79,7 +79,7 @@
 # Space Ninja
 - type: entity
   noSpawn: true
-  name: Space Ninja
+  name: "Космічний ніндзя"
   parent: MobHuman
   id: MobHumanSpaceNinja
   components:

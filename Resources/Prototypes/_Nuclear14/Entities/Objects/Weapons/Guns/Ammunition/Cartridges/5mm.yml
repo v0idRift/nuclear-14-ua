@@ -1,6 +1,6 @@
 - type: entity
   id: N14CartridgePistol5
-  name: cartridge (5mm)
+  name: "картридж (5 мм)"
   parent: BaseCartridgePistol
   components:
   - type: CartridgeAmmo
