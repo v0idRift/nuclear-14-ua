@@ -1,7 +1,7 @@
 - type: entity
   parent: OreBase # From Entities\Objects\Materials\ore.yml
   id: N14LeadOre
-  name: "свинцева руда"
+  name: lead ore
   suffix: Full
   components:
   # - type: Stack
@@ -34,7 +34,7 @@
 - type: entity
   parent: OreBase
   id: N14CopperOre
-  name: "мідна руда"
+  name: copper ore
   suffix: Full
   components:
   - type: Stack
@@ -67,7 +67,7 @@
 - type: entity
   parent: OreBase
   id: N14IronOre
-  name: "залізна руда"
+  name: iron ore
   suffix: Full
   components:
   - type: Stack
@@ -100,7 +100,7 @@
 - type: entity
   parent: OreBase
   id: N14GoldOre
-  name: "золота руда"
+  name: gold ore
   suffix: Full
   components:
   - type: Stack
@@ -133,7 +133,7 @@
 - type: entity
   parent: OreBase
   id: N14SilverOre
-  name: "срібна руда"
+  name: silver ore
   suffix: Full
   components:
   - type: Stack
@@ -166,7 +166,7 @@
 - type: entity
   parent: OreBase
   id: SulfurOre
-  name: "сірчана руда"
+  name: sulfur ore
   suffix: Full
   components:
   # - type: Stack
@@ -199,7 +199,7 @@
 - type: entity
   parent: OreBase
   id: FertilizerOre
-  name: "добриво"
+  name: fertilizer
   suffix: Full
   components:
   # - type: Stack

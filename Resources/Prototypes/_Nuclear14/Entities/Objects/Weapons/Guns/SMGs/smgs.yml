@@ -13,10 +13,10 @@
     backStrength: 6
 
 - type: entity
-  name: "10мм SMG"
+  name: 10mm SMG
   parent: N14WeaponSMGBase
   id: N14WeaponSMG10mm
-  description: "Повністю автоматичний пістолет-кулемет калібру 10 мм." # TODO: Need to create projectiles, magazines and boxes for 10mm.
+  description: Fully automatic submachinegun chambered in 10mm. # TODO: Need to create projectiles, magazines and boxes for 10mm.
   components:
   - type: Clothing
     sprite: _Nuclear14/Objects/Weapons/Guns/SMGs/10mmSMG.rsi
@@ -67,10 +67,10 @@
             - N14CartridgePistol10
 
 - type: entity
-  name: "12,7 мм SMG"
+  name: 12.7mm SMG
   parent: N14WeaponSMGBase
   id: N14WeaponSMG12mm
-  description: "Важкий пістолет-кулемет калібру 12 мм." # TODO: Need to create projectiles, magazines and boxes for 12mm.
+  description: A heavy submachinegun chambered in 12mm. # TODO: Need to create projectiles, magazines and boxes for 12mm.
   components:
   - type: Clothing
     sprite: _Nuclear14/Objects/Weapons/Guns/SMGs/12mmSMG.rsi
@@ -122,10 +122,10 @@
             - N14CartridgePistol127
             
 - type: entity
-  name: "Труба SMG 12,7 мм"
+  name: 12.7mm pipe SMG
   parent: N14WeaponSMGBase
   id: N14WeaponSMG12mmPipe
-  description: "саморобний 12-мм кулемет SMG, який, схоже, вибухне одразу після пострілу."
+  description: a makeshift 12mm SMG, looks like is gonna explode the second it shoots.
   components:
   - type: Clothing
     sprite: _Nuclear14/Objects/Weapons/Guns/SMGs/12mmPIPE.rsi
@@ -202,10 +202,10 @@
     node: start
 
 - type: entity
-  name: "Труба SMG 10 мм"
+  name: 10mm pipe SMG
   parent: N14WeaponSMGBase
   id: N14WeaponSMG10mmPipe
-  description: "саморобний 10-мм кулемет SMG, якщо його потрясти, то можна почути, як брязкають деталі всередині пістолета."
+  description: a makeshift 10mm SMG, if you shake it you could hear the loose parts inside of the gun.
   components:
   - type: Clothing
     sprite: _Nuclear14/Objects/Weapons/Guns/SMGs/10mmPIPE.rsi
@@ -280,10 +280,10 @@
     node: start
 
 - type: entity
-  name: "вдосконалений 12,7-мм SMG"
+  name: advanced 12.7mm SMG
   parent: N14WeaponSMGBase
   id: N14WeaponSMG12mmAdvanced
-  description: "Громіздкий пістолет-кулемет з верхнім магазином, використовує 12-мм боєприпаси."
+  description: A bulky sub machine gun with a top magazine fed system, it uses 12mm ammmo.
   components:
   - type: Clothing
     sprite: _Nuclear14/Objects/Weapons/Guns/SMGs/advance12mm.rsi
@@ -335,10 +335,10 @@
             - N14CartridgePistol127
 
 - type: entity
-  name: "9мм SMG"
+  name: 9mm SMG
   parent: N14WeaponSMGBase
   id: N14WeaponSMG9mm
-  description: "металевий довоєнний простий пістолет-кулемет SMG, калібру 9 мм."
+  description: a metallic pre-war simple SMG, chambered in 9mm.
   components:
   - type: Clothing
     sprite: _Nuclear14/Objects/Weapons/Guns/SMGs/9mmSMG.rsi
@@ -389,10 +389,10 @@
             - N14CartridgePistol9
 
 - type: entity
-  name: ".45 SMG"
+  name: .45 SMG
   parent: N14WeaponSMGBase
   id: N14WeaponSMG45
-  description: "Довоєнний SMG з дерев'яним прикладом під набій .45."
+  description: A pre-war SMG with a wooden stock, chambered in .45.
   components:
   - type: Clothing
     sprite: _Nuclear14/Objects/Weapons/Guns/SMGs/45SMG.rsi

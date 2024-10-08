@@ -1,8 +1,8 @@
 - type: entity
-  name: "Шивон"
+  name: Siobhan
   parent: MobArcticFox
   id: MobArcticFoxSiobhan
-  description: "Її ім'я вимовляється як \"Шиван\", але друзі називають її Шивс. Пухнастий, чарівний песець."
+  description: Her name is pronounced "Shivahn", but she is known as Shivs by her associates. A fluffy, adorable arctic fox.
   components:
   - type: InteractionPopup
     successChance: 1
@@ -20,16 +20,16 @@
     - VimPilot
 
 - type: entity
-  name: "Лайко"
+  name: Laika
   parent: MobSecDog
   id: MobSecDogLaika
-  description: "Як і її тезка, Лайка - представник невизначеної породи, щойно з вулиці і готова до бою."
+  description: Much like her namesake, Laika is a specimen of indeterminate breed, fresh off the streets and ready to tussle.
   components:
   - type: GhostRole
     makeSentient: true
     allowSpeech: true
     allowMovement: true
-    name: "Лайко"
+    name: "Laika"
     description: "Security's resident she-dog. Badger the officers for headpats and nip at the heels of violent offenders."
     requirements:
     - !type:DepartmentTimeRequirement

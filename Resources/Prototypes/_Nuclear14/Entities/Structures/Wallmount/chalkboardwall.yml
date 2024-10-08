@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseSign
   id: N14ChalkboardWall
-  name: "Дошка для крейди"
-  description: "Запилена крейдяна дошка"
+  name: Chalkboard
+  description: A dusty chalkboard
   components:
   - type: WallMount
     arc: 360

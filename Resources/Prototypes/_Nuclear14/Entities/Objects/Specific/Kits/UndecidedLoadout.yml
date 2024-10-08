@@ -1,8 +1,8 @@
 #MARK: Undecided Loadout Backpacks
 - type: entity
   id: NCRtrooperloadoutkits
-  name: "Не визначився з комплектом екіпіровки NCR Trooper Loaded Kit"
-  description: "будь ласка, візьміть тільки один"
+  name: Undecided NCR Trooper Loadout Kit
+  description: please only take one
   parent: BaseItem
   components:
   - type: Sprite
@@ -26,8 +26,8 @@
 
 - type: entity
   id: NCRNCOloadoutkits
-  name: "Невизначений комплект екіпіровки NCR для сержантського складу"
-  description: "будь ласка, візьміть тільки один"
+  name: Undecided NCR NCO Loadout Kit
+  description: please only take one
   parent: BaseItem
   components:
   - type: Sprite
@@ -55,8 +55,8 @@
 
 - type: entity
   id: NCRrangerloadoutkits
-  name: "Не визначився з комплектом для завантаження NCR Ranger"
-  description: "будь ласка, візьміть тільки один"
+  name: Undecided NCR Ranger Loadout Kit
+  description: please only take one
   parent: BaseItem
   components:
   - type: Sprite
@@ -79,8 +79,8 @@
 
 - type: entity
   id: NCRveteranrangerloadoutkits
-  name: "Не визначився з комплектом спорядження NCR Veteran Ranger"
-  description: "будь ласка, візьміть тільки один"
+  name: Undecided NCR Veteran Ranger Loadout Kit
+  description: please only take one
   parent: BaseItem
   components:
   - type: Sprite
@@ -109,8 +109,8 @@
 #MARK: Knights
 - type: entity
   id: NCRBoSMidwestkits
-  name: "Не визначився з набором BoS Midwest"
-  description: "будь ласка, візьміть тільки один"
+  name: Undecided BoS Midwest Kit
+  description: please only take one
   parent: BaseItem
   components:
   - type: Sprite
@@ -131,8 +131,8 @@
 #MARK: Scribes
 - type: entity
   id: NCRBoSMidwestScribekits
-  name: "Невизначений набір BoS Scribe Midwest"
-  description: "будь ласка, візьміть тільки один"
+  name: Undecided BoS Scribe Midwest Kit
+  description: please only take one
   parent: BaseItem
   components:
   - type: Sprite
@@ -154,8 +154,8 @@
 #MARK: Paladins
 - type: entity
   id: NCRBoSMidwestPaladinkits
-  name: "Не визначився з набором BoS Paladin Midwest Kit"
-  description: "будь ласка, візьміть тільки один"
+  name: Undecided BoS Paladin Midwest Kit
+  description: please only take one
   parent: BaseItem
   components:
   - type: Sprite

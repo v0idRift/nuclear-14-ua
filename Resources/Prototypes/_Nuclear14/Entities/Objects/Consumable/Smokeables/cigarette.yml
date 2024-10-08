@@ -40,7 +40,7 @@
 - type: entity
   parent: N14Cigarette
   id: N14CigaretteKool
-  description: "Сигарета марки Kool."
+  description: A Kool brand cigarette.
   suffix: kool
   components:
   - type: Sprite
@@ -51,13 +51,13 @@
 - type: entity
   parent: N14CigaretteKool
   id: N14CigaretteSalem
-  description: "Сигарета марки \"Салем\"."
+  description: A Salem brand cigarette.
   suffix: salem
     
 - type: entity
   parent: N14Cigarette
   id: N14CigaretteMarlboro
-  description: "Сигарета марки \"Мальборо\"."
+  description: A Marlboro brand cigarette.
   suffix: marlboro
   components:
   - type: Sprite
@@ -68,7 +68,7 @@
 - type: entity
   parent: N14Cigarette
   id: N14CigaretteRepublic
-  description: "Сигарета марки \"Республіка\"."
+  description: A Republic brand cigarette.
   suffix: republic
   components:
   - type: Sprite
@@ -79,7 +79,7 @@
 - type: entity
   parent: N14Cigarette
   id: N14CigaretteRollie
-  description: "Згорнуту сигарету."
+  description: A roll up cigarette.
   suffix: rollie
   components:
   - type: Sprite
@@ -93,7 +93,7 @@
 - type: entity
   parent: N14Cigarette
   id: N14CigaretteWinston
-  description: "Сигарета марки \"Вінстон\"."
+  description: A Winston brand cigarette.
   suffix: winston
   components:
   - type: Sprite

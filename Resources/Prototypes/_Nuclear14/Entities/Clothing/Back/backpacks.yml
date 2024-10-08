@@ -2,8 +2,8 @@
 - type: entity
   parent: ClothingBackpack
   id: N14ClothingBackpackTrekker
-  name: "трекінговий рюкзак"
-  description: "Міцний рюкзак для транспортування відходів."
+  name: trekker backpack
+  description: A hard wearing backpack for travelling the wastes.
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/Back/Backpacks/trekkerpack.rsi
@@ -11,8 +11,8 @@
 - type: entity
   parent: ClothingBackpack
   id: N14ClothingBackpackHiking
-  name: "туристичний рюкзак"
-  description: "Зносостійкий рюкзак для піших прогулянок по звалищах."
+  name: hiking backpack
+  description: A hard wearing backpack for hiking the wastes.
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/Back/Backpacks/hikingbackpack.rsi
@@ -20,8 +20,8 @@
 - type: entity
   parent: ClothingBackpack
   id: N14ClothingBackpackExplorer
-  name: "рюкзак дослідника"
-  description: "Зносостійкий рюкзак для дослідження відходів."
+  name: explorer backpack
+  description: A hard wearing backpack for exploring the wastes.
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/Back/Backpacks/explorerpack.rsi
@@ -30,8 +30,8 @@
 - type: entity
   parent: ClothingBackpack
   id: N14ClothingBackpackMilitary
-  name: "військовий рюкзак"
-  description: "Важкий рюкзак, який носять солдати."
+  name: military backpack
+  description: A hard wearing backpack worn by soldiers.
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/Back/Backpacks/military.rsi
@@ -39,8 +39,8 @@
 - type: entity
   parent: ClothingBackpack
   id: N14ClothingBackpackNCR
-  name: "Рюкзак NCR"
-  description: "Надійний рюкзак, який носять NCR."
+  name: NCR backpack
+  description: A hard wearing backpack worn by the NCR.
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/Back/Backpacks/backpackncr.rsi
@@ -50,8 +50,8 @@
 - type: entity
   parent: ClothingBackpack
   id: N14ClothingBackpackTribal
-  name: "трекінговий рюкзак"
-  description: "Міцний рюкзак для транспортування відходів." # placeholder
+  name: trekker backpack
+  description: A hard wearing backpack for travelling the wastes. # placeholder
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/Back/Backpacks/trekkerpack.rsi # placeholder
@@ -60,8 +60,8 @@
 - type: entity
   parent: ClothingBackpack
   id: N14ClothingBackpackVaultBlue
-  name: "рюкзак vault 14"
-  description: "Це дуже міцний рюкзак."
+  name: vault 14 backpack
+  description: It's a very robust backpack.
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/Back/Backpacks/packgenetics.rsi
@@ -69,8 +69,8 @@
 - type: entity
   parent: ClothingBackpack
   id: N14ClothingBackpackVaultOrange
-  name: "рюкзак vault 14"
-  description: "Це дуже міцний рюкзак. Цей помаранчевий."
+  name: vault 14 backpack
+  description: It's a very robust backpack. This ones orange.
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/Back/Backpacks/packchem.rsi
@@ -78,8 +78,8 @@
 - type: entity
   parent: ClothingBackpack
   id: N14ClothingBackpackVaultGreen
-  name: "рюкзак vault 14"
-  description: "Це дуже міцний рюкзак. Цей зелений."
+  name: vault 14 backpack
+  description: It's a very robust backpack. This ones green.
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/Back/Backpacks/packbotany.rsi
@@ -87,8 +87,8 @@
 - type: entity
   parent: ClothingBackpack
   id: N14ClothingBackpackVaultGreenDark
-  name: "рюкзак vault 14"
-  description: "Це дуже міцний рюкзак. Цей темно-зелений."
+  name: vault 14 backpack
+  description: It's a very robust backpack. This ones dark green.
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/Back/Backpacks/packviro.rsi
@@ -96,8 +96,8 @@
 - type: entity
   parent: ClothingBackpack
   id: N14ClothingBackpackVaultPurple
-  name: "рюкзак vault 14"
-  description: "Це дуже міцний рюкзак. Цей фіолетовий."
+  name: vault 14 backpack
+  description: It's a very robust backpack. This ones purple.
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/Back/Backpacks/packtoxins.rsi
@@ -105,8 +105,8 @@
 - type: entity
   parent: ClothingBackpack
   id: N14ClothingBackpackVaultRed
-  name: "рюкзак vault 14"
-  description: "Це дуже міцний рюкзак. Цей червоний."
+  name: vault 14 backpack
+  description: It's a very robust backpack. This ones red.
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/Back/Backpacks/packsecurity.rsi
@@ -114,8 +114,8 @@
 - type: entity
   parent: ClothingBackpack
   id: N14ClothingBackpackVaultBlueDark
-  name: "рюкзак vault 14"
-  description: "Це дуже міцний рюкзак. Цей темно-синій."
+  name: vault 14 backpack
+  description: It's a very robust backpack. This ones dark blue.
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/Back/Backpacks/packoverseer.rsi

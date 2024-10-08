@@ -1,6 +1,6 @@
 - type: entity
   id: 40mmGrenadeFrag
-  name: "40-мм граната"
+  name: 40mm grenade
   parent: BaseGrenade
   components:
   - type: Tag
@@ -20,7 +20,7 @@
 
 - type: entity
   id: 40mmGrenadeFire
-  name: "40-мм бойова граната"
+  name: 40mm fire grenade
   parent: BaseGrenade
   components:
   - type: Tag

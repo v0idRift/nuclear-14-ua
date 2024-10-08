@@ -1,6 +1,6 @@
 - type: entity
   id: N14BaseSpeedLoader45-70
-  name: "швидкісний навантажувач (45-70 gov)"
+  name: "speed loader (45-70 gov)"
   parent: BaseItem
   abstract: true
   components:
@@ -21,7 +21,7 @@
 
 - type: entity
   id: SpeedLoader45-70
-  name: "швидкісний навантажувач (45-70 gov)"
+  name: "speed loader (45-70 gov)"
   parent: N14BaseSpeedLoader45-70
   components:
   - type: BallisticAmmoProvider
@@ -42,7 +42,7 @@
 #TODO: Move this to a proper place, upstream it made by 'Cojoke' from Wizden
 - type: entity
   id: BaseSpeedLoaderInternal4570
-  name: "швидкісний навантажувач внутрішній"
+  name: "speed loader internal"
   parent: BaseItem
   abstract: true
   components:
@@ -64,7 +64,7 @@
 
 - type: entity
   id: SpeedLoader45-70Tube
-  name: "труба швидкісного навантажувача (45-70 gov)"
+  name: "speed loader tube (45-70 gov)"
   parent: BaseSpeedLoaderInternal4570
   components:
   - type: BallisticAmmoProvider

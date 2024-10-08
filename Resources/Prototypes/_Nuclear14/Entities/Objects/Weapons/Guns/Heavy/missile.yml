@@ -1,8 +1,8 @@
 - type: entity
-  name: "ракетна установка"
+  name: missile launcher
   parent: BaseWeaponLauncher
   id: N14WeaponLauncherMissile
-  description: "Передовий довоєнний плечовий ракетний пусковий пристрій, боєприпаси для нього очевидні."
+  description: An advanced pre-war shoulder mounted missile launcher, its kinda obvious what kind of ammo it uses.
   components:
   - type: Sprite
     sprite: _Nuclear14/Objects/Weapons/Guns/Heavy/missilelauncher.rsi
