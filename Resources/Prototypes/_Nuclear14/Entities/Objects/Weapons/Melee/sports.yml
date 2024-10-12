@@ -1,8 +1,8 @@
 - type: entity
-  name: baseball bat
+  name: "бейсбольна біта"
   parent: BaseItem
   id: N14BaseBallBat
-  description: A robust baseball bat.
+  description: "Міцна бейсбольна бита."
   components:
   - type: Sprite
     sprite: Objects/Weapons/Melee/baseball_bat.rsi
@@ -42,10 +42,10 @@
 
 
 - type: entity
-  name: pool cue
+  name: "більярдний кий"
   parent: BaseItem
   id: N14PoolCue
-  description: A pool cue used for hitting balls, usually the ones on pool tables, but also occasionally your enemy's.
+  description: "Більярдний кий, який використовується для ударів по кулях, зазвичай по тих, що лежать на більярдних столах, але іноді і по кулях вашого супротивника."
   components:
   - type: Sprite
     sprite: _Nuclear14/Objects/Weapons/Melee/pool_cue.rsi
@@ -92,10 +92,10 @@
     - suitStorage
 
 - type: entity
-  name: golf club
+  name: "гольф-клуб"
   parent: BaseItem
   id: N14GolfClub
-  description: A tool used for a pointless old world sport, now used as an instrument of destruction.
+  description: "Інструмент, який використовувався для безглуздого старосвітського спорту, а тепер використовується як знаряддя знищення."
   components:
   - type: Sprite
     sprite: _Nuclear14/Objects/Weapons/Melee/golf_club.rsi

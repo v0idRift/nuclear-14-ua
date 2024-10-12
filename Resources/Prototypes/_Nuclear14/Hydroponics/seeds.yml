@@ -403,7 +403,7 @@
       
 - type: seed
   id: N14WildPricklyPear
-  name: clipping-prickly-pear-name
+  name: "ім'я-відсікання-груші-ім'я"
   noun: clipping-prickly-pear-noun
   displayName: clipping-prickly-pear-display-name
   plantRsi: _Nuclear14/Objects/Specific/Hydroponics/pricklypear.rsi
@@ -451,7 +451,7 @@
       
 - type: seed
   id: N14Starlight
-  name: seeds-starlight-name
+  name: "seeds-starlight-name"
   noun: seeds-starlight-seeds
   displayName: seeds-starlight-display-name
   plantRsi: _Nuclear14/Objects/Specific/Hydroponics/starlight.rsi
@@ -477,7 +477,7 @@
       
 - type: seed
   id: N14Tarberry
-  name: seeds-tarberry-name
+  name: "seeds-tarberry-name"
   noun: seeds-tarberry-seeds
   displayName: seeds-tarberry-display-name
   plantRsi: _Nuclear14/Objects/Specific/Hydroponics/tarberry.rsi

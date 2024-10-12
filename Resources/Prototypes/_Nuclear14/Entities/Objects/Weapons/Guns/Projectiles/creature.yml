@@ -1,6 +1,6 @@
 - type: entity
   id: N14BulletAcid
-  name: acid spit
+  name: "кислотна слина"
   parent: BaseBullet
   noSpawn: true
   components:

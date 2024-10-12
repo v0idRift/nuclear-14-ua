@@ -1,8 +1,8 @@
 - type: entity
   id: StairsBase
-  name: stairs
+  name: "сходи"
   suffix: autolinking
-  description: These look like they'll take you places.
+  description: "Ці виглядають так, ніби вони тебе кудись привезуть."
   placement:
     mode: SnapgridCenter
   components:

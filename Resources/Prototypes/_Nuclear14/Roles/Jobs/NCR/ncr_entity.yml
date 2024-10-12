@@ -1,7 +1,7 @@
 - type: entity
   parent: MobHuman
   id: N14MobHumanNCRCadet
-  name: NCRCadet
+  name: "NCRCadet"
   components:
     - type: RandomHumanoidAppearance
       randomizeName: true
@@ -14,7 +14,7 @@
 - type: entity
   parent: MobHuman
   id: N14MobHumanNCRDoctor
-  name: NCRDoctor
+  name: "NCRDoctor"
   components:
     - type: RandomHumanoidAppearance
       randomizeName: true
@@ -27,7 +27,7 @@
 - type: entity
   parent: MobHuman
   id: N14MobHumanNCRMP
-  name: NCRMP
+  name: "NCRMP"
   components:
     - type: RandomHumanoidAppearance
       randomizeName: true
@@ -40,7 +40,7 @@
 - type: entity
   parent: MobHuman
   id: N14MobHumanNCRNCO
-  name: NCRNCO
+  name: "NCRNCO"
   components:
     - type: RandomHumanoidAppearance
       randomizeName: true
@@ -53,7 +53,7 @@
 - type: entity
   parent: MobHuman
   id: N14MobHumanNCROfficer
-  name: NCROfficer
+  name: "NCROfficer"
   components:
     - type: RandomHumanoidAppearance
       randomizeName: true
@@ -66,7 +66,7 @@
 - type: entity
   parent: MobHuman
   id: N14MobHumanNCRQM
-  name: NCRQM
+  name: "NCRQM"
   components:
     - type: RandomHumanoidAppearance
       randomizeName: true
@@ -79,7 +79,7 @@
 - type: entity
   parent: MobHuman
   id: N14MobHumanNCRSoldier
-  name: NCRSoldier
+  name: "NCRSoldier"
   components:
     - type: RandomHumanoidAppearance
       randomizeName: true
@@ -92,7 +92,7 @@
 - type: entity
   parent: MobHuman
   id: N14MobHumanNCRRangerVeteran
-  name: NCRRangerVeteran
+  name: "NCRRangerVeteran"
   components:
     - type: RandomHumanoidAppearance
       randomizeName: true
@@ -105,7 +105,7 @@
 - type: entity
   parent: MobHuman
   id: N14MobHumanNCRRanger
-  name: NCRRanger
+  name: "NCRRanger"
   components:
     - type: RandomHumanoidAppearance
       randomizeName: true
