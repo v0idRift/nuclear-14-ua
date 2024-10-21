@@ -25,7 +25,7 @@
 - type: entity
   parent: BaseMagazineBox762Rifle
   id: MagazineBox762
-  name: "коробка з боєприпасами (7,62 мм)"
+  name: ammunition box (7.62mm)
   components:
   - type: BallisticAmmoProvider
     proto: N14Cartridge762Rifle

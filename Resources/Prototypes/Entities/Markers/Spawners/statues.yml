@@ -1,5 +1,5 @@
 - type: entity
-  name: "Oracle Spawner"
+  name: Oracle Spawner
   id: OracleSpawner
   parent: MarkerBase
   components:
@@ -12,7 +12,7 @@
       - Oracle
 
 - type: entity
-  name: "Софія Споунер"
+  name: Sophia Spawner
   id: SophicScribeSpawner
   parent: MarkerBase
   components:

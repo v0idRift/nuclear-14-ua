@@ -2,10 +2,10 @@
 
 #MARK: Pistols
 - type: entity
-  name: "неповний 10-мм трубчастий пістолет"
+  name: incomplete 10mm pipe pistol
   parent: BaseItem
   id: IncompleteN14WeaponPipe10mm
-  description: "10-мм трубчастий пістолет"
+  description: 10mm pipe pistol
   components:
   - type: Sprite
     sprite: _Nuclear14/Objects/Misc/crafting_junk.rsi
@@ -17,10 +17,10 @@
 
 #MARK: Revolvers
 - type: entity
-  name: "неповний 10-мм револьвер"
+  name: incomplete 10mm revolver
   parent: BaseItem
   id: IncompleteN14WeaponRevolver10mm
-  description: "10-мм револьвер"
+  description: 10mm revolver
   components:
   - type: Sprite
     sprite: _Nuclear14/Objects/Misc/crafting_junk.rsi
@@ -32,10 +32,10 @@
 
 #MARK: SMGs
 - type: entity
-  name: "неповна 10-міліметрова автотруба"
+  name: incomplete 10mm autopipe
   parent: BaseItem
   id: IncompleteN14Weapon10mmPipe
-  description: "Автотруба 10 мм"
+  description: 10mm autopipe
   components:
   - type: Sprite
     sprite: _Nuclear14/Objects/Misc/crafting_junk.rsi
@@ -46,10 +46,10 @@
     node: Incomplete14WeaponPipe10mm
 
 - type: entity
-  name: "неповна 12,7-міліметрова автотруба"
+  name: incomplete 12.7mm autopipe
   parent: BaseItem
   id: IncompleteN14weapon12mmpipeEmpty
-  description: "12,7 мм автотруба"
+  description: 12.7mm autopipe
   components:
   - type: Sprite
     sprite: _Nuclear14/Objects/Misc/crafting_junk.rsi

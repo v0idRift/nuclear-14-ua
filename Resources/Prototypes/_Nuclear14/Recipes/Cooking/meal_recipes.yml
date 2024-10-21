@@ -1,6 +1,6 @@
 - type: microwaveMealRecipe
   id: N14RecipeMeatRad
-  name: "рецепт опроміненого м'яса"
+  name: irradiated meat recipe
   result: N14FoodMeatCooked
   time: 15
   solids:
@@ -8,7 +8,7 @@
 
 - type: microwaveMealRecipe
   id: N14RecipeSteakBrahmin
-  name: "рецепт брамінського стейка"
+  name: brahmin steak recipe
   result: N14FoodMeatBrahminCooked
   time: 15
   solids:
@@ -16,7 +16,7 @@
 
 - type: microwaveMealRecipe
   id: N14RecipeCutletBrahmin
-  name: "рецепт брамінської котлети"
+  name: brahmin cutlet recipe
   result: N14FoodMeatBrahminCutletCooked
   time: 5
   solids:
@@ -24,7 +24,7 @@
     
 - type: microwaveMealRecipe
   id: N14RecipeSteakBighorner
-  name: "рецепт стейка з бігхорна"
+  name: bighorner steak recipe
   result: N14FoodMeatBighornerCooked
   time: 15
   solids:
@@ -32,7 +32,7 @@
 
 - type: microwaveMealRecipe
   id: N14RecipeCutletBighorner
-  name: "рецепт котлет з бігхорна"
+  name: bighorner cutlet recipe
   result: N14FoodMeatBighornerCutletCooked
   time: 5
   solids:
@@ -40,7 +40,7 @@
     
 - type: microwaveMealRecipe
   id: N14RecipeSteakRadstag
-  name: "рецепт стейка \"Радстаг"
+  name: radstag steak recipe
   result: N14FoodMeatRadstagCooked
   time: 15
   solids:
@@ -48,7 +48,7 @@
 
 - type: microwaveMealRecipe
   id: N14RecipeCutletRadstag
-  name: "рецепт котлет з радстагу"
+  name: radstag cutlet recipe
   result: N14FoodMeatRadstagCutletCooked
   time: 5
   solids:
@@ -56,7 +56,7 @@
 
 - type: microwaveMealRecipe
   id: N14RecipeSteakGecko
-  name: "рецепт стейка з гекона"
+  name: gecko steak recipe 
   result: N14FoodMeatGeckoCooked
   time: 15
   solids:
@@ -64,7 +64,7 @@
 
 - type: microwaveMealRecipe
   id: N14RecipeCutletGecko
-  name: "рецепт котлет з гекона"
+  name: gecko cutlet recipe 
   result: N14FoodMeatGeckoCutletCooked
   time: 5
   solids:
@@ -72,7 +72,7 @@
 
 - type: microwaveMealRecipe
   id: N14RecipeSteakYaoguai
-  name: "рецепт стейка яо-гуай"
+  name: yao-guai steak recipe 
   result: N14FoodMeatYaoguaiCooked
   time: 15
   solids:
@@ -80,7 +80,7 @@
 
 - type: microwaveMealRecipe
   id: N14RecipeCutletYaoguai
-  name: "рецепт котлет з яо-гуай"
+  name: yao-guai cutlet recipe 
   result: N14FoodMeatYaoguaiCutletCooked
   time: 5
   solids:
@@ -88,7 +88,7 @@
 
 - type: microwaveMealRecipe
   id: N14RecipeSteakRadscorpion
-  name: "рецепт стейка з ракоскорпіона"
+  name: radscorpion steak recipe
   result: N14FoodMeatRadscorpionCooked
   time: 15
   solids:
@@ -96,7 +96,7 @@
 
 - type: microwaveMealRecipe
   id: N14RecipeCutletRadscorpion
-  name: "рецепт котлет з ракоскорпіонів"
+  name: radscorpion cutlet recipe 
   result: N14FoodMeatRadscorpionCutletCooked
   time: 5
   solids:
@@ -104,7 +104,7 @@
 
 - type: microwaveMealRecipe
   id: N14RecipeRadscorpionLeg
-  name: "рецепт відвареної ніжки ракоскорпіона"
+  name: boiled radscorpion leg recipe
   result: N14FoodMeatRadscorpionLegBoiled
   time: 20
   reagents:
@@ -114,7 +114,7 @@
 
 - type: microwaveMealRecipe
   id: N14RecipeClawMirelurk
-  name: "рецепт кігтя мірелурка"
+  name: mirelurk claw recipe 
   result: N14FoodMeatMirelurkClawCooked
   time: 15
   solids:
@@ -122,7 +122,7 @@
 
 - type: microwaveMealRecipe
   id: N14RecipeClawRadlurk
-  name: "рецепт кігтів радлурка"
+  name: radlurk claw recipe 
   result: N14FoodMeatRadlurkClawCooked
   time: 15
   solids:
@@ -130,7 +130,7 @@
 
 - type: microwaveMealRecipe
   id: N14RecipeRadroachFillet
-  name: "рецепт філе плітки"
+  name: radroach fillet recipe
   result: N14FoodMeatRadroachFilletCooked
   time: 15
   solids:

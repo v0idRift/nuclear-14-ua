@@ -1,6 +1,6 @@
 - type: entity
   id: N14Cartridge44Magnum
-  name: "патрон (.44 magnum)"
+  name: cartridge (.44 magnum)
   parent: BaseCartridgePistol
   components:
   - type: CartridgeAmmo

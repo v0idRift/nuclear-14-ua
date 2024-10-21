@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingNeckBase
   id: ClothingNeckRedScarf
-  name: "червоний шарф"
-  description: "Короткий червоний шарф."
+  name: red scarf
+  description: A short red scarf.
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/Neck/Bandanas/redscarf.rsi
@@ -18,8 +18,8 @@
 - type: entity
   parent: ClothingNeckBase
   id: ClothingNeckDesertMask 
-  name: "маска пустелі"
-  description: "Короткий шарф для засмаги."
+  name: desert mask
+  description: A short tan scarf.
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/Neck/Bandanas/desertmask.rsi
@@ -35,8 +35,8 @@
 - type: entity
   parent: ClothingNeckBase
   id: ClothingNeckBlueScarf
-  name: "синій шарф"
-  description: "Короткий синій шарф."
+  name: blue scarf
+  description: A short blue scarf.
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/Neck/Bandanas/bluescarf.rsi
@@ -52,8 +52,8 @@
 - type: entity
   parent: ClothingNeckBase
   id: ClothingNeckGreenScarf
-  name: "зелений шарф"
-  description: "Короткий зелений шарф."
+  name: green scarf
+  description: A short green scarf.
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/Neck/Bandanas/greenscarf.rsi
@@ -69,8 +69,8 @@
 - type: entity
   parent: ClothingNeckBase
   id: ClothingNeckOrangeScarf
-  name: "помаранчевий шарф"
-  description: "Короткий помаранчевий шарф."
+  name: orange scarf
+  description: A short orange scarf.
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/Neck/Bandanas/orangescarf.rsi
@@ -86,8 +86,8 @@
 - type: entity
   parent: ClothingNeckBase
   id: ClothingNeckBrownScarf
-  name: "коричневий шарф"
-  description: "Короткий коричневий шарф."
+  name: brown scarf
+  description: A short brown scarf.
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/Neck/Bandanas/brownscarf.rsi
@@ -103,8 +103,8 @@
 - type: entity
   parent: ClothingNeckBase
   id: ClothingNeckPatriotScarf
-  name: "патріотичний шарф"
-  description: "Короткий дуже патріотичний шарф."
+  name: patriot scarf
+  description: A short very patriotic scarf.
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/Neck/Bandanas/patriotscarf.rsi

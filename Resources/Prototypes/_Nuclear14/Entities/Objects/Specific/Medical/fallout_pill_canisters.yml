@@ -1,8 +1,8 @@
 - type: entity
-  name: "каністра rad-x"
+  name: rad-x canister
   id: N14RadXCanister
   parent: PillCanister
-  description: "Вміщує до 12 таблеток. Зазвичай використовується для зберігання Rad-X."
+  description: Holds up to 12 pills. Usually used to hold Rad-X. 
   components:
   - type: Sprite
     sprite: _Nuclear14/Objects/Specific/Medical/pill_canisters.rsi
@@ -11,10 +11,10 @@
     sprite: _Nuclear14/Objects/Specific/Medical/pill_canisters.rsi
 
 - type: entity
-  name: "mentats pillbox"
+  name: mentats pill box
   id: N14MentatsCanister
   parent: PillCanister
-  description: "Містить до 12 таблеток. Зазвичай містить таблетки Ментат."
+  description: Holds up to 12 pills. Usually contains pills of Mentats.
   components:
   - type: Sprite
     sprite: _Nuclear14/Objects/Specific/Medical/pill_canisters.rsi
@@ -23,10 +23,10 @@
     sprite: _Nuclear14/Objects/Specific/Medical/pill_canisters.rsi
 
 - type: entity
-  name: "каністра для сміття"
+  name: buffout canister
   id: N14BuffoutCanister
   parent: PillCanister
-  description: "Містить до 12 таблеток. Зазвичай містить пігулки Баффаута."
+  description: Holds up to 12 pills. Usually contains pills of Buffout. 
   components:
   - type: Sprite
     sprite: _Nuclear14/Objects/Specific/Medical/pill_canisters.rsi
@@ -35,10 +35,10 @@
     sprite: _Nuclear14/Objects/Specific/Medical/pill_canisters.rsi
 
 - type: entity
-  name: "каністра з катетером"
+  name: cateye canister
   id: N14CateyeCanister
   parent: PillCanister
-  description: "Містить до 12 таблеток. Зазвичай містить таблетки Катеїну."
+  description: Holds up to 12 pills. Usually contains pills of Cateye. 
   components:
   - type: Sprite
     sprite: _Nuclear14/Objects/Specific/Medical/pill_canisters.rsi
@@ -47,10 +47,10 @@
     sprite: _Nuclear14/Objects/Specific/Medical/pill_canisters.rsi
 
 - type: entity
-  name: "фіксуючий ящик для таблеток"
+  name: fixer pill box
   id: N14FixerCanister
   parent: PillCanister
-  description: "Містить до 12 таблеток. Зазвичай містить таблетки Фіксатора."
+  description: Holds up to 12 pills. Usually contains pills of Fixer. 
   components:
   - type: Sprite
     sprite: _Nuclear14/Objects/Specific/Medical/pill_canisters.rsi

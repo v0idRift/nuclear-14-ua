@@ -1,6 +1,6 @@
 - type: entity
   id: N14BaseSpeedLoader9
-  name: "швидкісний навантажувач (9 мм)"
+  name: "speed loader (9mm)"
   parent: BaseItem
   abstract: true
   components:
@@ -21,7 +21,7 @@
 
 - type: entity
   id: SpeedLoader9
-  name: "швидкісний навантажувач (9 мм)"
+  name: "speed loader (9mm)"
   parent: N14BaseSpeedLoader9
   components:
   - type: BallisticAmmoProvider

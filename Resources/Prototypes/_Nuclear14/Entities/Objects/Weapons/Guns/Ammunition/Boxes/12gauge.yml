@@ -25,7 +25,7 @@
 - type: entity
   parent: BaseMagazineBox12gauge
   id: MagazineBox12gauge
-  name: "ящик для набоїв (12 калібр)"
+  name: ammunition box (12 gauge)
   components:
   - type: BallisticAmmoProvider
     proto: N14ShellShotgun12

@@ -2,188 +2,188 @@
 # Lobby Music
 - type: jukebox
   id: AKissToBuildADreamOn
-  name: "Луї Армстронг - Поцілунок, на якому можна збудувати мрію"
+  name: Louis Armstrong - A Kiss to Build A Dream On
   path:
     path: /Audio/_Nuclear14/Lobby/a_kiss_to_build_a_dream_on.ogg
 
 - type: jukebox
   id: AintThatAKickInTheHead
-  name: "Дін Мартін - Ain't That A Kick In The Head"
+  name: Dean Martin - Ain't That A Kick In The Head
   path:
     path: /Audio/_Nuclear14/Lobby/MUS_Aint_That_A_Kick_In_the_Head.ogg
 
 - type: jukebox
   id: AmericanSwing
-  name: "Герхард Треде - Американський свінг"
+  name: Gerhard Trede - American Swing
   path:
     path: /Audio/_Nuclear14/Lobby/MUS_American_Swing.ogg
     
 - type: jukebox
   id: BigIron
-  name: "Marty Robins - Big Iron"
+  name: Marty Robins - Big Iron
   path:
     path: /Audio/_Nuclear14/Lobby/MUS_Big_Iron.ogg
     
 - type: jukebox
   id: JingleJangleJingle
-  name: "Кей Кайзер - Jingle Jangle Jingle"
+  name: Kay Kyser - Jingle Jangle Jingle
   path:
     path: /Audio/_Nuclear14/Lobby/MUS_Jingle_Jangle_Jingle.ogg
     
 - type: jukebox
   id: JoeCool
-  name: "Жорж Тесперен - Джо Кул"
+  name: Georges Tesperin - Joe Cool
   path:
     path: /Audio/_Nuclear14/Lobby/MUS_Joe_Cool_CAS.ogg
     
 - type: jukebox
   id: JohnnyGuitar
-  name: "Пеггі Лі - гітара Джонні"
+  name: Peggy Lee - Johnny Guitar
   path:
     path: /Audio/_Nuclear14/Lobby/MUS_Johnny_Guitar.ogg
     
 - type: jukebox
   id: SomethingsGottaGive
-  name: "Bing Crosby - Something's Gotta Give"
+  name: Bing Crosby - Something's Gotta Give
   path:
     path: /Audio/_Nuclear14/Lobby/MUS_Somethings_Gotta_Give.ogg
 
 # Music/Fallout3
 - type: jukebox
   id: BillieHolidayCrazy
-  name: "Billie Holiday - Crazy"
+  name: Billie Holiday - Crazy
   path:
     path: /Audio/_Nuclear14/Music/Fallout3/mus_billieholiday_crazy_mono.ogg
     
 - type: jukebox
   id: BillieHolidayEasy
-  name: "Біллі Холідей - Легко"
+  name: Billie Holiday - Easy
   path:
     path: /Audio/_Nuclear14/Music/Fallout3/mus_billieholiday_easy_mono.ogg
 
 - type: jukebox
   id: BobCrosbyHappy
-  name: "Боб Кросбі - Щасливий"
+  name: Bob Crosby - Happy
   path:
     path: /Audio/_Nuclear14/Music/Fallout3/mus_bobcrosby_happy_mono.ogg
 
 - type: jukebox
   id: BobCrosbyWay
-  name: "Боб Кросбі - Шлях"
+  name: Bob Crosby - Way
   path:
     path: /Audio/_Nuclear14/Music/Fallout3/mus_bobcrosby_way_mono.ogg
     
 - type: jukebox
   id: ColePorterAnything
-  name: "Cole Porter - Anything"
+  name: Cole Porter - Anything
   path:
     path: /Audio/_Nuclear14/Music/Fallout3/mus_coleporter_anything_mono.ogg
     
 - type: jukebox
   id: DannyKayeCivilization
-  name: "Денні Кей - Цивілізація"
+  name: Danny Kaye - Civilization
   path:
     path: /Audio/_Nuclear14/Music/Fallout3/mus_dannykaye_civilization_mono.ogg
     
 - type: jukebox
   id: GenericBoogie
-  name: "Generic Boogie"
+  name: Generic Boogie
   path:
     path: /Audio/_Nuclear14/Music/Fallout3/mus_generic_boogie_mono.ogg
     
 - type: jukebox
   id: GenericFox
-  name: "Лисиця звичайна"
+  name: Generic Fox
   path:
     path: /Audio/_Nuclear14/Music/Fallout3/mus_generic_fox_mono.ogg
     
 - type: jukebox
   id: GenericJazzy
-  name: "Загальний джаз"
+  name: Generic Jazzy
   path:
     path: /Audio/_Nuclear14/Music/Fallout3/mus_generic_jazzy_mono.ogg
     
 - type: jukebox
   id: GenericSunning
-  name: "Загальний загар"
+  name: Generic Sunning
   path:
     path: /Audio/_Nuclear14/Music/Fallout3/mus_generic_sunning_mono.ogg
     
 - type: jukebox
   id: GenericSwing
-  name: "Загальні гойдалки"
+  name: Generic Swing
   path:
     path: /Audio/_Nuclear14/Music/Fallout3/mus_generic_swing_mono.ogg
     
 - type: jukebox
   id: InkspotsIDont
-  name: "Inkspots - I Don't"
+  name: Inkspots - I Don't
   path:
     path: /Audio/_Nuclear14/Music/Fallout3/mus_inkspots_idont_mono.ogg
     
 - type: jukebox
   id: RoyBrownButcher
-  name: "Рой Браун - М'ясник"
+  name: Roy Brown - Butcher
   path:
     path: /Audio/_Nuclear14/Music/Fallout3/mus_roybrown_butcher_mono.ogg
     
 - type: jukebox
   id: RoyBrownMighty
-  name: "Roy Brown - Mighty"
+  name: Roy Brown - Mighty
   path:
     path: /Audio/_Nuclear14/Music/Fallout3/mus_roybrown_mighty_mono.ogg
     
 - type: jukebox
   id: TexBenekeGuy
-  name: "Текс Бенеке - Хлопець"
+  name: Tex Beneke - Guy
   path:
     path: /Audio/_Nuclear14/Music/Fallout3/mus_texbeneke_guy_mono.ogg
     
 # Music - Enclave
 - type: jukebox
   id: PatrioticAmerica
-  name: "Патріотична Америка"
+  name: Patriotic America
   path:
     path: /Audio/_Nuclear14/Music/MUS_Patriotic_America.ogg 
     
 - type: jukebox
   id: BattleHymn
-  name: "Бойовий гімн"
+  name: Battle Hymn
   path:
     path: /Audio/_Nuclear14/Music/MUS_Patriotic_BattleHymn_mono.ogg
     
 - type: jukebox
   id: PatrioticDixie
-  name: "Патріотичний дикси"
+  name: Patriotic Dixie
   path:
     path: /Audio/_Nuclear14/Music/MUS_Patriotic_Dixie.ogg
     
 - type: jukebox
   id: PatrioticMontezuma
-  name: "Патріотична Монтесума"
+  name: Patriotic Montezuma
   path:
     path: /Audio/_Nuclear14/Music/MUS_Patriotic_Montezuma.ogg
     
 - type: jukebox
   id: PatrioticPresidential
-  name: "Патріотичний президентський"
+  name: Patriotic Presidential
   path:
     path: /Audio/_Nuclear14/Music/MUS_Patriotic_Presidential.ogg
     
 - type: jukebox
   id: PatrioticStars
-  name: "Патріотичні зірки"
+  name: Patriotic Stars
   path:
     path: /Audio/_Nuclear14/Music/MUS_Patriotic_Stars.ogg
     
 - type: jukebox
   id: PatrioticWashington
-  name: "Патріотичний Вашингтон"
+  name: Patriotic Washington
   path:
     path: /Audio/_Nuclear14/Music/MUS_Patriotic_Washington.ogg
     
 - type: jukebox
   id: PatrioticYankee
-  name: "Патріотичний янкі"
+  name: Patriotic Yankee
   path:
     path: /Audio/_Nuclear14/Music/MUS_Patriotic_Yankee.ogg
