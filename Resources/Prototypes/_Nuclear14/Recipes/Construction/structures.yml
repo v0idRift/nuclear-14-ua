@@ -1,13 +1,13 @@
 # Wood
 # Walls
 - type: construction
-  name: log wall
+  name: "дерев'яна стіна"
   id: N14WoodWallLog
   graph: N14WoodWall
   startNode: start
   targetNode: logWall
   category: construction-category-structures
-  description: Home from home.
+  description: "Дім з дому."
   icon:
     sprite: _Nuclear14/Structures/Walls/nc14/woodlog.rsi
     state: full
@@ -21,13 +21,13 @@
     
 # # Doors
 - type: construction
-  name: wooden door
+  name: "дерев'яні двері"
   id: N14DoorWood
   graph: N14DoorGraph
   startNode: start
   targetNode: woodDoorMakeshift
   category: construction-category-structures
-  description: A primitive door with manual operation like the cavemen used.
+  description: "Примітивні двері з ручним керуванням, як у печерних людей."
   objectType: Structure
   placementMode: SnapgridCenter
   canBuildInImpassable: false
@@ -41,13 +41,13 @@
 # Slanted Structures
 ## Walls
 - type: construction
-  name: wooden wall
+  name: "дерев'яна стіна"
   id: N14WallWoodSlanted
   graph: N14WoodWall
   startNode: start
   targetNode: WoodWall
   category: construction-category-structures
-  description: A nice hand built wall.
+  description: "Гарна стіна, збудована вручну."
   icon:
     sprite: _Nuclear14/Structures/Walls/ms13/slanted/wood.rsi
     state: full
@@ -61,13 +61,13 @@
     
 ## Half Walls
 - type: construction
-  name: wooden half wall
+  name: "дерев'яна напівстіна"
   id: N14WallWoodHalfSlanted
   graph: N14HalfWall
   startNode: start
   targetNode: Wood
   category: construction-category-structures
-  description: A nice half wall for placing a window pane on.
+  description: "Гарна половина стіни, на якій можна розмістити віконну шибку."
   icon:
     sprite: _Nuclear14/Structures/Walls/ms13/half/wood.rsi
     state: full
@@ -81,13 +81,13 @@
 
 ## Doors
 - type: construction
-  name: metal door blue
+  name: "металеві двері сині"
   id: N14DoorMetalBlue
   graph: N14DoorGraph
   startNode: start
   targetNode: MetalBlue
   category: construction-category-structures
-  description: A metal door good for keeping things out.
+  description: "Металеві двері добре захищають від сторонніх предметів."
   objectType: Structure
   placementMode: SnapgridCenter
   canBuildInImpassable: false
@@ -99,13 +99,13 @@
     - !type:TileNotBlocked
     
 - type: construction
-  name: metal door blue
+  name: "металеві двері сині"
   id: N14DoorMetalBlueAlt
   graph: N14DoorGraph
   startNode: start
   targetNode: MetalBlueAlt
   category: construction-category-structures
-  description: A metal door good for keeping things out.
+  description: "Металеві двері добре захищають від сторонніх предметів."
   objectType: Structure
   placementMode: SnapgridCenter
   canBuildInImpassable: false
@@ -117,13 +117,13 @@
     - !type:TileNotBlocked
     
 - type: construction
-  name: metal door red
+  name: "металеві двері червоні"
   id: N14DoorMetalRed
   graph: N14DoorGraph
   startNode: start
   targetNode: MetalRed
   category: construction-category-structures
-  description: A metal door good for keeping things out.
+  description: "Металеві двері добре захищають від сторонніх предметів."
   objectType: Structure
   placementMode: SnapgridCenter
   canBuildInImpassable: false
@@ -135,13 +135,13 @@
     - !type:TileNotBlocked
     
 - type: construction
-  name: metal door blue windowed
+  name: "металеві двері з синім вікном"
   id: N14DoorMetalBlueWindow
   graph: N14DoorGraph
   startNode: start
   targetNode: MetalBlueWindow
   category: construction-category-structures
-  description: A metal door good for keeping things out.
+  description: "Металеві двері добре захищають від сторонніх предметів."
   objectType: Structure
   placementMode: SnapgridCenter
   canBuildInImpassable: false
@@ -153,13 +153,13 @@
     - !type:TileNotBlocked
     
 - type: construction
-  name: metal bar door
+  name: "металеві ґратчасті двері"
   id: N14DoorMetalBar
   graph: N14DoorGraph
   startNode: start
   targetNode: MetalBar
   category: construction-category-structures
-  description: A metal door good for keeping things out.
+  description: "Металеві двері добре захищають від сторонніх предметів."
   objectType: Structure
   placementMode: SnapgridCenter
   canBuildInImpassable: false
@@ -171,13 +171,13 @@
     - !type:TileNotBlocked
     
 - type: construction
-  name: metal fence door
+  name: "металеві двері для огорожі"
   id: N14DoorMetalFence
   graph: N14DoorGraph
   startNode: start
   targetNode: MetalFence
   category: construction-category-structures
-  description: A metal door good for keeping things out.
+  description: "Металеві двері добре захищають від сторонніх предметів."
   objectType: Structure
   placementMode: SnapgridCenter
   canBuildInImpassable: false
@@ -189,13 +189,13 @@
     - !type:TileNotBlocked
     
 - type: construction
-  name: wooden door
+  name: "дерев'яні двері"
   id: N14DoorWooden
   graph: N14DoorGraph
   startNode: start
   targetNode: WoodDoor
   category: construction-category-structures
-  description: A wooden door good for keeping things out.
+  description: "Дерев'яні двері добре захищають від сторонніх поглядів."
   objectType: Structure
   placementMode: SnapgridCenter
   canBuildInImpassable: false
@@ -208,13 +208,13 @@
     
 ## Windows
 - type: construction
-  name: window pane
+  name: "віконна шибка"
   id: N14Window
   graph: N14WindowPane
   startNode: start
   targetNode: Window
   category: construction-category-structures
-  description: A window pane for seeing through things.
+  description: "Віконне скло для того, щоб бачити речі наскрізь."
   objectType: Structure
   placementMode: SnapgridCenter
   canBuildInImpassable: true

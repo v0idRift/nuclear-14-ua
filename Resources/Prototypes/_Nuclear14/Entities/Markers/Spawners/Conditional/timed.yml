@@ -1,6 +1,6 @@
 ﻿# Animals
 - type: entity
-  name: Molerat Timed Spawner
+  name: "Молерат таймерний нерестовик"
   id: N14TimedSpawnerMolerat
   parent: MarkerBase
   components:
@@ -22,7 +22,7 @@
 - type: entity
   parent: N14TimedSpawnerMolerat
   id: N14TimedSpawnerDogFeral
-  name: Feral Dog Timed Spawner
+  name: "Нерестовик здичавілого пса з таймером"
   components:
     - type: Sprite
       layers:
@@ -42,7 +42,7 @@
 - type: entity
   parent: N14TimedSpawnerMolerat
   id: N14TimedSpawnerGecko
-  name: Gecko Timed Spawner
+  name: "Нерестовик гекона з таймером"
   components:
     - type: Sprite
       layers:
@@ -62,7 +62,7 @@
 - type: entity
   parent: N14TimedSpawnerMolerat
   id: N14TimedSpawnerNightstalkerCub
-  name: Nightstalker Cub Timed Spawner
+  name: "Нерестовик дитинчат нічного сталкера з таймером"
   components:
     - type: Sprite
       layers:
@@ -82,7 +82,7 @@
 - type: entity
   parent: N14TimedSpawnerMolerat
   id: N14TimedSpawnerNightstalker
-  name: Nightstalker Timed Spawner
+  name: "Nightstalker Timed Spawner"
   components:
     - type: Sprite
       layers:
@@ -102,7 +102,7 @@
 - type: entity
   parent: N14TimedSpawnerMolerat
   id: N14TimedSpawnerYaoguai
-  name: Yaoguai Timed Spawner
+  name: "Яогуай Таймінговий нерестовик"
   components:
     - type: Sprite
       layers:
@@ -122,7 +122,7 @@
 - type: entity
   parent: N14TimedSpawnerMolerat
   id: N14TimedSpawnerDeathclaw
-  name: Deathclaw Timed Spawner
+  name: "Deathclaw Timed Spawner - синхронізований спайдер"
   components:
     - type: Sprite
       layers:
@@ -142,7 +142,7 @@
 - type: entity
   parent: N14TimedSpawnerMolerat
   id: N14TimedSpawnerDeathclawAlbino
-  name: Deathclaw Albino Timed Spawner
+  name: "Кіготь Смерті - альбінос, синхронізований за часом спайдер"
   components:
     - type: Sprite
       layers:
@@ -162,7 +162,7 @@
 - type: entity
   parent: N14TimedSpawnerMolerat
   id: N14TimedSpawnerDeathclawMetal
-  name: Deathclaw Metal Timed Spawner
+  name: "Deathclaw Metal Timed Spawner"
   components:
     - type: Sprite
       layers:
@@ -184,7 +184,7 @@
 - type: entity
   parent: N14TimedSpawnerMolerat
   id: N14TimedSpawnerBloatfly
-  name: Bloatfly Timed Spawner
+  name: "Нерестовик з таймером для веснянок"
   components:
     - type: Sprite
       layers:
@@ -204,7 +204,7 @@
 - type: entity
   parent: N14TimedSpawnerMolerat
   id: N14TimedSpawnerCazador
-  name: Cazador Timed Spawner
+  name: "Cazador Timed Sprinter - нерестовик з таймером"
   components:
     - type: Sprite
       layers:
@@ -224,7 +224,7 @@
 - type: entity
   parent: N14TimedSpawnerMolerat
   id: N14TimedSpawnerAnt
-  name: Ant Timed Spawner
+  name: "Мурашиний синхронізований нерестовик"
   components:
     - type: Sprite
       layers:
@@ -244,7 +244,7 @@
 - type: entity
   parent: N14TimedSpawnerMolerat
   id: N14TimedSpawnerFireant
-  name: Fire Ant Timed Spawner
+  name: "Вогняна мураха - нерестовик з таймером"
   components:
     - type: Sprite
       layers:
@@ -264,7 +264,7 @@
 - type: entity
   parent: N14TimedSpawnerMolerat
   id: N14TimedSpawnerRadroach
-  name: Radroach Timed Spawner
+  name: "Нерестовик з таймером для тарганів"
   components:
     - type: Sprite
       layers:
@@ -284,7 +284,7 @@
 - type: entity
   parent: N14TimedSpawnerMolerat
   id: N14TimedSpawnerRadscorpion
-  name: Radscorpion Timed Spawner
+  name: "Радскорпіон - синхронізований нерестовик"
   components:
     - type: Sprite
       layers:
@@ -304,7 +304,7 @@
 - type: entity
   parent: N14TimedSpawnerMolerat
   id: N14TimedSpawnerRadscorpionBark
-  name: Radscorpion Bark Timed Spawner
+  name: "Радскорпіон кора приурочена до нересту"
   components:
     - type: Sprite
       layers:
@@ -325,7 +325,7 @@
 - type: entity
   parent: N14TimedSpawnerMolerat
   id: N14TimedSpawnerBrahmin
-  name: Brahmin Timed Spawner
+  name: "Брамінський синхронізований спайдер"
   components:
     - type: Sprite
       layers:
@@ -345,7 +345,7 @@
 - type: entity
   parent: N14TimedSpawnerMolerat
   id: N14TimedSpawnerBighorner
-  name: Bighorner Timed Spawner
+  name: "Нерестовик з таймером Bighorner"
   components:
     - type: Sprite
       layers:
@@ -365,7 +365,7 @@
 - type: entity
   parent: N14TimedSpawnerMolerat
   id: N14TimedSpawnerRadstag
-  name: Radstag Timed Spawner
+  name: "Нерестовик з таймером Радстагу"
   components:
     - type: Sprite
       layers:
@@ -385,7 +385,7 @@
 - type: entity
   parent: N14TimedSpawnerMolerat
   id: N14TimedSpawnerChicken
-  name: Chicken Timed Spawner
+  name: "Курячий нерестовик з таймером"
   components:
     - type: Sprite
       layers:
@@ -403,7 +403,7 @@
       maximumEntitiesSpawned: 3
       
 - type: entity
-  name: Raider Ranged Psycho Timed Spawner
+  name: "Raider Ranged Psycho Timed Spawner"
   id: N14TimedSpawnerMobRaiderPsychoRanged
   parent: N14TimedSpawnerMolerat
   components:
@@ -423,7 +423,7 @@
     maximumEntitiesSpawned: 2
 
 - type: entity
-  name: Raider Psycho Boss Timed Spawner
+  name: "Raider Psycho Boss Timed Spawner"
   id: N14TimedSpawnerMobRaiderBoss
   parent: N14TimedSpawnerMolerat
   components:
@@ -443,7 +443,7 @@
     maximumEntitiesSpawned: 1
 
 - type: entity
-  name: Raider Psycho Timed Spawner
+  name: "Raider Psycho Timed Spawner"
   id: N14TimedSpawnerMobRaiderPsycho
   parent: N14TimedSpawnerMolerat
   components:
