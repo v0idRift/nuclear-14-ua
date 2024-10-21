@@ -329,6 +329,11 @@
       - N14Shovel
       - N14SprayPainter
       - N14ClothingEyesGlassesWelding
+      - N14HydroponicsToolHoe
+      - N14HydroponicsToolHatchet
+      - HydroponicsToolSpade
+      - N14HydroponicsToolScythe
+      - N14HydroponicsToolClippers
       # Kitchen
       - N14ButchersCleaver
       - N14KitchenKnife
@@ -344,6 +349,8 @@
       - N14FoodBowlBig
       - N14FoodPlateTin
       - N14FoodKebabSkewer
+      - N14JunkCookpot
+      - N14JunkCoffeepot
       # Janitorial
       - N14Mop
       - N14MopBucket
