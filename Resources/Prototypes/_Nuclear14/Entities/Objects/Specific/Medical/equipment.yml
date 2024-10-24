@@ -1,8 +1,8 @@
 - type: entity
   id: N14MortarpestleGrinder
   parent: BaseItem
-  name: "ступка і товкач"
-  description: "Ступка та маточка для подрібнення речей на реагенти."
+  name: mortar & pestle
+  description: A mortar and pestle for grinding things into reagents.
   suffix: grinder/juicer
   components:
   - type: ReagentGrinder

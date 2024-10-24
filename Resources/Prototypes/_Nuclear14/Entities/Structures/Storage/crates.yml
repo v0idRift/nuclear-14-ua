@@ -1,8 +1,8 @@
 - type: entity
   parent: CrateGenericSteel
   id: N14CrateFootlocker
-  name: "шафка для ніг"
-  description: "Шафка для взуття для чийогось спорядження."
+  name: footlocker
+  description: A footlocker for someones equipment.
   components:
   - type: Icon
     sprite: _Nuclear14/Structures/Storage/Crates/footlocker.rsi
@@ -22,8 +22,8 @@
 - type: entity
   parent: CrateGenericSteel
   id: N14CrateAluminium
-  name: "алюмінієва обрешітка"
-  description: "Алюмінієвий ящик для зберігання речей."
+  name: aluminium crate
+  description: An aluminium crate for storing stuff.
   components:
   - type: Icon
     sprite: _Nuclear14/Structures/Storage/Crates/aluminiumcrate.rsi
@@ -38,8 +38,8 @@
 - type: entity
   parent: CrateGenericSteel
   id: N14CrateArmy
-  name: "армійський ящик"
-  description: "Ящик із зіркою армії США."
+  name: army crate
+  description: A crate with a US Army star on.
   components:
   - type: Icon
     sprite: _Nuclear14/Structures/Storage/Crates/armycrate.rsi
@@ -54,8 +54,8 @@
 - type: entity
   parent: N14CrateFootlocker
   id: N14CrateEnclave
-  name: "металевий ящик"
-  description: "Просунутий на вигляд ящик. Може мати високотехнологічне обладнання."
+  name: metal crate
+  description: An advanced looking crate. Might have high tech stuff in.
   components:
   - type: Icon
     sprite: _Nuclear14/Structures/Storage/Crates/crateenclave.rsi
@@ -72,8 +72,8 @@
   parent: N14CrateFootlocker
   id: N14CrateEnclaveDirectional
   suffix: directional
-  name: "металевий ящик"
-  description: "Просунутий на вигляд ящик. Може мати високотехнологічне обладнання."
+  name: metal crate
+  description: An advanced looking crate. Might have high tech stuff in.
   components:
   - type: Icon
     sprite: _Nuclear14/Structures/Storage/Crates/enclavecrate.rsi
@@ -88,8 +88,8 @@
 - type: entity
   parent: CrateGenericSteel
   id: N14CrateMedical
-  name: "медичний ящик"
-  description: "Металевий ящик для зберігання медичного обладнання."
+  name: medical crate
+  description: A metal crate for storing medical equipment.
   components:
   - type: Icon
     sprite: _Nuclear14/Structures/Storage/Crates/medicalcrate.rsi
@@ -109,8 +109,8 @@
 - type: entity
   parent: CrateGenericSteel
   id: N14CrateRed
-  name: "червоний ящик"
-  description: "Вицвілий червоний ящик для зберігання речей."
+  name: red crate
+  description: A faded red crate for storing stuff.
   components:
   - type: Icon
     sprite: _Nuclear14/Structures/Storage/Crates/redcrate.rsi
@@ -120,8 +120,8 @@
 - type: entity
   parent: CrateGenericSteel
   id: N14CrateVaultBig
-  name: "ящик vault-tec"
-  description: "Великий ящик з логотипом Vault-Tec на ньому."
+  name: vault-tec crate
+  description: A big crate with a Vault-Tec logo on it.
   components:
   - type: Icon
     sprite: _Nuclear14/Structures/Storage/Crates/vaultbig.rsi
@@ -131,8 +131,8 @@
 - type: entity
   parent: CrateGenericSteel
   id: N14CrateVaultBigRusted
-  name: "ящик vault-tec"
-  description: "Іржавий великий ящик з логотипом Vault-Tec на ньому."
+  name: vault-tec crate
+  description: A rusty big crate with a Vault-Tec logo on it.
   suffix: rusted
   components:
   - type: Icon
@@ -148,8 +148,8 @@
 - type: entity
   parent: CrateGenericSteel
   id: N14CrateVaultCompactRusted
-  name: "ящик vault-tec"
-  description: "Іржавий компактний ящик з логотипом Vault-Tec на ньому."
+  name: vault-tec crate
+  description: A rusty compact crate with a Vault-Tec logo on it.
   suffix: rusted
   components:
   - type: Icon
@@ -165,8 +165,8 @@
 - type: entity
   parent: CrateGenericSteel
   id: N14CrateVault
-  name: "ящик vault-tec"
-  description: "Великий ящик з логотипом Vault-Tec на ньому."
+  name: vault-tec crate
+  description: A big crate with a Vault-Tec logo on it.
   components:
   - type: Icon
     sprite: _Nuclear14/Structures/Storage/Crates/vaultcrate.rsi
@@ -181,8 +181,8 @@
 - type: entity
   parent: CrateGenericSteel
   id: N14CrateVaultLong
-  name: "ящик vault-tec"
-  description: "Довгий ящик з логотипом Vault-Tec на ньому."
+  name: vault-tec crate
+  description: A long crate with a Vault-Tec logo on it.
   components:
   - type: Icon
     sprite: _Nuclear14/Structures/Storage/Crates/vaultlong.rsi
@@ -197,8 +197,8 @@
 - type: entity
   parent: CrateGenericSteel
   id: N14CrateVaultLongRusted
-  name: "ящик vault-tec"
-  description: "Іржавий довгий ящик з логотипом Vault-Tec на ньому."
+  name: vault-tec crate
+  description: A rusty long crate with a Vault-Tec logo on it.
   suffix: rusted
   components:
   - type: Icon
@@ -214,8 +214,8 @@
 - type: entity
   parent: CrateGenericSteel
   id: N14CrateVaultStandard
-  name: "ящик vault-tec"
-  description: "Стандартний ящик з логотипом Vault-Tec на ньому."
+  name: vault-tec crate
+  description: A standard crate with a Vault-Tec logo on it.
   components:
   - type: Icon
     sprite: _Nuclear14/Structures/Storage/Crates/vaultstandard.rsi
@@ -230,8 +230,8 @@
 - type: entity
   parent: CrateGeneric
   id: N14Trashbin
-  name: "сміттєвий бак"
-  description: "Смітник для викидання сміття."
+  name: trash bin
+  description: A trash bin for putting rubbish in.
   components:
   - type: Icon
     sprite: _Nuclear14/Structures/Storage/Crates/trashbin.rsi
@@ -246,8 +246,8 @@
 - type: entity
   parent: N14CrateFootlocker
   id: N14CrateTrashcart
-  name: "візок для сміття"
-  description: "Сміттєвий візок для транспортування відходів."
+  name: trash cart
+  description: A trash cart for transporting waste.
   components:
   - type: Icon
     sprite: _Nuclear14/Structures/Storage/Crates/trashcart.rsi
@@ -259,8 +259,8 @@
 - type: entity
   parent: CrateGeneric
   id: N14CrateFreezer
-  name: "морозильна камера"
-  description: "Морозильна камера для зберігання продуктів у прохолоді."
+  name: freezer
+  description: A freezer for keeping things cool.
   components:
   - type: Icon
     sprite: _Nuclear14/Structures/Storage/Crates/freezer.rsi
@@ -282,7 +282,7 @@
 - type: entity
   parent: CrateGeneric
   id: N14CrateWooden
-  name: "дерев'яний ящик"
+  name: wooden crate
   components:
   - type: Icon
     sprite: _Nuclear14/Structures/Storage/Crates/cratewooden.rsi
@@ -319,8 +319,8 @@
 - type: entity
   parent: N14CrateWooden
   id: N14CrateMilitary
-  name: "військовий ящик"
-  description: "Старий дерев'яний ящик. Схоже, в ньому можуть бути якісь припаси."
+  name: military crate
+  description: An old wooden crate. Looks like it might have some supplies in.
   components:
   - type: Icon
     sprite: _Nuclear14/Structures/Storage/Crates/cratemilitary.rsi
@@ -341,8 +341,8 @@
 - type: entity
   parent: BaseStructureDynamic
   id: N14CrateBreakBase
-  name: "дерев'яний ящик"
-  description: "Можливо, доведеться розбити його, щоб побачити, що всередині."
+  name: wooden crate
+  description: Might have to break it to see whats inside.
   abstract: true
   components:
   - type: Damageable
@@ -404,7 +404,7 @@
 - type: entity
   parent: N14CrateBreakBase
   id: N14CrateBreakSarsaparilla
-  name: "ящик для сарсапарили на заході сонця"
+  name: sunset sarsaparilla crate
   components:
   - type: Sprite
     state: sarsaparilla_crate
@@ -420,7 +420,7 @@
 - type: entity
   parent: N14CrateBreakBase
   id: N14CrateBreakArmy
-  name: "армійський ящик"
+  name: army crate
   components:
   - type: Sprite
     state: army_crate

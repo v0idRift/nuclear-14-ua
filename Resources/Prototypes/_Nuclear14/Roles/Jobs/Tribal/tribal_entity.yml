@@ -1,7 +1,7 @@
 - type: entity
   parent: MobHuman
   id: N14MobHumanTribal
-  name: "Плем'я"
+  name: Tribal
   components:
     - type: RandomHumanoidAppearance
       randomizeName: true
@@ -14,7 +14,7 @@
 - type: entity
   parent: MobHuman
   id: N14MobHumanTribalElder
-  name: "TribalElder"
+  name: TribalElder
   components:
     - type: RandomHumanoidAppearance
       randomizeName: true
@@ -27,7 +27,7 @@
 - type: entity
   parent: MobHuman
   id: N14MobHumanTribalFarmer
-  name: "TribalFarmer"
+  name: TribalFarmer
   components:
     - type: RandomHumanoidAppearance
       randomizeName: true
@@ -40,7 +40,7 @@
 - type: entity
   parent: MobHuman
   id: N14MobHumanTribalHealer
-  name: "TribalHealer"
+  name: TribalHealer
   components:
     - type: RandomHumanoidAppearance
       randomizeName: true

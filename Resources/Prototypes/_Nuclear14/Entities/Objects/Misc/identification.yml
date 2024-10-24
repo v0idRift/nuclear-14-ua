@@ -2,8 +2,8 @@
 - type: entity
   parent: Clothing
   id: N14IDCard
-  name: "посвідчення особи"
-  description: "Ключ для відкриття певних дверей."
+  name: identification card
+  description: A key to open certain doors.
   noSpawn: true
   components:
   - type: Sprite
@@ -26,7 +26,7 @@
 - type: entity
   parent: N14IDCard
   id: N14IDCardVault
-  name: "ідентифікаційна картка сховища"
+  name: vault ID card
   components:
   - type: Sprite
     sprite: _Nuclear14/Objects/Misc/tapes_cards.rsi
@@ -43,7 +43,7 @@
 - type: entity
   parent: N14IDCardVault
   id: N14IDCardVaultEngineer
-  name: "посвідчення інженера-сховища"
+  name: vault engineer ID card
   components:
   - type: PresetIdCard
     job: VaultEngineer
@@ -51,7 +51,7 @@
 - type: entity
   parent: N14IDCardVault
   id: N14IDCardVaultSecurity
-  name: "ідентифікаційна картка охорони сховища"
+  name: vault security ID card
   components:
   - type: PresetIdCard
     job: VaultSecurity
@@ -59,7 +59,7 @@
 - type: entity
   parent: N14IDCardVault
   id: N14IDCardVaultDoctor
-  name: "посвідчення лікаря сховища"
+  name: vault doctor ID card
   components:
   - type: PresetIdCard
     job: VaultDoctor
@@ -67,7 +67,7 @@
 - type: entity
   parent: N14IDCardVault
   id: N14IDCardVaultOverseer
-  name: "посвідчення наглядача сховища"
+  name: vault overseer ID card
   components:
   - type: PresetIdCard
     job: Overseer
@@ -76,8 +76,8 @@
 - type: entity
   parent: N14IDCard
   id: N14IDPassportBlank
-  name: "чистий паспорт"
-  description: "Чистий паспорт, яким користуються пустирники."
+  name: blank passport
+  description: A blank passport used by wastelanders.
   components:
   - type: Sprite
     sprite: _Nuclear14/Objects/Misc/identification.rsi
@@ -89,8 +89,8 @@
 - type: entity
   parent: N14IDPassportBlank
   id: N14IDPassport
-  name: "паспорт"
-  description: "Паспорт з печаткою, який пустирники використовують як посвідчення особи."
+  name: passport
+  description: A stamped passport used by wastelanders as ID.
   components:
   - type: Sprite
     sprite: _Nuclear14/Objects/Misc/identification.rsi
@@ -99,8 +99,8 @@
 - type: entity
   parent: N14IDPassport
   id: N14IDPassportCaravan
-  name: "посвідчення караванного охоронця"
-  description: "Паспорт зі штампом, який охоронці караванів використовують як посвідчення особи."
+  name: caravan guard ID
+  description: A stamped passport used by caravan guards as ID.
   components:
   - type: PresetIdCard
     job: CaravanGuard
@@ -108,8 +108,8 @@
 - type: entity
   parent: N14IDPassport
   id: N14IDPassportCaravanTrader
-  name: "ідентифікатор караван-трейдера"
-  description: "Паспорт з печаткою, який караванщики використовують як посвідчення особи."
+  name: caravan trader ID
+  description: A stamped passport used by caravaneers as ID.
   components:
   - type: PresetIdCard
     job: CaravanTrader
@@ -117,8 +117,8 @@
 - type: entity
   parent: N14IDPassport
   id: N14IDPassportCaravanLeader
-  name: "посвідчення лідера каравану"
-  description: "Паспорт з печаткою, який караванщики використовують як посвідчення особи."
+  name: caravan leader ID
+  description: A stamped passport used by caravaneers as ID.
   components:
   - type: PresetIdCard
     job: CaravanLeader
@@ -126,8 +126,8 @@
 - type: entity
   parent: N14IDPassportBlank
   id: N14IDPassportPhoto
-  name: "паспорт"
-  description: "Паспорт, який пустирники використовують як посвідчення особи."
+  name: passport
+  description: A passport used by wastelanders as ID.
   components:
   - type: Sprite
     sprite: _Nuclear14/Objects/Misc/identification.rsi
@@ -136,8 +136,8 @@
 - type: entity
   parent: N14IDPassportBlank
   id: N14IDPassportVIP
-  name: "паспорт"
-  description: "Паспорт, яким користуються VIP-персони пустиря."
+  name: passport
+  description: A passport used by VIPs of the wasteland.
   components:
   - type: Sprite
     sprite: _Nuclear14/Objects/Misc/identification.rsi
@@ -146,8 +146,8 @@
 - type: entity
   parent: N14IDPassportBlank
   id: N14IDDoctor
-  name: "посвідчення лікаря"
-  description: "Ідентифікаційна картка, яку носять лікарі."
+  name: doctors ID
+  description: An ID card worn by medical doctors.
   components:
   - type: Sprite
     sprite: _Nuclear14/Objects/Misc/identification.rsi
@@ -157,8 +157,8 @@
 - type: entity
   parent: N14IDPassportBlank
   id: N14IDBrotherhoodHolotag
-  name: "голотаг"
-  description: "Ідентифікаційний жетон, який носять члени Сталевого братства."
+  name: holotag
+  description: An ID holotag worn by the Brotherhood of Steel.
   suffix: Scribe
   components:
   - type: Sprite
@@ -170,8 +170,8 @@
 - type: entity
   parent: N14IDPassportBlank
   id: N14IDBrotherhoodHolotagSquire
-  name: "голотаг"
-  description: "Ідентифікаційний жетон, який носять члени Сталевого братства."
+  name: holotag
+  description: An ID holotag worn by the Brotherhood of Steel.
   suffix: Squire
   components:
   - type: Sprite
@@ -183,8 +183,8 @@
 - type: entity
   parent: N14IDPassportBlank
   id: N14IDBrotherhoodHolotagKnight
-  name: "голотаг"
-  description: "Ідентифікаційний жетон, який носять члени Сталевого братства."
+  name: holotag
+  description: An ID holotag worn by the Brotherhood of Steel.
   suffix: Knight
   components:
   - type: Sprite
@@ -196,8 +196,8 @@
 - type: entity
   parent: N14IDPassportBlank
   id: N14IDBrotherhoodHolotagPaladin
-  name: "голотаг"
-  description: "Ідентифікаційний жетон, який носили паладини Сталевого Братства."
+  name: holotag
+  description: An ID holotag worn by the Paladins of the Brotherhood of Steel.
   suffix: Paladin
   components:
   - type: Sprite
@@ -209,8 +209,8 @@
 - type: entity
   parent: N14IDPassportBlank
   id: N14IDBrotherhoodHolotagCommander
-  name: "голотаг"
-  description: "Ідентифікаційний жетон, який носив командир паладинів Сталевого Братства."
+  name: holotag
+  description: An ID holotag worn by the Paladin Commander of the Brotherhood of Steel.
   suffix: Commander
   components:
   - type: Sprite
@@ -223,8 +223,8 @@
 - type: entity
   parent: N14IDPassportBlank
   id: N14IDBrotherhoodWashingtonHolotagScribe
-  name: "голотаг"
-  description: "Ідентифікаційний жетон, який носив Писар у Вашингтонському сталевому братстві."
+  name: holotag
+  description: An ID holotag worn by a Scribe in the Washington Brotherhood of Steel.
   suffix: Washington Scribe
   components:
   - type: Sprite
@@ -236,8 +236,8 @@
 - type: entity
   parent: N14IDPassportBlank
   id: N14IDBrotherhoodWashingtonHolotagInitiate
-  name: "голотаг"
-  description: "Ідентифікаційний жетон, який носить Посвячений у Вашингтонському Сталевому Братстві."
+  name: holotag
+  description: An ID holotag worn by an Initiate in the Washington Brotherhood of Steel.
   suffix: Washington Initiate
   components:
   - type: Sprite
@@ -249,8 +249,8 @@
 - type: entity
   parent: N14IDPassportBlank
   id: N14IDBrotherhoodWashingtonHolotagKnight
-  name: "голотаг"
-  description: "Ідентифікаційний жетон, який носить лицар Вашингтонського сталевого братства."
+  name: holotag
+  description: An ID holotag worn by a Knight in the Washington Brotherhood of Steel.
   suffix: Washington Knight
   components:
   - type: Sprite
@@ -262,8 +262,8 @@
 - type: entity
   parent: N14IDPassportBlank
   id: N14IDBrotherhoodWashingtonHolotagPaladin
-  name: "голотаг"
-  description: "Ідентифікаційний жетон, який носив паладин у Вашингтонському сталевому братстві."
+  name: holotag
+  description: An ID holotag worn by a Paladin in the Washington Brotherhood of Steel.
   suffix: Washington Paladin
   components:
   - type: Sprite
@@ -275,8 +275,8 @@
 - type: entity
   parent: N14IDPassportBlank
   id: N14IDBrotherhoodWashingtonHolotagCommander
-  name: "голотаг"
-  description: "Ідентифікаційний жетон, який носив командир Вашингтонського сталевого братства."
+  name: holotag
+  description: An ID holotag worn by the Commander of the Washington Brotherhood of Steel.
   suffix: Washington Commander
   components:
   - type: Sprite
@@ -289,8 +289,8 @@
 - type: entity
   parent: N14IDPassportBlank
   id: N14IDEnclaveTrooper
-  name: "голотаг"
-  description: "Ідентифікаційний жетон, який носили мешканці Анклаву."
+  name: holotag
+  description: An ID holotag worn by the Enclave.
   suffix: Trooper
   components:
   - type: Sprite
@@ -302,8 +302,8 @@
 - type: entity
   parent: N14IDPassportBlank
   id: N14IDEnclaveOfficer
-  name: "голотаг"
-  description: "Ідентифікаційний жетон, який носили члени Анклаву вищого рангу."
+  name: holotag
+  description: An ID holotag worn by higher ranking memebers of the Enclave.
   suffix: Officer
   components:
   - type: Sprite
@@ -315,8 +315,8 @@
 - type: entity
   parent: N14IDPassportBlank
   id: N14IDEnclaveNoncombat
-  name: "голотаг"
-  description: "Ідентифікаційний жетон, який носять небойові члени \"Анклаву\"."
+  name: holotag
+  description: An ID holotag worn by the non-combat members of Enclave.
   suffix: Scientist , Noncombat
   components:
   - type: Sprite
@@ -329,8 +329,8 @@
 - type: entity
   parent: N14IDPassportBlank
   id: N14IDNCRDogtag
-  name: "бирка"
-  description: "Ідентифікаційний жетон, який носять члени НКР."
+  name: dogtag
+  description: An ID dogtag worn by members of the NCR.
   suffix: Soldier, Cadet
   components:
   - type: Sprite
@@ -342,8 +342,8 @@
 - type: entity
   parent: N14IDPassportBlank
   id: N14IDNCRDogtagMP
-  name: "бирка"
-  description: "Ідентифікаційний жетон, який носять члени NCR, що мають пристойний рейтинг."
+  name: dogtag
+  description: An ID dogtag worn by decently ranking members of the NCR.
   suffix: Military Police
   components:
   - type: Sprite
@@ -355,8 +355,8 @@
 - type: entity
   parent: N14IDPassportBlank
   id: N14IDNCRDogtagDoctor
-  name: "бирка"
-  description: "Ідентифікаційний жетон, який носять члени NCR, що мають пристойний рейтинг."
+  name: dogtag
+  description: An ID dogtag worn by decently ranking members of the NCR.
   suffix: Doctor
   components:
   - type: Sprite
@@ -368,8 +368,8 @@
 - type: entity
   parent: N14IDPassportBlank
   id: N14IDNCRDogtagNCO
-  name: "бирка"
-  description: "Ідентифікаційний жетон, який носять члени NCR, що мають пристойний рейтинг."
+  name: dogtag
+  description: An ID dogtag worn by decently ranking members of the NCR.
   suffix: NCO, QM
   components:
   - type: Sprite
@@ -381,8 +381,8 @@
 - type: entity
   parent: N14IDPassportBlank
   id: N14IDNCRDogtagOfficer
-  name: "бирка"
-  description: "Ідентифікаційний жетон, який носять високопоставлені члени НКР."
+  name: dogtag
+  description: An ID dogtag worn by high ranking members of the NCR.
   suffix: Officer
   components:
   - type: Sprite
@@ -395,8 +395,8 @@
 - type: entity
   parent: N14IDPassportBlank
   id: N14IDBadgeNCRDesertRangerRecruit
-  name: "значок рекрута рейнджера"
-  description: "Ідентифікаційний значок, який носять рекрути пустельних рейнджерів."
+  name: ranger recruit badge
+  description: An ID badge worn by Desert Ranger Recruits.
   components:
   - type: Sprite
     sprite: _Nuclear14/Objects/Misc/identification.rsi
@@ -407,8 +407,8 @@
 - type: entity
   parent: N14IDPassportBlank
   id: N14IDBadgeNCRDesertRanger
-  name: "значок рейнджера"
-  description: "Ідентифікаційний значок, який носять пустельні рейнджери."
+  name: ranger badge
+  description: An ID badge worn by Desert Rangers.
   components:
   - type: Sprite
     sprite: _Nuclear14/Objects/Misc/identification.rsi
@@ -419,8 +419,8 @@
 - type: entity
   parent: N14IDPassportBlank
   id: N14IDBadgeNCRDesertRangerElite
-  name: "елітний значок рейнджера"
-  description: "Ідентифікаційний значок, який носять елітні пустельні рейнджери."
+  name: ranger elite badge
+  description: An ID badge worn by Elite Desert Rangers.
   components:
   - type: Sprite
     sprite: _Nuclear14/Objects/Misc/identification.rsi
@@ -431,8 +431,8 @@
 - type: entity
   parent: N14IDPassportBlank
   id: N14IDBadgeNCRDesertRangerChief
-  name: "значок головного рейнджера"
-  description: "Ідентифікаційний значок, який носить головний рейнджер пустелі."
+  name: ranger chief badge
+  description: An ID badge worn by the Chief Desert Ranger.
   components:
   - type: Sprite
     sprite: _Nuclear14/Objects/Misc/identification.rsi
@@ -444,28 +444,28 @@
 - type: entity
   parent: N14IDBadgeNCRDesertRanger
   id: N14IDBadgeNCRRanger
-  description: "Ідентифікаційний значок, який носять республіканські рейнджери. Напис на ньому говорить: \"Тихіший за тінь і лютіший за смертельний кіготь\""
+  description: An ID badge worn by Republic Rangers. Inscribed on it reads; "Quieter than a shadow and more ferocious than a deathclaw."
   suffix: NCR
 
 
 - type: entity
   parent: N14IDBadgeNCRDesertRangerElite
   id: N14IDBadgeNCRRangerElite
-  description: "Ідентифікаційний значок, який носять елітні рейнджери Республіки. Напис на ньому говорить: \"Тихіший за тінь і лютіший за смертельний кіготь\""
+  description: An ID badge worn by Elite Republic Rangers. Inscribed on it reads; "Quieter than a shadow and more ferocious than a deathclaw."
   suffix: NCR
 
 #MARK: Townsfolk
 - type: entity
   parent: N14IDPassportPhoto
   id: N14IDPassportTownsfolk
-  name: "паспорт"
-  description: "Паспорт, що використовується мешканцями міста як посвідчення особи."
+  name: passport
+  description: A passport used by townsfolk as ID.
 
 - type: entity
   parent: N14IDPassportPhoto
   id: N14IDShopkeeperTown
-  name: "Ідентифікація власників магазинів"
-  description: "Паспорт, яким користується власник містечкового магазину."
+  name: Shopkeepers ID
+  description: A passport ID used by a town shopkeeper.
   components:
   - type: Sprite
     sprite: _Nuclear14/Objects/Misc/identification.rsi
@@ -476,8 +476,8 @@
 - type: entity
   parent: N14IDPassportPhoto
   id: N14IDPassportTownMechanic
-  name: "ідентифікатор механіка"
-  description: "Паспорт, яким користується міський механік."
+  name: mechanics ID
+  description: A passport ID used by a town mechanic.
   components:
   - type: Sprite
     sprite: _Nuclear14/Objects/Misc/identification.rsi
@@ -488,8 +488,8 @@
 - type: entity
   parent: N14IDDoctor
   id: N14IDDoctorTown
-  name: "посвідчення лікаря"
-  description: "Посвідчення, яке носив міський лікар."
+  name: doctors ID
+  description: An ID card worn by the town doctor.
   components:
   - type: Sprite
     sprite: _Nuclear14/Objects/Misc/identification.rsi
@@ -500,8 +500,8 @@
 - type: entity
   parent: N14IDPassportBlank
   id: N14IDBadgeTownDeputy
-  name: "значок міського депутата"
-  description: "Ідентифікаційний значок, який носить міський депутат."
+  name: town deputy badge
+  description: An ID badge worn by a town deputy.
   components:
   - type: Sprite
     sprite: _Nuclear14/Objects/Misc/identification.rsi
@@ -512,8 +512,8 @@
 - type: entity
   parent: N14IDPassportBlank
   id: N14IDBadgeTownSheriff
-  name: "значок шерифа міста"
-  description: "Посвідчення особи, яке носить шериф міста."
+  name: town sheriff badge
+  description: An ID badge worn by the town sheriff.
   components:
   - type: Sprite
     sprite: _Nuclear14/Objects/Misc/identification.rsi
@@ -524,8 +524,8 @@
 - type: entity
   parent: N14IDPassportBlank
   id: N14IDBadgeTownMayor
-  name: "значок міського голови"
-  description: "Ідентифікаційний значок, який носить міський голова."
+  name: town mayor badge
+  description: An ID badge worn by the town mayor.
   components:
   - type: Sprite
     sprite: _Nuclear14/Objects/Misc/identification.rsi
@@ -537,8 +537,8 @@
 - type: entity
   parent: N14IDPassportBlank
   id: N14IDTribeSawbonePendant
-  name: "кулон-пилка"
-  description: "Підвіска, яку племена часто носили як ідентифікатор. Це кісточка від пилки."
+  name: sawbone pendant
+  description: A pendant often worn by tribes as ID. This one is a sawbone.
   components:
   - type: Sprite
     sprite: _Nuclear14/Objects/Misc/identification.rsi
@@ -547,8 +547,8 @@
 - type: entity
   parent: N14IDPassportBlank
   id: N14IDTribeBulletsPendant
-  name: "кулон з кулею"
-  description: "Підвіска, яку племена часто носили як посвідчення особи. Цей зроблений з куль."
+  name: bullet pendant
+  description: A pendant often worn by tribes as ID. This one is made of bullets.
   components:
   - type: Sprite
     sprite: _Nuclear14/Objects/Misc/identification.rsi
@@ -557,8 +557,8 @@
 - type: entity
   parent: N14IDPassportBlank
   id: N14IDTribeEnforcerPendant
-  name: "кулон-примус"
-  description: "Підвіска, яку племена часто носять як ідентифікатор. Це каністра з реактивним двигуном."
+  name: enforcer pendant
+  description: A pendant often worn by tribes as ID. This one is a Jet canister.
   components:
   - type: Sprite
     sprite: _Nuclear14/Objects/Misc/identification.rsi
@@ -567,8 +567,8 @@
 - type: entity
   parent: N14IDPassportBlank
   id: N14IDTribeBossPendant
-  name: "кулон з кулею"
-  description: "Підвіска, яку носив вождь племені."
+  name: bullet pendant
+  description: A pendant worn by a tribal leader.
   components:
   - type: Sprite
     sprite: _Nuclear14/Objects/Misc/identification.rsi
@@ -578,16 +578,16 @@
 - type: entity
   parent: N14IDDoctor
   id: N14IDDoctorFollower
-  name: "ідентифікатор підписників"
-  description: "Посвідчення особи, яке носять Послідовники Апокаліпсису."
+  name: followers ID
+  description: An ID card worn by the Followers of the Apocalypse.
 
 #MARK: Keys
 
 - type: entity
   parent: N14IDCard
   id: N14IDKeyIron
-  name: "залізний ключ"
-  description: "Потертий залізний ключ. Цікаво, куди він потрапляє?"
+  name: iron key
+  description: A worn out iron key. I wonder where it goes?
   components:
   - type: Sprite
     sprite: _Nuclear14/Objects/Misc/identification.rsi
@@ -599,8 +599,8 @@
 - type: entity
   parent: N14IDCard
   id: N14IDKeyBrass
-  name: "латунний ключ"
-  description: "Потертий латунний ключ. Цікаво, де він?"
+  name: brass key
+  description: A worn out brass key. I wonder where it goes?
   components:
   - type: Sprite
     sprite: _Nuclear14/Objects/Misc/identification.rsi
@@ -612,8 +612,8 @@
 - type: entity
   parent: N14IDCard
   id: N14IDKeyBronze
-  name: "бронзовий ключ"
-  description: "Потертий бронзовий ключ. Цікаво, де він?"
+  name: bronze key
+  description: A worn out bronze key. I wonder where it goes?
   components:
   - type: Sprite
     sprite: _Nuclear14/Objects/Misc/identification.rsi
@@ -625,8 +625,8 @@
 - type: entity
   parent: N14IDCard
   id: N14IDKeySilver
-  name: "срібний ключ"
-  description: "Потертий срібний ключ. Цікаво, куди він веде?"
+  name: silver key
+  description: A worn out silver key. I wonder where it goes?
   components:
   - type: Sprite
     sprite: _Nuclear14/Objects/Misc/identification.rsi
@@ -638,9 +638,9 @@
 - type: entity
   parent: N14IDCard
   id: N14IDKeyGold
-  name: "золотий ключ"
+  name: gold key
   suffix: AllKeyAccess
-  description: "Блискучий золотий ключ. Цікаво, куди він веде?"
+  description: A sparkling gold key. I wonder where it goes?
   components:
   - type: Sprite
     sprite: _Nuclear14/Objects/Misc/identification.rsi
@@ -653,8 +653,8 @@
 - type: entity
   parent: N14IDCard
   id: N14CardAccessBunkerA1
-  name: "картка доступу"
-  description: "Спеціальна картка-ключ зі штампом А1."
+  name: access card
+  description: A special keycard stamped A1.
   suffix: bunker A1
   components:
   - type: Sprite
@@ -668,7 +668,7 @@
 - type: entity
   parent: N14CardAccessBunkerA1
   id: N14CardAccessBunkerA2
-  description: "Спеціальна картка-ключ зі штампом А2."
+  description: A special keycard stamped A2.
   suffix: bunker A2
   components:
   - type: Sprite
@@ -680,7 +680,7 @@
 - type: entity
   parent: N14CardAccessBunkerA1
   id: N14CardAccessBunkerA3
-  description: "Спеціальна ключ-карта формату А3."
+  description: A special keycard stamped A3.
   suffix: bunker A3
   components:
   - type: Sprite
@@ -692,7 +692,7 @@
 - type: entity
   parent: N14CardAccessBunkerA1
   id: N14CardAccessBunkerAA
-  description: "Спеціальна ключ-карта зі штампом АА."
+  description: A special keycard stamped AA.
   suffix: bunker AA
   components:
   - type: Sprite
@@ -704,7 +704,7 @@
 - type: entity
   parent: N14CardAccessBunkerA1
   id: N14CardAccessEnclave
-  description: "Спеціальна картка-ключ з літерою \"Е\"."
+  description: A special keycard stamped with an E.
   suffix: Enclave
   components:
   - type: Sprite
@@ -716,7 +716,7 @@
 - type: entity
   parent: N14CardAccessBunkerA1
   id: N14CardAccessEnclaveVault
-  description: "Спеціальна ключ-карта Vault-Tec з літерою E."
+  description: A special Vault-Tec keycard stamped with an E.
   suffix: Enclave Vault
   components:
   - type: Sprite
@@ -728,7 +728,7 @@
 - type: entity
   parent: N14CardAccessBunkerA1
   id: N14CardAccessVault
-  description: "Спеціальна ключ-карта Vault-Tec."
+  description: A special Vault-Tec keycard.
   suffix: Vault
   components:
   - type: Sprite
@@ -737,7 +737,7 @@
 - type: entity
   parent: N14CardAccessBunkerA1
   id: N14CardAccessBlue
-  description: "Синя картка-ключ для відкриття чогось."
+  description: A blue keycard for opening something.
   suffix: blue
   components:
   - type: Sprite
@@ -749,7 +749,7 @@
 - type: entity
   parent: N14CardAccessBunkerA1
   id: N14CardAccessYellow
-  description: "Жовта картка-ключ для відкриття чогось."
+  description: A yellow keycard for opening something.
   suffix: yellow
   components:
   - type: Sprite
@@ -761,7 +761,7 @@
 - type: entity
   parent: N14CardAccessBunkerA1
   id: N14CardAccessRed
-  description: "Червона картка-ключ для відкриття чогось."
+  description: A red keycard for opening something.
   suffix: red
   components:
   - type: Sprite
@@ -773,7 +773,7 @@
 - type: entity
   parent: N14CardAccessBunkerA1
   id: N14CardAccessCommon
-  description: "Сіра картка-ключ зі штампом \"загальний\" для відкривання речей."
+  description: A grey keycard stamped "common" for opening things.
   suffix: common
   components:
   - type: Sprite

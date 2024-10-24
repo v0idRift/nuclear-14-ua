@@ -1,8 +1,8 @@
 - type: entity
   id: N14BarricadeSandbagSingle
   parent: BaseStructure
-  name: "мішки з піском"
-  description: "Укріплення з мішків з піском."
+  name: sandbags
+  description: A sandbag fortification.
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Furniture/barricades.rsi
@@ -38,8 +38,8 @@
 - type: entity
   id: N14BarricadeTanktrap
   parent: N14BarricadeSandbagSingle
-  name: "танкова пастка"
-  description: "Металевий шип для блокування транспортних засобів."
+  name: tank trap
+  description: A metal fabricated spike for blocking vehicles.
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Furniture/barricades.rsi
@@ -75,8 +75,8 @@
 - type: entity
   id: N14BarricadeTanktrapRusty
   parent: N14BarricadeTanktrap
-  name: "танкова пастка"
-  description: "Іржавий металевий шип для блокування транспортних засобів."
+  name: tank trap
+  description: A rusty metal fabricated spike for blocking vehicles.
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Furniture/barricades.rsi
@@ -86,8 +86,8 @@
 - type: entity
   parent: BaseStructure
   id: N14BarricadeRazorwire
-  name: "барикада з колючого дроту"
-  description: "Укріплення з колючого дроту."
+  name: razorwire barricade
+  description: A razorwire fortification.
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Furniture/barricades.rsi
@@ -150,8 +150,8 @@
 - type: entity
   parent: N14BarricadeSandbagSingle
   id: N14BarricadeMetal
-  name: "металева барикада"
-  description: "Металеве укріплення."
+  name: metal barricade
+  description: A metal fortification.
   suffix: black
   components:
   - type: Sprite
@@ -172,8 +172,8 @@
 - type: entity
   parent: N14DecorFloorWorldBase
   id: N14DecorConcreteBarrier
-  name: "бетонний бар'єр"
-  description: "старий бетонний шлагбаум для зупинки транспорту."
+  name: concrete barrier
+  description: an old concrete barrier for stopping traffic.
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Decoration/barriers.rsi
@@ -208,8 +208,8 @@
 - type: entity
   parent: N14DecorConcreteBarrier
   id: N14DecorConcreteBarrierStriped
-  name: "бетонний бар'єр"
-  description: "старий бетонний шлагбаум для зупинки транспорту."
+  name: concrete barrier
+  description: an old concrete barrier for stopping traffic.
   components:
   - type: Sprite
     layers:
@@ -224,8 +224,8 @@
 - type: entity
   parent: N14DecorConcreteBarrier
   id: N14DecorRoadBarrier
-  name: "дорожній бар'єр"
-  description: "старий дерев'яний шлагбаум для зупинки транспорту."
+  name: road barrier
+  description: an old wooden barrier for stopping traffic.
   components:
   - type: Sprite
     state: road_barrier

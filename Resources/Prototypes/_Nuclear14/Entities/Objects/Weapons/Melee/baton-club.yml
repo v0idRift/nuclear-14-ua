@@ -1,6 +1,6 @@
 - type: entity
-  name: "поліцейський кийок"
-  description: "ПЕРЕСТАНЬТЕ ЧИНИТИ ОПІР!"
+  name: police baton
+  description: STOP RESISTING!
   parent: BaseItem
   id: N14PoliceBaton
   components:
@@ -28,7 +28,7 @@
     - suitStorage
 
 - type: entity
-  name: "племінний клуб"
+  name: tribal club
   parent: BaseItem
   id: N14TribalClub
   components:
@@ -52,8 +52,8 @@
     - suitStorage
 
 - type: entity
-  name: "прорвана труба"
-  description: "Вона не призначена для використання як зброя, але досить міцна, щоб завдати кілька хороших ударів."
+  name: broken pipe
+  description: "It's not intended to be a weapon but sturdy enough to give a good few whacks."
   parent: BaseItem
   id: N14BrokenPipe
   components:
@@ -77,7 +77,7 @@
     - suitStorage
 
 - type: entity
-  name: "траншейний клуб"
+  name: trench club
   parent: BaseItem
   id: N14TrenchClub
   components:

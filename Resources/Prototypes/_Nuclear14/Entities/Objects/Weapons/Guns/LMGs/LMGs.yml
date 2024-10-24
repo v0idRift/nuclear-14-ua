@@ -1,8 +1,8 @@
 - type: entity
-  name: "автоматична гвинтівка"
+  name: automatic rifle
   parent: BaseWeaponRifle
   id: N14WeaponLMGAutoRifle
-  description: "Висококаліберний, малопотужний важкий кулемет довоєнного зразка під потужний боєприпас .308 калібру."
+  description: A high caliber, low-capacity heavy machine gun of the pre-war, chambered in the powerful .308 ammunition.
   components:
   - type: Clothing
     sprite: _Nuclear14/Objects/Weapons/Guns/LMGs/autorifle.rsi
@@ -62,10 +62,10 @@
     backStrength: 6
 
 - type: entity
-  name: "легкий кулемет"
+  name: light machine gun
   parent: BaseWeaponRifle
   id: N14WeaponLMG
-  description: "Легкий кулемет, розроблений NCR для своїх важких військ, під набій 5.56."
+  description: A light machine gun designed by the NCR for their heavy troops, chambered in 5.56 ammo.
   components:
   - type: Clothing
     sprite: _Nuclear14/Objects/Weapons/Guns/LMGs/lmg.rsi
@@ -125,10 +125,10 @@
     backStrength: 6
 
 - type: entity
-  name: "кулемет Брен"
+  name: bren machine gun
   parent: BaseWeaponRifle
   id: N14WeaponLMGBren
-  description: "Висококаліберний важкий кулемет, що завдає великої шкоди, серійно випускався канадською королівською кавалерійською службою, під потужний калібр .308."
+  description: A high-caliber, high-damage, heavy machine gun mass-produced by the RCMP, chambered in the powerful .308 ammunition.
   components:
   - type: Clothing
     sprite: _Nuclear14/Objects/Weapons/Guns/LMGs/bren.rsi

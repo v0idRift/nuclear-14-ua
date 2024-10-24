@@ -2,8 +2,8 @@
 - type: entity
   parent: BaseItem
   id: N14Holotape
-  name: "голографічна стрічка"
-  description: "Голограма для зберігання даних."
+  name: holotape
+  description: A holotape for storing data.
   components:
   - type: Sprite
     sprite: _Nuclear14/Objects/Misc/tapes_cards.rsi
@@ -13,7 +13,7 @@
 - type: entity
   parent: N14Holotape
   id: N14HolotapeBlue
-  name: "синій скотч"
+  name: blue holotape
   components:
   - type: Sprite
     state: holotape_blue
@@ -21,7 +21,7 @@
 - type: entity
   parent: N14Holotape
   id: N14HolotapeEnclave
-  name: "анклавна голограма"
+  name: enclave holotape
   components:
   - type: Sprite
     state: holotape_enclave
@@ -29,7 +29,7 @@
 - type: entity
   parent: N14Holotape
   id: N14HolotapeGreen
-  name: "зелений скотч"
+  name: green holotape
   components:
   - type: Sprite
     state: holotape_green
@@ -37,7 +37,7 @@
 - type: entity
   parent: N14Holotape
   id: N14HolotapeRed
-  name: "червона стрічка"
+  name: red holotape
   components:
   - type: Sprite
     state: holotape_red
@@ -45,7 +45,7 @@
 - type: entity
   parent: N14Holotape
   id: N14HolotapeYellow
-  name: "жовтий скотч"
+  name: yellow holotape
   components:
   - type: Sprite
     state: holotape_yellow
@@ -54,23 +54,23 @@
 - type: entity
   parent: N14HolotapeYellow
   id: N14HolotapeQuestFusionplans # BoS / Town find objective
-  name: "відеозапис планів злиття"
-  description: "Касета з планами оптимізації термоядерних реакторів."
+  name: fusion plans holotape
+  description: A holotape containing plans for optimising fusion reactors.
 
 - type: entity
   parent: N14HolotapeEnclave
   id: N14HolotapeQuestEnclaveplans # Enclave secure objective / NCR, BoS Find Objective
-  name: "плани анклаву відеозапис"
-  description: "Голограма з планами відновлення Америки."
+  name: enclave plans holotape
+  description: A holotape containing plans for restoring America.
 
 - type: entity
   parent: N14HolotapeGreen
   id: N14HolotapeQuestGECK
-  name: "Голограма розташування GECK" # Vault secure objective / Enclave, NCR, BoS Find Objective
-  description: "Відеокасета з деталями про решту G.E.C.K."
+  name: GECK location holotape # Vault secure objective / Enclave, NCR, BoS Find Objective
+  description: A holotape containing details on remaining G.E.C.K's.
 
 - type: entity
   parent: N14HolotapeRed
   id: N14HolotapeQuestNCRplans
-  name: "NCR планує голографічний запис" # NCR secure objective
-  description: "Голограма з планами бойових дій та місцями базування НЦР."
+  name: NCR plans holotape # NCR secure objective
+  description: A holotape containing battle plans and base locations for the NCR.

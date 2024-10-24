@@ -1,7 +1,7 @@
 - type: entity
   parent: MobHuman
   id: N14MobHumanRCMPSergeant
-  name: "Сержант канадської конної поліції"
+  name: RCMP mountie sergeant
   components:
     - type: RandomHumanoidAppearance
       randomizeName: true
@@ -11,7 +11,7 @@
 - type: entity
   parent: N14MobHumanRCMPSergeant
   id: N14MobHumanRCMPCorporal
-  name: "Капрал кавалерії КККП"
+  name: RCMP mountie corporal
   components:
     - type: Loadout
       prototypes: [MountieCorporalGear]
@@ -19,7 +19,7 @@
 - type: entity
   parent: N14MobHumanRCMPSergeant
   id: N14MobHumanRCMPSkirmisher
-  name: "Кавалерійський стрілець RCMP"
+  name: RCMP mountie skirmisher
   components:
     - type: Loadout
       prototypes: [MountieSkirmisherGear]
