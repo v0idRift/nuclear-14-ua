@@ -1,7 +1,7 @@
 - type: entity
   id: SpawnPointWave
   parent: MarkerBase
-  name: Wave Defense Attacker Mob Spawner
+  name: "Зловмисник хвильового захисту, що атакує мобів-спойлерів"
   components:
   - type: SpawnPoint
   - type: Sprite
@@ -11,7 +11,7 @@
 - type: entity
   id: SpawnPointWaveSurvivor
   parent: MarkerBase
-  name: Wave Defense Survivor Spawner
+  name: "Спайдер хвильового захисту, що виживає"
   components:
   - type: Sprite
     layers:
