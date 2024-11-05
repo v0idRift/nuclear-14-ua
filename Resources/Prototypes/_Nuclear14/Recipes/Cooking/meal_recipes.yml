@@ -1,6 +1,6 @@
 - type: microwaveMealRecipe
   id: N14RecipeMeatRad
-  name: irradiated meat recipe
+  name: "рецепт опроміненого м'яса"
   result: N14FoodMeatCooked
   time: 15
   solids:
@@ -8,7 +8,7 @@
 
 - type: microwaveMealRecipe
   id: N14RecipeSteakBrahmin
-  name: brahmin steak recipe
+  name: "рецепт брамінського стейка"
   result: N14FoodMeatBrahminCooked
   time: 15
   solids:
@@ -16,7 +16,7 @@
 
 - type: microwaveMealRecipe
   id: N14RecipeCutletBrahmin
-  name: brahmin cutlet recipe
+  name: "рецепт брамінської котлети"
   result: N14FoodMeatBrahminCutletCooked
   time: 5
   solids:
@@ -24,7 +24,7 @@
 
 - type: microwaveMealRecipe
   id: N14RecipeSteakBighorner
-  name: bighorner steak recipe
+  name: "рецепт стейка з бігхорна"
   result: N14FoodMeatBighornerCooked
   time: 15
   solids:
@@ -32,7 +32,7 @@
 
 - type: microwaveMealRecipe
   id: N14RecipeCutletBighorner
-  name: bighorner cutlet recipe
+  name: "рецепт котлет з бігхорна"
   result: N14FoodMeatBighornerCutletCooked
   time: 5
   solids:
@@ -40,7 +40,7 @@
 
 - type: microwaveMealRecipe
   id: N14RecipeSteakRadstag
-  name: radstag steak recipe
+  name: "рецепт стейка \"Радстаг"
   result: N14FoodMeatRadstagCooked
   time: 15
   solids:
@@ -48,7 +48,7 @@
 
 - type: microwaveMealRecipe
   id: N14RecipeCutletRadstag
-  name: radstag cutlet recipe
+  name: "рецепт котлет з радстагу"
   result: N14FoodMeatRadstagCutletCooked
   time: 5
   solids:
@@ -56,7 +56,7 @@
 
 - type: microwaveMealRecipe
   id: N14RecipeSteakGecko
-  name: gecko steak recipe
+  name: "рецепт стейка з гекона"
   result: N14FoodMeatGeckoCooked
   time: 15
   solids:
@@ -64,7 +64,7 @@
 
 - type: microwaveMealRecipe
   id: N14RecipeSteakYaoguai
-  name: yao-guai steak recipe
+  name: "рецепт стейка яо-гуай"
   result: N14FoodMeatYaoguaiCooked
   time: 15
   solids:
@@ -72,7 +72,7 @@
 
 - type: microwaveMealRecipe
   id: N14RecipeCutletYaoguai
-  name: yao-guai cutlet recipe
+  name: "рецепт котлет з яо-гуай"
   result: N14FoodMeatYaoguaiCutletCooked
   time: 5
   solids:
@@ -80,7 +80,7 @@
 
 - type: microwaveMealRecipe
   id: N14RecipeSteakRadscorpion
-  name: radscorpion steak recipe
+  name: "рецепт стейка з ракоскорпіона"
   result: N14FoodMeatRadscorpionCooked
   time: 15
   solids:
@@ -88,7 +88,7 @@
 
 - type: microwaveMealRecipe
   id: N14RecipeCutletRadscorpion
-  name: radscorpion cutlet recipe
+  name: "рецепт котлет з ракоскорпіонів"
   result: N14FoodMeatRadscorpionCutletCooked
   time: 5
   solids:
@@ -96,7 +96,7 @@
 
 - type: microwaveMealRecipe
   id: N14RecipeRadscorpionLeg
-  name: boiled radscorpion leg recipe
+  name: "рецепт відвареної ніжки ракоскорпіона"
   result: N14FoodMeatRadscorpionLegBoiled
   time: 20
   reagents:
@@ -106,7 +106,7 @@
 
 - type: microwaveMealRecipe
   id: N14RecipeClawMirelurk
-  name: mirelurk claw recipe
+  name: "рецепт кігтя мірелурка"
   result: N14FoodMeatMirelurkClawCooked
   time: 15
   solids:
@@ -114,7 +114,7 @@
 
 - type: microwaveMealRecipe
   id: N14RecipeClawRadlurk
-  name: radlurk claw recipe
+  name: "рецепт кігтів радлурка"
   result: N14FoodMeatRadlurkClawCooked
   time: 15
   solids:
@@ -122,7 +122,7 @@
 
 - type: microwaveMealRecipe
   id: N14RecipeRadroachFillet
-  name: radroach fillet recipe
+  name: "рецепт філе плітки"
   result: N14FoodMeatRadroachFilletCooked
   time: 15
   solids:
@@ -132,7 +132,7 @@
 
 - type: microwaveMealRecipe
   id: N14RecipeBun
-  name: bun recipe
+  name: "рецепт булочок"
   result: N14FoodBreadBun
   time: 5
   solids:
@@ -142,7 +142,7 @@
 
 - type: microwaveMealRecipe
   id: N14RecipeAppendixBurger
-  name: appendix burger recipe
+  name: "рецепт бургера з апендиксом"
   result: N14FoodBurgerAppendix
   time: 10
   solids:
@@ -151,7 +151,7 @@
 
 - type: microwaveMealRecipe
   id: N14RecipeBaconBurger
-  name: bacon burger recipe
+  name: "рецепт бургера з беконом"
   result: N14FoodBurgerBacon
   time: 10
   solids:
@@ -170,7 +170,7 @@
 
 - type: microwaveMealRecipe
   id: N14RecipeBearger
-  name: bearger recipe
+  name: "рецепт беарджера"
   result: N14FoodBurgerBear
   time: 10
   solids:
@@ -180,7 +180,7 @@
 
 - type: microwaveMealRecipe
   id: N14RecipeBigBiteBurger
-  name: big bite burger recipe
+  name: "рецепт бургера \"великий укус"
   result: N14FoodBurgerBig
   time: 15
   solids:
@@ -192,7 +192,7 @@
 
 - type: microwaveMealRecipe
   id: N14RecipeBrainBurger
-  name: brain burger recipe
+  name: "рецепт мозкового бургера"
   result: N14FoodBurgerBrain
   time: 10
   solids:
@@ -211,7 +211,7 @@
 
 - type: microwaveMealRecipe
   id: N14RecipeCheeseburger
-  name: cheeseburger recipe
+  name: "рецепт чізбургера"
   result: N14FoodBurgerCheese
   time: 10
   solids:
@@ -221,7 +221,7 @@
 
 - type: microwaveMealRecipe
   id: N14RecipeChickenSandwich
-  name: chicken sandwich recipe
+  name: "рецепт бутерброда з куркою"
   result: N14FoodBurgerChicken
   time: 10
   reagents:
@@ -250,7 +250,7 @@
 
 - type: microwaveMealRecipe
   id: N14RecipeCrabBurger
-  name: crab burger recipe
+  name: "рецепт крабового бургера"
   result: N14FoodBurgerCrab
   time: 10
   solids:
@@ -305,7 +305,7 @@
 
 - type: microwaveMealRecipe
   id: N14RecipeFiveBurger
-  name: five alarm burger recipe
+  name: "рецепт бургера з п'ятьма будильниками"
   result: N14FoodBurgerFive
   time: 10
   solids:
@@ -324,7 +324,7 @@
 
 - type: microwaveMealRecipe
   id: N14RecipeHumanBurger
-  name: human burger recipe
+  name: "рецепт людського бургера"
   result: N14FoodBurgerHuman
   time: 10
   solids:
@@ -342,7 +342,7 @@
 
 - type: microwaveMealRecipe
   id: N14RecipeBurgerMcguffin
-  name: McGuffin recipe
+  name: "Рецепт макгаффінів"
   result: N14FoodBurgerMcguffin
   time: 10
   solids:
@@ -352,7 +352,7 @@
 
 - type: microwaveMealRecipe
   id: N14RecipeBurgerMcrib
-  name: BBQ rib sandwich recipe
+  name: "Рецепт бутерброда з реберцями барбекю"
   result: N14FoodBurgerMcrib
   time: 10
   solids:
@@ -371,7 +371,7 @@
 
 - type: microwaveMealRecipe
   id: N14RecipePlainBurger
-  name: plain burger recipe
+  name: "рецепт простого бургера"
   result: N14FoodBurgerPlain
   time: 10
   solids:
@@ -381,7 +381,7 @@
 
 - type: microwaveMealRecipe
   id: N14RecipeRatBurger
-  name: rat burger recipe
+  name: "рецепт щурячого бургера"
   result: N14FoodBurgerRat
   time: 10
   solids:
@@ -390,7 +390,7 @@
 
 - type: microwaveMealRecipe
   id: N14RecipeRobotBurger
-  name: roburger recipe
+  name: "рецепт бургера"
   result: N14FoodBurgerRobot
   time: 10
   solids:
@@ -400,7 +400,7 @@
 
 - type: microwaveMealRecipe
   id: N14RecipeSoylentBurger
-  name: soylent burger recipe
+  name: "рецепт соєвого бургера"
   result: N14FoodBurgerSoy
   time: 10
   solids:
@@ -410,7 +410,7 @@
 
 - type: microwaveMealRecipe
   id: N14RecipeSpellBurger
-  name: spell burger recipe
+  name: "рецепт бургера по буквам"
   result: N14FoodBurgerSpell
   time: 10
   solids:
@@ -419,7 +419,7 @@
 
 - type: microwaveMealRecipe
   id: N14RecipeSuperBiteBurger
-  name: super bite burger recipe
+  name: "рецепт бургера super bite"
   result: N14FoodBurgerSuper
   time: 25
   reagents:
@@ -433,7 +433,7 @@
 
 - type: microwaveMealRecipe
   id: N14RecipeTofuBurger
-  name: tofu burger recipe
+  name: "рецепт бургера з тофу"
   result: N14FoodBurgerTofu
   time: 10
   solids:
@@ -442,7 +442,7 @@
 
 - type: microwaveMealRecipe
   id: N14RecipeXenoburger
-  name: xenoburger recipe
+  name: "рецепт ксенобургерів"
   result: N14FoodBurgerXeno
   time: 10
   solids:
@@ -451,7 +451,7 @@
 
 - type: microwaveMealRecipe
   id: N14RecipeMothRoachburger
-  name: mothroachburger recipe
+  name: "рецепт бургера з тарганами"
   result: N14FoodBurgerMothRoach
   solids:
     N14FoodBreadBun: 1
@@ -461,7 +461,7 @@
 
 - type: microwaveMealRecipe
   id: N14RecipeBananaBread
-  name: banana bread recipe
+  name: "рецепт бананового хліба"
   result: N14FoodBreadBanana
   time: 15
   solids:
@@ -470,7 +470,7 @@
 
 - type: microwaveMealRecipe
   id: N14RecipeCornbread
-  name: cornbread recipe
+  name: "рецепт кукурудзяного хліба"
   result: N14FoodBreadCorn
   time: 10
   solids:
@@ -478,7 +478,7 @@
 
 - type: microwaveMealRecipe
   id: N14RecipeCreamCheeseBread
-  name: cream cheese bread recipe
+  name: "рецепт хліба з вершковим сиром"
   result: N14FoodBreadCreamcheese
   time: 15
   reagents:
@@ -489,7 +489,7 @@
 
 - type: microwaveMealRecipe
   id: N14RecipeMeatBread
-  name: meat bread recipe
+  name: "рецепт м'ясного хліба"
   result: N14FoodBreadMeat
   time: 15
   solids:
@@ -499,7 +499,7 @@
 
 - type: microwaveMealRecipe
   id: N14RecipeMimanaBread
-  name: mimana bread recipe
+  name: "рецепт хліба мімана"
   result: N14FoodBreadMimana
   time: 15
   reagents:
@@ -510,7 +510,7 @@
 
 - type: microwaveMealRecipe
   id: N14RecipeBread
-  name: bread recipe
+  name: "рецепт хліба"
   result: N14FoodBreadPlain
   time: 10
   solids:
@@ -518,7 +518,7 @@
 
 - type: microwaveMealRecipe
   id: N14RecipeRadroll
-  name: radroll recipe
+  name: "рецепт редиски"
   result: N14FoodBreadRadroll
   time: 15
   solids:
@@ -527,7 +527,7 @@
 
 - type: microwaveMealRecipe
   id: N14RecipeSpiderMeatBread
-  name: scorpion bread recipe
+  name: "рецепт скорпіонового хліба"
   result: N14FoodBreadMeatRadscorp
   time: 15
   solids:
@@ -537,7 +537,7 @@
 
 - type: microwaveMealRecipe
   id: N14TofuBread
-  name: tofu bread recipe
+  name: "рецепт хліба з тофу"
   result: N14FoodBreadTofu
   time: 15
   solids:
@@ -546,7 +546,7 @@
 
 - type: microwaveMealRecipe
   id: N14RecipeXenoMeatBread
-  name: xeno meat bread recipe
+  name: "рецепт м'ясного хліба з ксеносом"
   result: N14FoodBreadMeatXeno
   time: 15
   solids:
@@ -558,7 +558,7 @@
 
 - type: microwaveMealRecipe
   id: N14RecipeBaguette
-  name: baguette recipe
+  name: "рецепт багета"
   result: N14FoodBreadBaguette
   time: 15
   reagents:
@@ -569,7 +569,7 @@
 
 - type: microwaveMealRecipe
   id: N14RecipeButteredToast
-  name: buttered toast recipe
+  name: "рецепт тостів з маслом"
   result: N14FoodBreadButteredToast
   time: 5
   solids:
@@ -578,7 +578,7 @@
 
 - type: microwaveMealRecipe
   id: N14RecipeFrenchToast
-  name: french toast recipe
+  name: "рецепт французьких тостів"
   result: N14FoodBreadFrenchToast
   time: 5
   reagents:
@@ -589,7 +589,7 @@
 
 - type: microwaveMealRecipe
   id: N14RecipeGarlicBread
-  name: garlic bread slice recipe
+  name: "рецепт часникової скибочки хліба"
   result: N14FoodBreadGarlicSlice
   time: 5
   solids:
@@ -599,7 +599,7 @@
 
 - type: microwaveMealRecipe
   id: N14RecipeJellyToast
-  name: jelly toast recipe
+  name: "рецепт желейних тостів"
   result: N14FoodBreadJellySlice
   time: 5
   solids:
@@ -608,7 +608,7 @@
 
 - type: microwaveMealRecipe
   id: N14RecipeMoldyBreadSlice
-  name: moldy bread slice recipe
+  name: "рецепт пліснявого хліба з нарізки"
   result: N14FoodBreadMoldySlice
   time: 5
   solids:
@@ -617,7 +617,7 @@
 
 - type: microwaveMealRecipe
   id: N14RecipeTwoBreadSlice
-  name: two slice recipe
+  name: "рецепт з двома скибочками"
   result: N14FoodBreadTwoSlice
   time: 5
   reagents:
@@ -627,7 +627,7 @@
 
 - type: microwaveMealRecipe
   id: N14RecipeOnionRings
-  name: onion rings recipe
+  name: "рецепт цибулевих кілець"
   result: N14FoodOnionRings
   time: 15
   solids:
@@ -636,7 +636,7 @@
 #Pizzas TODO: contruction graph based pizza
 - type: microwaveMealRecipe
   id: N14RecipeMargheritaPizza
-  name: margherita pizza recipe
+  name: "рецепт піци \"Маргарита"
   result: N14FoodPizzaMargherita
   time: 30
   solids:
@@ -646,7 +646,7 @@
 
 - type: microwaveMealRecipe
   id: N14RecipeMushroomPizza
-  name: mushroom pizza recipe
+  name: "рецепт грибної піци"
   result: N14FoodPizzaMushroom
   time: 30
   solids:
@@ -655,7 +655,7 @@
 
 - type: microwaveMealRecipe
   id: N14RecipeMeatPizza
-  name: meat pizza recipe
+  name: "рецепт м'ясної піци"
   result: N14FoodPizzaMeat
   time: 30
   solids:
@@ -666,7 +666,7 @@
 
 - type: microwaveMealRecipe
   id: N14RecipeVegetablePizza
-  name: vegetable pizza recipe
+  name: "рецепт овочевої піци"
   result: N14FoodPizzaVegetable
   time: 30
   solids:
@@ -678,7 +678,7 @@
 
 - type: microwaveMealRecipe
   id: N14RecipeHawaiianPizza
-  name: Hawaiian pizza recipe
+  name: "Рецепт гавайської піци"
   result: N14FoodPizzaPineapple
   time: 30
   solids:
@@ -688,7 +688,7 @@
 
 - type: microwaveMealRecipe
   id: N14RecipeDankPizza
-  name: dank pizza recipe
+  name: "рецепт мокрої піци"
   result: N14FoodPizzaDank
   time: 30
   solids:
@@ -699,7 +699,7 @@
 
 - type: microwaveMealRecipe
   id: N14RecipeDonkpocketPizza
-  name: donk-pocket pizza recipe
+  name: "рецепт піци з ослиною кишенею"
   result: N14FoodPizzaDonkpocket
   time: 30
   solids:
@@ -711,7 +711,7 @@
 #Italian
 - type: microwaveMealRecipe
   id: N14RecipeBoiledSpaghetti
-  name: boiled spaghetti recipe
+  name: "рецепт відварених спагетті"
   result: N14FoodNoodlesBoiled
   time: 15
   reagents:
@@ -722,7 +722,7 @@
 
 - type: microwaveMealRecipe
   id: N14RecipePastaTomato
-  name: pasta tomato recipe
+  name: "рецепт макаронів з помідорами"
   result: N14FoodNoodles
   time: 10
   solids:
@@ -740,7 +740,7 @@
 
 - type: microwaveMealRecipe
   id: N14RecipeButterNoodles
-  name: butter noodles recipe
+  name: "рецепт масляної локшини"
   result: N14FoodNoodlesButter
   time: 10
   solids:
@@ -749,7 +749,7 @@
 
 - type: microwaveMealRecipe
   id: N14RecipeChowMein
-  name: chow mein recipe
+  name: "рецепт чау-мейн"
   result: N14FoodNoodlesChowmein
   time: 10
   solids:
@@ -761,7 +761,7 @@
 
 - type: microwaveMealRecipe
   id: N14RecipeOatmeal
-  name: oatmeal recipe
+  name: "рецепт вівсянки"
   result: N14FoodOatmeal
   time: 15
   reagents:
@@ -772,7 +772,7 @@
 
 - type: microwaveMealRecipe
   id: N14RecipeBoiledRice
-  name: boiled rice recipe
+  name: "рецепт відвареного рису"
   result: N14FoodRiceBoiled
   time: 15
   reagents:
@@ -783,7 +783,7 @@
 
 - type: microwaveMealRecipe
   id: N14RecipeRicePudding
-  name: rice pudding recipe
+  name: "рецепт рисового пудингу"
   result: N14FoodRicePudding
   time: 15
   reagents:
@@ -795,7 +795,7 @@
 
 - type: microwaveMealRecipe
   id: N14RecipeRiceRoadkill
-  name: roadkill rice recipe
+  name: "рецепт рису з дорожніх пригод"
   result: N14FoodRiceRoadkill
   time: 15
   solids:
@@ -804,7 +804,7 @@
 
 - type: microwaveMealRecipe
   id: N14RecipeRiceGumbo
-  name: black-eyed gumbo recipe
+  name: "рецепт гумбо з чорнооких"
   result: N14FoodRiceGumbo
   time: 15
   solids:
@@ -814,7 +814,7 @@
 
 - type: microwaveMealRecipe
   id: N14RecipeEggRice
-  name: egg-fried rice recipe
+  name: "рецепт смаженого в яйці рису"
   result: N14FoodRiceEgg
   time: 15
   solids:
@@ -824,7 +824,7 @@
 
 - type: microwaveMealRecipe
   id: N14RecipeCopypasta
-  name: copypasta recipe
+  name: "рецепт копіпасти"
   result: N14FoodNoodlesCopy
   time: 10
   solids:
@@ -859,7 +859,7 @@
 
 - type: microwaveMealRecipe
   id: N14RecipeNettleSoup
-  name: nettle soup recipe
+  name: "рецепт кропив'яного супу"
   result: N14FoodSoupNettle
   time: 10
   reagents:
@@ -872,7 +872,7 @@
 
 - type: microwaveMealRecipe
   id: N14RecipeEyeballSoup
-  name: eyeball soup recipe
+  name: "рецепт супу з очних яблук"
   result: N14FoodSoupEyeball
   time: 10
   reagents:
@@ -885,7 +885,7 @@
 
 - type: microwaveMealRecipe
   id: N14RecipeAmanitaJelly
-  name: amanita jelly recipe
+  name: "рецепт желе з аманіту"
   result: N14FoodJellyAmanita
   time: 10
   reagents:
@@ -896,7 +896,7 @@
 
 - type: microwaveMealRecipe
   id: N14RecipeOnionSoup
-  name: onion soup recipe
+  name: "рецепт цибулевого супу"
   result: N14FoodSoupOnion
   time: 10
   reagents:
@@ -908,7 +908,7 @@
 
 - type: microwaveMealRecipe
   id: N14RecipeMushroomSoup
-  name: mushroom soup recipe
+  name: "рецепт грибного супу"
   result: N14FoodSoupMushroom
   time: 10
   reagents:
@@ -920,7 +920,7 @@
 
 - type: microwaveMealRecipe
   id: N14RecipeStewSoup
-  name: stew recipe
+  name: "рецепт тушкованого м'яса"
   result: N14FoodSoupStew
   time: 10
   reagents:
@@ -935,7 +935,7 @@
 
 - type: microwaveMealRecipe
   id: N14RecipeTatoSoup
-  name: tato soup recipe #N14 changes
+  name: "рецепт томатного супу" #N14 changes
   result: N14FoodSoupTato
   time: 10
   reagents:
@@ -946,7 +946,7 @@
 
 - type: microwaveMealRecipe
   id: N14RecipeTomatoBloodSoup
-  name: blood tato soup recipe
+  name: "рецепт супу з кров'яною картоплею"
   result: N14FoodSoupTomatoBlood
   time: 10
   reagents:
@@ -957,7 +957,7 @@
 
 - type: microwaveMealRecipe
   id: N14RecipeWingFangChuSoupSpider
-  name: wing fang chu recipe
+  name: "рецепт крилатого фан-чу"
   result: N14FoodSoupWingFangChu
   time: 10
   reagents:
@@ -968,7 +968,7 @@
 
 - type: microwaveMealRecipe
   id: N14RecipeVegetableSoup
-  name: vegetable soup recipe
+  name: "рецепт овочевого супу"
   result: N14FoodSoupVegetable
   time: 10
   reagents:
@@ -982,7 +982,7 @@
 
 - type: microwaveMealRecipe
   id: N14RecipeClownTearsSoup
-  name: clown tears soup recipe
+  name: "рецепт супу зі сліз клоуна"
   result: N14FoodSoupClown
   time: 10
   reagents:
@@ -995,7 +995,7 @@
 
 - type: microwaveMealRecipe
   id: N14RecipeMonkeysDelightSoup
-  name: monkeys delight recipe
+  name: "рецепт мавпячої насолоди"
   result: N14FoodSoupMonkey
   time: 10
   reagents:
@@ -1009,7 +1009,7 @@
 
 - type: microwaveMealRecipe
   id: N14RecipeBungoSoup
-  name: bungo soup recipe
+  name: "рецепт супу бунго"
   result: N14FoodSoupBungo
   time: 10
   reagents:
@@ -1023,7 +1023,7 @@
 
 - type: microwaveMealRecipe
   id: N14RecipeAmanitaPie
-  name: amanita pie recipe
+  name: "рецепт пирога з аманітою"
   result: N14FoodPieAmanita
   time: 15
   solids:
@@ -1033,7 +1033,7 @@
 
 - type: microwaveMealRecipe
   id: N14RecipeMutfruitPie
-  name: mutfruit pie recipe
+  name: "рецепт пирога з мускатним горіхом"
   result: N14FoodPieMutfruit
   time: 15
   solids:
@@ -1043,7 +1043,7 @@
 
 - type: microwaveMealRecipe
   id: N14RecipeBaklava
-  name: baklava recipe
+  name: "рецепт пахлави"
   result: N14FoodPieBaklava
   time: 15
   solids:
@@ -1053,7 +1053,7 @@
 
 - type: microwaveMealRecipe
   id: N14RecipeBananaCreamPie
-  name: banana cream pie recipe
+  name: "рецепт бананово-кремового пирога"
   result: N14FoodPieBananaCream
   time: 15
   solids:
@@ -1063,7 +1063,7 @@
 
 - type: microwaveMealRecipe
   id: N14RecipeTarberryPie
-  name: tarberry pie recipe
+  name: "рецепт пирога з обліпихою"
   result: N14FoodPieTarberry
   time: 15
   solids:
@@ -1083,7 +1083,7 @@
 
 - type: microwaveMealRecipe
   id: N14RecipeFrostyPie
-  name: frosty pie recipe
+  name: "рецепт морозного пирога"
   result: N14FoodPieFrosty
   time: 15
   solids:
@@ -1093,7 +1093,7 @@
 
 - type: microwaveMealRecipe
   id: N14RecipeMeatPie
-  name: meat pie recipe
+  name: "рецепт м'ясного пирога"
   result: N14FoodPieMeat
   time: 15
   solids:
@@ -1113,7 +1113,7 @@
 
 - type: microwaveMealRecipe
   id: N14RecipeXenoPie
-  name: xeno pie recipe
+  name: "рецепт ксенопирога"
   result: N14FoodPieXeno
   time: 15
   solids:
@@ -1125,7 +1125,7 @@
 
 - type: microwaveMealRecipe
   id: N14RecipeCocoTart
-  name: chocolate lava tart recipe
+  name: "рецепт шоколадного пирога з лавою"
   result: N14FoodTartCoco
   time: 15
   reagents:
@@ -1138,7 +1138,7 @@
 
 - type: microwaveMealRecipe
   id: N14RecipeGappleTart
-  name: golden apple streusel tart recipe
+  name: "рецепт пирога з золотистим яблучним штрейзелем"
   result: N14FoodTartGapple
   time: 15
   reagents:
@@ -1152,7 +1152,7 @@
 
 - type: microwaveMealRecipe
   id: N14RecipeGrapeTart
-  name: grape tart recipe
+  name: "рецепт виноградного пирога"
   result: N14FoodTartGrape
   time: 15
   reagents:
@@ -1165,7 +1165,7 @@
 
 - type: microwaveMealRecipe
   id: N14RecipeMimeTart
-  name: mime tart recipe
+  name: "рецепт мімімішного пирога"
   result: N14FoodTartMime
   time: 15
   reagents:
@@ -1180,7 +1180,7 @@
 
 - type: microwaveMealRecipe
   id: N14RecipeCubanCarp
-  name: Cuban carp recipe
+  name: "Рецепт кубинського коропа"
   result: N14FoodMealCubancarp #this will have to be changed someday
   time: 15
   solids:
@@ -1191,7 +1191,7 @@
 
 - type: microwaveMealRecipe
   id: N14RecipeSashimi
-  name: sashimi recipe
+  name: "рецепт сашимі"
   result: N14FoodMealSashimi
   time: 15
   reagents:
@@ -1201,7 +1201,7 @@
 
 - type: microwaveMealRecipe
   id: N14RecipeMisoColaSoup
-  name: salty sweet misocola soup recipe
+  name: "рецепт солоно-солодкого супу місокола"
   result: N14DisgustingSweptSoup
   time: 15
   reagents:
@@ -1211,7 +1211,7 @@
 
 - type: microwaveMealRecipe
   id: N14RecipeLoadedBakedPotato
-  name: loaded baked potato recipe
+  name: "рецепт запеченої картоплі з начинкою"
   result: N14FoodMealPotatoLoaded
   time: 15
   solids:
@@ -1220,7 +1220,7 @@
 
 - type: microwaveMealRecipe
   id: N14RecipeFries
-  name: fries recipe #N14 change, space isn't real
+  name: "рецепт картоплі фрі" #N14 change, space isn't real
   result: N14FoodMealFries
   time: 15
   reagents:
@@ -1230,7 +1230,7 @@
 
 - type: microwaveMealRecipe
   id: N14RecipeCheesyFries
-  name: cheesy fries recipe
+  name: "рецепт сирної картоплі фрі"
   result: N14FoodMealFriesCheesy
   time: 15
   reagents:
@@ -1241,7 +1241,7 @@
 
 - type: microwaveMealRecipe
   id: N14RecipeCarrotFries
-  name: carrot fries recipe
+  name: "рецепт картоплі фрі з морквою"
   result: N14FoodMealFriesCarrot
   time: 15
   reagents:
@@ -1259,7 +1259,7 @@
 
 - type: microwaveMealRecipe
   id: N14RecipePancake
-  name: pancake recipe
+  name: "рецепт млинців"
   result: N14FoodBakedPancake
   time: 5
   reagents:
@@ -1269,7 +1269,7 @@
 
 - type: microwaveMealRecipe
   id: N14RecipeBlueberryPancake
-  name: tarberry pancake recipe #N14 change
+  name: "рецепт млинців з обліпихи" #N14 change
   result: N14FoodBakedPancakeBb
   time: 5
   reagents:
@@ -1281,7 +1281,7 @@
 
 - type: microwaveMealRecipe
   id: N14RecipeWaffles
-  name: waffle recipe
+  name: "рецепт вафель"
   result: N14FoodBakedWaffle
   time: 10
   reagents:
@@ -1292,7 +1292,7 @@
 
 - type: microwaveMealRecipe
   id: N14RecipeWaffleSoy
-  name: soy waffle recipe
+  name: "рецепт соєвих вафель"
   result: N14FoodBakedWaffleSoy
   time: 10
   reagents:
@@ -1303,7 +1303,7 @@
 
 - type: microwaveMealRecipe
   id: N14RecipeCookie
-  name: cookie recipe
+  name: "рецепт печива"
   result: N14FoodBakedCookie
   time: 5
   reagents:
@@ -1315,7 +1315,7 @@
 
 - type: microwaveMealRecipe
   id: N14RecipeSugarCookie
-  name: sugar cookie recipe
+  name: "рецепт цукрового печива"
   result: N14FoodBakedCookieSugar
   time: 5
   reagents:
@@ -1326,7 +1326,7 @@
 
 - type: microwaveMealRecipe
   id: N14RecipeRaisinCookie
-  name: raisin cookie recipe
+  name: "рецепт печива з родзинками"
   result: N14FoodBakedCookieRaisin
   time: 5
   reagents:
@@ -1337,7 +1337,7 @@
 
 - type: microwaveMealRecipe
   id: N14RecipeCookieOatmeal
-  name: oatmeal cookie recipe
+  name: "рецепт вівсяного печива"
   result: N14FoodBakedCookieOatmeal
   time: 5
   reagents:
@@ -1348,7 +1348,7 @@
 
 - type: microwaveMealRecipe
   id: N14RecipeChocolateChipPancake
-  name: chocolate chip pancake recipe
+  name: "рецепт млинців з шоколадною крихтою"
   result: N14FoodBakedPancakeCc
   time: 5
   reagents:
@@ -1360,7 +1360,7 @@
 
 - type: microwaveMealRecipe
   id: N14RecipeMutfruitCake
-  name: mutfruit cake recipe
+  name: "рецепт торта з мускатним горіхом"
   result: N14FoodCakeMutfruit
   time: 5
   solids:
@@ -1369,7 +1369,7 @@
 
 - type: microwaveMealRecipe
   id: N14RecipeCarrotCake
-  name: carrot cake recipe
+  name: "рецепт морквяного торта"
   result: N14FoodCakeCarrot
   time: 5
   solids:
@@ -1378,7 +1378,7 @@
 
 - type: microwaveMealRecipe
   id: N14RecipeLemonCake
-  name: lemon cake recipe
+  name: "рецепт лимонного торта"
   result: N14FoodCakeLemon
   time: 5
   solids:
@@ -1387,7 +1387,7 @@
 
 - type: microwaveMealRecipe
   id: N14RecipeLemoonCake
-  name: lemoon cake recipe
+  name: "рецепт лимонного торта"
   result: N14FoodCakeLemoon
   time: 5
   solids:
@@ -1397,7 +1397,7 @@
 
 - type: microwaveMealRecipe
   id: N14RecipeOrangeCake
-  name: orange cake recipe
+  name: "рецепт апельсинового торта"
   result: N14FoodCakeOrange
   time: 5
   solids:
@@ -1406,7 +1406,7 @@
 
 - type: microwaveMealRecipe
   id: N14RecipeTarberryCake
-  name: tarberry cake recipe #N14 change
+  name: "рецепт пирога з обліпихи" #N14 change
   result: N14FoodCakeTarberry
   time: 5
   solids:
@@ -1415,7 +1415,7 @@
 
 - type: microwaveMealRecipe
   id: N14RecipeLimeCake
-  name: lime cake recipe
+  name: "рецепт лаймового торта"
   result: N14FoodCakeLime
   time: 5
   solids:
@@ -1424,7 +1424,7 @@
 
 - type: microwaveMealRecipe
   id: N14RecipeCheeseCake
-  name: cheese cake recipe
+  name: "рецепт сирного торта"
   result: N14FoodCakeCheese
   time: 5
   reagents:
@@ -1435,7 +1435,7 @@
 
 - type: microwaveMealRecipe
   id: N14RecipePumpkinCake
-  name: pumpkin cake recipe
+  name: "рецепт гарбузового пирога"
   result: N14FoodCakePumpkin
   time: 5
   solids:
@@ -1444,7 +1444,7 @@
 
 - type: microwaveMealRecipe
   id: N14RecipeClownCake
-  name: clown cake recipe
+  name: "рецепт торта-клоуна"
   result: N14FoodCakeClown
   time: 5
   solids:
@@ -1453,7 +1453,7 @@
 
 - type: microwaveMealRecipe
   id: N14RecipeCake
-  name: cake recipe
+  name: "рецепт торта"
   result: N14FoodCakePlain
   time: 15
   solids:
@@ -1461,7 +1461,7 @@
 
 - type: microwaveMealRecipe
   id: N14RecipeBirthdayCake
-  name: birthday cake recipe
+  name: "рецепт торта на день народження"
   result: N14FoodCakeBirthday
   time: 5
   reagents:
@@ -1471,7 +1471,7 @@
 
 - type: microwaveMealRecipe
   id: N14RecipeChocolateCake
-  name: chocolate cake recipe
+  name: "рецепт шоколадного торта"
   result: N14FoodCakeChocolate
   time: 5
   solids:
@@ -1480,7 +1480,7 @@
 
 - type: microwaveMealRecipe
   id: N14RecipeBrainCake
-  name: brain cake recipe
+  name: "рецепт мозкового торта"
   result: N14FoodCakeBrain
   time: 15
   solids:
@@ -1489,7 +1489,7 @@
 
 - type: microwaveMealRecipe
   id: N14RecipeSlimeCake
-  name: slime cake recipe
+  name: "рецепт торта зі слизу"
   result: N14FoodCakeSlime
   time: 5
   reagents:
@@ -1499,7 +1499,7 @@
 
 - type: microwaveMealRecipe
   id: N14RecipeCatCake
-  name: cat cake recipe
+  name: "рецепт котячого торта"
   result: N14MobCatCake
   time: 15
   reagents:
@@ -1524,7 +1524,7 @@
 
 - type: microwaveMealRecipe
   id: N14RecipeDumplings
-  name: dumplings recipe
+  name: "рецепт вареників"
   result: N14FoodBakedDumplings
   time: 15
   reagents:
@@ -1535,7 +1535,7 @@
 
 - type: microwaveMealRecipe
   id: N14RecipeBrownies
-  name: brownie recipe
+  name: "рецепт тістечка"
   result: N14FoodBakedBrownieBatch
   time: 25
   reagents:
@@ -1558,7 +1558,7 @@
 #Donks, these are all just legacy foods we probably want to remove or replace
 - type: microwaveMealRecipe
   id: N14RecipeWarmDonkpocket
-  name: warm donk pocket recipe
+  name: "рецепт теплої кишені з віслюка"
   result: N14FoodDonkpocketWarm
   time: 5
   solids:
@@ -1566,7 +1566,7 @@
 
 - type: microwaveMealRecipe
   id: N14RecipeWarmDankpocket
-  name: warm dank pocket recipe
+  name: "рецепт теплої мокрої кишені"
   result: N14FoodDonkpocketDankWarm
   time: 5
   solids:
@@ -1574,7 +1574,7 @@
 
 - type: microwaveMealRecipe
   id: N14RecipeWarmDonkpocketSpicy
-  name: warm spicy donk-pocket recipe
+  name: "рецепт теплої гострої кишені з донжуаном"
   result: N14FoodDonkpocketSpicyWarm
   time: 5
   solids:
@@ -1582,7 +1582,7 @@
 
 - type: microwaveMealRecipe
   id: N14RecipeWarmDonkpocketTeriyaki
-  name: warm teriyaki-pocket recipe
+  name: "рецепт теплих кишенькових теріякі"
   result: N14FoodDonkpocketTeriyakiWarm
   time: 5
   solids:
@@ -1590,7 +1590,7 @@
 
 - type: microwaveMealRecipe
   id: N14RecipeWarmDonkpocketPizza
-  name: warm pizza-pocket recipe
+  name: "рецепт теплої кишенькової піци"
   result: N14FoodDonkpocketPizzaWarm
   time: 5
   solids:
@@ -1598,7 +1598,7 @@
 
 - type: microwaveMealRecipe
   id: N14RecipeDonkpocketHonk
-  name: warm honk-pocket recipe
+  name: "рецепт теплої кишенькової запіканки"
   result: N14FoodDonkpocketHonkWarm
   time: 5
   solids:
@@ -1606,7 +1606,7 @@
 
 - type: microwaveMealRecipe
   id: N14RecipeDonkpocketBerry
-  name: warm berry-pocket recipe
+  name: "рецепт теплої ягідної кишеньки"
   result: N14FoodDonkpocketBerryWarm
   time: 5
   solids:
@@ -1614,7 +1614,7 @@
 
 - type: microwaveMealRecipe
   id: N14RecipeDonkpocketStonk
-  name: warm stonk-pocket recipe
+  name: "рецепт теплої кишені з кісточками"
   result: N14FoodDonkpocketStonkWarm
   time: 5
   solids:
@@ -1622,7 +1622,7 @@
 
 - type: microwaveMealRecipe
   id: N14RecipeDonkpocketCarp
-  name: warm carp-pocket recipe
+  name: "рецепт теплого коропа в кишені"
   result: N14FoodDonkpocketCarpWarm
   time: 5
   solids:
@@ -1631,7 +1631,7 @@
 
 - type: microwaveMealRecipe
   id: N14RecipeHotChili
-  name: hot chili recipe #N14 change
+  name: "рецепт гострого чилі" #N14 change
   result: N14FoodSoupChiliHot
   time: 20
   solids:
@@ -1643,7 +1643,7 @@
 
 - type: microwaveMealRecipe
   id: N14RecipeColdChili
-  name: cold chili recipe
+  name: "рецепт холодного чилі"
   result: N14FoodSoupChiliCold
   time: 5
   reagents:
@@ -1653,7 +1653,7 @@
 
 - type: microwaveMealRecipe
   id: N14RecipeClownTears
-  name: clown's tears recipe
+  name: "рецепт сліз клоуна"
   result: N14FoodSoupClown
   time: 15
   solids:
@@ -1664,7 +1664,7 @@
 
 - type: microwaveMealRecipe
   id: N14RecipeChiliClown
-  name: chili con carnival recipe
+  name: "рецепт чилі з карнавалом"
   result: N14FoodSoupChiliClown
   time: 30
   solids:
@@ -1677,7 +1677,7 @@
 
 - type: microwaveMealRecipe
   id: N14RecipeQueso
-  name: queso recipe
+  name: "рецепт кесо"
   result: N14FoodMealQueso
   time: 15
   reagents:
@@ -1688,7 +1688,7 @@
 
 - type: microwaveMealRecipe
   id: N14RecipeRibs
-  name: BBQ ribs recipe
+  name: "Рецепт реберець барбекю"
   result: N14FoodMealRibs
   time: 15
   reagents:
@@ -1709,7 +1709,7 @@
 # SALADS: These should be moved out of the microwave as soon as possible
 - type: microwaveMealRecipe
   id: N14RecipeHerbSalad
-  name: herb salad recipe
+  name: "рецепт салату на травах"
   result: N14FoodSaladHerb
   time: 5
   solids:
@@ -1719,7 +1719,7 @@
 
 - type: microwaveMealRecipe
   id: N14RecipeColeslaw
-  name: coleslaw recipe
+  name: "рецепт салату з капусти"
   result: N14FoodSaladColeslaw
   time: 5
   reagents:
@@ -1731,7 +1731,7 @@
 
 - type: microwaveMealRecipe
   id: N14RecipeCaesarSalad
-  name: caesar salad recipe
+  name: "рецепт салату \"Цезар"
   result: N14FoodSaladCaesar
   time: 5
   reagents:
@@ -1745,7 +1745,7 @@
 
 - type: microwaveMealRecipe
   id: N14RecipeCitrusSalad
-  name: citrus salad recipe
+  name: "рецепт цитрусового салату"
   result: N14FoodSaladCitrus
   time: 5
   solids:
@@ -1756,7 +1756,7 @@
 
 - type: microwaveMealRecipe
   id: N14RecipeKimchiSalad
-  name: kimchi salad recipe
+  name: "рецепт салату з кімчі"
   result: N14FoodSaladKimchi
   time: 5
   reagents:
@@ -1769,7 +1769,7 @@
 
 - type: microwaveMealRecipe
   id: N14RecipeFruitSalad
-  name: fruit salad recipe
+  name: "рецепт фруктового салату"
   result: N14FoodSaladFruit
   time: 5
   solids:
@@ -1781,7 +1781,7 @@
 
 - type: microwaveMealRecipe
   id: N14RecipeJungleSalad
-  name: jungle salad recipe
+  name: "рецепт салату джунглі"
   result: N14FoodSaladJungle
   time: 5
   solids:
@@ -1793,7 +1793,7 @@
 
 - type: microwaveMealRecipe
   id: N14RecipeWatermelonFruitBowlSalad
-  name: watermelon fruit bowl recipe
+  name: "рецепт кавунової фруктової миски"
   result: N14FoodSaladWatermelonFruitBowl
   time: 5
   solids:
@@ -1886,7 +1886,7 @@
 
 - type: microwaveMealRecipe
   id: N14RecipeFoodMealSoftTaco
-  name: soft taco recipe
+  name: "рецепт м'якого тако"
   result: N14FoodMealSoftTaco
   time: 10
   solids:
@@ -1898,7 +1898,7 @@
 
 - type: microwaveMealRecipe
   id: N14RecipeFoodBakedChevreChaud
-  name: chevre chaud recipe
+  name: "рецепт шевре-шод"
   result: N14FoodBakedChevreChaud
   time: 5
   solids:
@@ -1915,7 +1915,7 @@
 
 - type: microwaveMealRecipe
   id: N14RecipeCannabisButter
-  name: cannabis butter recipe
+  name: "рецепт конопляної олії"
   result: N14FoodCannabisButter
   time: 15
   solids:
@@ -1924,7 +1924,7 @@
 
 - type: microwaveMealRecipe
   id: N14RecipeCannabisBrownies
-  name: cannabis brownie recipe
+  name: "рецепт тістечка з конопель"
   result: N14FoodBakedCannabisBrownieBatch
   time: 25
   reagents:
@@ -1937,7 +1937,7 @@
 
 - type: microwaveMealRecipe
   id: N14RecipeCornInButter
-  name: corn in butter recipe
+  name: "кукурудза в маслі рецепт"
   result: N14FoodMealCornInButter
   time: 10
   solids:
@@ -1947,7 +1947,7 @@
 
 - type: microwaveMealRecipe
   id: N14RecipePeaSoup
-  name: pea soup recipe
+  name: "рецепт горохового супу"
   result: N14FoodSoupPea
   time: 10
   solids:
@@ -1958,7 +1958,7 @@
 
 - type: microwaveMealRecipe
   id: N14RecipeTacoShell
-  name: taco shell recipe
+  name: "рецепт оболонки для тако"
   result: N14FoodTacoShell
   time: 5
   solids:
@@ -1966,7 +1966,7 @@
 
 - type: microwaveMealRecipe
   id: N14RecipeTacoBeef
-  name: beef taco recipe
+  name: "рецепт тако з яловичиною"
   result: N14FoodTacoBeef
   time: 10
   solids:
@@ -1976,7 +1976,7 @@
 
 - type: microwaveMealRecipe
   id: N14RecipeTacoChicken
-  name: chicken taco recipe
+  name: "рецепт курячого тако"
   result: N14FoodTacoChicken
   time: 10
   solids:
@@ -1998,7 +1998,7 @@
 
 - type: microwaveMealRecipe
   id: N14RecipeTacoRat
-  name: rat taco recipe
+  name: "рецепт щурячого тако"
   result: N14FoodTacoRat
   time: 10
   solids:
@@ -2008,7 +2008,7 @@
 
 - type: microwaveMealRecipe
   id: N14RecipeTacoBeefSupreme
-  name: beef taco supreme recipe
+  name: "рецепт найвищого тако з яловичини"
   result: N14FoodTacoBeefSupreme
   time: 10
   solids:
@@ -2021,7 +2021,7 @@
 
 - type: microwaveMealRecipe
   id: N14RecipeTacoChickenSupreme
-  name: chicken taco supreme recipe #N14 change, I guess someone upstream was sleepy
+  name: "рецепт курячого тако найвищого ґатунку" #N14 change, I guess someone upstream was sleepy
   result: N14FoodTacoChickenSupreme
   time: 10
   solids:

@@ -4,7 +4,7 @@
 
 - type: accessLevel
   id: NCRRanger
-  name: id-card-access-level-ncr-ranger
+  name: "id-card-access-level-ncr-ranger"
 
 - type: accessLevel
   id: NCRSGT
@@ -12,11 +12,11 @@
 
 - type: accessLevel
   id: NCRMedic
-  name: id-card-access-level-ncr-medic
+  name: "id-card-access-level-ncr-medic"
 
 - type: accessLevel
   id: NCR
-  name: id-card-access-level-ncr
+  name: "id-card-access-level-ncr"
 
 - type: accessGroup
   id: NCR

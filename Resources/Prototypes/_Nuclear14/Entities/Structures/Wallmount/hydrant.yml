@@ -1,7 +1,7 @@
 ﻿- type: entity
   id: N14WallmountFireHydrant
-  name: fire hydrant
-  description: A wall mounted hydrant for putting out large fires.
+  name: "пожежний гідрант"
+  description: "Настінний гідрант для гасіння великих пожеж."
   placement:
     mode: SnapgridCenter
   components:

@@ -1,6 +1,6 @@
 - type: entity
   id: BaseMagazine762Rifle
-  name: "magazine (7.62mm)"
+  name: "магазин (7,62 мм)"
   parent: BaseItem
   abstract: true
   components:
@@ -33,7 +33,7 @@
 
 - type: entity
   id: Magazine762Rifle
-  name: "magazine (7.62mm)"
+  name: "магазин (7,62 мм)"
   parent: BaseMagazine762Rifle
   components:
   - type: BallisticAmmoProvider

@@ -1,8 +1,8 @@
 - type: entity
   id: N14PortableGeneratorWeldingFuelMachineParts
   parent: BaseMachineCircuitboard
-  name: gas powered generator machine parts
-  description: Essential parts for making your own gas-powered generator.
+  name: "деталі генераторних установок, що працюють на газі"
+  description: "Найнеобхідніші деталі для створення власного газового генератора."
   components:
     - type: MachineBoard
       prototype: N14PortableGeneratorWeldingFuel

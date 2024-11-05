@@ -1,8 +1,8 @@
 #MARK: Undecided Loadout Backpacks
 - type: entity
   id: NCRtrooperloadoutkits
-  name: Undecided NCR Trooper Loadout Kit
-  description: Please only take one..
+  name: "Не визначився з комплектом екіпіровки NCR Trooper Loaded Kit"
+  description: "Будь ласка, візьміть тільки одну."
   parent: BaseItem
   components:
   - type: Sprite
@@ -26,8 +26,8 @@
 # Engineer Kits
 - type: entity
   id: NCRengineerloadoutkits
-  name: Undecided NCR Engineer Loadout Kit
-  description: Please only take one..
+  name: "Не визначився з комплектом для завантаження інженера NCR"
+  description: "Будь ласка, візьміть тільки одну."
   parent: BaseItem
   components:
   - type: Sprite
@@ -47,8 +47,8 @@
 # WS Kits
 - type: entity
   id: NCRwsloadoutkits
-  name: Undecided NCR Weapon Specalist Loadout Kit
-  description: Please only take one..
+  name: "Невизначений комплект для завантаження зброї NCR Weapon Specialist"
+  description: "Будь ласка, візьміть тільки одну."
   parent: BaseItem
   components:
   - type: Sprite
@@ -68,8 +68,8 @@
 
 - type: entity
   id: NCRSGTloadoutkits
-  name: Undecided NCR SGT Loadout Kit
-  description: Please only take one.
+  name: "Не визначився з комплектом для завантаження NCR SGT"
+  description: "Будь ласка, візьміть тільки один."
   parent: BaseItem
   components:
   - type: Sprite
@@ -97,8 +97,8 @@
 
 - type: entity
   id: NCRrangerloadoutkits
-  name: Undecided NCR Ranger Loadout Kit
-  description: Please only take one.
+  name: "Не визначився з комплектом для завантаження NCR Ranger"
+  description: "Будь ласка, візьміть тільки один."
   parent: BaseItem
   components:
   - type: Sprite
@@ -121,8 +121,8 @@
 
 - type: entity
   id: NCRveteranrangerloadoutkits
-  name: Undecided NCR Veteran Ranger Loadout Kit
-  description: Please only take one.
+  name: "Не визначився з комплектом спорядження NCR Veteran Ranger"
+  description: "Будь ласка, візьміть тільки один."
   parent: BaseItem
   components:
   - type: Sprite
@@ -151,8 +151,8 @@
 #MARK: Knights
 - type: entity
   id: NCRBoSMidwestkits
-  name: Undecided BoS Midwest Kit
-  description: Please only take one.
+  name: "Не визначився з набором BoS Midwest"
+  description: "Будь ласка, візьміть тільки один."
   parent: BaseItem
   components:
   - type: Sprite
@@ -173,8 +173,8 @@
 #MARK: Scribes
 - type: entity
   id: NCRBoSMidwestScribekits
-  name: Undecided BoS Scribe Midwest Kit
-  description: Please only take one.
+  name: "Не визначився з набором BoS Scribe Midwest Kit"
+  description: "Будь ласка, візьміть тільки один."
   parent: BaseItem
   components:
   - type: Sprite
@@ -196,8 +196,8 @@
 #MARK: Paladins
 - type: entity
   id: NCRBoSMidwestPaladinkits
-  name: Undecided BoS Paladin Midwest Kit
-  description: Please only take one.
+  name: "Не визначився з набором BoS Paladin Midwest Kit"
+  description: "Будь ласка, візьміть тільки один."
   parent: BaseItem
   components:
   - type: Sprite
