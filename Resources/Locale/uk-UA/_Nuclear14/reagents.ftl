@@ -347,3 +347,5 @@ reagent-name-nuka-cola-wild = Нука-Кола Дикий
 reagent-desc-nuka-cola-wild = Вершковий, важкий, пряний, старий добрий смак, що нагадує рутбир. Від нього язик поколює.
 reagent-name-extract-pinyon = сік пінії
 reagent-desc-extract-pinyon = Сік з пінії. Дуже міцний.
+reagent-name-extract-glowpepper = сік світлого перцю
+reagent-desc-extract-glowpepper = Перець, що світиться; щось підказує вам, що, з'ївши його, ви, напевно, пошкодите рот. На смак як славний ядерний вогонь.

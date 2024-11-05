@@ -261,3 +261,6 @@ flavor-complex-blue-hawaiian = як тропіки
 flavor-complex-cosmopolitan = солодкий і гострий
 flavor-complex-painkiller = як ананасовий сік з прянощами
 flavor-complex-pina-colada = як тропічне сонце
+flavor-base-bad = поганий
+flavor-base-sludgy = мулистий # N14 зміни
+flavor-complex-tato = як гірші помідори та картопля # N14 змінити # використовуйте його, коли є кілька видів овочів ## Складні харчові продукти (приготовані продукти, жартівливі ароматизатори тощо)

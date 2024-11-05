@@ -93,3 +93,6 @@ clipping-starlight-display-name = обрізка ягід зоряного св�
 clipping-tarberry-name = обрізка чорноплідної горобини
 clipping-tarberry-seeds = обрізка чорноплідної горобини
 clipping-tarberry-display-name = обрізка смородини
+clipping-glowpepper-name = обрізка світлого перцю
+clipping-glowpepper-noun = обрізки світлого перцю
+clipping-glowpepper-display-name = калиновий перець
