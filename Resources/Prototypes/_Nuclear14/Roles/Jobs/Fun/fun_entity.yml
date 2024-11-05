@@ -1,7 +1,7 @@
 - type: entity
   parent: MobHuman
   id: N14MobHumanFollowers
-  name: "Підписники"
+  name: Followers
   components:
     - type: RandomHumanoidAppearance
       randomizeName: true
@@ -27,7 +27,7 @@
 - type: entity
   parent: MobHuman
   id: N14MobHumanZetan
-  name: "Зетан"
+  name: Zetan
   components:
     - type: RandomHumanoidAppearance
       randomizeName: true

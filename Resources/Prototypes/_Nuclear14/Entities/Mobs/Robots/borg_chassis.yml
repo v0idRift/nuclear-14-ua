@@ -17,7 +17,7 @@
 - type: entity
   parent: N14BaseRobotChassis
   id: N14RobotProtectron
-  name: "протрон"
+  name: protectron
   components:
   - type: Sprite
     sprite: _Nuclear14/Mobs/Robots/protectron.rsi
@@ -55,7 +55,7 @@
 - type: entity
   parent: N14RobotProtectron
   id: N14RobotProtectronBuilder
-  name: "конструктор протекторів"
+  name: protectron builder
   components:
   - type: Sprite
     sprite: _Nuclear14/Mobs/Robots/protectron-builder.rsi
@@ -101,7 +101,7 @@
 - type: entity
   parent: N14RobotProtectron
   id: N14RobotProtectronFire
-  name: "протипожежний протектрон"
+  name: protectron firefighter
   components:
   - type: Sprite
     sprite: _Nuclear14/Mobs/Robots/protectron-fire.rsi
@@ -133,7 +133,7 @@
 - type: entity
   parent: N14RobotProtectron
   id: N14RobotProtectronPolice
-  name: "офіцер поліції \"Протекшн"
+  name: protectron police officer
   components:
   - type: Sprite
     sprite: _Nuclear14/Mobs/Robots/protectron-police.rsi
@@ -166,7 +166,7 @@
 - type: entity
   parent: N14BaseRobotChassis
   id: N14RobotMrHandy
-  name: "містере Хенді"
+  name: mr handy
   components:
   - type: Sprite
     sprite: _Nuclear14/Mobs/Robots/mrhandyclaw.rsi
@@ -204,7 +204,7 @@
 - type: entity
   parent: N14RobotMrHandy
   id: N14RobotMrHandySaw
-  name: "містере Хенді"
+  name: mr handy
   suffix: saw
   components:
   - type: Sprite
@@ -213,7 +213,7 @@
 - type: entity
   parent: N14RobotMrHandy
   id: N14RobotMrHandyGun
-  name: "містере Хенді"
+  name: mr handy
   suffix: gun
   components:
   - type: Sprite
@@ -222,7 +222,7 @@
 - type: entity
   parent: N14RobotMrHandy
   id: N14RobotMrGutsy
-  name: "містер Гатсі"
+  name: mr gutsy
   components:
   - type: Sprite
     sprite: _Nuclear14/Mobs/Robots/mrhandygutsy.rsi

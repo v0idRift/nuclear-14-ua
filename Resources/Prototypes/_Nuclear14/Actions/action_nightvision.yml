@@ -1,8 +1,8 @@
 - type: entity
   parent: ActionBase
   id: ActionToggleNightVision
-  name: "Увімкнути нічне бачення"
-  description: "Дозволяє бачити навіть у повній темряві."
+  name: Toggle the nightvision
+  description: Allows you to see even in complete darkness.
   components:
   - type: InstantAction
     icon:

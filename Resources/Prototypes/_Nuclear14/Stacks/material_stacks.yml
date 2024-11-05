@@ -1,13 +1,13 @@
 - type: stack
   id: Circuitry
-  name: "схема"
+  name: circuitry
   icon: { sprite: _Nuclear14/Objects/Misc/materials.rsi, state: circuits_3 }
   spawn: N14MaterialCircuitry1
   maxCount: 15
 
 - type: stack
   id: BrahminHide
-  name: "шкури брамінів"
+  name: brahmin hides
   icon: { sprite: _Nuclear14/Objects/Misc/mob_drops.rsi, state: hide_brahmin_2 }
   spawn: N14MaterialBrahminHide1
   maxCount: 4
@@ -15,7 +15,7 @@
 
 - type: stack
   id: Gunpowder
-  name: "порох"
+  name: gunpowder
   icon: { sprite: "/Textures/_Nuclear14/Objects/Misc/materials.rsi", state: powder_lead }
   spawn: Gunpowder1
   maxCount: 30
@@ -23,7 +23,7 @@
 
 - type: stack
   id: N14Paper
-  name: "папір"
+  name: paper
   icon: { sprite: "/Textures/_Nuclear14/Objects/Misc/clutter.rsi", state: paper }
   spawn: N14Paper1
   maxCount: 10
@@ -31,7 +31,7 @@
 
 - type: stack
   id: N14Timber
-  name: "деревина"
+  name: timber
   icon: { sprite: "_Nuclear14/Structures/Decoration/flora.rsi", state: tree_timber }
   spawn: N14FloraLogTimber
   maxCount: 5
@@ -39,7 +39,7 @@
 
 - type: stack
   id: Compost
-  name: "компост"
+  name: compost
   icon: { sprite: "_Nuclear14/Objects/Misc/crafting_material.rsi", state: compost }
   spawn: N14CompostRotted
   maxCount: 5
@@ -47,7 +47,7 @@
 
 - type: stack
   id: Leather
-  name: "шкіра"
+  name: leather
   icon: { sprite: _Nuclear14/Objects/Misc/materials.rsi, state: leather_3 }
   spawn: N14MaterialLeather1
   maxCount: 15
@@ -55,7 +55,7 @@
 
 - type: stack
   id: RawLeather
-  name: "сира шкіра"
+  name: raw leather
   icon: { sprite: _Nuclear14/Objects/Misc/materials.rsi, state: raw_leather_2 }
   spawn: N14MaterialRawLeather1
   maxCount: 15
@@ -63,7 +63,7 @@
 
 - type: stack
   id: AntChitin
-  name: "мурашиний хітин"
+  name: ant chitin
   icon: { sprite: _Nuclear14/Objects/Misc/mob_drops.rsi, state: chitin_3 }
   spawn: N14MaterialAntChitin1
   maxCount: 3
@@ -71,7 +71,7 @@
 
 - type: stack
   id: Thread
-  name: "нитка"
+  name: thread
   icon: { sprite: /Textures/_Nuclear14/Objects/Misc/materials.rsi, state: thread }
   spawn: N14MaterialThread1
   maxCount: 10
@@ -80,7 +80,7 @@
 # Ores
 - type: stack
   id: N14LeadOre
-  name: "свинцева руда"
+  name: lead ore
   icon: { sprite: "/Textures/_Nuclear14/Objects/Misc/materials.rsi", state: lead }
   spawn: N14LeadOre1
   maxCount: 10
@@ -88,7 +88,7 @@
 
 - type: stack
   id: N14CopperOre
-  name: "мідна руда"
+  name: copper ore
   icon: { sprite: "/Textures/_Nuclear14/Objects/Misc/materials.rsi", state: copper }
   spawn: N14CopperOre1
   maxCount: 30
@@ -96,7 +96,7 @@
 
 - type: stack
   id: N14IronOre
-  name: "залізна руда"
+  name: iron ore
   icon: { sprite: "/Textures/_Nuclear14/Objects/Misc/materials.rsi", state: iron }
   spawn: N14IronOre1
   maxCount: 30
@@ -104,7 +104,7 @@
 
 - type: stack
   id: N14GoldOre
-  name: "золота руда"
+  name: gold ore
   icon: { sprite: "/Textures/_Nuclear14/Objects/Misc/materials.rsi", state: gold }
   spawn: N14GoldOre1
   maxCount: 30
@@ -112,7 +112,7 @@
 
 - type: stack
   id: N14SilverOre
-  name: "срібна руда"
+  name: silver ore
   icon: { sprite: "/Textures/_Nuclear14/Objects/Misc/materials.rsi", state: silver }
   spawn: N14SilverOre1
   maxCount: 30
@@ -120,7 +120,7 @@
 
 - type: stack
   id: SulfurOre
-  name: "сірчана руда"
+  name: sulfur ore
   icon: { sprite: "/Textures/_Nuclear14/Objects/Misc/materials.rsi", state: sulfur }
   spawn: SulfurOre1
   maxCount: 10
@@ -138,7 +138,7 @@
 # Metals etc
 - type: stack
   id: Lead
-  name: "свинцевий"
+  name: lead
   icon: { sprite: "/Textures/_Nuclear14/Objects/Misc/materials.rsi", state: ingot_lead }
   spawn: N14IngotLead1
   maxCount: 30
@@ -146,7 +146,7 @@
 
 - type: stack
   id: Aluminum
-  name: "алюміній"
+  name: aluminum
   icon: { sprite: "/Textures/_Nuclear14/Objects/Misc/materials.rsi", state: ingot_aluminum }
   spawn: N14IngotAluminum1
   maxCount: 30
@@ -154,7 +154,7 @@
 
 - type: stack
   id: N14Copper
-  name: "мідь"
+  name: copper
   icon: { sprite: "/Textures/_Nuclear14/Objects/Misc/materials.rsi", state: ingot_copper }
   spawn: N14IngotCopper1
   maxCount: 30
@@ -162,7 +162,7 @@
 
 - type: stack
   id: N14Brass
-  name: "латунь"
+  name: brass
   icon: { sprite: "/Textures/_Nuclear14/Objects/Misc/materials.rsi", state: ingot_brass }
   spawn: N14IngotBrass1
   maxCount: 30
@@ -170,7 +170,7 @@
 
 - type: stack
   id: N14Gold
-  name: "золото"
+  name: gold
   icon: { sprite: "/Textures/_Nuclear14/Objects/Misc/materials.rsi", state: ingot_gold }
   spawn: N14IngotGold1
   maxCount: 30
@@ -178,7 +178,7 @@
 
 - type: stack
   id: N14Iron
-  name: "залізо"
+  name: iron
   icon: { sprite: "/Textures/_Nuclear14/Objects/Misc/materials.rsi", state: ingot_iron }
   spawn: N14IngotIron1
   maxCount: 30
@@ -186,7 +186,7 @@
 
 - type: stack
   id: N14Silver
-  name: "срібло"
+  name: silver
   icon: { sprite: "/Textures/_Nuclear14/Objects/Misc/materials.rsi", state: ingot_silver }
   spawn: N14IngotSilver1
   maxCount: 30
@@ -194,7 +194,7 @@
 
 - type: stack
   id: Sulfur
-  name: "сірка"
+  name: sulfur
   icon: { sprite: "/Textures/_Nuclear14/Objects/Misc/materials.rsi", state: powder_brass }
   spawn: SulfurPowder1
   maxCount: 30
@@ -202,7 +202,7 @@
 
 - type: stack
   id: Charcoal
-  name: "вугілля"
+  name: charcoal
   icon: { sprite: /Textures/_Nuclear14/Objects/Misc/materials.rsi, state: powder_lead }
   spawn: Charcoal1
   maxCount: 30
@@ -211,7 +211,7 @@
 #Scrap
 - type: stack
   id: N14ScrapElectronic
-  name: "електронний брухт"
+  name: electronic scrap
   icon: { sprite: "/Textures/_Nuclear14/Objects/Misc/materials.rsi", state: scrap_electronic_2 }
   spawn: N14ScrapElectronic1
   maxCount: 30
@@ -219,7 +219,7 @@
 
 - type: stack
   id: N14ScrapSteel
-  name: "сталевий брухт"
+  name: steel scrap
   icon: { sprite: "/Textures/_Nuclear14/Objects/Misc/materials.rsi", state: scrap_steel_2 }
   spawn: N14ScrapSteel1
   maxCount: 30
@@ -227,7 +227,7 @@
 
 - type: stack
   id: N14ScrapGold
-  name: "золотий лом"
+  name: gold scrap
   icon: { sprite: "/Textures/_Nuclear14/Objects/Misc/materials.rsi", state: scrap_gold }
   spawn: N14ScrapGold1
   maxCount: 30
@@ -235,7 +235,7 @@
 
 - type: stack
   id: N14ScrapCopper
-  name: "мідний брухт"
+  name: copper scrap
   icon: { sprite: "/Textures/_Nuclear14/Objects/Misc/materials.rsi", state: scrap_copper }
   spawn: N14ScrapCopper1
   maxCount: 30
@@ -243,7 +243,7 @@
 
 - type: stack
   id: N14ScrapBrass
-  name: "брухт латуні"
+  name: brass scrap
   icon: { sprite: "/Textures/_Nuclear14/Objects/Misc/materials.rsi", state: scrap_brass }
   spawn: N14ScrapBrass1
   maxCount: 30
@@ -251,7 +251,7 @@
 
 - type: stack
   id: N14Scrap
-  name: "брухт"
+  name: scrap
   icon: { sprite: "/Textures/_Nuclear14/Objects/Misc/materials.rsi", state: scrap_3 }
   spawn: N14Scrap1
   maxCount: 30
@@ -259,7 +259,7 @@
 
 - type: stack
   id: N14ScrapLead
-  name: "свинцевий брухт"
+  name: lead scrap
   icon: { sprite: "/Textures/_Nuclear14/Objects/Misc/materials.rsi", state: scrap_lead }
   spawn: N14ScrapLead1
   maxCount: 30

@@ -1,7 +1,7 @@
 - type: entity
   parent: MobHuman
   id: N14MobHumanBoSWashingtonPaladin
-  name: "BoSWashingtonPaladin"
+  name: BoSWashingtonPaladin
   components:
     - type: RandomHumanoidAppearance
       randomizeName: true
@@ -14,7 +14,7 @@
 - type: entity
   parent: MobHuman
   id: N14MobHumanBoSWashingtonCommander
-  name: "BoSWashingtonCommander"
+  name: BoSWashingtonCommander
   components:
     - type: RandomHumanoidAppearance
       randomizeName: true
@@ -27,7 +27,7 @@
 - type: entity
   parent: MobHuman
   id: N14MobHumanBoSWashingtonInitiate
-  name: "BoSWashingtonInitiate"
+  name: BoSWashingtonInitiate
   components:
     - type: RandomHumanoidAppearance
       randomizeName: true
@@ -40,7 +40,7 @@
 - type: entity
   parent: MobHuman
   id: N14MobHumanBoSWashingtonScribe
-  name: "BoSWashingtonScribe"
+  name: BoSWashingtonScribe
   components:
     - type: RandomHumanoidAppearance
       randomizeName: true
@@ -53,7 +53,7 @@
 - type: entity
   parent: MobHuman
   id: N14MobHumanBoSWashingtonKnight
-  name: "BoSWashingtonKnight"
+  name: BoSWashingtonKnight
   components:
     - type: RandomHumanoidAppearance
       randomizeName: true

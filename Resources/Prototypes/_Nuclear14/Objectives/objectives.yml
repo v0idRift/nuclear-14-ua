@@ -42,7 +42,7 @@
   noSpawn: true
   parent: [BaseNCRObjective, BaseKillObjective]
   id: KillNCRHeadObjective
-  description: "Нам потрібно, щоб цей лідер пішов, і ви, напевно, знаєте чому. Удачі."
+  description: We need this leader gone and you probably know why. Good luck.
   components:
   - type: Objective
     difficulty: 3.0
@@ -93,7 +93,7 @@
   noSpawn: true
   parent: [BaseBOSWObjective, BaseKillObjective]
   id: KillBOSWHeadObjective
-  description: "Нам потрібно, щоб цей лідер пішов, і ви, напевно, знаєте чому. Удачі."
+  description: We need this leader gone and you probably know why. Good luck.
   components:
   - type: Objective
     difficulty: 3.0

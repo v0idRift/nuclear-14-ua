@@ -37,8 +37,8 @@
 - type: entity
   parent: DrinkBottleBaseEmpty50
   id: N14DrinkBottleMilkEmpty
-  name: "пляшка молока"
-  description: "Добре утримує молочні речовини."
+  name: milk bottle
+  description: Looks good at holding milky substances.
   components:
   - type: Sprite
     sprite: _Nuclear14/Objects/Consumable/Drinks/milk.rsi 
@@ -47,8 +47,8 @@
 - type: entity
   parent: [DrinkGlassVisualsOpenable, DrinkBottleBaseFull50]
   id: N14DrinkMilkBrahmin
-  name: "брамінське молоко"
-  description: "Скляна пляшка брамінського молока."
+  name: brahmin milk
+  description: A glass bottle of brahmin milk.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -72,8 +72,8 @@
 - type: entity
   parent: N14DrinkMilkBrahmin
   id: N14DrinkMilkBighorner
-  name: "бігхорнове молоко"
-  description: "Скляна пляшка бігхорнового молока."
+  name: bighorner milk
+  description: A glass bottle of bighorner milk.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -86,8 +86,8 @@
 - type: entity
   parent: N14DrinkMilkBrahmin
   id: N14DrinkMilkRadstag
-  name: "радстаг-молоко"
-  description: "Скляна пляшка молока \"Радстаг\"."
+  name: radstag milk
+  description: A glass bottle of radstag milk.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -102,8 +102,8 @@
 - type: entity
   parent: DrinkBottleBaseEmpty50
   id: N14DrinkCreamGlassEmpty
-  name: "кремове скло"
-  description: "Поглянь, там спереду маленька корівка."
+  name: cream glass
+  description: Aw look, theres a little cow on the front.
   components:
   - type: Sprite
     sprite: _Nuclear14/Objects/Consumable/Drinks/cream.rsi 
@@ -112,8 +112,8 @@
 - type: entity
   parent: [DrinkGlassVisualsOpenable, DrinkBottleBaseFull50]
   id: N14DrinkCreamGlass
-  name: "вершки"
-  description: "Поглянь, там спереду маленька корівка. Здається, наповнена жирними вершками."
+  name: cream
+  description: Aw look, theres a little cow on the front. Seems to be filled with heavy cream.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -138,8 +138,8 @@
 - type: entity
   parent: DrinkBottleBaseFull50
   id: N14DrinkNukaColaBottleFull
-  name: "Пляшка Nuka Cola"
-  description: "Освіжаючий напій з надзвичайно солодким смаком. Нагадує ваніль та корицю."
+  name: Nuka Cola bottle
+  description: A refreshing beverage that has a extremely sugary taste. Reminds you of vanilla and cinnamon.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -154,8 +154,8 @@
 - type: entity
   parent: DrinkBottleBaseFull50
   id: N14DrinkIrradiatedNukaColaBottleFull
-  name: "роздратована пляшка Nuka Cola"
-  description: "Неосвіжаючий напій з надзвичайно солодким смаком. Післясмак гіркий і пекучий."
+  name: irratiated Nuka Cola bottle
+  description: An unrefreshing beverage that has a extremely sugary taste. The aftertaste is bitter and burnt.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -171,8 +171,8 @@
 - type: entity
   parent: DrinkBottleBaseEmpty50
   id: N14DrinkNukaColaEmpty
-  name: "Пляшка Nuka Cola"
-  description: "Провідна кола з 2044 року."
+  name: Nuka Cola bottle
+  description: The leading cola since 2044.
   components:
   - type: Sprite
     sprite: _Nuclear14/Objects/Consumable/Drinks/nuka_cola_new.rsi
@@ -200,8 +200,8 @@
 - type: entity
   parent: BrokenBottle
   id: N14DrinkNukaColaBroken
-  name: "розбита пляшка Nuka Cola"
-  description: "Провідна кола з 2044 року."
+  name: broken Nuka Cola bottle
+  description: The leading cola since 2044.
   components:
   - type: Sprite
     sprite: _Nuclear14/Objects/Consumable/Drinks/nuka_cola_new.rsi
@@ -210,8 +210,8 @@
 - type: entity
   parent: N14DrinkNukaColaEmpty
   id: N14DrinkNukaCola
-  name: "Nuka Cola"
-  description: "Провідна кола з 2044 року."
+  name: Nuka Cola
+  description: The leading cola since 2044.
   suffix: full
   components:
   - type: Sprite
@@ -228,8 +228,8 @@
 - type: entity
   parent: N14DrinkNukaCola
   id: N14DrinkNukaColaCherry
-  name: "Nuka Cola Вишня"
-  description: "Класичний смак Nuka Cola, але з родзинкою! Відчувається смак вишні та сиропу! Поколює язик."
+  name: Nuka Cola Cherry
+  description: Classic Nuka Cola taste, but with a twist! You can taste cherries and syrup! It tingles the tongue.
   components:
   - type: Sprite
     sprite: _Nuclear14/Objects/Consumable/Drinks/nuka_cola_new.rsi
@@ -245,8 +245,8 @@
 - type: entity
   parent: N14DrinkNukaCola
   id: N14DrinkNukaColaGrape
-  name: "Nuka Cola Виноград"
-  description: "Класичний смак Nuka Cola, але з родзинкою! Відчувається смак винограду та сиропу! Поколює язик."
+  name: Nuka Cola Grape
+  description: Classic Nuka Cola taste, but with a twist! You can taste grapes and syrup! It tingles the tongue.
   components:
   - type: Sprite
     sprite: _Nuclear14/Objects/Consumable/Drinks/nuka_cola_new.rsi
@@ -262,8 +262,8 @@
 - type: entity
   parent: N14DrinkNukaCola
   id: N14DrinkNukaColaOrange
-  name: "Nuka Cola Апельсин"
-  description: "Класичний смак Nuka Cola, але з родзинкою! Відчувається смак апельсинів і сиропу! Поколює язик."
+  name: Nuka Cola Orange
+  description: Classic Nuka Cola taste, but with a twist! You can taste oranges and syrup! It tingles the tongue.
 
   components:
   - type: Sprite
@@ -280,8 +280,8 @@
 - type: entity
   parent: N14DrinkNukaCola
   id: N14DrinkNukaColaYellow
-  name: "Nuka Cola Жовтий"
-  description: "Рідкісний смак Nuka-Cola від божевільного голого Рошамбо. Ви не знаєте, як це смакує чи пахне, і вам здається, що пити це не варто."
+  name: Nuka Cola Yellow
+  description: A rare flavor of Nuka-Cola from crazy naked Roshambo. You're unsure of what this tastes or smells like and you feel like you shouldn't be drinking this.
 
   components:
   - type: Sprite
@@ -298,8 +298,8 @@
 - type: entity
   parent: N14DrinkNukaCola
   id: N14DrinkNukaColaQuantum
-  name: "Nuka Cola Квант"
-  description: "Вибух солодощів та фруктів! Ви можете спробувати різні ягідні смаки... І багато цукру!"
+  name: Nuka Cola Quantum
+  description: An explosion of sweetness and fruit! You can taste various berry flavours.. And a lot of sugar!
   components:
   - type: Sprite
     sprite: _Nuclear14/Objects/Consumable/Drinks/nuka_cola_new.rsi
@@ -316,8 +316,8 @@
 - type: entity
   parent: N14DrinkNukaCola
   id: N14DrinkNukaColaQuartz
-  name: "Nuka Cola Кварц"
-  description: "М'ятна, свіжа, надзвичайно шипуча. Ця газована вода - вибух свіжості в роті."
+  name: Nuka Cola Quartz
+  description: Minty, fresh, extra fizzy.. This soda is a blast to the mouth of freshness.
   components:
   - type: Sprite
     sprite: _Nuclear14/Objects/Consumable/Drinks/nuka_cola_new.rsi
@@ -338,8 +338,8 @@
 - type: entity
   parent: N14DrinkNukaCola
   id: N14DrinkNukaColaVictory
-  name: "Nuka Cola Перемога"
-  description: "Суміш ванілі, кориці, вершків і трохи спецій... Язик поколює."
+  name: Nuka Cola Victory
+  description: A mixture of vanilla, cinnamon, dash of cream, and a bit of spice.. It tingles the tongue.
   components:
   - type: Sprite
     sprite: _Nuclear14/Objects/Consumable/Drinks/nuka_cola_new.rsi
@@ -355,8 +355,8 @@
 - type: entity
   parent: N14DrinkNukaCola
   id: N14DrinkNukaColaWild
-  name: "Нука Кола Дика Природа"
-  description: "Вершковий, важкий, пряний, старий добрий смак, що нагадує рутбир. Язик поколює."
+  name: Nuka Cola Wild
+  description: Creamy, heavy, spicy, good ol' fashioned root beer-like taste.. It tingles the tongue.
   components:
   - type: Sprite
     sprite: _Nuclear14/Objects/Consumable/Drinks/nuka_cola_new.rsi
@@ -373,8 +373,8 @@
 - type: entity
   parent: N14DrinkNukaCola
   id: N14DrinkVim
-  name: "Вім!"
-  description: "Чиста джерельна вода штату Мен, екстракти та сиропи. На смак цілюща."
+  name: Vim!
+  description: Pure Maine spring water, extracts, and syrups. Tastes medicinal.
   components:
   - type: Sprite
     sprite: _Nuclear14/Objects/Consumable/Drinks/vim.rsi
@@ -390,8 +390,8 @@
 - type: entity
   parent: N14DrinkVim
   id: N14DrinkVimCaptainsBlend
-  name: "Вім! Капітанська суміш"
-  description: "Смак штату Мен у пляшці. Рибний."
+  name: Vim! Captain's Blend
+  description: A taste of Maine in a bottle. Fishy.
   components:
   - type: Sprite
     sprite: _Nuclear14/Objects/Consumable/Drinks/vim.rsi
@@ -407,8 +407,8 @@
 - type: entity
   parent: N14DrinkVim
   id: N14DrinkVimRefresh
-  name: "Вім! Оновити"
-  description: "Яблучно-лаймовий смак з дивовижною відсутністю радіації."
+  name: Vim! Refresh
+  description: Apple and lime flavor with oddly no rads.
   components:
   - type: Sprite
     sprite: _Nuclear14/Objects/Consumable/Drinks/vim.rsi
@@ -424,8 +424,8 @@
 - type: entity
   parent: N14DrinkVim
   id: N14DrinkVimQuartz
-  name: "Вім! Кварц"
-  description: "Vim! зі смаком жувальної гумки з додатковою силою."
+  name: Vim! Quartz
+  description: Bubblegum flavored Vim! with extra oomph.
   components:
   - type: Sprite
     sprite: _Nuclear14/Objects/Consumable/Drinks/vim.rsi
@@ -448,8 +448,8 @@
 - type: entity
   parent: DrinkBottleBaseFull50
   id: N14DrinkGammagulpBeer
-  name: "Пиво Gamma Gulp"
-  description: "Один з найбільших експортних товарів Гекко. Слабкий радіоактивний алкоголь."
+  name: Gamma Gulp Beer
+  description: One of Gecko's biggest exports. A mild, radioactive alcohol.
   components:
   - type: Sprite
     sprite: _Nuclear14/Objects/Consumable/Drinks/alcohol.rsi
@@ -470,8 +470,8 @@
 - type: entity
   parent: DrinkBottleBaseFull50
   id: N14DrinkRoentgenRum
-  name: "Рентгенівський ром"
-  description: "Один з найбільших експортних товарів Гекко. Міцний алкоголь, що поколює."
+  name: Roentgen Rum
+  description: One of Gecko's biggest exports. A strong, tingly alcohol.
   components:
   - type: Sprite
     sprite: _Nuclear14/Objects/Consumable/Drinks/alcohol.rsi
@@ -492,8 +492,8 @@
 - type: entity
   parent: DrinkBottleBaseFull50
   id: N14DrinkWhisky
-  name: "віскі"
-  description: "Пляшка віскі стандартного вигляду"
+  name: whiskey
+  description: A bottle of standard looking whiskey
   components:
   - type: Sprite
     sprite: _Nuclear14/Objects/Consumable/Drinks/alcohol.rsi
@@ -511,8 +511,8 @@
 - type: entity
   parent: DrinkBottleBaseFull50
   id: N14DrinkWine
-  name: "вино"
-  description: "Вино з долини Наппа."
+  name: wine
+  description: Nappa Valley Wine.
   components:
   - type: Sprite
     sprite: _Nuclear14/Objects/Consumable/Drinks/alcohol.rsi
