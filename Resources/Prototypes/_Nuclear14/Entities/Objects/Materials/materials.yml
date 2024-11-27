@@ -6,7 +6,7 @@
   parent: MaterialBase
   id: N14MaterialBase
   suffix: Full, 30
-  description: A raw material.
+  description: "Сировина."
   components:
   - type: Sprite
     sprite: _Nuclear14/Objects/Misc/materials.rsi
@@ -31,8 +31,8 @@
 - type: entity
   parent: N14MaterialBasePowder
   id: Gunpowder
-  name: gunpowder
-  description: Explosive.
+  name: "порох"
+  description: "Вибухівка."
   components:
   - type: PhysicalComposition
     materialComposition:
@@ -83,7 +83,7 @@
 - type: entity
   parent: N14MaterialBasePowder
   id: SulfurPowder
-  name: sulfur
+  name: "сірка"
   components:
   - type: PhysicalComposition
     materialComposition:
@@ -126,7 +126,7 @@
 - type: entity
   parent: SheetOtherBase
   id: N14Paper
-  name: paper
+  name: "папір"
   suffix: Full, 10
   components:
   - type: Stack
@@ -179,7 +179,7 @@
 - type: entity
   parent: N14MaterialBasePowder
   id: Charcoal
-  name: charcoal
+  name: "вугілля"
   components:
   - type: Stack
     stackType: Charcoal
@@ -224,7 +224,7 @@
 - type: entity
   parent: N14MaterialBase
   id: N14MaterialCircuitry
-  name: circuitry
+  name: "схема"
   suffix: Full
   components:
   - type: Material
@@ -271,8 +271,8 @@
 - type: entity
   parent: N14MaterialBase
   id: N14MaterialLeather
-  name: leather
-  description: A piece of leather, just non-special leather.
+  name: "шкіра"
+  description: "Шматок шкіри, просто звичайної шкіри."
   suffix: Full, 15
   components:
   - type: Sprite
@@ -304,8 +304,8 @@
 - type: entity
   parent: N14MaterialBase
   id: N14MaterialRawLeather
-  name: raw leather
-  description: A piece of raw, unusable skin. Nothing special.
+  name: "сира шкіра"
+  description: "Шматок сирої, непридатної шкіри. Нічого особливого."
   suffix: Full, 15
   components:
   - type: Sprite
@@ -336,8 +336,8 @@
 - type: entity
   parent: N14MaterialBase
   id: N14MaterialAntChitin
-  name: ant chitin
-  description: A strong and resistent piece of ant "skin".
+  name: "мурашиний хітин"
+  description: "Міцний і стійкий шматок мурашиної \"шкіри\"."
   suffix: Full, 3
   components:
   - type: Sprite
@@ -373,8 +373,8 @@
 - type: entity
   parent: N14MaterialBase
   id: N14MaterialExoskeleton
-  name: radscorpion exoskeleton piece
-  description: A strong and damage-resistant piece of radscorpion exoskeleton.
+  name: "фрагмент екзоскелету radscorpion"
+  description: "Міцний та стійкий до пошкоджень екзоскелет ракоскорпіона."
   suffix: ""
   components:
   - type: Sprite
@@ -390,8 +390,8 @@
 - type: entity
   parent: N14MaterialBase
   id: N14MaterialThread
-  name: thread
-  description: A product made from finely twisted yarn.
+  name: "нитка"
+  description: "Виріб з тонко скрученої пряжі."
   suffix: Full, 10
   components:
   - type: Sprite
@@ -417,7 +417,7 @@
 - type: entity
   parent: N14MaterialThread
   id: N14MaterialThread1
-  name: thread
+  name: "нитка"
   suffix: Single
   components:
   - type: Stack
@@ -427,7 +427,7 @@
 - type: entity
   parent: BaseItem
   id: N14ScrapBase
-  description: A collection of damaged components and materials that are no longer suitable for their original purpose, but may still have some value.
+  description: "Колекція пошкоджених компонентів і матеріалів, які більше не придатні для використання за первісним призначенням, але все ще можуть мати певну цінність."
   abstract: true
   components:
   - type: Sprite
@@ -443,7 +443,7 @@
 - type: entity
   parent: N14ScrapBase
   id: N14Scrap
-  name: scrap
+  name: "брухт"
   suffix: Full, 30
   components:
   - type: Material
@@ -470,7 +470,7 @@
 - type: entity
   parent: N14Scrap
   id: N14Scrap1
-  name: scrap
+  name: "брухт"
   suffix: Single
   components:
   - type: Stack
@@ -480,7 +480,7 @@
 - type: entity
   parent: N14ScrapBase
   id: N14ScrapElectronic
-  name: electronic scrap
+  name: "електронний брухт"
   suffix: Full, 30
   components:
   - type: Material
@@ -506,7 +506,7 @@
 - type: entity
   parent: N14ScrapElectronic
   id: N14ScrapElectronic1
-  name: electronic scrap
+  name: "електронний брухт"
   suffix: Single
   components:
   - type: Stack
@@ -516,7 +516,7 @@
 - type: entity
   parent: N14ScrapBase
   id: N14ScrapSteel
-  name: steel scrap
+  name: "сталевий брухт"
   suffix: Full, 30
   components:
   - type: Material
@@ -542,7 +542,7 @@
 - type: entity
   parent: N14ScrapSteel
   id: N14ScrapSteel1
-  name: steel scrap
+  name: "сталевий брухт"
   suffix: Single
   components:
   - type: Stack
@@ -552,7 +552,7 @@
 - type: entity
   parent: N14ScrapBase
   id: N14ScrapGold
-  name: gold scrap
+  name: "золотий лом"
   suffix: Full, 30
   components:
   - type: Material
@@ -572,7 +572,7 @@
 - type: entity
   parent: N14ScrapGold
   id: N14ScrapGold1
-  name: gold scrap
+  name: "золотий лом"
   suffix: Single
   components:
   - type: Stack
@@ -582,7 +582,7 @@
 - type: entity
   parent: N14ScrapBase
   id: N14ScrapCopper
-  name: copper scrap
+  name: "мідний брухт"
   suffix: Full, 30
   components:
   - type: Material
@@ -602,7 +602,7 @@
 - type: entity
   parent: N14ScrapCopper
   id: N14ScrapCopper1
-  name: copper scrap
+  name: "мідний брухт"
   suffix: Single
   components:
   - type: Stack
@@ -612,7 +612,7 @@
 - type: entity
   parent: N14ScrapBase
   id: N14ScrapBrass
-  name: brass scrap
+  name: "брухт латуні"
   suffix: Full, 30
   components:
   - type: Material
@@ -632,7 +632,7 @@
 - type: entity
   parent: N14ScrapBrass
   id: N14ScrapBrass1
-  name: brass scrap
+  name: "брухт латуні"
   suffix: Single
   components:
   - type: Stack
@@ -642,7 +642,7 @@
 - type: entity
   parent: N14ScrapBase
   id: N14ScrapLead
-  name: lead scrap
+  name: "свинцевий брухт"
   suffix: Full, 30
   components:
   - type: Material
@@ -662,7 +662,7 @@
 - type: entity
   parent: N14ScrapLead
   id: N14ScrapLead1
-  name: lead scrap
+  name: "свинцевий брухт"
   suffix: Single
   components:
   - type: Stack

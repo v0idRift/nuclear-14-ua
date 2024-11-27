@@ -1,6 +1,6 @@
 - type: stack
   id: N14Traumapack
-  name: traumapack
+  name: "травмопакет"
   icon: { sprite: "_Nuclear14/Objects/Specific/Medical/drugs.rsi", state: traumapack }
   spawn: N14Traumapack
   maxCount: 10
@@ -8,7 +8,7 @@
 
 - type: stack
   id: N14AloeSalve
-  name: aloe salve
+  name: "мазь алое"
   icon: { sprite: "_Nuclear14/Objects/Specific/Medical/ms13_medical_new.rsi", state: aloe1 }
   spawn: N14AloeSalve1
   maxCount: 10

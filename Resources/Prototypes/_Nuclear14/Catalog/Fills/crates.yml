@@ -30,7 +30,7 @@
   parent: N14CrateBreakPlain
   id: N14CrateBreakPlainFilledCigarettesRepublic
   suffix: republics
-  name: Republic cigarette crate
+  name: "Сигаретний ящик Republic"
   description: Crate containing 6 republic cig packs
   components:
   - type: StorageFill

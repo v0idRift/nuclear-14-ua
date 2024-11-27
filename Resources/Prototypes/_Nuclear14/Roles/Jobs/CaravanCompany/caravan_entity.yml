@@ -1,7 +1,7 @@
 - type: entity
   parent: MobHuman
   id: N14MobHumanCaravanGuard
-  name: CaravanGuard
+  name: "CaravanGuard"
   components:
     - type: Icon
       sprite: _Nuclear14/Markers/Jobs/caravan.rsi
@@ -17,7 +17,7 @@
 - type: entity
   parent: N14MobHumanCaravanGuard
   id: N14MobHumanCaravanLeader
-  name: CaravanLeader
+  name: "CaravanLeader"
   components:
     - type: Icon
       state: leader
@@ -32,7 +32,7 @@
 - type: entity
   parent: N14MobHumanCaravanGuard
   id: N14MobHumanCaravanTrader
-  name: CaravanTrader
+  name: "CaravanTrader"
   components:
     - type: Icon
       state: trader

@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseItem
   id: N14InsectShield
-  name: insect shield
-  description: A shield made from various pieces of insects.
+  name: "захист від комах"
+  description: "Щит, зроблений з різних шматочків комах."
   components:
     - type: Sprite
       sprite: _Nuclear14/Objects/Weapons/Melee/insectshield.rsi

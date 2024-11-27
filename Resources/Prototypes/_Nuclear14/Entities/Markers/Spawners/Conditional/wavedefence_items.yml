@@ -5,7 +5,7 @@
 
 # Weapons
 - type: entity
-  name: Random Weapon Spawner
+  name: "Випадковий спавнер зброї"
   suffix: Melee
   id: N14SpawnerRandomWeaponMelee
   parent: MarkerBase
@@ -31,7 +31,7 @@
       rareChance: 0.15
       
 - type: entity
-  name: Random Weapon Spawner
+  name: "Випадковий спавнер зброї"
   suffix: Small Guns
   id: N14SpawnerRandomWeaponGunSmall
   parent: MarkerBase
@@ -71,7 +71,7 @@
       rareChance: 0.15
       
 - type: entity
-  name: Random Weapon Spawner
+  name: "Випадковий спавнер зброї"
   suffix: Shotguns & Rifles
   id: N14SpawnerRandomWeaponGunShotgunsRifles
   parent: MarkerBase
@@ -95,7 +95,7 @@
       rareChance: 0.20
       
 - type: entity
-  name: Random Weapon Spawner
+  name: "Випадковий спавнер зброї"
   suffix: Laser
   id: N14SpawnerRandomWeaponGunLaser
   parent: MarkerBase
@@ -116,7 +116,7 @@
 
 # Drugs & Consumables
 - type: entity
-  name: Random Medical Spawner
+  name: "Випадковий медичний спавнер"
   suffix: drugs / chems
   id: N14SpawnerRandomMedical
   parent: MarkerBase
@@ -144,7 +144,7 @@
       rareChance: 0.1
       
 - type: entity
-  name: Random Food Spawner
+  name: "Випадковий харчовий спайдер"
   suffix: pre-war
   id: N14SpawnerRandomFoodPreWar
   parent: MarkerBase
@@ -176,7 +176,7 @@
       rareChance: 0.1
       
 - type: entity
-  name: Random Food Trash Spawner
+  name: "Випадковий генератор харчового сміття"
   suffix: pre-war
   id: N14SpawnerRandomFoodPreWarTrash
   parent: MarkerBase
@@ -208,7 +208,7 @@
       
 # Tools & Supplies
 - type: entity
-  name: Random Tool Spawner
+  name: "Випадковий спавнер інструментів"
   id: N14SpawnerRandomTools
   parent: MarkerBase
   components:

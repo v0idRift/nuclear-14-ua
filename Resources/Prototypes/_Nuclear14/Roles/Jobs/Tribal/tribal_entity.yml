@@ -1,7 +1,7 @@
 - type: entity
   parent: MobHuman
   id: N14MobHumanTribal
-  name: Tribal
+  name: "Плем'я"
   components:
     - type: Icon
       sprite: _Nuclear14/Markers/Jobs/tribal.rsi
@@ -17,7 +17,7 @@
 - type: entity
   parent: N14MobHumanTribal
   id: N14MobHumanTribalElder
-  name: TribalElder
+  name: "TribalElder"
   components:
     - type: Icon
       state: elder
@@ -32,7 +32,7 @@
 - type: entity
   parent: N14MobHumanTribal
   id: N14MobHumanTribalFarmer
-  name: TribalFarmer
+  name: "TribalFarmer"
   components:
     - type: Icon
       state: farmer
@@ -47,7 +47,7 @@
 - type: entity
   parent: N14MobHumanTribal
   id: N14MobHumanTribalHealer
-  name: TribalHealer
+  name: "TribalHealer"
   components:
     - type: Icon
       state: healer

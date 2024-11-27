@@ -1,11 +1,11 @@
 # Consider making our own base mob in future so we're resilient to upstream changes.
 #MARK: Base Simple
 - type: entity
-  name: wasteland animal
+  name: "здичавіла тварина"
   abstract: true
   id: N14MobBaseSimple
   parent: SimpleMobBase
-  description: It's a dirty wasteland animal. Watch out for it's bite, it could be infectious.
+  description: "Це брудна тварина з пустиря. Остерігайтеся його укусів, вони можуть бути інфекційними."
   components:
   - type: InputMover
   - type: MobMover
@@ -65,7 +65,7 @@
   abstract: true
   id: N14MobBaseHostile
   parent: N14MobBaseSimple
-  description: It's a dirty wasteland animal. Watch out for it's bite, it could be infectious.
+  description: "Це брудна тварина з пустиря. Остерігайтеся його укусів, вони можуть бути інфекційними."
   components:
   - type: NpcFactionMember
     factions:
@@ -122,7 +122,7 @@
 
 #MARK: Base Scaley
 - type: entity
-  name: scaley wasteland animal
+  name: "луската пустельна тварина"
   abstract: true
   id: N14MobBaseHostileScaley
   parent: N14MobBaseHostile
@@ -137,7 +137,7 @@
 
 #MARK: Base Insect
 - type: entity
-  name: wasteland insect
+  name: "комаха пустиря"
   abstract: true
   id: N14MobBaseHostileInsect
   parent: N14MobBaseHostile
@@ -167,7 +167,7 @@
     
 #MARK: Base Humanoid
 - type: entity
-  name: raider
+  name: "рейдер"
   abstract: true
   id: N14MobBaseHostileRaider
   parent: N14MobBaseHostile
@@ -196,11 +196,11 @@
         - MobLayer
     
 - type: entity
-  name: feral ghoul
+  name: "здичавілий упир"
   abstract: true
   id: N14MobBaseHostileFeral
   parent: N14MobBaseHostile
-  description: A mean looking ghoul.
+  description: "Упир на вигляд злий."
   components:
   - type: Damageable
     damageContainer: Biological
@@ -252,7 +252,7 @@
 # Wave Defence Base Hostile
 #MARK: WAVE
 - type: entity
-  name: wave attacker
+  name: "хвильовий атакуючий"
   abstract: true
   id: N14MobWave
   components:
