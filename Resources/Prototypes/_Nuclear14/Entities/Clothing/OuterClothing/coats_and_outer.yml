@@ -274,6 +274,26 @@
         Piercing: 0.9
         Heat: 0.9
 
+- type: entity
+  parent: ClothingOuterStorageFoldableBase
+  id: N14ClothingOuterCoatLab
+  name: lab coat
+  description: A coat that protects against staining, chemical or otherwise, a quality particularly useful in these less civilised times.
+  components:
+  - type: Sprite
+    sprite: Clothing/OuterClothing/Coats/labcoat.rsi
+  - type: Clothing
+    sprite: Clothing/OuterClothing/Coats/labcoat.rsi
+  - type: Armor
+    modifiers:
+      coefficients:
+        Caustic: 0.75
+
+- type: entity
+  parent: [ClothingOuterStorageFoldableBaseOpened, N14ClothingOuterCoatLab]
+  id: N14ClothingOuterCoatLabOpened
+  name: lab coat
+
 #MARK: Armored Coats
 - type: entity
   parent: ClothingOuterStorageBase
@@ -489,10 +509,43 @@
   - type: Armor
     modifiers:
       coefficients:
-        Blunt: 0.75
-        Slash: 0.75
+        Blunt: 0.70
+        Slash: 0.70
         Piercing: 0.85
-        Heat: 0.85
+        Heat: 0.80
+  - type: ExplosionResistance
+    damageCoefficient: 0.8
+  - type: ToggleableClothing
+    clothingPrototype: N14ClothingHeadHatHoodScribeTabard
+
+- type: entity
+  parent: N14ClothingOuterCoatWinterArmored
+  id: N14ClothingOuterBrotherhoodMidwestFieldScribeCoat
+  name: Midwest Brotherhood field Scribe coat
+  description: A warm coat worn by Brotherhood field Scribes, a patch on each arm signifying membership of the Midwest chapter.
+  components:
+  - type: Sprite
+    sprite: _Nuclear14/Clothing/OuterClothing/Coats/midwestbosfieldscribe.rsi
+  - type: Clothing
+    sprite: _Nuclear14/Clothing/OuterClothing/Coats/midwestbosfieldscribe.rsi
+
+- type: entity
+  parent: ClothingOuterStorageBase
+  id: N14ClothingOuterBrotherhoodMidwestMedicalScribeRobes
+  name: Midwest Brotherhood medical Scribe coat
+  description: A finely made robe affixed with leather worn by medical Scribes, a symbol of the Brotherhood emblazoned across the chest and back.
+  components:
+  - type: Sprite
+    sprite: _Nuclear14/Clothing/OuterClothing/Coats/midwestbosmedicalscribe.rsi
+  - type: Clothing
+    sprite: _Nuclear14/Clothing/OuterClothing/Coats/midwestbosmedicalscribe.rsi
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.80
+        Slash: 0.85
+        Piercing: 0.70
+        Heat: 0.70
 
 #MARK: Washington BoS
 - type: entity
@@ -516,6 +569,24 @@
     sprite: _Nuclear14/Clothing/OuterClothing/Coats/washington_bos_elder.rsi
   - type: Clothing
     sprite: _Nuclear14/Clothing/OuterClothing/Coats/washington_bos_elder.rsi
+
+- type: entity
+  parent: ClothingOuterStorageBase
+  id: N14ClothingOuterBrotherhoodMedicalScribeRobes
+  name: Washington Brotherhood medical Scribe coat
+  description: A finely made robe affixed with leather worn by medical Scribes, a symbol of the Brotherhood emblazoned across the chest and back.
+  components:
+  - type: Sprite
+    sprite: _Nuclear14/Clothing/OuterClothing/Coats/brotherhoodmedicalscribe.rsi
+  - type: Clothing
+    sprite: _Nuclear14/Clothing/OuterClothing/Coats/brotherhoodmedicalscribe.rsi
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.80
+        Slash: 0.85
+        Piercing: 0.70
+        Heat: 0.70
 
 #MARK: Tribal
 - type: entity

@@ -363,7 +363,7 @@
       - N14MobCazador
           
 - type: entity
-  name: Raider Ranged Psycho Spawner
+  name: Raider Spawner - Pistol
   id: N14SpawnMobRaiderPsychoRanged
   parent: MarkerBase
   components:
@@ -378,7 +378,37 @@
       - N14MobRaiderPsychoRanged
       
 - type: entity
-  name: Raider Psycho Boss Spawner
+  name: Raider Spawner - Rifle
+  id: N14SpawnMobRaiderPsychoHunter
+  parent: MarkerBase
+  components:
+  - type: Sprite
+    layers:
+      - state: green
+      - sprite: _Nuclear14/Mobs/RaidersSimpleMob/Raiders.rsi
+        state: raider_ranged
+      - state: ai
+  - type: ConditionalSpawner
+    prototypes:
+      - N14MobRaiderHunter
+      
+- type: entity
+  name: Raider Spawner - Shotgun
+  id: N14SpawnMobRaiderPsychoSkrimisher
+  parent: MarkerBase
+  components:
+  - type: Sprite
+    layers:
+      - state: green
+      - sprite: _Nuclear14/Mobs/RaidersSimpleMob/Raiders.rsi
+        state: raider_ranged
+      - state: ai
+  - type: ConditionalSpawner
+    prototypes:
+      - N14MobRaiderSkrimisher
+      
+- type: entity
+  name: Raider Spawner - Boss
   id: N14SpawnMobRaiderBoss
   parent: MarkerBase
   components:
@@ -393,7 +423,7 @@
       - N14MobRaiderBoss
       
 - type: entity
-  name: Raider Psycho Spawner
+  name: Raider Spawner - Melee
   id: N14SpawnMobRaiderPsycho
   parent: MarkerBase
   components:
@@ -634,3 +664,35 @@
   - type: ConditionalSpawner
     prototypes:
       - N14MobRobotEyebot
+
+- type: entity
+  name: Spore Plant Spawner
+  id: N14SpawnMobSporePlant
+  parent: MarkerBase
+  components:
+  - type: Sprite
+    layers:
+      - state: green
+      - sprite: _Nuclear14/Mobs/Plants/sporeplant.rsi
+        state: sporeplant
+      - state: ai
+  - type: ConditionalSpawner
+    prototypes:
+      - N14MobSporeplant
+
+#Pets
+- type: entity
+  name: Haggis the Cat Spawner
+  id: N14SpawnMobHaggis
+  parent: MarkerBase
+  components:
+  - type: Sprite
+    layers:
+      - state: green
+      - sprite: _Nuclear14/Mobs/Pets/cathaggis.rsi
+        state: cathaggis
+      - state: ai
+  - type: ConditionalSpawner
+    prototypes:
+      - N14MobCatHaggis
+
