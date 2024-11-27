@@ -1,7 +1,7 @@
 - type: entity
   parent: MobHuman
   id: N14MobHumanRanger
-  name: "Пустельний рейнджер"
+  name: Desert Ranger
   components:
     - type: RandomHumanoidAppearance
       randomizeName: false
@@ -18,7 +18,7 @@
 - type: entity
   parent: MobHuman
   id: N14MobHumanRangerRecruit
-  name: "Рекрут пустельного рейнджера"
+  name: Desert Ranger Recruit
   components:
     - type: RandomHumanoidAppearance
       randomizeName: false
@@ -35,7 +35,7 @@
 - type: entity
   parent: MobHuman
   id: N14MobHumanRangerVeteran
-  name: "Ветеран пустельних рейнджерів"
+  name: Desert Ranger Veteran
   components:
     - type: RandomHumanoidAppearance
       randomizeName: false
@@ -52,7 +52,7 @@
 - type: entity
   parent: MobHuman
   id: N14MobHumanRangerChief
-  name: "Шеф пустельних рейнджерів"
+  name: Desert Ranger Chief
   components:
     - type: RandomHumanoidAppearance
       randomizeName: false

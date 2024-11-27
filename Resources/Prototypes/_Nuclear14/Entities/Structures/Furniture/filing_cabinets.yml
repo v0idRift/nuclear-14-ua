@@ -1,9 +1,9 @@
 - type: entity
-  name: "шафа для документів"
+  name: filing cabinet
   parent: BaseStructureDynamic
   id: N14filingCabinet
   suffix: Empty
-  description: "Пам'ятайте: тільки ви можете запобігти корпоративному шпигунству!"
+  description: "Remember: only you can prevent corporate espionage!"
   components:
   - type: Storage
     grid:

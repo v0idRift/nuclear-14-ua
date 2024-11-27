@@ -3,8 +3,8 @@
 - type: entity
   parent: BaseItem
   id: N14ChemicalSyringe
-  name: "хімічний шприц"
-  description: "Шприц, наповнений невідомою хімічною речовиною. Хімічні наркомани вб'ють вас за це."
+  name: chemical syringe
+  description: A syringe filled with an unknown chemical. Chem junkies would kill you for it.
   components:
   - type: Sprite
     sprite: _Nuclear14/Objects/Specific/Medical/drugs.rsi
@@ -37,9 +37,9 @@
     - Syringe
 
 - type: entity
-  name: "лікарський шприц"
+  name: doctors syringe
   parent: BaseItem
-  description: "Використовується для відбору зразків крові у натовпу або для ін'єкцій реагентів. Хімічні наркомани вб'ють вас за це."
+  description: Used to draw blood samples from mobs, or to inject them with reagents. Chem junkies would kill you for it.
   id: N14BaseSyringe
   abstract: true
   components:
@@ -89,8 +89,8 @@
 - type: entity
   parent: N14ChemicalSyringe
   id: N14Stimpak
-  name: "стимпак"
-  description: "Шприц, наповнений дивовижною сумішшю медичних реактивів. Незамінний для тих, хто не має достатніх медичних знань."
+  name: stimpak
+  description: A syringe filled with a wondrous mixture of medical reagents. Essential for those with little to no medical knowledge.
   components:
   - type: Sprite
     layers:
@@ -117,8 +117,8 @@
 - type: entity
   parent: N14Stimpak
   id: N14StimpakDirty
-  name: "брудний стимпак"
-  description: "Шприц, наповнений колись дивовижною сумішшю медичних реактивів, тепер зіпсований відходами. Незамінний для тих, хто майже не має медичних знань."
+  name: dirty stimpak
+  description: A syringe filled with a once-wondrous mixture of medical reagents, now tainted by the wastes. Essential for those with little to no medical knowledge.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -131,8 +131,8 @@
 - type: entity
   parent: N14ChemicalSyringe
   id: N14SuperStimpak
-  name: "супер стимпак"
-  description: "Сильніша версія стимпаку. Однак будьте обережні, оскільки при надмірному прийомі можливе передозування."
+  name: super stimpak
+  description: A stronger version of the stimpak. Be careful, however, as you can overdose from taking too much.
   components:
   - type: Sprite
     layers:
@@ -157,8 +157,8 @@
   parent: N14ChemicalSyringe
   id: N14ChemicalSyringeAntidoteEmpty
   suffix: empty
-  name: "шприц з антидотом"
-  description: "Шприц, наповнений ефективним антитоксином."
+  name: antidote syringe
+  description: A syringe filled with an effective antitoxin.
   components:
   - type: Sprite
     sprite: _Nuclear14/Objects/Specific/Medical/antidote-injector.rsi
@@ -180,8 +180,8 @@
   parent: N14ChemicalSyringeAntidoteEmpty
   id: N14ChemicalSyringeAntidote
   suffix: filled
-  name: "антидот"
-  description: "Шприц, наповнений ефективним антитоксином."
+  name: antidote
+  description: A syringe filled with an effective antitoxin.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -195,8 +195,8 @@
   parent: N14ChemicalSyringe
   id: N14JetInhaler
   suffix: empty
-  name: "Струменевий інгалятор"
-  description: "Рідкісний ін'єктор, наповнений наркотичним реагентом, який дає відчуття, ніби ви прискорюєтесь. Він слабший, але діє довше, ніж Турбо."
+  name: Jet inhaler
+  description: A rare injector filled with a narcotic reagent that makes you feel as though you're speeding up. It's weaker but lasts longer than Turbo.
   components:
   - type: Sprite
     layers:
@@ -220,8 +220,8 @@
   parent: N14JetInhaler
   id: N14Jet
   suffix: filled
-  name: "Реактивний"
-  description: "Рідкісний ін'єктор, наповнений наркотичним реагентом, який дає відчуття, ніби ви прискорюєтесь. Він слабший, але діє довше, ніж Турбо."
+  name: Jet
+  description: A rare injector filled with a narcotic reagent that makes you feel as though you're speeding up. It's weaker but lasts longer than Turbo.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -235,8 +235,8 @@
   parent: N14ChemicalSyringe
   id: N14TurboInhaler
   suffix: empty
-  name: "Турбо інгалятор"
-  description: "Маленький ін'єктор, наповнений наркотичним реагентом, який змушує вас відчувати, що світ навколо вас сповільнюється. Він сильніший і небезпечніший за джет."
+  name: Turbo inhaler
+  description: A small injector filled with a narcotic reagent that makes you feel as though the world around you is slowing down. It's stronger and more dangerous than Jet.
   components:
   - type: Sprite
     layers:
@@ -258,8 +258,8 @@
   parent: N14TurboInhaler
   id: N14Turbo
   suffix: filled
-  name: "Турбо"
-  description: "Маленький ін'єктор, наповнений наркотичним реагентом, який змушує вас відчувати, що світ навколо вас сповільнюється. Він сильніший і небезпечніший за джет."
+  name: Turbo
+  description: A small injector filled with a narcotic reagent that makes you feel as though the world around you is slowing down. It's stronger and more dangerous than Jet.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -272,8 +272,8 @@
 - type: entity
   parent: N14ChemicalSyringe
   id: N14Med-X
-  name: "med-x"
-  description: "Шприц, наповнений потужним знеболювальним. Дехто вважає, що це робить вас більш стійкими до болю."
+  name: med-x
+  description: A syringe filled with a powerful painkiller. Some believe that it makes you more resistant to pain.
   components:
   - type: Sprite
     layers:
@@ -298,8 +298,8 @@
   parent: N14ChemicalSyringe
   id: N14HydraInhaler
   suffix: empty
-  name: "інгалятор гідри"
-  description: "Пляшка газованої води Supa Yum з кількома флаконами, прикріпленими до неї. Містить помірно потужну лікувальну хімічну речовину, яка має побічні ефекти, що викликають звикання."
+  name: hydra inhaler
+  description: A bottle of Supa Yum soda with several vials attached to it. Contains a mildly potent healing chemical that comes with addictive side effects.
   components:
   - type: Sprite
     layers:
@@ -318,8 +318,8 @@
   parent: N14HydraInhaler
   id: N14Hydra
   suffix: filled
-  name: "гідра"
-  description: "Пляшка газованої води Supa Yum з кількома флаконами, прикріпленими до неї. Містить помірно потужну лікувальну хімічну речовину, яка має побічні ефекти, що викликають звикання."
+  name: hydra
+  description: A bottle of Supa Yum soda with several vials attached to it. Contains a mildly potent healing chemical that comes with addictive side effects.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -332,8 +332,8 @@
 - type: entity
   parent: N14ChemicalSyringe
   id: N14PsychoSyringe
-  name: "психологічний шприц"
-  description: "Шприц, наповнений реагентом, покликаним зробити вас більш жорстоким. Легенда свідчить, що вони мають військове походження."
+  name: psycho syringe
+  description: A syringe filled with a reagent designed to make you more violent. Legend has it that these have a military origin.
   components:
   - type: Sprite
     layers:
@@ -354,8 +354,8 @@
 - type: entity
   parent: N14PsychoSyringe
   id: N14Psycho
-  name: "психопат"
-  description: "Шприц, наповнений реагентом, покликаним зробити вас більш жорстоким. Легенда свідчить, що вони мають військове походження."
+  name: psycho
+  description: A syringe filled with a reagent designed to make you more violent. Legend has it that these have a military origin.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -369,7 +369,7 @@
   parent: N14ChemicalSyringe
   id: N14RadAwayBloodbag
   name: RadAway
-  description: "Пакет з кров'ю, наповнений дивним маслянистим реагентом, який виліковує будь-яке опромінення, якого ви зазнали."
+  description: A bloodbag filled with an odd oily reagent that cures any radiation you've sustained.
   components:
   - type: Sprite
     sprite: _Nuclear14/Objects/Specific/Medical/bloodbags.rsi
@@ -396,8 +396,8 @@
 - type: entity
   parent: N14ChemicalSyringe
   id: N14RadAwayInhalerBase
-  name: "Інгалятор RadAway"
-  description: "Струменевий інгалятор з накрученим на нього флаконом RadAway. Три вдихи - і ви вільні від радіації."
+  name: RadAway inhaler
+  description: A jet inhaler with a RadAway phial screwed on top of it. Three puffs away from being rad free.
   abstract: true
   components:
   - type: Sprite
@@ -434,8 +434,8 @@
 - type: entity
   parent: N14RadAwayInhalerBase
   id: N14RadAwayInhaler
-  name: "Інгалятор RadAway"
-  description: "Струменевий інгалятор з накрученим на нього флаконом RadAway. Три вдихи - і ви вільні від радіації."
+  name: RadAway inhaler
+  description: A jet inhaler with a RadAway phial screwed on top of it. Three puffs away from being rad free.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -452,8 +452,8 @@
 - type: entity
   parent: BaseBeaker
   id: N14RadAwayPhialBase
-  name: "Флакон RadAway"
-  description: "Кольоровий флакон, що містить RadAway. Цей, здається, порожній."
+  name: RadAway phial
+  description: A coloured phial containing RadAway. This one appears to be empty.
   abstract: true
   components:
   - type: Sprite
@@ -503,8 +503,8 @@
 - type: entity
   parent: N14JunkItemBaseBreak
   id: N14RadAwayPhial
-  name: "Флакон RadAway"
-  description: "Кольоровий флакон, що містить RadAway."
+  name: RadAway phial
+  description: A coloured phial containing RadAway.
   components:
   - type: Sprite
     sprite: _Nuclear14/Objects/Specific/Medical/radinhaler.rsi
@@ -540,10 +540,10 @@
 
 #MARK: Healing Powder
 - type: entity
-  name: "цілющий порошок"
+  name: healing powder
   parent: BaseItem
   id: N14HealingPowder
-  description: "Мішечок з племінним цілющим порошком. Нудотний."
+  description: A bag of tribal healing powder. Nausiating.
   components:
   - type: Sprite
     sprite: _Nuclear14/Objects/Specific/Medical/drugs.rsi
@@ -589,8 +589,8 @@
 - type: entity
   parent: DrinkBottleGlassBaseFull
   id: N14Antidote
-  name: "антидот"
-  description: "Антидот проти токсину, виготовлений з хвоста ракоскорпіона та етанолу."
+  name: antidote
+  description: A toxin antidote made from radscorpion tail and ethanol.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -605,8 +605,8 @@
 - type: entity
   parent: N14ChemicalSyringe
   id: N14SmellingSalts
-  name: "пахучі солі"
-  description: "Маленька скляна ампула з пахучими солями. Кажуть, що їхній запах здатен розбудити навіть мертвого упиря."
+  name: smelling salts
+  description: A small glass ampoule containing smelling salts. Their smell is said to wake up even a dead ghoul.
   components:
   - type: Sprite
     layers:
@@ -630,8 +630,8 @@
 - type: entity
   parent: N14HealingPowder
   id: N14HealingPoultice
-  name: "лікувальна припарка"
-  description: "Пакетик припарки, який допоможе від усіх поширених недуг, якщо не поспішати."
+  name: healing poultice
+  description: A bag of poultice to help with all common ailments if slowly.
   components:
   - type: Sprite
     sprite: _Nuclear14/Objects/Specific/Medical/drugs.rsi
@@ -649,8 +649,8 @@
 - type: entity
   parent: DrinkBottleGlassBaseFull
   id: N14Bitterdrink
-  name: "Гіркий напій"
-  description: "Пляшка з сумішшю рослин, що допомагає від отрут і радіації."
+  name: Bitterdrink
+  description: A bottle containing a mixture of plants to aid against poisons and radiation.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -665,8 +665,8 @@
 - type: entity
   parent: N14HealingPowder
   id: N14MourningPoultice
-  name: "траурна припарка"
-  description: "Мішечок з порошком, виготовленим з отруйних квітів для використання під час племінних церемоній."
+  name: mourning poultice
+  description: A bag of powder made from poisonous flowers for use within tribal ceremenoies.
   components:
   - type: Sprite
     sprite: _Nuclear14/Objects/Specific/Medical/drugs.rsi
@@ -684,8 +684,8 @@
 - type: entity
   parent: N14ChemicalSyringe
   id: N14UltraStimpak
-  name: "ультра стимпак"
-  description: "Особливий вид суперстимулятора з додатковою сумішшю хімічних речовин, який робить людину майже непереможною за велику ціну. Широко вважається негуманним і забороненим."
+  name: ultra stimpak
+  description: A special type of super-stimpak with an additional mixture of chemicals which makes a man near invincible at a great cost. It is widely deemed inhumane and outlawed.
   components:
   - type: Sprite
     layers:
@@ -709,8 +709,8 @@
 - type: entity
   parent: N14HealingPowder
   id: N14Traumapack #TODO: N14Traumapack needs new sound
-  name: "травмопакет"
-  description: "Рюкзак, наповнений сумішшю цілющих хімічних речовин, які автоматично впорскуються, коли власник отримує травму. Однак механізм, схоже, зламався."
+  name: traumapack
+  description: A backpack filled with a blend of healing chemicals that inject automatically upon the wearer being hurt. The mechanism seems to be broken, however.
   components:
   - type: Sprite
     sprite: _Nuclear14/Objects/Specific/Medical/drugs.rsi
@@ -739,8 +739,8 @@
 - type: entity
   parent: Gauze
   id: N14Bandage
-  name: "пов'язка"
-  description: "Довга смужка тканини, якою можна зупинити кровотечу. Здебільшого стерильний."
+  name: bandage
+  description: A long strip of cloth which can stop bleeding. Mostly sterile.
   components:
   - type: Sprite
     sprite: _Nuclear14/Objects/Specific/Medical/drugs.rsi
@@ -749,8 +749,8 @@
 - type: entity
   parent: DrinkBottleGlassBaseFull
   id: N14Ethanol
-  name: "пляшка етанолу"
-  description: "Маленька пляшечка з коричневого скла, що містить етанол. Дуже добре підходить для дезінфекції ран."
+  name: ethanol bottle
+  description: A small brown glass bottle containing ethanol. Great for disinfecting wounds.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -764,8 +764,8 @@
     state: ethanol
 
 - type: entity
-  name: "мазь алое"
-  description: "Використовується для лікування неприємних опіків. Менш ефективний при опіках їдкими речовинами."
+  name: aloe salve
+  description: Used to treat those nasty burns. Less effective on caustic burns.
   parent: Ointment
   id: N14AloeSalve
   suffix: Full

@@ -1,8 +1,8 @@
 - type: job
   id: MountieSkirmisher
   setPreference: true
-  name: "гірський стрілець"
-  description: "виконувати накази свого сержанта" #need work
+  name: mountie skirmisher
+  description: follow orders from your sergeant #need work
   playTimeTracker: MountieSkirmisher
   startingGear: MountieSkirmisherGear
   icon: "JobIconSecurityCadet"

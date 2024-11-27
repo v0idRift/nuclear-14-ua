@@ -37,8 +37,8 @@
 # Subclasses
 
 - type: entity
-  name: "бушель пшениці"
-  description: "Зітхання... пшениця... а-зерно?"
+  name: wheat bushel
+  description: Sigh... wheat... a-grain?
   id: N14WheatBushel
   parent: N14ProduceBase
   components:
@@ -57,8 +57,8 @@
     - Wheat
 
 - type: entity
-  name: "бушель вівса"
-  description: "Їжте овес, робіть присідання."
+  name: oat bushel
+  description: Eat oats, do squats.
   id: N14OatBushel
   parent: N14ProduceBase
   components:
@@ -79,8 +79,8 @@
         Quantity: 5
 
 - type: entity
-  name: "цукрова тростина"
-  description: "До божевілля солодко."
+  name: sugarcane
+  description: Sickly sweet.
   id: N14Sugarcane
   parent: N14ProduceBase
   components:
@@ -98,8 +98,8 @@
 - type: entity
   parent: N14FoodProduceBase
   id: N14FoodLaughinPeaPod
-  name: "стручок гороху, що сміється"
-  description: "Улюблена рослина клоуна."
+  name: laughin' pea pod
+  description: The clown's favorite plant.
   components:
   - type: FlavorProfile
     flavors:
@@ -129,8 +129,8 @@
     - Vegetable
 
 - type: entity
-  name: "зруб баштового оголовка"
-  description: "Це краще, ніж погано, це добре!"
+  name: tower-cap log
+  description: It's better than bad, it's good!
   id: N14Log
   parent: N14ProduceBase
   components:
@@ -146,8 +146,8 @@
   - type: Log
 
 - type: entity
-  name: "оциліндрована колода"
-  description: "Сталь не росте на деревах! Вона росте на грибах, звісно."
+  name: steel-cap log
+  description: Steel doesn't grow on trees! It grows on mushrooms, of course.
   id: N14SteelLog
   parent: N14ProduceBase
   components:
@@ -165,8 +165,8 @@
     spawnCount: 1
 
 - type: entity
-  name: "кропива"
-  description: "Скупий маленький засранець."
+  name: nettle
+  description: Stingy little prick.
   id: N14Nettle
   parent: N14ProduceBase
   components:
@@ -196,8 +196,8 @@
     grindableSolutionName: food
 
 - type: entity
-  name: "смертельна кропива"
-  description: "Ця кропива жадає крові."
+  name: death nettle
+  description: This nettle's out for blood.
   id: N14DeathNettle
   parent: N14ProduceBase
   components:
@@ -230,10 +230,10 @@
     grindableSolutionName: food
 
 - type: entity
-  name: "банан"
+  name: banana
   parent: N14FoodProduceBase
   id: N14FoodBanana
-  description: "Багата калієм."
+  description: Rich in potassium.
   components:
   - type: FlavorProfile
     flavors:
@@ -264,10 +264,10 @@
     - Banana
 
 - type: entity
-  name: "мімана"
+  name: mimana
   parent: N14FoodProduceBase
   id: N14FoodMimana
-  description: "Улюбленець мімів."
+  description: Mime's favorite.
   components:
   - type: FlavorProfile
     flavors:
@@ -300,10 +300,10 @@
     - Fruit
 
 - type: entity
-  name: "морква"
+  name: carrot
   parent: N14FoodProduceBase
   id: N14FoodCarrot
-  description: "Це корисно для очей!"
+  description: It's good for the eyes!
   components:
   - type: FlavorProfile
     flavors:
@@ -336,10 +336,10 @@
         Quantity: 2
 
 - type: entity
-  name: "капуста"
+  name: cabbage
   parent: N14FoodProduceBase
   id: N14FoodCabbage
-  description: "Фууууууууууу. Капуста."
+  description: Ewwwwwwwwww. Cabbage.
   components:
   - type: FlavorProfile
     flavors:
@@ -362,10 +362,10 @@
     - Vegetable
 
 - type: entity
-  name: "часник"
+  name: garlic
   parent: N14FoodProduceBase
   id: N14FoodGarlic
-  description: "Смачно, але з потенційно нестерпним запахом."
+  description: Delicious, but with a potentially overwhelming odor.
   components:
   - type: FlavorProfile
     flavors:
@@ -390,10 +390,10 @@
     - Vegetable
 
 - type: entity
-  name: "лимон"
+  name: lemon
   parent: N14FoodProduceBase
   id: N14FoodLemon
-  description: "Коли життя дарує вам лимони, будьте вдячні, що це не лайми."
+  description: When life gives you lemons, be grateful they aren't limes.
   components:
   - type: FlavorProfile
     flavors:
@@ -422,10 +422,10 @@
     - Fruit
 
 - type: entity
-  name: "лимон"
+  name: lemoon
   parent: N14FoodProduceBase
   id: N14FoodLemoon
-  description: "Люди кажуть, що Місяць зроблений з сиру, але насправді він зроблений з молока і лавра!"
+  description: People says Moon is made out of cheese, but Moon is actually made out of milk and laurel!
   components:
   - type: FlavorProfile
     flavors:
@@ -453,10 +453,10 @@
     - Fruit
 
 - type: entity
-  name: "вапно"
+  name: lime
   parent: N14FoodLemon
   id: N14FoodLime
-  description: "Лікує космічну цингу, дозволяє діяти як космічний пірат."
+  description: Cures Space Scurvy, allows you to act like a Space Pirate.
   components:
   - type: FlavorProfile
     flavors:
@@ -476,10 +476,10 @@
     - Fruit
 
 - type: entity
-  name: "помаранчевий"
+  name: orange
   parent: N14FoodLemon
   id: N14FoodOrange
-  description: "Здоровий, дуже помаранчевий."
+  description: Healthy, very orange.
   components:
   - type: FlavorProfile
     flavors:
@@ -498,10 +498,10 @@
     - Fruit
 
 - type: entity
-  name: "ананас"
+  name: pineapple
   parent: N14FoodProduceBase
   id: N14FoodPineapple
-  description: "Ммм, тропічний."
+  description: Mmm, tropical.
   components:
   - type: FlavorProfile
     flavors:
@@ -534,10 +534,10 @@
     - Fruit
 
 - type: entity
-  name: "картопля"
+  name: potato
   parent: N14FoodProduceBase
   id: N14FoodPotato
-  description: "Космічні ірландці померли з голоду після того, як загинув урожай картоплі. На жаль, вони не могли ловити космічних коропів, бо це була королева космосу. Якщо розповісти про це будь-якому космічному члену ІРА, він збожеволіє від гніву."
+  description: The space Irish starved to death after their potato crops died. Sadly they were unable to fish for space carp due to it being the queen's space. Bringing this up to any space IRA member will drive them insane with anger.
   components:
   - type: FlavorProfile
     flavors:
@@ -567,10 +567,10 @@
 
 
 - type: entity
-  name: "помідор"
+  name: tomato
   parent: [N14FoodProduceBase, ItemHeftyBase]
   id: N14FoodTomato
-  description: "Я кажу \"то-ма-то\", ти кажеш \"том-ме-то\"."
+  description: I say to-mah-to, you say tom-mae-to.
   components:
   - type: FlavorProfile
     flavors:
@@ -622,10 +622,10 @@
     - Vegetable
 
 - type: entity
-  name: "синій помідор"
+  name: blue tomato
   parent: N14FoodTomato
   id: N14FoodBlueTomato
-  description: "Цей синій."
+  description: This one is blue.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -667,10 +667,10 @@
     - Vegetable
 
 - type: entity
-  name: "кривавий помідор"
+  name: blood tomato
   parent: N14FoodTomato
   id: N14FoodBloodTomato
-  description: "Зачекай, це не кетчуп..."
+  description: Wait, that's not ketchup...
   components:
   - type: SolutionContainerManager
     solutions:
@@ -710,10 +710,10 @@
     - Vegetable
 
 - type: entity
-  name: "баклажан"
+  name: eggplant
   parent: N14FoodProduceBase
   id: N14FoodEggplant
-  description: "Може, там всередині є курча?"
+  description: Maybe there's a chicken inside?
   components:
   - type: FlavorProfile
     flavors:
@@ -737,10 +737,10 @@
     - Vegetable
 
 - type: entity
-  name: "яблуко"
+  name: apple
   parent: N14FoodProduceBase
   id: N14FoodApple
-  description: "Це маленький шматочок Едему."
+  description: It's a little piece of Eden.
   components:
   - type: FlavorProfile
     flavors:
@@ -768,10 +768,10 @@
     - Fruit
 
 - type: entity
-  name: "какао-боб"
+  name: cocoa pod
   parent: N14FoodProduceBase
   id: N14FoodCocoaPod
-  description: "Шоколаду ніколи не буває забагато!"
+  description: You can never have too much chocolate!
   components:
   - type: FlavorProfile
     flavors:
@@ -801,10 +801,10 @@
     - Fruit
 
 - type: entity
-  name: "качан кукурудзи"
+  name: ear of corn
   parent: N14FoodProduceBase
   id: N14FoodCorn
-  description: "Потрібно трохи масла! І щось приготувати..."
+  description: Needs some butter! And some cooking...
   components:
   - type: FlavorProfile
     flavors:
@@ -838,10 +838,10 @@
         Quantity: 2
 
 - type: entity
-  name: "кукурудзяний качан"
+  name: corn cob
   parent: BaseItem
   id: N14FoodCornTrash
-  description: "Не залишилося жодної зернини."
+  description: Not a dang kernel left.
   components:
   - type: Sprite
     sprite: Objects/Specific/Hydroponics/corn.rsi
@@ -860,10 +860,10 @@
           Quantity: 10
 
 - type: entity
-  name: "цибуля"
+  name: onion
   parent: N14FoodProduceBase
   id: N14FoodOnion
-  description: "Нема над чим плакати."
+  description: Nothing to cry over.
   components:
   - type: FlavorProfile
     flavors:
@@ -891,10 +891,10 @@
     - Vegetable
 
 - type: entity
-  name: "червона цибуля"
+  name: red onion
   parent: N14FoodProduceBase
   id: N14FoodOnionRed
-  description: "Фіолетовий, незважаючи на назву."
+  description: Purple despite the name.
   components:
   - type: FlavorProfile
     flavors:
@@ -922,10 +922,10 @@
     - Vegetable
 
 - type: entity
-  name: "кластер лисичок"
+  name: chanterelle cluster
   parent: N14FoodProduceBase
   id: N14FoodMushroom
-  description: "Cantharellus Cibarius: Ці веселі жовті маленькі грибочки виглядають дуже апетитно!"
+  description: "Cantharellus Cibarius: These jolly yellow little shrooms sure look tasty!"
   components:
   - type: SolutionContainerManager
     solutions:
@@ -961,10 +961,10 @@
     grindableSolutionName: food
 
 - type: entity
-  name: "шматочок ананаса"
+  name: pineapple slice
   parent: N14ProduceSliceBase
   id: N14FoodPineappleSlice
-  description: "Ммм, тропічний."
+  description: Mmm, tropical.
   components:
   - type: FlavorProfile
     flavors:
@@ -981,10 +981,10 @@
     - Fruit
 
 - type: entity
-  name: "скибочка цибулі"
+  name: onion slice
   parent: N14ProduceSliceBase
   id: N14FoodOnionSlice
-  description: "Нема над чим плакати."
+  description: Nothing to cry over.
   components:
   - type: FlavorProfile
     flavors:
@@ -1004,10 +1004,10 @@
           Quantity: 1
 
 - type: entity
-  name: "скибочка червоної цибулі"
+  name: red onion slice
   parent: N14ProduceSliceBase
   id: N14FoodOnionRedSlice
-  description: "Фіолетовий, незважаючи на назву."
+  description: Purple despite the name.
   components:
   - type: FlavorProfile
     flavors:
@@ -1027,10 +1027,10 @@
           Quantity: 1
 
 - type: entity
-  name: "чилі"
+  name: chili
   parent: N14FoodProduceBase
   id: N14FoodChili
-  description: "Гострий, краще не потрапляти в очі."
+  description: Spicy, best not touch your eyes.
   components:
     - type: FlavorProfile
       flavors:
@@ -1055,10 +1055,10 @@
       - Vegetable
 
 - type: entity
-  name: "гострий перець"
+  name: chilly pepper
   parent: N14FoodProduceBase
   id: N14FoodChilly
-  description: "Крижана гаряча."
+  description: Icy hot.
   components:
     - type: FlavorProfile
       flavors:
@@ -1081,10 +1081,10 @@
       seedId: chilly
 
 - type: entity
-  name: "алое"
+  name: aloe
   parent: N14FoodProduceBase
   id: N14FoodAloe
-  description: "Ароматна рослина із заспокійливими властивостями."
+  description: A fragrant plant with soothing properties.
   components:
   - type: FlavorProfile
     flavors:
@@ -1109,10 +1109,10 @@
     - Vegetable
 
 - type: entity
-  name: "мак"
+  name: poppy
   parent: N14FoodProduceBase
   id: N14FoodPoppy
-  description: "Квітка, екстракти якої часто використовують у виробництві ліків"
+  description: A flower with extracts often used in the production of medicine
   components:
   - type: Clothing
     slots:
@@ -1141,10 +1141,10 @@
     - Flower # TODO add "RedFlower" or "Poppy" tag, when other color flowers will be
 
 - type: entity
-  name: "лілі"
+  name: lily
   parent: N14FoodPoppy
   id: N14FoodLily
-  description: "Красива помаранчева квітка."
+  description: A beautiful orange flower.
   components:
   - type: FlavorProfile
     flavors:
@@ -1169,10 +1169,10 @@
     - Flower
 
 - type: entity
-  name: "лінчжі"
+  name: lingzhi
   parent: N14FoodProduceBase
   id: N14FoodLingzhi
-  description: "Потужний лікарський гриб. Не переборщіть."
+  description: A potent medicinal mushroom. Don't go overboard.
   components:
   - type: FlavorProfile
     flavors:
@@ -1195,10 +1195,10 @@
     grindableSolutionName: food
 
 - type: entity
-  name: "амброзія звичайна"
+  name: ambrosia vulgaris
   parent: N14FoodProduceBase
   id: N14FoodAmbrosiaVulgaris
-  description: "Лікарська рослина. Може змусити вас почуватися трохи кумедно."
+  description: A medicinal plant. May make you feel a little funny.
   components:
   - type: FlavorProfile
     flavors:
@@ -1234,10 +1234,10 @@
     - Ambrosia
 
 - type: entity
-  name: "амброзія божа"
+  name: ambrosia deus
   parent: N14FoodProduceBase
   id: N14FoodAmbrosiaDeus
-  description: "Надзвичайно популярна лікарська рослина. Може мати деякі побічні ефекти."
+  description: An extremely sought-after medicinal plant. May have some funky side effects.
   components:
   - type: FlavorProfile
     flavors:
@@ -1271,10 +1271,10 @@
     - Ambrosia
 
 - type: entity
-  name: "гадючник"
+  name: galaxythistle
   parent: N14FoodProduceBase
   id: N14FoodGalaxythistle
-  description: "Лікарська рослина, яку використовують через її антитоксин."
+  description: A medicinal plant used for its antitoxin.
   components:
   - type: FlavorProfile
     flavors:
@@ -1298,10 +1298,10 @@
     - Fruit # Probably?
 
 - type: entity
-  name: "мухомор"
+  name: fly amanita
   parent: N14FoodProduceBase
   id: N14FoodFlyAmanita
-  description: "Апетитний на вигляд гриб, як у мультфільмах."
+  description: A delicious-looking mushroom like you see in those cartoons.
   components:
   - type: FlavorProfile
     flavors:
@@ -1324,10 +1324,10 @@
   - type: BadFood
 
 - type: entity
-  name: "гатфрут"
+  name: gatfruit
   parent: N14FoodProduceBase
   id: N14FoodGatfruit
-  description: "Смачний плід у формі пістолета з товстою дерев'яною плодоніжкою."
+  description: A delicious, gun-shaped fruit with a thick wooden stem.
   components:
   - type: FlavorProfile
     flavors:
@@ -1352,8 +1352,8 @@
     - Fruit # It's in the name
 
 - type: entity
-  name: "бушель рису"
-  description: "Можна перемолоти на рис, ідеально підходить для пудингу або саке."
+  name: rice bushel
+  description: Can be ground into rice, perfect for pudding or sake.
   id: N14RiceBushel
   parent: N14ProduceBase
   components:
@@ -1369,8 +1369,8 @@
     seedId: rice
 
 - type: entity
-  name: "соєві боби"
-  description: "Для тих, хто не може дивитися на старе добре м'ясо."
+  name: soybeans
+  description: For those who can't stand seeing good old meat.
   id: N14FoodSoybeans
   parent: N14ProduceBase
   components:
@@ -1395,8 +1395,8 @@
     - Vegetable
 
 - type: entity
-  name: "сурма космонавта"
-  description: "Яскрава квітка, що ледь відчутно пахне свіжоскошеною травою. Якщо доторкнутися до квітки, то через деякий час після контакту на шкірі з'являється пляма, проте на більшість інших поверхонь це явище не впливає."
+  name: spaceman's trumpet
+  description: A vivid flower that smells faintly of freshly cut grass. Touching the flower seems to stain the skin some time after contact, yet most other surfaces seem to be unaffected by this phenomenon.
   id: N14FoodSpacemansTrumpet
   parent: N14FoodProduceBase
   components:
@@ -1423,8 +1423,8 @@
     program: 56
 
 - type: entity
-  name: "койбеан"
-  description: "Ця квасоля здається трохи рибною."
+  name: koibean
+  description: These beans seem a little bit fishy.
   id: N14FoodKoibean
   parent: N14ProduceBase
   components:
@@ -1451,10 +1451,10 @@
     - Vegetable
 
 - type: entity
-  name: "кавун"
+  name: watermelon
   parent: [N14FoodProduceBase, ItemHeftyBase]
   id: N14FoodWatermelon
-  description: "Круглий зелений об'єкт, який можна нарізати і з'їсти."
+  description: Round green object that you can slice and eat.
   components:
   - type: Item
     size: Small
@@ -1513,10 +1513,10 @@
     - Fruit
 
 - type: entity
-  name: "шматочок кавуна"
+  name: watermelon slice
   parent: N14ProduceSliceBase
   id: N14FoodWatermelonSlice
-  description: "Соковита зелена і червона нарізка."
+  description: Juicy green and red slice.
   components:
   - type: Item
     size: Tiny
@@ -1543,10 +1543,10 @@
         Quantity: 4
 
 - type: entity
-  name: "виноград"
+  name: grapes
   parent: N14FoodProduceBase
   id: N14FoodGrape
-  description: "Їжа імператорів, мешканців Космічної Франції (зазвичай у вигляді вина) та футбольних мам. Одного дня його можуть використати у виробництві вина для бармена, якщо воно колись закінчиться."
+  description: The food of emperors, Space France inhabitants (usually as wine) and soccer moms. One day it could be used in wine production for the bartender if he ever runs out.
   components:
   - type: FlavorProfile
     flavors:
@@ -1574,10 +1574,10 @@
     - Fruit
 
 - type: entity
-  name: "ягоди"
+  name: berries
   parent: N14FoodProduceBase
   id: N14FoodBerries
-  description: "Жменя різних видів ягід."
+  description: A handful of various types of berries.
   components:
   - type: FlavorProfile
     flavors:
@@ -1605,10 +1605,10 @@
     - Fruit
 
 - type: entity
-  name: "фрукт бунго"
+  name: bungo fruit
   parent: N14FoodProduceBase
   id: N14FoodBungo
-  description: "Скромний плід бунго."
+  description: The humble bungo fruit.
   components:
   - type: FlavorProfile
     flavors:
@@ -1633,7 +1633,7 @@
     - Fruit
 
 - type: entity
-  name: "яма-бунго"
+  name: bungo pit
   parent: FoodInjectableBase
   id: N14FoodBungoPit
   components:
@@ -1663,8 +1663,8 @@
 - type: entity
   parent: N14FoodProduceBase
   id: N14FoodPeaPod
-  name: "стручок гороху"
-  description: "Улюблені качині ласощі!"
+  name: pea pod
+  description: A duck's favorite treat!
   components:
   - type: FlavorProfile
     flavors:
@@ -1687,10 +1687,10 @@
     - Vegetable
 
 - type: entity
-  name: "гарбуз"
+  name: pumpkin
   parent: N14FoodProduceBase
   id: N14FoodPumpkin
-  description: "Велика, помаранчева... ягода. Серйозно."
+  description: A large, orange... berry. Seriously.
   components:
   - type: Item
     size: Small
@@ -1736,8 +1736,8 @@
     - Vegetable
 
 - type: entity
-  name: "ватяна паличка"
-  description: "Улюблена закуска метеликів, і така ж пухнаста, як і вони."
+  name: cotton boll
+  description: Moth people's favorite snack, and just as fluffy as them.
   id: N14CottonBol
   parent: N14FoodProduceBase
   components:

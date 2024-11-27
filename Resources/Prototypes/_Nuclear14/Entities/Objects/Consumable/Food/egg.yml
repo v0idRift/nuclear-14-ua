@@ -3,7 +3,7 @@
 - type: entity
   parent: FoodEggBase
   id: N14FoodEggBase
-  description: "Яйце!"
+  description: An egg!
   abstract: true
   components:
   - type: Tag
@@ -72,7 +72,7 @@
 - type: entity
   parent: N14FoodEggBase
   id: N14FoodEggChicken
-  name: "куряче яйце"
+  name: chicken egg
   components:
   - type: Sprite
     state: egg
@@ -99,8 +99,8 @@
 - type: entity
   parent: N14FoodEggChicken
   id: N14FoodEggChickenBoiled
-  name: "варене куряче яйце"
-  description: "Смачне варене яйце."
+  name: boiled chicken egg
+  description: A delicious hardboiled egg.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -120,7 +120,7 @@
 - type: entity
   parent: N14FoodEggBase
   id: N14FoodEggDeathclaw
-  name: "яйце кігтя смерті"
+  name: deathclaw egg
   components:
   - type: Sprite
     state: egg_deathclaw
@@ -147,8 +147,8 @@
 - type: entity
   parent: N14FoodEggDeathclaw
   id: N14FoodEggDeathclawBoiled
-  name: "варене яйце смертоносного пазура"
-  description: "Смачне варене яйце."
+  name: boiled deathclaw egg
+  description: A delicious hardboiled egg.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -168,7 +168,7 @@
 - type: entity
   parent: N14FoodEggBase
   id: N14FoodEggGecko
-  name: "яйце гекона"
+  name: gecko egg
   components:
   - type: Sprite
     state: egg_mirelurk
@@ -195,8 +195,8 @@
 - type: entity
   parent: N14FoodEggGecko
   id: N14FoodEggGeckoBoiled
-  name: "варене яйце гекона"
-  description: "Смачне варене яйце."
+  name: boiled gecko egg
+  description: A delicious hardboiled egg.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -216,7 +216,7 @@
 - type: entity
   parent: N14FoodEggBase
   id: N14FoodEggNightstalker
-  name: "яйце нічного сталкера"
+  name: nightstalker egg
   components:
   - type: Sprite
     state: egg_nightstalker
@@ -243,8 +243,8 @@
 - type: entity
   parent: N14FoodEggNightstalker
   id: N14FoodEggNightstalkerBoiled
-  name: "варене яйце нічного переслідувача"
-  description: "Смачне варене яйце."
+  name: boiled nightstalker egg
+  description: A delicious hardboiled egg.
   components:
   - type: SolutionContainerManager
     solutions:
