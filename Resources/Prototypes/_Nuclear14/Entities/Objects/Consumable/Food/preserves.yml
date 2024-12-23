@@ -1,6 +1,6 @@
 - type: entity
-  name: "скляна банка"
-  description: "Скляна банка - симпатичніша альтернатива скляній чашці."
+  name: glass jar
+  description: A glass jar, a cuter alternative to the glass cup.
   parent: DrinkGlassBase
   id: N14FoodJarBase
   components:
@@ -63,8 +63,8 @@
 - type: entity
   parent: N14FoodJamBase
   id: N14AgaveJam
-  name: "джем з агави"
-  description: "Банку з варенням з агави. Зачекай... люди роблять варення з агави?"
+  name: agave jam
+  description: A jar filled with agave jam. Wait... people make agave jam?
   components:
   - type: SolutionContainerManager
     solutions:
@@ -77,8 +77,8 @@
 - type: entity
   parent: N14FoodJamBase
   id: N14BlackberryJam
-  name: "ожиновий джем"
-  description: "Банку, наповнену ожиновим варенням. Яка смакота!"
+  name: blackberry jam
+  description: A jar filled with blackberry jam. What a treat!
   components:
   - type: FlavorProfile
   - type: SolutionContainerManager
@@ -92,8 +92,8 @@
 - type: entity
   parent: N14FoodJamBase
   id: N14BrocJam
-  name: "варення з броколі"
-  description: "Банку з варенням з брока. Воно... не дуже смачне."
+  name: broc jam
+  description: A jar filled with broc jam. It... doesnt taste very good.
   components:
   - type: FlavorProfile
     flavors:
@@ -110,8 +110,8 @@
 - type: entity
   parent: N14FoodJamBase
   id: N14CactusJam
-  name: "кактусове варення"
-  description: "Банку, наповнену кактусовим варенням. Ці джеми виходять з-під контролю."
+  name: cactus jam
+  description: A jar filled with cactus jam. These jams are getting out of hand.
   components:
   - type: FlavorProfile
     flavors:
@@ -128,8 +128,8 @@
 - type: entity
   parent: N14FoodJamBase
   id: N14MultifruitJam
-  name: "мультифруктовий джем"
-  description: "Банку, наповнену мультифруктовим джемом. А де ж тепер тости?"
+  name: multifruit jam
+  description: A jar filled with multifruit jam. Now where is some toast?
   components:
   - type: SolutionContainerManager
     solutions:
@@ -142,8 +142,8 @@
 - type: entity
   parent: N14FoodJamBase
   id: N14PricklyJam
-  name: "варення з опунції"
-  description: "Банку, наповнену варенням з опунції. Ось це варення!"
+  name: prickly pear jam
+  description: A jar filled with prickly pear jam. Now THIS is jam!
   components:
   - type: SolutionContainerManager
     solutions:
@@ -156,8 +156,8 @@
 - type: entity
   parent: N14FoodJamBase
   id: N14StarlightJam
-  name: "зоряний джем"
-  description: "Банку, наповнену варенням із зоряного світла. Гарний колір."
+  name: starlight jam
+  description: A jar filled with starlight jam. Its a pretty color.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -170,8 +170,8 @@
 - type: entity
   parent: N14FoodJamBase
   id: N14TarberryJam
-  name: "смородиновий джем"
-  description: "Банку, наповнену варенням з чорноплідної горобини. Від нього виникає дивне відчуття..."
+  name: tarberry jam
+  description: A jar filled with tarberry jam. It gives you a strange feeling...
   components:
   - type: SolutionContainerManager
     solutions:
@@ -185,8 +185,8 @@
 - type: entity
   parent: N14PickledBase
   id: N14PickledCabbage
-  name: "маринована капуста"
-  description: "Банку, наповнену маринованою капустою. Скільки їй років?"
+  name: pickled cabbage
+  description: A jar filled with pickled cabbage. How old is this?
   components:
   - type: SolutionContainerManager
     solutions:
@@ -199,8 +199,8 @@
 - type: entity
   parent: N14PickledBase
   id: N14PickledCarrots
-  name: "маринована морква"
-  description: "Банку з маринованою морквою. Гадаю, зараз люди маринують все, що завгодно."
+  name: pickled carrots
+  description: A jar filled with pickled carrots. I guess people will pickle anything now-a-days.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -213,8 +213,8 @@
 - type: entity
   parent: N14PickledBase
   id: N14PickledCorn
-  name: "маринована кукурудза"
-  description: "Банку з маринованою кукурудзою. О, це молода кукурудза."
+  name: pickled corn
+  description: A jar filled with pickled corn. Aw, its baby corn.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -227,8 +227,8 @@
 - type: entity
   parent: N14PickledBase
   id: N14PickledJalapenos
-  name: "мариновані халапеньйо"
-  description: "Банку, наповнену маринованим халапеньйо. Такий гострий!"
+  name: pickled jalapenos
+  description: A jar filled with pickled jalapenos. So hot!
   components:
   - type: SolutionContainerManager
     solutions:
@@ -241,8 +241,8 @@
 - type: entity
   parent: N14PickledBase
   id: N14PickledOnions
-  name: "маринована цибуля"
-  description: "Банку, наповнену маринованою цибулею. Який хрускіт!"
+  name: pickled onions
+  description: A jar filled with pickled onions. What a crunch!
   components:
   - type: SolutionContainerManager
     solutions:

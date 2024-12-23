@@ -1,7 +1,7 @@
 - type: entity
   parent: MobHuman
   id: N14MobHumanTownsperson
-  name: "Городянин"
+  name: Townsperson
   components:
     - type: Icon
       sprite: _Nuclear14/Markers/Jobs/town.rsi
@@ -17,7 +17,7 @@
 - type: entity
   parent: N14MobHumanTownsperson
   id: N14MobHumanTownShopkeeper
-  name: "TownShopkeeper"
+  name: TownShopkeeper
   components:
     - type: Icon
       state: shopkeeper
@@ -32,7 +32,7 @@
 - type: entity
   parent: N14MobHumanTownsperson
   id: N14MobHumanTownSheriff
-  name: "TownSheriff"
+  name: TownSheriff
   components:
     - type: Icon
       state: sheriff
@@ -47,7 +47,7 @@
 - type: entity
   parent: N14MobHumanTownsperson
   id: N14MobHumanTownMechanic
-  name: "TownMechanic"
+  name: TownMechanic
   components:
     - type: Icon
       state: mechanic
@@ -62,7 +62,7 @@
 - type: entity
   parent: N14MobHumanTownsperson
   id: N14MobHumanTownMayor
-  name: "Міський голова"
+  name: TownMayor
   components:
     - type: Icon
       state: mayor
@@ -77,7 +77,7 @@
 - type: entity
   parent: N14MobHumanTownsperson
   id: N14MobHumanTownDoctor
-  name: "TownDoctor"
+  name: TownDoctor
   components:
     - type: Icon
       state: doctor
@@ -92,7 +92,7 @@
 - type: entity
   parent: N14MobHumanTownsperson
   id: N14MobHumanTownDeputy
-  name: "Міський депутат"
+  name: TownDeputy
   components:
     - type: Icon
       state: deputy

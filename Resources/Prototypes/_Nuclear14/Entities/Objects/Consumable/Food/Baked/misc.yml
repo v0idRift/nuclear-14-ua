@@ -73,10 +73,10 @@
     state: bun-hotcross
 
 - type: entity
-  name: "м'ясна булочка"
+  name: meat bun
   parent: N14CookedFoodBakedBase
   id: N14FoodBakedBunMeat
-  description: "Має потенціал не бути собакою."
+  description: Could be dogmeat, for all you know.
   components:
   - type: Sprite
     state: bun-meat

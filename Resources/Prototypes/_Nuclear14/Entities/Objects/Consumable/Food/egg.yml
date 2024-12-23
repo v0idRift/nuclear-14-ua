@@ -3,7 +3,7 @@
 - type: entity
   parent: FoodEggBase
   id: N14FoodEggBase
-  description: "Яйце!"
+  description: An egg!
   abstract: true
   components:
   - type: Tag
@@ -72,7 +72,7 @@
 - type: entity
   parent: N14FoodEggBase
   id: N14FoodEggChicken
-  name: "куряче яйце"
+  name: chicken egg
   components:
   - type: Sprite
     state: egg
@@ -120,7 +120,7 @@
 - type: entity
   parent: N14FoodEggBase
   id: N14FoodEggDeathclaw
-  name: "яйце кігтя смерті"
+  name: deathclaw egg
   components:
   - type: Sprite
     state: egg_deathclaw
@@ -168,7 +168,7 @@
 - type: entity
   parent: N14FoodEggBase
   id: N14FoodEggGecko
-  name: "яйце гекона"
+  name: gecko egg
   components:
   - type: Sprite
     state: egg_mirelurk
@@ -216,7 +216,7 @@
 - type: entity
   parent: N14FoodEggBase
   id: N14FoodEggNightstalker
-  name: "яйце нічного сталкера"
+  name: nightstalker egg
   components:
   - type: Sprite
     state: egg_nightstalker

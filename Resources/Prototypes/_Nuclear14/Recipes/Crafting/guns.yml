@@ -1,11 +1,11 @@
 - type: construction
-  name: "12,7 мм автотруба"
+  name: 12.7mm autopipe
   id: N14WeaponSMG12mmPipeEmpty
   graph: N14WeaponSMG12mmPipeEmpty
   startNode: start
   targetNode: Weapon12mmpipe
   category: construction-category-weapons
-  description: "саморобний 12-мм кулемет SMG, який, схоже, вибухне в ту ж мить, як вистрілить."
+  description: a makeshift 12mm SMG, looks like is gonna explode the second it shoots.
   objectType: Item
   hide: false
   icon:
@@ -13,13 +13,13 @@
     state: icon
 
 - type: construction
-  name: "10-мм револьвер"
+  name: 10mm revolver
   id: N14WeaponRevolver10mmEmpty
   graph: N14WeaponRevolver10mmEmpty
   startNode: start
   targetNode: WeaponRevolver10mm
   category: construction-category-weapons
-  description: "Перший прототип напівавтоматичного 10-мм пістолета, що використовує 10-мм набої."
+  description: The first prototype for the semiauto 10mm pistol, Uses 10mm ammo.
   objectType: Item
   hide: false
   icon:
@@ -27,13 +27,13 @@
     state: icon
 
 - type: construction
-  name: "10-мм трубчастий пістолет"
+  name: 10mm pipe pistol
   id: N14WeaponPistol10mmPipeEmpty
   graph: N14WeaponPistol10mmPipeEmpty
   startNode: start
   targetNode: WeaponPipe10mm
   category: construction-category-weapons
-  description: "легкий саморобний 10-міліметровий пістолет, з неймовірно незручною рукояткою."
+  description: a light makeshift 10mm pistol, the grip is incredibly uncomfortable.
   objectType: Item
   hide: false
   icon:
@@ -41,13 +41,13 @@
     state: icon
 
 - type: construction
-  name: "Автотруба 10 мм"
+  name: 10mm autopipe
   id: N14WeaponSMG10mmPipeEmpty
   graph: N14WeaponSMG10mmPipeEmpty
   startNode: start
   targetNode: Weapon10mmPipe
   category: construction-category-weapons
-  description: "саморобний 10-мм кулемет SMG, якщо його потрясти, то можна почути, як всередині пістолета брязкають деталі."
+  description: a makeshift 10mm SMG, if you shake it you could hear the loose parts inside of the gun.
   objectType: Item
   hide: false
   icon:
