@@ -1,7 +1,7 @@
 # These have now been merged upstream so can be found in the same directory there.
 # Slowdown Tile
 - type: entity
-  name: Slowdown Tile
+  name: "Плитка уповільнення"
   id: N14SlowdownTile
   parent: MarkerBase
   suffix: slowdown floor

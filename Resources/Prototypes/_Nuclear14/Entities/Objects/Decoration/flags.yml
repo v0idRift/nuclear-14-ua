@@ -2,8 +2,8 @@
 - type: entity
   parent: BaseItem
   id: N14DecorationFlagpoleNCR
-  name: NCR flag pole
-  description: An NCR flag on a wooden pole.
+  name: "Флагшток NCR"
+  description: "Прапор НКР на дерев'яному стовпі."
   components:
   - type: Sprite
     sprite: _Nuclear14/Objects/Decoration/Flags/ncr_flagpole.rsi
@@ -47,8 +47,8 @@
 - type: entity
   parent: BaseItem
   id: N14DecorationFlagpoleBOS
-  name: BoS flag pole
-  description: A Midwest Brotherhood flag on a wooden pole.
+  name: "Стовп для прапора BoS"
+  description: "Прапор Братства Середнього Заходу на дерев'яному стовпі."
   components:
   - type: Sprite
     sprite: _Nuclear14/Objects/Decoration/Flags/bos_flagpole.rsi

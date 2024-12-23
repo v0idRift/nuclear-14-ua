@@ -28,7 +28,7 @@
   parent: N14CookedFoodCakeBase
   id: N14CookedFoodCakeSliceBase
   abstract: true
-  description: A decadent slice of simple cake.
+  description: "Декадентський шматок простого торта."
   components:
   - type: FlavorProfile
     flavors:
@@ -49,10 +49,10 @@
 # Custom Cake Example
 
 - type: entity
-  name: tarberry cake #N14 change
+  name: "пиріг із смородини" #N14 change
   parent: N14CookedFoodCakeBase
   id: N14CookedFoodCakeTarberry
-  description: A hearty, filling tarberry cake. #N14 change
+  description: "Ситний, ситний пиріг з чорницею." #N14 change
   components:
   - type: Sprite
     layers:
@@ -66,10 +66,10 @@
     - Fruit
 
 - type: entity
-  name: tarberry slice #N14 change
+  name: "шматочок смородини" #N14 change
   parent: N14CookedFoodCakeSliceBase
   id: N14CookedFoodCakeTarberrySlice
-  description: Stains - and sticks to - your teeth. #N14 change
+  description: "Забарвлює - і прилипає - до зубів." #N14 change
   components:
   - type: Sprite
     layers:
@@ -83,10 +83,10 @@
 # Cake
 
 - type: entity
-  name: cake
+  name: "торт"
   parent: N14CookedFoodCakeBase
   id: N14CookedFoodCakePlain
-  description: A plain cake. Obscene luxury, even so. #N14 change
+  description: "Звичайний торт. Непристойна розкіш, навіть так." #N14 change
   components:
   - type: Sprite
     state: plain
@@ -96,20 +96,20 @@
 # Added in type lines above
 
 - type: entity
-  name: slice of cake
+  name: "шматочок торта"
   parent: N14CookedFoodCakeSliceBase
   id: N14CookedFoodCakePlainSlice
-  description: A decadent slice of simple cake. #N14 change
+  description: "Декадентський шматок простого торта." #N14 change
   components:
   - type: Sprite
     state: plain-slice
 # Tastes like sweetness, cake.
 
 - type: entity
-  name: carrot cake
+  name: "морквяний пиріг"
   parent: N14CookedFoodCakeBase
   id: N14CookedFoodCakeCarrot
-  description: Cake? Actual cake in the wasteland? Pinch yourself. Make sure you're not in heaven. #N14 change
+  description: "Торт? Справжній торт на пустирі? Ущипни себе. Переконайся, що ти не в раю." #N14 change
   components:
   - type: Sprite
     state: carrot
@@ -128,10 +128,10 @@
           Quantity: 5
 
 - type: entity
-  name: slice of carrot cake
+  name: "шматочок морквяного пирога"
   parent: N14CookedFoodCakeSliceBase
   id: N14CookedFoodCakeCarrotSlice
-  description: Delicious! Also good for your eyes, if you're a dumbfuck who welded without protection. #N14 change
+  description: "Смакота! Також корисно для очей, якщо ви дурень, який зварював без захисту." #N14 change
   components:
   - type: Sprite
     state: carrot-slice
@@ -150,10 +150,10 @@
 # Tastes like sweetness, cake, carrot.
 
 - type: entity
-  name: brain cake
+  name: "мозговий торт"
   parent: N14CookedFoodCakeBase
   id: N14CookedFoodCakeBrain
-  description: Food for thought. #N14 change
+  description: "Їжа для роздумів." #N14 change
   components:
   - type: Sprite
     state: brain
@@ -162,20 +162,20 @@
 
 
 - type: entity
-  name: slice of brain cake
+  name: "шматочок мозкового пирога"
   parent: N14CookedFoodCakeSliceBase
   id: N14CookedFoodCakeBrainSlice
-  description: Lemme tell you something about prions. THEY'RE DELICIOUS.
+  description: "Дозвольте розповісти вам дещо про пріони. ВОНИ ДУЖЕ СМАЧНІ."
   components:
   - type: Sprite
     state: brain-slice
 # Tastes like sweetness, cake, brains.
 
 - type: entity
-  name: cheese cake
+  name: "сирний пиріг"
   parent: N14CookedFoodCakeBase
   id: N14CookedFoodCakeCheese
-  description: DANGEROUSLY cheesy.
+  description: "Небезпечно сирні."
   components:
   - type: Sprite
     state: cheese
@@ -183,20 +183,20 @@
     slice: N14CookedFoodCakeCheeseSlice
 
 - type: entity
-  name: slice of cheese cake
+  name: "шматочок сирного пирога"
   parent: N14CookedFoodCakeSliceBase
   id: N14CookedFoodCakeCheeseSlice
-  description: Slice of pure cheestisfaction. #god this should be changed sometime
+  description: "Шматочок чистого задоволення." #god this should be changed sometime
   components:
   - type: Sprite
     state: cheese-slice
 # Tastes like sweetness, cream cheese.
 
 - type: entity
-  name: orange cake
+  name: "апельсиновий торт"
   parent: N14CookedFoodCakeBase
   id: N14CookedFoodCakeOrange
-  description: A cake with added orange.
+  description: "Торт з додаванням апельсина."
   components:
   - type: Sprite
     state: orange
@@ -207,7 +207,7 @@
     - Fruit
 
 - type: entity
-  name: slice of orange cake
+  name: "шматочок апельсинового пирога"
   parent: N14CookedFoodCakeSliceBase
   id: N14CookedFoodCakeOrangeSlice
   components:
@@ -219,10 +219,10 @@
 # Tastes like sweetness, cake, oranges.
 
 - type: entity
-  name: lime cake
+  name: "лаймовий пиріг"
   parent: N14CookedFoodCakeBase
   id: N14CookedFoodCakeLime
-  description: A cake with added lime.
+  description: "Торт з додаванням лайму."
   components:
   - type: Sprite
     state: lime
@@ -233,7 +233,7 @@
     - Fruit
 
 - type: entity
-  name: slice of lime cake
+  name: "шматочок лаймового торта"
   parent: N14CookedFoodCakeSliceBase
   id: N14CookedFoodCakeLimeSlice
   components:
@@ -245,10 +245,10 @@
 # Tastes like sweetness, cake, limes.
 
 - type: entity
-  name: lemon cake
+  name: "лимонний торт"
   parent: N14CookedFoodCakeBase
   id: N14CookedFoodCakeLemon
-  description: A cake with added lemon.
+  description: "Торт з додаванням лимона."
   components:
   - type: Sprite
     state: lemon
@@ -259,7 +259,7 @@
     - Fruit
 
 - type: entity
-  name: slice of lemon cake
+  name: "шматочок лимонного торта"
   parent: N14CookedFoodCakeSliceBase
   id: N14CookedFoodCakeLemonSlice
   components:
@@ -271,10 +271,10 @@
 # Tastes like sweetness, cake, lemons.
 
 - type: entity
-  name: chocolate cake
+  name: "шоколадний торт"
   parent: N14CookedFoodCakeBase
   id: N14CookedFoodCakeChocolate
-  description: A cake with added chocolate.
+  description: "Торт з додаванням шоколаду."
   components:
   - type: Sprite
     state: chocolate
@@ -293,10 +293,10 @@
           Quantity: 5
 
 - type: entity
-  name: slice of chocolate cake
+  name: "шматочок шоколадного торта"
   parent: N14CookedFoodCakeSliceBase
   id: N14CookedFoodCakeChocolateSlice
-  description: All for you... #N14 change
+  description: "Все для тебе..." #N14 change
   components:
   - type: Sprite
     state: chocolate-slice
@@ -314,10 +314,10 @@
 # Tastes like sweetness, cake, chocolate.
 
 - type: entity
-  name: mutfruit cake #N14 change
+  name: "мускатний пиріг" #N14 change
   parent: N14CookedFoodCakeBase
   id: N14CookedFoodCakeMutfruit
-  description: A cake with a gooey mutfruit centre. #N14 change
+  description: "Торт з липкою серединою з мускатного горіха." #N14 change
   components:
   - type: Sprite
     state: apple
@@ -328,10 +328,10 @@
     - Fruit
 
 - type: entity
-  name: slice of apple cake
+  name: "шматочок яблучного пирога"
   parent: N14CookedFoodCakeSliceBase
   id: N14CookedFoodCakeMutfruitSlice
-  description: A slice of heavenly cake. Squishy. #N14 change
+  description: "Шматочок райського пирога. М'який." #N14 change
   components:
   - type: Sprite
     state: apple-slice
@@ -341,10 +341,10 @@
 # Tastes like sweetness, cake, slime.
 
 - type: entity
-  name: pumpkin-spice cake
+  name: "гарбузово-пряний пиріг"
   parent: N14CookedFoodCakeBase
   id: N14CookedFoodCakePumpkin
-  description: A hollow cake with real pumpkin.
+  description: "Порожнистий пиріг зі справжнім гарбузом."
   components:
   - type: Sprite
     state: pumpkinspice
@@ -364,10 +364,10 @@
     - Fruit
 
 - type: entity
-  name: slice of pumpkin-spice cake
+  name: "шматочок гарбузово-пряного пирога"
   parent: N14CookedFoodCakeSliceBase
   id: N14CookedFoodCakePumpkinSlice
-  description: A spicy slice of pumpkin goodness.
+  description: "Пряний шматочок гарбузової смакоти."
   components:
   - type: Sprite
     state: pumpkinspice-slice
@@ -386,10 +386,10 @@
 # Tastes like sweetness, cake, pumpkin.
 
 - type: entity
-  name: birthday cake
+  name: "святковий торт"
   parent: N14CookedFoodCakeBase
   id: N14CookedFoodCakeBirthday
-  description: You made it another year in the wastes AND you got cake. #N14 change
+  description: "Ти витримав ще один рік у відходах і отримав торт." #N14 change
   components:
   - type: Sprite
     state: birthday
@@ -397,20 +397,20 @@
     slice: N14CookedFoodCakeBirthdaySlice
 
 - type: entity
-  name: slice of birthday cake
+  name: "шматочок святкового торта"
   parent: N14CookedFoodCakeSliceBase
   id: N14CookedFoodCakeBirthdaySlice
-  description: A slice of your birthday.
+  description: "Шматочок твого дня народження."
   components:
   - type: Sprite
     state: birthday-slice
 # Tastes like sweetness, cake, christmas.
 
 - type: entity
-  name: vanilla cake
+  name: "ванільний торт"
   parent: N14CookedFoodCakeBase
   id: N14CookedFoodCakeVanilla
-  description: A vanilla frosted cake.
+  description: "Ванільний торт з ванільною глазур'ю."
   components:
   - type: Sprite
     state: vanilla
@@ -429,10 +429,10 @@
           Quantity: 15
 
 - type: entity
-  name: slice of vanilla cake
+  name: "шматочок ванільного торта"
   parent: N14CookedFoodCakeSliceBase
   id: N14CookedFoodCakeVanillaSlice
-  description: A slice of vanilla frosted cake.
+  description: "Шматочок ванільного торта з ванільною глазур'ю."
   components:
   - type: Sprite
     state: vanilla-slice

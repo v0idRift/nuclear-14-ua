@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: N14ClothingHeadHatHoodLeatherCloak
-  name: leather cloak hood
-  description: A hood of a leather cloak, it is made from the hide of brahmin leather.
+  name: "шкіряний капюшон плаща"
+  description: "Капюшон шкіряного плаща, виготовлений зі шкури браміна."
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/Head/FalloutHoods/leathercloak.rsi
@@ -16,8 +16,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: N14ClothingHeadHatHoodRangerCloak
-  name: ranger cloak hood
-  description: A hood of a Ranger cloak, it is made from salvaged wasteland material.
+  name: "капюшон плаща рейнджера"
+  description: "Капюшон плаща рейнджера, зроблений із врятованого матеріалу з пустиря."
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/Head/FalloutHoods/rangercloak.rsi
@@ -38,8 +38,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: N14ClothingHeadHatHoodPonchoCloak
-  name: poncho cloak hood
-  description: A hood of a poncho cloak, it is made from muslin cotton.
+  name: "плащ-пончо з капюшоном"
+  description: "Капюшон плаща-пончо, виготовлений з бавовни мусліну."
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/Head/FalloutHoods/ponchocloak.rsi
@@ -60,8 +60,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: N14ClothingHeadHatHoodScribeTabard
-  name: midwest Scribe tabard hood
-  description: A hood attached to the tabard, affixed with an optical lens.
+  name: "середньозахідний капюшон-табарда Scribe"
+  description: "Капюшон, прикріплений до табарди, з оптичною лінзою."
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/Head/FalloutHoods/midwestscribetabard.rsi

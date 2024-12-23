@@ -1,7 +1,7 @@
 - type: entity
   parent: MobHuman
   id: N14MobHumanVaultDweller
-  name: VaultDweller
+  name: "VaultDweller"
   components:
     - type: Icon
       sprite: _Nuclear14/Markers/Jobs/vault.rsi
@@ -17,7 +17,7 @@
 - type: entity
   parent: N14MobHumanVaultDweller
   id: N14MobHumanVaultDoctor
-  name: VaultDoctor
+  name: "VaultDoctor"
   components:
     - type: Icon
       state: doctor
@@ -32,7 +32,7 @@
 - type: entity
   parent: N14MobHumanVaultDweller
   id: N14MobHumanVaultEngineer
-  name: VaultEngineer
+  name: "VaultEngineer"
   components:
     - type: Icon
       state: engineer
@@ -47,7 +47,7 @@
 - type: entity
   parent: N14MobHumanVaultDweller
   id: N14MobHumanVaultSecurity
-  name: VaultSecurity
+  name: "VaultSecurity"
   components:
     - type: Icon
       state: security
@@ -62,7 +62,7 @@
 - type: entity
   parent: N14MobHumanVaultDweller
   id: N14MobHumanOverseer
-  name: VaultOverseer
+  name: "VaultOverseer"
   components:
     - type: Icon
       state: overseer

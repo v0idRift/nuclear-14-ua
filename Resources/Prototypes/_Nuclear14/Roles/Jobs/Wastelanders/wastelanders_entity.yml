@@ -1,7 +1,7 @@
 - type: entity
   parent: MobHuman
   id: N14MobHumanWastelander
-  name: Wastelander
+  name: "Пустельник"
   components:
     - type: Icon
       sprite: _Nuclear14/Markers/Jobs/wastelanders.rsi
@@ -17,7 +17,7 @@
 - type: entity
   parent: N14MobHumanWastelander
   id: N14MobHumanScavenger
-  name: Scavenger
+  name: "Сміттяр"
   components:
     - type: Icon
       state: scavenger
@@ -32,7 +32,7 @@
 - type: entity
   parent: N14MobHumanWastelander
   id: N14MobHumanReporter
-  name: Reporter
+  name: "Репортер"
   components:
     - type: Icon
       state: reporter
@@ -47,7 +47,7 @@
 - type: entity
   parent: N14MobHumanWastelander
   id: N14MobHumanMusician
-  name: Musician
+  name: "Музикант"
   components:
     - type: Icon
       state: musician
@@ -62,7 +62,7 @@
 - type: entity
   parent: N14MobHumanWastelander
   id: N14MobHumanFarmer
-  name: Farmer
+  name: "Фермер"
   components:
     - type: Icon
       state: farmer
@@ -77,7 +77,7 @@
 - type: entity
   parent: N14MobHumanWastelander
   id: N14MobHumanChaplain
-  name: Chaplain
+  name: "Капелан"
   components:
     - type: Icon
       state: chaplain
@@ -92,7 +92,7 @@
 - type: entity
   parent: N14MobHumanWastelander
   id: N14MobHumanBartender
-  name: Bartender
+  name: "Бармен"
   components:
     - type: Icon
       state: bartender

@@ -2,10 +2,10 @@
 # Bun
 
 - type: entity
-  name: bun
+  name: "булочка"
   parent: N14CookedFoodBreadSliceBase
   id: N14CookedFoodBreadBun
-  description: A hamburger bun. Round and convenient to hold.
+  description: "Булочка для гамбургера. Кругла і зручна для тримання."
   components:
   - type: Food
   - type: Sprite
@@ -50,10 +50,10 @@
 # Custom Burger Example
 
 - type: entity
-  name: jelly burger
+  name: "желейний бургер"
   parent: N14FoodBurgerBase
   id: N14CookedFoodBurgerJelly
-  description: Culinary delight..?
+  description: "Кулінарні шедеври...?"
   components:
   - type: FlavorProfile
     flavors:
@@ -69,10 +69,10 @@
 # Burger
 
 - type: entity
-  name: appendix burger
+  name: "апендикс-бургер"
   parent: N14FoodBurgerBase
   id: N14CookedFoodBurgerAppendix
-  description: Tastes like appendicitis.
+  description: "На смак як апендицит."
   components:
   - type: FlavorProfile
     flavors:
@@ -97,10 +97,10 @@
 # Tastes like bun, grass.
 
 - type: entity
-  name: bacon burger
+  name: "бургер з беконом"
   parent: N14FoodBurgerBase
   id: N14CookedFoodBurgerBacon
-  description: The perfect combination of all things American.
+  description: "Ідеальне поєднання всього американського."
   components:
   - type: FlavorProfile
     flavors:
@@ -123,10 +123,10 @@
 # Tastes like bun, bacon.
 
 - type: entity
-  name: bearger
+  name: "біржовик"
   parent: N14FoodBurgerBase
   id: N14CookedFoodBurgerBear
-  description: Savor your kill, hunter. #N14 change
+  description: "Насолоджуйся здобиччю, мисливець." #N14 change
   components:
   - type: FlavorProfile
     flavors:
@@ -150,10 +150,10 @@
     - Meat
 
 - type: entity
-  name: big bite burger
+  name: "бургер з великим укусом"
   parent: N14FoodBurgerBase
   id: N14CookedFoodBurgerBig
-  description: Food fit for the ultimate wasteland hedonists. #N14 change
+  description: "Їжа для справжніх пустельних гедоністів." #N14 change
   components:
   - type: FlavorProfile
     flavors:
@@ -178,10 +178,10 @@
 # Tastes like bun, silver, magic.
 
 - type: entity
-  name: brain burger
+  name: "мозковий бургер"
   parent: N14FoodBurgerBase
   id: N14CookedFoodBurgerBrain
-  description: Like an edible robobrain. Jesus christ. #N14 change
+  description: "Як їстівний робомозок. Господи Ісусе." #N14 change
   components:
   - type: FlavorProfile
     flavors:
@@ -206,10 +206,10 @@
 # Tastes like bun, brains.
 
 - type: entity
-  name: cheese burger
+  name: "сирний бургер"
   parent: N14FoodBurgerBase
   id: N14CookedFoodBurgerCheese
-  description: This. This is what you've been missing all your life. #N14 change
+  description: "Цього. Це те, чого тобі не вистачало все життя." #N14 change
   components:
   - type: FlavorProfile
     flavors:
@@ -243,10 +243,10 @@
 # Tastes like bun, beef patty, cheese.
 
 - type: entity
-  name: chicken sandwich
+  name: "курячий сендвіч"
   parent: N14FoodBurgerBase
   id: N14CookedFoodBurgerChicken
-  description: Deliciously portable. #N14 change
+  description: "Чудово портативний." #N14 change
   components:
   - type: FlavorProfile
     flavors:
@@ -273,10 +273,10 @@
 # Tastes like bun, chicken.
 
 - type: entity
-  name: crab burger
+  name: "крабовий бургер"
   parent: N14FoodBurgerBase
   id: N14CookedFoodBurgerCrab
-  description: A delicious patty of the crabby kind, slapped in between a bun.
+  description: "Смачний крабовий пиріжок, затиснутий між булочкою."
   components:
   - type: FlavorProfile
     flavors:
@@ -300,10 +300,10 @@
     - Meat
 
 - type: entity
-  name: duck sandwich
+  name: "бутерброд з качкою"
   parent: N14FoodBurgerBase
   id: N14CookedFoodBurgerDuck
-  description: A duck sandwich. Are ducks even real?
+  description: "Качиний сендвіч. Качки взагалі існують?"
   components:
   - type: FlavorProfile
     flavors:
@@ -328,10 +328,10 @@
 # Tastes like bun, duck.
 
 - type: entity
-  name: fillet-o-carp burger
+  name: "бургер з філе коропа"
   parent: N14FoodBurgerBase
   id: N14CookedFoodBurgerCarp
-  description: Mythical wasteland fish. Eat to become a goddess. #N14 change
+  description: "Міфічна риба пусток. З'їж, щоб стати богинею." #N14 change
   components:
   - type: FlavorProfile
     flavors:
@@ -345,10 +345,10 @@
 # Tastes like bun, fish.
 
 - type: entity
-  name: five alarm burger
+  name: "бургер з п'ятьма будильниками"
   parent: N14FoodBurgerBase
   id: N14CookedFoodBurgerFive
-  description: HOT! HOT! HOT!
+  description: "ГАРЯЧЕ! ГАРЯЧЕ! ГАРЯЧЕ!"
   components:
   - type: FlavorProfile
     flavors:
@@ -373,10 +373,10 @@
 # Tastes like bun, HEAT.
 
 - type: entity
-  name: McGuffin
+  name: "Макгафін"
   parent: N14FoodBurgerBase
   id: N14CookedFoodBurgerMcguffin
-  description: A cheap and greasy imitation of an eggs Benedict.
+  description: "Дешева і жирна імітація яєчні \"Бенедикт\"."
   components:
   - type: FlavorProfile
     flavors:
@@ -400,10 +400,10 @@
     - Meat
 
 - type: entity
-  name: BBQ Rib Sandwich
+  name: "Сендвіч з реберцями BBQ"
   parent: N14FoodBurgerBase
   id: N14CookedFoodBurgerMcrib
-  description: The strong flavor of bighorner meat marries the sweet-smoky sauce so, so well... #N14 change
+  description: "Яскравий смак м'яса бичка дуже добре поєднується з солодкувато-димчастим соусом..." #N14 change
   components:
   - type: Food
     trash: FoodKebabSkewer
@@ -432,10 +432,10 @@
 # Tastes like bun, pork patty.
 
 - type: entity
-  name: plain burger
+  name: "звичайний бургер"
   parent: N14FoodBurgerBase
   id: N14CookedFoodBurgerPlain
-  description: A simple, plain burger. For the wasteland, this is pretty good eating. #N14 change
+  description: "Простий, звичайний бургер. Як для пустки, це досить непогана їжа." #N14 change
   components:
   - type: FlavorProfile
     flavors:
@@ -459,10 +459,10 @@
     - Meat
 
 - type: entity
-  name: rat burger
+  name: "щурячий бургер"
   parent: N14FoodBurgerBase
   id: N14CookedFoodBurgerRat
-  description: Pretty much what you'd expect...
+  description: "Майже те, чого можна було очікувати..."
   components:
   - type: FlavorProfile
     flavors:
@@ -487,10 +487,10 @@
 # Tastes like bun, HEAT.
 
 - type: entity
-  name: super bite burger
+  name: "бургер \"супер укус"
   parent: N14FoodBurgerBase
   id: N14CookedFoodBurgerSuper
-  description: This is a mountain of a burger. FOOD!
+  description: "Це гора бургерів. ЇЖА!"
   components:
   - type: FlavorProfile
     flavors: # What bun?
@@ -518,10 +518,10 @@
 # Tastes like bun, diabetes.
 
 - type: entity
-  name: tofu burger
+  name: "бургер з тофу"
   parent: N14FoodBurgerBase
   id: N14CookedFoodBurgerTofu
-  description: What... is that meat?
+  description: "Що... це за м'ясо?"
   components:
   - type: FlavorProfile
     flavors:

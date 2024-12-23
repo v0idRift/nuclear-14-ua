@@ -1,8 +1,8 @@
 - type: entity
-  name: Psycho Raider
+  name: "Psycho Raider"
   id: N14MobRaiderPsycho
   parent: N14MobBaseHostile
-  description: Psychopatic raider who will stab and rob just about anyone.
+  description: "Психопат-рейдер, який заріже і пограбує будь-кого."
   components:
   - type: NpcFactionMember
     factions:
@@ -68,10 +68,10 @@
       path: /Audio/Items/crowbar.ogg
 
 - type: entity
-  name: Fern Conscript
+  name: "Папороть Призовник"
   id: N14MobRaiderFernMelee
   parent: N14MobRaiderPsycho
-  description: Professional mercenary-wannabe, holding a club and ready to dent someone's skull in.
+  description: "Професійний найманець-самозванець, який тримає в руках кийок і готовий проломити комусь череп."
   components:
   - type: Sprite
     drawdepth: Mobs
@@ -100,10 +100,10 @@
     range: 1
 
 - type: entity
-  name: Enforcer Beatcop
+  name: "Правоохоронець Біткоп"
   id: N14MobRaiderEnforcerMelee
   parent: N14MobRaiderPsycho
-  description: Law enforcement? No. Just a really fancy raider with a baton.
+  description: "Правоохоронні органи? Ні. Просто дуже модний рейдер з кийком."
   components:
   - type: Sprite
     drawdepth: Mobs

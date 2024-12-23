@@ -1,8 +1,8 @@
 - type: entity
-  name: automatic rifle
+  name: "автоматична гвинтівка"
   parent: BaseWeaponRifle
   id: N14WeaponLMGAutoRifle
-  description: A high caliber, low-capacity heavy machine gun of the pre-war, chambered in the powerful .308 ammunition.
+  description: "Висококаліберний, малопотужний важкий кулемет довоєнного зразка під потужний боєприпас .308 калібру."
   components:
   - type: Clothing
     sprite: _Nuclear14/Objects/Weapons/Guns/LMGs/autorifle.rsi
@@ -63,10 +63,10 @@
     backStrength: 6
 
 - type: entity
-  name: canadian HMG
+  name: "канадський HMG"
   parent: BaseWeaponRifle
   id: N14WeaponHMGcanadian
-  description: A powerfull belt feed machine gun commonly used by the pre-war canadian army, chambered in 7.62mm ammunition.
+  description: "Потужний кулемет зі стрічковою подачею, який широко використовувався довоєнною канадською армією, під набій 7,62 мм."
   components:
   - type: Clothing
     sprite: _Nuclear14/Objects/Weapons/Guns/LMGs/canadianhmg.rsi
@@ -127,10 +127,10 @@
     backStrength: 6
 
 - type: entity
-  name: chinese LMG
+  name: "китайський скраплений газ"
   parent: BaseWeaponRifle
   id: N14WeaponLMGchinese
-  description: A pre-war chinese light machine gun, chambered in 7.62mm ammunition.
+  description: "Довоєнний китайський легкий кулемет під набій 7,62 мм."
   components:
   - type: Clothing
     sprite: _Nuclear14/Objects/Weapons/Guns/LMGs/chineselmg.rsi
@@ -188,10 +188,10 @@
     backStrength: 6
 
 - type: entity
-  name: light machine gun
+  name: "легкий кулемет"
   parent: BaseWeaponRifle
   id: N14WeaponLMG
-  description: A light machine gun designed by the NCR for their heavy troops, chambered in 5.56 ammo.
+  description: "Легкий кулемет, розроблений NCR для своїх важких військ, під набій 5.56."
   components:
   - type: Clothing
     sprite: _Nuclear14/Objects/Weapons/Guns/LMGs/lmg.rsi
@@ -252,10 +252,10 @@
     backStrength: 6
 
 - type: entity
-  name: bren machine gun
+  name: "кулемет Брен"
   parent: BaseWeaponRifle
   id: N14WeaponLMGBren
-  description: A high-caliber, high-damage, heavy machine gun mass-produced by the RCMP, chambered in the powerful .308 ammunition.
+  description: "Висококаліберний важкий кулемет, що завдає великої шкоди, серійно випускався канадською королівською кавалерійською службою, під потужний калібр .308."
   components:
   - type: Clothing
     sprite: _Nuclear14/Objects/Weapons/Guns/LMGs/bren.rsi

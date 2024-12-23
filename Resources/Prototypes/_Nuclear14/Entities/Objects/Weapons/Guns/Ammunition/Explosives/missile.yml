@@ -1,8 +1,8 @@
 - type: entity
   id: CartridgeMissile
-  name: explosive missile
+  name: "осколково-фугасна ракета"
   parent: BaseItem
-  description: A highly explosive missile.
+  description: "Дуже вибухонебезпечна ракета."
   components:
   - type: Tag
     tags:

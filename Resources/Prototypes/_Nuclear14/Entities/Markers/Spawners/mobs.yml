@@ -1,6 +1,6 @@
 #MARK: Passive Animals
 - type: entity
-  name: Brahmin Spawner
+  name: "Брамин Споунер"
   id: N14SpawnMobBrahmin
   parent: MarkerBase
   components:
@@ -15,7 +15,7 @@
       - N14MobBrahmin
       
 - type: entity
-  name: Chicken Spawner
+  name: "Курячий нерестовик"
   id: N14SpawnMobChicken
   parent: MarkerBase
   components:
@@ -30,7 +30,7 @@
       - N14MobChicken
       
 - type: entity
-  name: Bighorner Spawner
+  name: "Нерестовик бігхорна"
   id: N14SpawnMobBighorner
   parent: MarkerBase
   components:
@@ -45,7 +45,7 @@
       - N14MobBighorner
       
 - type: entity
-  name: Radstag Spawner
+  name: "Радстаг Спавнер"
   id: N14SpawnMobRadstag
   parent: MarkerBase
   components:
@@ -60,7 +60,7 @@
       - N14MobRadstag
 
 - type: entity
-  name: Nuclear Beaver Spawner
+  name: "Нерестовик ядерного бобра"
   id: N14SpawnMobNuclearBeaver
   parent: MarkerBase
   components:
@@ -75,7 +75,7 @@
       - N14MobNuclearBeaver
 
 - type: entity
-  name: Nuclear Opossum Spawner
+  name: "Ядерний опосум - нерестовик"
   id: N14SpawnMobNuclearOpossum
   parent: MarkerBase
   components:
@@ -90,7 +90,7 @@
       - N14MobNuclearOpossum
 
 - type: entity
-  name: Nuclear Rabbit Spawner
+  name: "Ядерний кролик-розплідник"
   id: N14SpawnMobNuclearRabbit
   parent: MarkerBase
   components:
@@ -105,7 +105,7 @@
       - N14MobNuclearRabbit
 
 - type: entity
-  name: Opossum Spawner
+  name: "Нерестовище опосумів"
   id: N14SpawnMobOpossum
   parent: MarkerBase
   components:
@@ -120,7 +120,7 @@
       - N14MobOpossum
 
 - type: entity
-  name: Normal Rabbit Spawner
+  name: "Звичайний кролячий нерестовик"
   id: N14SpawnMobNormRabbit
   parent: MarkerBase
   components:
@@ -136,7 +136,7 @@
       
 #MARK: Hostile Animals
 - type: entity
-  name: Molerat Spawner
+  name: "Molerat Spawner"
   id: N14SpawnMobMolerat
   parent: MarkerBase
   components:
@@ -151,7 +151,7 @@
       - N14MobMolerat
 
 - type: entity
-  name: Pigrat Spawner
+  name: "Нерестовик свиней"
   id: N14SpawnMobPigrat
   parent: MarkerBase
   components:
@@ -166,7 +166,7 @@
       - N14MobPigrat
 
 - type: entity
-  name: Radhog Spawner
+  name: "Нерестовик жаби"
   id: N14SpawnMobRadhog
   parent: MarkerBase
   components:
@@ -181,7 +181,7 @@
       - N14MobRadhog
       
 - type: entity
-  name: Feral Dog Spawner
+  name: "Нерестовик здичавілих собак"
   id: N14SpawnMobFeralDog
   parent: MarkerBase
   components:
@@ -196,7 +196,7 @@
       - N14MobDogFeral
       
 - type: entity
-  name: Gecko Spawner
+  name: "Нерестовик гекона"
   id: N14SpawnMobGecko
   parent: MarkerBase
   components:
@@ -211,7 +211,7 @@
       - N14MobGecko
 
 - type: entity
-  name: Fire Gecko Spawner
+  name: "Нерестовик вогняного гекона"
   id: N14SpawnMobGeckoFire
   parent: MarkerBase
   components:
@@ -226,7 +226,7 @@
       - N14MobGeckoFire
 
 - type: entity
-  name: Golden Gecko Spawner
+  name: "Нерест золотого гекона"
   id: N14SpawnMobGeckoGolden
   parent: MarkerBase
   components:
@@ -241,7 +241,7 @@
       - N14MobGeckoGolden
 
 - type: entity
-  name: Nightstalker Cub Spawner
+  name: "Нерестовик дитинчат Нічного Сталкера"
   id: N14SpawnMobNightstalkerCub
   parent: MarkerBase
   components:
@@ -256,7 +256,7 @@
       - N14MobNightstalkerCub
       
 - type: entity
-  name: Nightstalker Spawner
+  name: "Спайдер нічного сталкера"
   id: N14SpawnMobNightstalker
   parent: MarkerBase
   components:
@@ -271,7 +271,7 @@
       - N14MobNightstalker
       
 - type: entity
-  name: Yao Guai Spawner
+  name: "Яо Гуай Спавнер"
   id: N14SpawnMobYaoguai
   parent: MarkerBase
   components:
@@ -287,7 +287,7 @@
 
 #MARK: Scaley Animals
 - type: entity
-  name: Deathclaw Spawner
+  name: "Нерестовик Кігтя Смерті"
   id: N14SpawnMobDeathclaw
   parent: MarkerBase
   components:
@@ -302,7 +302,7 @@
       - N14MobDeathclaw
       
 - type: entity
-  name: Deathclaw Albino Spawner
+  name: "Смертокіготь Альбінос - нерестовик-альбінос"
   id: N14SpawnMobDeathclawAlbino
   parent: MarkerBase
   components:
@@ -317,7 +317,7 @@
       - N14MobDeathclawAlbino
       
 - type: entity
-  name: Deathclaw Metal Spawner
+  name: "Deathclaw Metal Spawnner"
   id: N14SpawnMobDeathclawMetal
   parent: MarkerBase
   components:
@@ -333,7 +333,7 @@
       
 #MARK: Insects
 - type: entity
-  name: Bloatfly Spawner
+  name: "Нерестовик веснянки"
   id: N14SpawnMobBloatfly
   parent: MarkerBase
   components:
@@ -348,7 +348,7 @@
       - N14MobBloatfly
       
 - type: entity
-  name: Giant Ant Spawner
+  name: "Нерестовик гігантських мурах"
   id: N14SpawnMobGiantAnt
   parent: MarkerBase
   components:
@@ -363,7 +363,7 @@
       - N14MobGiantAnt
       
 - type: entity
-  name: Giant Fire Ant Spawner
+  name: "Нерестовик гігантської вогняної мурашки"
   id: N14SpawnMobGiantFireAnt
   parent: MarkerBase
   components:
@@ -378,7 +378,7 @@
       - N14MobGiantFireAnt
       
 - type: entity
-  name: Radroach Spawner
+  name: "Нерестовик тарганів"
   id: N14SpawnMobRadroach
   parent: MarkerBase
   components:
@@ -393,7 +393,7 @@
       - N14MobRadroach
       
 - type: entity
-  name: Radscorpion Spawner
+  name: "Нерестовик ракоскорпіонів"
   id: N14SpawnMobRadscorpion
   parent: MarkerBase
   components:
@@ -408,7 +408,7 @@
       - N14MobRadscorpion
       
 - type: entity
-  name: Barkscorpion Spawner
+  name: "Нерестовик короїдів"
   id: N14SpawnMobRadscorpionBark
   parent: MarkerBase
   components:
@@ -423,7 +423,7 @@
       - N14MobRadscorpionBark
       
 - type: entity
-  name: Cazador Spawner
+  name: "Cazador Spawner"
   id: N14SpawnMobCazador
   parent: MarkerBase
   components:
@@ -439,7 +439,7 @@
 
 # Ranged Raider Variants
 - type: entity
-  name: Raider Spawner - Pistol
+  name: "Raider Spawnner - Пістолет"
   id: N14SpawnMobRaiderPsychoRanged
   parent: MarkerBase
   components:
@@ -454,7 +454,7 @@
       - N14MobRaiderPsychoRanged
       
 - type: entity
-  name: Raider Spawner - Rifle
+  name: "Raider Spawner - гвинтівка"
   id: N14SpawnMobRaiderPsychoHunter
   parent: MarkerBase
   components:
@@ -469,7 +469,7 @@
       - N14MobRaiderHunter
       
 - type: entity
-  name: Raider Spawner - Shotgun
+  name: "Спайдер рейдерів - дробовик"
   id: N14SpawnMobRaiderPsychoSkrimisher
   parent: MarkerBase
   components:
@@ -484,7 +484,7 @@
       - N14MobRaiderSkrimisher
       
 - type: entity
-  name: Raider Spawner - Boss
+  name: "Raider Spawnner - Бос"
   id: N14SpawnMobRaiderBoss
   parent: MarkerBase
   components:
@@ -499,7 +499,7 @@
       - N14MobRaiderBoss
 
 - type: entity
-  name: Mercenary Spawner - Private
+  name: "Спайдер найманців - рядовий"
   id: N14SpawnMobRaiderFernPrivate
   parent: MarkerBase
   components:
@@ -514,7 +514,7 @@
       - N14MobFernMercPrivate
 
 - type: entity
-  name: Mercenary Spawner - Sergeant
+  name: "Найманець-розплідник - сержант"
   id: N14SpawnMobRaiderFernSergeant
   parent: MarkerBase
   components:
@@ -529,7 +529,7 @@
       - N14MobFernMercSergeant
 
 - type: entity
-  name: Mercenary Spawner - Lieutenant
+  name: "Найманець-споунер - лейтенант"
   id: N14SpawnMobRaiderFern
   parent: MarkerBase
   components:
@@ -544,7 +544,7 @@
       - N14MobFernMercLieutenant
 
 - type: entity
-  name: Enforcer Spawner - Trooper
+  name: "Спойлер примусових дій - десантник"
   id: N14SpawnMobRaiderEnforcerTrooper
   parent: MarkerBase
   components:
@@ -559,7 +559,7 @@
       - N14MobEnforcerTrooper
 
 - type: entity
-  name: Enforcer Spawner - Warden
+  name: "Спайдер-виконавець - Наглядач"
   id: N14SpawnMobRaiderEnforcerWarden
   parent: MarkerBase
   components:
@@ -574,7 +574,7 @@
       - N14MobEnforcerWarden
 
 - type: entity
-  name: Enforcer Spawner - Chief
+  name: "Спойлер примусових заходів - Головний"
   id: N14SpawnMobRaiderEnforcerChief
   parent: MarkerBase
   components:
@@ -590,7 +590,7 @@
 
 # Melee Raider Variants
 - type: entity
-  name: Raider Spawner - Melee
+  name: "Рейдерський спайдер - ближній бій"
   id: N14SpawnMobRaiderPsycho
   parent: MarkerBase
   components:
@@ -605,7 +605,7 @@
       - N14MobRaiderPsycho
 
 - type: entity
-  name: Fern Spawner - Melee
+  name: "Папоротевий нерестовик - ближній бій"
   id: N14SpawnMobRaiderFernMelee
   parent: MarkerBase
   components:
@@ -620,7 +620,7 @@
       - N14MobRaiderFernMelee
 
 - type: entity
-  name: Enforcer Spawner - Melee
+  name: "Спайдер силовиків - ближній бій"
   id: N14SpawnMobRaiderEnforcerMelee
   parent: MarkerBase
   components:
@@ -636,7 +636,7 @@
 
 #MARK: Ghoul
 - type: entity
-  name: Feral Ghoul Spawner
+  name: "Здичавілий нерестовик упиря"
   id: N14SpawnMobFeralGhoul
   parent: MarkerBase
   components:
@@ -651,7 +651,7 @@
       - N14MobGhoulFeral
       
 - type: entity
-  name: Feral Ghoul Reaver Spawner
+  name: "Нерестовик здичавілого упиря"
   id: N14SpawnMobFeralGhoulReaver
   parent: MarkerBase
   components:
@@ -666,7 +666,7 @@
       - N14MobGhoulFeralReaver
       
 - type: entity
-  name: Feral Ghoul Rotter Spawner
+  name: "Здичавілий упир гнилий нерестовик"
   id: N14SpawnMobFeralGhoulRotter
   parent: MarkerBase
   components:
@@ -681,7 +681,7 @@
       - N14MobGhoulFeralRotter
       
 - type: entity
-  name: Maypole Spawner
+  name: "Нерестовик травневий"
   id: N14SpawnMobGhoulMaypole
   parent: MarkerBase
   components:
@@ -697,7 +697,7 @@
 
 #MARK: Robots
 - type: entity
-  name: Assaultron Spawner
+  name: "Спайдер Ассаултрона"
   id: N14SpawnMobAssaultron
   parent: MarkerBase
   components:
@@ -712,7 +712,7 @@
       - N14MobRobotAssaultronHostile
       
 - type: entity
-  name: Protectron Spawner
+  name: "Спайдер протектронів"
   id: N14SpawnMobProtectron
   parent: MarkerBase
   components:
@@ -727,7 +727,7 @@
       - N14MobRobotProtectronHostile
       
 - type: entity
-  name: Protectron Builder Spawner
+  name: "Спайдер будівельника протектронів"
   id: N14SpawnMobProtectronBuilder
   parent: MarkerBase
   components:
@@ -742,7 +742,7 @@
       - N14MobRobotProtectronBuilderHostile
       
 - type: entity
-  name: Protectron Fire Spawner
+  name: "Вогняний генератор Протектрон"
   id: N14SpawnMobProtectronFire
   parent: MarkerBase
   components:
@@ -757,7 +757,7 @@
       - N14MobRobotProtectronFireHostile
       
 - type: entity
-  name: Protectron Police Spawner
+  name: "Спайдер поліції Протектрон"
   id: N14SpawnMobProtectronPoliceHostile
   parent: MarkerBase
   components:
@@ -772,7 +772,7 @@
       - N14MobRobotProtectronPoliceHostile
       
 - type: entity
-  name: Mr Handy Spawner
+  name: "Містер Хенді Споунер"
   id: N14SpawnMobMrHandyClaw
   parent: MarkerBase
   components:
@@ -787,7 +787,7 @@
       - N14MobRobotMrHandyClaw
       
 - type: entity
-  name: Mr Handy Gun Spawner
+  name: "Містер Зручний Пістолет Спайдер"
   id: N14SpawnMobMrHandyGun
   parent: MarkerBase
   components:
@@ -802,7 +802,7 @@
       - N14MobRobotMrHandyGun
       
 - type: entity
-  name: Mr Handy Saw Spawner
+  name: "Містер Зручна Пила Нерестовик"
   id: N14SpawnMobMrHandySaw
   parent: MarkerBase
   components:
@@ -817,7 +817,7 @@
       - N14MobRobotMrHandySaw
       
 - type: entity
-  name: Mr Gutsy Spawner
+  name: "Пан Гатсі Споунер"
   id: N14SpawnMobMrHandyGutsy
   parent: MarkerBase
   components:
@@ -832,7 +832,7 @@
       - N14MobRobotMrHandyGutsy
       
 - type: entity
-  name: Robobrain Spawner
+  name: "Робомозок Спайнер"
   id: N14SpawnMobRobobrain
   parent: MarkerBase
   components:
@@ -847,7 +847,7 @@
       - N14MobRobotRobobrain
       
 - type: entity
-  name: Eyebot Spawner
+  name: "Eyebot Spawner"
   id: N14SpawnMobEyebot
   parent: MarkerBase
   components:
@@ -862,7 +862,7 @@
       - N14MobRobotEyebot
 
 - type: entity
-  name: Spore Plant Spawner
+  name: "Спороносна рослина Нерестовик"
   id: N14SpawnMobSporePlant
   parent: MarkerBase
   components:
@@ -878,7 +878,7 @@
 
 #Pets
 - type: entity
-  name: Haggis the Cat Spawner
+  name: "Котячий нерестовик Хаггіс"
   id: N14SpawnMobHaggis
   parent: MarkerBase
   components:

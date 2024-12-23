@@ -8,7 +8,7 @@
   parent: FoodInjectableBase
   id: N14CookedFoodMealBase
   abstract: true
-  description: A delicious meal, cooked with love.
+  description: "Смачна їжа, приготована з любов'ю."
   components:
   - type: Item
     storedRotation: -90
@@ -26,10 +26,10 @@
 # Meals
 
 - type: entity
-  name: loaded baked potato
+  name: "завантажена запечена картопля"
   parent: N14CookedFoodMealBase
   id: N14CookedFoodMealPotatoLoaded
-  description: Totally baked.
+  description: "Повністю запечена."
   components:
   - type: FlavorProfile
     flavors:
@@ -40,10 +40,10 @@
 # Tastes like potato.
 
 - type: entity
-  name: fries #N14 change. I don't think I need to change anything else, the ID is the same...
+  name: "картопля фрі" #N14 change. I don't think I need to change anything else, the ID is the same...
   parent: N14CookedFoodMealBase
   id: N14CookedFoodMealFries
-  description: You hear these used to be fried in oil. Baked, salty tatos are just about 'alright'. #N14 change
+  description: "Ви чули, що раніше їх смажили в олії. Запечені, солоні тату - це майже \"добре\"." #N14 change
   components:
   - type: FlavorProfile
     flavors:
@@ -54,10 +54,10 @@
 # Tastes like fries, salt.
 
 - type: entity
-  name: cheesy fries
+  name: "сирна картопля фрі"
   parent: N14CookedFoodMealBase
   id: N14CookedFoodMealFriesCheesy
-  description: Alright, this is good shit. You can barely taste the tato. #N14 change
+  description: "Гаразд, це хороше лайно. Ледве відчувається смак картоплі." #N14 change
   components:
   - type: FlavorProfile
     flavors:
@@ -69,10 +69,10 @@
 # Tastes like fries, cheese.
 
 - type: entity
-  name: carrot fries
+  name: "морквяна картопля фрі"
   parent: N14CookedFoodMealBase
   id: N14CookedFoodMealFriesCarrot
-  description: Tasty fries from fresh carrots.
+  description: "Смачна картопля фрі зі свіжої моркви."
   components:
   - type: FlavorProfile
     flavors:
@@ -93,10 +93,10 @@
 # Tastes like carrots, salt.
 
 - type: entity
-  name: nachos
+  name: "начос"
   parent: N14CookedFoodMealBase
   id: N14CookedFoodMealNachos
-  description: Corn chips. #N14 change
+  description: "Кукурудзяні чіпси." #N14 change
   components:
   - type: FlavorProfile
     flavors:
@@ -106,10 +106,10 @@
 # Tastes like nachos.
 
 - type: entity
-  name: cheesy nachos
+  name: "сирні начос"
   parent: N14CookedFoodMealBase
   id: N14CookedFoodMealNachosCheesy
-  description: The delicious combination of nachos and melting cheese.
+  description: "Смачне поєднання начос і сиру, що плавиться."
   components:
   - type: FlavorProfile
     flavors:
@@ -131,10 +131,10 @@
 # Tastes like nachos, cheese.
 
 - type: entity
-  name: Cuban nachos
+  name: "Кубинські начос"
   parent: N14CookedFoodMealBase
   id: N14CookedFoodMealNachosCuban
-  description: That's some dangerously spicy nachos.
+  description: "Це небезпечно гострі начос."
   components:
   - type: FlavorProfile
     flavors:
@@ -157,10 +157,10 @@
 # Tastes like nachos, hot pepper.
 
 - type: entity
-  name: mint
+  name: "м'ята"
   parent: N14CookedFoodMealBase
   id: N14CookedFoodMealMint
-  description: It's wafer thin.
+  description: "Він тонкий, як вафля."
   components:
   - type: FlavorProfile
     flavors:
@@ -178,10 +178,10 @@
 # Tastes like parsnips, salt.
 
 - type: entity
-  name: Cuban carp
+  name: "Кубинський короп"
   parent: N14CookedFoodMealBase
   id: N14CookedFoodMealCubancarp
-  description: An impossible meal. The gods smile on you.
+  description: "Неможлива їжа. Боги посміхаються тобі."
   components:
   - type: FlavorProfile
     flavors:
@@ -207,10 +207,10 @@
 # Tastes like fish, batter, hot peppers.
 
 - type: entity
-  name: bbq ribs
+  name: "реберця барбекю"
   parent: N14CookedFoodMealBase
   id: N14CookedFoodMealRibs
-  description: Big, big, bighorner ribs, slathered in sweet smokey paradise. #N14 change
+  description: "Великі-великі реберця, вкриті солодким димчастим раєм." #N14 change
   components:
   - type: Food
     trash: FoodKebabSkewer
@@ -237,10 +237,10 @@
 # Tastes like meat, smokey sauce.
 
 - type: entity
-  name: eggs benedict
+  name: "яйця бенедикт"
   parent: N14CookedFoodMealBase
   id: N14CookedFoodMealEggsbenedict
-  description: There is only one egg on this, how rude.
+  description: "Тут лише одне яйце, як грубо."
   components:
   - type: FlavorProfile
     flavors:
@@ -264,10 +264,10 @@
 # Tastes like eggs, bacon, bun.
 
 - type: entity
-  name: cheese omelette
+  name: "сирний омлет"
   parent: N14CookedFoodMealBase
   id: N14CookedFoodMealOmelette
-  description: Cheesy.
+  description: "Сирник."
   components:
   - type: FlavorProfile
     flavors:
@@ -288,10 +288,10 @@
 # Tastes like egg, cheese.
 
 - type: entity
-  name: fried egg
+  name: "яєчня"
   parent: N14CookedFoodMealBase
   id: N14CookedFoodMealFriedegg
-  description: A fried egg, with a touch of salt and pepper.
+  description: "Смажене яйце, злегка посолити і поперчити."
   components:
   - type: FlavorProfile
     flavors:
@@ -317,10 +317,10 @@
 # Tastes like egg, salt, pepper.
 
 - type: entity
-  name: queso
+  name: "кесо"
   parent: N14CookedFoodMealBase
   id: N14CookedFoodMealQueso
-  description: A classic dipping sauce that you can't go wrong with.
+  description: "Класичний соус для занурення, з яким неможливо помилитися."
   components:
     - type: FlavorProfile
       flavors:
@@ -330,10 +330,10 @@
 # Its queso! Everyone loves queso... Right?.
 
 - type: entity
-  name: sashimi
+  name: "сашимі"
   parent: N14CookedFoodMealBase
   id: N14CookedFoodMealSashimi
-  description: Its taste can only be described as "Exotic".
+  description: "Його смак можна описати лише як \"екзотичний\"."
   components:
   - type: FlavorProfile
     flavors:
@@ -356,10 +356,10 @@
 # tastes exotic
 
 - type: entity
-  name: enchiladas
+  name: "енчиладас"
   parent: N14CookedFoodMealBase
   id: N14CookedFoodMealEnchiladas
-  description: Viva La Mexico!
+  description: "Віва Ла Мексика!"
   components:
     - type: FlavorProfile
       flavors:
@@ -381,10 +381,10 @@
 # What do Europeans eat instead of enchiladas? 25.4 millimeter-iladas.
 
 - type: entity
-  name: melon fruit bowl
+  name: "динна фруктова миска"
   parent: N14CookedFoodMealBase
   id: N14CookedFoodSaladWatermelonFruitBowl
-  description: The only salad where you can eat the bowl.
+  description: "Єдиний салат, де можна з'їсти миску."
   components:
   - type: FlavorProfile
     flavors:
@@ -412,10 +412,10 @@
     - Fruit
 
 - type: entity
-  name: corn in butter
+  name: "кукурудза в маслі"
   parent: N14CookedFoodMealBase
   id: N14CookedFoodMealCornInButter
-  description: Buttery.
+  description: "Маслянистий."
   components:
   - type: Food
     trash: FoodPlate
@@ -436,10 +436,10 @@
           Quantity: 4
 
 - type: entity #It felt weird to make an entire snacks folder just for this, so it's here in meals.yml, our catch-all. -Hazel
-  name: popcorn
+  name: "попкорн"
   parent: FoodSnackBase
   id: N14FoodSnackPopcorn
-  description: Feel it in your hands. Nice and warm...
+  description: "Відчуй його в своїх руках. Приємний і теплий..."
   components:
   - type: FlavorProfile
     flavors:

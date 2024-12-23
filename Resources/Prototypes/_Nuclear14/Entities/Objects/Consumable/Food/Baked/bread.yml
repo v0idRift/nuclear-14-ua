@@ -47,10 +47,10 @@
 # Custom Bread Example
 
 - type: entity
-  name: volcanic loaf
+  name: "вулканічний батон"
   parent: N14CookedFoodBreadBase
   id: N14CookedFoodBreadVolcanic
-  description: A dark loaf. Resembles pumice.
+  description: "Темний буханець. Нагадує пемзу."
   components:
   - type: Food
   - type: Sprite
@@ -63,10 +63,10 @@
     slice: N14CookedFoodBreadVolcanicSlice
 
 - type: entity
-  name: volcanic slice
+  name: "вулканічний зріз"
   parent: N14CookedFoodBreadSliceBase
   id: N14CookedFoodBreadVolcanicSlice
-  description: A slice of dark loaf. Resembles pumice.
+  description: "Шматок темного батона. Нагадує пемзу."
   components:
   - type: Food
   - type: Sprite
@@ -79,10 +79,10 @@
 # Bread
 
 - type: entity
-  name: banana bread
+  name: "банановий хліб"
   parent: N14CookedFoodBreadBase
   id: N14CookedFoodBreadBanana
-  description: A heavenly and filling treat.
+  description: "Небесне і ситне частування."
   components:
   - type: FlavorProfile
     flavors:
@@ -101,10 +101,10 @@
 # Tastes like bread, banana, nut.
 
 - type: entity
-  name: banana bread slice
+  name: "шматочок бананового хліба"
   parent: N14CookedFoodBreadSliceBase
   id: N14CookedFoodBreadBananaSlice
-  description: A slice of delicious banana bread.
+  description: "Шматочок смачного бананового хліба."
   components:
   - type: FlavorProfile
     flavors:
@@ -119,10 +119,10 @@
     - Fruit
 
 - type: entity
-  name: cornbread
+  name: "кукурудзяний хліб"
   parent: N14CookedFoodBreadBase
   id: N14CookedFoodBreadCorn
-  description: Some good down-home country-style, rootin'-tootin', revolver-shootin', dad-gum yeehaw cornbread.
+  description: "Трохи хорошого кантрі-стилю, з корінням, стріляниною з револьверів, кукурудзяним хлібом \"тато-гум\"."
   components:
   - type: FlavorProfile
     flavors:
@@ -144,10 +144,10 @@
 # Tastes like bread, banana, nut.
 
 - type: entity
-  name: cornbread slice
+  name: "шматочок кукурудзяного хліба"
   parent: N14CookedFoodBreadSliceBase
   id: N14CookedFoodBreadCornSlice
-  description: A slice of cornbread.
+  description: "Шматочок кукурудзяного хліба."
   components:
   - type: FlavorProfile
     flavors:
@@ -166,10 +166,10 @@
           Quantity: 3
 
 - type: entity
-  name: cream cheese bread
+  name: "хліб з вершковим сиром"
   parent: N14CookedFoodBreadBase
   id: N14CookedFoodBreadCreamcheese
-  description: Yum yum yum!
+  description: "Ням-ням-ням!"
   components:
   - type: FlavorProfile
     flavors:
@@ -194,10 +194,10 @@
 # Tastes like bread, cheese.
 
 - type: entity
-  name: cream cheese bread slice
+  name: "скибочка хліба з вершковим сиром"
   parent: N14CookedFoodBreadSliceBase
   id: N14CookedFoodBreadCreamcheeseSlice
-  description: A slice of yum!
+  description: "Шматочок смакоти!"
   components:
   - type: FlavorProfile
     flavors:
@@ -219,10 +219,10 @@
           Quantity: 1.2
 
 - type: entity
-  name: meat bread
+  name: "м'ясний хліб"
   parent: N14CookedFoodBreadBase
   id: N14CookedFoodBreadMeat
-  description: Who came up with this. Tell me. #N14 change
+  description: "Хто це придумав? Скажи мені." #N14 change
   components:
   - type: FlavorProfile
     flavors:
@@ -250,10 +250,10 @@
 # Tastes like bread, meat.
 
 - type: entity
-  name: meat bread slice
+  name: "м'ясна скибочка хліба"
   parent: N14CookedFoodBreadSliceBase
   id: N14CookedFoodBreadMeatSlice
-  description: A slice of delicious meatbread.
+  description: "Шматочок смачного м'ясного хліба."
   components:
   - type: FlavorProfile
     flavors:
@@ -277,10 +277,10 @@
     - Meat
 
 - type: entity
-  name: bread
+  name: "хліб"
   parent: N14CookedFoodBreadBase
   id: N14CookedFoodBreadPlain
-  description: Some plain old earthen bread.
+  description: "Простого старого земляного хліба."
   components:
   - type: Food
   - type: Sprite
@@ -290,10 +290,10 @@
     slice: N14CookedFoodBreadPlainSlice
 
 - type: entity
-  name: bread slice
+  name: "скибочка хліба"
   parent: N14CookedFoodBreadSliceBase
   id: N14CookedFoodBreadPlainSlice
-  description: A slice of home.
+  description: "Шматочок дому."
   components:
   - type: Food
   - type: Sprite
@@ -301,10 +301,10 @@
     - state: plain-slice
 
 - type: entity
-  name: radroll
+  name: "радіохвиля"
   parent: N14CookedFoodBreadBase
   id: N14CookedFoodBreadRadroll
-  description: Dont think too much about it.
+  description: "Не думайте про це занадто багато."
   components:
   - type: FlavorProfile
     flavors:
@@ -333,10 +333,10 @@
     - Bread
 
 - type: entity
-  name: radroll slice
+  name: "скибочка рулету"
   parent: N14CookedFoodBreadSliceBase
   id: N14CookedFoodBreadRadrollSlice
-  description: Dont think too much about it.
+  description: "Не думайте про це занадто багато."
   components:
   - type: FlavorProfile
     flavors:
@@ -362,10 +362,10 @@
     - Meat
 
 - type: entity
-  name: scorpion roll #N14 change
+  name: "скорпіоновий рулет" #N14 change
   parent: N14CookedFoodBreadBase
   id: N14CookedFoodBreadMeatRadscorp
-  description: You're assured this will neither poison you nor give you food poisoning. #N14 change
+  description: "Вас запевняють, що це не отруїть вас і не призведе до харчового отруєння." #N14 change
   components:
   - type: FlavorProfile
     flavors:
@@ -393,10 +393,10 @@
 # Tastes like bread, cobwebs.
 
 - type: entity
-  name: scorpion roll slice
+  name: "шматочок скорпіонового рулету"
   parent: N14CookedFoodBreadSliceBase
   id: N14CookedFoodBreadMeatRadscorpSlice
-  description: A slice of meatloaf made from an animal that most likely still wants you dead.
+  description: "Шматок м'ясного рулету, зроблений з тварини, яка, швидше за все, все ще хоче вашої смерті."
   components:
   - type: FlavorProfile
     flavors:
@@ -420,10 +420,10 @@
     - Meat
 
 - type: entity
-  name: tofu bread
+  name: "хліб з тофу"
   parent: N14CookedFoodBreadBase
   id: N14CookedFoodBreadTofu
-  description: Considering how hard tofu is to come by, this would be considered a delicacy if it tasted good.
+  description: "Враховуючи, як важко знайти тофу, його можна було б вважати делікатесом, якби він був смачним."
   components:
   - type: FlavorProfile
     flavors:
@@ -447,10 +447,10 @@
 # Tastes like bread, tofu.
 
 - type: entity
-  name: tofu bread slice
+  name: "скибочка хліба з тофу"
   parent: N14CookedFoodBreadSliceBase
   id: N14CookedFoodBreadTofuSlice
-  description: A slice of questionably delicious tofu bread.
+  description: "Шматочок сумнівно смачного хліба з тофу."
   components:
   - type: FlavorProfile
     flavors:
@@ -473,10 +473,10 @@
 # Other than bread/slices
 
 - type: entity
-  name: baguette
+  name: "багет"
   parent: N14CookedFoodBreadBase
   id: N14CookedFoodBreadBaguette
-  description: Bon appétit!
+  description: "Смачного!"
   components:
   - type: Tag
     tags:
@@ -502,10 +502,10 @@
 # Tastes like France.
 
 - type: entity
-  name: crostini
+  name: "кростіні"
   parent: N14CookedFoodBreadSliceBase
   id: N14CookedFoodBreadBaguetteSlice
-  description: Bon ap-petite!
+  description: "Бон аппетит!"
   components:
   - type: Sprite
     state: crostini
@@ -524,10 +524,10 @@
           Quantity: 0.1
 
 - type: entity
-  name: buttered toast
+  name: "тост з маслом"
   parent: N14CookedFoodBreadSliceBase
   id: N14CookedFoodBreadButteredToast
-  description: Crunchy and warm, seeped with hard-to-come-by butter. #N14 change
+  description: "Хрусткі та теплі, просочені важкодоступним вершковим маслом." #N14 change
   components:
   - type: FlavorProfile
     flavors:
@@ -547,10 +547,10 @@
 # Tastes like bread, butter.
 
 - type: entity
-  name: french toast
+  name: "французький тост"
   parent: N14CookedFoodBreadSliceBase
   id: N14CookedFoodBreadFrenchToast
-  description: A favorite of pre-war scouts. #N14 change
+  description: "Улюбленець довоєнних розвідників." #N14 change
   components:
   - type: FlavorProfile
     flavors:
@@ -570,10 +570,10 @@
 # Tastes like bread, butter.
 
 - type: entity
-  name: garlic bread
+  name: "часниковий хліб"
   parent: N14CookedFoodBreadSliceBase
   id: N14CookedFoodBreadGarlicSlice
-  description: Alas, it is limited. #is this a joke/reference to something? shouldn't be a problem, garlic isn't in currently
+  description: "На жаль, вона обмежена." #is this a joke/reference to something? shouldn't be a problem, garlic isn't in currently
   components:
   - type: FlavorProfile
     flavors:
@@ -594,10 +594,10 @@
 # Tastes like garlic, Italy.
 
 - type: entity
-  name: moldy bread slice
+  name: "запліснявіла скибка хліба"
   parent: N14CookedFoodBreadSliceBase
   id: N14CookedFoodBreadMoldySlice
-  description: Don't... why would you... #N14 change
+  description: "Не треба... навіщо тобі..." #N14 change
   components:
   - type: Sprite
     layers:
@@ -614,10 +614,10 @@
 # Tastes like decaying fungus.
 
 - type: entity
-  name: two slice
+  name: "два шматочка"
   parent: N14CookedFoodBreadSliceBase
   id: N14CookedFoodBreadTwoSlice
-  description: Classy.
+  description: "Шикарно."
   components:
   - type: Sprite
     layers:

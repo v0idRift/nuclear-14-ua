@@ -1,10 +1,10 @@
 # When adding new food also add to random spawner located in Resources\Prototypes\Entities\Markers\Spawners\Random\Food_Drinks\food_single.yml
 
 - type: entity
-  name: taco shell
+  name: "оболонка для тако"
   parent: N14CookedFoodMealBase
   id: N14CookedFoodTacoShell
-  description: A taco shell, easy to hold, but falls on its side when put down.
+  description: "Оболонка для тако, яку легко тримати, але вона падає на бік, коли її кладуть."
   components:
   - type: Item
     storedRotation: -90
@@ -52,30 +52,30 @@
       - Meat
 
 - type: entity
-  name: meat taco
+  name: "м'ясний тако"
   parent: N14CookedFoodTacoBase
   id: N14CookedFoodTacoMeat
-  description: A crispy, cheesy taco. Fuck, imagine this with SPICE... #N14 change
+  description: "Хрусткий сирний тако. Бляха, уявіть собі це зі спеціями..." #N14 change
   components:
   - type: Food
   - type: Sprite
     state: beeftaco
 
 - type: entity
-  name: chicken taco
+  name: "курячий тако"
   parent: N14CookedFoodTacoBase
   id: N14CookedFoodTacoChicken
-  description: A flaky chicken taco, now with cheese! #N14 change
+  description: "Курячий тако з хрусткою скоринкою, тепер з сиром!" #N14 change
   components:
   - type: Food
   - type: Sprite
     state: chickentaco
 
 - type: entity
-  name: fish taco
+  name: "рибний тако"
   parent: N14CookedFoodTacoBase
   id: N14CookedFoodTacoFish
-  description: Once, there were no fish left in these waters.
+  description: "Колись у цих водах не залишилося риби."
   components:
   - type: FlavorProfile
     flavors:
@@ -95,10 +95,10 @@
           Quantity: 6
 
 - type: entity
-  name: rat taco
+  name: "щурячий тако"
   parent: N14CookedFoodTacoBase
   id: N14CookedFoodTacoRat
-  description: Yeah, that looks about right...
+  description: "Так, це виглядає приблизно так..."
   components:
   - type: Food
   - type: Sprite
@@ -114,10 +114,10 @@
           Quantity: 4
 
 - type: entity
-  name: meat taco supreme
+  name: "м'ясний тако супрем"
   parent: N14CookedFoodTacoBase
   id: N14CookedFoodTacoMeatSupreme
-  description: REJOICE, SCUM! #N14 change
+  description: "РАДІЙТЕ, ПОКИДЬКИ!" #N14 change
   components:
   - type: Food
   - type: Sprite
@@ -133,10 +133,10 @@
           Quantity: 6
 
 - type: entity
-  name: chicken taco supreme
+  name: "курячий тако супер"
   parent: N14CookedFoodTacoBase
   id: N14CookedFoodTacoChickenSupreme
-  description: Favorite food of Lord Humungous. #N14 change
+  description: "Улюблена їжа Лорда Хамунгуса." #N14 change
   components:
   - type: Food
   - type: Sprite
@@ -152,10 +152,10 @@
           Quantity: 6
 
 - type: entity
-  name: soft taco
+  name: "м'який тако"
   parent: N14CookedFoodMealBase
   id: N14CookedFoodMealSoftTaco
-  description: Take a bite!
+  description: "Скуштуй!"
   components:
   - type: FlavorProfile
     flavors:

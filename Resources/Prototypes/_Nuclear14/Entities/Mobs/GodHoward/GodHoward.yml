@@ -1,8 +1,8 @@
 - type: entity
-  name: God Howard
+  name: "Боже Говарде"
   id: N14GodHoward
   parent: N14MobBaseHostile
-  description: "'It just works'."
+  description: "Це просто працює\"."
   components:
   - type: Sprite
     drawdepth: Mobs

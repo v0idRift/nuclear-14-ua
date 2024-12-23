@@ -30,8 +30,8 @@
   parent: N14CrateBreakPlain
   id: N14CrateBreakPlainFilledCigarettesRepublic
   suffix: republics
-  name: Republic cigarette crate
-  description: Crate containing 6 republic cig packs
+  name: "Сигаретний ящик Republic"
+  description: "Ящик з 6 пачками сигарет Republic"
   components:
   - type: StorageFill
     contents:
@@ -41,8 +41,8 @@
 - type: entity
   parent: N14CrateBreakPlain
   id: N14CrateBreakPlainFilledSteelSheet
-  name: Steel sheets crate
-  description: Crate containing 30 steel sheets
+  name: "Обрешітка зі сталевих листів"
+  description: "Ящик, що містить 30 сталевих листів"
   components:
   - type: StorageFill
     contents:
@@ -52,8 +52,8 @@
 - type: entity
   parent: N14CrateBreakPlain
   id: N14CrateBreakPlainFilledPlasticSheet
-  name: Plastic sheets crate
-  description: Crate containing 30 plastic sheets
+  name: "Ящик для пластикових листів"
+  description: "Ящик, що містить 30 пластикових листів"
   components:
   - type: StorageFill
     contents:
@@ -63,8 +63,8 @@
 - type: entity
   parent: N14CrateBreakPlain
   id: N14CrateBreakPlainFilledGlassSheet
-  name: Glass sheets crate
-  description: Crate containing 30 glass sheets
+  name: "Обрешітка зі скляних листів"
+  description: "Ящик з 30 листами скла"
   components:
   - type: StorageFill
     contents:
@@ -74,8 +74,8 @@
 - type: entity
   parent: N14CrateBreakPlain
   id: N14CrateBreakPlainFilledWood
-  name: Wood crate
-  description: Crate containing 30 wood planks
+  name: "Дерев'яний ящик"
+  description: "Ящик з 30 дерев'яними дошками"
   components:
   - type: StorageFill
     contents:
@@ -85,8 +85,8 @@
 - type: entity
   parent: N14CrateBreakPlain
   id: N14CrateBreakPlainFilledMechanicParts
-  name: Mechanic parts crate
-  description: Crate containing 4 screws, 2 small gears and 2 large gears
+  name: "Ящик для механічних деталей"
+  description: "Ящик з 4 гвинтами, 2 маленькими шестернями та 2 великими шестернями"
   components:
   - type: StorageFill
     contents:
@@ -100,8 +100,8 @@
 - type: entity
   parent: N14CrateBreakPlain
   id: N14CrateBreakPlainFilledAdhesive
-  name: Adhesives crate
-  description: Crate containing 4 duct tapes
+  name: "Ящик для клею"
+  description: "Ящик з 4 клейкими стрічками"
   components:
   - type: StorageFill
     contents:
@@ -111,8 +111,8 @@
 - type: entity
   parent: N14CrateBreakPlain
   id: N14CrateBreakPlainFilledStimpak
-  name: Stimpak crate
-  description: Crate containing 6 stimpaks
+  name: "Ящик Стимпак"
+  description: "Ящик з 6 стимпаками"
   components:
   - type: StorageFill
     contents:
@@ -122,8 +122,8 @@
 - type: entity
   parent: N14CrateBreakPlain
   id: N14CrateBreakPlainFilledEmergencyRations
-  name: Premium rations crate
-  description: Crate containing 2 Pork n' Beans, 2 BlamCo Mac & Cheese, 2 Salisbury Steak and 2 Dandy Boy Apples.
+  name: "Ящик для пайків преміум-класу"
+  description: "Ящик містить 2 свинини з квасолею, 2 макарони з сиром BlamCo, 2 стейки Солсбері та 2 яблука Dandy Boy."
   components:
   - type: StorageFill
     contents:
@@ -139,8 +139,8 @@
 - type: entity
   parent: N14CrateArmy
   id: N14CrateArmyFilledSmallGameRifle
-  name: Small game rifle crate
-  description: Crate containing 4 Varmint rifles.
+  name: "Ящик для дрібнокаліберної гвинтівки"
+  description: "Ящик з 4 гвинтівками Varmint."
   components:
   - type: StorageFill
     contents:
@@ -150,8 +150,8 @@
 - type: entity
   parent: N14CrateBreakPlain
   id: N14CrateBreakPlainFilledWatterBottle
-  name: Water bottles crate
-  description: Crate containing 10 water bottles
+  name: "Ящик для пляшок з водою"
+  description: "Ящик з 10 пляшками води"
   components:
   - type: StorageFill
     contents:
@@ -161,8 +161,8 @@
 - type: entity
   parent: N14CrateBreakPlain
   id: N14CrateBreakPlainFilledNukaCola
-  name: Nuka cola crate
-  description: Crate containing 10 nuka colas
+  name: "Ящик з-під кока-коли Nuka"
+  description: "Ящик з 10 нука-колами"
   components:
   - type: StorageFill
     contents:
@@ -172,8 +172,8 @@
 - type: entity
   parent: N14CrateBreakPlain
   id: N14CrateBreakPlainFilledGunpowder
-  name: Gunpowder crate
-  description: Crate containing 20 gunpowder
+  name: "Пороховий ящик"
+  description: "Ящик з 20 порохами"
   components:
   - type: StorageFill
     contents:
@@ -182,8 +182,8 @@
 - type: entity
   parent: N14CrateBreakPlain
   id: N14CrateBreakPlainFilledLeadBar
-  name: Lead bars crate
-  description: Crate containing 20 lead bars
+  name: "Ящик для свинцевих прутків"
+  description: "Ящик з 20 свинцевими прутками"
   components:
   - type: StorageFill
     contents:
@@ -192,8 +192,8 @@
 - type: entity
   parent: N14CrateBreakPlain
   id: N14CrateBreakPlainFilledAbraxo
-  name: Abraxo cleaner crate
-  description: Crate containing 4 Abraxo Cleaners
+  name: "Ящик для прибирання Abraxo"
+  description: "Ящик з 4 очисниками Abraxo"
   components:
   - type: StorageFill
     contents:
@@ -203,8 +203,8 @@
 - type: entity
   parent: N14CrateBreakPlain
   id: N14CrateBreakPlainFilledRadaway
-  name: Radiation crate
-  description: Crate containing 6 Radaways
+  name: "Радіаційний ящик"
+  description: "Ящик, що містить 6 Radaways"
   components:
   - type: StorageFill
     contents:
@@ -214,8 +214,8 @@
 - type: entity
   parent: N14CrateBreakPlain
   id: N14CrateBreakPlainFilledOintment
-  name: Burn crate
-  description: Crate containing 6 ointments
+  name: "Ящик для спалювання"
+  description: "Ящик з 6 мазями"
   components:
   - type: StorageFill
     contents:
@@ -225,8 +225,8 @@
 - type: entity
   parent: N14CrateBreakPlain
   id: N14CrateBreakPlainFilledAntidote
-  name: Antivenom crate
-  description: Crate containing 2 bottles of antidote
+  name: "Ящик з протиотрутою"
+  description: "Ящик з 2 флаконами антидоту"
   components:
   - type: StorageFill
     contents:

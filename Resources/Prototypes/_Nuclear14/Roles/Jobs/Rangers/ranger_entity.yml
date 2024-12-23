@@ -1,7 +1,7 @@
 - type: entity
   parent: MobHuman
   id: N14MobHumanRanger
-  name: Desert Ranger
+  name: "Пустельний рейнджер"
   components:
     - type: Icon
       sprite: _Nuclear14/Markers/Jobs/rangers.rsi
@@ -21,7 +21,7 @@
 - type: entity
   parent: N14MobHumanRanger
   id: N14MobHumanRangerRecruit
-  name: Desert Ranger Recruit
+  name: "Рекрут пустельного рейнджера"
   components:
     - type: Icon
       state: recruit
@@ -40,7 +40,7 @@
 - type: entity
   parent: N14MobHumanRanger
   id: N14MobHumanRangerVeteran
-  name: Desert Ranger Veteran
+  name: "Ветеран пустельних рейнджерів"
   components:
     - type: Icon
       state: veteran
@@ -59,7 +59,7 @@
 - type: entity
   parent: N14MobHumanRanger
   id: N14MobHumanRangerChief
-  name: Desert Ranger Chief
+  name: "Шеф пустельних рейнджерів"
   components:
     - type: Icon
       state: veteran

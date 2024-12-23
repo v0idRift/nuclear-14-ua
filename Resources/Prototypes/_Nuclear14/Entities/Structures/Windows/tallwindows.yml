@@ -6,7 +6,7 @@
 - type: entity
   parent: BaseStructure
   id: N14WindowTallBase
-  name: window frame
+  name: "віконна рама"
   abstract: true
   components:
   - type: Sprite
@@ -50,8 +50,8 @@
 - type: entity
   parent: N14WindowBase
   id: N14WindowTall
-  description: A window for seeing into places. 
-  name: window
+  description: "Вікно, через яке можна зазирнути в інші місця."
+  name: "вікно"
   noSpawn: true
   components:
   - type: Airtight
@@ -100,8 +100,8 @@
     
 - type: entity
   id: N14WindowTallBroken
-  name: broken glass
-  description: Broken remains of a window.
+  name: "бите скло"
+  description: "Розбиті залишки вікна."
   noSpawn: true
   placement:
     mode: SnapgridCenter
