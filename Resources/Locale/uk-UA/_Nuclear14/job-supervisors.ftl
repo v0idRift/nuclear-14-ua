@@ -19,3 +19,17 @@ job-supervisors-townsfolk = міський голова
 
 job-supervisors-bos-washington-commander = приведіть свою фракцію до перемоги!
 job-supervisors-bos-washington-initiate = виконувати накази від усіх інших ролей у розділі
+job-supervisors-bos-mid-initiate = будь-кому в Середньозахідному відділенні
+job-supervisors-bos-mid-knight = паладини Середньозахідного осередку
+job-supervisors-bos-mid-commander = ніхто, окрім Ради Старійшин та вашого почуття обов'язку
+job-supervisors-bos-wash-initiate = будь-кого у вашингтонському відділенні
+job-supervisors-bos-wash-knight = паладини вашингтонського осередку
+job-supervisors-bos-wash = командир вашого бункера
+job-supervisors-bos-wash-commander = ніхто, крім Старійшини і вашого почуття обов'язку
+job-supervisors-ncr-sgt = лейтенант армії НЦР
+job-supervisors-ncr-lt = ваша місія та закони NCR
+job-supervisors-ncr-ranger = ваш моральний кодекс та закони NCR
+job-supervisors-vault = наглядач
+job-supervisors-townsfolk-deputy = місцевий шериф
+job-supervisors-townsfolk-sheriff = мера та/або ваше почуття справедливості
+job-supervisors-townsfolk-mayor = людей, яких ви представляєте, або власні амбіції

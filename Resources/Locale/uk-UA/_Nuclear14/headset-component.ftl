@@ -14,3 +14,4 @@ chat-radio-boswashington = Братство Вашингтон
 chat-radio-enclave = Анклав
 chat-radio-ncr = NCR
 announcer-Fallout-name = Пустка
+chat-radio-pbs = Суспільне мовлення
