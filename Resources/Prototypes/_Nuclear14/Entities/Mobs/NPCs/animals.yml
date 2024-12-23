@@ -726,8 +726,9 @@
     critThreshold: 250
   - type: SlowOnDamage
     speedModifierThresholds:
-      250: 0.7
-      400: 0.5
+      100: 1.05
+      250: 1.1
+      400: 1.2
   - type: DamageStateVisuals
     states:
       Alive:
@@ -746,12 +747,12 @@
     wideAnimation: WeaponArcClaw
     damage:
       types:
-        Slash: 15
-        Structural: 5
-    range: 1.75
+        Slash: 20
+        Structural: 15
+    range: 2
   - type: MovementSpeedModifier
-    baseWalkSpeed : 4
-    baseSprintSpeed : 5.5
+    baseWalkSpeed : 3
+    baseSprintSpeed : 6
   - type: Hands
   - type: Puller
   - type: Tool
@@ -819,8 +820,8 @@
     wideAnimation: WeaponArcClaw
     damage:
       types:
-        Slash: 22
-        Structural: 10
+        Slash: 25
+        Structural: 20
   - type: MobThresholds
     thresholds:
       0: Alive
@@ -896,7 +897,7 @@
   components:
   - type: Sprite
     drawdepth: Mobs
-    scale: 1.5, 1.5
+    scale: 1.25, 1.25
     layers:
     - map: ["enum.DamageStateVisualLayers.Base"]
       state: brahmin-2
@@ -1234,3 +1235,141 @@
   - type: HTN
     rootTask:
       task: MouseCompound
+
+#MARK: Beaver
+- type: entity
+  parent: N14MobBaseSimple
+  id: N14MobNuclearBeaver
+  name: nuclear beaver
+  description: Wonder what kind of trees its knawed down.
+  components:
+  - type: Sprite
+    drawdepth: Mobs
+    layers:
+    - map: ["enum.DamageStateVisualLayers.Base"]
+      state: beaver
+      sprite: _Nuclear14/Mobs/Animals/beaver.rsi
+  - type: DamageStateVisuals
+    states:
+      Alive:
+        Base: beaver
+      Dead:
+        Base: dead
+  - type: Butcherable
+    spawned:
+    - id: N14FoodMeatRadRaw
+      amount: 1
+      prob: 0.95
+  - type: Damageable
+    damageContainer: Biological
+    damageModifierSet: WastelandAnimal
+
+#MARK: Opossum
+- type: entity
+  parent: N14MobBaseSimple
+  id: N14MobNuclearOpossum
+  name: nuclear opossum
+  description: Play dead!
+  components:
+  - type: Sprite
+    drawdepth: Mobs
+    layers:
+    - map: ["enum.DamageStateVisualLayers.Base"]
+      state: opossum
+      sprite: _Nuclear14/Mobs/Animals/opossum.rsi
+  - type: DamageStateVisuals
+    states:
+      Alive:
+        Base: opossum
+      Dead:
+        Base: dead
+  - type: Butcherable
+    spawned:
+    - id: N14FoodMeatRadRaw
+      amount: 1
+      prob: 0.95
+  - type: Damageable
+    damageContainer: Biological
+    damageModifierSet: WastelandAnimal
+
+- type: entity
+  parent: N14MobBaseSimple
+  id: N14MobOpossum
+  name: opossum
+  description: Play dead!
+  components:
+  - type: Sprite
+    drawdepth: Mobs
+    layers:
+    - map: ["enum.DamageStateVisualLayers.Base"]
+      state: normopossum
+      sprite: _Nuclear14/Mobs/Animals/opossum.rsi
+  - type: DamageStateVisuals
+    states:
+      Alive:
+        Base: normopossum
+      Dead:
+        Base: dead
+  - type: Butcherable
+    spawned:
+    - id: N14FoodMeatRadRaw #At some point need their own meat
+      amount: 1
+      prob: 0.95
+  - type: Damageable
+    damageContainer: Biological
+    damageModifierSet: WastelandAnimal
+
+#MARK: Rabbit
+- type: entity
+  parent: N14MobBaseSimple
+  id: N14MobNuclearRabbit
+  name: nuclear rabbit
+  description: Not a cotton-tail anymore, huh.
+  components:
+  - type: Sprite
+    drawdepth: Mobs
+    layers:
+    - map: ["enum.DamageStateVisualLayers.Base"]
+      state: rabbit
+      sprite: _Nuclear14/Mobs/Animals/rabbit.rsi
+  - type: DamageStateVisuals
+    states:
+      Alive:
+        Base: rabbit
+      Dead:
+        Base: dead
+  - type: Butcherable
+    spawned:
+    - id: N14FoodMeatRadRaw
+      amount: 1
+      prob: 0.95
+  - type: Damageable
+    damageContainer: Biological
+    damageModifierSet: WastelandAnimal
+
+- type: entity
+  parent: N14MobBaseSimple
+  id: N14MobRabbit
+  name: rabbit
+  description: What a sweet little cotton-tail!
+  components:
+  - type: Sprite
+    drawdepth: Mobs
+    layers:
+    - map: ["enum.DamageStateVisualLayers.Base"]
+      state: normrabbit
+      sprite: _Nuclear14/Mobs/Animals/rabbit.rsi
+  - type: DamageStateVisuals
+    states:
+      Alive:
+        Base: normrabbit
+      Dead:
+        Base: dead
+  - type: Butcherable
+    spawned:
+    - id: N14FoodMeatRadRaw #At some point need their own meat
+      amount: 1
+      prob: 0.95
+  - type: Damageable
+    damageContainer: Biological
+    damageModifierSet: WastelandAnimal
