@@ -1,8 +1,8 @@
 - type: job
   id: PreventorOfficer
   setPreference: true
-  name: "офіцер превенції"
-  description: "переконайтеся, що комерційні угоди між урядом Ванкувера та \"Блакитною лінією\" виконані." #need work
+  name: preventor officer
+  description: make sure the vancouver goverment and blue line commercial agreements are accomplished. #need work
   playTimeTracker: PreventorOfficer
   startingGear: PreventorOfficerGear
   icon: "JobIconSecurityCadet"

@@ -34,7 +34,7 @@
   parent: FoodInjectableBase # Not sliceable
   id: N14CookedFoodPieSliceBase
   abstract: true
-  description: "Шматочок пирога. Смакота!"
+  description: A slice of pie. Tasty!
   components:
   - type: Item
     size: Tiny
@@ -56,10 +56,10 @@
 # Pie
 
 - type: entity
-  name: "мускатний пиріг" #N14 change
+  name: mutfruit pie #N14 change
   parent: N14CookedFoodPieBase
   id: N14CookedFoodPieMutfruit
-  description: "Це все... недбало." #N14 change
+  description: It's all... gloppy. #N14 change
   components:
   - type: FlavorProfile
     flavors:
@@ -77,7 +77,7 @@
     - Pie
 
 - type: entity
-  name: "шматочок пирога з мускатним горіхом" #N14 change
+  name: slice of mutfruit pie #N14 change
   parent: N14CookedFoodPieSliceBase
   id: N14CookedFoodPieMutfruitSlice
   components:
@@ -97,10 +97,10 @@
 # Tastes like pie, apple.
 
 - type: entity
-  name: "пахлава"
+  name: baklava
   parent: N14CookedFoodPieBase
   id: N14CookedFoodPieBaklava
-  description: "Чудова корисна закуска з горіхових шарів з тонким хлібом."
+  description: A delightful healthy snack made of nut layers with thin bread.
   components:
   - type: FlavorProfile
     flavors:
@@ -114,10 +114,10 @@
     slice: N14CookedFoodPieBaklavaSlice
 
 - type: entity
-  name: "шматочок пахлави"
+  name: slice of baklava
   parent: N14CookedFoodPieSliceBase
   id: N14CookedFoodPieBaklavaSlice
-  description: "Порція чудової корисної закуски з горіхових шарів з тонким хлібом."
+  description: A portion of a delightful healthy snack made of nut layers with thin bread.
   components:
   - type: FlavorProfile
     flavors:
@@ -128,10 +128,10 @@
 # Tastes like pie, nuts.
 
 - type: entity
-  name: "ожиновий пиріг" #N14 change
+  name: blackberry pie #N14 change
   parent: N14CookedFoodPieBase
   id: N14CookedFoodPieBlackberry
-  description: "Солодкий, легкий ягідний пиріг, що забарвлює зуби у фіолетовий колір. Ти живеш на широку ногу, друже." #N14 change
+  description: Sweet, light berry pie that stains your teeth purple. You're living large, friend. #N14 change
   components:
   - type: FlavorProfile
     flavors:
@@ -150,7 +150,7 @@
     - Pie
 
 - type: entity
-  name: "шматочок ожинового пирога" #N14 change
+  name: slice of blackberry pie #N14 change
   parent: N14CookedFoodPieSliceBase
   id: N14CookedFoodPieBlackberrySlice
   components:
@@ -170,10 +170,10 @@
 # Tastes like pie, blackberries.
 
 - type: entity
-  name: "м'ясний пиріг"
+  name: meat pie
   parent: N14CookedFoodPieBase
   id: N14CookedFoodPieMeat
-  description: "На смак як відходи." #N14 change
+  description: Tastes like the wastes. #N14 change
   components:
   - type: FlavorProfile
     flavors:
@@ -190,7 +190,7 @@
     - Pie
 
 - type: entity
-  name: "шматок м'ясного пирога"
+  name: slice of meat pie
   parent: N14CookedFoodPieSliceBase
   id: N14CookedFoodPieMeatSlice
   components:
@@ -211,10 +211,10 @@
 # Tart
 
 - type: entity
-  name: "шоколадний пиріг з лавою"
+  name: chocolate lava tart
   parent: N14CookedFoodPieBase
   id: N14CookedFoodTartCoco
-  description: "Смачний десерт з шоколаду, з рідкою серцевиною."
+  description: A tasty dessert made of chocolate, with a liquid core.
   components:
   - type: FlavorProfile
     flavors:

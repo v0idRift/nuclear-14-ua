@@ -1,8 +1,8 @@
 - type: entity
-  name: "репортерське перо"
+  name: reporters pen
   parent: Pen
   id: N14PenReporter
-  description: "Унікальна ручка, яка використовує кулькову ручку для універсальності. Читає новини Пустки."
+  description: A one of a kind pen that uses a ballpoint for versatility. Reads Wasteland News.
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Misc/pens.rsi
@@ -16,10 +16,10 @@
       Steel: 25
 
 - type: entity
-  name: "журнал"
+  name: magazine
   parent: BaseItem
   id: N14Magazine
-  description: "журнал, знайдений на пустирі"
+  description: 'a magazine found in the wasteland'
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Misc/magazines.rsi
@@ -68,10 +68,10 @@
     sound: /Audio/SimpleStation14/Items/Handling/paper_drop.ogg
 
 - type: entity
-  name: "дивовижні історії, що вражають уяву"
+  name: astoundingly awesome tales
   parent: N14Magazine
   id: N14MagazineAwesome
-  description: "збірка дивовижних історій, що вражають уяву"
+  description: "a collection of astoundingly awesome tales"
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Misc/magazines.rsi
@@ -79,10 +79,10 @@
     - state: magazine_awesome
 
 - type: entity
-  name: "дивовижні історії, що вражають уяву"
+  name: astoundingly awesome tales
   parent: N14Magazine
   id: N14MagazineAwesomeDirty
-  description: "збірка приголомшливо крутих історій, хоч і трохи брудних"
+  description: "a collection of astoundingly awesome tales, though it's a bit dirty"
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Misc/magazines.rsi
@@ -90,10 +90,10 @@
     - state: magazine_awesome_dirty
 
 - type: entity
-  name: "посібник з таємних операцій"
+  name: covert operations manual
   parent: N14Magazine
   id: N14MagazineCovert
-  description: "Тільки для уповноважених осіб"
+  description: "Authorized Eyes Only"
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Misc/magazines.rsi
@@ -101,10 +101,10 @@
     - state: magazine_covert
 
 - type: entity
-  name: "посібник з таємних операцій"
+  name: covert operations manual
   parent: N14Magazine
   id: N14MagazineCovertDirty
-  description: "Тільки для уповноважених осіб"
+  description: "Authorized Eyes Only"
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Misc/magazines.rsi
@@ -112,10 +112,10 @@
     - state: magazine_covert_dirty
 
 - type: entity
-  name: "варвар ГРОГНАК"
+  name: grognak the barbarian
   parent: N14Magazine
   id: N14MagazineGrognak
-  description: "слідуйте за доісторичною людиною в її пригодах"
+  description: "follow the prehistoric man on his adventures"
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Misc/magazines.rsi
@@ -123,10 +123,10 @@
     - state: magazine_grognak
 
 - type: entity
-  name: "варвар ГРОГНАК"
+  name: grognak the barbarian
   parent: N14Magazine
   id: N14MagazineGrognakDirty
-  description: "слідувати за доісторичною людиною в її пригодах, хоча це трохи брудно"
+  description: "follow the prehistoric man on his adventures, though it's a bit dirty"
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Misc/magazines.rsi
@@ -134,10 +134,10 @@
     - state: magazine_grognak_dirty
 
 - type: entity
-  name: "зброя та набої"
+  name: guns and bullets
   parent: N14Magazine
   id: N14MagazineGuns
-  description: "журнал, присвячений практичному використанню вогнепальної зброї, з періодичними упередженими оглядами"
+  description: "a magazine devoted to the practical use of firearms, and the occasional biased review"
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Misc/magazines.rsi
@@ -145,10 +145,10 @@
     - state: magazine_guns
 
 - type: entity
-  name: "зброя та набої"
+  name: guns and bullets
   parent: N14Magazine
   id: N14MagazineGunsDirty
-  description: "журнал, присвячений практичному використанню вогнепальної зброї, і час від часу упереджені огляди, хоча й трохи брудні"
+  description: "a magazine devoted to the practical use of firearms, and the occasional biased review, though it's a bit dirty"
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Misc/magazines.rsi
@@ -156,10 +156,10 @@
     - state: magazine_guns_dirty
 
 - type: entity
-  name: "розповіді торговця в'яленим м'ясом з придорожнього містечка"
+  name: tales of a junktown jerky vendor
   parent: N14Magazine
   id: N14MagazineJunktown
-  description: "Серія книг/журналів про торгівлю та бартер, написаних невідомим продавцем в'яленого м'яса з Джанктауна, Каліфорнія"
+  description: "A series of books/magazines about trading and barter written by an unknown jerky vendor from Junktown, California"
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Misc/magazines.rsi
@@ -167,10 +167,10 @@
     - state: magazine_junktown
 
 - type: entity
-  name: "розповіді торговця в'яленим м'ясом з придорожнього містечка"
+  name: tales of a junktown jerky vendor
   parent: N14Magazine
   id: N14MagazineJunktownDirty
-  description: "Серія книг/журналів про торгівлю та бартер, написаних невідомим продавцем в'яленого м'яса з Джанктауна, штат Каліфорнія, хоча це трохи брудно"
+  description: "A series of books/magazines about trading and barter written by an unknown jerky vendor from Junktown, California, though it's a bit dirty"
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Misc/magazines.rsi
@@ -178,10 +178,10 @@
     - state: magazine_junktown_dirty
 
 - type: entity
-  name: "массачусетський хірургічний журнал"
+  name: massachusetts surgical journal
   parent: N14Magazine
   id: N14MagazineMass
-  description: "массачусетський хірургічний журнал"
+  description: "the massachusetts surgical journal"
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Misc/magazines.rsi
@@ -189,10 +189,10 @@
     - state: magazine_massachusetts
 
 - type: entity
-  name: "массачусетський хірургічний журнал"
+  name: massachusetts surgical journal
   parent: N14Magazine
   id: N14MagazineMassDirty
-  description: "массачусетський хірургічний журнал, хоча він трохи брудний"
+  description: "massachusetts surgical journal, though it's a bit dirty"
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Misc/magazines.rsi
@@ -200,10 +200,10 @@
     - state: magazine_massachusetts_dirty
 
 - type: entity
-  name: "сміття!"
+  name: scav!
   parent: N14Magazine
   id: N14MagazineScav
-  description: "СНІД!"
+  description: "SCAV!"
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Misc/magazines.rsi
@@ -211,10 +211,10 @@
     - state: magazine_scav
 
 - type: entity
-  name: "сміття!"
+  name: scav!
   parent: N14Magazine
   id: N14MagazineScavDirty
-  description: "SCAV!, хоча він трохи брудний"
+  description: "SCAV!, though it's a bit dirty"
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Misc/magazines.rsi
@@ -222,10 +222,10 @@
     - state: magazine_scav_dirty
 
 - type: entity
-  name: "наука тесла"
+  name: tesla science
   parent: N14Magazine
   id: N14MagazineTesla
-  description: "Випуск журналу Tesla Science"
+  description: "An issue of Tesla Science"
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Misc/magazines.rsi
@@ -233,10 +233,10 @@
     - state: magazine_tesla
 
 - type: entity
-  name: "наука тесла"
+  name: tesla science
   parent: N14Magazine
   id: N14MagazineTeslaDirty
-  description: "Випуск Tesla Science, хоч і трохи брудний"
+  description: "An issue of Tesla Science, though it's a bit dirty"
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Misc/magazines.rsi
@@ -244,10 +244,10 @@
     - state: magazine_tesla_dirty
 
 - type: entity
-  name: "сьогодні"
+  name: tumblers today
   parent: N14Magazine
   id: N14MagazineTumblers
-  description: "Випуск Tumblers Today"
+  description: "An issue of Tumblers Today"
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Misc/magazines.rsi
@@ -255,10 +255,10 @@
     - state: magazine_tumblers
 
 - type: entity
-  name: "сьогодні"
+  name: tumblers today
   parent: N14Magazine
   id: N14MagazineTumblersDirty
-  description: "Випуск Tumblers Today, хоч і трохи брудний"
+  description: "An issue of Tumblers Today, though it's a bit dirty"
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Misc/magazines.rsi
@@ -266,10 +266,10 @@
     - state: magazine_tumblers_dirty
 
 - type: entity
-  name: "нестримні"
+  name: unstoppables
   parent: N14Magazine
   id: N14MagazineUnstoppables
-  description: "Випуск \"Нестримних"
+  description: "An issue of Unstoppables"
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Misc/magazines.rsi
@@ -277,10 +277,10 @@
     - state: magazine_unstoppable
 
 - type: entity
-  name: "нестримні"
+  name: unstoppables
   parent: N14Magazine
   id: N14MagazineUnstoppablesDirty
-  description: "Випуск \"Нестримних\", хоч і трохи брудний"
+  description: "An issue of Unstoppables, though it's a bit dirty"
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Misc/magazines.rsi
@@ -288,10 +288,10 @@
     - state: magazine_unstoppable_dirty
 
 - type: entity
-  name: "посібник з виживання на пустирях"
+  name: wasteland survival guide
   parent: N14Magazine
   id: N14MagazineWasteland
-  description: "Випуск посібника з виживання на пустирях"
+  description: "An issue of the Wasteland Survival Guide"
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Misc/magazines.rsi
@@ -299,10 +299,10 @@
     - state: magazine_wasteland
 
 - type: entity
-  name: "жити і любити"
+  name: live and love
   parent: N14Magazine
   id: N14MagazineLive
-  description: "Випуск журналу \"Живи і люби"
+  description: "An issue of Live and Love"
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Misc/magazines.rsi

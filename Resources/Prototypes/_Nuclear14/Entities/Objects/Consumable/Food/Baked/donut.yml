@@ -4,7 +4,7 @@
   parent: FoodInjectableBase
   id: N14CookedFoodDonutBase
   abstract: true
-  description: "Чудово смакує з міцною кавою."
+  description: Goes great with robust coffee.
   components:
   - type: Food
   - type: Tag
@@ -34,7 +34,7 @@
 # Plain Donuts
 
 - type: entity
-  name: "звичайний пончик"
+  name: plain donut
   parent: N14CookedFoodDonutBase
   id: N14CookedFoodDonutPlain
   components:
@@ -45,7 +45,7 @@
     state: plain
 
 - type: entity
-  name: "звичайний желейний пончик"
+  name: plain jelly-donut
   parent: N14CookedFoodDonutBase
   id: N14CookedFoodDonutJellyPlain
   components:
@@ -67,7 +67,7 @@
 # Donuts
 
 - type: entity
-  name: "пончик"
+  name: donut
   parent: N14CookedFoodDonutBase
   id: N14CookedFoodDonutHomer
   components:
@@ -80,10 +80,10 @@
     heldPrefix: pink
 
 - type: entity
-  name: "м'ясний пончик"
+  name: meat donut
   parent: N14CookedFoodDonutBase
   id: N14CookedFoodDonutMeat
-  description: "На смак така ж гидота, як і на вигляд."
+  description: Tastes as gross as it looks.
   components:
   - type: FlavorProfile
     flavors:
@@ -96,10 +96,10 @@
 # Tastes like meat.
 
 - type: entity
-  name: "рожевий пончик"
+  name: pink donut
   parent: N14CookedFoodDonutBase
   id: N14CookedFoodDonutPink
-  description: "Чудово поєднується з соєвим лате."
+  description: Goes great with a soy latte.
   components:
   - type: FlavorProfile
     flavors:
@@ -110,10 +110,10 @@
     heldPrefix: pink
 
 - type: entity
-  name: "яблучний пончик"
+  name: apple donut
   parent: N14CookedFoodDonutBase
   id: N14CookedFoodDonutApple
-  description: "Чудово смакує з порцією шнапсу з корицею."
+  description: Goes great with a shot of cinnamon schnapps.
   components:
   - type: FlavorProfile
     flavors:
@@ -124,20 +124,20 @@
 # Tastes like donut, green apples.
 
 - type: entity
-  name: "карамельний пончик"
+  name: caramel donut
   parent: N14CookedFoodDonutBase
   id: N14CookedFoodDonutCaramel
-  description: "Чудово смакує з чашкою гарячого какао."
+  description: Goes great with a mug of hot coco.
   components:
   - type: Sprite
     state: beige
 # Tastes like donut, buttery sweetness.
 
 - type: entity
-  name: "шоколадний пончик"
+  name: chocolate donut
   parent: N14CookedFoodDonutBase
   id: N14CookedFoodDonutChocolate
-  description: "Чудово смакує зі склянкою теплого молока."
+  description: Goes great with a glass of warm milk.
   components:
   - type: FlavorProfile
     flavors:
@@ -158,10 +158,10 @@
 # Jelly Donuts
 
 - type: entity
-  name: "желейний пончик"
+  name: jelly-donut
   parent: N14CookedFoodDonutBase
   id: N14CookedFoodDonutJellyHomer
-  description: "Ти желе?"
+  description: You jelly?
   components:
   - type: Sprite
     state: jelly-homer
@@ -178,10 +178,10 @@
           Quantity: 1
 
 - type: entity
-  name: "рожевий желейний пончик"
+  name: pink jelly-donut
   parent: N14CookedFoodDonutBase
   id: N14CookedFoodDonutJellyPink
-  description: "Чудово поєднується з соєвим лате."
+  description: Goes great with a soy latte.
   components:
   - type: Sprite
     state: jelly-pink
@@ -198,10 +198,10 @@
           Quantity: 1
 
 - type: entity
-  name: "яблучний пончик-желе"
+  name: apple jelly-donut
   parent: N14CookedFoodDonutBase
   id: N14CookedFoodDonutJellyApple
-  description: "Чудово смакує з порцією шнапсу з корицею."
+  description: Goes great with a shot of cinnamon schnapps.
   components:
   - type: Sprite
     state: jelly-green
@@ -220,10 +220,10 @@
 # Tastes like jelly-donut, green apples.
 
 - type: entity
-  name: "карамельний желейний пончик"
+  name: caramel jelly-donut
   parent: N14CookedFoodDonutBase
   id: N14CookedFoodDonutJellyCaramel
-  description: "Чудово смакує з чашкою гарячого какао."
+  description: Goes great with a mug of hot coco.
   components:
   - type: Sprite
     state: jelly-beige
@@ -239,10 +239,10 @@
 # Tastes like jelly-donut, buttery sweetness.
 
 - type: entity
-  name: "шоколадний желейний пончик"
+  name: chocolate jelly-donut
   parent: N14CookedFoodDonutBase
   id: N14CookedFoodDonutJellyChocolate
-  description: "Чудово смакує зі склянкою теплого молока."
+  description: Goes great with a glass of warm milk.
   components:
   - type: Sprite
     state: jelly-choc

@@ -1,8 +1,8 @@
 - type: entity
-  name: "Здичавілий Упир"
+  name: Feral Ghoul
   id: N14MobGhoulFeral
   parent: N14MobBaseHostileFeral
-  description: "Упир на вигляд злий."
+  description: A mean looking ghoul.
   components:
   - type: MobThresholds
     thresholds:
@@ -28,8 +28,8 @@
 - type: entity
   parent: N14MobBaseHostileFeral
   id: N14MobGhoulFeralReaver
-  name: "Здичавілий Упир Ривер"
-  description: "Зловісний упир, одягнений у залишки металевих обладунків."
+  name: Feral Ghoul Reaver
+  description: A mean looking ghoul clad in the remnants of metal armor.
   components:
   - type: MeleeWeapon
     hidden: true
@@ -55,8 +55,8 @@
 - type: entity
   parent: N14MobBaseHostileFeral
   id: N14MobGhoulFeralRotter
-  name: "Здичавілий упир Гнилець"
-  description: "Гнилий упир, що ледве тримається на ногах."
+  name: Feral Ghoul Rotter
+  description: A rotten looking ghoul barely holding itself together.
   components:
   - type: MeleeWeapon
     hidden: true
@@ -78,8 +78,8 @@
 - type: entity
   parent: N14MobBaseHostileFeral
   id: N14MobGhoulMaypole
-  name: "Мейпоул"
-  description: "Над усім цим височіє особливий упир."
+  name: Maypole
+  description: A special looking ghoul towering over most everything.
   components:
   - type: MeleeWeapon
     hidden: true

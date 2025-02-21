@@ -64,10 +64,10 @@
 # Custom Soup Example
 
 - type: entity
-  name: "гороховий суп"
+  name: pea soup
   parent: N14CookedFoodBowlBase
   id: N14CookedFoodSoupPea
-  description: "Скромний гороховий суп."
+  description: A humble split pea soup.
   components:
   - type: FlavorProfile
     flavors:
@@ -92,10 +92,10 @@
 # Salad
 
 - type: entity
-  name: "трав'яний салат"
+  name: herb salad
   parent: N14CookedFoodBowlBase #cooked is a stretch but... okay, we tag salads as that for now. We can swap it out later if we want. -Hazel
   id: N14CookedFoodSaladHerb
-  description: "Смачний салат з мускатним горіхом зверху."
+  description: A tasty salad with mutfruit on top.
   components:
   - type: FlavorProfile
     flavors:
@@ -120,10 +120,10 @@
     - Soup
 
 - type: entity
-  name: "капустяний салат"
+  name: coleslaw
   parent: N14CookedFoodBowlBase
   id: N14CookedFoodSaladColeslaw
-  description: "Нашатковану капусту і червону цибулю заправляємо вінегретом."
+  description: Shredded cabbage and red onions dressed with a vinaigrette.
   components:
   - type: FlavorProfile
     flavors:
@@ -147,10 +147,10 @@
           Quantity: 3
 
 - type: entity
-  name: "салат цезар"
+  name: caesar salad
   parent: N14CookedFoodBowlBase
   id: N14CookedFoodSaladCaesar
-  description: "Простий, але ароматний салат з цибулі, капусти, сухариків та шматочків сиру, заправлений олією." #N14 change
+  description: A simple yet flavorful salad of onions, cabbage, croutons, and shreds of cheese dressed in oil. #N14 change
   components:
   - type: FlavorProfile
     flavors:
@@ -173,10 +173,10 @@
           Quantity: 6
 
 - type: entity
-  name: "салат кімчі"
+  name: kimchi salad
   parent: N14CookedFoodBowlBase
   id: N14CookedFoodSaladKimchi
-  description: "Насправді це просто гострий салат."
+  description: It really is just a spicy salad.
   components:
   - type: FlavorProfile
     flavors:
@@ -200,10 +200,10 @@
           Quantity: 2
 
 - type: entity
-  name: "фруктовий салат"
+  name: fruit salad
   parent: N14CookedFoodBowlBase
   id: N14CookedFoodSaladFruit
-  description: "Ваш стандартний фруктовий салат."
+  description: Your standard fruit salad.
   components:
   - type: FlavorProfile
     flavors:
@@ -227,10 +227,10 @@
     - Soup
 
 - type: entity
-  name: "салат джунглі"
+  name: jungle salad
   parent: N14CookedFoodBowlBase
   id: N14CookedFoodSaladJungle
-  description: "Екзотичні фрукти в мисці."
+  description: Exotic fruits in a bowl.
   components:
   - type: FlavorProfile
     flavors:
@@ -255,10 +255,10 @@
     - Soup
 
 - type: entity
-  name: "цитрусовий салат"
+  name: citrus salad
   parent: N14CookedFoodBowlBase
   id: N14CookedFoodSaladCitrus
-  description: "Цитрусовий перебір!"
+  description: Citrus overload!
   components:
   - type: FlavorProfile
     flavors:
@@ -285,10 +285,10 @@
 # Rice
 
 - type: entity
-  name: "відварений рис"
+  name: boiled rice
   parent: N14CookedFoodBowlBase
   id: N14CookedFoodRiceBoiled
-  description: "Тепла миска з рисом."
+  description: A warm bowl of rice.
   components:
   - type: FlavorProfile
     flavors:
@@ -311,10 +311,10 @@
     - Soup
 
 - type: entity
-  name: "рис, смажений в яйці"
+  name: egg-fried rice
   parent: N14CookedFoodBowlBase
   id: N14CookedFoodRiceEgg
-  description: "Миска рису зі смаженим яйцем."
+  description: A bowl of rice with a fried egg.
   components:
   - type: FlavorProfile
     flavors:
@@ -339,10 +339,10 @@
     - Soup
 
 - type: entity
-  name: "рис, зібраний на дорозі"
+  name: roadkill rice
   parent: N14CookedFoodBowlBase
   id: N14CookedFoodRiceRoadkill
-  description: "Поцяткована почорнілими шматками м'ясних відходів." #N14 change
+  description: Dotted with blackened scraps of waste-meat. #N14 change
   components:
   - type: FlavorProfile
     flavors:
@@ -367,10 +367,10 @@
     - Soup
 
 - type: entity
-  name: "рисовий пудинг"
+  name: rice pudding
   parent: N14CookedFoodBowlBase
   id: N14CookedFoodRicePudding
-  description: "Всі люблять рисовий пудинг!"
+  description: Everybody loves rice pudding!
   components:
   - type: FlavorProfile
     flavors:
@@ -395,10 +395,10 @@
           Quantity: 5
 
 - type: entity
-  name: "гумбо з чорними очима"
+  name: black-eyed gumbo
   parent: N14CookedFoodBowlBase
   id: N14CookedFoodRiceGumbo
-  description: "Гостра та пікантна страва з м'яса та рису."
+  description: A spicy and savory meat and rice dish.
   components:
   - type: FlavorProfile
     flavors:
@@ -429,10 +429,10 @@
 # Misc
 
 - type: entity
-  name: "вівсянка"
+  name: oatmeal
   parent: N14CookedFoodBowlBase
   id: N14CookedFoodOatmeal
-  description: "Гарна миска вівсянки."
+  description: A nice bowl of oatmeal.
   components:
   - type: FlavorProfile
     flavors:
@@ -455,10 +455,10 @@
           Quantity: 10
 
 - type: entity #I'm leaving this here as a placeholder. Maybe poisonous food will be desirable someday. -Hazel
-  name: "желе з аманіту"
+  name: amanita jelly
   parent: FoodInjectableBase
   id: N14CookedFoodJellyAmanita
-  description: "Це зло, не чіпай його!"
+  description: It's evil, don't touch it!
   components:
   - type: FlavorProfile
     flavors:
@@ -480,10 +480,10 @@
 # Soup
 
 - type: entity
-  name: "суп з фрикадельками"
+  name: meatball soup
   parent: N14CookedFoodBowlBase
   id: N14CookedFoodSoupMeatball
-  description: "Фрикадельки в супі - що ж, чорт забирай, працюємо з тим, що є."
+  description: Meatballs in a soup - well, hell, we work with what we got.
   components:
   - type: FlavorProfile
     flavors:
@@ -509,10 +509,10 @@
     - Soup
 
 - type: entity
-  name: "суп з муті"
+  name: mutie soup
   parent: N14CookedFoodBowlBase
   id: N14CookedFoodSoupMutie
-  description: "Якийсь мутант, приготований в соусі. Виглядає... е-е... неапетитно..."
+  description: Some kind of mutant cooked in sauce. Looks... uh... unappetizing...
   components:
   - type: FlavorProfile
     flavors:
@@ -535,10 +535,10 @@
           Quantity: 7
 
 - type: entity
-  name: "суп з кров'янки"
+  name: bloodtato soup
   parent: N14CookedFoodBowlBase
   id: N14CookedFoodSoupBloodtato
-  description: "Кров перебиває смак картоплі. Напрочуд гарний, якщо не сказати божевільний, поворот у страві."
+  description: The blood blots out the tato flavor. A surprisingly good, if insane, spin on the meal.
   components:
   - type: FlavorProfile
     flavors:
@@ -565,10 +565,10 @@
     - Soup
 
 - type: entity
-  name: "овочевий суп"
+  name: vegetable soup
   parent: N14CookedFoodBowlBase
   id: N14CookedFoodSoupVegetable
-  description: "Ситна, здорова їжа, яку полюбляють фуражири та фермери."
+  description: A hearty, healthy meal beloved by foragers and farmers.
   components:
   - type: FlavorProfile
     flavors:
@@ -592,10 +592,10 @@
           Quantity: 1
 
 - type: entity
-  name: "кропив'яний суп"
+  name: nettle soup
   parent: N14CookedFoodBowlBase
   id: N14CookedFoodSoupNettle
-  description: "Їжа для збирачів. Вважається потужним відновлювальним засобом."
+  description: Food for foragers. Said to be a potent restorative.
   components:
   - type: FlavorProfile
     flavors:
@@ -621,10 +621,10 @@
           Quantity: 0.5
 
 - type: entity
-  name: "миска гострого чилі"
+  name: bowl of hot chili
   parent: N14CookedFoodBowlBase
   id: N14CookedFoodSoupChiliHot
-  description: "Вашингтонський чилі за п'ятьма сигналами тривоги!" #N14 change
+  description: A Washington five-alarm chili! #N14 change
   components:
   - type: FlavorProfile
     flavors:
@@ -651,10 +651,10 @@
     - ChiliBowl
 
 - type: entity
-  name: "томатний суп" #N14 change
+  name: tato soup #N14 change
   parent: N14CookedFoodBowlBase
   id: N14CookedFoodSoupTato
-  description: "Це не дуже смачно. Але це корисно для тебе...?" #N14 change
+  description: This really doesn't taste good. But it's good for you..? #N14 change
   components:
   - type: FlavorProfile
     flavors:
@@ -682,10 +682,10 @@
     - Soup
 
 - type: entity
-  name: "суп з очних яблук"
+  name: eyeball soup
   parent: N14CookedFoodBowlBase
   id: N14CookedFoodSoupEyeball
-  description: "Воно дивиться на тебе..."
+  description: It's looking back at you...
   components:
   - type: FlavorProfile
     flavors:
@@ -710,10 +710,10 @@
     - Soup
 
 - type: entity #not in the game, placeholder
-  name: "місо-суп"
+  name: miso soup
   parent: N14CookedFoodBowlBase
   id: N14CookedFoodSoupMiso
-  description: "Солоний, рибний суп, найкраще смакує з раменом."
+  description: Salty, fishy soup, best had with ramen.
   components:
   - type: FlavorProfile
     flavors:
@@ -741,10 +741,10 @@
     - Soup
 
 - type: entity
-  name: "грибний суп"
+  name: mushroom soup
   parent: N14CookedFoodBowlBase
   id: N14CookedFoodSoupMushroom
-  description: "Смачний і ситний грибний суп."
+  description: A delicious and hearty mushroom soup.
   components:
   - type: FlavorProfile
     flavors:
@@ -768,10 +768,10 @@
             Quantity: 5
 
 - type: entity
-  name: "тушковане м'ясо"
+  name: stew
   parent: N14CookedFoodBowlBase
   id: N14CookedFoodSoupStew
-  description: "Смачне і тепле рагу. Здоровий і сильний."
+  description: A nice and warm stew. Healthy and strong.
   components:
   - type: FlavorProfile
     flavors:
@@ -800,10 +800,10 @@
     - Soup
 
 - type: entity
-  name: "цибулевий суп"
+  name: onion soup
   parent: N14CookedFoodBowlBase
   id: N14CookedFoodSoupOnion
-  description: "Сир добре загущує його."
+  description: The cheese thickens it up nicely.
   components:
   - type: FlavorProfile
     flavors:
@@ -825,10 +825,10 @@
             Quantity: 5
 
 - type: entity
-  name: "суп"
+  name: bisque
   parent: N14CookedFoodBowlBase
   id: N14CookedFoodSoupBisque
-  description: "Рибна страва від хлопця на ім'я Франц."
+  description: A fish dish that comes from a guy called Franz.
   components:
   - type: FlavorProfile
     flavors:

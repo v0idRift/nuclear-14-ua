@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseStructure
   id: N14WreckTractor
-  name: "розбитий трактор"
-  description: "старий термоядерний трактор"
+  name: wrecked tractor
+  description: an old fusion tractor
   components:
   - type: Fixtures
     fixtures:

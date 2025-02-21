@@ -1,8 +1,8 @@
 - type: entity
-  name: "мачете"
+  name: machete
   parent: Machete
   id: N14Machete
-  description: "Велике, злісне на вигляд лезо."
+  description: A large, vicious looking blade.
   components:
   - type: EmbeddableProjectile
     sound: /Audio/Weapons/star_hit.ogg
@@ -26,10 +26,10 @@
     sprite: _Nuclear14/Objects/Weapons/Melee/machete.rsi
 
 - type: entity
-  name: "племінне мачете"
+  name: tribal machete
   parent: N14Machete
   id: N14TribalMachete
-  description: "Племінне мачете, виготовлене з матеріалів, даних природою, цей довгий клинок має ідеальний баланс між інструментом і зброєю."
+  description: A tribal machete, made from the materials given by nature, this long blade has the perfect balance between tool and weapon.
   components:
   - type: Clothing
     sprite: _Nuclear14/Objects/Weapons/Melee/tribal_machete.rsi
@@ -54,10 +54,10 @@
     sprite: _Nuclear14/Objects/Weapons/Melee/tribal_machete.rsi
 
 - type: entity
-  name: "лом мачете"
+  name: scrap machete
   parent: N14Machete
   id: N14ScrapMachete
-  description: "Саморобне мачете з довгим лезом, не найгострішим лезом, але все ж таки здатне нарізати трохи м'яса."
+  description: A makeshift long blade machete, not the sharpest blade but it can still cut some meat.
   components:
   - type: Clothing
     sprite: _Nuclear14/Objects/Weapons/Melee/scrap_machete.rsi
@@ -82,10 +82,10 @@
     sprite: Nuclear14/Objects/Weapons/Melee/scrap_machete.rsi
 
 - type: entity
-  name: "розпушувач"
+  name: ripper
   parent: N14Machete
   id: N14ripper
-  description: "Легка одноручна бензопила, спочатку розроблена для довоєнних армійських саперів для розчищення сільватів і лісових доріжок, також добре працює проти м'яса."
+  description: A light one-handed chainsaw originally designed for the pre-war army sappers to clean selvatic and wooded paths, it also works well against flesh.
   components:
   - type: Clothing
     sprite: _Nuclear14/Objects/Weapons/Melee/ripper.rsi
@@ -139,10 +139,10 @@
     speed: 3.0
 
 - type: entity
-  name: "церемоніальний меч"
+  name: ceremonial sword
   parent: N14Machete
   id: N14CeremonialSword
-  description: "Вражаючий двосічний меч, розмір і гострота якого змушують думати, що він може розрубати людину навпіл."
+  description: "An impressive double-edged sword, this weapon's size and sharpness make you think it could cleave a man in two."
   components:
   - type: Clothing
     sprite: _Nuclear14/Objects/Weapons/Melee/ceremonialsword.rsi
@@ -169,10 +169,10 @@
     sprite: _Nuclear14/Objects/Weapons/Melee/ceremonialsword.rsi
 
 - type: entity
-  name: "китайський офіцерський меч"
+  name: chinese officer sword
   parent: N14Machete
   id: N14ChineseSword
-  description: "Вражаючий двосічний меч, який використовували довоєнні китайські офіцери, розмір і гострота цієї зброї змушують думати, що вона може розрубати людину навпіл."
+  description: "An impressive double-edged sword used by pre-war chinese officers, this weapon's size and sharpness make you think it could cleave a man in two."
   components:
   - type: Clothing
     sprite: _Nuclear14/Objects/Weapons/Melee/chinesesword.rsi
@@ -196,10 +196,10 @@
     sprite: _Nuclear14/Objects/Weapons/Melee/chinesesword.rsi
 
 - type: entity
-  name: "довгий меч"
+  name: longsword
   parent: N14Machete
   id: N14LongSword
-  description: "Таке відчуття, що ти вже в середньовіччі..."
+  description: You feel like you're in the medieval ages already...
   components:
   - type: Sprite
     sprite: _Nuclear14/Objects/Weapons/Melee/long_sword.rsi

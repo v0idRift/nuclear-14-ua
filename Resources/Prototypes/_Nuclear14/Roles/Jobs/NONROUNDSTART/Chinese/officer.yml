@@ -1,8 +1,8 @@
 - type: job
   id: ChineseOfficer
   setPreference: true
-  name: "китайський офіцер"
-  description: "очолити свої війська і битися в ім'я комунізму." #need work
+  name: chinese officer
+  description: lead your troops and fight in the name of communism. #need work
   playTimeTracker: ChineseOfficer
   startingGear: ChineseOfficerGear
   icon: "JobIconSecurityCadet"

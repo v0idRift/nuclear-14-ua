@@ -1,7 +1,7 @@
 - type: entity
   parent: BaseSign
   id: N14PosterBase # For 64x64 posters
-  name: "Постер"
+  name: Poster
   abstract: true
   components:
   - type: WallMount
@@ -36,8 +36,8 @@
 - type: entity
   parent: N14SignNotice
   id: N14PosterWanted
-  name: "розшукується плакат"
-  description: "Плакат розшуку якогось марнотратника."
+  name: wanted poster
+  description: A wanted poster for some waster.
   components:
   - type: Sprite
     state: wanted_poster
@@ -46,8 +46,8 @@
 - type: entity
   parent: N14SignNotice
   id: N14PosterWantedGoose
-  name: "плакат \"розшукується гусак"
-  description: "Оголошення про розшук якогось рейдера, який, вочевидь, голими руками забив рейдера до смерті.."
+  name: goose wanted poster
+  description: A wanted poster for some raider who apparently beat a raider to death with his bare hands..!
   components:
   - type: Sprite
     state: wanted_poster_goose
@@ -55,8 +55,8 @@
 - type: entity
   parent: N14SignNotice
   id: N14PosterFallout
-  name: "плакат про випадіння радіоактивних опадів"
-  description: "Плакат із зображенням ядерних опадів."
+  name: fallout poster
+  description: A poster depicting nuclear fallout.
   components:
   - type: Sprite
     state: poster_fallout
@@ -64,8 +64,8 @@
 - type: entity
   parent: N14SignNotice
   id: N14PosterWecan
-  name: "ми можемо розклеїти плакати"
-  description: "ми можемо!"
+  name: we can poster
+  description: we can!
   components:
   - type: Sprite
     state: poster_wecan
@@ -73,9 +73,9 @@
 - type: entity
   parent: N14SignNotice
   id: N14PosterNCR1
-  name: "Плакат NCR"
+  name: NCR poster
   suffix: wrench
-  description: "Щось на кшталт пропаганди НКР."
+  description: NCR propaganda of some sort.
   components:
   - type: Sprite
     state: ncr_sign
@@ -124,8 +124,8 @@
 - type: entity
   parent: N14PosterBase
   id: N14PosterVaultTec01
-  name: "Плакат Vault-Tec"
-  description: "Майже неушкоджений плакат з рекламою Vault-Tec."
+  name: Vault-Tec poster
+  description: "A near pristine poster advertising Vault-Tec."
   components:
   - type: Sprite
     state: vault-tec01
@@ -133,8 +133,8 @@
 - type: entity
   parent: N14PosterBase
   id: N14PosterVaultTec02
-  name: "Плакат Vault-Tec"
-  description: "Майже неушкоджений плакат з рекламою Vault-Tec."
+  name: Vault-Tec poster
+  description: "A near pristine poster advertising Vault-Tec."
   components:
   - type: Sprite
     state: vault-tec02
@@ -142,8 +142,8 @@
 - type: entity
   parent: N14PosterBase
   id: N14PosterVaultTec05
-  name: "Плакат Vault-Tec"
-  description: "Майже неушкоджений плакат з рекламою Vault-Tec."
+  name: Vault-Tec poster
+  description: "A near pristine poster advertising Vault-Tec."
   components:
   - type: Sprite
     state: vault-tec05
@@ -151,8 +151,8 @@
 - type: entity
   parent: N14PosterBase
   id: N14PosterVaultTec06
-  name: "Плакат Vault-Tec"
-  description: "Майже незайманий плакат, що пропагує науку."
+  name: Vault-Tec poster
+  description: "A near pristine poster promoting science."
   components:
   - type: Sprite
     state: vault-tec06
@@ -160,8 +160,8 @@
 - type: entity
   parent: N14PosterBase
   id: N14PosterVaultTec07
-  name: "Плакат Vault-Tec"
-  description: "Майже неушкоджений плакат з рекламою \"Сховища\"."
+  name: Vault-Tec poster
+  description: "A near pristine poster advertising Vaults."
   components:
   - type: Sprite
     state: vault-tec07
@@ -169,8 +169,8 @@
 - type: entity
   parent: N14PosterBase
   id: N14PosterVaultTec10
-  name: "Плакат Vault-Tec"
-  description: "Майже незайманий плакат, що пропагує безпеку на робочому місці."
+  name: Vault-Tec poster
+  description: "A near pristine poster promoting workplace safety."
   components:
   - type: Sprite
     state: vault-tec10
@@ -178,8 +178,8 @@
 - type: entity
   parent: N14PosterBase
   id: N14PosterSafety1
-  name: "плакат безпеки"
-  description: "Плакат, що пропагує безпеку на робочому місці. Одягайте каску!"
+  name: safety poster
+  description: "A poster promoting workplace safety. Wear a hardhat!"
   components:
   - type: Sprite
     state: safety1
@@ -189,8 +189,8 @@
 - type: entity
   parent: N14PosterSafety1
   id: N14PosterSafety2
-  name: "плакат безпеки"
-  description: "Плакат, що пропагує безпеку на робочому місці. Одягайте респіратор!"
+  name: safety poster
+  description: "A poster promoting workplace safety. Wear a respirator!"
   components:
   - type: Sprite
     state: safety2
@@ -198,8 +198,8 @@
 - type: entity
   parent: N14PosterSafety1
   id: N14PosterSafety3
-  name: "плакат безпеки"
-  description: "Плакат, що пропагує безпеку на робочому місці. Захистіть себе!"
+  name: safety poster
+  description: "A poster promoting workplace safety. Protect yourself!"
   components:
   - type: Sprite
     state: safety3
@@ -207,8 +207,8 @@
 - type: entity
   parent: N14PosterSafety1
   id: N14PosterSafety4
-  name: "плакат безпеки"
-  description: "Плакат, що пропагує безпеку на робочому місці. Захист має значення!"
+  name: safety poster
+  description: "A poster promoting workplace safety. Protection Matters!"
   components:
   - type: Sprite
     state: safety4
@@ -216,8 +216,8 @@
 - type: entity
   parent: N14PosterSafety1
   id: N14PosterSafety5
-  name: "плакат безпеки"
-  description: "Плакат, що пропагує безпеку на робочому місці. Захистіть свої руки!"
+  name: safety poster
+  description: "A poster promoting workplace safety. Protect your hands!"
   components:
   - type: Sprite
     state: safety5
@@ -225,8 +225,8 @@
 - type: entity
   parent: N14PosterSafety1
   id: N14PosterSafety6
-  name: "плакат безпеки"
-  description: "Плакат, що пропагує безпеку на робочому місці. Захист для очей!"
+  name: safety poster
+  description: "A poster promoting workplace safety. Eye protection!"
   components:
   - type: Sprite
     state: safety6
@@ -234,8 +234,8 @@
 - type: entity
   parent: N14PosterSafety1
   id: N14PosterSafety7
-  name: "плакат безпеки"
-  description: "Плакат, що пропагує безпеку на робочому місці. Одягайте захисні навушники!"
+  name: safety poster
+  description: "A poster promoting workplace safety. Wear ear protection!"
   components:
   - type: Sprite
     state: safety7
@@ -243,8 +243,8 @@
 - type: entity
   parent: N14PosterSafety1
   id: N14PosterSafety8
-  name: "плакат безпеки"
-  description: "Плакат, що пропагує безпеку на робочому місці. Краще перестрахуватися, ніж потім шкодувати!"
+  name: safety poster
+  description: "A poster promoting workplace safety. Better safe than sorry!"
   components:
   - type: Sprite
     state: safety8
@@ -252,8 +252,8 @@
 - type: entity
   parent: N14PosterSafety1
   id: N14PosterSafety9
-  name: "плакат безпеки"
-  description: "Плакат, що пропагує безпеку на робочому місці. Рухомі частини можуть завдати шкоди!"
+  name: safety poster
+  description: "A poster promoting workplace safety. Moving parts can pack a pinch!"
   components:
   - type: Sprite
     state: safety9
@@ -261,8 +261,8 @@
 - type: entity
   parent: N14PosterSafety1
   id: N14PosterSafety10
-  name: "плакат безпеки"
-  description: "Плакат, що пропагує безпеку на робочому місці. Радіації не треба боятися, але вона повинна викликати повагу."
+  name: safety poster
+  description: "A poster promoting workplace safety. Radiation must not be feared but it must command your respect."
   components:
   - type: Sprite
     state: safety10
@@ -270,8 +270,8 @@
 - type: entity
   parent: N14PosterSafety1
   id: N14PosterSafety11
-  name: "плакат безпеки"
-  description: "Плакат, що пропагує безпеку на робочому місці. Забуті лічильники не вимірюють радіацію."
+  name: safety poster
+  description: "A poster promoting workplace safety. Forgotten meters measure no radiation."
   components:
   - type: Sprite
     state: safety11
@@ -279,8 +279,8 @@
 - type: entity
   parent: N14PosterSafety1
   id: N14PosterSafety12
-  name: "плакат безпеки"
-  description: "Обов'язкове повідомлення про засоби безпеки."
+  name: safety poster
+  description: "A  mandatory safety equipment notice."
   components:
   - type: Sprite
     state: safety12
@@ -288,8 +288,8 @@
 - type: entity
   parent: N14PosterSafety1
   id: N14PosterCautionSign1
-  name: "попереджувальний знак"
-  description: "Обережно. Робоча зона робота. Не входити. Тільки уповноважений персонал."
+  name: caution sign
+  description: "Caution. Robot operating area. Do not enter. Authorised personnel only."
   components:
   - type: Sprite
     state: caution1
@@ -297,8 +297,8 @@
 - type: entity
   parent: N14PosterSafety1
   id: N14PosterCautionSign2
-  name: "попереджувальний знак"
-  description: "Обережно. У цієї машини немає мозку. Використовуй свій власний."
+  name: caution sign
+  description: "Caution. This machine has no brain. Use your own."
   components:
   - type: Sprite
     state: caution2
@@ -306,8 +306,8 @@
 - type: entity
   parent: N14PosterSafety1
   id: N14PosterCautionSign3
-  name: "попереджувальний знак"
-  description: "Обережно. Роботизовані одиниці можуть рухатися в будь-який момент."
+  name: caution sign
+  description: "Caution. Robotics units can move at any time."
   components:
   - type: Sprite
     state: caution3
@@ -315,8 +315,8 @@
 - type: entity
   parent: N14PosterSafety1
   id: N14PosterDangerSign1
-  name: "знак небезпеки"
-  description: "Небезпека. Небезпека ураження електричним струмом."
+  name: danger sign
+  description: "Danger. Electrical hazard."
   components:
   - type: Sprite
     state: danger1
@@ -324,8 +324,8 @@
 - type: entity
   parent: N14PosterSafety1
   id: N14PosterDangerSign2
-  name: "знак небезпеки"
-  description: "Небезпека. Радіоактивний матеріал."
+  name: danger sign
+  description: "Danger. Radioactive material."
   components:
   - type: Sprite
     state: danger2
@@ -333,8 +333,8 @@
 - type: entity
   parent: N14PosterSafety1
   id: N14PosterDangerSign3
-  name: "знак небезпеки"
-  description: "Небезпечно. Легкозаймиста."
+  name: danger sign
+  description: "Danger. Highly flammable."
   components:
   - type: Sprite
     state: danger3
@@ -342,8 +342,8 @@
 - type: entity
   parent: N14PosterSafety1
   id: N14PosterDangerSign4
-  name: "знак небезпеки"
-  description: "Небезпечно. Не палити. Ніяких сірників. Ніякого відкритого вогню."
+  name: danger sign
+  description: "Danger. No smoking. No matches. No open flames."
   components:
   - type: Sprite
     state: danger4
@@ -351,8 +351,8 @@
 - type: entity
   parent: N14PosterSafety1
   id: N14PosterAdvertJet
-  name: "рекламний плакат"
-  description: "Плакат з рекламою препарату \"Джет\"."
+  name: advert poster
+  description: "A poster advertising the drug Jet."
   components:
   - type: Sprite
     state: jet1
@@ -360,8 +360,8 @@
 - type: entity
   parent: N14PosterSafety1
   id: N14PosterAdvertGrognak1
-  name: "рекламний плакат"
-  description: "Плакат з рекламою коміксів про варвара Ґроґнака."
+  name: advert poster
+  description: "A poster advertising Grognak the barbarian comics."
   components:
   - type: Sprite
     state: grognak1
@@ -369,8 +369,8 @@
 - type: entity
   parent: N14PosterSafety1
   id: N14PosterAdvertNukaCola1
-  name: "рекламний плакат"
-  description: "Плакат з рекламою Nuka Cola."
+  name: advert poster
+  description: "A poster advertising Nuka Cola."
   components:
   - type: Sprite
     state: nukacola1
@@ -378,8 +378,8 @@
 - type: entity
   parent: N14PosterSafety1
   id: N14PosterAdvertNukaCola2
-  name: "рекламний плакат"
-  description: "Плакат з рекламою Nuka Cola."
+  name: advert poster
+  description: "A poster advertising Nuka Cola."
   components:
   - type: Sprite
     state: nukacola2
@@ -388,8 +388,8 @@
 - type: entity
   parent: N14PosterBase
   id: N14PosterVaultTec03
-  name: "Плакат Vault-Tec"
-  description: "Плакат з рекламою Vault-Tec."
+  name: Vault-Tec poster
+  description: "A poster advertising Vault-Tec."
   components:
   - type: Sprite
     state: vault-tec03
@@ -397,8 +397,8 @@
 - type: entity
   parent: N14PosterBase
   id: N14PosterVaultTec04
-  name: "Плакат Vault-Tec"
-  description: "Плакат Vault-Tec, що пропагує важку працю."
+  name: Vault-Tec poster
+  description: "A Vault-Tec poster promoting hard work."
   components:
   - type: Sprite
     state: vault-tec04
@@ -406,8 +406,8 @@
 - type: entity
   parent: N14PosterBase
   id: N14PosterVaultTec08
-  name: "Плакат Vault-Tec"
-  description: "Потертий плакат з рекламою Vault-Tec."
+  name: Vault-Tec poster
+  description: "A worn Vault-Tec poster advertising Vaults."
   components:
   - type: Sprite
     state: vault-tec08
@@ -415,8 +415,8 @@
 - type: entity
   parent: N14PosterBase
   id: N14PosterVaultTec09
-  name: "Плакат Vault-Tec"
-  description: "Потертий плакат Vault-Tec. Нічого не розбереш."
+  name: Vault-Tec poster
+  description: "A worn Vault-Tec poster. You can't make it out."
   components:
   - type: Sprite
     state: vault-tec09
@@ -424,8 +424,8 @@
 - type: entity
   parent: N14PosterBase
   id: N14PosterAbraxo
-  name: "плакат абраксо"
-  description: "Потертий плакат миючого засобу Abraxo."
+  name: abraxo poster
+  description: "A worn poster for Abraxo cleaner."
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Wallmounts/Posters/adverts64x64.rsi
@@ -434,8 +434,8 @@
 - type: entity
   parent: N14PosterAbraxo
   id: N14PosterBoscom
-  name: "плакат для грудей"
-  description: "Потертий плакат бостонських комунікацій."
+  name: boscom poster
+  description: "A worn poster for boston communications."
   components:
   - type: Sprite
     state: boscom
@@ -443,8 +443,8 @@
 - type: entity
   parent: N14PosterAbraxo
   id: N14PosterGNN
-  name: "Плакат GNN"
-  description: "Потертий плакат галактичного радіо новин."
+  name: GNN poster
+  description: "A worn poster for galaxy news radio."
   components:
   - type: Sprite
     state: gnn
@@ -453,7 +453,7 @@
 - type: entity
   parent: N14PosterBase
   id: N14PosterWideNukacola1
-  description: "Широка реклама, що рекламує Nuka Cola."
+  description: "A wide advert promoting Nuka Cola."
   components:
   - type: Sprite
     state: nukacola1
@@ -463,7 +463,7 @@
 - type: entity
   parent: N14PosterWideNukacola1
   id: N14PosterWideMassfusion1
-  description: "Широкоформатний рекламний ролик про компанію Mass Fusion. Влада. Люди. Досконалість. \"Мас-Ф'южн\"."
+  description: "A wide advert promoting the Mass Fusion company. Power. People. Perfect. Mass Fusion."
   components:
   - type: Sprite
     state: massfusion1
@@ -471,7 +471,7 @@
 - type: entity
   parent: N14PosterWideNukacola1
   id: N14PosterWideRedrocket1
-  description: "Широка реклама паливної компанії \"Червона ракета\". Бензин. Дизель. Термоядерний синтез."
+  description: "A wide advert promoting the Red Rocket fuel company. Gasoline. Diesel. Fusion."
   components:
   - type: Sprite
     state: redrocket1
@@ -479,7 +479,7 @@
 - type: entity
   parent: N14PosterWideNukacola1
   id: N14PosterWideNukaDark
-  description: "Широка реклама просування Nuka Cola Dark"
+  description: "A wide advert promoting Nuka Cola Dark"
   components:
   - type: Sprite
     state: nukadark
@@ -487,7 +487,7 @@
 - type: entity
   parent: N14PosterWideNukacola1
   id: N14PosterWideVim
-  description: "Широка реклама, що просуває Vim"
+  description: "A wide advert promoting Vim"
   components:
   - type: Sprite
     state: vim
@@ -496,7 +496,7 @@
 - type: entity
   parent: N14PosterWideVim
   id: N14PosterWideVimCaptainsblend
-  description: "Широка реклама, що просуває суміш Vim Captains Blend"
+  description: "A wide advert promoting Vim Captains Blend"
   components:
   - type: Sprite
     state: vim_captainsblend
@@ -504,7 +504,7 @@
 - type: entity
   parent: N14PosterWideVim
   id: N14PosterWideVimQuartz
-  description: "Широка реклама просування Vim Quartz"
+  description: "A wide advert promoting Vim Quartz"
   components:
   - type: Sprite
     state: vim_quartz
@@ -512,7 +512,7 @@
 - type: entity
   parent: N14PosterWideVim
   id: N14PosterWideVimRefresh
-  description: "Широка реклама просування Vim Refresh"
+  description: "A wide advert promoting Vim Refresh"
   components:
   - type: Sprite
     state: vim_refresh

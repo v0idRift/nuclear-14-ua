@@ -3,8 +3,8 @@
 - type: entity
   parent: ClothingNeckBase
   id: N14ClothingNeckCloakBrotherhoodWashington
-  name: "Плащ Вашингтонського братства"
-  description: "Чорний плащ з круглим червоним логотипом Братства."
+  name: Washington Brotherhood cloak
+  description: A black cloak with a circular red Brotherhood logo.
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/Neck/WBoScloak.rsi
@@ -14,8 +14,8 @@
 - type: entity
   parent: ClothingNeckBase
   id: N14ClothingNeckCloakNCR
-  name: "Накидка NCR"
-  description: "Зручний плащ з логотипом NCR на одному боці. Такі накидки широко використовуються військовими в сувору погоду."
+  name: NCR cloak
+  description: A comfy cloak with a NCR logo on one side. These kinds of cloaks are commonly used by the troopers during harsh weather.
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/Neck/NCRcloak.rsi
@@ -23,8 +23,8 @@
 - type: entity
   parent: ClothingNeckBase
   id: N14ClothingNeckCloakNCRSnow
-  name: "Зимова накидка NCR"
-  description: "Зручний плащ з логотипом NCR на одному боці - такі плащі зазвичай використовуються військовими в сувору погоду. Цей - білосніжний."
+  name: NCR winter cloak
+  description: A comfy cloak with a NCR logo on one side these kinds of cloaks are commonly used by the troopers during harsh weather. This one is snow white.
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/Neck/NCRcloak2.rsi
@@ -32,8 +32,8 @@
 - type: entity
   parent: ClothingNeckBase
   id: N14ClothingNeckCloakNCRWoods
-  name: "Лісова накидка NCR"
-  description: "Зручний плащ з логотипом NCR на одному боці. Такі накидки зазвичай використовуються військовими під час суворих погодних умов. Цей зелений."
+  name: NCR woods cloak
+  description: A comfy cloak with a NCR logo on one side. These kinds of cloaks are commonly used by the troopers during harsh weather. This one is green.
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/Neck/NCRcloak3.rsi
@@ -41,8 +41,8 @@
 - type: entity
   parent: ClothingNeckBase
   id: N14ClothingNeckCloakRanger
-  name: "Накидка рейнджера NCR"
-  description: "Накидка рейнджера, зроблена з чогось схожого на старе пончо із зіркою, смугами та ведмедиком. Швидше за все, під ним захована кобура."
+  name: NCR ranger cape
+  description: Ranger cape made from what looks like and old poncho fitted with a star, stripes, and a bear. Most likely has a holster hidden underneath.
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/Neck/NCRrangercape.rsi
@@ -58,8 +58,8 @@
 - type: entity
   parent: ClothingNeckBase
   id: N14ClothingNeckCloakRangerPoncho
-  name: "пончо рейнджера"
-  description: "Міцне муслінове пончо. Досить міцне, щоб витримати негоди та слугувати зручним покривалом."
+  name: ranger poncho
+  description: A durable muslin poncho. Tough enough to bear the elements and serve as handy blanket.
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/Neck/NCRrangerponcho.rsi
@@ -75,8 +75,8 @@
 - type: entity
   parent: ClothingNeckBase
   id: N14ClothingNeckCloakTribal
-  name: "племінний плащ"
-  description: "Накидка ручної роботи, зручна і тепла. Цей виріб використовують наймудріші племена."
+  name: tribal cloak
+  description: A handmade cloak, comfy and warm. This piece is used by the most wise tribals.
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/Neck/tribal.rsi
@@ -85,8 +85,8 @@
 - type: entity
   parent: ClothingNeckBase
   id: N14ClothingNeckCloakLeather
-  name: "шкіряний плащ"
-  description: "Накидка ручної роботи, зручна і тепла."
+  name: leather cloak
+  description: A handmade cloak, comfy and warm.
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/Neck/leathercloak.rsi
@@ -110,8 +110,8 @@
 - type: entity
   parent: ClothingNeckBase
   id: N14ClothingNeckCloakYaoguai
-  name: "плащ яогуай"
-  description: "Накидка ручної роботи, зручна і тепла. Цей виріб виготовлений з небезпечного яо-гуая."
+  name: yaoguai cloak
+  description: A handmade cloak, comfy and warm. This piece comes from a dangerous yao-guai.
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/Neck/yaoguai.rsi
@@ -127,8 +127,8 @@
 - type: entity
   parent: ClothingNeckBase
   id: N14ClothingNeckCloakDarkCloak
-  name: "темний плащ"
-  description: "Темний тонований плащ."
+  name: dark cloak
+  description: A dark tinted cloak.
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/Neck/darkcloak.rsi

@@ -1,8 +1,8 @@
 - type: entity
-  name: "мисливська рушниця"
+  name: hunting rifle
   parent: BaseWeaponSniper
   id: N14WeaponSniperHunting
-  description: "Міцна гвинтівка з продольно-скользящим затвором. Використовує набої .308 калібру."
+  description: A rugged bolt action rifle. Uses .308 ammo.
   components:
   - type: Clothing
     sprite: _Nuclear14/Objects/Weapons/Guns/Snipers/hunting.rsi
@@ -30,10 +30,10 @@
     backStrength: 3
 
 - type: entity
-  name: "гвинтівка lee enfield"
+  name: lee enfield rifle
   parent: BaseWeaponSniper
   id: N14WeaponSniperEnfield
-  description: "Добре збережена службова гвинтівка з затворною рамою. ВЗВОД! Використовує набої .308 калібру."
+  description: A well-preserved bolt action service rifle. PLING! Uses .308 ammo.
   components:
   - type: Clothing
     sprite: _Nuclear14/Objects/Weapons/Guns/Snipers/enfield.rsi
@@ -61,10 +61,10 @@
     backStrength: 3
 
 - type: entity
-  name: "Протитанкова гвинтівка"
+  name: Anti-Materiel rifle
   parent: BaseWeaponRifle
   id: N14WeaponSniper50AntiMateriel
-  description: "Протипіхотна гвинтівка з ергономічним, витонченим, скелетонізованим дизайном. Лише подивившись на неї, можна сказати, що вона розірве деякі кінцівки на частини. Використовує протиматеріальні набої калібру .50."
+  description: "An anti-materiel rifle with an ergonomic, sleek, skeletonized design. Simply looking at it can you tell it'll rip some limbs apart. Uses .50 anti-material ammo."
   components:
   - type: Clothing
     sprite: _Nuclear14/Objects/Weapons/Guns/Snipers/antimateriel.rsi
@@ -128,10 +128,10 @@
     sprintModifier: 0.75
 
 - type: entity
-  name: "Гвинтівка .50 NCR"
+  name: .50 NCR rifle
   parent: BaseWeaponSniper
   id: N14WeaponSniper50NCRRifle
-  description: "Спроба NCR масово виробляти зброю під набій .50 для звичайної піхоти, дуже дешеву, але таку, що завдає великої шкоди. Використовує боєприпаси калібру .50 проти матеріальних засобів."
+  description: An attempt by the NCR to mass-produce .50 ammo weapons for normal infantry, very cheap but still deals a lot of damage. Uses .50 anti-material ammo.
   components:
   - type: Sprite
     sprite: _Nuclear14/Objects/Weapons/Guns/Snipers/50ncrrifle.rsi
@@ -165,10 +165,10 @@
     sprintModifier: 0.75
 
 - type: entity
-  name: "карабін важільної дії"
+  name: lever action carbine
   parent: N14WeaponSniperHunting
   id: N14WeaponSniper44LeverCarbine
-  description: "Короткий важільний карабін. Використовує набої 44-го калібру."
+  description: A short lever action carbine. Uses .44 ammo.
   components:
   - type: Clothing
     sprite: _Nuclear14/Objects/Weapons/Guns/Snipers/levercarbine.rsi
@@ -199,10 +199,10 @@
     node: start
 
 - type: entity
-  name: "важільна гвинтівка"
+  name: lever action rifle
   parent: N14WeaponSniperHunting
   id: N14WeaponSniper308LeverRifle
-  description: "Снайперська гвинтівка з довгим важелем. Використовує набої калібру .308."
+  description: A long lever action repeater rifle. Uses .308 ammo.
   components:
   - type: Clothing
     sprite: _Nuclear14/Objects/Weapons/Guns/Snipers/leverrifle.rsi
@@ -216,10 +216,10 @@
     backStrength: 3
 
 - type: entity
-  name: "щітковий пістолет"
+  name: brush gun
   parent: N14WeaponSniperHunting
   id: N14WeaponSniper45-70BrushGun
-  description: "Потужний карабін з важільною системою. Використовує державні набої .45-70."
+  description: A powerful lever action carbine. Uses .45-70 gov't ammo.
   components:
   - type: Clothing
     sprite: _Nuclear14/Objects/Weapons/Guns/Snipers/brushgun.rsi
@@ -240,10 +240,10 @@
     backStrength: 3
 
 - type: entity
-  name: "трубна гвинтівка"
+  name: pipe rifle
   parent: N14WeaponSniperHunting
   id: N14WeaponSniper308PipeRifle
-  description: "Шматок металевої труби з дерев'яним прикладом, що ледве працює як пістолет і використовує набої калібру .308."
+  description: A piece of metal pipe with a wooden stock, barely works as a gun and uses .308 ammo.
   components:
   - type: Clothing
     sprite: _Nuclear14/Objects/Weapons/Guns/Snipers/piperifle.rsi
@@ -263,10 +263,10 @@
     backStrength: 3
 
 - type: entity
-  name: "гвинтівка для гризунів"
+  name: varmint rifle
   parent: BaseWeaponSniper
   id: N14WeaponSniper556VarmintRifle
-  description: "Довоєнна малопотужна болтова гвинтівка, спочатку призначена для полювання на дрібних тварин. Ця гвинтівка також чудово працює на все, що має людський зріст. Використовує набої калібру 5.56."
+  description: A pre-war low-power bolt action rifle, originally designed to hunt small animals. This gun also works fine on anything human-sized. Uses 5.56 ammo.
   components:
   - type: Clothing
     sprite: _Nuclear14/Objects/Weapons/Guns/Snipers/varmint.rsi
@@ -294,10 +294,10 @@
     backStrength: 3
 
 - type: entity
-  name: "карабін без приклада з важільним механізмом"
+  name: stockless lever action carbine
   parent: N14WeaponSniperHunting
   id: N14WeaponSniper44LeverShortCarbine
-  description: "Дуже короткий карабін з важільною автоматикою. Під набій 44-го калібру."
+  description: An extra short lever action carbine. Uses .44 ammo.
   components:
   - type: Clothing
     sprite: _Nuclear14/Objects/Weapons/Guns/Snipers/shortlevercarbine.rsi
@@ -331,10 +331,10 @@
     node: levercarbinesawed
 
 - type: entity
-  name: "Трубчаста гвинтівка калібру .50"
+  name: .50 pipe rifle
   parent: BaseWeaponSniper
   id: N14WeaponSniper50Pipe
-  description: "Купа металобрухту та труб, скріплених разом у відчайдушній спробі протистояти бронетехніці. Використовує антиматеріальні боєприпаси 50-го калібру."
+  description: A bunch of scrap and pipe held together in a desperate attemp of countering power armor. Uses .50 anti-material ammo.
   components:
   - type: Sprite
     sprite: _Nuclear14/Objects/Weapons/Guns/Snipers/50piperifle.rsi
@@ -368,10 +368,10 @@
     backStrength: 3
 
 - type: entity
-  name: "мисливська палиця"
+  name: huntstick
   parent: N14WeaponSniperHunting
   id: N14WeaponSniper308Tribal
-  description: "Племінна важільна гвинтівка. Використовує набої .308 калібру."
+  description: A tribal lever action rifle. Uses .308 ammo.
   components:
   - type: Clothing
     sprite: _Nuclear14/Objects/Weapons/Guns/Snipers/tribalhuntstick.rsi
@@ -385,10 +385,10 @@
     backStrength: 3
 
 - type: entity
-  name: "майстер мисливської палиці"
+  name: master huntstick
   parent: N14WeaponSniperHunting
   id: N14WeaponSniper308TribalUpgraded
-  description: "Важельна гвинтівка з племінним орнаментом. Використовує набої .308 калібру."
+  description: A tribal decorated lever action rifle. Uses .308 ammo.
   components:
   - type: Clothing
     sprite: _Nuclear14/Objects/Weapons/Guns/Snipers/tribalhuntstick2.rsi
@@ -402,10 +402,10 @@
     backStrength: 3
 
 - type: entity
-  name: "Снайперська гвинтівка F1"
+  name: F1 sniper rifle
   parent: N14WeaponSniperHunting
   id: N14WeaponSniper308Canadian
-  description: "Довоєнна канадська снайперська гвинтівка з болтовим затвором. Використовує набої калібру .308."
+  description: A pre-war bolt action canadian sniper rifle. Uses .308 ammo.
   components:
   - type: Clothing
     sprite: _Nuclear14/Objects/Weapons/Guns/Snipers/canadiansniper.rsi
@@ -419,10 +419,10 @@
     backStrength: 3
 
 - type: entity
-  name: "гвинтівка росса"
+  name: ross rifle
   parent: N14WeaponSniperHunting
   id: N14WeaponSniper308Ross
-  description: "Добре збережена канадська службова гвинтівка з затворною системою. Використовує набої калібру .308."
+  description: A well-preserved bolt action canadian service rifle. Uses .308 ammo.
   components:
   - type: Clothing
     sprite: _Nuclear14/Objects/Weapons/Guns/Snipers/ross.rsi

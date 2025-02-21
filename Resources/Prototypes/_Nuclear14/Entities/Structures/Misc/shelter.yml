@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseStructure
   id: N14PulowskiShelterNew
-  name: "Пуловський природоохоронний притулок"
-  description: "Пуловскі: Ядерний захист за бюджетні кошти!"
+  name:  Pulowski Preservation Shelter
+  description: "Pulowski: Nuclear protection on a budget!"
   components:
   - type: Sprite
     scale: 0.54, 0.54
@@ -51,8 +51,8 @@
 - type: entity
   parent: N14PulowskiShelterNew
   id: N14PulowskiShelterWorn
-  name: "Пуловський природоохоронний притулок"
-  description: "Пуловскі: Ядерний захист за бюджетні кошти!"
+  name:  Pulowski Preservation Shelter
+  description: "Pulowski: Nuclear protection on a budget!"
   components:
   - type: Sprite
     noRot: true

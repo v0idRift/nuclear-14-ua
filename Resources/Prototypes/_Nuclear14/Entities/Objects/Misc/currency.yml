@@ -1,8 +1,8 @@
 - type: entity
-  name: "гаманець"
+  name: wallet
   id: N14Wallet
   parent: BaseStorageItem
-  description: "Гаманець для зберігання великої кількості грошей."
+  description: A wallet for storing lots of money.
   components:
   - type: Sprite
     sprite: _Nuclear14/Objects/Misc/storage.rsi
@@ -36,8 +36,8 @@
 - type: entity
   parent: BaseItem
   id: N14CurrencyCap
-  name: "кришка від пляшки"
-  description: "Кришечка від пляшки Nuka-Cola."
+  name: bottlecap
+  description: A bottlecap from a bottle of Nuka-Cola.
   components:
   - type: Cash
   - type: Material
@@ -83,7 +83,7 @@
 
 - type: stack
   id: Caps
-  name: "ковпачки"
+  name: caps
   icon: { sprite: _Nuclear14/Objects/Misc/currency.rsi, state: caps3 }
   spawn: N14CurrencyCap
 
@@ -135,8 +135,8 @@
 - type: entity
   parent: N14CurrencyCap
   id: N14CurrencyPrewar
-  name: "довоєнні гроші"
-  description: "Пачки непотрібного паперу. Зроби дощ!"
+  name: pre-war money
+  description: Wads of useless paper. Make it rain!
   components:
   - type: PhysicalComposition
     materialComposition:
@@ -158,7 +158,7 @@
       
 - type: stack
   id: PrewarMoney
-  name: "довоєнні гроші"
+  name: pre-war money
   icon: { sprite: /Textures/_Nuclear14/Objects/Misc/currency.rsi, state: prewar3 }
   spawn: N14CurrencyPrewar
   maxCount: 1000
@@ -209,7 +209,7 @@
 
 - type: material
   id: NcrCredit
-  name: "нкрКредит"
+  name: ncrCredit
   unit: materials-unit-bill
   stackEntity: N14CurrencyNCRDollar
   icon: { sprite: /Textures/_Nuclear14/Objects/Misc/currency.rsi, state: ncr3 }
@@ -219,8 +219,8 @@
 - type: entity
   parent: N14CurrencyCap
   id: N14CurrencyNCRDollar
-  name: "Долар NCR"
-  description: "Пачки паперу з емблемами НКР. Зроби дощ!"
+  name: NCR dollar
+  description: Wads of paper, these ones bear the insignia of the NCR. Make it rain!
   components:
   - type: Cash
   - type: PhysicalComposition
@@ -243,7 +243,7 @@
       
 - type: stack
   id: NCRDollar
-  name: "Долари NCR"
+  name: NCR dollars
   icon: { sprite: /Textures/_Nuclear14/Objects/Misc/currency.rsi, state: ncr3 }
   spawn: N14CurrencyNCRDollar
   maxCount: 1000
@@ -296,8 +296,8 @@
 - type: entity
   parent: N14CurrencyCap
   id: N14CurrencyLegionAureus
-  name: "золотистий стафілокок"
-  description: "Золота монета, що використовувалася легіоном і племенами як валюта."
+  name: aureus
+  description: A gold coin used by the legion and tribes as currency.
   components:
   - type: Stack
     stackType: LegionAureus
@@ -317,7 +317,7 @@
       
 - type: stack
   id: LegionAureus
-  name: "лЕГІОН АУРЕЙ"
+  name: legion aurei
   icon: { sprite: /Textures/_Nuclear14/Objects/Misc/currency.rsi, state: aurelius3 }
   spawn: N14CurrencyLegionAureus
   maxCount: 500
@@ -359,8 +359,8 @@
 - type: entity
   parent: N14CurrencyCap
   id: N14CurrencyLegionDenarius
-  name: "денарій"
-  description: "Срібна монета, що використовувалася легіоном та племенами як валюта."
+  name: denarius
+  description: A silver coin used by the legion and tribes as currency.
   components:
   - type: Stack
     stackType: LegionDenarius
@@ -380,7 +380,7 @@
       
 - type: stack
   id: LegionDenarius
-  name: "легіон денаріїв"
+  name: legion denarii
   icon: { sprite: /Textures/_Nuclear14/Objects/Misc/currency.rsi, state: denarius3 }
   spawn: N14CurrencyLegionDenarius
   maxCount: 500

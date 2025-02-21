@@ -3,8 +3,8 @@
   abstract: true
   id: N14PowerStorageBase
   parent: BaseSMES
-  name: "накопичувач енергії"
-  description: "Високопотужний накопичувач енергії."
+  name: energy storage unit
+  description: A high-capacity energy storage unit.
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Power/powerstorage.rsi

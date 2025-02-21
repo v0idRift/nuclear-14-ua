@@ -1,8 +1,8 @@
 - type: job
   id: MountieSergeant
   setPreference: true
-  name: "сержант поліції"
-  description: "анексувати землю, люди, які на ній проживають, не мають значення" #need work
+  name: mountie sergeant
+  description: annex the land, the people on it doesnt matter #need work
   playTimeTracker: MountieSergeant
   startingGear: MountieSergeantGear
   icon: "JobIconSecurityCadet"

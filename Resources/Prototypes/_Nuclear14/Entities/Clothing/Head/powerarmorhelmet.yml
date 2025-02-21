@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingHeadHardsuitWithLightBase
   id: N14ClothingHeadHelmetPowerArmorT45
-  name: "т-45 силовий бронешолом"
-  description: "Старий шолом, який використовувався з костюмами T-45 Power Armor. Дивно, що вони досі існують."
+  name: t-45 power armor helmet
+  description: An old helmet used with T-45 Power Armor suits. It's amazing these still exist.
   components:
   - type: Sprite
     netsync: false
@@ -58,8 +58,8 @@
 - type: entity
   parent: ClothingHeadHardsuitWithLightBase
   id: N14ClothingHeadHelmetPowerArmorT51
-  name: "т-51 силовий бронешолом"
-  description: "Старий шолом, що використовується з костюмами T-51 Power Armor. Він виглядає більш просунутим, ніж звичайний повсякденний T-45."
+  name: t-51 power armor helmet
+  description: An old helmet used with T-51 Power Armor suits. It looks more advanced than your common everyday T-45.
   components:
   - type: Sprite
     netsync: false
@@ -115,8 +115,8 @@
 - type: entity
   parent: ClothingHeadHardsuitWithLightBase
   id: N14ClothingHeadHelmetPowerArmorT60
-  name: "т-60 силовий бронешолом"
-  description: "Старий шолом, який використовується з костюмами Т-60 Power Armor, дуже схожими на Т-45."
+  name: t-60 power armor helmet
+  description: An old helmet used with T-60 Power Armor suits, very similar to the T-45.
   components:
   - type: Sprite
     netsync: false
@@ -172,8 +172,8 @@
 - type: entity
   parent: ClothingHeadHardsuitWithLightBase
   id: N14ClothingHeadHelmetPowerArmorX01
-  name: "Силовий бронешолом X-01"
-  description: "Удосконалений шолом, що використовується з костюмами X-01 Power Armor."
+  name: X-01 power armor helmet
+  description: An advanced helmet used with X-01 Power Armor suits.
   components:
   - type: Sprite
     netsync: false
@@ -229,8 +229,8 @@
 - type: entity
   parent: N14ClothingHeadHelmetPowerArmorX01
   id: N14ClothingHeadHelmetPowerArmorX02
-  name: "Силовий бронешолом X-02"
-  description: "Шолом Enclave Mark II Powered Combat Armor."
+  name: X-02 power armor helmet
+  description: The Enclave Mark II Powered Combat Armor helmet.
   components:
   - type: Sprite
     netsync: false
@@ -261,8 +261,8 @@
 - type: entity
   parent: N14ClothingHeadHelmetPowerArmorX01
   id: N14ClothingHeadHelmetPowerArmorHellfire
-  name: "шолом hellfire power бронешолом"
-  description: "Глибокий чорний шолом з важкої Power Armor виробництва Enclave з жовтим балістичним склом, створений на основі довоєнних зразків, таких як T-51, та вдосконалений на основі даних, зібраних післявоєнними зразками, такими як X-01. Найчастіше використовується на Східному узбережжі, жоден інший шолом не може зрівнятися з ним за міцністю."
+  name: hellfire power armor helmet
+  description: A deep black helmet of Enclave-manufactured heavy Power Armor with yellow ballistic glass, based on pre-war designs such as the T-51 and improving off of data gathered by post-war designs such as the X-01. Most commonly fielded on the East Coast, no other helmet rivals its strength.
   components:
   - type: Sprite
     netsync: false
@@ -293,8 +293,8 @@
 - type: entity
   parent: ClothingHeadHardsuitWithLightBase
   id: N14ClothingHeadHelmetPowerArmorT51BC
-  name: "t-51bc силовий бронешолом t-51bc"
-  description: "Вершина довоєнних технологій, яку привласнило Сталеве Братство. Зазвичай носили командири паладинів."
+  name: t-51bc power armor helmet
+  description: The pinnacle of pre-war technology appropriated by the Brotherhood of Steel. Commonly worn by Paladin Commanders.
   components:
   - type: Sprite
     netsync: false
@@ -350,8 +350,8 @@
 - type: entity
   parent: ClothingHeadHardsuitWithLightBase
   id: N14ClothingHeadHelmetPowerArmorT45NCR
-  name: "т-45 NCR силовий бронешолом"
-  description: "Спочатку існував як силовий бронетранспортер T-45d, який був відновлений і перепрофільований для використання в NCR."
+  name: t-45 NCR power armor helmet
+  description: Originally existing as T-45d power armor that was recovered by and repurposed for the use within NCR.
   components:
   - type: Sprite
     netsync: false
@@ -407,8 +407,8 @@
 - type: entity
   parent: N14ClothingHeadHelmetPowerArmorX01
   id: N14ClothingHeadHelmetPowerArmorMidwest
-  name: "середньозахідний силовий бронешолом"
-  description: "Невідома модель шолома Power Armor, що походить з Середнього Заходу і прийнята на озброєння відділенням Братства Середнього Заходу."
+  name: midwest power armor helmet
+  description: A unknown model of Power Armor helmet originating from the midwest region and adopted by the Midwest Brotherhood chapter.
   components:
   - type: Sprite
     netsync: false
@@ -439,8 +439,8 @@
 - type: entity
   parent: N14ClothingHeadHelmetPowerArmorX01
   id: N14ClothingHeadHelmetPowerArmorMidwestCommander
-  name: "midwest commander power armor шолом"
-  description: "Невідома модель шолома Power Armor, що походить з Середнього Заходу і прийнята на озброєння відділенням Середньозахідного Братства. Ця модифікована версія зазвичай використовується високопоставленими паладинами Середньозахідного Братства."
+  name: midwest commander power armor helmet
+  description: A unknown model of Power Armor helmet originating from the midwest region and adopted by the Midwest Brotherhood chapter. This modified version is commonly used by high-ranking Midwest Brotherhood Paladins.
   components:
   - type: Sprite
     netsync: false

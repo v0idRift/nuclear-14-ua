@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseStructure
   id: N14WreckForklift
-  name: "розбитий навантажувач"
-  description: "старий навантажувач"
+  name: wrecked forklift
+  description: an old forklift
   components:
   - type: Fixtures
     fixtures:

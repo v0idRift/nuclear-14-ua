@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseStructure
   id: N14NukeSilo
-  name: "Сховище для ядерних ракет"
-  description: "довоєнна ракетна шахта. цікаво, що всередині"
+  name:  Nuclear Missile Silo
+  description: "a prewar missile silo. wonder whats inside"
   components:
   - type: Sprite
     scale: 2,2

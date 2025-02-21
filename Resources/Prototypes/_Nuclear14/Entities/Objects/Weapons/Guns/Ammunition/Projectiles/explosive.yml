@@ -1,6 +1,6 @@
 - type: entity
   id: BaseGrenadeProjectile
-  name: "граната"
+  name: grenade
   parent: BaseBulletTrigger
   noSpawn: true
   components:
@@ -18,7 +18,7 @@
 
 - type: entity
   id: GrenadeProjectile
-  name: "граната"
+  name: grenade
   parent: BaseGrenadeProjectile
   noSpawn: true
   components:
@@ -33,7 +33,7 @@
 
 - type: entity
   id: FireGrenadeProjectile
-  name: "бойова граната"
+  name: fire grenade
   parent: BaseGrenadeProjectile
   noSpawn: true
   components:
@@ -51,10 +51,10 @@
 
 - type: entity
   id: N14ProjectileMissile
-  name: "Ракета"
+  name: Missile
   parent: BaseBulletTrigger
   noSpawn: true
-  description: "Вибухова ракета."
+  description: An explosive missile.
   components:
   - type: Projectile
     damage:

@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingMaskBase
   id: N14ClothingMaskHockey
-  name: "хокейна маска"
-  description: "Легка біла маска з червоними лініями та отворами для дихання."
+  name: hockey mask
+  description: A light white mask with red lines and holes to breath through.
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/Mask/hockeymask.rsi
@@ -23,8 +23,8 @@
 - type: entity
   parent: ClothingMaskBase
   id: N14ClothingMaskPlate
-  name: "пластинчаста маска"
-  description: "Сталева пластина з 2 отворами для очей, сформована так, щоб закривати обличчя."
+  name: plate mask
+  description: A steel plate with 2 eyeholes, shaped to cover the face.
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/Mask/platemask.rsi
@@ -45,8 +45,8 @@
 - type: entity
   parent: ClothingMaskBase
   id: N14ClothingMaskGrill
-  name: "сталева маска-гриль"
-  description: "Сталева маска з козирком у формі решітки."
+  name: steel grill mask
+  description: A steel mask with a grill-shaped visor.
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/Mask/grillmask.rsi
@@ -67,8 +67,8 @@
 - type: entity
   parent: ClothingMaskBase
   id: N14ClothingMaskBrownBalaclava
-  name: "коричнева балаклава"
-  description: "Шматок тканини з діркою, щоб можна було бачити, не дуже великий винахід з довоєнних часів, але він може бути досить теплим, щоб захистити від холоду. Цей - коричневий."
+  name: brown balaclava
+  description: A piece of cloth with a hole in it to see, not really a big invention from the pre-war but it can be warm enough to protect from the cold. This one is brown.
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/Mask/brownbalaclava.rsi
@@ -83,8 +83,8 @@
 - type: entity
   parent: ClothingMaskBase
   id: N14ClothingMaskWhiteBalaclava
-  name: "біла балаклава"
-  description: "Шматок тканини з 2 отворами, щоб можна було бачити, не дуже великий винахід з довоєнних часів, але він може бути досить теплим, щоб захистити від холоду. Цей - білий."
+  name: white balaclava
+  description: A piece of cloth with a 2 holes in it to see, not really a big invention from the pre-war but it can be warm enough to protect from the cold. This one is white.
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/Mask/whitebalaclava.rsi
@@ -99,8 +99,8 @@
 - type: entity
   parent: ClothingMaskBase
   id: N14ClothingMaskSkirmisher
-  name: "маска для перестрілки"
-  description: "Шкіряна маска зі звисаючою кольчугою для захисту ротової порожнини - не найкращий варіант, але вона досить добре зупиняє осколки."
+  name: skirmisher mask
+  description: A leather mask with hanging chain mail to protect the mouth area, not the best but it can stop sharpnel pretty well.
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/Mask/mountiemask.rsi

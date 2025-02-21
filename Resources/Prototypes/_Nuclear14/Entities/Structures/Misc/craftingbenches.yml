@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseStructure
   id: N14WorkbenchBase
-  description: "Верстак з металообробними інструментами для крафтингу."
-  name: "верстак"
+  description: A workbench with metal working tools for crafting.
+  name: workbench
   abstract: true
   components:
   - type: InteractionOutline
@@ -37,8 +37,8 @@
 - type: entity
   parent: N14WorkbenchBase
   id: N14WorkbenchWeaponbench
-  description: "Верстак з робочими інструментами для виготовлення зброї."
-  name: "збройовий верстак"
+  description: A workbench with weapon working tools for crafting.
+  name: weapon workbench
   components:
   - type: Sprite
     state: weaponbench
@@ -66,8 +66,8 @@
 - type: entity
   parent: N14WorkbenchBase
   id: N14WorkbenchAmmobench
-  description: "Верстак з робочими інструментами для крафтингу боєприпасів."
-  name: "верстак для боєприпасів"
+  description: A workbench with ammo working tools for crafting.
+  name: ammo workbench
   components:
   - type: Construction
     graph: N14WorkbenchAmmobench
@@ -128,8 +128,8 @@
 - type: entity
   parent: N14WorkbenchBase
   id: N14WorkbenchAmmobenchFrame
-  description: "Верстак з робочими інструментами для крафтингу боєприпасів. Цей ще будується!"
-  name: "рама верстака для боєприпасів"
+  description: A workbench with ammo working tools for crafting. This one is still being built!
+  name: ammo workbench frame
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Misc/workbenches.rsi
@@ -156,8 +156,8 @@
 - type: entity
   parent: N14WorkbenchBase
   id: N14WorkbenchArmorbench
-  description: "Верстак з робочими інструментами для виготовлення броні."
-  name: "броньовий верстак"
+  description: A workbench with armor working tools for crafting.
+  name: armor workbench
   components:
   - type: Sprite
     state: armorbench
@@ -193,8 +193,8 @@
 - type: entity
   parent: N14WorkbenchBase
   id: N14WorkbenchTinkerbench
-  description: "Робочий стіл з інструментами для майстрування."
-  name: "ковальський верстак"
+  description: A workbench with tinkering tools for crafting.
+  name: tinker workbench
   components:
   - type: Sprite
     state: tinkerbench
@@ -224,8 +224,8 @@
 - type: entity
   parent: BaseStructure
   id: N14WorkbenchChemistryset
-  description: "Набір з хімії для створення ліків та сполук"
-  name: "хімічний набір"
+  description: A chemistry set for crafting drugs and compounds
+  name: chemical set
   components:
   - type: Construction
     graph: N14WorkbenchChemistryset
@@ -274,8 +274,8 @@
 - type: entity
   parent: BaseStructure
   id: N14WorkbenchChemistrysetFrame
-  description: "Хімічний набір для створення ліків та сполук. Цей все ще створюється!"
-  name: "рамка для хімічного набору"
+  description: A chemistry set for crafting drugs and compounds. This one is still being built!
+  name: chemical set frame
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Misc/workbenches.rsi
@@ -302,8 +302,8 @@
 - type: entity
   parent: N14WorkbenchBase
   id: N14WorkbenchMetal
-  description: "Верстак з металообробними інструментами для крафтингу."
-  name: "верстак"
+  description: A workbench with metal working tools for crafting.
+  name: workbench
   components:
   - type: Construction
     graph: N14WorkbenchMetal
@@ -402,8 +402,8 @@
 - type: entity
   parent: N14WorkbenchBase
   id: N14WorkbenchMetalFrame
-  description: "Верстак з металообробними інструментами для ремесла. Цей ще будується!"
-  name: "рама верстака"
+  description: A workbench with metal working tools for crafting. This one is still being built!
+  name: workbench frame
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Misc/workbenches.rsi
@@ -429,8 +429,8 @@
 - type: entity
   parent: N14WorkbenchBase
   id: N14WorkbenchForge
-  description: "Кузня зі шматків брухту. Виглядає круто."
-  name: "кузня"
+  description: A forge made from pieces of scrap. Looks hot.
+  name: forge
   components:
   - type: Construction
     graph: N14WorkbenchForge
@@ -483,8 +483,8 @@
 - type: entity
   parent: N14WorkbenchBase
   id: N14WorkbenchForgeFrame
-  description: "Кузня зі шматків брухту. Виглядає круто. А цю ще будують!"
-  name: "ковальська рама"
+  description: A forge made from pieces of scrap. Looks hot. This one is still being built!
+  name: forge frame
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Misc/forgeworkbench.rsi
@@ -512,8 +512,8 @@
 - type: entity
   parent: BaseLathe
   id: N14WorkbenchIDPrinter
-  description: "Принтер для ідентифікації."
-  name: "Принтер для ідентифікації"
+  description: An ID printer.
+  name: ID Printer
   abstract: true # Base off of this per faction.
   components:
   - type: Sprite
@@ -540,7 +540,7 @@
 - type: entity
   parent: N14WorkbenchIDPrinter
   id: N14WorkbenchIDPrinterTownspeople
-  description: "Принтер для друку міських паспортів"
+  description: An ID printer for printing town passports
   suffix: townspeople
   components:
   - type: Lathe
@@ -556,7 +556,7 @@
 - type: entity
   parent: N14WorkbenchIDPrinter
   id: N14WorkbenchIDPrinterBrotherhoodMidwest
-  description: "Принтер для друку голобірок Братства Середнього Заходу."
+  description: An ID printer for printing Midwest Brotherhood holotags.
   suffix: Midwest BOS
   components:
   - type: Lathe
@@ -569,7 +569,7 @@
 - type: entity
   parent: N14WorkbenchIDPrinter
   id: N14WorkbenchIDPrinterBrotherhoodWashington
-  description: "Принтер для друку голобірок Вашингтонського братства."
+  description: An ID printer for printing Washington Brotherhood holotags.
   suffix: Washington BOS
   components:
   - type: Lathe
@@ -582,7 +582,7 @@
 - type: entity
   parent: N14WorkbenchIDPrinter
   id: N14WorkbenchIDPrinterCaravan
-  description: "Принтер для друку ідентифікаторів караванів."
+  description: An ID printer for printing caravan IDs.
   suffix: Caravan
   components:
   - type: Lathe
@@ -593,7 +593,7 @@
 - type: entity
   parent: N14WorkbenchIDPrinter
   id: N14WorkbenchIDPrinterNCR
-  description: "Принтер для друку ідентифікаторів NCR."
+  description: An ID printer for printing NCR IDs.
   suffix: NCR
   components:
   - type: Lathe
@@ -604,7 +604,7 @@
 - type: entity
   parent: N14WorkbenchIDPrinter
   id: N14WorkbenchIDPrinterVault
-  description: "Принтер для друку ідентифікаторів Vault ID."
+  description: An ID printer for printing Vault IDs.
   suffix: Vault
   components:
   - type: Lathe

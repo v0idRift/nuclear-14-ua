@@ -63,10 +63,10 @@
 # Pizza
 
 - type: entity
-  name: "піца \"Маргарита"
+  name: margherita pizza
   parent: N14CookedFoodPizzaBase
   id: N14CookedFoodPizzaMargherita
-  description: "Аромат місця під назвою... Іті-лі?" #N14 change
+  description: The flavor of some place called... Iti-lie..? #N14 change
   components:
   - type: FlavorProfile
     flavors:
@@ -81,10 +81,10 @@
     slice: N14CookedFoodPizzaMargheritaSlice
 
 - type: entity
-  name: "шматочок піци \"Маргарита"
+  name: slice of margherita pizza
   parent: N14CookedFoodPizzaSliceBase
   id: N14CookedFoodPizzaMargheritaSlice
-  description: "Шматочок Іті-лі." #N14 change
+  description: A slice of Iti-lie. #N14 change
   components:
   - type: FlavorProfile
     flavors:
@@ -97,10 +97,10 @@
     - state: margherita-slice
 
 - type: entity
-  name: "м'ясна піца"
+  name: meat pizza
   parent: N14CookedFoodPizzaBase
   id: N14CookedFoodPizzaMeat
-  description: "Жирна піца зі смачним м'ясом."
+  description: Greasy pizza with delicious meat.
   components:
   - type: FlavorProfile
     flavors:
@@ -120,10 +120,10 @@
     - Pizza
 
 - type: entity
-  name: "шматок м'ясної піци"
+  name: slice of meat pizza
   parent: N14CookedFoodPizzaSliceBase
   id: N14CookedFoodPizzaMeatSlice
-  description: "Поживний шматочок м'ясної піци. Меацца."
+  description: A nutritious slice of meatpizza. Meatzza.
   components:
   - type: FlavorProfile
     flavors:
@@ -142,10 +142,10 @@
 # Tastes like crust, tomato, cheese, meat.
 
 - type: entity
-  name: "грибна піца"
+  name: mushroom pizza
   parent: N14CookedFoodPizzaBase
   id: N14CookedFoodPizzaMushroom
-  description: "Пахне темрявою, але на смак - насолода." #N14 change
+  description: It reeks of the dark, but tastes like delight. #N14 change
   components:
   - type: FlavorProfile
     flavors:
@@ -159,10 +159,10 @@
     slice: N14CookedFoodPizzaMushroomSlice
 
 - type: entity
-  name: "шматочок грибної піци"
+  name: slice of mushroom pizza
   parent: N14CookedFoodPizzaSliceBase
   id: N14CookedFoodPizzaMushroomSlice
-  description: "Жувальний і дивно солодкий." #N14 change
+  description: Chewy and oddly sweet. #N14 change
   components:
   - type: FlavorProfile
     flavors:
@@ -175,10 +175,10 @@
 # Tastes like crust, tomato, cheese, mushroom.
 
 - type: entity
-  name: "овочева піца"
+  name: vegetable pizza
   parent: N14CookedFoodPizzaBase
   id: N14CookedFoodPizzaVegetable
-  description: "Напевно, це найкорисніша річ, яку коли-небудь куштував марнотратник." #N14 change
+  description: Probably the healthiest thing a waster has ever tasted. #N14 change
   components:
   - type: FlavorProfile
     flavors:
@@ -206,10 +206,10 @@
           Quantity: 5
 
 - type: entity
-  name: "шматочок овочевої піци"
+  name: slice of vegetable pizza
   parent: N14CookedFoodPizzaSliceBase
   id: N14CookedFoodPizzaVegetableSlice
-  description: "Ви відчуваєте себе менш хворими, просто дивлячись на нього." #N14 change
+  description: You feel less diseased just looking at it. #N14 change
   components:
   - type: FlavorProfile
     flavors:
@@ -238,10 +238,10 @@
 # Tastes like crust, tomato, cheese, carrot.
 
 - type: entity
-  name: "Гавайська піца"
+  name: Hawaiian pizza
   parent: N14CookedFoodPizzaBase
   id: N14CookedFoodPizzaPineapple
-  description: "Змушує людей плакати. Сльози радості чи смутку - залежить від того, наскільки людина любить ананас."
+  description: Makes people burst into tears. Tears of joy or sadness depends on the persons fondness for pineapple.
   components:
   - type: FlavorProfile
     flavors:
@@ -257,10 +257,10 @@
     slice: N14CookedFoodPizzaPineappleSlice
 
 - type: entity
-  name: "шматочок ананасової піци"
+  name: slice of pineapple pizza
   parent: N14CookedFoodPizzaSliceBase
   id: N14CookedFoodPizzaPineappleSlice
-  description: "Шматочок радості/гріха."
+  description: A slice of joy/sin.
   components:
   - type: FlavorProfile
     flavors:
@@ -281,10 +281,10 @@
 
 #TODO: Make this do poison damage and make cut pizza slices eventually rot into this.
 - type: entity
-  name: "шматок запліснявілої піци"
+  name: slice of moldy pizza
   parent: N14CookedFoodPizzaSliceBase
   id: N14CookedFoodPizzaMoldySlice
-  description: "Колись це був чудовий шматок піци, але тепер він лежить тут, прогірклий і вкритий спорами."
+  description: Once a perfectly good slice of pizza pie, but now it lies here, rancid and bursting with spores.
   components:
   - type: FlavorProfile
     flavors:

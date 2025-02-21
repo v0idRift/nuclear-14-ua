@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingOuterHardsuitBase
   id: N14ClothingOuterPowerArmorT45
-  name: "т-45 силова броня"
-  description: "Старий костюм T-45 Power Armor. Дивно, що вони досі існують."
+  name: t-45 power armor
+  description: An old suit of T-45 Power Armor. It's amazing these still exist.
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/OuterClothing/PowerArmor/t45.rsi
@@ -40,8 +40,8 @@
 - type: entity
   parent: N14ClothingOuterPowerArmorT45
   id: N14ClothingOuterPowerArmorT51
-  name: "т-51 силова броня"
-  description: "Старий костюм T-51 Power Armor. Виглядає більш просунутим, ніж звичайний повсякденний Т-45."
+  name: t-51 power armor
+  description: An old suit of T-51 Power Armor. It looks more advanced than your common everyday T-45.
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/OuterClothing/PowerArmor/t51.rsi
@@ -73,8 +73,8 @@
 - type: entity
   parent: N14ClothingOuterPowerArmorT45
   id: N14ClothingOuterPowerArmorT60
-  name: "т-60 силова броня"
-  description: "Костюм з силової броні Т-60. Серія силових бронежилетів Т-60 була розроблена для того, щоб з часом замінити Т-51 як вершина технології силової броні. Однак вона страждала від незначного недоліку в розміщенні броні, що робило її дещо менш захищеною."
+  name: t-60 power armor
+  description: A suit of T-60 Power Armor. The T-60 series of power armor was designed to eventually replace the T-51 as the pinnacle of powered armor technology. It however suffered from a minor drawback in its armor placement, making it somewhat less armored.
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/OuterClothing/PowerArmor/t60.rsi
@@ -106,8 +106,8 @@
 - type: entity
   parent: N14ClothingOuterPowerArmorT60
   id: N14ClothingOuterPowerArmorT60Tesla
-  name: "т-60 тесла силова броня"
-  description: "Костюм Т-60 Power Armor, оснащений тесла-котушками. Вірите чи ні, але вони добре захищають від енергетичної зброї."
+  name: t-60 tesla power armor
+  description: A suit of T-60 Power Armor, equipped with tesla coils. Believe it or not they do well at protecting you from energy weapons.
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/OuterClothing/PowerArmor/t60tesla.rsi
@@ -122,8 +122,8 @@
 - type: entity
   parent: N14ClothingOuterPowerArmorT45
   id: N14ClothingOuterPowerArmorAdvanced1
-  name: "Силова броня X-01"
-  description: "Рідкісний, громіздкий і просунутий костюм силової броні. Має часткову герметизацію, що допомагає захиститися від радіації!"
+  name: X-01 power armor
+  description: A rare, bulky, and advanced suit of power armor. It includes partial hermetic sealing that helps protect against radiation!
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/OuterClothing/PowerArmor/advanced1.rsi
@@ -155,8 +155,8 @@
 - type: entity
   parent: N14ClothingOuterPowerArmorAdvanced1
   id: N14ClothingOuterPowerArmorAdvanced2
-  name: "Силова броня X-02"
-  description: "Серійний варіант оригінального APA. Він має менше покриття, але його легше ремонтувати та обслуговувати."
+  name: X-02 power armor
+  description: A mass-produced version of the original APA. It sports less plating but is easier to repair and maintain.
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/OuterClothing/PowerArmor/advanced2.rsi
@@ -188,8 +188,8 @@
 - type: entity
   parent: N14ClothingOuterPowerArmorAdvanced1
   id: N14ClothingOuterPowerArmorAdvanced2Hellfire
-  name: "силова броня \"Пекельний вогонь"
-  description: "Глибокий чорний костюм з важкої броні виробництва \"Анклаву\", створений на основі довоєнних зразків, таких як T-51, та вдосконалений на основі даних, зібраних післявоєнними зразками, такими як X-01. Найчастіше використовується на Східному узбережжі, жоден костюм не може зрівнятися з ним за міцністю."
+  name: hellfire power armor
+  description: A deep black suit of Enclave-manufactured heavy power armor based on pre-war designs such as the T-51 and improving off of data gathered by post-war designs such as the X-01. Most commonly fielded on the East Coast, no suit rivals its strength.
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/OuterClothing/PowerArmor/hellfire.rsi
@@ -221,8 +221,8 @@
 - type: entity
   parent: N14ClothingOuterPowerArmorT45
   id: N14ClothingOuterPowerArmorRaider
-  name: "рейдерська силова броня"
-  description: "Страхітливі, міцні, шипасті. Усе, що потрібно рейдеру в костюмі силової броні."
+  name: raider power armor
+  description: Terrifying, robust, spiky. Everything a Raider needs in a power armor suit.
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/OuterClothing/PowerArmor/raider.rsi
@@ -255,8 +255,8 @@
 - type: entity
   parent: N14ClothingOuterPowerArmorT45
   id: N14ClothingOuterPowerArmorMidwest
-  name: "середньозахідна силова броня"
-  description: "Невідома модель силового обладунку, виготовленого Братством Середнього Заходу. Вона підтримує легшу, ніж звичайна, обшивку, але є більш ергономічною, що дозволяє легше рухатися."
+  name: midwest power armor
+  description: A unknown model of power armor manufactured by the Midwest Brotherhood. It supports a lighter plating than the normal but is more ergonomic, allowing easier movement.
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/OuterClothing/PowerArmor/midwest.rsi
@@ -288,8 +288,8 @@
 - type: entity
   parent: N14ClothingOuterPowerArmorT45
   id: N14ClothingOuterPowerArmorMidwestCommander
-  name: "midwest Commander Power Armor"
-  description: "Невідома модель силових обладунків виробництва Братства Середнього Заходу. Ця модифікована версія зазвичай використовується високопоставленими членами Середньозахідного Братства Сталевих Паладинів."
+  name: midwest commander power armor
+  description: A unknown model of power armor manufactured by the Midwest Brotherhood. This modified version is commonly used by high-ranking Midwest Brotherhood of Steel Paladins.
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/OuterClothing/PowerArmor/midwestcommander.rsi
@@ -321,8 +321,8 @@
 - type: entity
   parent: N14ClothingOuterPowerArmorT45
   id: N14ClothingOuterPowerArmorT51BC
-  name: "t-51bc paladin командир"
-  description: "Вершина довоєнних технологій, яку привласнило Сталеве Братство. Зазвичай носили командири паладинів."
+  name: t-51bc paladin commander
+  description: The pinnacle of pre-war technology appropriated by the Brotherhood of Steel. Commonly worn by Paladin Commanders.
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/OuterClothing/PowerArmor/t51bc.rsi
@@ -354,8 +354,8 @@
 - type: entity
   parent: N14ClothingOuterPowerArmorT45
   id: N14ClothingOuterPowerArmorT45NCR
-  name: "т-45 врятована силова броня NCR"
-  description: "Спочатку вона існувала як силова броня T-45d, але була відновлена і перепрофільована для використання в NCR."
+  name: t-45 salvaged NCR power armor
+  description: Originally existing as T-45d power armor, it was recovered by and repurposed for use within the NCR.
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/OuterClothing/PowerArmor/t45ncr.rsi
@@ -387,8 +387,8 @@
 - type: entity
   parent: N14ClothingOuterPowerArmorT51
   id: N14ClothingOuterPowerArmorT51Canadian
-  name: "t-51bc \"канадський щит\""
-  description: "Вершина довоєнних технологій, яку привласнила собі Королівська канадська поліція."
+  name: t-51bc "the canadian shield"
+  description: The pinnacle of pre-war technology, appropriated by the RCMP.
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/OuterClothing/PowerArmor/canadianshield.rsi

@@ -25,10 +25,10 @@
     backStrength: 5
 
 - type: entity
-  name: "Гвинтівка R-91"
+  name: R-91 Rifle
   parent: N14WeaponRifleBase
   id: N14WeaponRifle556R91
-  description: "Старомодна штурмова гвинтівка під набій 5.56."
+  description: An old-fashioned assault rifle chambered in 5.56 munitions.
   components:
   - type: Clothing
     sprite: _Nuclear14/Objects/Weapons/Guns/Rifles/r91.rsi
@@ -70,10 +70,10 @@
             - N14Cartridge556Rifle
 
 - type: entity
-  name: "китайська штурмова гвинтівка"
+  name: chinese assault rifle
   parent: N14WeaponRifleBase
   id: N14WeaponRifle762Chinese
-  description: "Стара іноземна штурмова гвинтівка з дивними символами на ній, заряджена старими патронами калібру 7,62."
+  description: An old foreign assault rifle with strange symbols on it, it is chambered in the old 7.62 ammunition.
   components:
   - type: Clothing
     sprite: _Nuclear14/Objects/Weapons/Guns/Rifles/chineserifle.rsi
@@ -116,10 +116,10 @@
             - N14Cartridge762Rifle
 
 - type: entity
-  name: "штурмовий карабін"
+  name: assault carbine
   parent: N14WeaponRifleBase
   id: N14WeaponRifle556Carbine
-  description: "Гладка чорна компактна штурмова гвинтівка під набій 5.56."
+  description: A sleek black compact assault rifle, uses 5.56 ammo.
   components:
   - type: Clothing
     sprite: _Nuclear14/Objects/Weapons/Guns/Rifles/assaultcarbine.rsi
@@ -165,10 +165,10 @@
             - N14Cartridge556Rifle
 
 - type: entity
-  name: "снайперський карабін"
+  name: marksman carbine
   parent: N14WeaponRifleBase
   id: N14WeaponRifle762Marksman
-  description: "Важка напівавтоматична гвинтівка з оптичним прицілом, використовує набої калібру 7.62."
+  description: A heavy semiautomatic rifle with a scope, uses 7.62 ammo.
   components:
   - type: Clothing
     sprite: _Nuclear14/Objects/Weapons/Guns/Rifles/marksman.rsi
@@ -214,10 +214,10 @@
             - N14Cartridge762Rifle
 
 - type: entity
-  name: "службова гвинтівка"
+  name: service rifle
   parent: N14WeaponRifleBase
   id: N14WeaponRifle556Service
-  description: "Дешева масова післявоєнна гвинтівка, виготовлена компанією NCR під набій 5.56."
+  description: A cheaply mass-produced post-war rifle made by the NCR, chambered in 5.56 ammo.
   components:
   - type: Clothing
     sprite: _Nuclear14/Objects/Weapons/Guns/Rifles/servicerifle.rsi
@@ -263,10 +263,10 @@
             - N14Cartridge556Rifle
 
 - type: entity
-  name: "розвідувальна гвинтівка"
+  name: scout rifle
   parent: N14WeaponRifleBase
   id: N14WeaponRifle556Scout
-  description: "Модифікована версія службової гвинтівки, яку використовують рейнджери в польових умовах. Вона здатна використовувати більші магазини калібру 5.56, ніж її попередниця."
+  description: A modified version of the service rifle made by Rangers in the field. It is capable of using larger 5.56 magazines than its predecessor.
   components:
   - type: Clothing
     sprite: _Nuclear14/Objects/Weapons/Guns/Rifles/scoutrifle.rsi
@@ -314,10 +314,10 @@
             - N14Cartridge556Rifle
 
 - type: entity
-  name: "бойова гвинтівка"
+  name: battle rifle
   parent: N14WeaponRifleBase
   id: N14WeaponRifle308Battle
-  description: "Довга напівавтоматична гвинтівка з набійником під потужний набій 308-го калібру."
+  description: A long semi-automatic rifle fed by clips, chambered in the powerful 308.
   components:
   - type: Clothing
     sprite: _Nuclear14/Objects/Weapons/Guns/Rifles/battlerifle.rsi
@@ -370,10 +370,10 @@
     backStrength: 3
 
 - type: entity
-  name: "старий карабін"
+  name: old carbine
   parent: N14WeaponRifleBase
   id: N14WeaponRifle556CarbineOld
-  description: "Коротка компактна гвинтівка довоєнного зразка під набій 5.56."
+  description: A short compact rifle of the pre-war, chambered in 5.56 ammo.
   components:
   - type: Clothing
     sprite: _Nuclear14/Objects/Weapons/Guns/Rifles/carbine.rsi
@@ -419,10 +419,10 @@
             - N14Cartridge556Rifle
 
 - type: entity
-  name: "Гвинтівка C70"
+  name: C70 rifle
   parent: N14WeaponRifleBase
   id: N14WeaponRifle762Canadian
-  description: "Довоєнна канадська штурмова гвинтівка калібру 7,62 мм, на диво в гарному стані, як для гвинтівки, якій 200 років"
+  description: A pre-war canadian assault rifle chambered in 7.62mm, surprisingly in good state for being 200 a years old rifle
   components:
   - type: Clothing
     sprite: _Nuclear14/Objects/Weapons/Guns/Rifles/canadianrifle.rsi
@@ -468,10 +468,10 @@
             - N14Cartridge762Rifle
 
 - type: entity
-  name: "Гвинтівка EM2"
+  name: EM2 rifle
   parent: N14WeaponRifleBase
   id: N14WeaponRifle556EM2
-  description: "Довга штурмова гвинтівка буллпап, використовує набої калібру 5.56."
+  description: A long bullpup assault rifle, uses 5.56 ammo.
   components:
   - type: Clothing
     sprite: _Nuclear14/Objects/Weapons/Guns/Rifles/em2.rsi
@@ -518,10 +518,10 @@
             - N14Cartridge556Rifle
 
 - type: entity
-  name: "Гвинтівка FAL"
+  name: FAL rifle
   parent: N14WeaponRifleBase
   id: N14WeaponRifle762Fal
-  description: "Довоєнна бойова гвинтівка калібру 7,62 мм, міцна та надійна. Кажуть, що колись ця зброя завоювала звання \"правої руки вільного світу\", але від світу залишилося не так багато, щоб це підтвердити."
+  description: A pre-war battle rifle chambered in 7.62mm, strong and reliable. its said this gun once won the title of "the right arm of the free world", but theres not much left of the world to confirm it.
   components:
   - type: Clothing
     sprite: _Nuclear14/Objects/Weapons/Guns/Rifles/fal.rsi
@@ -567,10 +567,10 @@
             - N14Cartridge762Rifle
 
 - type: entity
-  name: "Гвинтівка M14"
+  name: M14 rifle
   parent: N14WeaponRifleBase
   id: N14WeaponRifle762M14
-  description: "Довоєнна бойова гвинтівка калібру 7,62 мм, створена на заміну старому американському карабіну M1, проіснувала недовго і після кількох років служби була замінена на R-91."
+  description: A pre-war battle rifle chambered in 7.62mm, build to remplace the old M1 garand of the US military, it didnt last for long and got remplaced by the R-91 after a few years of service.
   components:
   - type: Clothing
     sprite: _Nuclear14/Objects/Weapons/Guns/Rifles/m14.rsi
@@ -616,10 +616,10 @@
             - N14Cartridge762Rifle
 
 - type: entity
-  name: "Снайперська гвинтівка F2"
+  name: F2 marksman rifle
   parent: N14WeaponRifleBase
   id: N14WeaponRifle762MarksmanCanadian
-  description: "Довоєнна канадська снайперська гвинтівка калібру 7,62 мм."
+  description: A pre-war canadian marksman rifle chambered in 7.62mm.
   components:
   - type: Clothing
     sprite: _Nuclear14/Objects/Weapons/Guns/Rifles/canadianmarksman.rsi
@@ -668,10 +668,10 @@
             - N14Cartridge762Rifle
 
 - type: entity
-  name: "китайська снайперська гвинтівка"
+  name: chinese marksman rifle
   parent: N14WeaponRifleBase
   id: N14WeaponRifle762MarksmanChinese
-  description: "Довоєнна китайська снайперська гвинтівка калібру .308."
+  description: A pre-war chinese marksman rifle chambered in .308.
   components:
   - type: Clothing
     sprite: _Nuclear14/Objects/Weapons/Guns/Rifles/chinesemarksman.rsi
@@ -720,10 +720,10 @@
             - N14Cartridge308Rifle
 
 - type: entity
-  name: "Китайський карабін СКС"
+  name: SKS chinese carbine
   parent: N14WeaponRifleBase
   id: N14WeaponRifle762SKS
-  description: "Довоєнна китайська гвинтівка калібру 7,62 мм. Дешева, проста і зручна у використанні, ідеально підходить для озброєння комуністичних ополченців по всьому світу."
+  description: A pre-war chinese rifle chambered in 7.62mm. cheap, simple and easy to use, perfect to arm commie militias from around the world.
   components:
   - type: Clothing
     sprite: _Nuclear14/Objects/Weapons/Guns/Rifles/chinesecarbine.rsi
@@ -769,10 +769,10 @@
             - N14Cartridge762Rifle
 
 - type: entity
-  name: "трубна штурмова гвинтівка"
+  name: pipe assault rifle
   parent: N14WeaponRifleBase
   id: N14WeaponRifle556Pipe
-  description: "Легка і надзвичайно дешева автоматична гвинтівка з іржавої труби, калібру 5,56 мм"
+  description: A rusty pipe automatic rifle, light and extremely cheap, chambered in 5.56mm
   components:
   - type: Clothing
     sprite: _Nuclear14/Objects/Weapons/Guns/Rifles/pipeassaultrifle.rsi
@@ -818,10 +818,10 @@
             - N14Cartridge556Rifle
 
 - type: entity
-  name: "племінна гвинтівка"
+  name: tribal rifle
   parent: BaseWeaponSniper
   id: N14WeaponSniper556Tribal
-  description: "Напрочуд пристойна зброя, як для племінного виробництва, з внутрішнім магазином, ця напівавтоматична гвинтівка проста, але надійна. калібру 5,56 мм."
+  description: A surprisingly decent piece of a gun for being made by tribals, with an internal magazine this semi automatic rifle is rustic but trusty. chambered in 5.56mm.
   components:
   - type: Clothing
     sprite: _Nuclear14/Objects/Weapons/Guns/Rifles/tribalrifle.rsi
@@ -849,10 +849,10 @@
     backStrength: 5
 
 - type: entity
-  name: "племінна штурмова гвинтівка"
+  name: tribal assault rifle
   parent: BaseWeaponSniper
   id: N14WeaponSniper556TribalUpgraded
-  description: "Напрочуд пристойна зброя, як для племінного виробництва, з внутрішнім магазином, ця напівавтоматична гвинтівка проста, але надійна. калібру 5,56 мм."
+  description: A surprisingly decent piece of a gun for being made by tribals, with an internal magazine this semi automatic rifle is rustic but trusty. chambered in 5.56mm.
   components:
   - type: Clothing
     sprite: _Nuclear14/Objects/Weapons/Guns/Rifles/tribalrifle2.rsi
@@ -880,10 +880,10 @@
     backStrength: 5
 
 - type: entity
-  name: "зарізана службова гвинтівка"
+  name: butchered service rifle
   parent: N14WeaponRifleBase
   id: N14WeaponRifle556Butchered
-  description: "Дешева масова післявоєнна гвинтівка, виготовлена компанією NCR, була піддана жахливим тортурам і перетворена на \"карабін\" під набій 5.56 калібру."
+  description: A cheaply mass-produced post-war rifle made by the NCR, this one has been torture horribly and converted into a "carbine", chambered in 5.56 ammo.
   components:
   - type: Clothing
     sprite: _Nuclear14/Objects/Weapons/Guns/Rifles/butcheredrifle.rsi

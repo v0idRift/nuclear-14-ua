@@ -1,8 +1,8 @@
 - type: job
   id: ChineseSpecOps
   setPreference: true
-  name: "китайські спецоперації"
-  description: "виконувати накази начальства, боротися за комунізм." #need work
+  name: chinese spec ops 
+  description: follow orders from your superior, fight for the communism. #need work
   playTimeTracker: ChineseSpecOps
   startingGear: ChineseSpecOpsGear
   icon: "JobIconSecurityCadet"

@@ -1,7 +1,7 @@
 - type: entity
   parent: MobHuman
   id: N14MobHumanNCRCadet
-  name: "NCRCadet"
+  name: NCRCadet
   components:
     - type: Icon
       sprite: _Nuclear14/Markers/Jobs/ncr.rsi
@@ -32,7 +32,7 @@
 - type: entity
   parent: N14MobHumanNCRCadet
   id: N14MobHumanNCRSGT
-  name: "НКРЗГТ"
+  name: NCRSGT
   components:
     - type: Icon
       state: sgt
@@ -47,7 +47,7 @@
 - type: entity
   parent: N14MobHumanNCRCadet
   id: N14MobHumanNCRLT
-  name: "NCRLT"
+  name: NCRLT
   components:
     - type: Icon
       state: lt
@@ -62,7 +62,7 @@
 - type: entity
   parent: N14MobHumanNCRCadet
   id: N14MobHumanNCREngineer
-  name: "Інженер НКРЕКП"
+  name: NCREngineer
   components:
     - type: Icon
       state: engineer
@@ -77,7 +77,7 @@
 - type: entity
   parent: N14MobHumanNCRCadet
   id: N14MobHumanNCRWS
-  name: "НЦРЗВ"
+  name: NCRWS
   components:
     - type: Icon
       state: ws
@@ -92,7 +92,7 @@
 - type: entity
   parent: N14MobHumanNCRCadet
   id: N14MobHumanNCRSoldier
-  name: "NCRSoldier"
+  name: NCRSoldier
   components:
     - type: Icon
       state: soldier
@@ -107,7 +107,7 @@
 - type: entity
   parent: N14MobHumanNCRCadet
   id: N14MobHumanNCRRangerVeteran
-  name: "NCRRangerVeteran"
+  name: NCRRangerVeteran
   components:
     - type: Icon
       state: rangerveteran
@@ -122,7 +122,7 @@
 - type: entity
   parent: N14MobHumanNCRCadet
   id: N14MobHumanNCRRanger
-  name: "NCRRanger"
+  name: NCRRanger
   components:
     - type: Icon
       state: ranger
