@@ -1,8 +1,8 @@
 - type: entity
   id: Torch2
-  name: torch
+  name: "смолоскип"
   suffix: floor
-  description: A flaming torch for lighting an area.
+  description: "Палаючий смолоскип для освітлення території."
   placement:
     mode: SnapgridCenter
   components:

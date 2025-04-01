@@ -1,7 +1,7 @@
 - type: entity
   id: RendingRunePlacementMarker
-  name: rending rune placement marker
-  description: Marker for rending rune placement. 5 should be enough for each map.
+  name: "маркер розміщення руни розриву"
+  description: "Маркер для розміщення руни розриву. 5 має вистачити для кожної мапи."
   parent: MarkerBase
   components:
   - type: RendingRunePlacementMarker

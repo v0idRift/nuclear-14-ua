@@ -1,6 +1,6 @@
 ﻿- type: body
   id: RatMonarch
-  name: rat monarch
+  name: "король щурів"
   root: torso
   slots:
     head:

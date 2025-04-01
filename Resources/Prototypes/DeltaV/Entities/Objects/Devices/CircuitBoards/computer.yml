@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseComputerCircuitboard
   id: ShipyardComputerCircuitboard
-  name: shipyard computer board
-  description: A computer printed circuit board for a shipyard computer.
+  name: "плата комп'ютера верфі"
+  description: "Друкована плата для комп'ютера верфі."
   components:
   - type: Sprite
     state: cpu_supply

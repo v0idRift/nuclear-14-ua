@@ -1,8 +1,8 @@
 ﻿# Actions
 - type: entity
   id: ActionJumpToCore
-  name: Jump to core
-  description: Sends your eye back to the core.
+  name: "Стрибнути до ядра"
+  description: "Повертає ваше око до ядра."
   components:
   - type: InstantAction
     priority: -10
@@ -14,8 +14,8 @@
 
 - type: entity
   id: ActionShowJobIcons
-  name: Show job icons
-  description: Shows job icons for crew members.
+  name: "Показати іконки посад"
+  description: "Показує іконки посад членів екіпажу."
   components:
   - type: InstantAction
     priority: -5
@@ -29,8 +29,8 @@
 
 - type: entity
   id: ActionSurvCameraLights
-  name: Toggle camera lights
-  description: Enable surveillance camera lights near wherever you're viewing.
+  name: "Перемкнути світло камери"
+  description: "Увімкнути світло камер спостереження поблизу місця, де ви спостерігаєте."
   components:
   - type: InstantAction
     priority: -6
@@ -55,8 +55,8 @@
 
 - type: entity
   id: ActionAIViewLaws
-  name: View Laws
-  description: View the laws that you must follow.
+  name: "Переглянути Закони"
+  description: "Переглянути закони, яких ви повинні дотримуватися."
   components:
   - type: InstantAction
     priority: -3

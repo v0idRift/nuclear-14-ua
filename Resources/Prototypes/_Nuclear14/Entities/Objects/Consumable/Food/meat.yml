@@ -32,10 +32,10 @@
 
 # Raw
 - type: entity
-  name: raw irradiated meat
+  name: "сире опромінене м'ясо"
   parent: N14FoodMeatBase
   id: N14FoodMeatRadRaw
-  description: A morsel of raw irradiated meat
+  description: "Шматочок сирого опроміненого м'яса"
   components:
   - type: Tag
     tags:
@@ -53,10 +53,10 @@
     slice: N14FoodMeatRadCutlet
 
 - type: entity
-  name: raw brahmin steak
+  name: "сирий брамінський стейк"
   parent: N14FoodMeatRadRaw
   id: N14FoodMeatBrahmin
-  description: A raw piece of rump brahmin.
+  description: "Сирий шматок огузка браміна."
   components:
   - type: Sprite
     state: brahminmeat
@@ -75,10 +75,10 @@
     defaultTarget: SteakCooked
 
 - type: entity
-  name: raw bighorner steak
+  name: "сирий стейк бігхорнера"
   parent: N14FoodMeatBrahmin
   id: N14FoodMeatBighorner
-  description: A raw piece of rump bighorner.
+  description: "Сирий шматок крупа бігхорнера."
   components:
   - type: Sprite
     state: bighornermeat
@@ -91,10 +91,10 @@
     defaultTarget: SteakCooked
 
 - type: entity
-  name: raw radstag steak
+  name: "сирий стейк \"Радстаг"
   parent: N14FoodMeatBrahmin
   id: N14FoodMeatRadstag
-  description: A raw piece of rump radstag.
+  description: "Сирий шматок окосту радстаг."
   components:
   - type: Sprite
     state: radstagmeat
@@ -109,8 +109,8 @@
 - type: entity
   parent: N14FoodMeatBrahmin
   id: N14FoodMeatRadhog
-  name: raw radhog meat
-  description: A raw chunk of radhog meat.
+  name: "сире м'ясо бабака"
+  description: "Сирий шматок м'яса бабака."
   components:
   - type: Sprite
     state: porkchop
@@ -125,8 +125,8 @@
 - type: entity
   parent: N14FoodMeatBrahmin
   id: N14FoodMeatPigrat
-  name: raw pigrat meat
-  description: Raw morsels of pigrat meat.
+  name: "сире м'ясо свиней"
+  description: "Сирі шматки свинячого м'яса."
   components:
   - type: Sprite
     state: morsels
@@ -136,10 +136,10 @@
     defaultTarget: SteakCooked
 
 - type: entity
-  name: raw yao-guai meat
+  name: "сире м'ясо яо-гуай"
   parent: N14FoodMeatBrahmin
   id: N14FoodMeatYaoguai
-  description: A very muscular slab of raw yao-guai meat.
+  description: "Дуже м'язистий шматок сирого м'яса яо-гуай."
   components:
   - type: Sprite
     state: brahminmeat
@@ -158,10 +158,10 @@
     defaultTarget: SteakCooked
 
 - type: entity
-  name: raw mutant plant meat # for spore plants etc
+  name: "сире м'ясо мутантних рослин" # for spore plants etc
   parent: N14FoodMeatBase
   id: N14FoodMeatMutantPlant
-  description: All the joys of healthy eating with all the fun of cannibalism.
+  description: "Всі радощі здорового харчування з усіма принадами канібалізму."
   components:
   - type: Tag
     tags:
@@ -171,10 +171,10 @@
     state: plant
 
 - type: entity
-  name: raw radscorpion meat
+  name: "сире м'ясо ракоскорпіонів"
   parent: N14FoodMeatRadRaw
   id: N14FoodMeatRadscorpion
-  description: A slab of radscorpion meat.
+  description: "Шматок м'яса ракоскорпіона."
   components:
   - type: Sprite
     state: radscorpionmeat
@@ -193,10 +193,10 @@
     defaultTarget: SteakCooked
 
 - type: entity
-  name: raw radscorpion leg
+  name: "сира ніжка ракоскорпіона"
   parent: N14FoodMeatRadRaw
   id: N14FoodMeatRadscorpionLeg
-  description: A still twitching leg of a radscorpion... you don't really want to eat this, do you?
+  description: "Ніжка ракоскорпіона, що все ще смикається... ви ж не хочете це їсти, чи не так?"
   components:
   - type: Sprite
     sprite: Objects/Consumable/Food/meat.rsi
@@ -208,10 +208,10 @@
     defaultTarget: MeatCooked
 
 - type: entity
-  name: raw radchicken meat
+  name: "сире м'ясо курки-радикала"
   parent: N14FoodMeatRadRaw
   id: N14FoodMeatRadchicken
-  description: A raw piece of radchicken. Slimy and pale.
+  description: "Сирий шматок курчати. Слизький і блідий."
   components:
   - type: SliceableFood
     count: 3
@@ -222,10 +222,10 @@
     - state: bird
 
 - type: entity
-  name: raw gecko meat
+  name: "сире м'ясо гекона"
   parent: N14FoodMeatRadRaw
   id: N14FoodMeatGecko
-  description: tough chunk of gecko meat. It glistens.
+  description: "міцний шматок м'яса гекона. Воно блищить."
   components:
   - type: Sprite
     state: silvergeckomeat
@@ -235,10 +235,10 @@
     defaultTarget: SteakCooked
 
 - type: entity
-  name: raw fire gecko meat
+  name: "сире м'ясо вогняного гекона"
   parent: N14FoodMeatRadRaw
   id: N14FoodMeatGeckoFire
-  description: tough chunk of fire gecko meat. It glistens.
+  description: "міцний шматок м'яса вогняного гекона. Воно блищить."
   components:
   - type: Sprite
     state: icegeckomeat
@@ -248,10 +248,10 @@
     defaultTarget: SteakCooked
 
 - type: entity
-  name: raw golden gecko meat
+  name: "сире м'ясо золотого гекона"
   parent: N14FoodMeatRadRaw
   id: N14FoodMeatGeckoGolden
-  description: tough chunk of golden gecko meat. It glistens.
+  description: "міцний шматок м'яса золотого гекона. Воно блищить."
   components:
   - type: Sprite
     state: goldengeckomeat
@@ -261,10 +261,10 @@
     defaultTarget: SteakCooked
 
 - type: entity
-  name: raw iguana
+  name: "сира ігуана"
   parent: N14FoodMeatRadRaw
   id: N14FoodMeatIguana
-  description: poor iguana on a stick.
+  description: "бідолашна ігуана на паличці."
   components:
   - type: Sprite
     sprite: _Nuclear14/Mobs/Animals/iguana.rsi
@@ -275,10 +275,10 @@
     defaultTarget: MeatCooked
 
 - type: entity
-  name: raw squirrel bits
+  name: "сирі білкові шматочки"
   parent: N14FoodMeatRadRaw
   id: N14FoodMeatSquirrel
-  description: morsels of a poor squirrel.
+  description: "шматочки бідолашної білки."
   components:
   - type: Sprite
     sprite: _Nuclear14/Objects/Consumable/Food/meat.rsi
@@ -289,10 +289,10 @@
     defaultTarget: MeatCooked
 
 - type: entity
-  name: raw radroach fillet
+  name: "сире філе плітки"
   parent: N14FoodMeatRadRaw
   id: N14FoodMeatRadroachFillet
-  description: radroach fillet
+  description: "філе таргана"
   components:
   - type: Sprite
     state: radroachfillet
@@ -302,10 +302,10 @@
     defaultTarget: MeatCooked
 
 - type: entity
-  name: raw mirelurk claw
+  name: "сирий кіготь мірелурка"
   parent: N14FoodMeatRadRaw
   id: N14FoodMeatMirelurkClaw
-  description: Exotic mirelurk claw.
+  description: "Екзотичний кіготь мірелурка."
   components:
   - type: Sprite
     state: mirelurkclaw
@@ -321,10 +321,10 @@
     defaultTarget: MeatCooked
 
 - type: entity
-  name: raw radlurk claw
+  name: "сирий кіготь радлурка"
   parent: N14FoodMeatRadRaw
   id: N14FoodMeatRadlurkClaw
-  description: Exotic radlurk claw.
+  description: "Екзотичний кіготь радлурка."
   components:
   - type: Sprite
     state: radlurkclaw
@@ -341,10 +341,10 @@
 
 # Cooked
 - type: entity
-  name: cooked irradiated meat
+  name: "вареного опроміненого м'яса"
   parent: N14FoodMeatBase
   id: N14FoodMeatCooked
-  description: Cooked morsels of irradiated meat.
+  description: "Приготовані шматочки опроміненого м'яса."
   components:
   - type: Tag
     tags:
@@ -365,10 +365,10 @@
           # Quantity: 0 #currently, we are experimenting with cooked food not giving rads. Former value is 5.
 
 - type: entity
-  name: cooked brahmin steak
+  name: "приготований брамінський стейк"
   parent: N14FoodMeatCooked
   id: N14FoodMeatBrahminCooked
-  description: A cooked slab of meat. Smells primal.
+  description: "Приготований шматок м'яса. Пахне первісним."
   components:
   - type: Sprite
     layers:
@@ -393,10 +393,10 @@
     defaultTarget: SteakCooked
 
 - type: entity
-  name: cooked bighorner steak
+  name: "приготований стейк бігхорнера"
   parent: N14FoodMeatBrahminCooked
   id: N14FoodMeatBighornerCooked
-  description: A cooked slab of meat. Smells primal.
+  description: "Приготований шматок м'яса. Пахне первісним."
   components:
   - type: Sprite
     layers:
@@ -421,10 +421,10 @@
     defaultTarget: SteakCooked
 
 - type: entity
-  name: cooked radstag steak
+  name: "приготований стейк \"Радстаг"
   parent: N14FoodMeatBrahminCooked
   id: N14FoodMeatRadstagCooked
-  description: A cooked slab of meat. Smells primal.
+  description: "Приготований шматок м'яса. Пахне первісним."
   components:
   - type: Sprite
     layers:
@@ -449,10 +449,10 @@
     defaultTarget: SteakCooked
 
 - type: entity
-  name: cooked radhog meat
+  name: "варене м'ясо бабака"
   parent: N14FoodMeatBrahminCooked
   id: N14FoodMeatRadhogCooked
-  description: A chunk of cooked radhog meat.
+  description: "Шматок вареного м'яса бабака."
   components:
   - type: Sprite
     state: porkchop_roasted
@@ -478,8 +478,8 @@
 - type: entity
   parent: N14FoodMeatBrahminCooked
   id: N14FoodMeatPigratCooked
-  name: cooked pigrat meat
-  description: Cooked morsels of pigrat meat.
+  name: "варене м'ясо свиней"
+  description: "Приготовані шматочки свинячого м'яса."
   components:
   - type: Sprite
     state: morsels_roasted
@@ -500,10 +500,10 @@
     defaultTarget: SteakCooked
 
 - type: entity
-  name: cooked yao-guai steak
+  name: "приготований стейк яо-гуай"
   parent: N14FoodMeatBrahminCooked
   id: N14FoodMeatYaoguaiCooked
-  description: A well-cooked slab of yao-guai meat. Tough, but tasty with the right sides.
+  description: "Добре приготований шматок м'яса яо-гуай. Жорсткий, але смачний з правильними сторонами."
   components:
   - type: Sprite
     layers:
@@ -528,10 +528,10 @@
     defaultTarget: SteakCooked
 
 - type: entity
-  name: cooked radscorpion steak
+  name: "приготований стейк з ракоскорпіона"
   parent: N14FoodMeatCooked
   id: N14FoodMeatRadscorpionCooked
-  description: A cooked piece of radscorpion.
+  description: "Приготований шматок ракоскорпіона."
   components:
   - type: Sprite
     layers:
@@ -556,10 +556,10 @@
     defaultTarget: SteakCooked
 
 - type: entity
-  name: cooked radchicken meat
+  name: "варене м'ясо курчати-радикала"
   parent: N14FoodMeatCooked
   id: N14FoodMeatRadchickenCooked
-  description: A cooked piece of radchicken. Flaky!
+  description: "Приготований шматок курчати. Пластівці!"
   components:
   - type: Sprite
     sprite: Objects/Consumable/Food/meat.rsi
@@ -581,10 +581,10 @@
     slice: N14FoodMeatRadchickenCutletCooked
 
 - type: entity
-  name: cooked gecko steak
+  name: "приготований стейк з гекона"
   parent: N14FoodMeatCooked
   id: N14FoodMeatGeckoCooked
-  description: Cooked, tough gecko meat.
+  description: "Приготоване, жорстке м'ясо гекона."
   components:
   - type: Sprite
     layers:
@@ -606,10 +606,10 @@
     defaultTarget: SteakCooked
 
 - type: entity
-  name: cooked fire gecko steak
+  name: "приготований вогняний стейк гекона"
   parent: N14FoodMeatCooked
   id: N14FoodMeatGeckoFireCooked
-  description: Cooked, tough fire gecko meat.
+  description: "Приготоване, жорстке м'ясо вогняного гекона."
   components:
   - type: Sprite
     layers:
@@ -631,10 +631,10 @@
     defaultTarget: SteakCooked
 
 - type: entity
-  name: cooked golden gecko steak
+  name: "приготований стейк із золотого гекона"
   parent: N14FoodMeatCooked
   id: N14FoodMeatGeckoGoldenCooked
-  description: Cooked, tough golden gecko meat. Your molars itch uncomfortably at the thought of eating this.
+  description: "Приготоване, жорстке м'ясо золотистого гекона. Ваші корінні зуби неприємно сверблять від думки, що ви це їсте."
   components:
   - type: Sprite
     layers:
@@ -656,10 +656,10 @@
     defaultTarget: SteakCooked
 
 - type: entity
-  name: cooked iguana
+  name: "варена ігуана"
   parent: N14FoodMeatCooked
   id: N14FoodMeatIguanaCooked
-  description: Cooked iguana on a stick.
+  description: "Готуємо ігуану на паличці."
   components:
   - type: Sprite
     sprite: _Nuclear14/Mobs/Animals/iguana.rsi
@@ -680,10 +680,10 @@
     defaultTarget: MeatCooked
 
 - type: entity
-  name: cooked squirrel bits
+  name: "варені шматочки білки"
   parent: N14FoodMeatCooked
   id: N14FoodMeatSquirrelCooked
-  description: Cooked, meager squirrel meat.
+  description: "Приготоване, мізерне білкове м'ясо."
   components:
   - type: Sprite
     state: morsels_roasted
@@ -703,10 +703,10 @@
     defaultTarget: MeatCooked
 
 - type: entity
-  name: cooked radroach fillet
+  name: "варене філе плітки"
   parent: N14FoodMeatCooked
   id: N14FoodMeatRadroachFilletCooked
-  description: Cooked, hard radroach. Smells like indigestion.
+  description: "Варений, твердий тарган. Пахне розладом шлунку."
   components:
   - type: Sprite
     layers:
@@ -727,10 +727,10 @@
     defaultTarget: MeatCooked
 
 - type: entity
-  name: cooked mirelurk claw
+  name: "варений кіготь мірелурка"
   parent: N14FoodMeatCooked
   id: N14FoodMeatMirelurkClawCooked
-  description: Cooked, exotic mirelurk claw.
+  description: "Приготований, екзотичний кіготь мірелурка."
   components:
   - type: Sprite
     layers:
@@ -751,10 +751,10 @@
     defaultTarget: MeatCooked
 
 - type: entity
-  name: cooked radlurk claw
+  name: "варений кіготь радлурка"
   parent: N14FoodMeatCooked
   id: N14FoodMeatRadlurkClawCooked
-  description: Cooked, exotic radlurk claw.
+  description: "Приготований, екзотичний кіготь радлурка."
   components:
   - type: Sprite
     layers:
@@ -777,10 +777,10 @@
 
 # Cooked Boiled
 - type: entity
-  name: boiled radscorpion leg
+  name: "відварна ніжка ракоскорпіона"
   parent: N14FoodMeatCooked
   id: N14FoodMeatRadscorpionLegBoiled
-  description: A giant radscorpion leg that's had the life boiled out of it.
+  description: "Гігантська нога ракоскорпіона, з якої випарувалося життя."
   components:
   - type: Sprite
     sprite: Objects/Consumable/Food/meat.rsi
@@ -803,10 +803,10 @@
 # Cutlets
 # Raw
 - type: entity
-  name: raw rad cutlet
+  name: "сира котлета з редиски"
   parent: N14FoodMeatBase
   id: N14FoodMeatRadCutlet
-  description: A raw meat cutlet from a wasteland animal.
+  description: "Сира м'ясна котлета з безпритульної тварини."
   components:
   - type: Tag
     tags:
@@ -838,10 +838,10 @@
     defaultTarget: CutletCooked
 
 - type: entity
-  name: raw brahmin cutlet
+  name: "сира брамінська котлета"
   parent: N14FoodMeatRadCutlet
   id: N14FoodMeatBrahminCutlet
-  description: A very grisly cutlet of brahmin meat.
+  description: "Дуже страшна котлета з м'яса брамінів."
   components:
   - type: Sprite
     layers:
@@ -854,10 +854,10 @@
     defaultTarget: CutletCooked
 
 - type: entity
-  name: raw bighorner cutlet
+  name: "сира котлета з бичків"
   parent: N14FoodMeatRadCutlet
   id: N14FoodMeatBighornerCutlet
-  description: A very grisly cutlet of bighorner meat.
+  description: "Дуже моторошна котлета з м'яса бика."
   components:
   - type: Sprite
     layers:
@@ -870,10 +870,10 @@
     defaultTarget: CutletCooked
 
 - type: entity
-  name: raw radstag cutlet
+  name: "сира котлета радстаг"
   parent: N14FoodMeatRadCutlet
   id: N14FoodMeatRadstagCutlet
-  description: A very grisly cutlet of radstag meat.
+  description: "Дуже моторошна котлета з м'яса радстаг."
   components:
   - type: Sprite
     layers:
@@ -886,10 +886,10 @@
     defaultTarget: CutletCooked
 
 - type: entity
-  name: raw radhog cutlet
+  name: "сира котлета з бабака"
   parent: N14FoodMeatRadCutlet
   id: N14FoodMeatRadhogCutlet
-  description: A very grisly cutlet of radhog meat.
+  description: "Дуже моторошна котлета з м'яса бабака."
   components:
   - type: Sprite
     layers:
@@ -902,10 +902,10 @@
     defaultTarget: CutletCooked
 
 - type: entity
-  name: raw yao-guai cutlet
+  name: "сира котлета яо-гуай"
   parent: N14FoodMeatRadCutlet
   id: N14FoodMeatYaoguaiCutlet
-  description: A very grisly cutlet of raw yao-guai meat.
+  description: "Дуже моторошна котлета з сирого м'яса яо-гуай."
   components:
   - type: Sprite
     layers:
@@ -918,10 +918,10 @@
     defaultTarget: CutletCooked
 
 - type: entity
-  name: raw radchicken cutlet
+  name: "сира котлета з курячого м'яса"
   parent: N14FoodMeatRadCutlet
   id: N14FoodMeatRadchickenCutlet
-  description: A cutlet of raw radchicken. Remember to wash your hands!
+  description: "Котлета з сирої курки. Не забудьте вимити руки!"
   components:
   - type: Sprite
     state: cutlet
@@ -932,10 +932,10 @@
     defaultTarget: CutletCooked
 
 - type: entity
-  name: raw radscorpion cutlet
+  name: "сира котлета з ракоскорпіона"
   parent: N14FoodMeatRadCutlet
   id: N14FoodMeatRadscorpionCutlet
-  description: A cutlet of raw scorpion meat.
+  description: "Котлета з сирого м'яса скорпіона."
   components:
   - type: Sprite
     layers:
@@ -950,10 +950,10 @@
 
 # Cooked
 - type: entity
-  name: cooked cutlet
+  name: "варена котлета"
   parent: FoodMeatBase
   id: N14FoodMeatRadCutletCooked
-  description: A cooked meat cutlet. Needs some seasoning.
+  description: "Приготована м'ясна котлета. Треба трохи приправити."
   components:
   - type: Tag
     tags:
@@ -978,10 +978,10 @@
     defaultTarget: CutletCooked
 
 - type: entity
-  name: cooked brahmin cutlet
+  name: "приготована брамінська котлета"
   parent: N14FoodMeatRadCutletCooked
   id: N14FoodMeatBrahminCutletCooked
-  description: A very grisly cutlet of cooked brahmin meat.
+  description: "Дуже моторошна котлета з вареного м'яса брамінів."
   components:
   - type: Sprite
     layers:
@@ -994,10 +994,10 @@
     defaultTarget: CutletCooked
 
 - type: entity
-  name: cooked bighorner cutlet
+  name: "приготована котлета з бігхорна"
   parent: N14FoodMeatRadCutletCooked
   id: N14FoodMeatBighornerCutletCooked
-  description: A very grisly cutlet of cooked bighorner meat.
+  description: "Дуже моторошна котлета з вареного м'яса бичка."
   components:
   - type: Sprite
     layers:
@@ -1010,10 +1010,10 @@
     defaultTarget: CutletCooked
 
 - type: entity
-  name: cooked radstag cutlet
+  name: "варена котлета радстаг"
   parent: N14FoodMeatRadCutletCooked
   id: N14FoodMeatRadstagCutletCooked
-  description: A very grisly cutlet of cooked radstag meat.
+  description: "Дуже моторошна котлета з вареного м'яса радстаг."
   components:
   - type: Sprite
     layers:
@@ -1026,10 +1026,10 @@
     defaultTarget: CutletCooked
 
 - type: entity
-  name: cooked radhog cutlet
+  name: "варена котлета з бабака"
   parent: N14FoodMeatRadCutletCooked
   id: N14FoodMeatRadhogCutletCooked
-  description: A very grisly cutlet of cooked radhog meat.
+  description: "Дуже моторошна котлета з вареного м'яса бабака."
   components:
   - type: Sprite
     layers:
@@ -1042,10 +1042,10 @@
     defaultTarget: CutletCooked
 
 - type: entity
-  name: cooked yao-guai cutlet
+  name: "варена котлета яо-гуай"
   parent: N14FoodMeatRadCutletCooked
   id: N14FoodMeatYaoguaiCutletCooked
-  description: A very grisly cutlet of cooked yao-guai meat.
+  description: "Дуже моторошна котлета з вареного м'яса яо-гуай."
   components:
   - type: Sprite
     layers:
@@ -1058,10 +1058,10 @@
     defaultTarget: CutletCooked
 
 - type: entity
-  name: cooked radchicken cutlet
+  name: "варена котлета з курячого філе"
   parent: N14FoodMeatRadCutletCooked
   id: N14FoodMeatRadchickenCutletCooked
-  description: A cutlet of cooked radchicken. Remember to wash your hands!
+  description: "Котлета з вареної курки. Не забудьте вимити руки!"
   components:
   - type: Sprite
     state: cutlet-cooked
@@ -1072,10 +1072,10 @@
     defaultTarget: CutletCooked
 
 - type: entity
-  name: cooked radscorpion cutlet
+  name: "варена котлета з ракоскорпіона"
   parent: N14FoodMeatRadCutletCooked
   id: N14FoodMeatRadscorpionCutletCooked
-  description: A cutlet of cooked radscorpion meat. Finally edible.
+  description: "Котлета з вареного м'яса ракоскорпіона. Нарешті їстівна."
   components:
   - type: Sprite
     layers:

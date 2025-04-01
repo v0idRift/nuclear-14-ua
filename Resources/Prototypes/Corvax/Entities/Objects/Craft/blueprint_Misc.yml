@@ -1,7 +1,7 @@
 - type: entity
   parent: N14BaseBlueprintPaper
   id: N14WeaponLaserRevolverBlueprint
-  name: blueprint makeshift laser revolver
+  name: "креслення саморобного лазерного револьвера"
   components:
     - type: STBlueprint
       blueprint: N14WeaponLaserRevolver
@@ -9,7 +9,7 @@
 - type: entity
   parent: N14BaseBlueprintPaper
   id: N14WeaponLaserRifleMakeshiftBlueprint
-  name: blueprint makeshift laser rifle
+  name: "креслення саморобної лазерної гвинтівки"
   components:
     - type: STBlueprint
       blueprint: N14WeaponLaserRifleMakeshift
@@ -17,7 +17,7 @@
 - type: entity
   parent: N14BaseBlueprintPaper
   id: N14WeaponRifle556PipeBlueprint
-  name: blueprint pipe assault rifle
+  name: "креслення трубної штурмової гвинтівки"
   components:
     - type: STBlueprint
       blueprint: N14WeaponRifle556Pipe
@@ -25,7 +25,7 @@
 - type: entity
   parent: N14BaseBlueprintPaper
   id: N14WeaponSniper50PipeBlueprint
-  name: blueprint .50 pipe rifle
+  name: "креслення трубної гвинтівки .50"
   components:
     - type: STBlueprint
       blueprint: N14WeaponSniper50Pipe

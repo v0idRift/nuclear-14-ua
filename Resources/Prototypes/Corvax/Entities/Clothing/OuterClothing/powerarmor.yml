@@ -1,8 +1,8 @@
 - type: entity
   parent: N14ClothingOuterPowerArmorT51
   id: N14ClothingOuterPowerArmorT51NCR
-  name: t-51 NCR power armor
-  description: A modified T-51 power armor suit used by the NCR. The servo drives have been removed to simplify maintenance, making it slower but more reliable in the field.
+  name: "силова броня t-51 НКР"
+  description: "Модифікований костюм силової броні T-51, що використовується НКР. Сервоприводи були видалені для спрощення обслуговування, що робить його повільнішим, але надійнішим у польових умовах."
   components:
   - type: Sprite
     sprite: Corvax/Clothing/OuterClothing/PowerArmor/t51NCR.rsi
@@ -19,8 +19,8 @@
 - type: entity
   parent: N14ClothingOuterPowerArmorT60
   id: N14ClothingOuterPowerArmorT60NCR
-  name: t-60 NCR power armor
-  description: A simplified version of the T-60 power armor, adapted for the needs of the NCR. The removal of servo drives has reduced its mobility but increased its reliability and ease of repair.
+  name: "силова броня t-60 НКР"
+  description: "Спрощена версія силової броні T-60, адаптована для потреб НКР. Видалення сервоприводів зменшило її мобільність, але підвищило надійність та легкість ремонту."
   components:
   - type: Sprite
     sprite: Corvax/Clothing/OuterClothing/PowerArmor/t60NCR.rsi
@@ -37,8 +37,8 @@
 - type: entity
   parent: N14ClothingOuterPowerArmorAdvanced1
   id: N14ClothingOuterPowerArmorAdvanced1NCR
-  name: x-01 NCR power armor
-  description: A heavy X-01 power armor suit, modified for the needs of the NCR. The removal of servo drives has made it less mobile but retains a high level of protection and partial hermetic sealing.
+  name: "силова броня x-01 НКР"
+  description: "Важкий костюм силової броні X-01, модифікований для потреб НКР. Видалення сервоприводів зробило його менш мобільним, але він зберіг високий рівень захисту та часткову герметичність."
   components:
   - type: Sprite
     sprite: Corvax/Clothing/OuterClothing/PowerArmor/advanced1NCR.rsi

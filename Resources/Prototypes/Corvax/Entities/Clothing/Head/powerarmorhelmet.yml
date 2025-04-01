@@ -1,8 +1,8 @@
 - type: entity
   parent: N14ClothingHeadHelmetPowerArmorT51
   id: N14ClothingHeadHelmetPowerArmorT51NCR
-  name: t-51 NCR power armor helmet
-  description: A rugged helmet used by the NCR with their modified T-51 power armor. Designed for durability and reliability in the field.
+  name: "шолом силової броні t-51 НКР"
+  description: "Міцний шолом, що використовується НКР з їх модифікованою силовою бронею T-51. Розроблений для довговічності та надійності в польових умовах."
   components:
   - type: Sprite
     netsync: false
@@ -11,8 +11,8 @@
 - type: entity
   parent: N14ClothingHeadHelmetPowerArmorT60
   id: N14ClothingHeadHelmetPowerArmorT60NCR
-  name: t-60 NCR power armor helmet
-  description: A standard-issue helmet used by the NCR with their T-60 power armor. Provides solid protection and comfort for long deployments.
+  name: "шолом силової броні t-60 НКР"
+  description: "Стандартний шолом, що використовується НКР з їх силовою бронею T-60. Забезпечує надійний захист та комфорт для тривалих розгортань."
   components:
   - type: Sprite
     netsync: false
@@ -21,8 +21,8 @@
 - type: entity
   parent: N14ClothingHeadHelmetPowerArmorX01
   id: N14ClothingHeadHelmetPowerArmorX01NCR
-  name: x-01 NCR power armor helmet
-  description: A high-tech helmet used by the NCR with their advanced X-01 power armor. Offers superior protection and advanced features for elite troops.
+  name: "шолом силової броні x-01 НКР"
+  description: "Високотехнологічний шолом, що використовується НКР з їх передовою силовою бронею X-01. Пропонує чудовий захист та розширені функції для елітних військ."
   components:
   - type: Sprite
     netsync: false

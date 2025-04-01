@@ -1,7 +1,7 @@
 ﻿- type: entity
   id: ActionChargeSpell
-  name: Charge
-  description: Adds a charge back to your wand
+  name: "Заряд"
+  description: "Додає заряд до вашої палички"
   categories: [ HideSpawnMenu ]
   components:
   - type: InstantAction

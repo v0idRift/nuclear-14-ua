@@ -42,8 +42,8 @@
 - type: entity
   id: MechRipley2
   parent: [ BaseMech, IndustrialMech ]
-  name: Ripley APLU MK-II
-  description: The "MK-II" has a pressurized cabin for space operations, but the added weight has slowed it down.
+  name: "Ріплі АРПВ MK-II"
+  description: "MK-II\" має герметичну кабіну для космічних операцій, але додана вага його уповільнила."
   components:
   - type: Sprite
     drawdepth: Mobs
@@ -100,8 +100,8 @@
 - type: entity
   id: MechClarke
   parent: [ BaseMech, IndustrialMech ]
-  name: Clarke
-  description: A fast-moving mech for space travel. It has built-in trusts.
+  name: "Кларк"
+  description: "Швидкий мех для космічних подорожей. Має вбудовані двигуни."
   components:
   - type: Sprite
     drawdepth: Mobs
@@ -171,8 +171,8 @@
 - type: entity
   id: MechGygax
   parent: [ BaseMech, CombatMech ]
-  name: Gygax
-  description: While lightly armored, the Gygax has incredible mobility thanks to its ability that lets it smash through walls at high speeds.
+  name: "Гігакс"
+  description: "Хоч і легкоброньований, Гігакс має неймовірну мобільність завдяки своїй здатності пробивати стіни на високих швидкостях."
   components:
   - type: Sprite
     drawdepth: Mobs
@@ -230,8 +230,8 @@
 - type: entity
   id: MechDurand
   parent: [ BaseMech, CombatMech ]
-  name: Durand
-  description: A slow but beefy combat exosuit that is extra scary in confined spaces due to its punches. Xenos hate it!
+  name: "Дюранд"
+  description: "Повільний, але міцний бойовий екзокостюм, який особливо страшний у замкнених просторах завдяки своїм ударам. Ксеноси його ненавидять!"
   components:
   - type: Sprite
     drawdepth: Mobs
@@ -297,8 +297,8 @@
 - type: entity
   id: MechMarauder
   parent: [ BaseMech, CombatMech ]
-  name: Marauder
-  description: Looks like we're all saved. # ERT mech
+  name: "Мародер"
+  description: "Схоже, ми всі врятовані." # ERT mech
   components:
   - type: Sprite
     drawdepth: Mobs
@@ -370,8 +370,8 @@
 - type: entity
   id: MechSeraph
   parent: [ BaseMech, CombatMech ]
-  name: Seraph
-  description: That's the last thing you'll see. # Death Squad mech
+  name: "Серафим"
+  description: "Це останнє, що ти побачиш." # Death Squad mech
   components:
   - type: Sprite
     drawdepth: Mobs
@@ -446,8 +446,8 @@
 - type: entity
   id: MechGygaxSyndie
   parent: [ BaseMech, CombatMech ]
-  name: Dark Gygax
-  description: A modified Gygax used for nefarious purposes. On the back of the armor plate there is an inscription "Cybersun Inc."
+  name: "Темний Гігакс"
+  description: "Модифікований Гігакс, що використовується для підступних цілей. На звороті броньової пластини є напис \"Корпорація \"\"Cybersun\"\"\""
   components:
   - type: Sprite
     drawdepth: Mobs
@@ -519,8 +519,8 @@
 - type: entity
   id: MechMaulerSyndie
   parent: [ BaseMech, CombatMech ]
-  name: Mauler
-  description: A modified Marauder used by the Syndicate that's not as maneuverable as the Dark Gygax, but it makes up for that in armor and sheer firepower. On the back of the armor plate there is an inscription "Cybersun Inc."
+  name: "Громило"
+  description: "Модифікований Мародер, що використовується Синдикатом, не такий маневрений, як Темний Гігакс, але компенсує це бронею та величезною вогневою міццю. На звороті броньової пластини є напис \"Корпорація \"\"Cybersun\"\"\""
   components:
   - type: Sprite
     drawdepth: Mobs

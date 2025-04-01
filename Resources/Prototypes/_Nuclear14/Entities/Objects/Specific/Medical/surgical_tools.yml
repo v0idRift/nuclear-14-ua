@@ -14,11 +14,11 @@
 # Cautery
 
 - type: entity
-  name: cautery
+  name: "каутер"
   id: N14Cautery
   suffix: N14, New
   parent: N14BaseToolSurgery
-  description: A surgical tool used to cauterize open wounds.
+  description: "Хірургічний інструмент для припікання відкритих ран."
   components:
   - type: Sprite
     sprite: _Shitmed/Objects/Specific/Medical/Surgery/cautery.rsi
@@ -45,11 +45,11 @@
     price: 40
 
 - type: entity
-  name: cautery
+  name: "каутер"
   id: N14CauteryRust
   suffix: N14, Old
   parent: N14Cautery
-  description: A surgical tool used to cauterize open wounds. It's covered in rust.
+  description: "Хірургічний інструмент для припікання відкритих ран. Він покритий іржею."
   components:
   - type: Sprite
     sprite: _Shitmed/Objects/Specific/Medical/Surgery/cautery.rsi
@@ -65,11 +65,11 @@
 # Drill
 
 - type: entity
-  name: drill
+  name: "дриль"
   id: N14Drill
   suffix: N14, New
   parent: N14BaseToolSurgery
-  description: A surgical drill for making holes into hard material.
+  description: "Хірургічний дриль для свердління отворів у твердому матеріалі."
   components:
   - type: Sprite
     sprite: _Shitmed/Objects/Specific/Medical/Surgery/drill.rsi
@@ -108,11 +108,11 @@
     price: 30
 
 - type: entity
-  name: drill
+  name: "дриль"
   id: N14DrillRusted
   suffix: N14, Old
   parent: N14Drill
-  description: A surgical drill for making holes into hard material. It's covered in rust.
+  description: "Хірургічний дриль для свердління отворів у твердому матеріалі. Він покритий іржею."
   components:
   - type: Sprite
     sprite: _Shitmed/Objects/Specific/Medical/Surgery/drill.rsi
@@ -130,11 +130,11 @@
 # Scalpel
 
 - type: entity
-  name: scalpel
+  name: "скальпель"
   id: N14Scalpel
   suffix: N14, New
   parent: N14BaseToolSurgery
-  description: A surgical tool used to make incisions into flesh.
+  description: "Хірургічний інструмент для розрізів плоті."
   components:
   - type: Sharp
     butcherDelayModifier: 1.5
@@ -181,11 +181,11 @@
     price: 20
 
 - type: entity
-  name: scalpel
+  name: "скальпель"
   id: N14ScalpelRusted
   suffix: N14, Old
   parent: N14Scalpel
-  description: A surgical tool used to make incisions into flesh. It's covered in rust.
+  description: "Хірургічний інструмент для розрізів плоті. Він покритий іржею."
   components:
   - type: Sprite
     sprite: _Shitmed/Objects/Specific/Medical/Surgery/scalpel.rsi
@@ -201,11 +201,11 @@
 # Retractor
 
 - type: entity
-  name: retractor
+  name: "ретрактор"
   id: N14Retractor
   suffix: N14, New
   parent: N14BaseToolSurgery
-  description: A surgical tool used to hold open incisions.
+  description: "Хірургічний інструмент для утримання розрізів відкритими."
   components:
   - type: Sprite
     sprite: _Shitmed/Objects/Specific/Medical/Surgery/retractor.rsi
@@ -244,11 +244,11 @@
     price: 30
 
 - type: entity
-  name: retractor
+  name: "ретрактор"
   id: N14RetractorRusted
   suffix: N14, Old
   parent: N14Retractor
-  description: A surgical tool used to hold open incisions. It's covered in rust.
+  description: "Хірургічний інструмент для утримання розрізів відкритими. Він покритий іржею."
   components:
   - type: Sprite
     sprite: _Shitmed/Objects/Specific/Medical/Surgery/retractor.rsi
@@ -264,11 +264,11 @@
 # Hemostat
 
 - type: entity
-  name: hemostat
+  name: "гемостат"
   id: N14Hemostat
   suffix: N14, New
   parent: N14BaseToolSurgery
-  description: A surgical tool used to compress blood vessels to prevent bleeding.
+  description: "Хірургічний інструмент для стискання кровоносних судин для запобігання кровотечі."
   components:
   - type: Sprite
     sprite: _Shitmed/Objects/Specific/Medical/Surgery/hemostat.rsi
@@ -309,11 +309,11 @@
     price: 40
 
 - type: entity
-  name: hemostat
+  name: "гемостат"
   id: N14HemostatRusted
   suffix: N14, Old
   parent: N14BaseToolSurgery
-  description: A surgical tool used to compress blood vessels to prevent bleeding. It's covered in rust
+  description: "Хірургічний інструмент для стискання кровоносних судин для запобігання кровотечі. Він покритий іржею"
   components:
   - type: Sprite
     sprite: _Shitmed/Objects/Specific/Medical/Surgery/hemostat.rsi
@@ -337,8 +337,8 @@
   parent: N14BaseToolSurgery
   id: N14Bonesetter
   suffix: N14, New
-  name: bone setter
-  description: Used for setting bones back into place.
+  name: "кісткоправ"
+  description: "Використовується для вправляння кісток на місце."
   components:
   - type: Sprite
     sprite: _Shitmed/Objects/Specific/Medical/Surgery/bonesetter.rsi
@@ -353,8 +353,8 @@
   parent: N14Bonesetter
   id: N14BonesetterRusted
   suffix: N14, Old
-  name: bone setter
-  description: Used for setting bones back into place. It's covered in rust.
+  name: "кісткоправ"
+  description: "Використовується для вправляння кісток на місце. Він покритий іржею."
   components:
   - type: Sprite
     sprite: _Shitmed/Objects/Specific/Medical/Surgery/bonesetter.rsi
@@ -372,8 +372,8 @@
   parent: N14BaseToolSurgery
   id: N14BoneGel
   suffix: N14
-  name: bottle of bone gel
-  description: A container for bone gel.
+  name: "пляшка кісткового гелю"
+  description: "Контейнер для кісткового гелю."
   components:
   - type: Sprite
     sprite: _Shitmed/Objects/Specific/Medical/Surgery/bone-gel.rsi
@@ -385,11 +385,11 @@
 # Circular Saws
 
 - type: entity
-  name: circular saw
+  name: "циркулярна пила"
   id: N14SawElectric
   suffix: N14, New
   parent: N14BaseToolSurgery
-  description: For heavy duty cutting.
+  description: "Для різання у важких умовах."
   components:
   - type: Sprite
     sprite: _Shitmed/Objects/Specific/Medical/Surgery/circular-saw.rsi
@@ -429,11 +429,11 @@
   - type: BoneSaw
 
 - type: entity
-  name: circular saw
+  name: "циркулярна пила"
   id: N14SawElectricRusted
   suffix: N14, Old
   parent: N14SawElectric
-  description: For heavy duty cutting. It's covered in rust.
+  description: "Для важкого різання. Вона покрита іржею."
   components:
   - type: Sprite
     sprite: _Shitmed/Objects/Specific/Medical/Surgery/circular-saw.rsi
@@ -448,8 +448,8 @@
 - type: entity
   parent: BaseItem
   id: N14BioMedGel
-  name: bio med gel
-  description: A sticky biogel for mending bones and organic tissue.
+  name: "біо-медичний гель"
+  description: "Липкий біогель для зрощування кісток та органічних тканин."
   components:
   - type: Sprite
     sprite: _Shitmed/Objects/Specific/Medical/Surgery/bone-gel.rsi

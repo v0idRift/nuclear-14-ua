@@ -1,8 +1,8 @@
 - type: entity
-  name: handheld fax
+  name: "ручний факс"
   parent: BaseItem
   id: HandheldFax
-  description: A tool that can send ton of paper on Centcomm fax.
+  description: "Інструмент, який може надсилати тонну паперу на факс Центкому."
   components:
   - type: Item
     size: Huge
@@ -57,7 +57,7 @@
   - type: MultiHandedItem
 
 - type: entity
-  name: nanotrasen representative handheld fax
+  name: "ручний факс представника Nanotrasen"
   parent: HandheldFax
   id: HandheldFaxNanorep
   suffix: Nanotrasen Representative

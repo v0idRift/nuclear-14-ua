@@ -14,13 +14,13 @@
 #  objectType: Item
 
 - type: construction
-  name: jar
+  name: "банка"
   id: N14FoodJarBase
   graph: N14FoodJarBase
   startNode: start
   targetNode: icon
   category: construction-category-medical
-  description: A glass jar
+  description: "Скляна банка"
   hide: false
   icon:
     sprite: _Nuclear14/Objects/Consumable/Food/preserves.rsi

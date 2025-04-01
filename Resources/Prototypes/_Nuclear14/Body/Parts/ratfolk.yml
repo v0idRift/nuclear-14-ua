@@ -3,7 +3,7 @@
 - type: entity
   id: N14PartRatfolk
   parent: PartHuman
-  name: rodent body part
+  name: "частина тіла гризуна"
   abstract: true
   components:
   - type: Damageable
@@ -18,7 +18,7 @@
     
 - type: entity
   id: N14TorsoRatfolk
-  name: rodent torso
+  name: "тулуб гризуна"
   parent: N14PartRatfolk
   components:
   - type: Sprite
@@ -33,7 +33,7 @@
 
 - type: entity
   id: N14HeadRatfolk
-  name: rodent head
+  name: "голова гризуна"
   parent: N14PartRatfolk
   components:
   - type: Sprite
@@ -59,7 +59,7 @@
 
 - type: entity
   id: N14LeftArmRatfolk
-  name: left rodent arm
+  name: "ліва рука гризуна"
   parent: N14PartRatfolk
   components:
   - type: Sprite
@@ -75,7 +75,7 @@
 
 - type: entity
   id: N14RightArmRatfolk
-  name: right rodent arm
+  name: "права рука гризуна"
   parent: N14PartRatfolk
   components:
   - type: Sprite
@@ -91,7 +91,7 @@
 
 - type: entity
   id: N14LeftHandRatfolk
-  name: left rodent hand
+  name: "ліва кисть гризуна"
   parent: N14PartRatfolk
   components:
   - type: Sprite
@@ -107,7 +107,7 @@
 
 - type: entity
   id: N14RightHandRatfolk
-  name: right rodent hand
+  name: "права кисть гризуна"
   parent: N14PartRatfolk
   components:
   - type: Sprite
@@ -123,7 +123,7 @@
 
 - type: entity
   id: N14LeftLegRatfolk
-  name: left rodent leg
+  name: "ліва нога гризуна"
   parent: N14PartRatfolk
   components:
   - type: Sprite
@@ -140,7 +140,7 @@
 
 - type: entity
   id: N14RightLegRatfolk
-  name: right rodent leg
+  name: "права нога гризуна"
   parent: N14PartRatfolk
   components:
   - type: Sprite
@@ -157,7 +157,7 @@
 
 - type: entity
   id: N14LeftFootRatfolk
-  name: left rodent foot
+  name: "ліва стопа гризуна"
   parent: N14PartRatfolk
   components:
   - type: Sprite
@@ -173,7 +173,7 @@
 
 - type: entity
   id: N14RightFootRatfolk
-  name: right rodent foot
+  name: "права стопа гризуна"
   parent: N14PartRatfolk
   components:
   - type: Sprite

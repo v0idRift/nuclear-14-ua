@@ -1,7 +1,7 @@
 - type: entity
   id: ActionClothingSeal
-  name: Seal/Unseal Clothing
-  description: Seals or unseals your current clothing.
+  name: "Загерметизувати/Розгерметизувати Одяг"
+  description: "Герметизує або розгерметизує ваш поточний одяг."
   categories: [ HideSpawnMenu ]
   components:
   - type: ConfirmableAction

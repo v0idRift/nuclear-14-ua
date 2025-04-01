@@ -1,8 +1,8 @@
 - type: entity
   parent: MobSiliconBase
   id: MobDisablerBot
-  name: disablerbot
-  description: Defends the station from hostile wildlife.
+  name: "виводьбот"
+  description: "Захищає станцію від ворожої дикої природи."
   components:
   - type: StaticPrice
     price: 545

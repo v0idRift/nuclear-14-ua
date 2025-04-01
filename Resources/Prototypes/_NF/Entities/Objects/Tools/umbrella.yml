@@ -1,8 +1,8 @@
 ﻿- type: entity
-  name: umbrella
+  name: "парасолька"
   parent: BaseItem
   id: FlashlightUmbrella
-  description: Keeps you dry AND stylish.
+  description: "Зберігає вас сухим ТА стильним."
   components:
   - type: Tag
     tags:

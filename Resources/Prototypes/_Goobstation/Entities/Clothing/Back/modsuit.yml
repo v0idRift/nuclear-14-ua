@@ -1,8 +1,8 @@
 - type: entity
   parent: [Clothing, ContentsExplosionResistanceBase]
   id: ClothingModsuitStandard
-  name: standard modsuit control
-  description: A special modular suit contol containing all modular suit parts.
+  name: "стандартний блок керування мод-костюмом"
+  description: "Спеціальний модульний блок керування костюмом, що містить усі частини модульного костюма."
   components:
   - type: Appearance
   - type: Sprite

@@ -15,8 +15,8 @@
 - type: entity
   parent: N14FalloutArmorBase
   id: N14ClothingOuterZealotDuster
-  name: zealot duster
-  description: A heavily modified highway patrol coat clearly designed by some manner of fanatic.
+  name: "пилосос zealot"
+  description: "Сильно модифікована куртка дорожнього патруля, явно розроблена якимось фанатиком."
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/OuterClothing/Armor/falloutzealotduster.rsi
@@ -38,8 +38,8 @@
 - type: entity
   parent: N14FalloutArmorBase
   id: N14ClothingScavengerHeavyArmor
-  name: scavenger heavy armor
-  description: A reinforced duster hiding pieces of scavenged armor.
+  name: "важка броня \"Сміттяр"
+  description: "Посилений пильовик, що приховує шматки відпрацьованої броні."
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/OuterClothing/Armor/falloutscavengerheavyarmor.rsi
@@ -65,8 +65,8 @@
 - type: entity
   parent: N14FalloutArmorBase
   id: N14ClothingOuterCoatFollowersArmored
-  name: Followers Armored Labcoat
-  description: A vest used by the followers. It has a bulletproof vest underneath.
+  name: "Послідовники Бронежилет"
+  description: "Жилет, який використовують послідовники. Під ним знаходиться бронежилет."
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/OuterClothing/Armor/falloutfoaarmoredcoat.rsi
@@ -91,8 +91,8 @@
 - type: entity
   parent: N14FalloutArmorBase
   id: N14ClothingOuterLeatherArmor
-  name: leather armor
-  description: A leather suit of armor that provides protection against physical threats.
+  name: "шкіряні обладунки"
+  description: "Шкіряний костюм-броня, що забезпечує захист від фізичних загроз."
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/OuterClothing/Armor/falloutleather.rsi
@@ -117,8 +117,8 @@
 - type: entity
   parent: N14FalloutArmorBase
   id: N14ClothingOuterVestLeather
-  name: leather vest
-  description: A simple armored leather vest, better than nothing.
+  name: "шкіряний жилет"
+  description: "Простий бронежилет зі шкіри - краще, ніж нічого."
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/OuterClothing/Armor/falloutleathervest.rsi
@@ -138,8 +138,8 @@
 - type: entity
   parent: N14FalloutArmorBase
   id: N14ClothingOuterMetalArmor
-  name: metal armor
-  description: A suit of metal armor that provides protection against physical threats at the cost of movement.
+  name: "металева броня"
+  description: "Костюм з металевої броні, що забезпечує захист від фізичних загроз за рахунок свободи пересування."
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/OuterClothing/Armor/falloutmetal.rsi
@@ -165,8 +165,8 @@
 - type: entity
   parent: N14FalloutArmorBase
   id: N14ClothingOuterCombatArmor
-  name: combat armor
-  description: A suit of combat armor that's used in combat.
+  name: "бойова броня (Вантаж)"
+  description: "Костюм бойового обладунку, який використовується в бою."
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/OuterClothing/Armor/falloutcombat.rsi
@@ -186,8 +186,8 @@
 - type: entity
   parent: N14ClothingOuterCombatArmor
   id: N14ClothingOuterCombatArmorCargo
-  name: combat armor
-  description: A suit of combat armor that's used in combat. This one bears a hastily added trade mark of the Blue Line Caravan corp.
+  name: "бойова броня (Вантаж)"
+  description: "Костюм бойової броні, що використовується в бою. На цьому поспішно додано торгову марку корпорації Blue Line Caravan."
   components:
   - type: Armor
     modifiers:
@@ -201,8 +201,8 @@
 - type: entity
   parent: N14FalloutArmorBase
   id: N14ClothingOuterCombatArmorMK2
-  name: combat armor mk2
-  description: A suit of combat armor that's used in combat. It looks stronger than basic combat armor.
+  name: "бойова броня mk2 (Вантаж)"
+  description: "Костюм бойової броні, який використовується в бою. Виглядає міцніше, ніж базова бойова броня."
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/OuterClothing/Armor/falloutcombatmk2.rsi
@@ -222,8 +222,8 @@
 - type: entity
   parent: N14ClothingOuterCombatArmorMK2
   id: N14ClothingOuterCombatArmorMK2Cargo
-  name: combat armor mk2
-  description: A suit of combat armor that's used in combat. It looks stronger than basic combat armor. This one bears a hastily added trade mark of the Blue Line Caravan corp.
+  name: "бойова броня mk2 (Вантаж)"
+  description: "Костюм бойової броні, що використовується в бою. Виглядає міцнішим за базову бойову броню. На цьому поспішно додано торгову марку корпорації Blue Line Caravan."
   components:
   - type: Armor
     modifiers:
@@ -237,8 +237,8 @@
 - type: entity
   parent: N14FalloutArmorBase
   id: N14ClothingOuterMarineArmor
-  name: marine armor
-  description: An extremely advanced piece of combat armor, the strongest you can find.
+  name: "морська броня"
+  description: "Надзвичайно просунутий бойовий обладунок, найміцніший з усіх, які можна знайти."
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/OuterClothing/Armor/falloutmarinearmor.rsi
@@ -258,8 +258,8 @@
 - type: entity
   parent: N14ClothingOuterCombatArmorMK2
   id: N14ClothingOuterEnclaveArmor
-  name: enclave armor
-  description: A suit of armor used by Enclave soldiers.
+  name: "броня анклаву"
+  description: "Бронежилет, який використовували солдати Анклаву."
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -270,8 +270,8 @@
 - type: entity
   parent: N14FalloutArmorBase
   id: N14ClothingOuterVaultSecVest
-  name: vault security vest
-  description: A vest used by Vault security to protect themselves.
+  name: "жилет для захисту сховища"
+  description: "Жилет, яким користуються охоронці Сховища для самозахисту."
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/OuterClothing/Armor/falloutvaultsec.rsi
@@ -291,8 +291,8 @@
 - type: entity
   parent: N14FalloutArmorBase
   id: N14ClothingOuterEnclavePeacekeeper
-  name: enclave peacekeeper vest
-  description: A bulletproof vest used by Enclave 'peacekeepers'. Pfft. Yeah, right.
+  name: "жилет миротворця анклаву"
+  description: "Бронежилет, який використовують \"миротворці\" анклаву. Пф. Так, точно."
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -314,8 +314,8 @@
 - type: entity
   parent: N14FalloutArmorBase
   id: N14ClothingOuterTribalArmor
-  name: tribal armor
-  description: A piece of armor used by tribals.
+  name: "племінні обладунки"
+  description: "Елемент обладунку, який використовували племена."
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/OuterClothing/Armor/fallouttribal.rsi
@@ -335,8 +335,8 @@
 - type: entity
   parent: N14FalloutArmorBase
   id: N14ClothingOuterTribalArmorHeavy
-  name: heavy tribal armor
-  description: A piece of heavy armor used by tribals.
+  name: "важкі племінні обладунки"
+  description: "Частина важких обладунків, які використовували племена."
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/OuterClothing/Armor/fallouttribalheavy.rsi
@@ -359,8 +359,8 @@
 - type: entity
   parent: N14FalloutArmorBase
   id: N14ClothingOuterCombatTribal
-  name: tribal combat armor
-  description: A salvaged combat armor to fit the tribe's needs.
+  name: "племінні бойові обладунки"
+  description: "Врятований бойовий обладунок для потреб племені."
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/OuterClothing/Armor/falloutcombattribal.rsi
@@ -384,8 +384,8 @@
 - type: entity
   parent: N14FalloutArmorBase
   id: N14ClothingOuterRaiderBadlands
-  name: raider badlands armor
-  description: A suit of raider armor. It provides barely any protection... but it DOES look cool.
+  name: "рейдерська броня для безлюдних земель"
+  description: "Костюм рейдерської броні. Він майже не захищає... але виглядає круто."
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/OuterClothing/Armor/falloutraiderbadlands.rsi
@@ -407,8 +407,8 @@
 - type: entity
   parent: N14FalloutArmorBase
   id: N14ClothingOuterRaiderBlastmaster
-  name: raider blastmaster armor
-  description: A suit of raider armor. It provides barely any protection... but it DOES look cool.
+  name: "рейдерська броня підривника"
+  description: "Костюм рейдерської броні. Він майже не захищає... але виглядає круто."
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/OuterClothing/Armor/falloutraiderblastmaster.rsi
@@ -430,8 +430,8 @@
 - type: entity
   parent: N14ClothingOuterCombatArmor
   id: N14ClothingOuterRaiderCombat1
-  name: raider combat armor
-  description: An armor piece infamously used by raiders of all kinds in combat.
+  name: "бойова броня для рейдерів"
+  description: "Броня, яку сумнозвісно використовують у бою рейдери всіх видів."
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/OuterClothing/Armor/falloutcombatraider1.rsi
@@ -441,8 +441,8 @@
 - type: entity
   parent: N14FalloutArmorBase
   id: N14ClothingOuterRaiderCombat2
-  name: raider combat armor mk2
-  description: An armor piece infamously used by Raiders of all kinds in combat, this one seems to hold some pieces of a salvaged mk2 combat armor.
+  name: "бойова броня рейдера mk2"
+  description: "Броня, яка сумнозвісно використовується рейдерами всіх видів в бою, схоже, містить кілька шматків вцілілої бойової броні Mk2."
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/OuterClothing/Armor/falloutcombatraider2.rsi
@@ -462,8 +462,8 @@
 - type: entity
   parent: N14FalloutArmorBase
   id: N14ClothingOuterPoliceCombat
-  name: police combat armor
-  description: A blue lighter variant of combat armor used by police forces of the pre-war.
+  name: "поліцейські бойові обладунки"
+  description: "Блакитний полегшений варіант бойових обладунків, що використовувалися поліцією у довоєнний час."
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/OuterClothing/Armor/falloutpolicecombat.rsi
@@ -483,8 +483,8 @@
 - type: entity
   parent: N14FalloutArmorBase
   id: N14ClothingOuterCombatRusted
-  name: rusted combat armor
-  description: A suit of combat armor. This one looks rusted.
+  name: "іржава бойова броня"
+  description: "Костюм бойової броні. Цей виглядає іржавим."
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/OuterClothing/Armor/falloutcombatrusted.rsi
@@ -504,8 +504,8 @@
 - type: entity
   parent: N14ClothingOuterCombatRusted
   id: N14ClothingOuterCombatRaider
-  name: raider combat armor
-  description: A suit of combat armor. This one is quite decrepit and broken down.
+  name: "бойова броня для рейдерів"
+  description: "Костюм бойового обладунку. Цей доволі пошарпаний і поламаний."
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/OuterClothing/Armor/falloutcombatraider.rsi
@@ -515,8 +515,8 @@
 - type: entity
   parent: N14ClothingOuterCombatArmor
   id: N14ClothingOuterCombatPainspike
-  name: painspike combat armor
-  description: A suit of combat armor. This one seems to be dyed black and modified with spikes around its entirety.
+  name: "бойова броня з больовими шипами"
+  description: "Бойовий обладунок. Цей, схоже, пофарбований у чорний колір і модифікований шипами по всьому периметру."
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/OuterClothing/Armor/falloutcombatpainspike.rsi
@@ -526,8 +526,8 @@
 - type: entity
   parent: N14FalloutArmorBase
   id: N14ClothingOuterPainspike
-  name: painspike armor
-  description: A particularly unhuggable armor, even by raider standards. Extremely spiky.
+  name: "броня з больовими шипами"
+  description: "Особливо неприступна броня, навіть за рейдерськими мірками. Надзвичайно колючий."
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/OuterClothing/Armor/falloutpainspike.rsi
@@ -547,8 +547,8 @@
 - type: entity
   parent: N14FalloutArmorBase
   id: N14ClothingOuterSupafly
-  name: supafly
-  description: Fabulous mutant powers were revealed to me the day I held aloft my bumper sword and said... BY THE POWER OF NUKA-COLA, I AM RAIDER MAN!
+  name: "супафлі"
+  description: "Казкові мутантські здібності відкрилися мені в той день, коли я підняв свій бамперний меч і сказав СИЛОЮ НУКА-КОЛИ, Я - ЛЮДИНА-РЕЙДЕР!"
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/OuterClothing/Armor/falloutsupafly.rsi
@@ -572,8 +572,8 @@
 - type: entity
   parent: N14ClothingOuterBase
   id: N14ClothingOuterPoliceVest
-  name: police vest
-  description: A protective vest used for the pre-war police.
+  name: "поліцейський жилет"
+  description: "Захисний жилет, який використовувався в довоєнній поліції."
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/OuterClothing/Armor/falloutpolicevest.rsi
@@ -596,8 +596,8 @@
 - type: entity
   parent: N14ClothingOuterPoliceVest
   id: N14ClothingOuterPoliceVestCargo
-  name: cargo vest
-  description: A protective vest used for the pre-war police. This one has a Blue Line Caravan corp trade mark sewn into the breast.
+  name: "вантажний жилет"
+  description: "Захисний жилет, що використовувався довоєнною поліцією. На грудях вшита торгова марка корпорації Blue Line Caravan."
   components:
   - type: Armor
     modifiers:
@@ -611,8 +611,8 @@
 - type: entity
   parent: N14ClothingOuterBase
   id: N14ClothingOuterSheriffVest
-  name: sheriff vest
-  description: The sheriff needs a good piece of armor to protect themselves from the dangers of the wasteland.
+  name: "жилет шерифа"
+  description: "Шерифу потрібна хороша броня, щоб захистити себе від небезпек пустки."
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/OuterClothing/Armor/falloutsheriffvest.rsi
@@ -634,8 +634,8 @@
 - type: entity
   parent: N14FalloutArmorBase
   id: N14ClothingOuterNCRVestSnow
-  name: snow leather NCR vest
-  description: A light ballistic plate inside a leather vest, cheap and easy to mass produce, perfect armor for light infantry. This one is covered in snow-white camo.
+  name: "жилет зі снігової шкіри NCR"
+  description: "Легка балістична пластина всередині шкіряного жилета, дешева і проста у масовому виробництві, ідеальна броня для легкої піхоти. Цей бронежилет вкритий білосніжним камуфляжем."
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/OuterClothing/Armor/falloutNCRvest.rsi
@@ -655,8 +655,8 @@
 - type: entity
   parent: N14FalloutArmorBase
   id: N14ClothingOuterNCRVestWoods
-  name: woods leather NCR vest
-  description: A light ballistic plate inside a leather vest, cheap and easy to mass produce, perfect armor for light infantry. This one is covered in green camo.
+  name: "лісовий шкіряний жилет NCR"
+  description: "Легка балістична пластина всередині шкіряного жилета, дешева і проста у масовому виробництві, ідеальна броня для легкої піхоти. Цей бронежилет вкритий зеленим камуфляжем."
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/OuterClothing/Armor/falloutNCRvest2.rsi
@@ -676,8 +676,8 @@
 - type: entity
   parent: N14FalloutArmorBase
   id: N14ClothingOuterNCRVestDesert
-  name: desert leather NCR vest
-  description: A light ballistic plate inside a leather vest, cheap and easy to mass produce, perfect armor for light infantry. This one is covered in classic desert camo.
+  name: "пустельний шкіряний жилет NCR"
+  description: "Легка балістична пластина всередині шкіряного жилета, дешева і проста у масовому виробництві, ідеальна броня для легкої піхоти. Цей бронежилет вкритий класичним камуфляжем для пустелі."
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/OuterClothing/Armor/falloutNCRvest3.rsi
@@ -697,8 +697,8 @@
 - type: entity
   parent: N14FalloutArmorBase
   id: N14ClothingOuterNCRPlateWoods
-  name: NCR plate armor
-  description: A bunch of light steel plates connected to a hollow regular vest, designed to protect during melee combat.
+  name: "Пластинчаста броня NCR"
+  description: "Купа легких сталевих пластин, з'єднаних з порожнистим звичайним жилетом, призначеним для захисту під час ближнього бою."
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/OuterClothing/Armor/falloutNCRplatevest.rsi
@@ -724,8 +724,8 @@
 - type: entity
   parent: N14FalloutArmorBase
   id: N14ClothingOuterNCRPlateDesert
-  name: NCR plate armor
-  description: A bunch of light steel plates connected to a hollow regular vest, designed to protect during melee combat.
+  name: "Пластинчаста броня NCR"
+  description: "Купа легких сталевих пластин, з'єднаних з порожнистим звичайним жилетом, призначеним для захисту під час ближнього бою."
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/OuterClothing/Armor/falloutNCRplatevest2.rsi
@@ -751,8 +751,8 @@
 - type: entity
   parent: N14ClothingOuterBase
   id: N14ClothingOuterNCRPouchedVestWoods
-  name: pouched leather NCR vest
-  description: A leather vest with a light ballistic plate inside, this vest comes with a pack of pouches to hold any kind of things. It's uncomfy to move with it.
+  name: "жилет NCR зі шкіряного мішка"
+  description: "Шкіряний жилет з легкою балістичною пластиною всередині, до нього додається пачка мішечків для будь-яких речей. Пересуватися в ньому незручно."
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/OuterClothing/Armor/falloutNCRwebvest.rsi
@@ -772,8 +772,8 @@
 - type: entity
   parent: N14ClothingOuterBase
   id: N14ClothingOuterNCRPouchedVestDesert
-  name: pouched leather NCR vest
-  description: A leather vest with a light ballistic plate inside, this vest comes with a pack of pouches to hold any kind of things. It's uncomfy to move with it.
+  name: "жилет NCR зі шкіряного мішка"
+  description: "Шкіряний жилет з легкою балістичною пластиною всередині, до нього додається пачка мішечків для будь-яких речей. Пересуватися в ньому незручно."
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/OuterClothing/Armor/falloutNCRwebvest2.rsi
@@ -793,8 +793,8 @@
 - type: entity
   parent: N14ClothingOuterBase
   id: N14ClothingOuterNCRPouchedVestSnow
-  name: pouched leather NCR vest
-  description: A leather vest with a light ballistic plate inside, this vest comes with a pack of pouches to hold any kind of things. It's uncomfy to move with it.
+  name: "жилет NCR зі шкіряного мішка"
+  description: "Шкіряний жилет з легкою балістичною пластиною всередині, до нього додається пачка мішечків для будь-яких речей. Пересуватися в ньому незручно."
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/OuterClothing/Armor/falloutNCRwebvest3.rsi
@@ -813,8 +813,8 @@
 - type: entity
   parent: N14ClothingOuterBase
   id: N14ClothingOuterNCRLightPouchedVest
-  name: light pouched leather NCR vest
-  description: A hardened leather vest with a light ballistic plate inside, this vest comes with a pack of pouches to hold any kind of things.
+  name: "легкий жилет NCR зі штучної шкіри"
+  description: "Жилет із загартованої шкіри з легкою балістичною пластиною всередині, з пакетом сумок для зберігання будь-яких речей."
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/OuterClothing/Armor/falloutNCRlightwebvest.rsi
@@ -834,8 +834,8 @@
 - type: entity
   parent: N14ClothingOuterCombatArmor
   id: N14ClothingOuterNCRCombatArmor
-  name: NCR combat armor
-  description: An old military grade pre-war combat armor, repainted to the colour scheme of the New California Republic.
+  name: "Бойова броня NCR"
+  description: "Старі військові довоєнні бойові обладунки, перефарбовані у кольори Республіки Нова Каліфорнія."
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/OuterClothing/Armor/falloutcombatNCR.rsi
@@ -845,8 +845,8 @@
 - type: entity
   parent: N14ClothingOuterCombatArmorMK2
   id: N14ClothingOuterNCRCombatArmorMK2
-  name: NCR combat armor mk2
-  description: A reinforced set of bracers, greaves, and torso plating of pre-war design. This one is kitted with additional plates, repainted to the colour scheme of the New California Republic.
+  name: "Бойова броня NCR mk2"
+  description: "Посилений набір кронштейнів, мастил та бронеобшивки довоєнного зразка. Цей комплект оснащений додатковими пластинами, перефарбованими у кольори Республіки Нова Каліфорнія."
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/OuterClothing/Armor/falloutcombatNCRmk2.rsi
@@ -858,8 +858,8 @@
 - type: entity
   parent: N14ClothingOuterBase
   id: N14ClothingOuterRangerVest
-  name: ranger custom leather vest
-  description: A custom NCR leather vest modified to become more versatile and protective.
+  name: "шкіряний жилет рейнджера на замовлення"
+  description: "Шкіряний жилет NCR, виготовлений на замовлення, модифікований, щоб стати більш універсальним та захисним."
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/OuterClothing/Armor/falloutrangervest.rsi
@@ -879,8 +879,8 @@
 - type: entity
   parent: N14ClothingOuterNCRCombatArmor
   id: N14ClothingOuterRangerArmor
-  name: ranger patrol armor
-  description: A complete piece of combat armor created by the NCR itself, used by the NCR Rangers during their most dangerous patrols.
+  name: "бронежилет рейнджера"
+  description: "Повноцінна бойова броня, створена самою компанією NCR, яку використовують рейнджери NCR під час найнебезпечніших патрулювань."
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/OuterClothing/Armor/falloutrangersuit.rsi
@@ -890,8 +890,8 @@
 - type: entity
   parent: N14ClothingOuterNCRCombatArmor
   id: N14ClothingOuterRangerArmorB
-  name: customized ranger patrol armor
-  description: A customized and moderately-worn suit of patrol ranger armor. A sun-worn thick olive duster is worn over the armor.
+  name: "кастомізована патрульна броня рейнджера"
+  description: "Зшитий на замовлення і помірно зношений костюм патрульного рейнджера. Поверх обладунків надітий вигорілий на сонці товстий оливковий плащ."
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/OuterClothing/Armor/falloutrangersuitb.rsi
@@ -911,8 +911,8 @@
 - type: entity
   parent: N14ClothingOuterBase
   id: N14ClothingOuterRangerDuster
-  name: ranger recon duster
-  description: A thicker than average duster worn by NCR recon rangers out in the field. It's not heavily armored by any means, but is easy to move around in and provides excellent protection from the harsh desert environment.
+  name: "рейнджер розвідувальний пилосос"
+  description: "Більш товстий, ніж середній, протигаз, який носять рейнджери NCR в польових умовах. Він не є важкоброньованим, але в ньому легко пересуватися і він забезпечує чудовий захист від суворих умов пустелі."
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/OuterClothing/Armor/falloutrangerduster.rsi
@@ -937,8 +937,8 @@
 - type: entity
   parent: N14ClothingOuterBase
   id: N14ClothingOuterRangerCoat
-  name: NCR ranger armor
-  description: The most feared and skillful soldiers of the NCR that the wasteland can create tend to wear this armor.
+  name: "Бронежилет рейнджера NCR"
+  description: "Найстрашніші та найвправніші солдати НКР, яких може створити пустка, як правило, носять ці обладунки."
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/OuterClothing/Armor/falloutrangercoat.rsi
@@ -958,8 +958,8 @@
 - type: entity
   parent: N14ClothingOuterBase
   id: N14ClothingOuterRangerCombat
-  name: ranger combat armor
-  description: The Rangers combat armor consists of a pre-war L.A.P.D. riot suit under a duster with rodeo jeans. Considered one of the most prestigious suits of armor to earn and wear while in service of the NCR Rangers.
+  name: "бойовий обладунок рейнджера"
+  description: "Бойовий обладунок рейнджерів складається з довоєнного костюма поліції Лос-Анджелеса під пильовиком та джинсів для родео. Вважається одним з найпрестижніших обладунків, які можна отримати та носити під час служби в NCR Rangers."
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/OuterClothing/Armor/falloutrangercombat.rsi
@@ -979,8 +979,8 @@
 - type: entity
   parent: N14ClothingOuterRangerCombat
   id: N14ClothingOuterRangerCombatDesert
-  name: desert ranger combat armor
-  description: This is the original armor the NCR Ranger Combat armor was based off of. An awe inspiring suit of armor used by the legendary Desert Rangers.
+  name: "бойова броня рейнджера пустелі"
+  description: "Це оригінальна броня, на основі якої був створений бойовий бронежилет NCR Ranger Combat. Вселяє благоговіння обладунок, який використовували легендарні Рейнджери пустелі."
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/OuterClothing/Armor/falloutrangerdesertcombat.rsi
@@ -990,8 +990,8 @@
 - type: entity
   parent: N14ClothingOuterRangerCombat
   id: N14ClothingOuterRangerFox
-  name: fox ranger combat armor
-  description: A customized and well-worn suit of riot gear with parts of the suit reinforced with leather armor and slain Centurion armor pieces by the wearer. A sniper's veil is wrapped around the neck.
+  name: "бойовий обладунок рейнджера \"Фокс"
+  description: "Індивідуальний і добре поношений костюм спецпризначенця, частини якого посилені шкіряною бронею та вбитими частинами броні \"Центуріон\". На шиї обмотана снайперська вуаль."
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/OuterClothing/Armor/falloutrangerfox.rsi
@@ -1001,8 +1001,8 @@
 - type: entity
   parent: N14ClothingOuterRangerCombat
   id: N14ClothingOuterRangerWeathered
-  name: weathered ranger combat armor
-  description: A set of pre-unification desert ranger armor, made using parts of what was once USMC riot armor. It looks as if it has been worn for decades; the coat has become discoloured from years under the Mojave sun and has multiple tears and bullet holes in its leather. The armor plating itself seems to be in relatively good shape though it could do with some maintenance.
+  name: "обвітрені бойові обладунки рейнджера"
+  description: "Комплект обладунків рейнджера пустелі до об'єднання, виготовлений з частин того, що колись було бронежилетом Корпусу морської піхоти США. Виглядає так, ніби його носили десятиліттями; плащ знебарвився від років під сонцем Мохаве і має численні розриви та дірки від куль у шкірі. Саме бронепокриття, схоже, у відносно хорошому стані, хоча і потребує певного догляду."
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/OuterClothing/Armor/falloutrangerweathered.rsi
@@ -1012,8 +1012,8 @@
 - type: entity
   parent: N14ClothingOuterRangerCombat
   id: N14ClothingOuterRangerElite # Admin event gear (OP)
-  name: elite ranger combat armor
-  description: A customized and well-worn suit of riot gear with parts of the suit reinforced with leather armor and slain Centurion armor pieces by the wearer. A sniper's veil is wrapped around the neck.
+  name: "елітні бойові обладунки рейнджера"
+  description: "Індивідуальний і добре поношений костюм спецпризначенця, частини якого посилені шкіряною бронею та вбитими частинами броні \"Центуріон\". На шиї обмотана снайперська вуаль."
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/OuterClothing/Armor/falloutrangerelite.rsi
@@ -1033,8 +1033,8 @@
 - type: entity
   parent: N14ClothingOuterRangerCombat
   id: N14ClothingOuterRangerEliteOld
-  name: worn elite ranger combat armor
-  description: Worn riot gear granted to Rangers who served as law bringers for times of great unrest. This armor is a testament to the reach and power of the Republic and its will to bring peace to the lawlessness of the wasteland.
+  name: "носили елітні бойові обладунки рейнджерів"
+  description: "Поношене захисне спорядження, яке отримували рейнджери, що служили правоохоронцями під час великих заворушень. Ці обладунки є свідченням могутності Республіки та її прагнення принести мир у беззаконня пустки."
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/OuterClothing/Armor/falloutrangerelite.rsi
@@ -1054,8 +1054,8 @@
 - type: entity
   parent: N14ClothingOuterRangerCombat
   id: N14ClothingOuterRangerPrice
-  name: spider ranger combat armor
-  description: A customised and faded suit of riot gear, reminiscient of that found near Hopeville in the Divide, with a pair of wrist mounted ammo pouches for easy access to spare munitions with a pair of stripes down the back made from a fire-proof material.
+  name: "бойовий обладунок рейнджера-павука"
+  description: "Зшитий на замовлення і вицвілий костюм, що нагадує той, що був знайдений під Хоупвіллем у Дивайді, з парою зап'ястних підсумків для боєприпасів для легкого доступу до запасних боєприпасів з парою смуг на спині з вогнетривкого матеріалу."
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/OuterClothing/Armor/falloutrangerspider.rsi
@@ -1077,8 +1077,8 @@
 - type: entity
   parent: N14ClothingOuterCombatArmorMK2
   id: N14ClothingOuterCombatArmorBOSMK2
-  name: brotherhood combat armor mk2
-  description: A suit of combat armor used by the Washington Brotherhood of Steel.
+  name: "бойова броня братства mk2"
+  description: "Бойовий обладунок, який використовувало Вашингтонське сталеве братство."
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/OuterClothing/Armor/falloutbosmk2armor.rsi
@@ -1088,8 +1088,8 @@
 - type: entity
   parent: N14ClothingOuterCombatArmor
   id: N14ClothingOuterCombatArmorBOS
-  name: brotherhood combat armor
-  description: A suit of combat armor used by the low-ranking members of the Washington Brotherhood of Steel.
+  name: "бойові обладунки братства"
+  description: "Бойовий обладунок, який використовували члени Вашингтонського сталевого братства нижчого рангу."
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/OuterClothing/Armor/falloutbosarmor.rsi
@@ -1099,8 +1099,8 @@
 - type: entity
   parent: N14ClothingOuterCombatArmor
   id: N14ClothingOuterCombatArmorKnightBOS
-  name: knight combat armor
-  description: A suit of combat armor used by the Knights in the Washington Brotherhood of Steel.
+  name: "лицарські бойові обладунки"
+  description: "Бойовий обладунок, який використовували лицарі Вашингтонського сталевого братства."
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/OuterClothing/Armor/falloutbosknight.rsi
@@ -1110,8 +1110,8 @@
 - type: entity
   parent: N14ClothingOuterCombatArmorMK2
   id: N14ClothingOuterCombatArmorSeniorBOS
-  name: senior knight combat armor
-  description: A suit of combat armor used by the Senior Knights in the Washington Brotherhood of Steel.
+  name: "бойові обладунки старшого лицаря"
+  description: "Бойовий обладунок, який використовували старші лицарі Вашингтонського сталевого братства."
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/OuterClothing/Armor/falloutbossenior.rsi
@@ -1121,8 +1121,8 @@
 - type: entity
   parent: N14ClothingOuterCombatArmorMK2
   id: N14ClothingOuterCombatArmorCaptainBOS
-  name: captain combat armor
-  description: A suit of combat armor used by the Captains in the Washington Brotherhood of Steel.
+  name: "капітанський бойовий обладунок"
+  description: "Бойовий обладунок, який використовували капітани Вашингтонського сталевого братства."
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/OuterClothing/Armor/falloutboscaptain.rsi
@@ -1142,8 +1142,8 @@
 - type: entity
   parent: N14ClothingOuterBase
   id: N14ClothingOuterBosScribe
-  name: technical leather vest
-  description: A leather vest with everything a Scribe could need during a field job, theres no Don Quixote without a Sancho Panza.
+  name: "технічний шкіряний жилет"
+  description: "Шкіряний жилет з усім, що може знадобитися писареві під час польових робіт, не буває Дон Кіхота без Санчо Панси."
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/OuterClothing/Armor/falloutbosvest.rsi
@@ -1163,8 +1163,8 @@
 - type: entity
   parent: N14ClothingOuterCombatArmorMK2
   id: N14ClothingOuterCombatArmorMK3
-  name: brotherhood combat armor mk3
-  description: Meticulously worked on by the Washington Scribes, its near unrecognisable from its original state.
+  name: "бойова броня братства mk3"
+  description: "Ретельно опрацьований вашингтонськими книжниками, він майже не відрізняється від свого первісного стану."
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/OuterClothing/Armor/falloutbosmk3armor.rsi
@@ -1187,8 +1187,8 @@
 - type: entity
   parent: N14ClothingOuterCombatArmor
   id: N14ClothingOuterMidwestArmor
-  name: midwest BoS combat armor
-  description: A suit of combat armor modified with multiple well-polished metal plates.
+  name: "середньозахідна бойова броня BoS"
+  description: "Костюм бойової броні, модифікований кількома добре відполірованими металевими пластинами."
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/OuterClothing/Armor/falloutmidbosarmor.rsi
@@ -1198,8 +1198,8 @@
 - type: entity
   parent: N14ClothingOuterCombatArmorMK2
   id: N14ClothingOuterMidwestArmorMK2
-  name: veteran midwest BoS combat armor
-  description: A suit of combat armor modified with multiple well-polished metal plates and vibrant orange lines, a more robust version.
+  name: "ветеранська середньозахідна бойова броня BoS"
+  description: "Костюм бойової броні, модифікований кількома добре відполірованими металевими пластинами та яскравими помаранчевими лініями, більш міцна версія."
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/OuterClothing/Armor/falloutmidbosarmorV2.rsi
@@ -1209,8 +1209,8 @@
 - type: entity
   parent: N14ClothingOuterCombatArmor
   id: N14ClothingOuterMidwestReconArmor
-  name: midwest BoS recon armor
-  description: A suit of recon armor manufactured by the Midwest Brotherhood, reserved for only higher ranked members.
+  name: "середньозахідна розвідувальна броня BoS"
+  description: "Костюм розвідника, виготовлений Братством Середнього Заходу, зарезервований лише для членів вищого рангу."
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/OuterClothing/Armor/falloutmidbosreconarmor.rsi
@@ -1232,8 +1232,8 @@
 - type: entity
   parent: N14FalloutArmorBase
   id: N14ClothingOuterInsectArmor
-  name: insect armor
-  description: A suit of handmade armor made from a blend of different insect pieces, very protective.
+  name: "броня від комах"
+  description: "Костюм ручної роботи, виготовлений із суміші шматочків різних комах, дуже захисний."
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/OuterClothing/Armor/falloutinsectarmor.rsi
@@ -1253,8 +1253,8 @@
 - type: entity
   parent: N14FalloutArmorBase
   id: N14ClothingOuterChitinArmor
-  name: chitin armor
-  description: A suit of handmade armor made from a lot of chitin from insects.
+  name: "хітинова броня"
+  description: "Костюм обладунків ручної роботи, виготовлений з великої кількості хітину комах."
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/OuterClothing/Armor/falloutchitinarmor.rsi
@@ -1274,8 +1274,8 @@
 - type: entity
   parent: N14FalloutArmorBase
   id: N14ClothingOuterRadArmor
-  name: radscorpion armor
-  description: A suit of handmade armor made of pieces of exoskeleton from radscorpions.
+  name: "броня радскорпіона"
+  description: "Костюм броні ручної роботи, виготовлений зі шматків екзоскелету ракоскорпіонів."
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/OuterClothing/Armor/falloutradarmor.rsi
@@ -1295,8 +1295,8 @@
 - type: entity
   parent: N14FalloutArmorBase
   id: N14ClothingOuterLightMetalArmor
-  name: light metal armor
-  description: A suit of light metal armor that provides protection against physical threats.
+  name: "легка металева броня"
+  description: "Костюм з легкої металевої броні, що забезпечує захист від фізичних загроз."
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/OuterClothing/Armor/falloutlightmetal.rsi
@@ -1316,8 +1316,8 @@
 - type: entity
   parent: N14FalloutArmorBase
   id: N14ClothingOuterLightLeatherArmor
-  name: light leather armor
-  description: Your basic all leather apparel. Finely crafted from tanned brahmin hide.
+  name: "легка шкіряна броня"
+  description: "Ваш базовий повністю шкіряний одяг. Вишукано виготовлений з дубленої шкури браміна."
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/OuterClothing/Armor/falloutleatherarmor.rsi
@@ -1336,8 +1336,8 @@
 - type: entity
   parent: N14FalloutArmorBase
   id: N14ClothingOuterReinforcedLeatherArmor
-  name: Reinforced leather armor
-  description: An advanced version of the basic leather armor with extra layers of protection. Finely crafted from tanned brahmin hide.
+  name: "Посилена шкіряна броня"
+  description: "Покращена версія базової шкіряної броні з додатковими шарами захисту. Вишукано виготовлена з дубленої шкури браміна."
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/OuterClothing/Armor/falloutreinforcedleatherarmor.rsi
@@ -1358,8 +1358,8 @@
 - type: entity
   parent: N14FalloutArmorBase
   id: N14ClothingOuterVestRCMP
-  name: RCMP armored vest
-  description: A bulletproof vest used by the Canadian Mounties of the RCMP.
+  name: "Бронежилет КККП"
+  description: "Бронежилет, що використовується канадською кінною поліцією RCMP."
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/OuterClothing/Armor/falloutmountievest.rsi
@@ -1379,8 +1379,8 @@
 - type: entity
   parent: N14FalloutArmorBase
   id: N14ClothingOuterCombatArmorRCMP
-  name: RCMP combat armor
-  description: A suit of combat armor that's used in combat, this one is a post-war model produced by the RCMP.
+  name: "Бойові обладунки КККП"
+  description: "Костюм бойової броні, який використовується в бою, - це повоєнна модель, виготовлена канадською королівською кавалерійською поліцією."
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/OuterClothing/Armor/falloutmountiearmor.rsi
@@ -1402,8 +1402,8 @@
 - type: entity
   parent: N14FalloutArmorBase
   id: N14ClothingOuterCombatArmorChinese
-  name: chinese combat armor
-  description: A bulletproof vest combined with knee pads, mostly used by chinese commandos and special forces.
+  name: "китайські бойові обладунки"
+  description: "Бронежилет у поєднанні з наколінниками, здебільшого використовується китайськими спецпризначенцями та спецпідрозділами."
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/OuterClothing/Armor/falloutchinesearmor.rsi
@@ -1423,8 +1423,8 @@
 - type: entity
   parent: N14FalloutArmorBase
   id: N14ClothingOuterVestChinese
-  name: chinese armored vest
-  description: A light bulletproof vest, mostly used by regular chinese infantry.
+  name: "китайський бронежилет"
+  description: "Легкий бронежилет, який здебільшого використовується звичайною китайською піхотою."
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/OuterClothing/Armor/falloutchinesevest.rsi
@@ -1445,8 +1445,8 @@
 - type: entity
   parent: N14FalloutArmorBase
   id: N14ClothingOuterPressArmor
-  name: prewar reporter armor
-  description: An old piece of armor once used by the Free Press before the war. Though the ballistic fiber is worn, it will still offer some protection.
+  name: "довоєнні репортерські обладунки"
+  description: "Стара броня, яку колись використовувала Вільна преса до війни. Хоча балістичне волокно зношене, воно все ще забезпечує певний захист."
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/OuterClothing/Armor/reportersvest.rsi
@@ -1467,8 +1467,8 @@
 - type: entity
   parent: ClothingOuterHardsuitBase
   id: N14ClothingOuterChineseStealthSuit
-  name: chinese stealth suit
-  description: Yī tào yǐqián wéi zhōngguó tèzhǒng bùduì zhìzào de zhuāngjiǎ.
+  name: "китайський стелс-костюм"
+  description: "Костюм, раніше виготовлений для китайських спецпідрозділів."
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/OuterClothing/Armor/falloutchinesestealthsuit.rsi

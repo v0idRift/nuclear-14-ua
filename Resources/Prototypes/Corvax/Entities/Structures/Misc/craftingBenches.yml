@@ -4,8 +4,8 @@
 - type: entity
   parent: BaseStructure
   id: N14WorkbenchStation
-  name: power armor maintenance station
-  description: A multifunctional station designed for the maintenance and repair of power armor.
+  name: "станція обслуговування силової броні"
+  description: "Багатофункціональна станція, призначена для обслуговування та ремонту силової броні."
   components:
     - type: Sprite
       sprite: Corvax/Structures/Misc/maintenanceStation.rsi
@@ -44,8 +44,8 @@
 - type: entity
   parent: BaseStructure
   id: N14WorkbenchStationBroken
-  name: power armor maintenance station
-  description: It was once a multifunctional power armor maintenance station, but now it is completely out of order. All diagnostic and repair systems are not functioning, and the station is no longer able to perform its functions. It is a relic of former technological prowess, preserved solely as a commemorative artifact.
+  name: "станція обслуговування силової броні"
+  description: "Колись це була багатофункціональна станція обслуговування силової броні, але зараз вона повністю вийшла з ладу. Усі діагностичні та ремонтні системи не працюють, і станція більше не може виконувати свої функції. Це реліквія колишньої технологічної майстерності, збережена виключно як пам'ятний артефакт."
   components:
     - type: Sprite
       sprite: Corvax/Structures/Misc/maintenanceStation.rsi

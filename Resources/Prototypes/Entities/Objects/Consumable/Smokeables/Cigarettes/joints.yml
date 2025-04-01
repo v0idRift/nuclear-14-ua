@@ -1,8 +1,8 @@
 - type: entity
   id: Joint
   parent: BaseCigar
-  name: joint
-  description: A roll of dried plant matter wrapped in thin paper.
+  name: "самокрутка"
+  description: "Рулон висушеної рослинної сировини, загорнутий у тонкий папір."
   components:
   - type: Sprite
     sprite: Objects/Consumable/Smokeables/Cannabis/joint.rsi
@@ -32,9 +32,9 @@
 - type: entity
   id: JointRainbow
   parent: Joint
-  name: joint
+  name: "самокрутка"
   suffix: Rainbow
-  description: A roll of dried plant matter wrapped in thin paper. Seems to be colorful inside.
+  description: "Рулон сухої рослинної маси, загорнутий у тонкий папір. Здається, всередині він кольоровий."
   components:
   - type: Construction
     graph: smokeableJointRainbow
@@ -60,8 +60,8 @@
 - type: entity
   id: Blunt
   parent: BaseCigar
-  name: blunt
-  description: A roll of dried plant matter wrapped in a dried tobacco leaf.
+  name: "блант"
+  description: "Рулон сушеної рослинної сировини, загорнутий у висушений тютюновий лист."
   components:
   - type: Sprite
     sprite: Objects/Consumable/Smokeables/Cannabis/blunt.rsi
@@ -91,9 +91,9 @@
 - type: entity
   id: BluntRainbow
   parent: Blunt
-  name: blunt
+  name: "блант"
   suffix: Rainbow
-  description: A roll of dried plant matter wrapped in a dried tobacco leaf. Seems to be colorful inside.
+  description: "Рулон сухої рослинної маси, загорнутий у висушений тютюновий лист. Здається, всередині він кольоровий."
   components:
   - type: Construction
     graph: smokeableBluntRainbow

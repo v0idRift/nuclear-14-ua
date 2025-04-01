@@ -1,7 +1,7 @@
 - type: entity
   parent: [ BoxCardboard, BaseBagOpenClose ]
   id: CardBoxBase
-  name: deck box
+  name: "коробка для колоди"
   categories: [ HideSpawnMenu ]
   components:
   - type: Item
@@ -32,7 +32,7 @@
 - type: entity
   parent: [BaseItem]
   id: CardStackBase
-  name: stack of cards
+  name: "стопка карт"
   abstract: true
   components:
   - type: Item
@@ -50,7 +50,7 @@
   parent: CardStackBase
   id: CardHandBase
   categories: [ HideSpawnMenu ]
-  name: hand of cards
+  name: "рука карт"
   components:
   - type: CardHand
   - type: Sprite
@@ -67,7 +67,7 @@
   parent: CardStackBase
   id: CardDeckBase
   categories: [ HideSpawnMenu ]
-  name: deck of cards
+  name: "колода карт"
   components:
   - type: Sprite
     sprite: EstacaoPirata/Objects/Misc/cards.rsi
@@ -80,7 +80,7 @@
 - type: entity
   parent: CardBoxBase
   id: CardBoxBlack
-  name: black deck box
+  name: "чорна коробка для колоди"
   components:
   - type: Item
     size: Small
@@ -99,7 +99,7 @@
 - type: entity
   parent: CardDeckBase
   id: CardDeckBlack
-  name: deck of cards
+  name: "колода карт"
   components:
   - type: Sprite
     sprite: EstacaoPirata/Objects/Misc/cards.rsi
@@ -168,7 +168,7 @@
 - type: entity
   parent: BaseItem
   id: CardBase
-  name: card
+  name: "карта"
   categories: [ HideSpawnMenu ]
   components:
   - type: EmitSoundOnLand

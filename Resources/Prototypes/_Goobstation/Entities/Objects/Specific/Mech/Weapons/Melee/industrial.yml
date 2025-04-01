@@ -1,9 +1,9 @@
 - type: entity
   id: WeaponMechMeleeDrill
   parent: BaseMechWeaponMelee
-  name: exosuit drill
+  name: "бур екзокостюма"
   suffix: Mech Weapon, Melee, Industrial
-  description: Equipment for mining exosuits. This is the drill that'll pierce the rocks!
+  description: "Обладнання для видобувних екзокостюмів. Це той бур, що проб'є скелі!"
   components:
   - type: Sprite
     state: mecha_drill
@@ -28,9 +28,9 @@
 - type: entity
   id: WeaponMechMeleeDrillDiamond
   parent: BaseMechWeaponMelee
-  name: diamond-tipped exosuit drill
+  name: "бур екзокостюма з алмазним наконечником"
   suffix: Mech Weapon, Melee, Industrial
-  description: Equipment for mining exosuits. This is an upgraded version of the drill that'll pierce the rocks!
+  description: "Обладнання для видобувних екзокостюмів. Це покращена версія бура, що проб'є скелі!"
   components:
   - type: Sprite
     state: mecha_diamond_drill

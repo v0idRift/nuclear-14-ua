@@ -1,8 +1,8 @@
 - type: job
   id: ChinesePartisan
   setPreference: true
-  name: chinese partisan
-  description: follow orders from your superior, fight for the communism. #need work
+  name: "китайський партизан"
+  description: "виконувати накази начальства, боротися за комунізм." #need work
   playTimeTracker: ChinesePartisan
   startingGear: ChinesePartisanGear
   icon: "JobIconSecurityCadet"

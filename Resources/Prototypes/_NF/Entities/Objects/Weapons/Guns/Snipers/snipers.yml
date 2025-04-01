@@ -1,9 +1,9 @@
 # Frontier
 - type: entity
-  name: N2524 Pattern Repeater
+  name: "Карабін важільної дії N2524"
   parent: BaseWeaponSniper
   id: WeaponSniperRepeater
-  description: A civilian grade lever action firearm, favored by space cowboys across the Frontier for its reliability and stopping power. Uses .45 magnum ammo.
+  description: "Цивільна вогнепальна зброя важільної дії, улюблена космічними ковбоями по всьому Фронтиру за її надійність та зупиняючу силу. Використовує набої .45 magnum."
   components:
   - type: Sprite
     sprite: _NF/Objects/Weapons/Guns/Snipers/repeater.rsi

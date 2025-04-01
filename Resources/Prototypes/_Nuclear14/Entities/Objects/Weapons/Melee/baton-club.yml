@@ -1,6 +1,6 @@
 - type: entity
-  name: police baton
-  description: STOP RESISTING!
+  name: "поліцейський кийок"
+  description: "ПЕРЕСТАНЬТЕ ЧИНИТИ ОПІР!"
   parent: BaseItem
   id: N14PoliceBaton
   components:
@@ -28,7 +28,7 @@
     price: 30
 
 - type: entity
-  name: tribal club
+  name: "племінний клуб"
   parent: BaseItem
   id: N14TribalClub
   components:
@@ -52,8 +52,8 @@
     price: 20
 
 - type: entity
-  name: broken pipe
-  description: "It's not intended to be a weapon but sturdy enough to give a good few whacks."
+  name: "прорвана труба"
+  description: "Вона не призначена для використання як зброя, але досить міцна, щоб завдати кілька хороших ударів."
   parent: BaseItem
   id: N14BrokenPipe
   components:
@@ -77,8 +77,8 @@
     price: 10
 
 - type: entity
-  name: training sword
-  description: A crude wooden sword used for training in melee combat.
+  name: "тренувальний меч"
+  description: "Грубий дерев'яний меч, що використовувався для тренувань з рукопашного бою."
   parent: BaseItem
   id: N14TrainingSword
   components:
@@ -101,7 +101,7 @@
     price: 0
 
 - type: entity
-  name: trench club
+  name: "траншейний клуб"
   parent: BaseItem
   id: N14TrenchClub
   components:

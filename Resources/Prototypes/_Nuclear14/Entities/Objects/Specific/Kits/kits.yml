@@ -1,8 +1,8 @@
 - type: entity
-  name: rifleman kit
+  name: "комплект стрільця"
   parent: BaseItem
   id: KitBase
-  description: A box containing military supplies.
+  description: "Ящик з військовим приладдям."
   abstract: true
   components:
   - type: Sprite
@@ -18,10 +18,10 @@
 #M NCRA Cadet Kits
 
 - type: entity
-  name: cadet's rifleman kit
+  name: "набір стрільця-кадета"
   parent: KitBase
   id: KitNCR_CadetRifleman
-  description: A crate containing all an NCR trooper needs to patrol the wasteland.
+  description: "Ящик, що містить усе необхідне солдату НКР для патрулювання пустки."
   components:
   - type: Sprite
     state: rifleman
@@ -46,10 +46,10 @@
       path: /Audio/Effects/unwrap.ogg
 
 - type: entity
-  name: cadet's stormtrooper kit
+  name: "набір штурмовика-кадета"
   parent: KitBase
   id: KitNCR_CadetStorm
-  description: A crate containing all an NCR trooper needs to patrol the wasteland.
+  description: "Ящик, що містить усе необхідне солдату НКР для патрулювання пустки."
   components:
   - type: Sprite
     state: rifleman
@@ -74,10 +74,10 @@
       path: /Audio/Effects/unwrap.ogg
 
 - type: entity
-  name: cadet's scout kit
+  name: "набір розвідника-кадета"
   parent: KitBase
   id: KitNCR_CadetScout
-  description: A crate containing all an NCR trooper needs to patrol the wasteland.
+  description: "Ящик, що містить усе необхідне солдату НКР для патрулювання пустки."
   components:
   - type: Sprite
     state: marksman
@@ -103,10 +103,10 @@
 # NCRA Soldier Kits
 
 - type: entity
-  name: soldier's rifleman kit
+  name: "набір стрільця-солдата"
   parent: KitBase
   id: KitNCR_Rifleman
-  description: A crate containing all an NCR trooper needs to patrol the wasteland.
+  description: "Ящик, що містить усе необхідне солдату НКР для патрулювання пустки."
   components:
   - type: Sprite
     state: rifleman
@@ -131,10 +131,10 @@
       path: /Audio/Effects/unwrap.ogg
 
 - type: entity
-  name: soldier's stormtrooper kit
+  name: "набір штурмовика-солдата"
   parent: KitBase
   id: KitNCR_Storm
-  description: A crate containing all an NCR trooper needs to patrol the wasteland.
+  description: "Ящик, що містить усе необхідне солдату НКР для патрулювання пустки."
   components:
   - type: Sprite
     state: rifleman
@@ -159,10 +159,10 @@
       path: /Audio/Effects/unwrap.ogg
 
 - type: entity
-  name: soldier's scout kit
+  name: "набір розвідника-солдата"
   parent: KitBase
   id: KitNCR_Scout
-  description: A crate containing all an NCR trooper needs to patrol the wasteland.
+  description: "Ящик, що містить усе необхідне солдату НКР для патрулювання пустки."
   components:
   - type: Sprite
     state: marksman
@@ -186,10 +186,10 @@
       path: /Audio/Effects/unwrap.ogg
 
 - type: entity
-  name: soldier's pointman kit
+  name: "набір головного дозорного солдата"
   parent: KitBase
   id: KitNCR_Point
-  description: A crate containing all an NCR trooper needs to patrol the wasteland.
+  description: "Ящик, що містить усе необхідне солдату НКР для патрулювання пустки."
   components:
   - type: Sprite
     state: pointman
@@ -213,10 +213,10 @@
       path: /Audio/Effects/unwrap.ogg
 
 - type: entity
-  name: soldier's charger kit
+  name: "набір атакуючого солдата"
   parent: KitBase
   id: KitNCR_Morale
-  description: A crate containing all an NCR trooper needs to engage the enemy in glorious melee combat!
+  description: "Ящик, що містить усе необхідне солдату НКР для славетного рукопашного бою з ворогом!"
   components:
   - type: Sprite
     state: pointman
@@ -245,10 +245,10 @@
 # NCRA Engineer Kit
 
 - type: entity
-  name: engineer's mechanic kit
+  name: "набір інженера-механіка"
   parent: KitBase
   id: KitNCR_EngiMechanic
-  description: A crate containing all an NCR engineer needs to perform their job.
+  description: "Ящик, що містить усе необхідне інженеру НКР для виконання своєї роботи."
   components:
   - type: Sprite
     state: rifleman
@@ -276,10 +276,10 @@
       path: /Audio/Effects/unwrap.ogg
 
 - type: entity
-  name: engineer's demolition kit
+  name: "набір інженера-підривника"
   parent: KitBase
   id: KitNCR_EngiDemo
-  description: A crate containing all an NCR engineer needs to perform their job.
+  description: "Ящик, що містить усе необхідне інженеру НКР для виконання своєї роботи."
   components:
   - type: Sprite
     state: pointman
@@ -306,10 +306,10 @@
       path: /Audio/Effects/unwrap.ogg
 
 - type: entity
-  name: engineer's breacher kit
+  name: "набір інженера-проривника"
   parent: KitBase
   id: KitNCR_EngiBreach
-  description: A crate containing all an NCR engineer needs to perform their job.
+  description: "Ящик, що містить усе необхідне інженеру НКР для виконання своєї роботи."
   components:
   - type: Sprite
     state: pointman
@@ -337,10 +337,10 @@
 # NCRA Medic Kits
 
 - type: entity
-  name: medic's sugeon kit
+  name: "набір медика-хірурга"
   parent: KitBase
   id: KitNCR_MedSurgeon
-  description: A crate containing all an NCR medic needs to perform their job.
+  description: "Ящик, що містить усе необхідне медику НКР для виконання своєї роботи."
   components:
   - type: Sprite
     state: medic
@@ -373,10 +373,10 @@
       path: /Audio/Effects/unwrap.ogg
 
 - type: entity
-  name: medic's field kit
+  name: "польовий набір медика"
   parent: KitBase
   id: KitNCR_MedDoctor
-  description: A crate containing all an NCR medic needs to perform their job.
+  description: "Ящик, що містить усе необхідне медику НКР для виконання своєї роботи."
   components:
   - type: Sprite
     state: medic
@@ -409,10 +409,10 @@
       path: /Audio/Effects/unwrap.ogg
 
 - type: entity
-  name: medic's combat kit
+  name: "бойовий набір медика"
   parent: KitBase
   id: KitNCR_MedCombat
-  description: A crate containing all an NCR medic needs to perform their job.
+  description: "Ящик, що містить усе необхідне медику НКР для виконання своєї роботи."
   components:
   - type: Sprite
     state: medic
@@ -442,10 +442,10 @@
 # NCRA Weapon Specialist Kits
 
 - type: entity
-  name: specialist's gunner kit
+  name: "набір спеціаліста-кулеметника"
   parent: KitBase
   id: KitNCR_WSGunner
-  description: A crate containing all an NCR weapon specialist needs to perform their job.
+  description: "Ящик, що містить усе необхідне збройному спеціалісту НКР для виконання своєї роботи."
   components:
   - type: Sprite
     state: gunner
@@ -472,10 +472,10 @@
       path: /Audio/Effects/unwrap.ogg
 
 - type: entity
-  name: specialist's grenadier kit
+  name: "набір спеціаліста-гранатометника"
   parent: KitBase
   id: KitNCR_WSGrenadier
-  description: A crate containing all an NCR weapon specialist needs to perform their job.
+  description: "Ящик, що містить усе необхідне збройному спеціалісту НКР для виконання своєї роботи."
   components:
   - type: Sprite
     state: pointman
@@ -503,10 +503,10 @@
       path: /Audio/Effects/unwrap.ogg
 
 - type: entity
-  name: specialist's sniper kit
+  name: "набір спеціаліста-снайпера"
   parent: KitBase
   id: KitNCR_WSSniper
-  description: A crate containing all an NCR weapon specialist needs to perform their job.
+  description: "Ящик, що містить усе необхідне збройному спеціалісту НКР для виконання своєї роботи."
   components:
   - type: Sprite
     state: pointman
@@ -534,10 +534,10 @@
 # NCRA Sergeant Kits
 
 - type: entity
-  name: sergeant's assault kit
+  name: "штурмовий набір сержанта"
   parent: KitBase
   id: KitNCR_SGTRifleman
-  description: A crate containing all an NCR sergeant needs to patrol the wasteland.
+  description: "Ящик, що містить усе необхідне сержанту НКР для патрулювання пустки."
   components:
   - type: Sprite
     state: rifleman
@@ -563,10 +563,10 @@
       path: /Audio/Effects/unwrap.ogg
 
 - type: entity
-  name: sergeant's gunner kit
+  name: "набір кулеметника-сержанта"
   parent: KitBase
   id: KitNCR_SGTGunner
-  description: A crate containing all an NCR sergeant needs to patrol the wasteland.
+  description: "Ящик, що містить усе необхідне сержанту НКР для патрулювання пустки."
   components:
   - type: Sprite
     state: gunner
@@ -592,10 +592,10 @@
       path: /Audio/Effects/unwrap.ogg
 
 - type: entity
-  name: sergeant's scout kit
+  name: "набір розвідника-сержанта"
   parent: KitBase
   id: KitNCR_SGTScout
-  description: A crate containing all an NCR sergeant needs to patrol the wasteland.
+  description: "Ящик, що містить усе необхідне сержанту НКР для патрулювання пустки."
   components:
   - type: Sprite
     state: marksman
@@ -621,10 +621,10 @@
       path: /Audio/Effects/unwrap.ogg
 
 - type: entity
-  name: sergeant's pointman kit
+  name: "набір головного дозорного сержанта"
   parent: KitBase
   id: KitNCR_SGTPoint
-  description: A crate containing all an NCR sergeant needs to patrol the wasteland.
+  description: "Ящик, що містить усе необхідне сержанту НКР для патрулювання пустки."
   components:
   - type: Sprite
     state: pointman
@@ -652,10 +652,10 @@
 # NCRA Lieutenant Kits
 
 - type: entity
-  name: lieutenant's basic kit
+  name: "базовий набір лейтенанта"
   parent: KitBase
   id: KitNCR_LTPencil
-  description: A crate containing all an NCR lieutenant needs to administrate their troops.
+  description: "Ящик, що містить усе необхідне лейтенанту НКР для адміністрування своїх військ."
   components:
   - type: Sprite
     state: medic
@@ -679,10 +679,10 @@
       path: /Audio/Effects/unwrap.ogg
 
 - type: entity
-  name: lieutenant's scout kit
+  name: "набір розвідника-лейтенанта"
   parent: KitBase
   id: KitNCR_LTScout
-  description: A crate containing all an NCR lieutenant needs to administrate their troops.
+  description: "Ящик, що містить усе необхідне лейтенанту НКР для адміністрування своїх військ."
   components:
   - type: Sprite
     state: medic
@@ -706,10 +706,10 @@
       path: /Audio/Effects/unwrap.ogg
 
 - type: entity
-  name: lieutenant's tactical kit
+  name: "тактичний набір лейтенанта"
   parent: KitBase
   id: KitNCR_LTTactical
-  description: A crate containing all an NCR lieutenant needs to administrate their troops.
+  description: "Ящик, що містить усе необхідне лейтенанту НКР для адміністрування своїх військ."
   components:
   - type: Sprite
     state: medic
@@ -735,10 +735,10 @@
 #MARK: NCR Ranger Kits
 
 - type: entity
-  name: ranger service kit
+  name: "сервісний набір рейнджера"
   parent: KitBase
   id: KitServiceRanger
-  description: A crate containing advanced weaponry for members of the Rangers.
+  description: "Ящик з сучасною зброєю для рейнджерів."
   components:
   - type: Sprite
     state: rifleman
@@ -758,10 +758,10 @@
       path: /Audio/Effects/unwrap.ogg
 
 - type: entity
-  name: ranger rifleman kit
+  name: "комплект стрільця рейнджера"
   parent: KitBase
   id: KitRiflemanRanger
-  description: A crate containing advanced weaponry for members of the Rangers.
+  description: "Ящик з сучасною зброєю для рейнджерів."
   components:
   - type: Sprite
     state: rifleman
@@ -781,10 +781,10 @@
       path: /Audio/Effects/unwrap.ogg
 
 - type: entity
-  name: ranger marksman kit
+  name: "комплект стрільця рейнджера"
   parent: KitBase
   id: KitMarksmanRanger
-  description: A crate containing advanced weaponry for members of the Rangers.
+  description: "Ящик з сучасною зброєю для рейнджерів."
   components:
   - type: Sprite
     state: marksman
@@ -804,10 +804,10 @@
       path: /Audio/Effects/unwrap.ogg
 
 - type: entity
-  name: ranger CQB specialist kit
+  name: "комплект для рейнджера CQB спеціаліста"
   parent: KitBase
   id: KitCQBRanger
-  description: A crate containing advanced weaponry for members of the Rangers.
+  description: "Ящик з сучасною зброєю для рейнджерів."
   components:
   - type: Sprite
     state: pointman
@@ -829,10 +829,10 @@
       path: /Audio/Effects/unwrap.ogg
 
 - type: entity
-  name: ranger trailman kit
+  name: "комплект рейнджера-слідопита"
   parent: KitBase
   id: KitTrailmanRanger
-  description: A crate containing advanced weaponry for members of the Rangers.
+  description: "Ящик з сучасною зброєю для рейнджерів."
   components:
   - type: Sprite
     state: rifleman
@@ -854,10 +854,10 @@
 #MARK: Veteran Kits
 
 - type: entity
-  name: modified ranger service kit
+  name: "модифікований сервісний набір рейнджера"
   parent: KitBase
   id: KitServiceRangerVeteran
-  description: A cache containing the belongings of a seasoned Ranger.
+  description: "Схованка з речами досвідченого рейнджера."
   components:
   - type: Sprite
     state: rifleman
@@ -878,10 +878,10 @@
       path: /Audio/Effects/unwrap.ogg
 
 - type: entity
-  name: veteran ranger precision rifle kit
+  name: "комплект високоточної гвинтівки для ветеранів-рейнджерів"
   parent: KitBase
   id: KitRiflemanRangerVeteran
-  description: A cache containing the belongings of a Veteran Ranger.
+  description: "Схованка з речами ветерана-рейнджера."
   components:
   - type: Sprite
     state: rifleman
@@ -902,10 +902,10 @@
       path: /Audio/Effects/unwrap.ogg
 
 - type: entity
-  name: veteran ranger heavy sniper kit
+  name: "важкий снайперський комплект рейнджера-ветерана"
   parent: KitBase
   id: KitHeavySniperRangerVeteran
-  description: A cache containing the belongings of a Veteran Ranger.
+  description: "Схованка з речами ветерана-рейнджера."
   components:
   - type: Sprite
     state: marksman
@@ -926,10 +926,10 @@
       path: /Audio/Effects/unwrap.ogg
 
 - type: entity
-  name: veteran ranger assault kit
+  name: "штурмовий комплект ветерана-рейнджера"
   parent: KitBase
   id: KitAssaultRangerVeteran
-  description: A cache containing the belongings of a Veteran Ranger.
+  description: "Схованка з речами ветерана-рейнджера."
   components:
   - type: Sprite
     state: rifleman
@@ -950,10 +950,10 @@
       path: /Audio/Effects/unwrap.ogg
 
 - type: entity
-  name: veteran ranger marksman kit
+  name: "комплект стрільця-ветерана рейнджера"
   parent: KitBase
   id: KitMarksmanRangerVeteran
-  description: A cache containing the belongings of a Veteran Ranger.
+  description: "Схованка з речами ветерана-рейнджера."
   components:
   - type: Sprite
     state: marksman
@@ -978,10 +978,10 @@
 #MARK: BoS Midwest Kits
 
 - type: entity
-  name: Brotherhood basic issue kit
+  name: "Базовий набір Братства"
   parent: KitBase
   id: KitDefaultBoSMidwest
-  description: A crate containing everything a member of the Brotherhood might need.
+  description: "Ящик з усім, що може знадобитися члену Братства."
   components:
   - type: Sprite
     state: rifleman
@@ -999,10 +999,10 @@
       - id: N14BoxCardboardMREBoxKFilled
 
 - type: entity
-  name: Brotherhood ranged issue kit
+  name: "Братський комплект амуніції"
   parent: KitBase
   id: KitRangedBoSMidwest
-  description: A crate containing everything a member of the Brotherhood might need for long-range firefights.
+  description: "Ящик з усім, що може знадобитися члену Братства для ведення вогню на великій відстані."
   components:
   - type: Sprite
     state: marksman
@@ -1020,10 +1020,10 @@
       - id: N14BoxCardboardMREBoxKFilled
 
 - type: entity
-  name: Brotherhood carbine issue kit
+  name: "Комплект для видачі карабінів \"Братство"
   parent: KitBase
   id: KitCarbineBoSMidwest
-  description: A crate containing everything a member of the Brotherhood might need for their ballistic needs.
+  description: "Ящик з усім, що може знадобитися члену Братства для балістичних потреб."
   components:
   - type: Sprite
     state: marksman
@@ -1041,10 +1041,10 @@
       - id: N14BoxCardboardMREBoxKFilled
 
 - type: entity
-  name: Brotherhood laser issue kit
+  name: "Комплект для видачі лазерів Brotherhood"
   parent: KitBase
   id: KitLaserBoSMidwest
-  description: A crate containing everything a member of the Brotherhood might need to lay down some laser and lead.
+  description: "Ящик з усім, що може знадобитися члену Братства для того, щоб покласти лазер і свинець."
   components:
   - type: Sprite
     state: marksman
@@ -1064,10 +1064,10 @@
 #MARK: BoS Scribe Kits
 #medic
 - type: entity
-  name: Brotherhood scribe medical kit
+  name: "Аптечка писаря Братства"
   parent: KitBase
   id: KitScribeMedicBoSMidwest
-  description: A crate containing everything a member of the Brotherhood Scribes might need for keeping the fighting forces alive.
+  description: "Ящик з усім, що може знадобитися члену Братства Писарів для підтримання життя бійців."
   components:
   - type: Sprite
     state: medic
@@ -1090,10 +1090,10 @@
 
 #field scribe
 - type: entity
-  name: Brotherhood scribe field kit
+  name: "Польовий набір писаря Братства"
   parent: KitBase
   id: KitScribeFieldBoSMidwest
-  description: A crate containing everything a member of the Brotherhood Scribes might need for supporting their unit in the field.
+  description: "Ящик з усім, що може знадобитися члену Братства Писарів для підтримки свого підрозділу в польових умовах."
   components:
   - type: Sprite
     state: rifleman
@@ -1119,10 +1119,10 @@
 
 #engineer scribe
 - type: entity
-  name: Brotherhood scribe engineer kit
+  name: "Набір інженера Братства писарів"
   parent: KitBase
   id: KitScribeEngineerBoSMidwest
-  description: A crate containing everything a member of the Brotherhood Scribes might need for their general engineering needs.
+  description: "Ящик, що містить все, що може знадобитися члену Братства Писарів для загальних інженерних потреб."
   components:
   - type: Sprite
     state: rifleman
@@ -1163,10 +1163,10 @@
 #       - id: N14Stimpak
 #       - id: N14BoxCardboardMREBoxKFilled
 - type: entity
-  name: Brotherhood paladin ballistics kit
+  name: "Балістичний набір для паладинів Братства"
   parent: KitBase
   id: KitAssaultBoSMidwest
-  description: A crate containing everything a paladin of the Brotherhood might desire for their insane need of bullets downrange.
+  description: "Ящик з усім, що може забажати паладин Братства для своєї шаленої потреби в набоях на дальніх дистанціях."
   components:
   - type: Sprite
     state: rifleman
@@ -1186,10 +1186,10 @@
 
 #MARK: WBoS Kits
 - type: entity
-  name: Brotherhood basic issue kit
+  name: "Базовий набір Братства"
   parent: KitBase
   id: KitDefaultBoSWashington
-  description: A crate containing everything a member of the Brotherhood might need.
+  description: "Ящик з усім, що може знадобитися члену Братства."
   components:
   - type: Sprite
     state: rifleman
@@ -1207,10 +1207,10 @@
       - id: N14BoxCardboardMREBoxKFilled
 
 - type: entity
-  name: Brotherhood carbine issue kit
+  name: "Комплект для видачі карабінів \"Братство"
   parent: KitBase
   id: KitCarbineBoSWashington
-  description: A crate containing everything a member of the Brotherhood might need for their ballistic needs.
+  description: "Ящик з усім, що може знадобитися члену Братства для балістичних потреб."
   components:
   - type: Sprite
     state: marksman
@@ -1230,10 +1230,10 @@
 #MARK: WBoS Scribe Kits
 #medic
 - type: entity
-  name: Brotherhood scribe medical kit
+  name: "Аптечка писаря Братства"
   parent: KitBase
   id: KitScribeMedicBoSWashington
-  description: A crate containing everything a member of the Brotherhood Scribes might need for keeping the fighting forces alive.
+  description: "Ящик з усім, що може знадобитися члену Братства Писарів для підтримання життя бійців."
   components:
   - type: Sprite
     state: medic
@@ -1256,10 +1256,10 @@
 
 #field scribe
 - type: entity
-  name: Brotherhood scribe field kit
+  name: "Польовий набір писаря Братства"
   parent: KitBase
   id: KitScribeFieldBoSWashington
-  description: A crate containing everything a member of the Brotherhood Scribes might need for supporting their unit in the field.
+  description: "Ящик з усім, що може знадобитися члену Братства Писарів для підтримки свого підрозділу в польових умовах."
   components:
   - type: Sprite
     state: rifleman
@@ -1285,10 +1285,10 @@
 
 #engineer scribe
 - type: entity
-  name: Brotherhood scribe engineer kit
+  name: "Набір інженера Братства писарів"
   parent: KitBase
   id: KitScribeEngineerBoSWashington
-  description: A crate containing everything a member of the Brotherhood Scribes might need for their general engineering needs.
+  description: "Ящик, що містить все, що може знадобитися члену Братства Писарів для загальних інженерних потреб."
   components:
   - type: Sprite
     state: rifleman
@@ -1312,10 +1312,10 @@
 #MARK: WBoS CO & Paladin Kits
 #plasma
 - type: entity
-  name: Brotherhood Paladin plasma kit
+  name: "Плазмовий набір Братства Паладинів"
   parent: KitBase
   id: KitPlasmaBoSWashington
-  description: A crate containing everything a paladin of the Brotherhood might desire for their insane need of bullets downrange.
+  description: "Ящик з усім, що може забажати паладин Братства для своєї шаленої потреби в набоях на дальніх дистанціях."
   components:
   - type: Sprite
     state: rifleman
@@ -1334,10 +1334,10 @@
 
 #paladin ballistics
 - type: entity
-  name: Brotherhood paladin ballistics kit
+  name: "Балістичний набір для паладинів Братства"
   parent: KitBase
   id: KitAssaultBoSWashington
-  description: A crate containing everything a paladin of the Brotherhood might desire for their insane need of bullets downrange.
+  description: "Ящик з усім, що може забажати паладин Братства для своєї шаленої потреби в набоях на дальніх дистанціях."
   components:
   - type: Sprite
     state: rifleman
@@ -1357,10 +1357,10 @@
 
 #paladin marksman
 - type: entity
-  name: Brotherhood Paladin marksman kit
+  name: "Набір стрільця Братства Паладинів"
   parent: KitBase
   id: KitMarksmanBoSWashington
-  description: A crate containing everything a paladin of the Brotherhood might desire for their insane need of bullets downrange.
+  description: "Ящик з усім, що може забажати паладин Братства для своєї шаленої потреби в набоях на дальніх дистанціях."
   components:
   - type: Sprite
     state: rifleman

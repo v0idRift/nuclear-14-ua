@@ -1,8 +1,8 @@
 - type: job
   id: ChineseRifleman
   setPreference: true
-  name: chinese rifleman
-  description: follow orders from your superior, fight for the communism. #need work
+  name: "китайський стрілець"
+  description: "виконувати накази начальства, боротися за комунізм." #need work
   playTimeTracker: ChineseRifleman
   startingGear: ChineseRiflemanGear
   icon: "JobIconSecurityCadet"

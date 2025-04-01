@@ -1,7 +1,7 @@
 ﻿- type: entity
   id: ActionBloodCultStun
-  name: Stun
-  description: Empowers your hand to stun and mute a victim on contact.
+  name: "Приголомшити"
+  description: "Посилює вашу руку, щоб приголомшити та змусити замовкнути жертву при контакті."
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -23,8 +23,8 @@
 
 - type: entity
   id: ActionBloodCultTeleport
-  name: Teleport
-  description: Empowers your hand to teleport yourself or another cultist to a teleport rune on contact.
+  name: "Телепортувати"
+  description: "Посилює вашу руку, щоб телепортувати себе або іншого культиста до руни телепортації при контакті."
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -49,8 +49,8 @@
 
 - type: entity
   id: ActionBloodCultEmp
-  name: Electromagnetic Pulse
-  description: Emits a large electromagnetic pulse.
+  name: "Електромагнітний Імпульс"
+  description: "Випромінює великий електромагнітний імпульс."
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -69,8 +69,8 @@
 
 - type: entity
   id: ActionBloodCultShadowShackles
-  name: Shadow Shackles
-  description: Empowers your hand to handcuff a victim on contact, and mute them if successful.
+  name: "Тіньові Кайдани"
+  description: "Посилює вашу руку, щоб надіти наручники на жертву при контакті, і змусити її замовкнути, якщо вдасться."
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -92,8 +92,8 @@
 
 - type: entity
   id: ActionBloodCultTwistedConstruction
-  name: Twisted Construction
-  description: Empowers your hand to corrupt certain metallic objects.
+  name: "Спотворене Будівництво"
+  description: "Посилює вашу руку, щоб спотворювати певні металеві об'єкти."
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -119,8 +119,8 @@
 
 - type: entity
   id: ActionBloodCultSummonCombatEquipment
-  name: Summon Combat Equipment
-  description: Allows you to summon combat cult gear, including cult armor, a cult bola and a cult sword.
+  name: "Прикликати Бойове Спорядження"
+  description: "Дозволяє вам прикликати бойове спорядження культу, включаючи броню культу, болу культу та меч культу."
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -143,8 +143,8 @@
 
 - type: entity
   id: ActionBloodCultSummonRitualDagger
-  name: Summon Ritual Dagger
-  description: Allows you to summon a ritual dagger, in case you've lost the dagger that was given to you.
+  name: "Прикликати Ритуальний Кинджал"
+  description: "Дозволяє вам прикликати ритуальний кинджал, на випадок, якщо ви загубили кинджал, який вам дали."
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -165,8 +165,8 @@
 
 - type: entity
   id: ActionBloodCultBloodRites
-  name: Blood Rites
-  description: Empowers your hand to absorb blood to be used for advanced rites, or heal a cultist on contact. Use the spell in-hand to cast advanced rites
+  name: "Криваві Ритуали"
+  description: "Посилює вашу руку, щоб поглинати кров для використання в розширених ритуалах, або лікувати культиста при контакті. Використовуйте заклинання в руці, щоб провести розширені ритуали"
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -189,8 +189,8 @@
 
 - type: entity
   id: ActionSummonCultFloor
-  name: Summon Cult Floor
-  description: This spell constructs a cult floor.
+  name: "Прикликати Підлогу Культу"
+  description: "Це заклинання створює підлогу культу."
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -212,8 +212,8 @@
 
 - type: entity
   id: ActionLesserConstruction
-  name: Lesser Construction
-  description: This spell constructs a cult wall.
+  name: "Менше Будівництво"
+  description: "Це заклинання створює стіну культу."
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -235,8 +235,8 @@
 
 - type: entity
   id: ActionSummonCultDoor
-  name: Summon Cult Door
-  description: This spell constructs a cult door.
+  name: "Прикликати Двері Культу"
+  description: "Це заклинання створює двері культу."
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -258,8 +258,8 @@
 
 - type: entity
   id: ActionSummonSoulStone
-  name: Summon Soulshard
-  description: This spell reaches into Nar'Sie's realm, summoning one of the legendary fragments across time and space.
+  name: "Прикликати Уламок Душі"
+  description: "Це заклинання проникає в царство Нар'Сі, прикликаючи один з легендарних фрагментів крізь час і простір."
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -281,8 +281,8 @@
 
 - type: entity
   id: ActionSummonSoulStoneHoly
-  name: Summon Holy Soulshard
-  description: This spell reaches into Nar'Sie's realm, summoning one of the legendary fragments across time and space.
+  name: "Прикликати Святий Уламок Душі"
+  description: "Це заклинання проникає в царство Нар'Сі, прикликаючи один з легендарних фрагментів крізь час і простір."
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -304,8 +304,8 @@
 
 - type: entity
   id: ActionForceWallCult
-  name: Shield
-  description: This spell creates a temporary forcefield to shield yourself and allies from incoming fire.
+  name: "Щит"
+  description: "Це заклинання створює тимчасове силове поле, щоб захистити себе та союзників від вхідного вогню."
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -326,8 +326,8 @@
 
 - type: entity
   id: ActionPhaseShift
-  name: Phase Shift
-  description: This spell allows you to pass through walls.
+  name: "Фазовий Зсув"
+  description: "Це заклинання дозволяє вам проходити крізь стіни."
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -344,8 +344,8 @@
 
 - type: entity
   id: ActionGauntletEcho
-  name: Gauntlet Echo
-  description: Channels energy into your gauntlet - firing its essence forward in a slow moving, yet devastating, attack
+  name: "Відлуння Рукавиці"
+  description: "Направляє енергію у вашу рукавицю - вистрілює її сутність вперед у повільній, але руйнівній атаці"
   categories: [ HideSpawnMenu ]
   components:
   - type: WorldTargetAction

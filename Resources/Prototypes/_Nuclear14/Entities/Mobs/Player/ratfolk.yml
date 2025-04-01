@@ -1,6 +1,6 @@
 - type: entity
   save: false
-  name: Urist McRodent
+  name: "Уріст МакГризун"
   parent: [N14BaseMobRatFolk, BaseMob]
   id: N14MobRatFolk
   components:

@@ -1,7 +1,7 @@
 - type: entity
   id: N14MagazineRack
-  name: magazine rack
-  description: wireframe rack to store magazines
+  name: "стелаж для журналів"
+  description: "каркасний стелаж для зберігання журналів"
   placement:
     mode: SnapgridCenter
   components:

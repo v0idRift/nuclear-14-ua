@@ -2,8 +2,8 @@
 - type: entity
   parent: ClothingMaskPullableBase
   id: ClothingMaskPunkHalf
-  name: punk halfmask
-  description: A close-fitting breathing mask with gamer lights!
+  name: "панк-напівмаска"
+  description: "Щільно прилягаюча дихальна маска з геймерськими вогнями!"
   suffix: Random visuals
   components:
   - type: BreathMask

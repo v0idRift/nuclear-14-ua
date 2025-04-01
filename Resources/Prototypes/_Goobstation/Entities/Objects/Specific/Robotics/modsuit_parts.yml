@@ -1,8 +1,8 @@
 - type: entity
   id: PartModsuit
   parent: BaseItem
-  name: MOD part
-  description: A part used in MOD construction.
+  name: "частина МОД"
+  description: "Частина, що використовується для створення МОД."
   abstract: true
   components:
   - type: Sprite
@@ -20,7 +20,7 @@
 - type: entity
   id: ModsuitChestplate
   parent: PartModsuit
-  name: MOD chestplate
+  name: "нагрудник МОД"
   components:
   - type: Sprite
     state: chestplate
@@ -37,7 +37,7 @@
 - type: entity
   id: ModsuitBoots
   parent: PartModsuit
-  name: MOD boots
+  name: "чоботи МОД"
   components:
   - type: Sprite
     state: boots
@@ -54,7 +54,7 @@
 - type: entity
   id: ModsuitHelmet
   parent: PartModsuit
-  name: MOD helmet
+  name: "шолом МОД"
   components:
   - type: Sprite
     state: helmet
@@ -71,7 +71,7 @@
 - type: entity
   id: ModsuitGauntlets
   parent: PartModsuit
-  name: MOD gauntlets
+  name: "рукавиці МОД"
   components:
   - type: Sprite
     state: gauntlets
@@ -88,7 +88,7 @@
 - type: entity
   id: ModsuitShell
   parent: PartModsuit
-  name: MOD shell
+  name: "оболонка МОД"
   components:
   - type: Appearance
   - type: Sprite
@@ -125,8 +125,8 @@
 - type: entity
   id: ModsuitPlatingExternal
   parent: PartModsuit
-  name: MOD standard external plating
-  description: A part used in MOD construction.
+  name: "стандартна зовнішня обшивка МОД"
+  description: "Частина, що використовується для створення МОД."
   components:
   - type: Sprite
     state: standard-plating
@@ -145,8 +145,8 @@
 - type: entity
   id: ModsuitCoreStandard
   parent: PartModsuit
-  name: MOD standard core
-  description: Growing in the most lush, fertile areas of the planet Sprout, there is a crystal known as the Heartbloom. These rare, organic piezoelectric crystals are of incredible cultural significance to the artist castes of the Ethereals, owing to their appearance; which is exactly similar to that of an Ethereal's heart. Which one you have in your suit is unclear, but either way, it's been repurposed to be an internal power source for a Modular Outerwear Device.
+  name: "стандартне ядро МОД"
+  description: "У найпишніших, родючих районах планети Пагін росте кристал, відомий як Heartbloom. Ці рідкісні органічні п'єзоелектричні кристали мають неймовірне культурне значення для каст митців Ефіріалів завдяки своєму зовнішньому вигляду, який точно схожий на серце Ефіріала. Який саме у вашому костюмі - незрозуміло, але в будь-якому випадку його перепрофільовано на внутрішнє джерело живлення для Модульного Зовнішнього Пристрою."
   components:
   - type: Sprite
     state: mod-core-standard

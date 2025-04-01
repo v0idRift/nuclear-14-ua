@@ -1,8 +1,8 @@
 - type: entity
-  name: N14WeaponShotgunBase
+  name: "N14ЗброяДробовикБаза"
   parent: BaseItem
   id: N14WeaponShotgunBase
-  description: A rooty tooty point and shooty.
+  description: "Корінцевий зубастий і пагонистий."
   abstract: true
   components:
   - type: Sprite
@@ -40,10 +40,10 @@
   - type: Craftable
 
 - type: entity
-  name: shotgun
+  name: "дробовик"
   parent: N14WeaponShotgunBase
   id: N14WeaponShotgun
-  description: A pump action shotgun chambered in 12 gauge shells.
+  description: "Помпова рушниця під набій 12-го калібру."
   components:
   - type: Gun
     fireRate: 1
@@ -76,10 +76,10 @@
     price: 75
 
 - type: entity
-  name: double-barrel shotgun
+  name: "двоствольна рушниця"
   parent: N14WeaponShotgunBase
   id: N14WeaponShotgunDoubleBarrel
-  description: An immortal classic, uses 12 gauge shells.
+  description: "Безсмертна класика, використовує набої 12-го калібру."
   components:
   - type: Clothing
     sprite: _Nuclear14/Objects/Weapons/Guns/Shotguns/double_shotgun.rsi
@@ -112,10 +112,10 @@
     price: 45
 
 - type: entity
-  name: sawed-off shotgun
+  name: "обріз"
   parent: N14WeaponShotgunBase
   id: N14WeaponShotgunSawedOff
-  description: A portable and brutal handheld shotgun. Uses 12 gauge shells.
+  description: "Портативна та брутальна ручна рушниця. Використовує набої 12-го калібру."
   components:
   - type: Clothing
     sprite: _Nuclear14/Objects/Weapons/Guns/Shotguns/sawed_off.rsi
@@ -149,10 +149,10 @@
     price: 45
 
 - type: entity
-  name: sawed-off shotgun
+  name: "обріз"
   parent: N14WeaponShotgunSawedOff
   id: N14WeaponShotgunSawedOffEmpty
-  description: A portable and brutal handheld shotgun. Uses 12 gauge ammo.
+  description: "Портативна та брутальна ручна рушниця. Використовує набої 12-го калібру."
   suffix: Empty
   components:
   - type: BallisticAmmoProvider
@@ -162,10 +162,10 @@
     node: start
 
 - type: entity
-  name: combat shotgun
+  name: "бойова рушниця"
   parent: N14WeaponShotgunBase
   id: N14WeaponShotgunAuto
-  description: "It's a magazine-fed automatic shotgun designed for close quarters combat, uses 12 gauge shells."
+  description: "Це автоматична рушниця з магазинним живленням, призначена для ближнього бою, використовує набої 12-го калібру."
   components:
   - type: Sprite
     sprite: _Nuclear14/Objects/Weapons/Guns/Shotguns/combat_shotgun.rsi
@@ -223,10 +223,10 @@
     price: 100
 
 - type: entity
-  name: caravan shotgun
+  name: "караванна рушниця"
   parent: N14WeaponShotgunBase
   id: N14WeaponShotgunCaravan
-  description: The perfect shotgun for a long journey. Works well for hunting brahmins, geckos, and fiends. Uses 20 gauge shells.
+  description: "Ідеальна рушниця для далеких подорожей. Добре підходить для полювання на брамінів, геконів та дияволів. Використовує набої 20 калібру."
   components:
   - type: Clothing
     sprite: _Nuclear14/Objects/Weapons/Guns/Shotguns/caravan_shotgun.rsi
@@ -255,10 +255,10 @@
     price: 30
 
 - type: entity
-  name: lever action shotgun
+  name: "важільна рушниця"
   parent: N14WeaponShotgunBase
   id: N14WeaponShotgunLever
-  description: The perfect shotgun for a cowboy, it uses 20 gauge shells.
+  description: "Ідеальна рушниця для ковбоя, що використовує набої 20-го калібру."
   components:
   - type: Clothing
     sprite: _Nuclear14/Objects/Weapons/Guns/Shotguns/lever_shotgun.rsi
@@ -293,10 +293,10 @@
     price: 45
 
 - type: entity
-  name: riot shotgun
+  name: "рушницю для боротьби з бунтом"
   parent: N14WeaponShotgunBase
   id: N14WeaponShotgunRiot
-  description: A compact semiautomatic shotgun used by pre-war police forces, chambered in 20 gauge shells and using a drum magazine.
+  description: "Компактна напівавтоматична рушниця, що використовувалась довоєнною поліцією, під набої 20-го калібру з барабанним магазином."
   components:
   - type: Clothing
     sprite: _Nuclear14/Objects/Weapons/Guns/Shotguns/riot_shotgun.rsi
@@ -355,10 +355,10 @@
     price: 90
 
 - type: entity
-  name: stockless shotgun
+  name: "безствольна рушниця"
   parent: N14WeaponShotgunBase
   id: N14WeaponShotgunShort
-  description: A stockless pump action shotgun, handy for close encounters. Chambered in 12 gauge shells.
+  description: "Помпова рушниця без приклада, зручна для ближнього бою. Патрони 12-го калібру."
   components:
   - type: Gun
     fireRate: 1
@@ -392,10 +392,10 @@
     price: 75
 
 - type: entity
-  name: blowback shotgun
+  name: "рушницю зі зворотним клапаном"
   parent: N14WeaponShotgunBase
   id: N14WeaponBlowback
-  description: A semi automatic combat shotgun with a integrated drum mag, uses 12 gauge shells.
+  description: "Напівавтоматична бойова рушниця з вбудованим барабанним магазином, використовує набої 12-го калібру."
   components:
   - type: Gun
     fireRate: 2
@@ -425,10 +425,10 @@
     price: 125
 
 - type: entity
-  name: chinese shotgun
+  name: "китайська рушниця"
   parent: N14WeaponShotgunBase
   id: N14WeaponShotgunChinese
-  description: A pump action chinese shotgun, uses 12 gauge shells.
+  description: "Помпова китайська рушниця, використовує набої 12-го калібру."
   components:
   - type: Gun
     fireRate: 3
@@ -458,10 +458,10 @@
     price: 100
 
 - type: entity
-  name: frenchi shotgun
+  name: "рушниця Френчі"
   parent: N14WeaponShotgunBase
   id: N14WeaponShotgunCanadian
-  description: A semi automatic canadian combat shotgun, uses 12 gauge shells.
+  description: "Напівавтоматична канадська бойова рушниця, використовує набої 12-го калібру."
   components:
   - type: Gun
     fireRate: 3
@@ -491,10 +491,10 @@
     price: 150
 
 - type: entity
-  name: boom stick
+  name: "штанга"
   parent: N14WeaponShotgunBase
   id: N14WeaponShotgunBoomstick
-  description: A heavy and strong double barrel shotgun, it has a reinforcer barrel with teeths and a straight form to be used has a club, uses 12 gauge shells.
+  description: "Важка і міцна двоствольна рушниця, має посилений ствол з зубцями і пряму форму, для використання має ключку, використовує набої 12 калібру."
   components:
   - type: Clothing
     sprite: _Nuclear14/Objects/Weapons/Guns/Shotguns/double_shotgun.rsi
@@ -524,10 +524,10 @@
     price: 60
 
 - type: entity
-  name: bloody stick
+  name: "кривава палиця"
   parent: N14WeaponShotgunBase
   id: N14WeaponShotgunBloodyStick
-  description: A heavy and strong double barrel shotgun, it has a reinforcer barrel with sharp blades and a straight form to be used has a axe, uses 12 gauge shells.
+  description: "Важка і міцна двоствольна рушниця, має армований ствол з гострими лезами і пряму форму, для використання має сокиру, використовує набої 12 калібру."
   components:
   - type: Clothing
     sprite: _Nuclear14/Objects/Weapons/Guns/Shotguns/double_shotgun.rsi
@@ -557,10 +557,10 @@
     price: 60
 
 - type: entity
-  name: pipe shotgun
+  name: "рушниця з трубкою"
   parent: N14WeaponShotgunBase
   id: N14WeaponShotgunPipe
-  description: A handmade weird double barrel shotgun made with pipes, uses 12 gauge shells.
+  description: "Дивна двоствольна рушниця ручної роботи, зроблена з труб, використовує набої 12-го калібру."
   components:
   - type: Clothing
     sprite: _Nuclear14/Objects/Weapons/Guns/Shotguns/double_shotgun.rsi

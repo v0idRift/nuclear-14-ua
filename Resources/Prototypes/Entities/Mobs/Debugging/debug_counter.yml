@@ -1,8 +1,8 @@
 - type: entity
   parent: MobHuman
   id: MobDebugCounter
-  name: debug counter
-  description: He can count
+  name: "налагоджувальний лічильник"
+  description: "Він вміє рахувати"
   suffix: AI, DEBUG
   components:
     - type: HTN
@@ -19,8 +19,8 @@
 - type: entity
   parent: MobHuman
   id: MobDebugRandomCounter
-  name: debug random counter
-  description: He can randomize
+  name: "налагоджувальний випадковий лічильник"
+  description: "Він вміє рандомізувати"
   suffix: AI, DEBUG
   components:
     - type: HTN
@@ -37,8 +37,8 @@
 - type: entity
   parent: MobHuman
   id: MobDebugRandomLess
-  name: debug random less
-  description: He can lessing
+  name: "налагоджувальний зменшувач"
+  description: "Він може зменшувати"
   suffix: AI, DEBUG
   components:
     - type: HTN

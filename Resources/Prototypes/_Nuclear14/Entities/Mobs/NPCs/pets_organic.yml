@@ -1,9 +1,9 @@
 - type: entity
-  name: Basic Pet
+  name: "Базовий улюбленець"
   id: N14MobPetBasic
   parent: N14MobBaseHostile
   categories: [ HideSpawnMenu ]
-  description: Why are you even reading this?
+  description: "Чому ви взагалі це читаєте?"
   components:
   - type: NpcFactionMember
     factions:
@@ -73,10 +73,10 @@
         Toxin: -0.25
 
 - type: entity
-  name: Basic Mutt
+  name: "Базова Дворняга"
   id: N14MobPetDog
   parent: N14MobPetBasic
-  description: A rather healthy dog, seems to have a collar with a name on it.
+  description: "Досить здоровий пес, схоже, має нашийник з іменем."
   components:
   - type: RadiationReceiver
   - type: RandomMetadata
@@ -91,10 +91,10 @@
     accent: dog
 
 - type: entity
-  name: MBoS Mutt
+  name: "Дворняга СЗБ"
   id: N14MobPetDogMBoS
   parent: N14MobPetDog
-  description: A rather healthy dog, seems to have a collar with a name on it.
+  description: "Досить здоровий пес, схоже, має нашийник з іменем."
   components:
   - type: RadiationReceiver
   - type: RandomMetadata
@@ -134,10 +134,10 @@
       storagebase: !type:Container
 
 - type: entity
-  name: WBoS Mutt
+  name: "Дворняга ВБС"
   id: N14MobPetDogWBoS
   parent: N14MobPetDog
-  description: A rather healthy dog, seems to have a collar with a name on it.
+  description: "Досить здоровий пес, схоже, має нашийник з іменем."
   components: #This dog is intentionally missing the RadiationReceiver due cybernetic shenanigans
   - type: RandomMetadata
     nameSegments: [names_N14pet_dog]
@@ -165,10 +165,10 @@
         Base: dead
 
 - type: entity
-  name: NCR Mutt
+  name: "Дворняга НКР"
   id: N14MobPetDogNCR
   parent: N14MobPetDog
-  description: A rather healthy dog, seems to have a collar with a name on it.
+  description: "Досить здоровий пес, схоже, має нашийник з іменем."
   components:
   - type: RadiationReceiver
   - type: RandomMetadata
@@ -209,10 +209,10 @@
         Slash: 5
 
 - type: entity
-  name: CC Mutt
+  name: "Дворняга ТК"
   id: N14MobPetDogCC
   parent: N14MobPetDog
-  description: A rather healthy dog, seems to have a collar with a name on it.
+  description: "Досить здоровий пес, схоже, має нашийник з іменем."
   components:
   - type: RadiationReceiver
   - type: RandomMetadata
@@ -245,10 +245,10 @@
 
 # Dogs end here.
 - type: entity
-  name: Pet Roach
+  name: "Домашній Тарган"
   id: N14MobPetRoach
   parent: N14MobPetBasic
-  description: A rather healthy dog, seems to have a collar with a name on it.
+  description: "Досить здоровий пес, схоже, має нашийник з іменем."
   components:
   - type: RandomMetadata
     nameSegments: [names_N14pet_insect]
@@ -313,10 +313,10 @@
     accent: xeno
 
 - type: entity
-  name: Pet Ant
+  name: "Домашня Мураха"
   id: N14MobPetAnt
   parent: N14MobPetRoach
-  description: It's an ant...but giant. Watch for the nippers.
+  description: "Це мураха... але гігантська. Остерігайтеся клішень."
   components:
   - type: Sprite
     drawdepth: Mobs
@@ -380,10 +380,10 @@
         Radiation: 1
 
 - type: entity
-  name: Pet Rat
+  name: "Домашній Щур"
   id: N14MobPetPigrat
   parent: N14MobPetBasic
-  description: Part pig, part rat, full pest. Watch out for the teeth.
+  description: "Частково свиня, частково щур, повністю шкідник. Остерігайтеся зубів."
   components:
   - type: RandomMetadata
     nameSegments: [names_N14pet_dog]

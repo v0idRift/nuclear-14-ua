@@ -1,8 +1,8 @@
 ﻿- type: entity
   id: CultGirder
   parent: Girder
-  name: runed girder
-  description: Framework made of a strange and shockingly cold metal. It doesn't seem to have any bolts
+  name: "рунічна балка"
+  description: "Каркас, виготовлений з дивного і шокуюче холодного металу. Здається, на ньому немає болтів"
   components:
   - type: Construction
     graph: CultGirder

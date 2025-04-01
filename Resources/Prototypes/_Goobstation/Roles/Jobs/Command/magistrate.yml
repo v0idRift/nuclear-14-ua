@@ -1,7 +1,7 @@
 - type: job
   id: Magistrate
-  name: Magistrate
-  description: "Ensure Space Law is being followed, Uphold Justice and Legality, Hold Hearings and Trials, Follow SOP, Ensure Command is Following Space Law."
+  name: "Магістрат"
+  description: "Забезпечувати дотримання Космічного Закону, Підтримувати Правосуддя та Законність, Проводити Слухання та Суди, Дотримуватися СОП, Забезпечувати дотримання Космічного Закону командуванням."
   playTimeTracker: JobMagistrate
   requirements:
     - !type:CharacterDepartmentTimeRequirement

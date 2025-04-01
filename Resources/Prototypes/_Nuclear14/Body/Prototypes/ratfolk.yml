@@ -1,6 +1,6 @@
 ﻿- type: body
   id: RatFolk
-  name: rat folk
+  name: "щуролюд"
   root: torso
   slots:
     head:

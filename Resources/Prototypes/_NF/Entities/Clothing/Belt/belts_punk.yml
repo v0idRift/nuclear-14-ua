@@ -2,8 +2,8 @@
 - type: entity
   parent: ClothingBeltStorageBase
   id: ClothingBeltPunkRandomized
-  name: punk belt
-  description: A webbing with functional pockets.
+  name: "панк-пояс"
+  description: "Розвантажувальна система з функціональними кишенями."
   suffix: Random visuals
   components:
   - type: Sprite

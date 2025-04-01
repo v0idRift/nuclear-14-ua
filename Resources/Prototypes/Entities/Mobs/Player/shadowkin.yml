@@ -1,6 +1,6 @@
 - type: entity
   save: false
-  name: Urist McShadow
+  name: "Уріст МакТінь"
   parent: MobShadowkinBase
   id: MobShadowkin
-  description: "Their barrel chest doesn't seem to rise and fall as quickly as a human's, how unnerving."
+  description: "Їхні бочкоподібні груди, здається, не піднімаються й опускаються так швидко, як у людини, як тривожно."

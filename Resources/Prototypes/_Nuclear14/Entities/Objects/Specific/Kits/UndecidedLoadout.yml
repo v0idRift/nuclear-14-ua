@@ -1,8 +1,8 @@
 # BASE
 - type: entity
   id: BaseLoadoutKit
-  name: Undecided Loadout Kit
-  description: Please only take one.
+  name: "Невизначений набір спорядження"
+  description: "Будь ласка, беріть лише один."
   parent: BaseItem
   categories: [ HideSpawnMenu ]
   components:
@@ -21,7 +21,7 @@
 # New California Republic Army
 - type: entity
   id: NCRcadetloadoutkits
-  name: Undecided NCRA Cadet Loadout Kit
+  name: "Невизначений набір спорядження кадета НКРА"
   parent: BaseLoadoutKit
   components:
   - type: Sprite
@@ -35,7 +35,7 @@
 
 - type: entity
   id: NCRtrooperloadoutkits
-  name: Undecided NCRA Trooper Loadout Kit
+  name: "Невизначений набір спорядження солдата НКРА"
   parent: NCRcadetloadoutkits
   components:
   - type: Sprite
@@ -51,7 +51,7 @@
 
 - type: entity
   id: NCRengineerloadoutkits
-  name: Undecided NCRA Engineer Loadout Kit
+  name: "Невизначений набір спорядження інженера НКРА"
   parent: NCRcadetloadoutkits
   components:
   - type: Sprite
@@ -65,7 +65,7 @@
 
 - type: entity
   id: NCRmedicloadoutkits
-  name: Undecided NCRA Medic Loadout Kit
+  name: "Невизначений набір спорядження медика НКРА"
   parent: NCRcadetloadoutkits
   components:
   - type: Sprite
@@ -79,7 +79,7 @@
 
 - type: entity
   id: NCRwsloadoutkits
-  name: Undecided NCRA Weapon Specalist Loadout Kit
+  name: "Невизначений набір спорядження збройного спеціаліста НКРА"
   parent: NCRcadetloadoutkits
   components:
   - type: Sprite
@@ -93,7 +93,7 @@
 
 - type: entity
   id: NCRSGTloadoutkits
-  name: Undecided NCRA Sergeant Loadout Kit
+  name: "Невизначений набір спорядження сержанта НКРА"
   parent: NCRcadetloadoutkits
   components:
   - type: Sprite
@@ -108,7 +108,7 @@
 
 - type: entity
   id: NCRLTloadoutkits
-  name: Undecided NCRA Lieutenant Loadout Kit
+  name: "Невизначений набір спорядження лейтенанта НКРА"
   parent: NCRcadetloadoutkits
   components:
   - type: Sprite
@@ -124,7 +124,7 @@
 # New California Republic Rangers
 - type: entity
   id: NCRrangerloadoutkits
-  name: Undecided NCR Ranger Loadout Kit
+  name: "Невизначений набір спорядження рейнджера НКР"
   parent: NCRcadetloadoutkits
   components:
   - type: Sprite
@@ -139,7 +139,7 @@
 
 - type: entity
   id: NCRveteranrangerloadoutkits
-  name: Undecided NCR Veteran Ranger Loadout Kit
+  name: "Невизначений набір спорядження ветерана-рейнджера НКР"
   parent: NCRcadetloadoutkits
   components:
   - type: Sprite
@@ -161,7 +161,7 @@
 #MARK: Knights
 - type: entity
   id: NCRBoSMidwestkits
-  name: Undecided BoS Midwest Kit
+  name: "Невизначений набір Середньозахідного Братства Сталі"
   parent: NCRcadetloadoutkits
   components:
   - type: Sprite
@@ -174,7 +174,7 @@
 
 - type: entity
   id: NCRBoSWashingtonkits
-  name: Undecided Washington BoS Kit
+  name: "Невизначений набір Вашингтонського Братства Сталі"
   parent: BaseLoadoutKit
   components:
   - type: Sprite
@@ -188,7 +188,7 @@
 #MARK: Scribes
 - type: entity
   id: NCRBoSMidwestScribekits
-  name: Undecided BoS Scribe Midwest Kit
+  name: "Невизначений набір писаря Середньозахідного Братства Сталі"
   parent: BaseLoadoutKit
   components:
   - type: Sprite
@@ -202,7 +202,7 @@
 
 - type: entity
   id: NCRBoSWashingtonScribekits
-  name: Undecided BoS Scribe Washington Kit
+  name: "Невизначений набір писаря Вашингтонського Братства Сталі"
   parent: BaseLoadoutKit
   components:
   - type: Sprite
@@ -217,7 +217,7 @@
 #MARK: Paladins
 - type: entity
   id: NCRBoSMidwestPaladinkits
-  name: Undecided BoS Paladin Midwest Kit
+  name: "Невизначений набір паладина Середньозахідного Братства Сталі"
   parent: BaseLoadoutKit
   components:
   - type: Sprite
@@ -233,7 +233,7 @@
 
 - type: entity
   id: NCRBoSWashingtonPaladinkits
-  name: Undecided BoS Paladin Washington Kit
+  name: "Невизначений набір паладина Вашингтонського Братства Сталі"
   parent: BaseLoadoutKit
   components:
   - type: Sprite

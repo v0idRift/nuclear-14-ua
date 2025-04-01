@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingHeadHardsuitWithLightBase
   id: ClothingHeadHelmetHardsuitBlueshield
-  name: blueshield's hardsuit helmet
-  description: Blueshield hardsuit with a top of the line gunlink. Belongs to the Blueshield.
+  name: "шолом скафандра блакитного щита"
+  description: "Скафандр Блакитного Щита з найкращим збройовим каналом. Належить Блакитному Щиту."
   components:
   - type: BreathMask
   - type: Sprite

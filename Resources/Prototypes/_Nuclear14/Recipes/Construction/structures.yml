@@ -1,13 +1,13 @@
 # Wood
 # Walls
 - type: construction
-  name: log wall
+  name: "дерев'яна стіна"
   id: N14WoodWallLog
   graph: N14WoodWall
   startNode: start
   targetNode: logWall
   category: construction-category-structures
-  description: Home from home.
+  description: "Дім з дому."
   icon:
     sprite: _Nuclear14/Structures/Walls/nc14/woodlog.rsi
     state: full
@@ -21,13 +21,13 @@
 
 # # Doors
 - type: construction
-  name: wooden door
+  name: "дерев'яні двері"
   id: N14DoorWood
   graph: N14DoorGraph
   startNode: start
   targetNode: woodDoorMakeshift
   category: construction-category-structures
-  description: A primitive door with manual operation like the cavemen used.
+  description: "Примітивні двері з ручним керуванням, як у печерних людей."
   objectType: Structure
   placementMode: SnapgridCenter
   canBuildInImpassable: false
@@ -41,13 +41,13 @@
 # Slanted Structures
 ## Walls
 - type: construction
-  name: wooden wall
+  name: "дерев'яна стіна"
   id: N14WallWoodSlanted
   graph: N14WoodWall
   startNode: start
   targetNode: WoodWall
   category: construction-category-structures
-  description: A nice hand built wall.
+  description: "Гарна стіна, збудована вручну."
   icon:
     sprite: _Nuclear14/Structures/Walls/ms13/slanted/wood.rsi
     state: full
@@ -60,13 +60,13 @@
     - !type:TileNotBlocked
 
 - type: construction
-  name: blue scrap wall
+  name: "синя стіна з брухту"
   id: N14WallScrapBlueSlanted
   graph: N14ScrapWall
   startNode: start
   targetNode: BlueScrapWall
   category: construction-category-structures
-  description: Have some rust here and there.
+  description: "Має трохи іржі тут і там."
   icon:
     sprite: _Nuclear14/Structures/Walls/ms13/slanted/scrapblue.rsi
     state: full
@@ -79,13 +79,13 @@
     - !type:TileNotBlocked
 
 - type: construction
-  name: red scrap wall
+  name: "червона стіна з брухту"
   id: N14WallScrapRedSlanted
   graph: N14ScrapWall
   startNode: start
   targetNode: RedScrapWall
   category: construction-category-structures
-  description: I hope that's red paint...
+  description: "Сподіваюся, це червона фарба..."
   icon:
     sprite: _Nuclear14/Structures/Walls/ms13/slanted/scrapred.rsi
     state: full
@@ -98,13 +98,13 @@
     - !type:TileNotBlocked
 
 - type: construction
-  name: rough scrap wall
+  name: "груба стіна з брухту"
   id: N14WallRoughScrapSlanted
   graph: N14ScrapWall
   startNode: start
   targetNode: RoughScrapWall
   category: construction-category-structures
-  description: I hope that's red paint...
+  description: "Сподіваюся, це червона фарба..."
   icon:
     sprite: _Nuclear14/Structures/Walls/ms13/slanted/roughscrap.rsi
     state: full
@@ -118,13 +118,13 @@
 
 ## Half Walls
 - type: construction
-  name: wooden half wall
+  name: "дерев'яна напівстіна"
   id: N14WallWoodHalfSlanted
   graph: N14HalfWall
   startNode: start
   targetNode: Wood
   category: construction-category-structures
-  description: A nice half wall for placing a window pane on.
+  description: "Гарна половина стіни, на якій можна розмістити віконну шибку."
   icon:
     sprite: _Nuclear14/Structures/Walls/ms13/half/wood.rsi
     state: full
@@ -138,13 +138,13 @@
 
 ## Doors
 - type: construction
-  name: wooden door
+  name: "дерев'яні двері"
   id: N14DoorWooden
   graph: N14DoorGraph
   startNode: start
   targetNode: WoodDoor
   category: construction-category-structures
-  description: A wooden door good for keeping things out.
+  description: "Дерев'яні двері добре захищають від сторонніх поглядів."
   objectType: Structure
   placementMode: SnapgridCenter
   canBuildInImpassable: false
@@ -157,13 +157,13 @@
 
 ## Windows
 - type: construction
-  name: window pane
+  name: "віконна шибка"
   id: N14Window
   graph: N14WindowPane
   startNode: start
   targetNode: N14WindowSlanted
   category: construction-category-structures
-  description: A window pane for seeing through things.
+  description: "Віконне скло для того, щоб бачити речі наскрізь."
   objectType: Structure
   placementMode: SnapgridCenter
   canBuildInImpassable: true

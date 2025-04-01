@@ -1,7 +1,7 @@
 - type: entity
   id: N14ModificationkitBase
   parent: BaseItem
-  name: modification kit
+  name: "набір для модифікації"
   abstract: true
   components:
   - type: Sprite
@@ -17,7 +17,7 @@
 - type: entity
   id: N14ModificationkitRevolver44Tribal
   parent: N14ModificationkitBase
-  name: revolver upgrade kit
+  name: "набір для модернізації револьвера .44"
   components:
   - type: Sprite
     layers:
@@ -27,7 +27,7 @@
 - type: entity
   id: N14ModificationkitRevolver44TribalUpgraded
   parent: N14ModificationkitBase
-  name: revolver upgrade extra kit
+  name: "додатковий набір для модернізації револьвера .44"
   components:
   - type: Sprite
     layers:

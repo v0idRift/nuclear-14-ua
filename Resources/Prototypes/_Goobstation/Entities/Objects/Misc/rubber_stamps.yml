@@ -1,5 +1,5 @@
 - type: entity
-  name: nanotrasen representative rubber stamp
+  name: "гумова печатка представника Nanotrasen"
   parent: RubberStampBase
   id: RubberStampNanorep
   components:
@@ -12,7 +12,7 @@
     state: stamp-nanorep
 
 - type: entity
-  name: magistrate rubber stamp
+  name: "гумова печатка магістрата"
   parent: RubberStampBase
   id: RubberStampMagistrate
   components:

@@ -1,8 +1,8 @@
 - type: job
   id: MountiePatrolman
   setPreference: true
-  name: mountie patrolman
-  description: follow orders from your sergeant #need work
+  name: "патрульний поліцейський"
+  description: "виконувати накази свого сержанта" #need work
   playTimeTracker: MountiePatrolman
   startingGear: MountiePatrolmanGear
   icon: "JobIconSecurityCadet"

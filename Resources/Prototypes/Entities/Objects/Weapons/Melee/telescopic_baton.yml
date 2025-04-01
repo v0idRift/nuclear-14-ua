@@ -1,8 +1,8 @@
 - type: entity
   id: TelescopicBaton
   parent: BaseItem
-  name: telescopic baton
-  description: A compact and harmless personal defense weapon. Sturdy enough to knock the feet out from under attackers.
+  name: "телескопічний кийок"
+  description: "Компактна і нешкідлива зброя особистого захисту. Досить міцна, щоб збити нападників з ніг."
   components:
   - type: Sprite
     sprite: Objects/Weapons/Melee/telebaton.rsi
@@ -60,8 +60,8 @@
 - type: entity
   parent: TelescopicBaton
   id: TelescopicBatonAdmeme
-  name: robust telescopic baton
-  description: A compact and HARMFUL personal defense weapon. Sturdy enough to break legs of the attackers, making them unable to walk again.
+  name: "міцний телескопічний кийок"
+  description: "Компактна та ШКІДЛИВА зброя особистого захисту. Досить міцна, щоб ламати ноги нападникам, позбавляючи їх можливості знову ходити."
   suffix: admeme, DO NOT MAP
   components:
   - type: TelescopicBaton

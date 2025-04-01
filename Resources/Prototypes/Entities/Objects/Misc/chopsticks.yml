@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseItem
   id: ChopSticks
-  name: chopsticks
-  description: A very traditional utensil.
+  name: "палички для їжі"
+  description: "Дуже традиційний столовий прибор."
   components:
   - type: Sprite
     sprite: Objects/Misc/chopstick.rsi
@@ -16,9 +16,9 @@
 
 - type: entity
   parent: BaseItem
-  name: paired chopsticks
+  name: "спарені палички для їжі"
   id: PairedChopsticks
-  description: You should probably seperate them.
+  description: "Вам, напевно, варто їх розділити."
   components:
   - type: SpawnItemsOnUse
     items:

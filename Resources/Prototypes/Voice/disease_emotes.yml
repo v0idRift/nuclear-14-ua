@@ -21,13 +21,13 @@
 
 - type: emote
   id: CatMeow
-  name: chat-emote-name-catmeow
+  name: "мяу"
   category: Vocal
   chatMessages: [ "chat-emote-msg-catmeow" ]
 
 - type: emote
   id: CatHisses
-  name: chat-emote-name-cathisses
+  name: "шипіння кота"
   category: Vocal
   chatMessages: [ "chat-emote-msg-cathisses" ]
 

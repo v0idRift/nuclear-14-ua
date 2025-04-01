@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingOuterHardsuitSecurity
   id: ClothingOuterHardsuitBlueshield
-  name: blueshield's hardsuit
-  description: A special hardsuit made for the Blueshield, contains extra armor.
+  name: "скафандр блакитного щита"
+  description: "Спеціальний скафандр, виготовлений для Блакитного Щита, містить додаткову броню."
   components:
   - type: Sprite
     sprite: _Goobstation/Clothing/OuterClothing/Hardsuits/Combat/blueshield.rsi

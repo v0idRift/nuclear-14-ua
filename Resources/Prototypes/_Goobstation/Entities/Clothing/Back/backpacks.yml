@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingBackpack
   id: ClothingBackpackBlueshield
-  name: blueshield backpack
-  description: A very protective backpack, smells like energy gun.
+  name: "рюкзак блакитного щита"
+  description: "Дуже захисний рюкзак, пахне енергетичною зброєю."
   components:
   - type: Sprite
     sprite: _Goobstation/Clothing/Back/Backpacks/blueshield.rsi

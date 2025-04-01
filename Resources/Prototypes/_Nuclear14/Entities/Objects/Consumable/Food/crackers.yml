@@ -1,7 +1,7 @@
 - type: entity
   parent: N14CookedFoodBreadSliceBase
   id: N14FoodCrackerBase
-  name: cracker
+  name: "крекер"
   abstract: true
   components:
   - type: Sprite
@@ -14,20 +14,20 @@
 # C Cracker
 
 - type: entity
-  name: c ration cracker
+  name: "пайковий крекер"
   parent: N14FoodCrackerBase
   id: N14FoodCrackerCSlice
-  description: A c type cracker, plain and old cracker. Little stale.
+  description: "Крекер типу \"С\", звичайний і старий крекер. Трохи черствий."
   components:
   - type: Food
 
 # K Cracker
 
 - type: entity
-  name: k ration cracker
+  name: "k пайковий крекер"
   parent: N14FoodCrackerBase
   id: N14FoodCrackerKSlice
-  description: A k type cracker, also called ranger cracker due to it's buttery flavour.
+  description: "Крекер типу \"К\", який також називають крекером \"Рейнджер\" через його маслянистий смак."
   components:
   - type: FlavorProfile
     flavors:

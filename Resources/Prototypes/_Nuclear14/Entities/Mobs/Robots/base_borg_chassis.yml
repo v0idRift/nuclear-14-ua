@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseMob
   id: N14BaseRobotChassis
-  name: robot
-  description: A machine designed to serve humankind.
+  name: "робот"
+  description: "Машина, покликана служити людству."
   save: false
   abstract: true
   suffix: player

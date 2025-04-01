@@ -1,6 +1,6 @@
 ﻿- type: body
   id: Friendshaped
-  name: "Friend-Shaped"
+  name: "Дружелюбної форми"
   root: torso
   slots:
     torso:

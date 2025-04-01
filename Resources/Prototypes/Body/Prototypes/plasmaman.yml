@@ -1,6 +1,6 @@
 - type: body
   id: Plasmaman
-  name: "plasmaman"
+  name: "плазмолюдина"
   root: torso
   slots:
     head:

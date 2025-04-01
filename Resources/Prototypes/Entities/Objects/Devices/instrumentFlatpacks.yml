@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseFlatpack
   id: InstrumentFlatpack
-  name: instrument flatpack
-  description: A flatpack used for constructing something.
+  name: "комплект для збірки інструменту"
+  description: "Комплект для збірки чогось."
   categories: [ HideSpawnMenu ]
   components:
   - type: Item
@@ -14,8 +14,8 @@
 - type: entity
   parent: InstrumentFlatpack
   id: PianoFlatpack
-  name: piano flatpack
-  description: A flatpack used for constructing a piano.
+  name: "комплект для збірки піаніно"
+  description: "Комплект для збірки піаніно."
   components:
   - type: Flatpack
     entity: PianoInstrument
@@ -23,8 +23,8 @@
 - type: entity
   parent: InstrumentFlatpack
   id: UprightPianoFlatpack
-  name: upright piano flatpack
-  description: A flatpack used for constructing an upright piano.
+  name: "комплект для збірки піаніно"
+  description: "Комплект для збірки піаніно."
   components:
   - type: Flatpack
     entity: UprightPianoInstrument
@@ -32,8 +32,8 @@
 - type: entity
   parent: InstrumentFlatpack
   id: VibraphoneFlatpack
-  name: vibraphone flatpack
-  description: A flatpack used for constructing a vibraphone.
+  name: "комплект для збірки вібрафона"
+  description: "Комплект для збірки вібрафона."
   components:
   - type: Flatpack
     entity: VibraphoneInstrument
@@ -41,8 +41,8 @@
 - type: entity
   parent: InstrumentFlatpack
   id: MarimbaFlatpack
-  name: marimba flatpack
-  description: A flatpack used for constructing a marimba.
+  name: "комплект для збірки маримби"
+  description: "Комплект для збірки маримби."
   components:
   - type: Flatpack
     entity: MarimbaInstrument
@@ -50,8 +50,8 @@
 - type: entity
   parent: InstrumentFlatpack
   id: ChurchOrganFlatpack
-  name: church organ flatpack
-  description: A flatpack used for constructing a church organ.
+  name: "комплект для збірки церковного органу"
+  description: "Комплект для збірки церковного органу."
   components:
   - type: Flatpack
     entity: ChurchOrganInstrument
@@ -59,8 +59,8 @@
 - type: entity
   parent: InstrumentFlatpack
   id: TubaFlatpack
-  name: tuba flatpack
-  description: A flatpack used for constructing a tuba.
+  name: "комплект для збірки туби"
+  description: "Комплект для збірки туби."
   components:
   - type: Flatpack
     entity: TubaInstrument
@@ -68,8 +68,8 @@
 - type: entity
   parent: InstrumentFlatpack
   id: HarpFlatpack
-  name: harp flatpack
-  description: A flatpack used for constructing a harp.
+  name: "комплект для збірки арфи"
+  description: "Комплект для збірки арфи."
   components:
   - type: Flatpack
     entity: HarpInstrument
@@ -77,8 +77,8 @@
 - type: entity
   parent: InstrumentFlatpack
   id: TimpaniFlatpack
-  name: timpani flatpack
-  description: A flatpack used for constructing a timpani.
+  name: "комплект для збірки литавр"
+  description: "Комплект для збірки литавр."
   components:
   - type: Flatpack
     entity: TimpaniInstrument
@@ -86,8 +86,8 @@
 - type: entity
   parent: InstrumentFlatpack
   id: TaikoFlatpack
-  name: taiko flatpack
-  description: A flatpack used for constructing a taiko.
+  name: "комплект для збірки тайко"
+  description: "Комплект для збірки тайко."
   components:
   - type: Flatpack
     entity: TaikoInstrument
@@ -95,8 +95,8 @@
 - type: entity
   parent: InstrumentFlatpack
   id: ContrabassFlatpack
-  name: contrabass flatpack
-  description: A flatpack used for constructing a contrabass.
+  name: "комплект для збірки контрабаса"
+  description: "Комплект для збірки контрабаса."
   components:
   - type: Flatpack
     entity: ContrabassInstrument
@@ -104,8 +104,8 @@
 - type: entity
   parent: InstrumentFlatpack
   id: MinimoogFlatpack
-  name: minimoog flatpack
-  description: A flatpack used for constructing a minimoog.
+  name: "комплект для збірки мінімуга"
+  description: "Комплект для збірки мінімуга."
   components:
   - type: Flatpack
     entity: MinimoogInstrument
@@ -113,8 +113,8 @@
 - type: entity
   parent: InstrumentFlatpack
   id: TomDrumsFlatpack
-  name: tom drums flatpack
-  description: A flatpack used for constructing a tom drums set.
+  name: "комплект для збірки том-томів"
+  description: "Комплект для збірки набору том-томів."
   components:
   - type: Flatpack
     entity: TomDrumsInstrument

@@ -1,7 +1,7 @@
 ﻿- type: entity
   id: ActionBloodSpearRecall
-  name: Recall spear
-  description: Recalls your blood spear back to your hand.
+  name: "Повернути спис"
+  description: "Повертає ваш кривавий спис назад у руку."
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite

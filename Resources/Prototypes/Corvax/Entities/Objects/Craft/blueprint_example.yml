@@ -22,7 +22,7 @@
 - type: entity
   parent: N14BaseBlueprint
   id: N14ClothingOuterPowerArmorT45Blueprint
-  name: blueprint restoration t-45 power armor
+  name: "креслення відновлення силової броні t-45"
   suffix: Craft, BoS
   components:
     - type: STBlueprint

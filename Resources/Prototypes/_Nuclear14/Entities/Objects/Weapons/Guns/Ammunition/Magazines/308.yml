@@ -1,6 +1,6 @@
 - type: entity
   id: BaseMagazine308Rifle
-  name: "magazine (308.)"
+  name: "журнал (308.)"
   parent: BaseItem
   abstract: true
   components:
@@ -33,7 +33,7 @@
 
 - type: entity
   id: Magazine308Rifle
-  name: "magazine (.308)"
+  name: "журнал (.308)"
   parent: BaseMagazine308Rifle
   components:
   - type: BallisticAmmoProvider
@@ -41,7 +41,7 @@
 
 - type: entity
   id: Magazine308RifleLong
-  name: "long magazine (.308)"
+  name: "довгий магазин (.308)"
   parent: BaseMagazine308Rifle
   components:
   - type: Tag
@@ -61,7 +61,7 @@
 
 - type: entity
   id: ClipMagazine308Rifle
-  name: "clip (.308)"
+  name: "обойма (.308)"
   parent: BaseMagazine308Rifle
   components:
   - type: Tag
@@ -76,7 +76,7 @@
     
 - type: entity
   id: Magazine308M60Box
-  name: "M60 Box (.308)"
+  name: "Короб для M60 (.308)"
   parent: BaseMagazine308Rifle
   components:
   - type: Tag

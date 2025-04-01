@@ -1,7 +1,7 @@
 ﻿- type: construction
   id: CultPylon
-  name: cult pylon
-  description: A floating crystal that slowly heals those faithful to Nar'Sie.
+  name: "пілон культу"
+  description: "Летючий кристал, що повільно лікує вірних Нар'Сі."
   category: construction-category-structures
   hide: true
   graph: CultPylon
@@ -18,8 +18,8 @@
 
 - type: construction
   id: CultFactoryAltar
-  name: altar
-  description: A bloodstained altar dedicated to Nar'Sie.
+  name: "вівтар"
+  description: "Заплямований кров'ю вівтар, присвячений Нар'Сі."
   category: construction-category-structures
   hide: true
   graph: CultFactoryAltar
@@ -36,8 +36,8 @@
 
 - type: construction
   id: CultFactoryForge
-  name: daemon forge
-  description: A forge used in crafting the unholy weapons used by the armies of Nar'Sie.
+  name: "демонічна кузня"
+  description: "Кузня, що використовується для створення нечестивої зброї, яку використовують армії Нар'Сі."
   category: construction-category-structures
   hide: true
   graph: CultFactoryForge
@@ -54,8 +54,8 @@
 
 - type: construction
   id: CultFactoryArchives
-  name: archives
-  description: A desk covered in arcane manuscripts and tomes in unknown languages. Looking at the text makes your skin crawl.
+  name: "архіви"
+  description: "Стіл, вкритий таємничими рукописами та фоліантами невідомими мовами. Погляд на текст викликає мурашки по шкірі."
   category: construction-category-structures
   hide: true
   graph: CultFactoryArchives
@@ -72,8 +72,8 @@
 
 - type: construction
   id: CultDoor
-  name: runed door
-  description: It opens, it closes, and maybe crushes you. This one has a strange glowing rune on it.
+  name: "рунічні двері"
+  description: "Вони відчиняються, зачиняються і, можливо, розчавлять тебе. На цих є дивна сяюча руна."
   category: construction-category-structures
   hide: true
   graph: CultDoor
@@ -90,8 +90,8 @@
 
 - type: construction
   id: CultGirder
-  name: runed girder
-  description: Framework made of a strange and shockingly cold metal. It doesn't seem to have any bolts
+  name: "рунічна балка"
+  description: "Каркас, виготовлений з дивного і шокуюче холодного металу. Здається, на ньому немає болтів"
   category: construction-category-structures
   hide: true
   graph: CultGirder

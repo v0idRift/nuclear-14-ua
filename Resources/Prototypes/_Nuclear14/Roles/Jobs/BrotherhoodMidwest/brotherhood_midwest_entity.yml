@@ -1,7 +1,7 @@
 - type: entity
   parent: MobHuman
   id: BoSMidPaladinCommander
-  name: BoSMidPaladinCommander
+  name: "BoSMidPaladinCommander"
   components:
     - type: Icon
       sprite: _Nuclear14/Markers/Jobs/bosmid.rsi
@@ -17,7 +17,7 @@
 - type: entity
   parent: BoSMidPaladinCommander
   id: N14MobHumanBoSMidKnight
-  name: BoSMidKnight
+  name: "BoSMidKnight"
   components:
     - type: Icon
       state: knight
@@ -27,7 +27,7 @@
 - type: entity
   parent: BoSMidPaladinCommander
   id: N14MobHumanBoSMidPaladin
-  name: BoSMidPaladin
+  name: "BoSMidPaladin"
   components:
     - type: Icon
       state: paladin
@@ -37,7 +37,7 @@
 - type: entity
   parent: BoSMidPaladinCommander
   id: N14MobHumanBoSMidScribe
-  name: BoSMidScribe
+  name: "BoSMidScribe"
   components:
     - type: Icon
       state: scribe
@@ -47,7 +47,7 @@
 - type: entity
   parent: BoSMidPaladinCommander
   id: N14MobHumanBoSMidSquire
-  name: BoSMidSquire
+  name: "BoSMidSquire"
   components:
     - type: Icon
       state: squire

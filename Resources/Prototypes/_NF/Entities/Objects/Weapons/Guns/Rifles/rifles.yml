@@ -1,9 +1,9 @@
 # Frontier
 - type: entity
-  name: Gestio
+  name: "Гестіо"
   parent: BaseWeaponRifle
   id: WeaponRifleGestio
-  description: An old prototype burst-fire NanoTrasen marksman rifle. Manufactured by Silver Industries. It never left the trials. Given its antiquity it is considered a civilian grade weapon.  Uses .30 rifle ammo.
+  description: "Старий прототип марксменської гвинтівки NanoTrasen з режимом стрільби чергами. Виготовлений Silver Industries. Вона так і не пройшла випробувань. Зважаючи на її давність, вважається цивільною зброєю. Використовує набої .30 для гвинтівки."
   components:
   - type: Sprite
     sprite: _NF/Objects/Weapons/Guns/Rifles/gestio.rsi
@@ -119,8 +119,8 @@
 - type: entity
   parent: BaseWeaponRifle
   id: WeaponRifleNovaliteC1
-  name: Novalite C1
-  description: A modification to the Lecter from SW LLC, a civilian grade semi-automatic rifle with an internal magazine. Nanotrasen Representatives can not stress how compliant this rifle is. Uses .20 rifle ammo.
+  name: "Новалайт C1"
+  description: "Модифікація Lecter від SW LLC, цивільна напівавтоматична гвинтівка з внутрішнім магазином. Представники Nanotrasen не можуть наголосити достатньо, наскільки ця гвинтівка відповідає нормам. Використовує набої .20 для гвинтівки."
   components:
   - type: Sprite
     sprite: _NF/Objects/Weapons/Guns/Rifles/novalitec1.rsi
@@ -224,10 +224,9 @@
 
 - type: entity
   id: WeaponRifleSVT
-  name: SVT-40
+  name: "СВТ-40"
   parent: BaseWeaponRifle
-  description: |-
-   Once a weapon used in war, now a civilian hunting rifle brought to you by S.E.S.W.C., "Retreating is Considered Treason" is etched on one side.
+  description: "Колись зброя, що використовувалася у війні, тепер цивільна мисливська гвинтівка від S.E.S.W.C., На одній стороні вигравірувано \"\"Відступ вважається зрадою\"\"."
   components:
   - type: Sprite
     sprite: _NF/Objects/Weapons/Guns/Rifles/svt40.rsi

@@ -1,6 +1,6 @@
 - type: entity
   save: false
-  name: RatMonarch
+  name: "RatMonarch"
   id: N14BaseMobRatMonarch
   parent: BaseMobHuman
   categories: [ HideSpawnMenu ]

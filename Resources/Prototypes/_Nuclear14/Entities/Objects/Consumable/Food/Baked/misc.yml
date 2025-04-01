@@ -22,19 +22,19 @@
 # Muffins/Buns
 
 - type: entity
-  name: muffin
+  name: "кексик"
   parent: N14CookedFoodBakedBase
   id: N14CookedFoodBakedMuffin
-  description: A delicious and spongy little cake.
+  description: "Смачний і пористий маленький пиріг."
   components:
   - type: Sprite
     state: muffin
 
 - type: entity
-  name: berry muffin
+  name: "ягідний кекс"
   parent: N14CookedFoodBakedBase
   id: N14CookedFoodBakedMuffinBerry
-  description: A delicious and spongy little cake, with berries.
+  description: "Смачний і пористий пиріг з ягодами."
   components:
   - type: Sprite
     state: muffin-berry
@@ -43,10 +43,10 @@
     - Fruit
 
 - type: entity
-  name: cherry muffin
+  name: "вишневий кекс"
   parent: N14CookedFoodBakedBase
   id: N14CookedFoodBakedMuffinCherry
-  description: A sweet muffin with cherry bits.
+  description: "Солодкий кекс з вишневими шматочками."
   components:
   - type: Sprite
     state: muffin-cherry
@@ -55,28 +55,28 @@
     - Fruit
 
 - type: entity
-  name: honey bun #TODO honey
+  name: "медова булочка" #TODO honey
   parent: N14CookedFoodBakedBase
   id: N14CookedFoodBakedBunHoney
-  description: A sticky pastry bun glazed with honey.
+  description: "Булочка з липкого тіста, глазурована медовою глазур'ю."
   components:
   - type: Sprite
     state: bun-honey
 
 - type: entity
-  name: hotcross bun
+  name: "булочка хоткросс"
   parent: N14CookedFoodBakedBase
   id: N14CookedFoodBakedBunHotX
-  description: A sticky pastry bun glazed with a distinct white cross.
+  description: "Булочка з липкого тіста, вкрита глазур'ю з виразним білим хрестом."
   components:
   - type: Sprite
     state: bun-hotcross
 
 - type: entity
-  name: meat bun
+  name: "м'ясна булочка"
   parent: N14CookedFoodBakedBase
   id: N14FoodBakedBunMeat
-  description: Could be dogmeat, for all you know.
+  description: "Це може бути догматика, хтозна."
   components:
   - type: Sprite
     state: bun-meat
@@ -93,19 +93,19 @@
 # Cookies
 
 - type: entity
-  name: cookie
+  name: "печиво"
   parent: N14CookedFoodBakedBase
   id: N14CookedFoodBakedCookie
-  description: COOKIE!!!
+  description: "ПЕЧИВО!!!"
   components:
   - type: Sprite
     state: COOKIE!!!
 
 - type: entity
-  name: oatmeal cookie
+  name: "вівсяне печиво"
   parent: N14CookedFoodBakedBase
   id: N14CookedFoodBakedCookieOatmeal
-  description: The best of both cookie and oat.
+  description: "Найкраще з печива та вівса."
   components:
   - type: Sprite
     state: cookie-oatmeal
@@ -120,10 +120,10 @@
           Quantity: 1
 
 - type: entity
-  name: raisin cookie
+  name: "печиво з родзинками"
   parent: N14CookedFoodBakedBase
   id: N14CookedFoodBakedCookieRaisin
-  description: Why would you put raisins in a cookie?
+  description: "Навіщо класти родзинки в печиво?"
   components:
   - type: Sprite
     state: cookie-raisin
@@ -141,10 +141,10 @@
     - Fruit
 
 - type: entity
-  name: sugar cookie
+  name: "цукрове печиво"
   parent: N14CookedFoodBakedBase
   id: N14CookedFoodBakedCookieSugar
-  description: Just like your mom used to make.
+  description: "Точнісінько так, як готувала твоя мама."
   components:
   - type: Sprite
     state: cookie-sugar
@@ -155,10 +155,10 @@
   id: N14Nugget
 
 - type: entity
-  name: chicken nugget
+  name: "курячий нагетс"
   parent: N14CookedFoodBakedBase
   id: N14CookedFoodBakedNugget
-  description: A "chicken" nugget vaguely shaped into an object. # Should change depending on name.
+  description: "Курячий\" самородок, нечітко сформований в об'єкт." # Should change depending on name.
   components:
   - type: Tag
     tags:
@@ -192,10 +192,10 @@
 # Once StackVisuals is updated you should be able to mix/match stacks of pancakes.
 
 - type: entity
-  name: pancake
+  name: "млинець"
   parent: N14CookedFoodBakedBase
   id: N14CookedFoodBakedPancake
-  description: A fluffy pancake. The softer, superior relative of the waffle.
+  description: "Пухнастий млинець. М'якший, вищий родич вафель."
   components:
   - type: Stack
     stackType: Pancake
@@ -247,10 +247,10 @@
     - Pancake
 
 - type: entity
-  name: tarberry pancake #N14 change
+  name: "млинець з дьогтю" #N14 change
   parent: N14CookedFoodBakedBase
   id: N14CookedFoodBakedPancakeBb
-  description: The tarberries stick to your mouth like glue. #N14 change when is MAPLE SYRUP COMING I NEED TO REPRESENT
+  description: "Смородина прилипає до рота, наче клей." #N14 change when is MAPLE SYRUP COMING I NEED TO REPRESENT
   components:
   - type: Stack
     stackType: Pancake
@@ -279,10 +279,10 @@
     - Fruit
 
 - type: entity
-  name: chocolate chip pancake
+  name: "млинець з шоколадною крихтою"
   parent: N14CookedFoodBakedBase
   id: N14CookedFoodBakedPancakeCc
-  description: A fluffy and delicious chocolate chip pancake.
+  description: "Пишний і смачний млинець з шоколадною крихтою."
   components:
   - type: Stack
     stackType: Pancake
@@ -319,10 +319,10 @@
     - Pancake
 
 - type: entity
-  name: waffles
+  name: "вафлі"
   parent: N14CookedFoodBakedBase
   id: N14CookedFoodBakedWaffle
-  description: Mmm, waffles.
+  description: "Вафлі."
   components:
   - type: Sprite
     layers:
@@ -339,10 +339,10 @@
           Quantity: 1
 
 - type: entity
-  name: soy waffles
+  name: "соєві вафлі"
   parent: N14CookedFoodBakedWaffle
   id: N14CookedFoodBakedWaffleSoy
-  description: Healthy, tasty.
+  description: "Корисно, смачно."
   components:
   - type: Sprite
     layers:
@@ -361,19 +361,19 @@
 # Misc
 
 - type: entity
-  name: poppy pretzel
+  name: "маковий крендель"
   parent: N14CookedFoodBakedBase
   id: N14CookedFoodBakedPretzel
-  description: It's all twisted up!
+  description: "Все переплутано!"
   components:
   - type: Sprite
     state: pretzel
 
 - type: entity
-  name: cannoli
+  name: "каннолі"
   parent: N14CookedFoodBakedBase
   id: N14CookedFoodBakedCannoli
-  description: Supposedly from a sick-illy place, but tasty all the same.
+  description: "Нібито з хворого-здорового місця, але все одно смачно."
   components:
   - type: Sprite
     state: cannoli
@@ -388,10 +388,10 @@
           Quantity: 1
 
 - type: entity
-  name: dumplings
+  name: "вареники"
   parent: N14CookedFoodBakedBase
   id: N14CookedFoodBakedDumplings
-  description: An easy-to-eat collection of meal-lets. #N14 change
+  description: "Легка в приготуванні колекція страв, які можна з'їсти." #N14 change
   components:
   - type: Sprite
     state: dumplings
@@ -406,10 +406,10 @@
           Quantity: 2
 
 - type: entity
-  name: chèvre chaud
+  name: "шевр-шод"
   parent: N14CookedFoodBakedBase
   id: N14CookedFoodBakedChevreChaud
-  description: A disk of slightly melted chèvre flopped on top of a crostini, and toasted all-round.
+  description: "Диск злегка розтопленого шевру виклали зверху на кростіні і підсмажили по всьому периметру."
   components:
   - type: FlavorProfile
     flavors:
@@ -430,10 +430,10 @@
           Quantity: 0.5
 
 - type: entity
-  name: brownies
+  name: "тістечка"
   parent: N14CookedFoodBakedBase
   id: N14CookedFoodBakedBrownieBatch
-  description: A pan of brownies.
+  description: "Сковорода з тістечками."
   components:
   - type: FlavorProfile
     flavors:
@@ -456,11 +456,11 @@
     slice: FoodBakedBrownie
 
 - type: entity
-  name: brownie
+  name: "тістечко"
   parent: N14CookedFoodBakedBase
   id: N14CookedFoodBakedBrownie
   suffix: Fresh
-  description: A fresh baked brownie.
+  description: "Свіжоспечений брауні."
   components:
   - type: FlavorProfile
     flavors:
@@ -480,10 +480,10 @@
           Quantity: 3
 
 - type: entity
-  name: special brownies
+  name: "особливі тістечка"
   parent: N14CookedFoodBakedBase
   id: N14CookedFoodBakedCannabisBrownieBatch
-  description: A pan of special brownies that let you get cozily high. Hard to eat just one...
+  description: "Каструля з особливими тістечками, які дають змогу затишно кайфувати. Важко з'їсти лише один..."
   components:
   - type: FlavorProfile
     flavors:
@@ -509,10 +509,10 @@
     slice: N14CookedFoodBakedCannabisBrownie
 
 - type: entity
-  name: special brownie
+  name: "особливе тістечко"
   parent: N14CookedFoodBakedBase
   id: N14CookedFoodBakedCannabisBrownie
-  description: Loaded with chems.
+  description: "Навантажений хімікатами."
   components:
   - type: FlavorProfile
     flavors:
@@ -535,10 +535,10 @@
           Quantity: 25
 
 - type: entity
-  name: onion rings
+  name: "кільця цибулі"
   parent: N14CookedFoodBakedBase
   id: N14CookedFoodOnionRings
-  description: How many can you fit on your fingers, huh? #N14 change
+  description: "Скільки їх можна вмістити на пальцях, га?" #N14 change
   components:
     - type: FlavorProfile
       flavors:

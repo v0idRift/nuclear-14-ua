@@ -1,7 +1,7 @@
 - type: entity
   parent: N14BaseBlueprint
   id: N14ClothingOuterPowerArmorT60TeslaBlueprint
-  name: blueprint modernization T-60 power armor
+  name: "креслення модернізації силової броні T-60 Тесла"
   suffix: Craft, BoS
   components:
     - type: STBlueprint

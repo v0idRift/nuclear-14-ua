@@ -3,7 +3,7 @@
 - type: entity
   id: N14PartRatMonarch
   parent: PartHuman
-  name: rodent body part
+  name: "частина тіла гризуна"
   abstract: true
   components:
   - type: Damageable
@@ -18,7 +18,7 @@
     
 - type: entity
   id: N14TorsoRatMonarch
-  name: rodent torso
+  name: "тулуб гризуна"
   parent: N14PartRatMonarch
   components:
   - type: Sprite
@@ -33,7 +33,7 @@
 
 - type: entity
   id: N14HeadRatMonarch
-  name: rodent head
+  name: "голова гризуна"
   parent: N14PartRatMonarch
   components:
   - type: Sprite
@@ -59,7 +59,7 @@
 
 - type: entity
   id: N14LeftArmRatMonarch
-  name: left rodent arm
+  name: "ліва рука гризуна"
   parent: N14PartRatMonarch
   components:
   - type: Sprite
@@ -75,7 +75,7 @@
 
 - type: entity
   id: N14RightArmRatMonarch
-  name: right rodent arm
+  name: "права рука гризуна"
   parent: N14PartRatMonarch
   components:
   - type: Sprite
@@ -91,7 +91,7 @@
 
 - type: entity
   id: N14LeftHandRatMonarch
-  name: left rodent hand
+  name: "ліва кисть гризуна"
   parent: N14PartRatMonarch
   components:
   - type: Sprite
@@ -107,7 +107,7 @@
 
 - type: entity
   id: N14RightHandRatMonarch
-  name: right rodent hand
+  name: "права кисть гризуна"
   parent: N14PartRatMonarch
   components:
   - type: Sprite
@@ -123,7 +123,7 @@
 
 - type: entity
   id: N14LeftLegRatMonarch
-  name: left rodent leg
+  name: "ліва нога гризуна"
   parent: N14PartRatMonarch
   components:
   - type: Sprite
@@ -140,7 +140,7 @@
 
 - type: entity
   id: N14RightLegRatMonarch
-  name: right rodent leg
+  name: "права нога гризуна"
   parent: N14PartRatMonarch
   components:
   - type: Sprite
@@ -157,7 +157,7 @@
 
 - type: entity
   id: N14LeftFootRatMonarch
-  name: left rodent foot
+  name: "ліва стопа гризуна"
   parent: N14PartRatMonarch
   components:
   - type: Sprite
@@ -173,7 +173,7 @@
 
 - type: entity
   id: N14RightFootRatMonarch
-  name: right rodent foot
+  name: "права стопа гризуна"
   parent: N14PartRatMonarch
   components:
   - type: Sprite

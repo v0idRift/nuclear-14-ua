@@ -1,8 +1,8 @@
 - type: entity
-  name: Psycho Raider
+  name: "Psycho Raider"
   parent: N14BaseMobRaider
   id: N14MobRaiderPsychoRanged
-  description: Psychopatic raider who will shoot and rob just about anyone.
+  description: "Нальотчик-психопат, який застрелить і пограбує будь-кого."
   components:
     - type: Gun #Mobs currently cannot bolt a gun, so we have to simulate them firing it
       minAngle: 4.5
@@ -38,10 +38,10 @@
         visible: false
 
 - type: entity
-  name: Psycho Raider Boss
+  name: "Psycho Raider Boss"
   parent: N14BaseMobRaider
   id: N14MobRaiderBoss
-  description: Boss of all those psycho raiders you see around this area. Good luck!
+  description: "Бос усіх тих психопатів-рейдерів, яких ви бачите в цьому районі. Щасти вам!"
   components:
     - type: Gun
       minAngle: 7.5
@@ -77,10 +77,10 @@
         visible: false
 
 - type: entity
-  name: Psycho Raider Hunter
+  name: "Психологічний мисливець на рейдерів"
   parent: N14BaseMobRaider
   id: N14MobRaiderHunter
-  description: Psychopatic raider armed with a long rifle. Dangerous at a distance.
+  description: "Психопат-рейдер, озброєний довгою гвинтівкою. Небезпечний на відстані."
   components:
     - type: Gun
       fireRate: 0.5
@@ -112,10 +112,10 @@
         visible: false
 
 - type: entity
-  name: Psycho Raider Skirmisher
+  name: "Психо-рейдерський скірмішер"
   parent: N14BaseMobRaider
   id: N14MobRaiderSkrimisher
-  description: Psychopatic raider armed with a scattergun. Deadly at close range.
+  description: "Психопат-рейдер, озброєний рушницею. Смертоносний з близької відстані."
   components:
     - type: Gun
       fireRate: 0.75
@@ -147,10 +147,10 @@
         visible: false
 
 - type: entity
-  name: Fern Private
+  name: "Рядовий Ферн"
   parent: N14BaseMobRaider
   id: N14MobFernMercPrivate
-  description: Professional mercenary armed with a carbine. One might be better off avoiding him.
+  description: "Професійний найманець, озброєний карабіном. Його краще уникати."
   components:
     - type: Gun
       minAngle: 4.5
@@ -186,10 +186,10 @@
         visible: false
 
 - type: entity
-  name: Fern Sergeant
+  name: "Сержант Ферн"
   parent: N14BaseMobRaider
   id: N14MobFernMercSergeant
-  description: Professional mercenary armed with a combat shotgun. This man can finish anyone off in close quarters.
+  description: "Професійний найманець, озброєний бойовою рушницею. Ця людина може прикінчити будь-кого в ближньому бою."
   components:
     - type: Gun
       minAngle: 34.5
@@ -225,10 +225,10 @@
         visible: false
 
 - type: entity
-  name: Fern Lieutenant
+  name: "Лейтенант Ферн"
   parent: N14BaseMobRaider
   id: N14MobFernMercLieutenant
-  description: Professional mercenary armed with an SMG. Looks like an officer, more might be around!
+  description: "Професійний найманець, озброєний кулеметом. Схожий на офіцера, їх може бути більше!"
   components:
     - type: Gun
       minAngle: 1.5
@@ -264,10 +264,10 @@
         visible: false
 
 - type: entity
-  name: Enforcer Trooper
+  name: "Військовослужбовець силових структур"
   parent: N14BaseMobRaider
   id: N14MobEnforcerTrooper
-  description: Nothing more than a raider in fancy clothes, wielding a 9mm SMG.
+  description: "Ніхто інший, як рейдер у модному одязі, озброєний 9-міліметровим пістолетом-кулеметом SMG."
   components:
     - type: Gun
       minAngle: 1.5
@@ -303,10 +303,10 @@
         visible: false
 
 - type: entity
-  name: Enforcer Warden
+  name: "Наглядач-виконавець"
   parent: N14BaseMobRaider
   id: N14MobEnforcerWarden
-  description: A raider wearing pre-war law enforcement uniform. One might want to keep distance because he has a riot shotgun!
+  description: "Рейдер у довоєнній формі правоохоронців. Варто тримати дистанцію, бо у нього є спецзасіб!"
   components:
     - type: Gun
       minAngle: 34.5
@@ -342,10 +342,10 @@
         visible: false
 
 - type: entity
-  name: Enforcer Chief
+  name: "Начальник відділу примусових заходів"
   parent: N14BaseMobRaider
   id: N14MobEnforcerChief
-  description: Rough man in fine clothes, carrying a magnum revolver.
+  description: "Грубий чоловік у гарному одязі, з револьвером \"Магнум\"."
   components:
     - type: Gun
       minAngle: 1.5

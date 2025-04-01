@@ -1,9 +1,9 @@
 #MARK: Haggis
 - type: entity
-  name: Haggis
+  name: "Хаггіс"
   id: N14MobCatHaggis
   parent: MobCat
-  description: A little rough around the edges, but still cute as can be.
+  description: "Трохи шорсткий по краях, але все одно милий, наскільки це можливо."
   components:
   - type: Sprite
     sprite: _Nuclear14/Mobs/Pets/cathaggis.rsi

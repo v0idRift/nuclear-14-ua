@@ -27,10 +27,10 @@
 
 
 - type: entity
-  name: BlamCo Mac & Cheese
+  name: "Mac & Cheese від BlamCo"
   parent: N14FoodSnackBase
   id: N14FoodBlamcomaccheese
-  description: Highly processed macaroni with white cheese sauce and a healthy dose of preservatives.
+  description: "Високотехнологічні макарони з білим сирним соусом та здоровою дозою консервантів."
   components:
   - type: Sprite
     state: blamco
@@ -39,10 +39,10 @@
     - N14FoodBlamcomaccheeseTrash
 
 - type: entity
-  name: Large BlamCo Mac & Cheese
+  name: "Великі макарони з сиром BlamCo"
   parent: N14FoodSnackBase
   id: N14FoodBlamcomaccheeseLarge
-  description: Highly processed macaroni with white cheese sauce and a healthy dose of preservatives. This is a larger family box.
+  description: "Високоякісні макарони з білим сирним соусом та здоровою дозою консервантів. Це більша сімейна коробка."
   components:
   - type: Sprite
     state: blamco_large
@@ -51,10 +51,10 @@
     - N14FoodBlamcomaccheeseLargeTrash
 
 - type: entity
-  name: Bubblegum
+  name: "Жуйка"
   parent: N14FoodSnackBase
   id: N14FoodBubblegum
-  description: Chewy. I hope there's still a pirate tattoo inside.
+  description: "Жуйку. Сподіваюся, всередині ще залишилося піратське татуювання."
   components:
   - type: Sprite
     state: bubblegum
@@ -72,10 +72,10 @@
           Quantity: 3
 
 - type: entity
-  name: Cram
+  name: "Зубрити"
   parent: N14FoodSnackBase
   id: N14FoodCram
-  description: People thought this was meat?
+  description: "Люди думали, що це м'ясо?"
   components:
   - type: Sprite
     state: cram
@@ -84,10 +84,10 @@
     - N14FoodCramTrash
 
 - type: entity
-  name: crisps
+  name: "чіпси"
   parent: N14FoodSnackBase
   id: N14FoodCrisps
-  description: Salty, stale, and one of your five-a-day!
+  description: "Солоний, несвіжий і один з ваших п'ятиразових обідів!"
   components:
   - type: Sprite
     state: crisps
@@ -96,10 +96,10 @@
     - N14FoodCrispsTrash
 
 - type: entity
-  name: Dandy Boy Apples
+  name: "Яблука \"Денді-бой"
   parent: N14FoodSnackBase
   id: N14FoodDandyboyapples
-  description: Extremely sweet candied apples. Well preserved.
+  description: "Надзвичайно солодкі зацукровані яблука. Добре збереглися."
   components:
   - type: Sprite
     state: dandyapples
@@ -110,8 +110,8 @@
 - type: entity
   parent: FoodTinBase
   id: N14FoodDogfood
-  name: canned dog food
-  description: A can of beef stew meant for dogs.
+  name: "консерви для собак"
+  description: "Банку яловичої тушонки, призначеної для собак."
   components:
   - type: Sprite
     sprite: _Nuclear14/Objects/Consumable/Food/dogfood.rsi
@@ -129,7 +129,7 @@
 - type: entity
   parent: FoodTinBaseTrash
   id: N14FoodDogFoodTrash
-  name: canned dog food
+  name: "консерви для собак"
   components:
   - type: Sprite
     sprite: _Nuclear14/Objects/Consumable/Food/dogfood.rsi
@@ -137,8 +137,8 @@
 - type: entity
   parent: FoodTinBase
   id: N14FoodDinki-Di
-  name: Dinki Di Dog Food
-  description: A can of Gen-u-ine premium dog food, a worthy meal for any road warrior canine or not.
+  name: "Корм для собак Dinki Di"
+  description: "Банка преміум-корму для собак Gen-u-ine, гідна їжа для будь-якого воїна доріг, собачого чи ні."
   components:
   - type: Sprite
     sprite: _Nuclear14/Objects/Consumable/Food/dinkidi.rsi
@@ -156,16 +156,16 @@
 - type: entity
   parent: FoodTinBaseTrash
   id: N14FoodDinki-DiTrash
-  name: Dinki-Di Dog Food
+  name: "Корм для собак Dinki-Di"
   components:
   - type: Sprite
     sprite: _Nuclear14/Objects/Consumable/Food/dinkidi.rsi
 
 - type: entity
-  name: Fancy Lads Snack Cakes
+  name: "Закусочні торти Fancy Lads"
   parent: N14FoodSnackBase
   id: N14FoodFancyladssnackcakes
-  description: Small frosted cakes laden with sugar and other sweeteners.
+  description: "Невеликі глазуровані тістечка з цукром та іншими підсолоджувачами."
   components:
   - type: Sprite
     state: fancylads
@@ -174,10 +174,10 @@
     - N14FoodFancyladssnackcakesTrash
 
 - type: entity
-  name: InstaMash
+  name: "ІнстаМаш"
   parent: N14FoodSnackBase
   id: N14FoodInstamash
-  description: A packet of freeze-dried powdered mashed potato. Just add water! # TODO add a reaction for this
+  description: "Пачка сублімованого порошкоподібного картопляного пюре. Просто додайте води!" # TODO add a reaction for this
   components:
   - type: Sprite
     state: instamash
@@ -186,10 +186,10 @@
     - N14FoodInstamashTrash
 
 - type: entity
-  name: Pork n' Beans
+  name: "Свинина з квасолею"
   parent: N14FoodSnackBase
   id: N14FoodPorkBeans
-  description: Beans stewed in tomato sauce with chunks of cured pork belly. Savory.
+  description: "Квасоля, тушкована в томатному соусі з шматочками в'яленої свинячої черевини. Пікантно."
   components:
   - type: Sprite
     state: porknbeans
@@ -201,10 +201,10 @@
       Steel: 100
 
 - type: entity
-  name: mouldy food
+  name: "запліснявілі продукти"
   parent: N14FoodSnackBase
   id: N14FoodMouldy
-  description: A plate of mouldy food. Looks like it was once bread.
+  description: "Тарілка з запліснявілою їжею. Схоже, колись це був хліб."
   components:
   - type: Sprite
     state: rottenfood
@@ -223,10 +223,10 @@
           Quantity: 2
 
 - type: entity
-  name: Salisbury Steak
+  name: "Стейк Солсбері"
   parent: N14FoodSnackBase
   id: N14FoodSalisburysteak
-  description: A ready-to-eat meal of ground beef mixed with bread crumbs, onion, and egg, served with gravy.
+  description: "Готова до вживання страва з яловичого фаршу, змішаного з хлібними крихтами, цибулею та яйцем, подається з підливою."
   components:
   - type: Sprite
     state: steak
@@ -244,10 +244,10 @@
           Quantity: 1
 
 - type: entity
-  name: Sugar Bombs
+  name: "Цукрові бомби"
   parent: N14FoodSnackBase
   id: N14FoodSugarbombs
-  description: A sugary pre-war food with little to no nutritional value. Enjoy the explosive great taste!
+  description: "Довоєнна солодка їжа з низькою поживною цінністю. Насолоджуйтесь вибуховим чудовим смаком!"
   components:
   - type: Sprite
     state: sugarbombs
@@ -267,10 +267,10 @@
           Quantity: 5
 
 - type: entity
-  name: YumYum Deviled Eggs
+  name: "Яєчня з маринованими яйцями YumYum"
   parent: N14FoodSnackBase
   id: N14FoodYumyumdeviledeggs
-  description: Hard-boiled eggs stuffed with a spicy filling. Somehow still good.
+  description: "Яйця, зварені круто, фаршировані пікантною начинкою. Якось все одно смачно."
   components:
   - type: Sprite
     state: yumyum
@@ -283,7 +283,7 @@
   categories: [ HideSpawnMenu ]
   parent: BaseItem
   id: N14FoodPacketTrash
-  description: This is rubbish.
+  description: "Це нісенітниця."
   components:
   - type: Sprite
     sprite: _Nuclear14/Objects/Consumable/Food/pre-war.rsi
@@ -301,7 +301,7 @@
 - type: entity
   parent: N14FoodPacketTrash
   id: N14FoodTinCanTrash
-  name: empty tin can
+  name: "порожня бляшанка"
   components:
   - type: Sprite
     sprite: _Nuclear14/Objects/Consumable/Food/dogfood.rsi
@@ -316,7 +316,7 @@
 - type: entity
   parent: N14FoodPacketTrash
   id: N14FoodBlamcomaccheeseTrash
-  name: empty Blamco box
+  name: "порожня коробка Blamco"
   components:
   - type: Sprite
     state: blamco_trash
@@ -324,7 +324,7 @@
 - type: entity
   parent: N14FoodPacketTrash
   id: N14FoodBlamcomaccheeseLargeTrash
-  name: empty Blamco box
+  name: "порожня коробка Blamco"
   components:
   - type: Sprite
     state: blamco_large_trash
@@ -332,7 +332,7 @@
 - type: entity
   parent: N14FoodPacketTrash
   id: N14FoodBubblegumTrash
-  name: empty bubblegum pack
+  name: "порожня упаковка жувальної гумки"
   components:
   - type: Sprite
     state: bubblegum_trash
@@ -340,7 +340,7 @@
 - type: entity
   parent: N14FoodPacketTrash
   id: N14FoodCramTrash
-  name: empty cram box
+  name: "порожня коробка для зубріння"
   components:
   - type: Sprite
     state: cram_trash
@@ -348,7 +348,7 @@
 - type: entity
   parent: N14FoodPacketTrash
   id: N14FoodCrispsTrash
-  name: empty crisps pack
+  name: "порожня пачка чіпсів"
   components:
   - type: Sprite
     state: crisps_trash
@@ -356,7 +356,7 @@
 - type: entity
   parent: N14FoodPacketTrash
   id: N14FoodDandyboyapplesTrash
-  name: empty Dandyboy Apples box
+  name: "порожня коробка з-під яблук Dandyboy Apples"
   components:
   - type: Sprite
     state: dandyapples_trash
@@ -364,7 +364,7 @@
 - type: entity
   parent: N14FoodPacketTrash
   id: N14FoodFancyladssnackcakesTrash
-  name: empty Fancy Lads Snack Cakes box
+  name: "порожня коробка з-під закусочних тістечок Fancy Lads"
   components:
   - type: Sprite
     state: fancylads_trash
@@ -372,7 +372,7 @@
 - type: entity
   parent: N14FoodPacketTrash
   id: N14FoodInstamashTrash
-  name: empty Instamash box
+  name: "порожня скринька Instamash"
   components:
   - type: Sprite
     state: instamash_trash
@@ -380,7 +380,7 @@
 - type: entity
   parent: N14FoodPacketTrash
   id: N14FoodSalisburysteakTrash
-  name: empty Salisbury Steak box
+  name: "порожня коробка з-під стейка \"Солсбері"
   components:
   - type: Sprite
     state: steak_trash
@@ -388,7 +388,7 @@
 - type: entity
   parent: N14FoodPacketTrash
   id: N14FoodSugarbombsTrash
-  name: empty Sugar bombs box
+  name: "порожня коробка з-під цукрових бомб"
   components:
   - type: Sprite
     state: sugarbombs_trash
@@ -396,7 +396,7 @@
 - type: entity
   parent: N14FoodPacketTrash
   id: N14FoodYumyumdeviledeggsTrash
-  name: empty Yumyum Deviled Eggs box
+  name: "порожню коробку з-під фаршированих яєць \"Ням-ням-ням"
   components:
   - type: Sprite
     state: yumyum_trash

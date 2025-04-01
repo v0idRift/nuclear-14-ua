@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingHeadEnvirohelmBase
   id: ClothingHeadEnvirohelm
-  name: plasma envirosuit helmet
-  description: A special containment helmet that allows plasma-based lifeforms to exist safely in an oxygenated environment.
+  name: "плазмовий шолом енвірокостюма"
+  description: "Спеціальний герметичний шолом, що дозволяє формам життя на основі плазми безпечно існувати в кисневому середовищі."
   components:
   - type: Sprite
     sprite: Clothing/Head/Envirohelms/plain.rsi
@@ -36,8 +36,8 @@
 - type: entity
   parent: ClothingHeadEnvirohelmBase
   id: ClothingHeadEnvirohelmAtmos
-  name: atmospherics envirosuit helmet
-  description: A space-worthy helmet specially designed for atmos technician Plasmamen, the usual purple stripes being replaced by atmos' blue.
+  name: "атмосферний шолом енвірокостюма"
+  description: "Придатний для космосу шолом, спеціально розроблений для атмосферних техніків-плазмолюдей, звичайні фіолетові смуги замінені на синій колір атмосферних техніків."
   components:
   - type: Sprite
     sprite: Clothing/Head/Envirohelms/atmos.rsi
@@ -47,8 +47,8 @@
 - type: entity
   parent: ClothingHeadEnvirohelmBase
   id: ClothingHeadEnvirohelmCargo
-  name: logistics envirosuit helmet
-  description: A Plasmaman envirohelmet designed for cargo technicians.
+  name: "логістичний шолом енвірокостюма"
+  description: "Плазмовий шолом енвірокостюма, розроблений для вантажників."
   components:
   - type: Sprite
     sprite: Clothing/Head/Envirohelms/cargo.rsi
@@ -58,8 +58,8 @@
 - type: entity
   parent: ClothingHeadEnvirohelmBase
   id: ClothingHeadEnvirohelmCaptain
-  name: captain's envirosuit helmet
-  description: A special containment helmet designed for the Captain.
+  name: "капітанський шолом енвірокостюма"
+  description: "Спеціальний герметичний шолом, розроблений для капітана."
   components:
   - type: Sprite
     sprite: Clothing/Head/Envirohelms/captain.rsi
@@ -69,8 +69,8 @@
 - type: entity
   parent: ClothingHeadEnvirohelmBase
   id: ClothingHeadEnvirohelmChiefEngineer
-  name: chief engineer's envirosuit helmet
-  description: A special containment helmet designed for the Chief Engineer, the usual purple stripes being replaced by the chief's green.
+  name: "шолом енвірокостюма головного інженера"
+  description: "Спеціальний герметичний шолом, розроблений для Головного Інженера, звичайні фіолетові смуги замінені на зелений колір головного інженера."
   components:
   - type: Sprite
     sprite: Clothing/Head/Envirohelms/ce.rsi
@@ -80,8 +80,8 @@
 - type: entity
   parent: ClothingHeadEnvirohelmBase
   id: ClothingHeadEnvirohelmChaplain
-  name: chaplain's envirosuit helmet
-  description: An envirohelm specially designed for only the most pious of Plasmamen.
+  name: "капеланський шолом енвірокостюма"
+  description: "Енвірошолом, спеціально розроблений тільки для найпобожніших плазмолюдей."
   components:
   - type: Sprite
     sprite: Clothing/Head/Envirohelms/chaplain.rsi
@@ -91,14 +91,14 @@
 - type: entity
   parent: ClothingHeadEnvirohelmEnviroslacksColorOrange
   id: ClothingHeadEnvirohelmDetective
-  name: detective's envirosuit helmet
-  description: A special containment helmet designed for detectives, protecting them from burning alive, alongside other undesirables.
+  name: "детективський шолом енвірокостюма"
+  description: "Спеціальний герметичний шолом, розроблений для детективів, що захищає їх від згоряння живцем, а також від інших небажаних речей."
 
 - type: entity
   parent: ClothingHeadEnvirohelmBase
   id: ClothingHeadEnvirohelmChemist
-  name: chemistry envirosuit helmet
-  description: A Plasmaman envirosuit designed for chemists, two orange stripes going down its face.
+  name: "хімічний шолом енвірокостюма"
+  description: "Плазмовий шолом енвірокостюма, розроблений для хіміків, з двома помаранчевими смугами на лицьовій частині."
   components:
   - type: Sprite
     sprite: Clothing/Head/Envirohelms/chemist.rsi
@@ -108,8 +108,8 @@
 - type: entity
   parent: ClothingHeadEnvirohelmBase
   id: ClothingHeadEnvirohelmClown
-  name: clown envirosuit helmet
-  description: The make-up is painted on, it's a miracle it doesn't chip. HONK!
+  name: "клоунський шолом енвірокостюма"
+  description: "Макіяж намальований, диво, що він не облущується. БІП!"
   components:
   - type: Sprite
     sprite: Clothing/Head/Envirohelms/clown.rsi
@@ -121,8 +121,8 @@
 - type: entity
   parent: ClothingHeadEnvirohelmBase
   id: ClothingHeadEnvirohelmCMO
-  name: chief medical officer's envirosuit helmet
-  description: A special containment helmet designed for the Chief Medical Officer. The gold stripe differentiates them from other medical staff.
+  name: "шолом енвірокостюма головного медичного офіцера"
+  description: "Спеціальний герметичний шолом, розроблений для Головного Медичного Офіцера. Золота смуга відрізняє їх від іншого медичного персоналу."
   components:
   - type: Sprite
     sprite: Clothing/Head/Envirohelms/cmo.rsi
@@ -132,8 +132,8 @@
 - type: entity
   parent: ClothingHeadEnvirohelmBase
   id: ClothingHeadEnvirohelmEngineering
-  name: engineering envirosuit helmet
-  description: A space-worthy helmet specially designed for engineer Plasmamen, the usual purple stripes being replaced by engineering's orange.
+  name: "інженерний шолом енвірокостюма"
+  description: "Придатний для космосу шолом, спеціально розроблений для інженерів-плазмолюдей, звичайні фіолетові смуги замінені на помаранчевий колір інженерів."
   components:
   - type: Sprite
     sprite: Clothing/Head/Envirohelms/engineering.rsi
@@ -143,8 +143,8 @@
 - type: entity
   parent: ClothingHeadEnvirohelmBase
   id: ClothingHeadEnvirohelmHoP
-  name: head of personnel's envirosuit helmet
-  description: A special containment helmet designed for the Head of Personnel.
+  name: "шолом енвірокостюма голови персоналу"
+  description: "Спеціальний герметичний шолом, розроблений для Голови Персоналу."
   components:
   - type: Sprite
     sprite: Clothing/Head/Envirohelms/hop.rsi
@@ -154,8 +154,8 @@
 - type: entity
   parent: ClothingHeadEnvirohelmBase
   id: ClothingHeadEnvirohelmHoS
-  name: head of security's envirosuit helmet
-  description: A special containment helmet designed for the Head of Security. The pair of gold stripes differentiates them from other members of security.
+  name: "шолом енвірокостюма голови служби безпеки"
+  description: "Спеціальний герметичний шолом, розроблений для Голови Служби Безпеки. Пара золотих смуг відрізняє їх від інших членів служби безпеки."
   components:
   - type: Sprite
     sprite: Clothing/Head/Envirohelms/hos.rsi
@@ -165,8 +165,8 @@
 - type: entity
   parent: ClothingHeadEnvirohelmBase
   id: ClothingHeadEnvirohelmHydroponics
-  name: hydroponics envirosuit helmet
-  description: A green and blue envirohelmet designating its wearer as a botanist.
+  name: "гідропонічний шолом енвірокостюма"
+  description: "Зелено-синій енвірошолом, що позначає його власника як ботаніка."
   components:
   - type: Sprite
     sprite: Clothing/Head/Envirohelms/hydroponics.rsi
@@ -176,8 +176,8 @@
 - type: entity
   parent: ClothingHeadEnvirohelmBase
   id: ClothingHeadEnvirohelmJanitor
-  name: janitor envirosuit helmet
-  description: A grey helmet bearing a pair of purple stripes, designating the wearer as a janitor.
+  name: "шолом енвірокостюма прибиральника"
+  description: "Сірий шолом з парою фіолетових смуг, що позначає власника як прибиральника."
   components:
   - type: Sprite
     sprite: Clothing/Head/Envirohelms/janitor.rsi
@@ -187,8 +187,8 @@
 - type: entity
   parent: ClothingHeadEnvirohelmBase
   id: ClothingHeadEnvirohelmAncientVoid
-  name: NTSRA envirosuit helmet
-  description: Made out of a modified NTSRA vacsuit, this helmet was Nanotrasen's first-designed envirohelmet for Plasmamen.
+  name: "шолом енвірокостюма NTSRA"
+  description: "Виготовлений з модифікованого вакуумного костюма NTSRA, цей шолом був першим розробленим Nanotrasen енвірошоломом для плазмолюдей."
   components:
   - type: Sprite
     sprite: Clothing/Head/Envirohelms/ancientvoid.rsi
@@ -209,8 +209,8 @@
 - type: entity
   parent: ClothingHeadEnvirohelmBase
   id: ClothingHeadEnvirohelmMedicalDoctor
-  name: medical envirosuit helmet
-  description: An envirohelmet designed for Plasmaman Medical personnel, having two stripes down its length to denote as much.
+  name: "медичний шолом енвірокостюма"
+  description: "Енвірошолом, розроблений для медичного персоналу плазмолюдей, має дві смуги по довжині, щоб позначити це."
   components:
   - type: Sprite
     sprite: Clothing/Head/Envirohelms/medical.rsi
@@ -220,8 +220,8 @@
 - type: entity
   parent: ClothingHeadEnvirohelmBase
   id: ClothingHeadEnvirohelmGenitcs
-  name: genetics envirosuit helmet
-  description: A Plasmaman envirohelmet designed for geneticists.
+  name: "генетичний шолом енвірокостюма"
+  description: "Плазмовий шолом енвірокостюма, розроблений для генетиків."
   components:
   - type: Sprite
     sprite: Clothing/Head/Envirohelms/genetics.rsi
@@ -231,8 +231,8 @@
 - type: entity
   parent: ClothingHeadEnvirohelmBase
   id: ClothingHeadEnvirohelmMime
-  name: mime envirosuit helmet
-  description: The make-up is painted on, it's a miracle it doesn't chip. It's not very colourful.
+  name: "шолом енвірокостюма міма"
+  description: "Макіяж намальований, диво, що він не облущується. Він не дуже кольоровий."
   components:
   - type: Sprite
     sprite: Clothing/Head/Envirohelms/mime.rsi
@@ -244,8 +244,8 @@
 - type: entity
   parent: ClothingHeadEnvirohelmBase
   id: ClothingHeadEnvirohelmParamedic
-  name: paramedic envirosuit helmet
-  description: An envirohelmet designed for Plasmaman paramedics, with darker blue stripes compared to the medical model.
+  name: "шолом енвірокостюма парамедика"
+  description: "Енвірошолом, розроблений для парамедиків-плазмолюдей, з темнішими синіми смугами порівняно з медичною моделлю."
   components:
   - type: Sprite
     sprite: Clothing/Head/Envirohelms/paramedic.rsi
@@ -255,8 +255,8 @@
 - type: entity
   parent: ClothingHeadEnvirohelmCustomBase
   id: ClothingHeadEnvirohelmPrisoner
-  name: prisoner envirosuit helmet
-  description: A Plasmaman containment helmet for prisoners.
+  name: "шолом енвірокостюма в'язня"
+  description: "Герметичний шолом для плазмолюдей-в'язнів."
   components:
   - type: Sprite
     layers:
@@ -295,8 +295,8 @@
 - type: entity
   parent: ClothingHeadEnvirohelmBase
   id: ClothingHeadEnvirohelmResearchDirector
-  name: mystagogue's envirosuit helmet
-  description: A special containment helmet designed for the Mystagogue. A light brown design is applied to differentiate them from other scientists.
+  name: "шолом енвірокостюма Містагога"
+  description: "Спеціальний герметичний шолом, розроблений для Містагога. Світло-коричневий дизайн застосовано, щоб відрізнити їх від інших науковців."
   components:
   - type: Sprite
     sprite: Clothing/Head/Envirohelms/rd.rsi
@@ -306,8 +306,8 @@
 - type: entity
   parent: ClothingHeadEnvirohelmBase
   id: ClothingHeadEnvirohelmRoboticist
-  name: roboticist envirosuit helmet
-  description: A Plasmaman envirohelmet designed for roboticists.
+  name: "шолом енвірокостюма робототехніка"
+  description: "Плазмовий шолом енвірокостюма, розроблений для робототехніків."
   components:
   - type: Sprite
     sprite: Clothing/Head/Envirohelms/roboticist.rsi
@@ -317,8 +317,8 @@
 - type: entity
   parent: ClothingHeadEnvirohelmBase
   id: ClothingHeadEnvirohelmSalvage
-  name: salvage envirosuit helmet
-  description: A khaki helmet given to Plasmamen salvage technicians.
+  name: "шолом енвірокостюма для утилізації"
+  description: "Шолом кольору хакі, що видається технікам з утилізації-плазмолюдям."
   components:
   - type: Sprite
     sprite: Clothing/Head/Envirohelms/salvage.rsi
@@ -330,8 +330,8 @@
 - type: entity
   parent: ClothingHeadEnvirohelmBase
   id: ClothingHeadEnvirohelmScientist
-  name: science envirosuit helmet
-  description: A Plasmaman envirohelmet designed for scientists.
+  name: "науковий шолом енвірокостюма"
+  description: "Плазмовий шолом енвірокостюма, розроблений для науковців."
   components:
   - type: Sprite
     sprite: Clothing/Head/Envirohelms/scientist.rsi
@@ -341,8 +341,8 @@
 - type: entity
   parent: ClothingHeadEnvirohelmCustomBase
   id: ClothingHeadEnvirohelmSec
-  name: security envirosuit helmet
-  description: A Plasmaman containment helmet designed for security officers, protecting them from burning alive, alongside other undesirables.
+  name: "шолом енвірокостюма служби безпеки"
+  description: "Герметичний шолом для плазмолюдей-офіцерів СБ, що захищає їх від згоряння живцем, а також від інших небажаних речей."
   components:
   - type: Sprite
     layers:
@@ -381,8 +381,8 @@
 - type: entity
   parent: ClothingHeadEnvirohelmCustomBase
   id: ClothingHeadEnvirohelmSecBlue
-  name: blue security envirosuit helmet
-  description: A cool blue envirosuit helmet for Plasmaman Security personnel.
+  name: "синій шолом енвірокостюма служби безпеки"
+  description: "Холодний синій шолом енвірокостюма для персоналу СБ плазмолюдей."
   components:
   - type: Sprite
     layers:
@@ -421,8 +421,8 @@
 - type: entity
   parent: ClothingHeadEnvirohelmCustomBase
   id: ClothingHeadEnvirohelmSecGrey
-  name: grey security envirosuit helmet
-  description: A light grey envirosuit helmet with bright red highlights for Plasmamen Security personnel.
+  name: "сірий шолом енвірокостюма служби безпеки"
+  description: "Світло-сірий шолом енвірокостюма з яскравими червоними елементами для персоналу СБ плазмолюдей."
   components:
   - type: Sprite
     layers:
@@ -461,8 +461,8 @@
 - type: entity
   parent: ClothingHeadEnvirohelmBase
   id: ClothingHeadEnvirohelmVirology
-  name: virology envirosuit helmet
-  description: The helmet worn by the safest people on the station, those who are completely immune to the monstrosities they create.
+  name: "вірусологічний шолом енвірокостюма"
+  description: "Шолом, який носять найбезпечніші люди на станції, ті, хто повністю імунний до потвор, яких вони створюють."
   components:
   - type: Sprite
     sprite: Clothing/Head/Envirohelms/virology.rsi
@@ -472,8 +472,8 @@
 - type: entity
   parent: ClothingHeadEnvirohelmBase
   id: ClothingHeadEnvirohelmWarden
-  name: warden's envirosuit helmet
-  description: A Plasmaman containment helmet designed for the warden. A pair of white stripes being added to differeciate them from other members of security.
+  name: "шолом енвірокостюма наглядача"
+  description: "Герметичний шолом для плазмолюдей-наглядачів. Пара білих смуг додана, щоб відрізнити їх від інших членів служби безпеки."
   components:
   - type: Sprite
     sprite: Clothing/Head/Envirohelms/warden.rsi
@@ -483,8 +483,8 @@
 - type: entity
   parent: ClothingHeadEnvirohelmBase
   id: ClothingHeadEnvirohelmOperative
-  name: operative envirosuit helmet
-  description: Anyone wearing this is badass and deserves at least a cursory nod of respect.
+  name: "шолом енвірокостюма оперативника"
+  description: "Кожен, хто носить це, крутий і заслуговує принаймні на побіжний кивок поваги."
   components:
   - type: Sprite
     sprite: Clothing/Head/Envirohelms/tacticool.rsi
@@ -494,8 +494,8 @@
 - type: entity
   parent: ClothingHeadEnvirohelmBase
   id: ClothingHeadEnvirohelmTacticool
-  name: tacticool envirosuit helmet
-  description: There's no doubt about it, this helmet puts you above ALL of the other Plasmamen.
+  name: "тактикульний шолом енвірокостюма"
+  description: "Без сумніву, цей шолом ставить вас НАД УСІМА іншими плазмолюдьми."
   components:
   - type: Sprite
     sprite: Clothing/Head/Envirohelms/tacticool.rsi
@@ -505,8 +505,8 @@
 - type: entity
   parent: ClothingHeadEnvirohelmBase
   id: ClothingHeadEnvirohelmCentcomAgent
-  name: CentCom agent's envirosuit helmet
-  description: A special containment helmet designed for CentCom's legal team. You know, so any coffee spills don't kill the poor sod.
+  name: "шолом енвірокостюма агента Центкому"
+  description: "Спеціальний герметичний шолом, розроблений для юридичної команди Центкому. Знаєте, щоб розлита кава не вбила бідолаху."
   components:
   - type: Sprite
     sprite: Clothing/Head/Envirohelms/centcom_agent.rsi
@@ -516,8 +516,8 @@
 - type: entity
   parent: ClothingHeadEnvirohelmBase
   id: ClothingHeadEnvirohelmCentcomOfficial
-  name: CentCom official's envirosuit helmet
-  description: A special containment helmet designed for CentCom Staff. They sure do love their green.
+  name: "шолом енвірокостюма чиновника Центкому"
+  description: "Спеціальний герметичний шолом, розроблений для персоналу Центкому. Вони точно люблять свій зелений."
   components:
   - type: Sprite
     sprite: Clothing/Head/Envirohelms/centcom_official.rsi
@@ -527,8 +527,8 @@
 - type: entity
   parent: ClothingHeadEnvirohelmBase
   id: ClothingHeadEnvirohelmCentcomOfficer
-  name: CentCom officer's envirosuit helmet
-  description: A special containment helmet designed for CentCom Officers.
+  name: "шолом енвірокостюма офіцера Центкому"
+  description: "Спеціальний герметичний шолом, розроблений для офіцерів Центкому."
   components:
   - type: Sprite
     sprite: Clothing/Head/Envirohelms/centcom_officer.rsi
@@ -538,8 +538,8 @@
 - type: entity
   parent: ClothingHeadEnvirohelmCustomBase
   id: ClothingHeadEnvirohelmCourier
-  name: courier's envirosuit helmet
-  description: An envirosuit helmet for the courier.
+  name: "кур'єрський шолом енвірокостюма"
+  description: "Шолом енвірокостюма для кур'єра."
   components:
   - type: Sprite
     layers:
@@ -578,8 +578,8 @@
 - type: entity
   parent: ClothingHeadEnvirohelmCustomBase
   id: ClothingHeadEnvirohelmMailCarrier
-  name: mail carrier's envirosuit helmet
-  description: Smells like a good pension.
+  name: "шолом енвірокостюма поштаря"
+  description: "Пахне хорошою пенсією."
   components:
   - type: Sprite
     layers:
@@ -628,8 +628,8 @@
 - type: entity
   parent: ClothingHeadEnvirohelmCustomBase
   id: ClothingHeadEnvirohelmMusician
-  name: musician's envirosuit helmet
-  description: Experts are perplexed as to how Plasmamen can still play the trumpet with this helmet on.
+  name: "шолом енвірокостюма музиканта"
+  description: "Експерти спантеличені, як плазмолюди все ще можуть грати на трубі з цим шоломом."
   components:
   - type: Sprite
     layers:
@@ -668,8 +668,8 @@
 - type: entity
   parent: ClothingHeadEnvirohelmCustomBase
   id: ClothingHeadEnvirohelmReporter
-  name: reporter envirosuit helmet
-  description: An envirosuit helmet for the reporter.
+  name: "шолом енвірокостюма репортера"
+  description: "Шолом енвірокостюма для репортера."
   components:
   - type: Sprite
     layers:
@@ -708,8 +708,8 @@
 - type: entity
   parent: ClothingHeadEnvirohelmCustomBase
   id: ClothingHeadEnvirohelmGladiator
-  name: gladiator envirosuit helmet
-  description: Protects the head from toy spears and poisonous oxygen.
+  name: "шолом енвірокостюма гладіатора"
+  description: "Захищає голову від іграшкових списів та отруйного кисню."
   components:
   - type: Sprite
     layers:
@@ -748,8 +748,8 @@
 - type: entity
   parent: ClothingHeadEnvirohelmCustomBase
   id: ClothingHeadEnvirohelmMantis
-  name: mantis' envirosuit helmet
-  description: An envirosuit helmet for the forensic mantis with a fancy gold stripe.
+  name: "шолом енвірокостюма богомола"
+  description: "Шолом енвірокостюма для криміналістичного богомола з вишуканою золотою смугою."
   components:
   - type: Sprite
     layers:
@@ -796,8 +796,8 @@
 - type: entity
   parent: ClothingHeadEnvirohelmCustomBase
   id: ClothingHeadEnvirohelmSafari
-  name: safari envirosuit helmet
-  description: Makes you a target for the locals.
+  name: "шолом енвірокостюма для сафарі"
+  description: "Робить вас ціллю для місцевих."
   components:
   - type: Sprite
     layers:
@@ -836,8 +836,8 @@
 - type: entity
   parent: ClothingHeadEnvirohelmCustomBase
   id: ClothingHeadEnvirohelmMartialGi
-  name: gi envirosuit helmet
-  description: A white envirosuit helmet with black stripes used for martial arts.
+  name: "шолом енвірокостюма для кімоно"
+  description: "Білий шолом енвірокостюма з чорними смугами, що використовується для бойових мистецтв."
   components:
   - type: Sprite
     layers:
@@ -876,8 +876,8 @@
 - type: entity
   parent: ClothingHeadEnvirohelmCustomBase
   id: ClothingHeadEnvirohelmQM
-  name: logistics officer's envirosuit helmet
-  description: A special containment helmet designed for the Logistics Officer.
+  name: "шолом скафандра офіцера логістики"
+  description: "Спеціальний захисний шолом, розроблений для офіцера логістики."
   components:
   - type: Sprite
     layers:
@@ -924,8 +924,8 @@
 - type: entity
   parent: ClothingHeadEnvirohelmCustomBase
   id: ClothingHeadEnvirohelmBoxing
-  name: boxing envirosuit helmet
-  description: A white envirosuit helmet with red stripes.
+  name: "боксерський шолом скафандра"
+  description: "Білий шолом скафандра з червоними смугами."
   components:
   - type: Sprite
     layers:
@@ -964,8 +964,8 @@
 - type: entity
   parent: ClothingHeadEnvirohelmCustomBase
   id: ClothingHeadEnvirohelmAdminAssistant
-  name: administrative assistant's envirosuit helmet
-  description: A white envirosuit helmet with dark blue stripes.
+  name: "шолом скафандра адміністративного помічника"
+  description: "Білий шолом скафандра з темно-синіми смугами."
   components:
   - type: Sprite
     layers:
@@ -1004,8 +1004,8 @@
 - type: entity
   parent: ClothingHeadEnvirohelmCustomBase
   id: ClothingHeadEnvirohelmBlackPink
-  name: black pink envirosuit helmet
-  description: How you like that envirosuit helmet?
+  name: "чорно-рожевий шолом скафандра"
+  description: "Як тобі такий шолом скафандра?"
   components:
   - type: Sprite
     layers:
@@ -1044,9 +1044,9 @@
 - type: entity
   parent: ClothingHeadEnvirohelmCustomBase
   id: ClothingHeadEnvirohelmBlackPinkAlt
-  name: black pink envirosuit helmet
+  name: "чорно-рожевий шолом скафандра"
   suffix: Alternative
-  description: This envirosuit helmet makes you want to kill this love.
+  description: "Цей шолом скафандра змушує тебе хотіти вбити цю любов."
   components:
   - type: Sprite
     layers:
@@ -1085,8 +1085,8 @@
 - type: entity
   parent: ClothingHeadEnvirohelmCustomBase
   id: ClothingHeadEnvirohelmBlueshield
-  name: blueshield's envirosuit helmet
-  description: A Plasmaman envirosuit helmet designed for the blueshield.
+  name: "шолом скафандра синього щита"
+  description: "Шолом скафандра плазмамена, розроблений для синього щита."
   components:
   - type: Sprite
     layers:
@@ -1125,8 +1125,8 @@
 - type: entity
   parent: ClothingHeadEnvirohelmCustomBase
   id: ClothingHeadEnvirohelmTrans
-  name: trans envirosuit helmet
-  description: The preferred headgear of Transylvanian Plasmamen to prevent burning from oxygen.
+  name: "транс-шолом скафандра"
+  description: "Головний убір, якому віддають перевагу трансильванські плазмамени, щоб запобігти опікам від кисню."
   components:
   - type: Sprite
     layers:
@@ -1173,8 +1173,8 @@
 - type: entity
   parent: ClothingHeadEnvirohelmCustomBase
   id: ClothingHeadEnvirohelmPrisonGuard
-  name: prison guard's envirosuit helmet
-  description: Hope a prisoner doesn't snatch this away from you!
+  name: "шолом скафандра тюремного охоронця"
+  description: "Сподіваюся, в'язень не вихопить його у вас!"
   components:
   - type: Sprite
     layers:
@@ -1213,8 +1213,8 @@
 - type: entity
   parent: ClothingHeadEnvirohelmCustomBase
   id: ClothingHeadEnvirohelmBrigmedic
-  name: corpsman envirosuit helmet
-  description: A helmet provided to Corpsmen Plasmamen.
+  name: "шолом скафандра санітара"
+  description: "Шолом, що надається санітарам-плазмаменам."
   components:
   - type: Sprite
     layers:
@@ -1253,8 +1253,8 @@
 - type: entity
   parent: ClothingHeadEnvirohelmCustomBase
   id: ClothingHeadEnvirohelmNanotrasenRepresentative
-  name: nanotrasen representative envirosuit helmet
-  description: A black envirosuit helmet worn by the NanoTrasen Representative, with black and gold accents.
+  name: "шолом скафандра представника NanoTrasen"
+  description: "Чорний шолом скафандра, який носить представник NanoTrasen, з чорно-золотими акцентами."
   components:
   - type: Sprite
     layers:
@@ -1301,8 +1301,8 @@
 - type: entity
   parent: ClothingHeadEnvirohelmCustomBase
   id: ClothingHeadEnvirohelmMagistrate
-  name: magistrate envirosuit helmet
-  description: A plain white envirosuit with yellow stripes.
+  name: "шолом скафандра магістрата"
+  description: "Простий білий шолом скафандра з жовтими смугами."
   components:
   - type: Sprite
     layers:
@@ -1342,8 +1342,8 @@
 - type: entity
   parent: ClothingHeadEnvirohelmBase
   id: ClothingHeadEnvirohelmColorWhite
-  name: white envirosuit helmet
-  description: A generic white envirohelm.
+  name: "білий шолом скафандра"
+  description: "Загальний білий шолом скафандра."
   components:
   - type: Sprite
     sprite: Clothing/Head/Envirohelms/white.rsi
@@ -1353,8 +1353,8 @@
 - type: entity
   parent: ClothingHeadEnvirohelmCustomBase
   id: ClothingHeadEnvirohelmColorGrey
-  name: grey envirosuit helmet
-  description: A grey envirosuit helmet.
+  name: "сірий шолом скафандра"
+  description: "Сірий шолом скафандра."
   components:
   - type: Sprite
     layers:
@@ -1393,8 +1393,8 @@
 - type: entity
   parent: ClothingHeadEnvirohelmCustomBase
   id: ClothingHeadEnvirohelmColorBlack
-  name: black envirosuit helmet
-  description: A black envirosuit helmet.
+  name: "чорний шолом скафандра"
+  description: "Чорний шолом скафандра."
   components:
   - type: Sprite
     layers:
@@ -1433,8 +1433,8 @@
 - type: entity
   parent: ClothingHeadEnvirohelmCustomBase
   id: ClothingHeadEnvirohelmColorRed
-  name: red envirosuit helmet
-  description: A red envirosuit helmet.
+  name: "червоний шолом скафандра"
+  description: "Червоний шолом скафандра."
   components:
   - type: Sprite
     layers:
@@ -1473,8 +1473,8 @@
 - type: entity
   parent: ClothingHeadEnvirohelmCustomBase
   id: ClothingHeadEnvirohelmColorGreen
-  name: green envirosuit helmet
-  description: A green envirosuit helmet.
+  name: "зелений шолом скафандра"
+  description: "Зелений шолом скафандра."
   components:
   - type: Sprite
     layers:
@@ -1513,8 +1513,8 @@
 - type: entity
   parent: ClothingHeadEnvirohelmCustomBase
   id: ClothingHeadEnvirohelmColorDarkGreen
-  name: dark green envirosuit helmet
-  description: A dark green envirosuit helmet.
+  name: "темно-зелений шолом скафандра"
+  description: "Темно-зелений шолом скафандра."
   components:
   - type: Sprite
     layers:
@@ -1553,8 +1553,8 @@
 - type: entity
   parent: ClothingHeadEnvirohelmCustomBase
   id: ClothingHeadEnvirohelmColorBlue
-  name: blue envirosuit helmet
-  description: A blue envirosuit helmet.
+  name: "синій шолом скафандра"
+  description: "Синій шолом скафандра."
   components:
   - type: Sprite
     layers:
@@ -1593,8 +1593,8 @@
 - type: entity
   parent: ClothingHeadEnvirohelmCustomBase
   id: ClothingHeadEnvirohelmColorDarkBlue
-  name: dark blue envirosuit helmet
-  description: A dark blue envirosuit helmet.
+  name: "темно-синій шолом скафандра"
+  description: "Темно-синій шолом скафандра."
   components:
   - type: Sprite
     layers:
@@ -1633,8 +1633,8 @@
 - type: entity
   parent: ClothingHeadEnvirohelmCustomBase
   id: ClothingHeadEnvirohelmColorTeal
-  name: teal envirosuit helmet
-  description: A teal envirosuit helmet.
+  name: "бірюзовий шолом скафандра"
+  description: "Бірюзовий шолом скафандра."
   components:
   - type: Sprite
     layers:
@@ -1673,8 +1673,8 @@
 - type: entity
   parent: ClothingHeadEnvirohelmCustomBase
   id: ClothingHeadEnvirohelmColorMaroon
-  name: maroon envirosuit helmet
-  description: A maroon envirosuit helmet.
+  name: "бордовий шолом скафандра"
+  description: "Бордовий шолом скафандра."
   components:
   - type: Sprite
     layers:
@@ -1713,8 +1713,8 @@
 - type: entity
   parent: ClothingHeadEnvirohelmCustomBase
   id: ClothingHeadEnvirohelmColorPink
-  name: pink envirosuit helmet
-  description: A pink envirosuit helmet. So fetch!
+  name: "рожевий шолом скафандра"
+  description: "Рожевий шолом скафандра. Такий класний!"
   components:
   - type: Sprite
     layers:
@@ -1753,8 +1753,8 @@
 - type: entity
   parent: ClothingHeadEnvirohelmCustomBase
   id: ClothingHeadEnvirohelmColorYellow
-  name: yellow envirosuit helmet
-  description: A yellow envirosuit helmet.
+  name: "жовтий шолом скафандра"
+  description: "Жовтий шолом скафандра."
   components:
   - type: Sprite
     layers:
@@ -1793,8 +1793,8 @@
 - type: entity
   parent: ClothingHeadEnvirohelmCustomBase
   id: ClothingHeadEnvirohelmColorPurple
-  name: purple envirosuit helmet
-  description: A purple envirosuit helmet.
+  name: "фіолетовий шолом скафандра"
+  description: "Фіолетовий шолом скафандра."
   components:
   - type: Sprite
     layers:
@@ -1833,8 +1833,8 @@
 - type: entity
   parent: ClothingHeadEnvirohelmCustomBase
   id: ClothingHeadEnvirohelmColorOrange
-  name: orange envirosuit helmet
-  description: An orange envirosuit helmet.
+  name: "помаранчевий шолом скафандра"
+  description: "Помаранчевий шолом скафандра."
   components:
   - type: Sprite
     layers:
@@ -1873,8 +1873,8 @@
 - type: entity
   parent: ClothingHeadEnvirohelmCustomBase
   id: ClothingHeadEnvirohelmColorLightBrown
-  name: light brown envirosuit helmet
-  description: A light brown envirosuit helmet.
+  name: "світло-коричневий шолом скафандра"
+  description: "Світло-коричневий шолом скафандра."
   components:
   - type: Sprite
     layers:
@@ -1913,8 +1913,8 @@
 - type: entity
   parent: ClothingHeadEnvirohelmCustomBase
   id: ClothingHeadEnvirohelmColorBrown
-  name: brown envirosuit helmet
-  description: A brown envirosuit helmet.
+  name: "коричневий шолом скафандра"
+  description: "Коричневий шолом скафандра."
   components:
   - type: Sprite
     layers:
@@ -1953,8 +1953,8 @@
 - type: entity
   parent: ClothingHeadEnvirohelmCustomBase
   id: ClothingHeadEnvirohelmEnviroslacksColorRed
-  name: red enviroslacks helmet
-  description: The pet project of a particularly posh Plasmaman, this envirohelm comes with red accents. Fancy!
+  name: "червоний шолом енвіроштанів"
+  description: "Улюблений проєкт особливо вишуканого плазмамена, цей шолом скафандра має червоні акценти. Шикарно!"
   components:
   - type: Sprite
     layers:
@@ -1993,8 +1993,8 @@
 - type: entity
   parent: ClothingHeadEnvirohelmCustomBase
   id: ClothingHeadEnvirohelmEnviroslacksColorOrange
-  name: orange enviroslacks helmet
-  description: The pet project of a particularly posh Plasmaman, this envirohelm comes with orange accents. Zesty!
+  name: "помаранчевий шолом енвіроштанів"
+  description: "Улюблений проєкт особливо вишуканого плазмамена, цей шолом скафандра має помаранчеві акценти. Пікантно!"
   components:
   - type: Sprite
     layers:
@@ -2033,8 +2033,8 @@
 - type: entity
   parent: ClothingHeadEnvirohelmCustomBase
   id: ClothingHeadEnvirohelmEnviroslacksColorGreen
-  name: green enviroslacks helmet
-  description: The pet project of a particularly posh Plasmaman, this envirohelm comes with green accents. Leafy!
+  name: "зелений шолом енвіроштанів"
+  description: "Улюблений проєкт особливо вишуканого плазмамена, цей шолом скафандра має зелені акценти. Листяно!"
   components:
   - type: Sprite
     layers:
@@ -2073,8 +2073,8 @@
 - type: entity
   parent: ClothingHeadEnvirohelmCustomBase
   id: ClothingHeadEnvirohelmEnviroslacksColorBlue
-  name: blue enviroslacks helmet
-  description: The pet project of a particularly posh Plasmaman, this envirohelm comes with blue accents. Cool!
+  name: "синій шолом енвіроштанів"
+  description: "Улюблений проєкт особливо вишуканого плазмамена, цей шолом скафандра має сині акценти. Круто!"
   components:
   - type: Sprite
     layers:
@@ -2113,8 +2113,8 @@
 - type: entity
   parent: ClothingHeadEnvirohelmCustomBase
   id: ClothingHeadEnvirohelmEnviroslacksMNK
-  name: MNK enviroslacks helmet
-  description: A sleek envirohelm brought to you by MNK. Classic!
+  name: "шолом енвіроштанів MNK"
+  description: "Витончений шолом скафандра від MNK. Класика!"
   components:
   - type: Sprite
     layers:
@@ -2153,8 +2153,8 @@
 - type: entity
   parent: ClothingHeadEnvirohelmCustomBase
   id: ClothingHeadEnvirohelmEnviroslacksMNKAlt
-  name: monochrome enviroslacks helmet
-  description: A sleek envirohelm brought to you by MNK. Noir!
+  name: "монохромний шолом енвіроштанів"
+  description: "Витончений шолом скафандра від MNK. Нуар!"
   suffix: Alternative
   components:
   - type: Sprite

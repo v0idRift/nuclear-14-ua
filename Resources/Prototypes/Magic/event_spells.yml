@@ -1,7 +1,7 @@
 ﻿- type: entity
   id: ActionSummonGhosts
-  name: Summon Ghosts
-  description: Makes all current ghosts permanently invisible
+  name: "Виклик Привидів"
+  description: "Робить усіх поточних привидів постійно невидимими"
   categories: [ HideSpawnMenu ]
   components:
   - type: InstantAction

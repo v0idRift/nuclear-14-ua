@@ -10,10 +10,10 @@
   - type: Craftable
 
 - type: entity
-  name: 9mm revolver
+  name: "9-мм револьвер"
   parent: N14WeaponRevolverBase
   id: N14WeaponRevolver9mm
-  description: A small compact six-shooter. Uses 9mm ammo.
+  description: "Невеликий компактний шестизарядний пістолет. Використовує 9-міліметрові набої."
   components:
   - type: Sprite
     sprite: _Nuclear14/Objects/Weapons/Guns/Revolvers/small_revolver.rsi
@@ -42,10 +42,10 @@
     price: 15
 
 - type: entity
-  name: 10mm revolver
+  name: "10-мм револьвер"
   parent: N14WeaponRevolverBase
   id: N14WeaponRevolver10mm
-  description: The first prototype for the 10mm revolver pistol, Uses 10mm ammo.
+  description: "Перший прототип 10-мм револьверного пістолета, що використовує 10-мм набої."
   components:
   - type: Sprite
     sprite: _Nuclear14/Objects/Weapons/Guns/Revolvers/10mmrevolver.rsi
@@ -65,10 +65,10 @@
     price: 25
 
 - type: entity
-  name: webley revolver
+  name: "револьвер Webley"
   parent: N14WeaponRevolverBase
   id: N14WeaponRevolverWebley
-  description: An old trusty break-action pistol, easy to load and easy to use.
+  description: "Старий надійний пістолет з переломним механізмом, який легко заряджається і простий у використанні."
   components:
   - type: Sprite
     sprite: _Nuclear14/Objects/Weapons/Guns/Revolvers/webley_revolver.rsi
@@ -105,10 +105,10 @@
     node: start
 
 - type: entity
-  name: magnum revolver
+  name: "револьвер магнум"
   parent: N14WeaponRevolverBase
   id: N14WeaponRevolver44Magnun
-  description: The Big Iron. Uses .44 magnum ammo.
+  description: "Велика залізяка. Використовує набої 44-го калібру."
   components:
   - type: Sprite
     sprite: _Nuclear14/Objects/Weapons/Guns/Revolvers/magnum.rsi
@@ -127,10 +127,10 @@
     price: 50
 
 - type: entity
-  name: captain revolver
+  name: "капітан Револьвер"
   parent: N14WeaponRevolverBase
   id: N14WeaponRevolver44MagnumCaptain
-  description: A true freedom fighter carries his flag everywhere, even on his gun. Uses .44 magnum ammo.
+  description: "Справжній борець за свободу носить свій прапор скрізь, навіть на пістолеті. Використовує набої .44 магнум."
   components:
   - type: Gun
     fireRate: 2
@@ -151,10 +151,10 @@
     price: 75
 
 - type: entity
-  name: hunting revolver
+  name: "мисливський револьвер"
   parent: N14WeaponRevolverBase
   id: N14WeaponRevolver45-70Hunter
-  description: A heavy revolver with a long barrel designed to hunt small animals, but it also works for people. Uses .45-70 gov't ammo.
+  description: "Важкий револьвер з довгим стволом, призначений для полювання на дрібних тварин, але також підходить і для людей. Використовує набої .45-70 govt."
   components:
   - type: Gun
     soundGunshot:
@@ -173,10 +173,10 @@
     price: 90
 
 - type: entity
-  name: wild whisper
+  name: "дикий шепіт"
   parent: N14WeaponRevolverBase
   id: N14WeaponRevolver45-70WildWhisper
-  description: "It's said that after a troublemaker gets shot down with this revolver ghostly words are whispered to their ears. No one knows what the question is, but the answer spoken is always 'innocent'. Uses .45-70 gov't ammo."
+  description: "Кажуть, що після того, як порушника спокою застрелять з цього револьвера, йому на вухо шепочуть примарні слова. Ніхто не знає, про що йдеться, але відповідь завжди \"невинна\". Використовує набої .45-70 govt."
   components:
   - type: Gun
     fireRate: 2
@@ -197,10 +197,10 @@
     price: 90
 
 - type: entity
-  name: ranger sequoia
+  name: "рейнджерська секвойя"
   parent: N14WeaponRevolverBase
   id: N14WeaponRevolver45-70RangerSequoia
-  description: 20 years of suffering for a, albeit beautiful, glorified six-shooter. Undeniably worth it. Uses .45-70 gov't ammo.
+  description: "20 років страждань за нехай і красиву, але прославлену шестизарядку. Безперечно, воно того варте. Використовує урядові набої 45-70 калібру."
   components:
   - type: Sprite
     sprite: _Nuclear14/Objects/Weapons/Guns/Revolvers/ranger_sequoia.rsi
@@ -221,10 +221,10 @@
     price: 90
 
 - type: entity
-  name: tribal handgun
+  name: "племінна рушниця"
   parent: N14WeaponRevolverBase
   id: N14WeaponRevolver44Tribal
-  description: A tribal revolver, simple but very handy. Uses .44 magnum ammo.
+  description: "Племінний револьвер, простий, але дуже зручний. Використовує набої .44 магнум."
   components:
   - type: Sprite
     sprite: _Nuclear14/Objects/Weapons/Guns/Revolvers/tribalrevolver1.rsi
@@ -247,10 +247,10 @@
     price: 40
 
 - type: entity
-  name: tribal revolver
+  name: "племінний револьвер"
   parent: N14WeaponRevolverBase
   id: N14WeaponRevolver44TribalUpgraded
-  description: A tribal revolver, upgraded to hold 6 bullets and a slightly faster fire rate. Uses .44 magnum ammo.
+  description: "Племінний револьвер, модернізований під 6 набоїв і дещо швидший темп стрільби. Використовує набої .44 магнум."
   components:
   - type: Sprite
     sprite: _Nuclear14/Objects/Weapons/Guns/Revolvers/tribalrevolver2.rsi
@@ -271,10 +271,10 @@
     price: 50
 
 - type: entity
-  name: tribal revolver
+  name: "племінний револьвер"
   parent: N14WeaponRevolverBase
   id: N14WeaponRevolver44TribalUpgradedExtra
-  description: A tribal revolver, upgraded to hold 8 bullets and fire faster. Uses .44 magnum ammo.
+  description: "Племінний револьвер, модернізований, щоб вміщати 8 набоїв і стріляти швидше. Використовує набої .44 магнум."
   components:
   - type: Sprite
     sprite: _Nuclear14/Objects/Weapons/Guns/Revolvers/tribalrevolver3.rsi
@@ -297,10 +297,10 @@
     price: 60
 
 - type: entity
-  name: handcannon
+  name: "ручна гармата"
   parent: N14WeaponRevolverBase
   id: N14WeaponRevolver45-70Handcannon
-  description: A long and heavy tribal handcannon. Uses .45-70 gov't ammo.
+  description: "Довга і важка племінна ручна гармата. Використовує державні набої 45-70 калібру."
   components:
   - type: Sprite
     sprite: _Nuclear14/Objects/Weapons/Guns/Revolvers/tribalhandcannon.rsi
@@ -324,10 +324,10 @@
     price: 75
 
 - type: entity
-  name: decorated handcannon
+  name: "оздоблена ручна гармата"
   parent: N14WeaponRevolverBase
   id: N14WeaponRevolver45-70HandcannonUpgraded
-  description: A long and heavy tribal handcannon, upgraded with a bigger cylinder to hold more bullets. Uses .45-70 gov't ammo.
+  description: "Довга і важка племінна ручна гармата, модернізована більшим циліндром, щоб вміщати більше набоїв. Використовує державні набої .45-70."
   components:
   - type: Sprite
     sprite: _Nuclear14/Objects/Weapons/Guns/Revolvers/tribalhandcannon2.rsi

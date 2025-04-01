@@ -1,8 +1,8 @@
 - type: entity
-  name: Neutral Rouny
+  name: "Нейтральний Руні"
   id: MobXenoNeutralRouny
   parent: MobXenoRounyNPC
-  description: They mostly come at night. Mostly.
+  description: "Вони переважно приходять вночі. Переважно."
   components:
   - type: NpcFactionMember
     factions:
@@ -25,10 +25,10 @@
     - TauCetiBasic
 
 - type: entity
-  name: Neutral Praetorian
+  name: "Нейтральний Преторіанець"
   id: MobXenoNeutralPraetorian
   parent: MobXenoPraetorianNPC
-  description: They mostly come at night. Mostly.
+  description: "Вони переважно приходять вночі. Переважно."
   components:
   - type: NpcFactionMember
     factions:
@@ -50,10 +50,10 @@
     - TauCetiBasic
 
 - type: entity
-  name: Neutral Drone
+  name: "Нейтральний Дрон"
   id: MobXenoNeutralDrone
   parent: MobXenoDroneNPC
-  description: They mostly come at night. Mostly.
+  description: "Вони переважно приходять вночі. Переважно."
   components:
   - type: NpcFactionMember
     factions:
@@ -75,10 +75,10 @@
     - TauCetiBasic
 
 - type: entity
-  name: Neutral Ravager
+  name: "Нейтральний Спустошувач"
   id: MobXenoNeutralRavager
   parent: MobXenoRavagerNPC
-  description: They mostly come at night. Mostly.
+  description: "Вони переважно приходять вночі. Переважно."
   components:
   - type: NpcFactionMember
     factions:
@@ -124,10 +124,10 @@
     displayName: Mask
 
 - type: entity
-  name: Friend-Shaped
+  name: "Дружньої Форми"
   parent: MobXenoNeutralRouny
   id: MobXenoFriendShaped
-  description: A very clearly friend-shaped Xeno.
+  description: "Дуже очевидно дружньої форми Ксеноморф."
   components:
   - type: NpcFactionMember
     factions:
@@ -168,10 +168,10 @@
       path: /Audio/Animals/lizard_happy.ogg
 
 - type: entity
-  name: Patriach
+  name: "Патріах"
   parent: MobXenoNeutralPraetorian
   id: MobXenoPatriarch
-  description: A not entirely clearly friend-shaped Xeno.
+  description: "Не зовсім очевидно дружньої форми Ксеноморф."
   components:
   - type: NpcFactionMember
     factions:
@@ -216,10 +216,10 @@
       path: /Audio/Animals/lizard_happy.ogg
 
 - type: entity
-  name: FXES
+  name: "FXES"
   parent: MobXenoNeutralDrone
   id: MobXenoFXES
-  description: A very clearly friend-shaped Xeno.
+  description: "Дуже очевидно дружньої форми Ксеноморф."
   components:
   - type: NpcFactionMember
     factions:
@@ -250,10 +250,10 @@
       path: /Audio/Animals/lizard_happy.ogg
 
 - type: entity
-  name: Hell-Shaped
+  name: "Пекельної Форми"
   parent: MobXenoNeutralRavager
   id: MobXenoHellShaped
-  description: A very clearly friend-shaped Xeno.
+  description: "Дуже очевидно дружньої форми Ксеноморф."
   components:
   - type: NpcFactionMember
     factions:
@@ -284,10 +284,10 @@
       path: /Audio/Animals/lizard_happy.ogg
 
 - type: entity
-  name: FXE Subject 7355
+  name: "FXE Суб'єкт 7355"
   parent: MobXenoNeutralRavager
   id: MobXenoSubjectTess
-  description: An extremely oddly coloured xeno, with glowing stripes. An odd mutation.
+  description: "Надзвичайно дивно забарвлений ксеноморф зі сяючими смугами. Дивна мутація."
   components:
   - type: NpcFactionMember
     factions:
@@ -516,7 +516,7 @@
 #       prob: 0.01
 
 - type: entity
-  name: Friendly Xeno spawner
+  name: "Спавнер дружніх Ксеноморфів"
   id: friendlyxenoSpawner
   parent: MarkerBase
   components:

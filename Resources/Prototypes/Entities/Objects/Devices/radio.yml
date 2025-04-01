@@ -1,6 +1,6 @@
 - type: entity
-  name: handheld radio
-  description: A handy handheld radio.
+  name: "портативна радіостанція"
+  description: "Зручна портативна рація."
   parent: BaseItem
   id: RadioHandheld
   components:
@@ -35,8 +35,8 @@
         type: HandheldRadioBoundUserInterface
 
 - type: entity
-  name: security radio
-  description: A handy security radio.
+  name: "охоронне радіо"
+  description: "Зручне охоронне радіо."
   parent: RadioHandheld
   id: RadioHandheldSecurity
   components:

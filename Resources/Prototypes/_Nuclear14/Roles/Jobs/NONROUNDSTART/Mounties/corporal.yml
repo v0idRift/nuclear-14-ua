@@ -1,8 +1,8 @@
 - type: job
   id: MountieCorporal
   setPreference: true
-  name: mountie corporal
-  description: follow orders from your sergeant #need work
+  name: "капрал гірської піхоти"
+  description: "виконувати накази свого сержанта" #need work
   playTimeTracker: MountieCorporal
   startingGear: MountieCorporalGear
   icon: "JobIconSecurityCadet"

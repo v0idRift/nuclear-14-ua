@@ -20,8 +20,8 @@
 - type: entity
   id: N14OrganRatMonarchBrain
   parent: N14BaseRatMonarchOrgan
-  name: brain
-  description: "Enhanced FEV rat brain. Stills dreams of nothing but cheese."
+  name: "мозок"
+  description: "Покращений мозок щура FEV. Все ще мріє лише про сир."
   components:
   - type: Sprite
     state: brain
@@ -38,8 +38,8 @@
 - type: entity
   id: N14OrganRatMonarchEyes
   parent: N14BaseRatMonarchOrgan
-  name: eyes
-  description: "Red and bright. A bit unnerving, to be honest."
+  name: "очі"
+  description: "Червоні та яскраві. Трохи моторошно, чесно кажучи."
   components:
   - type: Sprite
     layers:
@@ -50,8 +50,8 @@
 - type: entity
   id: N14OrganRatMonarchTongue
   parent: N14BaseRatMonarchOrgan
-  name: tongue
-  description: "No one can hear them squeak now."
+  name: "язик"
+  description: "Ніхто тепер не почує їхній писк."
   components:
   - type: Sprite
     state: tongue
@@ -60,7 +60,7 @@
 - type: entity
   id: N14OrganRatMonarchAppendix
   parent: N14BaseRatMonarchOrgan
-  name: appendix
+  name: "апендикс"
   components:
   - type: Sprite
     layers:
@@ -72,8 +72,8 @@
 - type: entity
   id: N14OrganRatMonarchEars
   parent: N14BaseRatMonarchOrgan
-  name: ears
-  description: "All the better to hear you with."
+  name: "вуха"
+  description: "Щоб краще тебе чути."
   components:
   - type: Sprite
     state: ears
@@ -82,8 +82,8 @@
 - type: entity
   id: N14OrganRatMonarchLungs
   parent: N14BaseRatMonarchOrgan
-  name: lungs
-  description: "Why anyone would hold this is beyond any rational thought."
+  name: "легені"
+  description: "Чому хтось тримає це в руках - поза межами раціонального мислення."
   components:
   - type: Sprite
     layers:
@@ -112,8 +112,8 @@
 - type: entity
   id: N14OrganRatMonarchHeart
   parent: N14BaseRatMonarchOrgan
-  name: heart
-  description: "Cheesed to meet you."
+  name: "серце"
+  description: "Радий познайомитися (гра слів cheese/pleased)."
   components:
   - type: Sprite
     state: heart-on
@@ -132,8 +132,8 @@
 - type: entity
   id: N14OrganRatMonarchStomach
   parent: N14BaseRatMonarchOrgan
-  name: stomach
-  description: "A lot bigger than you'd thought it'd be."
+  name: "шлунок"
+  description: "Набагато більший, ніж ви думали."
   components:
   - type: Sprite
     state: stomach
@@ -157,8 +157,8 @@
 - type: entity
   id: N14OrganRatMonarchLiver
   parent: N14BaseRatMonarchOrgan
-  name: liver
-  description: "Pairing suggestion: cheddar and rice."
+  name: "печінка"
+  description: "Рекомендоване поєднання: чеддер та рис."
   components:
   - type: Sprite
     state: liver
@@ -173,8 +173,8 @@
 - type: entity
   id: N14OrganRatMonarchKidneys
   parent: N14BaseRatMonarchOrgan
-  name: kidneys
-  description: "Small and spongy looking."
+  name: "нирки"
+  description: "Маленькі та губчасті на вигляд."
   components:
   - type: Sprite
     layers:

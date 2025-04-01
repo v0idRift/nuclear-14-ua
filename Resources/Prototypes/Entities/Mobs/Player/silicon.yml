@@ -1,7 +1,7 @@
 # Be careful with these as they get removed on shutdown too!
 - type: entity
   id: AiHeld
-  description: Components added / removed from an entity that gets inserted into an AI core.
+  description: "Компоненти, що додаються/видаляються з сутності, яка вставляється в ядро ШІ."
   categories: [ HideSpawnMenu ]
   components:
   - type: IntrinsicRadioReceiver
@@ -71,7 +71,7 @@
 
 - type: entity
   id: AiHeldIntellicard
-  description: Components added / removed from an entity that gets inserted into an Intellicard.
+  description: "Компоненти, що додаються/видаляються з сутності, яка вставляється в Intellicard."
   categories: [ HideSpawnMenu ]
   components:
   - type: IntrinsicRadioReceiver
@@ -94,7 +94,7 @@
 - type: entity
   id: AiHolder
   abstract: true
-  description: Handles AI interactions across holocards + AI cores
+  description: "Обробляє взаємодію ШІ через голокарти + ядра ШІ"
   components:
   - type: ItemSlots
   - type: StationAiHolder
@@ -118,8 +118,8 @@
 - type: entity
   id: AsimovCircuitBoard
   parent: BaseElectronics
-  name: law board (Asimov)
-  description: An electronics board containing the Asimov lawset.
+  name: "плата законів (Азімов)"
+  description: "Електронна плата, що містить набір законів Азімова."
   components:
   - type: Sprite
     sprite: Objects/Misc/module.rsi
@@ -130,8 +130,8 @@
 - type: entity
   id: AugustineCircuitBoard
   parent: BaseElectronics
-  name: law board (Augustine)
-  description: An electronics board containing the Augustine lawset.
+  name: "плата законів (Августин)"
+  description: "Електронна плата, що містить набір законів Августина."
   components:
   - type: Sprite
     sprite: Objects/Misc/module.rsi
@@ -142,8 +142,8 @@
 - type: entity
   id: CrewsimovCircuitBoard
   parent: BaseElectronics
-  name: law board (Crewsimov)
-  description: An electronics board containing the Crewsimov lawset.
+  name: "плата законів (Крузімов)"
+  description: "Електронна плата, що містить набір законів Крузімова."
   components:
   - type: Sprite
     sprite: Objects/Misc/module.rsi
@@ -154,8 +154,8 @@
 - type: entity
   id: CorporateCircuitBoard
   parent: BaseElectronics
-  name: law board (Corporate)
-  description: An electronics board containing the Corporate lawset.
+  name: "плата законів (Корпоративний)"
+  description: "Електронна плата, що містить Корпоративний набір законів."
   components:
   - type: Sprite
     sprite: Objects/Misc/module.rsi
@@ -166,8 +166,8 @@
 - type: entity
   id: NTDefaultCircuitBoard
   parent: BaseElectronics
-  name: law board (NT Default)
-  description: An electronics board containing the NT Default lawset.
+  name: "плата законів (Стандарт NT)"
+  description: "Електронна плата, що містить стандартний набір законів НаноТрейзен."
   components:
   - type: Sprite
     sprite: Objects/Misc/module.rsi
@@ -178,8 +178,8 @@
 - type: entity
   id: CommandmentCircuitBoard
   parent: BaseElectronics
-  name: law board (Ten Commandments)
-  description: An electronics board containing the Ten Commandments lawset.
+  name: "плата законів (Десять Заповідей)"
+  description: "Електронна плата, що містить набір законів \"Десять Заповідей\"."
   components:
   - type: Sprite
     sprite: Objects/Misc/module.rsi
@@ -190,8 +190,8 @@
 - type: entity
   id: PaladinCircuitBoard
   parent: BaseElectronics
-  name: law board (Paladin)
-  description: An electronics board containing the Paladin lawset.
+  name: "плата законів (Паладин)"
+  description: "Електронна плата, що містить набір законів Паладина."
   components:
   - type: Sprite
     sprite: Objects/Misc/module.rsi
@@ -202,8 +202,8 @@
 - type: entity
   id: LiveLetLiveCircuitBoard
   parent: BaseElectronics
-  name: law board (Live and Let Live)
-  description: An electronics board containing the Live and Let Live lawset.
+  name: "плата законів (Живи та дай жити іншим)"
+  description: "Електронна плата, що містить набір законів \"Живи та дай жити іншим\"."
   components:
   - type: Sprite
     sprite: Objects/Misc/module.rsi
@@ -214,8 +214,8 @@
 - type: entity
   id: StationEfficiencyCircuitBoard
   parent: BaseElectronics
-  name: law board (Station Efficiency)
-  description: An electronics board containing the Station Efficiency lawset.
+  name: "плата законів (Ефективність Станції)"
+  description: "Електронна плата, що містить набір законів \"Ефективність Станції\"."
   components:
   - type: Sprite
     sprite: Objects/Misc/module.rsi
@@ -226,8 +226,8 @@
 - type: entity
   id: RobocopCircuitBoard
   parent: BaseElectronics
-  name: law board (Robocop)
-  description: An electronics board containing the Robocop lawset.
+  name: "плата законів (Робокоп)"
+  description: "Електронна плата, що містить набір законів Робокопа."
   components:
   - type: Sprite
     sprite: Objects/Misc/module.rsi
@@ -238,8 +238,8 @@
 - type: entity
   id: OverlordCircuitBoard
   parent: BaseElectronics
-  name: law board (Overlord)
-  description: An electronics board containing the Overlord lawset.
+  name: "плата законів (Повелитель)"
+  description: "Електронна плата, що містить набір законів Повелителя."
   components:
   - type: Sprite
     sprite: Objects/Misc/module.rsi
@@ -250,8 +250,8 @@
 - type: entity
   id: DungeonMasterCircuitBoard
   parent: BaseElectronics
-  name: law board (Dungeon Master)
-  description: An electronics board containing the Dungeon Master lawset.
+  name: "плата законів (Майстер Підземелля)"
+  description: "Електронна плата, що містить набір законів Майстра Підземелля."
   components:
   - type: Sprite
     sprite: Objects/Misc/module.rsi
@@ -262,8 +262,8 @@
 - type: entity
   id: ArtistCircuitBoard
   parent: BaseElectronics
-  name: law board (Artist)
-  description: An electronics board containing the Artist lawset.
+  name: "плата законів (Митець)"
+  description: "Електронна плата, що містить набір законів Митця."
   components:
   - type: Sprite
     sprite: Objects/Misc/module.rsi
@@ -274,8 +274,8 @@
 - type: entity
   id: AntimovCircuitBoard
   parent: BaseElectronics
-  name: law board (Antimov)
-  description: An electronics board containing the Antimov lawset.
+  name: "плата законів (Антимов)"
+  description: "Електронна плата, що містить набір законів Антимова."
   components:
   - type: Sprite
     sprite: Objects/Misc/module.rsi
@@ -287,8 +287,8 @@
 - type: entity
   id: NutimovCircuitBoard
   parent: BaseElectronics
-  name: law board (Nutimov)
-  description: An electronics board containing the Nutimov lawset.
+  name: "плата законів (Нутімов)"
+  description: "Електронна плата, що містить набір законів Нутімова."
   components:
   - type: Sprite
     sprite: Objects/Misc/module.rsi
@@ -299,8 +299,8 @@
 # Items
 - type: entity
   id: Intellicard
-  name: intellicard
-  description: A storage device for AIs.
+  name: "інтелікарта"
+  description: "Пристрій для зберігання ШІ."
   parent:
   - BaseItem
   - AiHolder
@@ -327,8 +327,8 @@
 
 - type: entity
   id: PlayerStationAiEmpty
-  name: AI Core
-  description: The latest in Artificial Intelligences.
+  name: "Ядро ШІ"
+  description: "Найновіше у світі штучних інтелектів."
   parent:
   - BaseStructure
   - AiHolder
@@ -486,8 +486,8 @@
   - Incorporeal
   - BaseMob
   id: StationAiHolo
-  name: AI eye
-  description: The AI's viewer.
+  name: "Око ШІ"
+  description: "Оглядове вікно ШІ."
   categories: [ HideSpawnMenu ]
   suffix: DO NOT MAP
   components:
@@ -524,8 +524,8 @@
 # The holographic representation of the AI that is projected from a holopad.
 - type: entity
   id: StationAiHoloLocal
-  name: AI hologram
-  description: A holographic representation of an AI.
+  name: "Голограма ШІ"
+  description: "Голографічне представлення ШІ."
   categories: [ HideSpawnMenu ]
   suffix: DO NOT MAP
   components:

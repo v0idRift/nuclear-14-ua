@@ -1,6 +1,6 @@
 - type: entity
   id: BaseMagazine556Rifle
-  name: "magazine (5.56mm)"
+  name: "магазин (5,56 мм)"
   parent: BaseItem
   abstract: true
   components:
@@ -34,7 +34,7 @@
 
 - type: entity
   id: Magazine556Rifle
-  name: "magazine (5.56mm)"
+  name: "магазин (5,56 мм)"
   parent: BaseMagazine556Rifle
   components:
   - type: BallisticAmmoProvider
@@ -42,7 +42,7 @@
 
 - type: entity
   id: LongMagazine556Rifle
-  name: "carbine magazine (5.56mm)"
+  name: "магазин до карабіна (5,56 мм)"
   parent: BaseMagazine556Rifle
   components:
   - type: Tag
@@ -57,7 +57,7 @@
 
 - type: entity
   id: LMGMagazine556Rifle
-  name: "LMG magazine (5.56mm)"
+  name: "Магазин LMG (5,56 мм)"
   parent: BaseMagazine556Rifle
   components:
   - type: Tag

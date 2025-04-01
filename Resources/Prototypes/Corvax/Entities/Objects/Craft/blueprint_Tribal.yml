@@ -1,7 +1,7 @@
 - type: entity
   parent: N14BaseBlueprintPaper
   id: N14WeaponRevolver45-70HandcannonBlueprint
-  name: blueprint handcannon
+  name: "креслення ручної гармати 45-70"
   suffix: Craft, Tribal
   components:
     - type: STBlueprint
@@ -10,7 +10,7 @@
 - type: entity
   parent: N14BaseBlueprintPaper
   id: N14WeaponRevolver44TribalBlueprint
-  name: blueprint tribal handgun
+  name: "креслення племінного пістолета .44"
   suffix: Craft, Tribal
   components:
     - type: STBlueprint
@@ -19,7 +19,7 @@
 - type: entity
   parent: N14BaseBlueprintPaper
   id: N14ModificationkitRevolver44TribalBlueprint
-  name: blueprint revolver upgrade kit
+  name: "креслення набору для модернізації револьвера .44"
   suffix: Craft, Tribal
   components:
     - type: STBlueprint
@@ -28,7 +28,7 @@
 - type: entity
   parent: N14BaseBlueprintPaper
   id: N14ModificationkitRevolver44TribalUpgradedBlueprint
-  name: blueprint revolver upgrade extra kit
+  name: "креслення додаткового набору для модернізації револьвера .44"
   suffix: Craft, Tribal
   components:
     - type: STBlueprint
@@ -37,7 +37,7 @@
 - type: entity
   parent: N14BaseBlueprintPaper
   id: N14WeaponSniper556TribalBlueprint
-  name: blueprint tribal rifle
+  name: "креслення племінної гвинтівки 5.56"
   suffix: Craft, Tribal
   components:
     - type: STBlueprint
@@ -46,7 +46,7 @@
 - type: entity
   parent: N14BaseBlueprintPaper
   id: N14WeaponSniper556TribalUpgradedBlueprint
-  name: blueprint tribal assault rifle
+  name: "креслення племінної штурмової гвинтівки 5.56"
   suffix: Craft, Tribal
   components:
     - type: STBlueprint

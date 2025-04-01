@@ -1,8 +1,8 @@
 - type: job
   id: ChineseGunner
   setPreference: true
-  name: chinese gunner
-  description: follow orders from your superior, fight for the communism with extra fire power. #need work
+  name: "китайський кулеметник"
+  description: "виконуйте накази свого командира, боріться за комунізм з додатковою вогневою потужністю." #need work
   playTimeTracker: ChineseGunner
   startingGear: ChineseGunnerGear
   icon: "JobIconSecurityCadet"

@@ -2,8 +2,8 @@
 - type: entity
   parent: [ClothingOuterStorageBase, AllowSuitStorageClothing] #web vest so it should have some pockets for ammo # Frontier: ClothingOuterVestWeb<ClothingOuterStorageBase, BaseMinorContraband<BaseC1Contraband
   id: ClothingOuterVestWebMercenary # Frontier - Merc to Mercenary
-  name: mercenary web vest # Frontier - merc to mercenary
-  description: A high-quality armored vest made from a hard synthetic material. It's surprisingly flexible and light, despite formidable armor plating.
+  name: "розвантажувальний жилет найманця" # Frontier - merc to mercenary
+  description: "Високоякісний броньований жилет, виготовлений з твердого синтетичного матеріалу. Він напрочуд гнучкий і легкий, незважаючи на значне бронювання."
   components:
   - type: Sprite
     sprite: _NF/Clothing/OuterClothing/Vests/mercwebvest.rsi
@@ -23,7 +23,7 @@
 - type: entity
   parent: ClothingOuterVestWebMercenary
   id: ClothingOuterArmorPunkGreen
-  name: punk armor
+  name: "панк-броня"
   components:
   - type: Sprite
     sprite: _NF/Clothing/OuterClothing/Armor/bulletproof_vest_green.rsi
@@ -33,7 +33,7 @@
 - type: entity
   parent: ClothingOuterArmorPunkGreen
   id: ClothingOuterArmorPunkOrange
-  name: punk armor
+  name: "панк-броня"
   components:
   - type: Sprite
     sprite: _NF/Clothing/OuterClothing/Armor/bulletproof_vest_orange.rsi
@@ -43,7 +43,7 @@
 - type: entity
   parent: ClothingOuterArmorPunkGreen
   id: ClothingOuterArmorPunkRed
-  name: punk armor
+  name: "панк-броня"
   components:
   - type: Sprite
     sprite: _NF/Clothing/OuterClothing/Armor/bulletproof_vest_red.rsi
@@ -53,7 +53,7 @@
 - type: entity
   parent: ClothingOuterArmorPunkGreen
   id: ClothingOuterArmorPunkRandomized
-  name: punk armor
+  name: "панк-броня"
   suffix: Random visuals
   components:
   - type: Sprite
@@ -103,7 +103,7 @@
 - type: entity
   parent: ClothingOuterArmorBulletproof
   id: ClothingOuterArmorElitePunkRandomized
-  name: punk heavy armor
+  name: "важка панк-броня"
   suffix: Random visuals
   components:
   - type: Sprite
