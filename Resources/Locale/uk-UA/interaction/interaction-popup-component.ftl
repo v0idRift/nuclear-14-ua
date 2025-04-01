@@ -90,3 +90,32 @@ petting-success-tesla = Ви пестите {THE($target)}, порушуючи �
 petting-failure-tesla = Ти тягнешся до {THE($target)}, але воно відштовхує вашу руку від себе.
 
 petting-failure-pibble = Ви простягаєте руку, щоб погладити {THE($target)}, і {SUBJECT($target)} кидається на вас!
+petting-success-firebot = Ви гладите {THE($target)} по {POSS-ADJ($target)} теплій металевій голові.
+petting-success-generic-cyborg = Ви гладите {THE($target)} по {POSS-ADJ($target)} металевій голові.
+petting-success-salvage-cyborg = Ви гладите {THE($target)} по {POSS-ADJ($target)} брудній металевій голові.
+petting-success-engineer-cyborg = Ви гладите {THE($target)} по {POSS-ADJ($target)} блискучій металевій голові.
+petting-success-janitor-cyborg = Ви гладите {THE($target)} по {POSS-ADJ($target)} вологій металевій голові.
+petting-success-medical-cyborg = Ви гладите {THE($target)} по {POSS-ADJ($target)} стерильній металевій голові.
+petting-success-service-cyborg = Ви гладите {THE($target)} по {POSS-ADJ($target)} елегантній металевій голові.
+petting-success-syndicate-cyborg = Ви гладите {THE($target)} по {POSS-ADJ($target)} загрозливій металевій голові.
+petting-success-derelict-cyborg = Ви гладите {THE($target)} по {POSS-ADJ($target)} іржавій металевій голові.
+petting-success-station-ai = Ви гладите {THE($target)} по {POSS-ADJ($target)} холодному квадратному екрану.
+petting-success-gladiabot = Ви гладите {THE($target)} по {POSS-ADJ($target)} лютій картонній голові.
+petting-success-batonbot = Ви гладите {THE($target)} по {POSS-ADJ($target)} захисній металевій голові.
+petting-success-disablerbot = Ви гладите {THE($target)} по {POSS-ADJ($target)} захисній металевій голові.
+petting-failure-firebot = Ви простягаєте руку, щоб погладити {THE($target)}, але {SUBJECT($target)} бризкає вам в обличчя, перш ніж ви встигаєте наблизитися!
+petting-failure-generic-cyborg = Ви простягаєте руку, щоб погладити {THE($target)}, але {SUBJECT($target)} {CONJUGATE-BE($target)} зайнятий декламуванням законів!
+petting-failure-salvage-cyborg = Ви простягаєте руку, щоб погладити {THE($target)}, але {SUBJECT($target)} {CONJUGATE-BE($target)} зайнятий бурінням!
+petting-failure-engineer-cyborg = Ви простягаєте руку, щоб погладити {THE($target)}, але {SUBJECT($target)} {CONJUGATE-BE($target)} зайнятий ремонтом!
+petting-failure-janitor-cyborg = Ви простягаєте руку, щоб погладити {THE($target)}, але {SUBJECT($target)} {CONJUGATE-BE($target)} зайнятий прибиранням!
+petting-failure-medical-cyborg = Ви простягаєте руку, щоб погладити {THE($target)}, але {SUBJECT($target)} {CONJUGATE-BE($target)} зайнятий рятуванням життів!
+petting-failure-service-cyborg = Ви простягаєте руку, щоб погладити {THE($target)}, але {SUBJECT($target)} {CONJUGATE-BE($target)} зайнятий обслуговуванням інших!
+petting-failure-syndicate-cyborg = Ви простягаєте руку, щоб погладити {THE($target)}, але {POSS-ADJ($target)} зрадницька приналежність змушує вас передумати.
+petting-failure-derelict-cyborg = Ви простягаєте руку, щоб погладити {THE($target)}, але {POSS-ADJ($target)} іржава та зазубрена зовнішність змушує вас передумати.
+petting-failure-station-ai = Ви простягаєте руку, щоб погладити {THE($target)}, але {SUBJECT($target)} {CONJUGATE-BASIC($target, "відштовхує", "відштовхує")} вашу руку.
+petting-failure-gladiabot = Ви простягаєте руку, щоб погладити {THE($target)}, але {SUBJECT($target)} {CONJUGATE-BE($target)} хоче лише битися!
+petting-failure-batonbot = Ви простягаєте руку, щоб погладити {THE($target)}, але {SUBJECT($target)} ледь не штрикає вас своїм кийком!
+petting-failure-disablerbot = Ви простягаєте руку, щоб погладити {THE($target)}, але {SUBJECT($target)} сердито махає на вас зброєю!
+petting-success-station-ai-others = { CAPITALIZE(THE($user)) } гладить {THE($target)} по {POSS-ADJ($target)} холодному квадратному екрану.
+
+## Rattling fences

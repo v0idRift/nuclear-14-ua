@@ -36,3 +36,5 @@ station-event-random-sentience-flavor-corgi = коргі
 station-event-random-sentience-flavor-primate = примат
 station-event-random-sentience-flavor-kobold = кобольд
 station-event-random-sentience-flavor-slime = слайм
+
+station-event-random-sentience-flavor-inanimate = неживий

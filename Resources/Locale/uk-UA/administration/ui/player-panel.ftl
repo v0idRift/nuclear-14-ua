@@ -1,0 +1,23 @@
+player-panel-job-whitelists = Вайтлисти ролей
+player-panel-title = інформація для {$player}
+player-panel-username = Ім'я користувача: {$player}
+player-panel-whitelisted = У вайтлисті:
+player-panel-bans = Загальна кількість банів: {$totalBans}
+player-panel-rolebans = Загальна кількість ролбанів: {$totalRoleBans}
+player-panel-notes = Загальна кількість нотаток: {$totalNotes}
+player-panel-playtime = Загальний час гри: {$days}д:{$hours}г:{$minutes}хв
+player-panel-shared-connections = Спільні з'єднання: {$sharedConnections}
+
+player-panel-copy-username = Копіювати ім'я користувача
+player-panel-show-notes = Нотатки
+player-panel-show-bans = Показати бани
+player-panel-help = Допомога
+player-panel-freeze-and-mute = Заморозити та Заглушити
+player-panel-freeze = Заморозити
+player-panel-unfreeze = Розморозити
+player-panel-kick = Кікнути
+player-panel-ban = Забанити
+player-panel-logs = Логи
+player-panel-delete = Видалити
+player-panel-rejuvenate = Омолодити
+player-panel-false = Неправда

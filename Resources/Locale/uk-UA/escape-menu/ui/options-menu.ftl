@@ -270,3 +270,32 @@ ui-options-hud-theme-fallout2 = Fallout2
 ui-options-announcer-disable-multiple-sounds = Вимкнути звуки диктора, що накладаються один на одного
 ui-options-announcer-disable-multiple-sounds-tooltip = Деякі оголошення будуть звучати неправильно, це налаштування не рекомендується
 ui-options-hotkey-default-walk = Ходити за замовчуванням
+ui-options-general-other = Інше
+ui-options-chatstack = Автоматично об'єднувати однакові повідомлення чату
+ui-options-chatstack-off = Вимкнено
+ui-options-chatstack-single = Лише останнє повідомлення
+ui-options-chatstack-double = Останні два повідомлення
+ui-options-chatstack-triple = Останні три повідомлення
+
+## Меню аудіо
+ui-options-no-filters = Вимкнути фільтри бачення рас
+ui-options-vp-vertical-fit = Вертикальне припасування області перегляду
+ui-options-vp-vertical-fit-tooltip = Якщо увімкнено, основна область перегляду повністю ігноруватиме горизонтальну вісь при
+                                     припасуванні до вашого екрана. Якщо ваш екран менший за область перегляду, то це
+                                     призведе до обрізання області перегляду по горизонтальній осі.
+ui-options-header-targeting = Прицілювання
+ui-options-function-toggle-crawling-under = Перемкнути проповзання під меблями
+ui-options-modern-progress-bar = Сучасна панель прогресу
+ui-options-function-target-head = Ціль: голова
+ui-options-function-target-torso = Ціль: тулуб
+ui-options-function-target-left-arm = Ціль: ліва рука
+ui-options-function-target-right-arm = Ціль: права рука
+ui-options-function-target-left-leg = Ціль: ліва нога
+ui-options-function-target-right-leg = Ціль: права нога
+ui-options-function-toggle-round-end-summary-window = Перемкнути вікно підсумків раунду
+ui-options-function-mapping-enable-pick = Підібрати об'єкт/плитку
+ui-options-function-mapping-enable-decal-pick = Підібрати наліпку
+ui-options-function-mapping-enable-delete = Видалити об'єкт
+ui-options-function-look-up = Подивитися вгору/Прицілитися
+ui-options-function-auto-get-up = Автоматично підніматися після падіння
+ui-options-function-hold-look-up = Утримуйте клавішу для прицілювання

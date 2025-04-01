@@ -29,3 +29,17 @@ chem-master-window-dose-label = Доза (u):
 chem-master-window-create-button = Створити
 chem-master-window-bottles-label = Пляшки:
 chem-master-window-unknown-reagent-text = Невідомий реагент
+
+chem-master-window-pill-buffer-tab = Буфер таблеток
+chem-master-window-amount-placeholder = Кількість для перенесення
+chem-master-window-pill-buffer-text = Буфер таблеток
+chem-master-window-pill-buffer-label = буфер таблеток:
+chem-master-window-pill-buffer-empty-text = Буфер таблеток порожній.
+chem-master-window-pill-buffer-low-text = Недостатньо розчину в буфері таблеток
+chem-master-window-sort-method-tooltip = Оберіть метод сортування для вашого буфера.
+chem-master-window-sort-method-Time-text = Останній доданий
+chem-master-window-sort-method-Alphabetical-text = Алфавітний порядок
+chem-master-window-sort-method-Amount-text = Кількість
+chem-master-window-transferring-label = Перенесення: [color={$color}]{$quantity}[/color]
+chem-master-window-transferring-default-label = Перенесення: [color=#ffffff]50[/color]
+chem-master-window-reagent-move-button = Перемістити

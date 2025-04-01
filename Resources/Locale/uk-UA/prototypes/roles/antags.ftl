@@ -33,3 +33,6 @@ roles-antag-thief-objective = Додайте деяку власність NT д
 
 roles-antag-terminator-name = Термінатор
 roles-antag-terminator-objective = Убийте ціль будь-якою ціною, від цього залежить майбутнє
+
+roles-antag-syndicate-agent-sleeper-name = Сплячий агент Синдикату
+roles-antag-syndicate-agent-sleeper-objective = Форма агента синдикату, яка може активуватися в будь-який момент посеред зміни.

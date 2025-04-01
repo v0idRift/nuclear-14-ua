@@ -12,3 +12,5 @@ changelog-button-new-entries = Список змін (нове!)
 
 changelog-tab-title-Changelog = Візард
 changelog-tab-title-Admin = Адмін
+
+changelog-version-unknown = Невідома версія

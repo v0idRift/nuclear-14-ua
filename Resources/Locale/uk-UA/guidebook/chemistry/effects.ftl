@@ -319,3 +319,12 @@ reagent-effect-guidebook-add-moodlet = змінює настрій на {$amount
         [0] на невизначений час
         *[other] на {$timeout} секунд
     }
+reagent-effect-guidebook-smoke-area-reaction-effect = { $chance ->
+        [1] Створює
+        *[other] створювати
+    } велику кількість диму
+reagent-effect-guidebook-reduce-rotting = { $chance ->
+        [1] Регенерує
+        *[other] регенерувати
+    } {NATURALFIXED($time, 3)} {MANY(""секунду"", ""секунд"", $time)} гниття
+reagent-effect-guidebook-purify-evil = Очищує злі сили

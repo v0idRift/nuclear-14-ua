@@ -171,7 +171,7 @@ flavor-complex-violets = як фіалки.
 
 # Аромати для напоїв.
 
-## Загальний смак алкоголю/соди. Він повинен бути замінений на справжній профіль смаку.
+## Загальний смак алкоголю/соди. Він повинен бути замінений на справжній профіль смаку
 flavor-complex-alcohol = як майбутній перегар
 flavor-complex-soda = наче газики уже в твоїй голові
 flavor-complex-juice = як вижатий фрукт
@@ -263,4 +263,37 @@ flavor-complex-painkiller = як ананасовий сік з прянощам
 flavor-complex-pina-colada = як тропічне сонце
 flavor-base-bad = поганий
 flavor-base-sludgy = мулистий # N14 зміни
-flavor-complex-tato = як гірші помідори та картопля # N14 змінити # використовуйте його, коли є кілька видів овочів ## Складні харчові продукти (приготовані продукти, жартівливі ароматизатори тощо)
+flavor-complex-tato = наче гірші помідори та картопля
+
+
+# Смаки специфічні для напоїв.
+## Базові напої
+
+
+## Коктейлі
+
+
+# Смаки специфічні для ліків/хімікатів
+flavor-complex-cherry = як вишні
+# use it when there multiple types of veggies
+
+## Complex foodstuffs (cooked foods, joke flavors, etc)
+flavor-complex-pyrotton = ніби палаючий рот
+flavor-complex-mothballs = як нафталін
+flavor-complex-paint-thinner = як розчинник фарби
+flavor-complex-numbing-tranquility = як онімілий спокій
+flavor-complex-true-nature = як справжня природа реальності
+flavor-complex-false-meat = не зовсім не схоже на м'ясо
+flavor-complex-paper = як кашоподібна м'якоть
+flavor-complex-compressed-meat = як спресоване м'ясо
+flavor-complex-plasma = як плазма
+
+# Drink-specific flavors.
+
+## Generic alcohol/soda taste. This should be replaced with an actual flavor profile.
+flavor-complex-vodka-red-bool = як серцевий напад
+flavor-complex-irish-bool = кофеїн та Ірландія
+flavor-complex-xeno-basher = ніби вбиваєш жуків
+flavor-complex-budget-insuls-drink = як злом дверей
+flavor-complex-watermelon-wakeup = як солодкий дзвінок для пробудження
+flavor-complex-rubberneck = як синтетики

@@ -12,3 +12,8 @@ species-name-vox = Вокс
 
 species-name-arachne = Арахна
 species-name-ipc = ІПШ
+species-name-shadowkin = Шадоукін
+species-name-plasmaman = Плазмомен
+
+## Misc species things
+snail-hurt-by-salt-popup = Солоний розчин пече, наче кислота!

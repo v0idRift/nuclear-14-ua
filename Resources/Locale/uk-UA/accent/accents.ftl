@@ -122,3 +122,10 @@ accent-words-nymph-1 = Цвірінькай!
 accent-words-nymph-2 = Чуррр...
 accent-words-nymph-3 = Дешево?
 accent-words-nymph-4 = Хрупе!
+
+accent-words-mothroach-2 = Цвірк!
+accent-words-mothroach-3 = Писк!
+accent-words-mothroach-4 = Іііі!
+accent-words-mothroach-5 = Піп!
+
+# Crab

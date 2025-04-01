@@ -1,0 +1,39 @@
+chat-language-Universal-name = Універсальна
+chat-language-Bubblish-name = Бульбашкова
+chat-language-RootSpeak-name = Коренемова
+chat-language-Nekomimetic-name = Неко
+chat-language-Draconic-name = Сінта'Унаті
+chat-language-Azaziba-name = Сінта'Азазіба
+chat-language-SolCommon-name = Сол Загальна
+chat-language-TauCetiBasic-name = Базова
+chat-language-Tradeband-name = Трейдбенд
+chat-language-Freespeak-name = Фріспік
+chat-language-Elyran-name = Еліранська
+chat-language-Canilunzt-name = Канілунцт
+chat-language-Moffic-name = Моффік
+chat-language-RobotTalk-name = Двійкова
+chat-language-Calcic-name = Кальцієва
+chat-language-ValyrianStandard-name = Валірійська
+chat-language-Sign-name = Мова Жестів
+chat-language-Marish-name = Маріш
+chat-language-Chittin-name = Чіттін
+
+# Animal Languages
+
+chat-language-Cat-name = Котяча
+chat-language-Chicken-name = Куряча
+chat-language-Cow-name = Коров'яча
+chat-language-Crab-name = Краб'яча
+chat-language-Dog-name = Собача
+chat-language-Duck-name = Качина
+chat-language-Eldritch-name = Моторошна
+chat-language-Fox-name = Лисяча
+chat-language-Hissing-name = Шипляча
+chat-language-Kangaroo-name = Кенгуряча
+chat-language-Kobold-name = Кобольдська
+chat-language-Monkey-name = Мавпяча
+chat-language-Mouse-name = Мишача
+chat-language-Penguin-name = Пінгвіняча
+chat-language-Pig-name = Свиняча
+chat-language-Sheep-name = Овеча
+chat-language-Xeno-name = Ксено

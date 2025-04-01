@@ -1,0 +1,5 @@
+loadout-name-LoadoutBackpack = сірий рюкзак (можна фарбувати)
+loadout-name-LoadoutBackpackDuffel = сіра спортивна сумка (можна фарбувати)
+loadout-name-LoadoutBackpackSatchel = сірий ранець (можна фарбувати)
+loadout-name-LoadoutBackpackSatchelPurse = гаманець (фарбується)
+loadout-name-LoadoutBackpackSatchelPurseFlipped = гаманець, перевернутий (фарбується)

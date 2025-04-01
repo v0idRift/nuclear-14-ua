@@ -35,3 +35,15 @@ materials-raw-plasma = сира плазма
 materials-raw-uranium = сирий уран
 materials-raw-bananium = сирий банан
 materials-raw-salt = неочищена сіль
+
+materials-diamond = діамант
+materials-gunpowder = порох
+materials-bluespace = блюспейс
+materials-normality = нормальність
+
+# Руди
+materials-raw-bluespace = сирий блюспейс
+materials-raw-normality = сира нормальність
+
+# Відновлювач Матеріалів
+material-reclaimer-upgrade-process-rate = швидкість обробки

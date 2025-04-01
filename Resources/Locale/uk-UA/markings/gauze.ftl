@@ -95,3 +95,5 @@ marking-GauzeMothLowerLegRight-gauze_moth_lowerleg_r = Інсектоїдне м
 marking-GauzeMothLowerLegRight = Інсектоїдне марлеве обгортання гомілки (праворуч)
 marking-GauzeMothLowerLegLeft-gauze_moth_lowerleg_l = Інсектоїдне марлеве обгортання гомілки (ліворуч)
 marking-GauzeMothLowerLegLeft = Інсектоїдне марлеве обгортання гомілки (ліворуч)
+marking-GauzeHead-gauze_head = Марлева Пов'язка На Голову
+marking-GauzeHead = Марлева Пов'язка На Голову

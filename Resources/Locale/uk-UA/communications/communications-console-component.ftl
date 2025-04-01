@@ -18,3 +18,11 @@ comms-console-announcement-unknown-sender = Анонім
 comms-console-announcement-title-station = Комунікаційна консоль
 comms-console-announcement-title-centcom = Центральний комітет
 comms-console-announcement-title-nukie = Ядерні Оперативники 'СИНДИКАТ'
+
+comms-console-menu-time-remaining = Залишилось часу: {$time}
+
+# Popup
+comms-console-message-too-long = Повідомлення занадто довге
+
+# Placeholder values
+comms-console-announcement-title-station-ai = ШІ станції

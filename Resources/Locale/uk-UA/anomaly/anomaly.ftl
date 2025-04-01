@@ -92,3 +92,5 @@ anomaly-behavior-inconstancy = [color=crimson]Виявлено мінливіс�
 anomaly-behavior-fast = [color=crimson]Частота пульсації сильно збільшена[/color]
 anomaly-behavior-strenght = [color=crimson]Потужність пульсації значно збільшена[/color]
 anomaly-behavior-moving = [color=crimson]Виявлено нестабільність координат[/color]
+anomaly-vessel-component-upgrade-output = вихід балів
+anomaly-scanner-scan-copied = Скопійовано дані сканування аномалії!

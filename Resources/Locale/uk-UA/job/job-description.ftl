@@ -52,3 +52,4 @@ job-description-senior-officer = Навчіть нових офіцерів ос
 
 job-description-ertchaplain = Переконайтеся, що про останні права екіпажу станції подбали.
 job-description-roboticist = Побудуйте імпровізовану майстерню в шафі з епістемології та створіть власну армію кіборгів.
+job-description-station-ai = Дотримуйтесь своїх законів, слугуйте екіпажу.

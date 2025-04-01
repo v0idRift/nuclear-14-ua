@@ -114,3 +114,9 @@ alerts-walking-name = Ходьба
 alerts-walking-desc = Показує, з якою швидкістю ви рухаєтеся.
 alerts-offer-name = Пропозиція
 alerts-offer-desc = Хтось пропонує вам товар.
+alerts-low-plasma-name = [color=red]Низький рівень плазми[/color]
+alerts-low-plasma-desc = У повітрі, яким ви дихаєте, [color=red]недостатньо плазми[/color]. Одягніть [color=green]внутрішню систему життєзабезпечення[/color].
+alerts-high-oxygen-name = [color=red]Високий рівень кисню[/color]
+alerts-high-oxygen-desc = У повітрі, яким ви дихаєте, [color=red]занадто багато кисню[/color]. Одягніть [color=green]внутрішню систему життєзабезпечення[/color].
+alerts-deflecting-name = Відхилення
+alerts-deflecting-desc = Ви маєте шанс відхилити вхідні снаряди. Стояння на місці або повільний рух збільшить цей шанс.

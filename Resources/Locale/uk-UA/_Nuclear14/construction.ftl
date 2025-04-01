@@ -14,3 +14,4 @@ lathe-category-weapons-pistols = Пістолети
 lathe-category-weapons-rifles = Гвинтівки
 lathe-category-weapons-smgs = Smgs
 lathe-category-identification = Ідентифікація
+lathe-category-blueprints = Креслення

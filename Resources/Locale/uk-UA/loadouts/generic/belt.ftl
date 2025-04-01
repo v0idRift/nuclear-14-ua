@@ -1,0 +1,6 @@
+loadout-name-LoadoutBeltGeneric = ремінь (фарбується)
+loadout-name-LoadoutBeltGenericThin = тонкий ремінь (фарбується)
+loadout-name-LoadoutBeltGenericThick = товстий ремінь (фарбується)
+loadout-name-LoadoutBeltWaist = поясний ремінь (фарбується)
+loadout-name-LoadoutBeltWaistThin = тонкий поясний ремінь (фарбується)
+loadout-name-LoadoutBeltWaistbagColor = поясна сумка (фарбується)

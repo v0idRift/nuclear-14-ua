@@ -100,3 +100,10 @@ ent-ClothingHeadHelmetHardsuitMime = шолом для мімічного кос
     .desc = Мім-шолом для мімів. При ближчому розгляді виявляється, що це звичайний шолом, розмальований крейдою, а зверху приклеєна мімічна маска.
 ent-ClothingHeadHelmetHardsuitSanta = Каска DNK-31
     .desc = Святковий захисний шолом, який захистить веселого дарувальника від середовищ з низьким тиском.
+ent-ClothingHeadHelmetHardsuitEngineeringUnpainted = Шолом HpI-19r
+    .desc = { ent-ClothingHeadHelmetHardsuitEngineering.desc }
+ent-ClothingHeadHelmetHardsuitShanlinUnpainted = Шолом CSA-51a
+    .desc = Броньований шолом, що використовується з тактичним костюмом Шанлінь. Цей нефарбований, з голого металу.
+ent-ClothingHeadHelmetHardsuitShiweiUnpainted = Шолом CSA-54UA
+    .desc = Елітна версія шолома для тактичного костюма Шанлінь, що вирізняється покращеною бронею та вогнестійкістю.
+    Він нефарбований, з голого сплаву космічного корабля.

@@ -39,3 +39,5 @@ command-description-solution-adjreagent = Налаштовує заданий р
 command-description-mind-get = Забирає розум у сутності, якщо такий є.
 command-description-mind-control = Перебирає контроль над сутністю з даним гравцем.
 command-description-addaccesslog = Додає журнал доступу до цієї сутності. Зауважте, що це оминає ліміт журналу за замовчуванням і перевірку на призупинення.
+
+command-description-stationevent-simulate = Симулює N раундів, протягом яких відбуватимуться події, та виводить кількість входжень кожної події після цього.

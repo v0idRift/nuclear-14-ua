@@ -1,0 +1,9 @@
+bark-chicken-1 = Коооот
+bark-chicken-2 = Кот
+bark-chicken-3 = Кот Кот Кооот
+bark-chicken-4 = Їжа
+bark-chicken-5 = Де трава?
+bark-chicken-6 = Треба їсти
+bark-chicken-7 = Яйце
+bark-chicken-8 = Кот кот
+bark-chicken-count = 8

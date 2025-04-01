@@ -36,3 +36,13 @@ health-analyzer-window-damage-group-Genetic = Генетичні
 health-analyzer-window-damage-type-Cellular = Клітинні
 
 health-analyzer-window-malnutrition = Сильне недоїдання
+
+health-analyzer-window-entity-unknown-species-text = Не гуманоїд
+health-analyzer-window-entity-unknown-value-text = Н/Д
+health-analyzer-window-entity-alive-text = Живий
+health-analyzer-window-entity-dead-text = Мертвий
+health-analyzer-window-entity-critical-text = Критичний стан
+health-analyzer-window-entity-status-text = Статус:
+health-analyzer-window-entity-unrevivable-text = Виявлено унікальний склад тіла! Пацієнта неможливо реанімувати звичайними засобами!
+health-analyzer-popup-scan-target = {CAPITALIZE(THE($user))} намагається вас просканувати!
+health-analyzer-window-return-button-text = < Повернутися

@@ -60,4 +60,16 @@ mood-effect-LotoEnthrallment = Воно втекло від мене... Серц
     Я боюся, що зів'яну в ніщо, якщо не зможу знову напитися з чаші пізнання.
 
 mood-effect-NicotineBenefit = Я відчуваю себе так, ніби я стояв усе своє життя і щойно сів.
-mood-effect-NicotineWithdrawal = Я б зараз пішов покурити.
+mood-effect-NicotineWithdrawal = Я б зараз пішов покурити
+mood-effect-HeirloomSecure = Моя реліквія в безпеці, а з нею і спогади про тих, хто був до мене.
+mood-effect-HeirloomLost = Здається, я не можу знайти свою реліквію, як тепер зберегти минуле?
+
+# Залежності
+mood-effect-SurgeryPain = Операція болюча.
+# Наркотики
+mood-effect-EthanolBenefit = Я відчуваю себе таким розслабленим від випивки.
+mood-effect-SpaceDrugsBenefit = Ваааау, які гарні кольори, чувааак. Наче я можу чути колір і відчувати смак звуку, чувааак.
+
+# Плазмамен
+mood-effect-PlasmamanIngestPlasma = Моє тіло омолоджене свіжою плазмою, що тече по моїх жилах.
+mood-effect-PlasmamanIngestMilk = Я відчуваю, як кальцій молока відновлює мої кістки. Це молоко-дивовижно!

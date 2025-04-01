@@ -1,2 +1,2 @@
-loadout-description-LoadoutHeadBeaverHat = Панове.
-loadout-description-LoadoutHeadTophat = Стильний чорний тофат.
+loadout-description-LoadoutHeadBeaverHat = Джентльмени.
+loadout-description-LoadoutHeadTophat = Стильний чорний циліндр.

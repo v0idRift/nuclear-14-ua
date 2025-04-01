@@ -48,3 +48,8 @@ device-net-id-apc = АПЦ
 device-net-id-atmos-devices = Пристрої Atmos
 device-net-id-reserved = Зарезервовано
 
+
+device-frequency-prototype-name-cyborg-control = Керування Кіборгом
+device-frequency-prototype-name-robotics-console = Консоль Робототехніки
+
+## частоти камер

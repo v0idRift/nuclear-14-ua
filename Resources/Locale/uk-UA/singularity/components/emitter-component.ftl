@@ -15,3 +15,5 @@ comp-emitter-not-anchored = {$target} не пригвинчений до під�
 
 emitter-component-current-type = Поточний вибраний тип: {$type}.
 emitter-component-type-set = Встановити тип: {$type}
+
+emitter-component-upgrade-fire-rate = скорострільність

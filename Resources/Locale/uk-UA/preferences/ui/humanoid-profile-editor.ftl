@@ -92,3 +92,16 @@ humanoid-profile-editor-loadouts-remove-unusable-button = Видалити {$cou
 }
 humanoid-profile-editor-loadouts-remove-unusable-button-tooltip = Якщо ви натиснете цю кнопку, всі вбрання, які не можуть бути використані у вашому поточному наборі одягу, буде вилучено.
     Перед видаленням вбрання вас буде запитано про підтвердження.
+humanoid-profile-editor-customspeciename-label = Власна назва виду:
+humanoid-profile-editor-station-ai-name-label = Ім'я ШІ станції:
+humanoid-profile-editor-cyborg-name-label = Ім'я кіборга:
+humanoid-profile-editor-display-pronouns-label = Косметичні займенники:
+humanoid-profile-editor-reset-button = Скинути
+humanoid-profile-editor-loadouts-customize = Налаштувати
+humanoid-profile-editor-loadouts-customize-name = Ім'я
+humanoid-profile-editor-loadouts-customize-description = Опис
+humanoid-profile-editor-loadouts-customize-color = Відтінок кольору
+humanoid-profile-editor-loadouts-customize-save = Зберегти
+humanoid-profile-editor-loadouts-guidebook-button-tooltip = Натисніть для додаткової інформації
+humanoid-profile-editor-loadouts-heirloom = Реліквія
+humanoid-profile-editor-loadouts-heirloom-tooltip = Ті спорядження, які ви оберете як потенційну реліквію, будуть випадково обрані під час появи.

@@ -72,3 +72,16 @@ research-technology-quantum-fiber-weaving = Квантове плетіння в
 research-technology-bluespace-chemistry = Блюспейс Хімія
 
 research-technology-mechanized-salvaging = Механізоване шахтерство
+research-technology-excavation = Масова Екскавація
+research-technology-basic-weapons = Базова зброя
+research-technology-advanced-weapons = Просунута зброя
+research-technology-prototype-weapons = Прототипи зброї
+research-technology-advanced-tacsuits = Просунуті тактичні костюми
+research-technology-prototype-tacsuits = Прототипи тактичних костюмів
+research-technology-advanced-bluespace = Розширене Дослідження Блюспейсу
+research-technology-night-vision = Нічне бачення
+research-technology-thermal-vision = Тепловізійний зір
+research-technology-basic-cybernetics = Базова кібернетика
+research-technology-basic-electronics = Базова електроніка
+research-technology-basic-life-improvements = Базові покращення життя
+research-technology-advanced-life-improvements = Просунуті покращення життя

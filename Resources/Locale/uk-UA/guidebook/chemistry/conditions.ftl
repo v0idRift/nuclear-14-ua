@@ -41,3 +41,13 @@ reagent-effect-condition-guidebook-has-tag = ціль { $invert ->
                  [true] не має
                  *[false] має
                 } тег {$tag}
+
+reagent-effect-condition-guidebook-total-hunger = { $max ->
+        [2147483648] ціль має щонайменше {NATURALFIXED($min, 2)} загального голоду
+        *[other] { $min ->
+                    [0] ціль має щонайбільше {NATURALFIXED($max, 2)} загального голоду
+                    *[other] ціль має між {NATURALFIXED($min, 2)} та {NATURALFIXED($max, 2)} загального голоду
+                 }
+    }
+reagent-effect-condition-guidebook-job-condition = робота цілі - { $job }
+reagent-effect-condition-guidebook-this-reagent = цей реагент

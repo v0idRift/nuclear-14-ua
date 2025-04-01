@@ -190,3 +190,10 @@ marking-HumanHairVeryshortovereyealternate = Дуже короткі стріл�
 marking-HumanHairVlongfringe = Дуже довгий з бахромою
 marking-HumanHairVolaju = Волаю
 marking-HumanHairWisp = Клаптик
+
+marking-HumanHairClassicLong2 = Класичне довге волосся 2
+marking-HumanHairClassicLong3 = Класичне довге волосся 3
+marking-HumanHairLongBow = Довгий бант
+marking-HumanHairPulato = Пулато
+marking-HumanHairShaped = Фігурна
+marking-HumanHairSpookyLong = Моторошно Довге

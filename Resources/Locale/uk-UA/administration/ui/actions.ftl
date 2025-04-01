@@ -10,3 +10,5 @@ admin-player-spawn-failed = Не вдалося знайти правильні 
 admin-player-actions-clone = Клонувати
 admin-player-actions-follow = Слідкувати
 admin-player-actions-confirm = Ви впевнені?
+
+admin-player-actions-player-panel = Відкрити Панель Гравця

@@ -20,3 +20,8 @@ two-way-lever-cant = не може так натиснути на важіль!
 recycler-count-items = Перероблені об'єкти {$items}.
 
 machine-already-in-use = {CAPITALIZE(THE($machine))} вже використовується.
+
+upgrade-power-draw = споживання енергії
+upgrade-max-charge = максимальний заряд
+upgrade-power-supply = джерело живлення
+upgrade-power-supply-ramping = швидкість наростання потужності

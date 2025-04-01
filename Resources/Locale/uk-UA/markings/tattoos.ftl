@@ -27,3 +27,8 @@ marking-TattooEyeRight = Праве око
 
 marking-TattooEyeLeft-tattoo_eye_l = Ліве око
 marking-TattooEyeLeft = Ліве око
+
+marking-TattooEyeArachneRight-tattoo_eye_arachne_r = Праве Око Арахни
+marking-TattooEyeArachneRight = Праве Око Арахни
+marking-TattooEyeArachneLeft-tattoo_eye_arachne_l = Ліве Око Арахни
+marking-TattooEyeArachneLeft = Ліве Око Арахни

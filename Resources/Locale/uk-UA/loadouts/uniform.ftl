@@ -1,1 +1,1 @@
-loadout-description-LoadoutUniformAncientJumpsuit = Легенда про Грейтіда.
+loadout-description-LoadoutUniformAncientJumpsuit = Легенда Грейтайду.

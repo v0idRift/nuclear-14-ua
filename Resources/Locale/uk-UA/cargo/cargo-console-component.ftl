@@ -44,3 +44,6 @@ cargo-shuttle-console-station-unknown = Невідомо
 cargo-shuttle-console-shuttle-not-found = Не знайдено
 cargo-shuttle-console-organics = Виявлено органічні форми життя на шатлі
 cargo-no-shuttle = Вантажний шатл не знайдено!
+
+cargo-console-unlock-approved-order-broadcast = [bold]{$productName} x{$orderAmount}[/bold], вартістю [bold]{$cost}[/bold], було схвалено [bold]{$approver}[/bold]
+cargo-telepad-delay-upgrade = Затримка телепорту

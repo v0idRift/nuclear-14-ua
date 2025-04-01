@@ -20,3 +20,15 @@ ghost-roles-window-rules-footer = Кнопка буде активна післ�
 
 ghost-return-to-body-title = Повернутися у тіло
 ghost-return-to-body-text = Вас було відроджено! Повернутися у тіло?
+
+ghost-target-window-warp-to-most-followed = Переміститися до Найбільш Відстежуваного
+ghost-roles-window-join-raffle-button = Приєднатися до розіграшу
+ghost-roles-window-raffle-in-progress-button = Приєднатися до розіграшу ({$time} залишилося, { $players ->
+         [one] {$players} гравець
+        *[other] {$players} гравців
+    })
+ghost-roles-window-leave-raffle-button = Покинути розіграш ({$time} залишилося, { $players ->
+         [one] {$players} гравець
+        *[other] {$players} гравців
+    })
+ghost-gui-return-to-round-button = Повернутися до раунду

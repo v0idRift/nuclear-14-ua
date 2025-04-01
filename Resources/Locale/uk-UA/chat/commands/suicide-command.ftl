@@ -6,3 +6,6 @@ suicide-command-help-text = Команда самогубства дозволя
 suicide-command-default-text-others = {$name} намагається вкусити себе за язик!
 suicide-command-default-text-self = Ви намагаєтеся вкусити себе за язик!
 suicide-command-already-dead = Ви не можете вкоротити собі віку. Ви вже мертві.
+
+suicide-command-no-mind = У вас немає розуму!
+suicide-command-denied = Ви не можете вчинити самогубство зараз.

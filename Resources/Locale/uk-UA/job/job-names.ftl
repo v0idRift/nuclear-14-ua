@@ -105,3 +105,25 @@ job-name-roboticist = Робототехнік
 
 # Role timers - Make these alphabetical or I cut you
 JobRoboticist = Робототехнік
+job-name-senior-researcher = Містик
+job-name-senior-engineer = Старший Інженер
+job-name-senior-physician = Старший Лікар
+job-name-senior-officer = Старший Офіцер
+job-name-station-ai = Станційний ШІ
+job-name-cburn = Агент CBURN
+job-name-deathsquad = Агент Карального Загону
+job-name-geneticist = Генетик
+job-name-no-id = Без ID
+job-name-prisoner = В'язень
+job-name-syndicate = Синдикат
+job-name-unknown = Невідомий
+job-name-virologist = Вірусолог
+job-name-zombie = Зомбі
+
+# Назви посад
+job-title-visitor = Відвідувач
+job-title-cluwne = Клювн
+job-title-universal = Універсальний
+
+# Таймери ролей - Розмістіть їх за алфавітом, або я вас поріжу
+JobStationAi = Станційний ШІ

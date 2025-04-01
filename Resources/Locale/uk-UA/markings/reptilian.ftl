@@ -101,3 +101,12 @@ marking-LizardChestUnderbelly = Грудна клітка ящірки (підч
 
 marking-LizardChestBackspikes-body_backspikes = Шипи на спині ящірки (чотири)
 marking-LizardChestBackspikes = Шипи на спині ящірки (чотири)
+marking-LizardTailSmoothAnimated = Хвіст Ящірки (Гладкий) (Анімований)
+marking-LizardTailSpikesAnimated = Хвіст Ящірки (Шипастий) (Анімований)
+marking-LizardTailLTigerAnimated = Хвіст Ящірки (Світлі Тигрові Смуги) (Анімований)
+marking-LizardTailDTigerAnimated = Хвіст Ящірки (Темні Тигрові Смуги) (Анімований)
+marking-LizardFrillsNeckfull-frills_neckfull = Оборки Ящірки (Повна Шия)
+marking-LizardFrillsNeckfull = Оборки Ящірки (Повна Шия)
+marking-LizardSnoutSplotch = Морда Ящірки (Плямиста)
+marking-LizardSnoutSplotch-snout_splotch_primary = Морда
+marking-LizardSnoutSplotch-snout_splotch_secondary = Ніс

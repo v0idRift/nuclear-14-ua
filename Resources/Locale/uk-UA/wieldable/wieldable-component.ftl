@@ -17,3 +17,6 @@ wieldable-component-not-in-hands = { CAPITALIZE(THE($item)) } не у ваших
 
 wieldable-component-requires = { CAPITALIZE(THE($item))} має бути в двох руках!
 
+
+gunwieldbonus-component-examine = Ця зброя має покращену точність при триманні у руках.
+gunrequireswield-component-examine = З цієї зброї можна стріляти, лише тримаючи її у руках.
