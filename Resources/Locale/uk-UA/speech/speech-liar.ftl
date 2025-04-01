@@ -34,8 +34,9 @@ liar-word-replacement-11 = немає
 liar-word-12 = буде
 liar-word-replacement-12 = не буде
 
+# Це значення має бути порожнім. Воно означає, що частку "не" треба видалити.
 liar-word-13 = не
-liar-word-replacement-13 = 
+liar-word-replacement-13 =
 
 liar-word-14 = можу
 liar-word-replacement-14 = не можу
@@ -58,8 +59,9 @@ liar-word-replacement-19 = не робить
 liar-word-20 = зробив
 liar-word-replacement-20 = не зробив
 
+# Виправлено: Антонім до "не зробив" - "зробив"
 liar-word-21 = не зробив
-liar-word-replacement-21 = 
+liar-word-replacement-21 = зробив
 
 liar-word-22 = нічого
 liar-word-replacement-22 = щось
@@ -85,8 +87,9 @@ liar-word-replacement-28 = не варто
 liar-word-29 = робити
 liar-word-replacement-29 = не робити
 
+# Виправлено: Антонім до "не робити" - "робити"
 liar-word-30 = не робити
-liar-word-replacement-30 = 
+liar-word-replacement-30 = робити
 
 liar-word-31 = робить
 liar-word-replacement-31 = не робить
@@ -98,6 +101,7 @@ liar-word-33 = не зробив
 liar-word-replacement-33 = зробив
 
 liar-word-34 = ага
+# Зверни увагу на цей ключ, можливо він мав бути таким самим як liar-word-34?
 liar-word-34-2 = ага
 liar-word-replacement-34 = нє
 
@@ -128,5 +132,6 @@ liar-word-replacement-42 = добре
 liar-word-43 = хочу
 liar-word-replacement-43 = не хочу
 
+# Це значення має бути порожнім. Воно означає, що частку "не" треба видалити.
 liar-word-44 = не
-liar-word-replacement-44 = 
+liar-word-replacement-44 =
