@@ -3,6 +3,8 @@
   id: N14WeaponRifleBase
   abstract: true
   components:
+  - type: Item
+    size: Large
   - type: Clothing
     quickEquip: false
     slots:
@@ -25,6 +27,7 @@
     backStrength: 5
   - type: StaticPrice
     price: 100
+  - type: Craftable
 
 - type: entity
   name: R-91 Rifle
