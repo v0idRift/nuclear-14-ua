@@ -326,5 +326,5 @@ reagent-effect-guidebook-smoke-area-reaction-effect = { $chance ->
 reagent-effect-guidebook-reduce-rotting = { $chance ->
         [1] Регенерує
         *[other] регенерувати
-    } {NATURALFIXED($time, 3)} {MANY(""секунду"", ""секунд"", $time)} гниття
+    } {NATURALFIXED($time, 3)} {MANY("секунду", $time)} гниття
 reagent-effect-guidebook-purify-evil = Очищує злі сили

@@ -4,7 +4,7 @@ names-ai-dataset-2 = 512к
 # Цього має вистачити будь-кому
 names-ai-dataset-3 = 640к
 
-names-ai-dataset-4 = ""790""
+names-ai-dataset-4 = 790
 names-ai-dataset-5 = Адаптивний маніпулятор
 
 # Названо на честь знаменитої звукової карти
@@ -90,7 +90,7 @@ names-ai-dataset-64 = Лицар
 names-ai-dataset-65 = Луї
 
 # Названо на честь Manchester Mark 1, наступником якого насправді був Ferranti Mark 1, а не Manchester Mark 2
-names-ai-dataset-66 = Manchester Mark 2 
+names-ai-dataset-66 = Manchester Mark 2
 
 names-ai-dataset-67 = MARK13
 names-ai-dataset-68 = Марія

@@ -125,6 +125,6 @@ character-whitelist-requirement = Ви повинні {$inverted ->
     *[other] бути
 } у білому списку
 character-cvar-requirement = Сервер повинен{$inverted ->
-    [true]{"" ""} не
-    *[other]{""""}
+    [true]{" "} не
+    *[other]{""}
 } мати [color={$color}]{$cvar}[/color], встановлений на [color={$color}]{$value}[/color].

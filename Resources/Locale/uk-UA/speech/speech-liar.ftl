@@ -36,7 +36,7 @@ liar-word-replacement-12 = не буде
 
 # Це значення має бути порожнім. Воно означає, що частку "не" треба видалити.
 liar-word-13 = не
-liar-word-replacement-13 =
+liar-word-replacement-13 = та
 
 liar-word-14 = можу
 liar-word-replacement-14 = не можу
@@ -134,4 +134,4 @@ liar-word-replacement-43 = не хочу
 
 # Це значення має бути порожнім. Воно означає, що частку "не" треба видалити.
 liar-word-44 = не
-liar-word-replacement-44 =
+liar-word-replacement-44 = та
