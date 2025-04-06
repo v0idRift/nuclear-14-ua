@@ -72,7 +72,6 @@ guide-entry-biological = Біологічний
 guide-entry-others = Інші
 guide-entry-botanical = Ботанічні препарати
 guide-entry-altars-golemancy = Вівтарі та големанство
-guide-entry-psionics = Псіоніка
 guide-entry-reverse-engineering = Реінжиніринг
 guide-entry-crafting-sys = Креслення та створення предметів
 guide-entry-sm = Суперматерійний двигун (СМ)

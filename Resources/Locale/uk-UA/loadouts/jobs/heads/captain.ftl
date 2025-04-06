@@ -7,7 +7,6 @@ loadout-description-LoadoutCommandCapOuterWinter = Тепле пальто дл�
 loadout-description-LoadoutCommandCapGloves = Рукавички капітана. Це дуже гарні рукавички.
 loadout-description-LoadoutCommandCapHat = The hat of the captain. It is a very nice hat.
 loadout-description-LoadoutCommandCapHatCapcap = Капітанський кашкет, дуже гарний.
-loadout-description-LoadoutCommandCapHat = Капітанський берет, дуже гарний.
 loadout-description-LoadoutCommandCapMaskGas = Навіщо це капітану? Не знаю, але виглядає круто.
 loadout-description-LoadoutCommandCapItemDrinkFlask = Найкращі фляги для найкращих напоїв.
 

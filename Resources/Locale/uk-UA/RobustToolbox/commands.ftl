@@ -297,13 +297,6 @@ cmd-testbed-help = використання: testbed <mapid> <тест>
 cmd-saveconfig-desc = Зберігає конфігурацію клієнта у файл.
 cmd-saveconfig-help = використання: saveconfig
 
-## Команда 'flushcookies'
-# Примітка: команда flushcookies походить з Robust.Client.WebView, її немає в основному коді рушія.
-
-cmd-flushcookies-desc = Очистити сховище файлів cookie CEF на диску
-cmd-flushcookies-help = Це забезпечує належне збереження файлів cookie на диску у випадку нештатного завершення роботи.
-    Зверніть увагу, що операція виконується асинхронно.
-
 ## Команда 'addcomp'
 cmd-addcomp-desc = Додає компонент до сутності.
 cmd-addcomp-help = використання: addcomp <uid> <componentName>
@@ -368,9 +361,6 @@ cmd-restart-help = використання: restart
 
 cmd-shutdown-desc = Граціозно вимикає сервер.
 cmd-shutdown-help = використання: shutdown
-
-cmd-saveconfig-desc = Зберігає конфігурацію сервера у файл.
-cmd-saveconfig-help = використання: saveconfig
 
 cmd-netaudit-desc = Виводить інформацію про безпеку NetMsg.
 cmd-netaudit-help = використання: netaudit.
@@ -448,9 +438,6 @@ cmd-showanchored-help = Використання: showanchored
 cmd-dmetamem-desc = Вивантажує члени типу в формат, придатний для конфігураційного файлу sandbox.
 cmd-dmetamem-help = Використання: dmetamem <тип>.
 
-cmd-dmetamem-desc = Відображає межі фрагментів для цілей рендерингу.
-cmd-dmetamem-help = Використання: showchunkbb <тип>
-
 cmd-launchauth-desc = Завантажує токени автентифікації з даних панелі запуску для полегшення тестування серверів у реальному часі.
 cmd-launchauth-help = Використання: launchauth <назва акаунта>
 
@@ -517,9 +504,6 @@ cmd-profsnap-help = Використання: profsnap
 cmd-devwindow-desc = Відкриває вікно розробника.
 cmd-devwindow-help = Використання: devwindow.
 
-cmd-devwindow-desc = Відкриває файл
-cmd-devwindow-help = Використання: testopenfile
-
 cmd-scene-desc = Негайно змінює сцену/стан інтерфейсу.
 cmd-scene-help = Використання: scene <ім'я класу>
 
@@ -534,9 +518,6 @@ cmd-vvread-help = Використання: vvread <шлях>.
 
 cmd-vvwrite-desc = Змінює значення за вказаним шляхом за допомогою VV (View Variables).
 cmd-vvwrite-help = Використання: vvwrite <шлях>
-
-cmd-vv-desc = Відкриває вікно перегляду змінних (VV).
-cmd-vv-help = Використання: vv <шлях | ідентифікатор сутності | guihover>
 
 cmd-vvinvoke-desc = Викликає метод за вказаним шляхом з аргументами за допомогою VV.
 cmd-vvinvoke-help = Використання: vvinvoke <шлях> [аргументи...]

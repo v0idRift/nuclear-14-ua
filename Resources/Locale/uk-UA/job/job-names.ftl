@@ -24,7 +24,6 @@ job-name-centcomoff = Представник ЦК
 job-name-reporter = Журналіст
 job-name-musician = Музикант
 job-name-librarian = Бібліотекар
-job-name-lawyer = Адвокат
 job-name-mime = Мім
 job-name-ce = Головний Інженер
 job-name-janitor = Прибиральник
@@ -45,6 +44,27 @@ job-name-ertjanitor = ERT Прибиральник
 job-name-boxer = Боксер
 job-name-zookeeper = Зоолог
 job-name-visitor = Відвідувач
+job-name-ertchaplain = Капелан екстреної медичної допомоги
+job-name-roboticist = Робототехнік
+job-name-geneticist = Генетик
+job-name-no-id = Без ID
+job-name-prisoner = В'язень
+job-name-syndicate = Синдикат
+job-name-unknown = Невідомий
+job-name-virologist = Вірусолог
+job-name-zombie = Зомбі
+job-name-senior-researcher = Містик
+job-name-senior-engineer = Старший Інженер
+job-name-senior-physician = Старший Лікар
+job-name-senior-officer = Старший Офіцер
+job-name-station-ai = Станційний ШІ
+job-name-cburn = Агент CBURN
+job-name-deathsquad = Агент Карального Загону
+
+# Назви посад
+job-title-visitor = Відвідувач
+job-title-cluwne = Клювн
+job-title-universal = Універсальний
 
 # Таймери ролей - Зробіть їх в алфавітному порядку, або я вас поріжу
 JobAtmosphericTechnician = Атмосферний Інженер
@@ -98,32 +118,6 @@ JobTechnicalAssistant = Технічний Асистент
 JobVisitor = Відвідувач
 JobWarden = Варден
 JobZookeeper = Зоолог
-
-job-name-ertchaplain = Капелан екстреної медичної допомоги
 JobERTChaplain = Капелан екстреної медичної допомоги
-job-name-roboticist = Робототехнік
-
-# Role timers - Make these alphabetical or I cut you
 JobRoboticist = Робототехнік
-job-name-senior-researcher = Містик
-job-name-senior-engineer = Старший Інженер
-job-name-senior-physician = Старший Лікар
-job-name-senior-officer = Старший Офіцер
-job-name-station-ai = Станційний ШІ
-job-name-cburn = Агент CBURN
-job-name-deathsquad = Агент Карального Загону
-job-name-geneticist = Генетик
-job-name-no-id = Без ID
-job-name-prisoner = В'язень
-job-name-syndicate = Синдикат
-job-name-unknown = Невідомий
-job-name-virologist = Вірусолог
-job-name-zombie = Зомбі
-
-# Назви посад
-job-title-visitor = Відвідувач
-job-title-cluwne = Клювн
-job-title-universal = Універсальний
-
-# Таймери ролей - Розмістіть їх за алфавітом, або я вас поріжу
 JobStationAi = Станційний ШІ

@@ -47,7 +47,6 @@ tiles-ms13-carpet-green = ms13 килим зелений
 tiles-ms13-carpet-fancy-green = ms13 килим фантазійний зелений
 tiles-ms13-carpet-violet = ms13 килимовий фіолетовий
 tiles-concrete = бетон
-tiles-concrete-tile = бетонна плитка
 tiles-concrete-grey = бетонно-сірий
 tiles-concrete-hexacrete = бетон гексабетон
 tiles-concrete-hexacrete-dark = темний бетонний гексабетон

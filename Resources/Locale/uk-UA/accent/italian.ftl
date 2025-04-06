@@ -75,9 +75,6 @@ accent-italian-words-replace-22 = грецький перець
 accent-italian-words-23 = оперативник
 accent-italian-words-replace-23 = грецький
 
-accent-italian-words-24 = operatives
-accent-italian-words-replace-24 = греки
-
 accent-italian-words-24 = операції
 accent-italian-words-replace-24 = греки
 

@@ -69,7 +69,7 @@ flavor-complex-mustard = як гірчиця.
 ## Харчові хімікати. На випадок, якщо ви з'їсте щось, що має це всередині.
 flavor-complex-nutriment = як харчі
 flavor-complex-vitamin = як вітаміни
-flavor-complex-protein = як протеїни 
+flavor-complex-protein = як протеїни
 
 ## Generic food taste. This should be replaced with an actual flavor profile,
 ## if you have food that looks like this.
@@ -263,7 +263,6 @@ flavor-complex-painkiller = як ананасовий сік з прянощам
 flavor-complex-pina-colada = як тропічне сонце
 flavor-base-bad = поганий
 flavor-base-sludgy = мулистий # N14 зміни
-flavor-complex-tato = наче гірші помідори та картопля
 
 
 # Смаки специфічні для напоїв.

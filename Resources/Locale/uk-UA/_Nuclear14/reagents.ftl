@@ -248,7 +248,6 @@ reagent-name-antiseptic = Антисептик
 reagent-desc-antiseptic = Розчин для чищення, виготовлений з очищувача Abraxo Cleaner і трохи медичного спирту.
 
 # Руди, метали, матеріали
-materials-gunpowder = порох
 materials-lead = свинцевий
 materials-aluminum = алюміній
 materials-sulfur = сірка
@@ -261,8 +260,6 @@ reagent-name-fertilizer = добриво
 reagent-desc-fertilizer = Ґрунтове добриво. Ідеально підходить для ваших рослин!
 reagent-name-dung = гній
 reagent-desc-dung = Тваринний гній. Дозрілий для перетворення на компост
-reagent-name-sulfur = сірка
-reagent-desc-sulfur = Жовта кристалічна речовина
 reagent-name-scorpiontail = хвіст скорпіона
 reagent-desc-scorpiontail = хвіст скорпіона. Скупий.
 

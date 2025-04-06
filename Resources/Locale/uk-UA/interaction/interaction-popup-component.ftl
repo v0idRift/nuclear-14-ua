@@ -41,7 +41,6 @@ petting-failure-corrupted-corgi = Ви тягнетесь, аби попести
 petting-failure-crab = Ви тягнетесь, аби попестити тварину «{THE($target)}», але {SUBJECT($target)} клацає {POSS-ADJ($target)} щелепами у вашому напрямку!
 petting-failure-dehydrated-carp = Ви пестите {THE($target)} по {POSS-ADJ($target)} сухій маленькі голові.
 petting-failure-goat = Ви тягнетесь, аби попестити тварину «{THE($target)}», але {SUBJECT($target)} вперто відмовляється!
-petting-failure-goose = You reach out to pet {THE($target)}, but {SUBJECT($target)} {CONJUGATE-BE($target)} too horrible!
 petting-failure-goose = Ви тягнетесь, аби попестити тварину «{THE($target)}», але {SUBJECT($target)} надто лячний!
 petting-failure-possum = Ви тягнетесь, аби попестити тварину «{THE($target)}», але отримуєте лише гарчання та шипіння!
 petting-failure-pig = Ви тягнетесь, аби попестити тварину {THE($target)}, але зустрів роздратовані хрю та вереск!
@@ -67,11 +66,6 @@ petting-failure-honkbot = Ви тягнетесь, аби попестити «{
 petting-failure-cleanbot = Ви тягнетесь, аби попестити «{THE($target)}», але {SUBJECT($target)} зайнятий прибиранням!
 petting-failure-mimebot = Ви тягнетесь, аби попестити {THE($target)}, але {SUBJECT($target)} зайнятий мімікою!
 petting-failure-medibot = Ви тягнетесь, аби попестити «{THE($target)}», але {POSS-ADJ($target)} шприц ледь не вколов вашу долоню!
-
-## Knocking on windows
-
-# Shown when knocking on a window
-comp-window-knock = *тук тук*
 
 ## Rattling fences
 

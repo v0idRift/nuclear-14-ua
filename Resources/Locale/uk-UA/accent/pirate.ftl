@@ -1,6 +1,5 @@
 accent-pirate-prefix-1 = Ар-ргх
 accent-pirate-prefix-2 = Гр-р-р
-accent-pirate-prefix-3 = Yarr
 accent-pirate-prefix-3 = Яар-г-х
 
 accent-pirate-replaced-1 = мій
