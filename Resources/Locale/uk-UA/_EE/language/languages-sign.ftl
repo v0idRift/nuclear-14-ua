@@ -1,5 +1,5 @@
-chat-sign-tajaran-language-message-wrap = [italic][BubbleHeader][Name]{$entityName}[/Name][/BubbleHeader] [BubbleContent]{$verb} [font=""{$fontType}"" size={$fontSize}][color={$color}]{$message}[/color][/font][/italic][/BubbleContent]
-chat-sign-tajaran-language-whisper-wrap = [italic][BubbleHeader][Name]{$entityName}[/Name][/BubbleHeader] [BubbleContent]невловимо {$verb} [font=""{$fontType}"" size={$fontSize}][color={$color}]{$message}[/color][/font][/italic][/BubbleContent]
+chat-sign-tajaran-language-message-wrap = [italic][BubbleHeader][Name]{$entityName}[/Name][/BubbleHeader] [BubbleContent]{$verb} [font="{$fontType}" size={$fontSize}][color={$color}]{$message}[/color][/font][/italic][/BubbleContent]
+chat-sign-tajaran-language-whisper-wrap = [italic][BubbleHeader][Name]{$entityName}[/Name][/BubbleHeader] [BubbleContent]невловимо {$verb} [font="{$fontType}" size={$fontSize}][color={$color}]{$message}[/color][/font][/italic][/BubbleContent]
 chat-speech-verb-sign-nalrasan-1 = рухає хвостом
 chat-speech-verb-sign-nalrasan-2 = коротко рухає хвостом
 chat-speech-verb-sign-nalrasan-3 = кілька разів швидко рухає хвостом
